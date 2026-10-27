@@ -1,0 +1,60 @@
+=== release-documentation/4_Architecture integrity.txt ===
+﻿2026-10-27T06:25:04.1597598Z ##[group]Run python3 -B -m blueheart check
+2026-10-27T06:25:04.1598020Z [36;1mpython3 -B -m blueheart check[0m
+2026-10-27T06:25:04.1660785Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:25:04.1661060Z ##[endgroup]
+2026-10-27T06:25:05.7979857Z {
+2026-10-27T06:25:05.7980517Z   "collections": 3,
+2026-10-27T06:25:05.7985119Z   "component_token_minimum": {
+2026-10-27T06:25:05.7985764Z     "BUTTON-001@2.0.0": {
+2026-10-27T06:25:05.7986122Z       "component_tokens": 47,
+2026-10-27T06:25:05.7986528Z       "distinct_signatures": 47,
+2026-10-27T06:25:05.7986901Z       "protocol": "BH-P07",
+2026-10-27T06:25:05.7987244Z       "redundancies": 0,
+2026-10-27T06:25:05.7987585Z       "status": "PASS"
+2026-10-27T06:25:05.7987902Z     }
+2026-10-27T06:25:05.7988147Z   },
+2026-10-27T06:25:05.7988435Z   "contracts": 9,
+2026-10-27T06:25:05.7988728Z   "deferred": [
+2026-10-27T06:25:05.7989149Z     "figma-write-adapter",
+2026-10-27T06:25:05.8027561Z     "react-library",
+2026-10-27T06:25:05.8027955Z     "graphify-adapter",
+2026-10-27T06:25:05.8028446Z     "persistent-agent-office",
+2026-10-27T06:25:05.8028901Z     "release-publication"
+2026-10-27T06:25:05.8029280Z   ],
+2026-10-27T06:25:05.8029590Z   "graphify_required": false,
+2026-10-27T06:25:05.8029991Z   "mode_contexts": 4,
+2026-10-27T06:25:05.8030681Z   "scope": "Infrastructure and registered normative content; not design or implementation QA",
+2026-10-27T06:25:05.8031956Z   "snapshot": "cc75cb3dccf0d3fa126807702e0de40ef3ce24085b99c3ace0036ec725380e95",
+2026-10-27T06:25:05.8032701Z   "status": "PASS",
+2026-10-27T06:25:05.8033054Z   "token_sets": 1,
+2026-10-27T06:25:05.8033393Z   "tokens": 298
+2026-10-27T06:25:05.8033715Z }
+
+
+=== release-documentation/5_Infrastructure tests.txt ===
+﻿2026-10-27T06:25:05.8123684Z ##[group]Run python3 -B -m unittest discover -s tests -q
+2026-10-27T06:25:05.8124125Z [36;1mpython3 -B -m unittest discover -s tests -q[0m
+2026-10-27T06:25:05.8184424Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:25:05.8184687Z ##[endgroup]
+2026-10-27T06:25:24.6883559Z ----------------------------------------------------------------------
+2026-10-27T06:25:24.6884301Z Ran 85 tests in 18.744s
+2026-10-27T06:25:24.6884541Z 
+2026-10-27T06:25:24.6884675Z OK
+
+
+=== release-documentation/6_Verify every introduced commit and component version.txt ===
+﻿2026-10-27T06:25:24.7174762Z ##[group]Run python3 -B -m blueheart.release_docs ci --receipt "$RUNNER_TEMP/release-receipt.json"
+2026-10-27T06:25:24.7175508Z [36;1mpython3 -B -m blueheart.release_docs ci --receipt "$RUNNER_TEMP/release-receipt.json"[0m
+2026-10-27T06:25:24.7236694Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:25:24.7236972Z ##[endgroup]
+2026-10-27T06:25:24.8711317Z {"status": "NONCOMPLIANT", "reason": "Undocumented commits in push: 81546938340f1ae1ec4b4231252ed58a1ddc2ef3"}
+2026-10-27T06:25:24.8816473Z ##[error]Process completed with exit code 2.
+
+
+=== release-documentation/7_Generate condensed PDF including failed verification outcomes.txt ===
+﻿2026-10-27T06:25:24.8890936Z ##[group]Run python3 -B -m blueheart.release_pdf --receipt "$RUNNER_TEMP/release-receipt.json" --output "$RUNNER_TEMP/release-notes/release-notes-81546938340f1ae1ec4b4231252ed58a1ddc2ef3.pdf" --check architecture:success --check tests:success --check documentation:failure
+2026-10-27T06:25:24.8893384Z [36;1mpython3 -B -m blueheart.release_pdf --receipt "$RUNNER_TEMP/release-receipt.json" --output "$RUNNER_TEMP/release-notes/release-notes-81546938340f1ae1ec4b4231252ed58a1ddc2ef3.pdf" --check architecture:success --check tests:success --check documentation:failure[0m
+2026-10-27T06:25:24.8955318Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:25:24.8955594Z ##[endgroup]
+2026-10-27T06:25:25.0703762Z {"status": "CREATED", "report_status": "NONCOMPLIANT", "path": "/home/runner/work/_temp/release-notes/release-notes-81546938340f1ae1ec4b4231252ed58a1ddc2ef3.pdf", "head": "81546938340f1ae1ec4b4231252ed58a1ddc2ef3"}

@@ -1,0 +1,114 @@
+{
+  "id": 40461670953,
+  "html_url": "https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design/actions/runs/40461670953",
+  "event": "push",
+  "head_branch": "verification/protocol-08",
+  "head_sha": "b108e09b54764f5c57b68f49c92448d15545d284",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-10-27T06:32:01Z",
+  "updated_at": "2026-10-27T06:32:34Z",
+  "run_attempt": 1,
+  "jobs": [
+    {
+      "id": 122047482343,
+      "head_sha": "b108e09b54764f5c57b68f49c92448d15545d284",
+      "html_url": "https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design/actions/runs/40461670953/job/122047482343",
+      "status": "completed",
+      "conclusion": "success",
+      "started_at": "2026-10-27T06:32:03Z",
+      "completed_at": "2026-10-27T06:32:33Z",
+      "name": "release-documentation",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-10-27T06:32:04Z",
+          "completed_at": "2026-10-27T06:32:05Z"
+        },
+        {
+          "name": "Checkout complete history",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-10-27T06:32:05Z",
+          "completed_at": "2026-10-27T06:32:06Z"
+        },
+        {
+          "name": "Install optional PDF adapter",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-10-27T06:32:06Z",
+          "completed_at": "2026-10-27T06:32:08Z"
+        },
+        {
+          "name": "Architecture integrity",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4,
+          "started_at": "2026-10-27T06:32:08Z",
+          "completed_at": "2026-10-27T06:32:10Z"
+        },
+        {
+          "name": "Infrastructure tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5,
+          "started_at": "2026-10-27T06:32:10Z",
+          "completed_at": "2026-10-27T06:32:29Z"
+        },
+        {
+          "name": "Verify every introduced commit and component version",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6,
+          "started_at": "2026-10-27T06:32:29Z",
+          "completed_at": "2026-10-27T06:32:29Z"
+        },
+        {
+          "name": "Generate condensed PDF including failed verification outcomes",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7,
+          "started_at": "2026-10-27T06:32:29Z",
+          "completed_at": "2026-10-27T06:32:30Z"
+        },
+        {
+          "name": "Preserve PDF and verification receipt",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8,
+          "started_at": "2026-10-27T06:32:30Z",
+          "completed_at": "2026-10-27T06:32:31Z"
+        },
+        {
+          "name": "Link deliverables in the run summary",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9,
+          "started_at": "2026-10-27T06:32:31Z",
+          "completed_at": "2026-10-27T06:32:31Z"
+        },
+        {
+          "name": "Post Checkout complete history",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18,
+          "started_at": "2026-10-27T06:32:31Z",
+          "completed_at": "2026-10-27T06:32:31Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19,
+          "started_at": "2026-10-27T06:32:31Z",
+          "completed_at": "2026-10-27T06:32:31Z"
+        }
+      ]
+    }
+  ]
+}

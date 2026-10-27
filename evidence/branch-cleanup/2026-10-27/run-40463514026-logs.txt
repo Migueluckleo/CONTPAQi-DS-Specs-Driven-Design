@@ -1,0 +1,1607 @@
+=== release-documentation/4_Architecture integrity.txt ===
+﻿2026-10-27T06:50:49.2761697Z ##[group]Run python3 -B -m blueheart check
+2026-10-27T06:50:49.2761979Z [36;1mpython3 -B -m blueheart check[0m
+2026-10-27T06:50:49.2816267Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:50:49.2816471Z ##[endgroup]
+2026-10-27T06:50:50.1701603Z {
+2026-10-27T06:50:50.1701978Z   "collections": 3,
+2026-10-27T06:50:50.1702212Z   "component_token_minimum": {
+2026-10-27T06:50:50.1702503Z     "BUTTON-001@2.0.0": {
+2026-10-27T06:50:50.1702720Z       "component_tokens": 47,
+2026-10-27T06:50:50.1702975Z       "distinct_signatures": 47,
+2026-10-27T06:50:50.1703242Z       "protocol": "BH-P07",
+2026-10-27T06:50:50.1703459Z       "redundancies": 0,
+2026-10-27T06:50:50.1703671Z       "status": "PASS"
+2026-10-27T06:50:50.1703866Z     }
+2026-10-27T06:50:50.1704052Z   },
+2026-10-27T06:50:50.1704248Z   "contracts": 9,
+2026-10-27T06:50:50.1704474Z   "deferred": [
+2026-10-27T06:50:50.1704661Z     "figma-write-adapter",
+2026-10-27T06:50:50.1704892Z     "react-library",
+2026-10-27T06:50:50.1705577Z     "graphify-adapter",
+2026-10-27T06:50:50.1705857Z     "persistent-agent-office",
+2026-10-27T06:50:50.1706078Z     "release-publication"
+2026-10-27T06:50:50.1706333Z   ],
+2026-10-27T06:50:50.1706528Z   "graphify_required": false,
+2026-10-27T06:50:50.1706744Z   "mode_contexts": 4,
+2026-10-27T06:50:50.1707247Z   "scope": "Infrastructure and registered normative content; not design or implementation QA",
+2026-10-27T06:50:50.1707807Z   "snapshot": "4b5b69b04dce7f976dfe9770819e983e4dc997a1899090e91a85230cbee4ca88",
+2026-10-27T06:50:50.1708181Z   "status": "PASS",
+2026-10-27T06:50:50.1708436Z   "token_sets": 1,
+2026-10-27T06:50:50.1708643Z   "tokens": 298
+2026-10-27T06:50:50.1708863Z }
+
+
+=== release-documentation/5_Infrastructure tests.txt ===
+﻿2026-10-27T06:50:50.1815392Z ##[group]Run python3 -B -m unittest discover -s tests -q
+2026-10-27T06:50:50.1815682Z [36;1mpython3 -B -m unittest discover -s tests -q[0m
+2026-10-27T06:50:50.1869491Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:50:50.1869657Z ##[endgroup]
+2026-10-27T06:51:01.1695003Z ----------------------------------------------------------------------
+2026-10-27T06:51:01.1695606Z Ran 87 tests in 10.869s
+2026-10-27T06:51:01.1695736Z 
+2026-10-27T06:51:01.1695970Z OK
+
+
+=== release-documentation/6_Verify every introduced commit and component version.txt ===
+﻿2026-10-27T06:51:01.1958552Z ##[group]Run python3 -B -m blueheart.release_docs ci --receipt "$RUNNER_TEMP/release-receipt.json"
+2026-10-27T06:51:01.1958971Z [36;1mpython3 -B -m blueheart.release_docs ci --receipt "$RUNNER_TEMP/release-receipt.json"[0m
+2026-10-27T06:51:01.2009719Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:51:01.2009871Z ##[endgroup]
+2026-10-27T06:51:01.3917202Z {
+2026-10-27T06:51:01.3917445Z   "base": "EMPTY",
+2026-10-27T06:51:01.3917648Z   "commits": [
+2026-10-27T06:51:01.3917866Z     "7801ded636a04d32ae346376c574fb23495b335d",
+2026-10-27T06:51:01.3918179Z     "259f1137f4d6d62adf1c3348eb5a5cd0e24cf29f",
+2026-10-27T06:51:01.3918474Z     "e7cc8ddd216ca61c497a5e8e58d33a726b09c0b3",
+2026-10-27T06:51:01.3918756Z     "1815bc7a2c32e5f8a4ab5fffc0767c76bb86b702",
+2026-10-27T06:51:01.3919058Z     "55b9fe7bd067eb63adb9eb9f514a304123d4b8d2"
+2026-10-27T06:51:01.3919321Z   ],
+2026-10-27T06:51:01.3919490Z   "envelopes": [
+2026-10-27T06:51:01.3919724Z     "e7cc8ddd216ca61c497a5e8e58d33a726b09c0b3",
+2026-10-27T06:51:01.3920041Z     "55b9fe7bd067eb63adb9eb9f514a304123d4b8d2"
+2026-10-27T06:51:01.3920371Z   ],
+2026-10-27T06:51:01.3920522Z   "files": [
+2026-10-27T06:51:01.3920687Z     {
+2026-10-27T06:51:01.3920919Z       "path": ".github/workflows/release-documentation.yml",
+2026-10-27T06:51:01.3921494Z       "status": "A"
+2026-10-27T06:51:01.3921666Z     },
+2026-10-27T06:51:01.3921820Z     {
+2026-10-27T06:51:01.3922006Z       "path": ".gitignore",
+2026-10-27T06:51:01.3922210Z       "status": "A"
+2026-10-27T06:51:01.3922413Z     },
+2026-10-27T06:51:01.3922573Z     {
+2026-10-27T06:51:01.3922785Z       "path": "AGENTS.md",
+2026-10-27T06:51:01.3923325Z       "status": "A"
+2026-10-27T06:51:01.3923530Z     },
+2026-10-27T06:51:01.3923682Z     {
+2026-10-27T06:51:01.3923853Z       "path": "README.md",
+2026-10-27T06:51:01.3924056Z       "status": "A"
+2026-10-27T06:51:01.3924225Z     },
+2026-10-27T06:51:01.3924379Z     {
+2026-10-27T06:51:01.3924583Z       "path": "auditoria/2026-10-26/01-diagnostico.md",
+2026-10-27T06:51:01.3924844Z       "status": "A"
+2026-10-27T06:51:01.3925043Z     },
+2026-10-27T06:51:01.3925195Z     {
+2026-10-27T06:51:01.3925425Z       "path": "auditoria/2026-10-26/02-arquitectura-propuesta.md",
+2026-10-27T06:51:01.3925724Z       "status": "A"
+2026-10-27T06:51:01.3925901Z     },
+2026-10-27T06:51:01.3926050Z     {
+2026-10-27T06:51:01.3926262Z       "path": "auditoria/2026-10-26/03-plan-migracion.md",
+2026-10-27T06:51:01.3926532Z       "status": "A"
+2026-10-27T06:51:01.3926706Z     },
+2026-10-27T06:51:01.3926974Z     {
+2026-10-27T06:51:01.3927201Z       "path": "auditoria/2026-10-26/benchmark-consumo.json",
+2026-10-27T06:51:01.3927479Z       "status": "A"
+2026-10-27T06:51:01.3927667Z     },
+2026-10-27T06:51:01.3927816Z     {
+2026-10-27T06:51:01.3928034Z       "path": "auditoria/2026-10-26/evidencia-auditoria.json",
+2026-10-27T06:51:01.3928303Z       "status": "A"
+2026-10-27T06:51:01.3928476Z     },
+2026-10-27T06:51:01.3928637Z     {
+2026-10-27T06:51:01.3928872Z       "path": "auditoria/2026-10-26/verificacion-documental.json",
+2026-10-27T06:51:01.3929166Z       "status": "A"
+2026-10-27T06:51:01.3929335Z     },
+2026-10-27T06:51:01.3929480Z     {
+2026-10-27T06:51:01.3929662Z       "path": "auditoria/fase-1/README.md",
+2026-10-27T06:51:01.3929892Z       "status": "A"
+2026-10-27T06:51:01.3930070Z     },
+2026-10-27T06:51:01.3930216Z     {
+2026-10-27T06:51:01.3930409Z       "path": "auditoria/fase-1/normalizacion.md",
+2026-10-27T06:51:01.3930662Z       "status": "A"
+2026-10-27T06:51:01.3930829Z     },
+2026-10-27T06:51:01.3930987Z     {
+2026-10-27T06:51:01.3931192Z       "path": "auditoria/fase-1/semanticos-color.csv",
+2026-10-27T06:51:01.3931452Z       "status": "A"
+2026-10-27T06:51:01.3931648Z     },
+2026-10-27T06:51:01.3931938Z     {
+2026-10-27T06:51:01.3932171Z       "path": "auditoria/fase-1/variables-normalizadas.csv",
+2026-10-27T06:51:01.3932448Z       "status": "A"
+2026-10-27T06:51:01.3932625Z     },
+2026-10-27T06:51:01.3932782Z     {
+2026-10-27T06:51:01.3932952Z       "path": "blueheart.json",
+2026-10-27T06:51:01.3933159Z       "status": "A"
+2026-10-27T06:51:01.3933548Z     },
+2026-10-27T06:51:01.3933696Z     {
+2026-10-27T06:51:01.3933972Z       "path": "blueheart/__init__.py",
+2026-10-27T06:51:01.3934197Z       "status": "A"
+2026-10-27T06:51:01.3934373Z     },
+2026-10-27T06:51:01.3934525Z     {
+2026-10-27T06:51:01.3934698Z       "path": "blueheart/__main__.py",
+2026-10-27T06:51:01.3934930Z       "status": "A"
+2026-10-27T06:51:01.3935101Z     },
+2026-10-27T06:51:01.3935255Z     {
+2026-10-27T06:51:01.3935429Z       "path": "blueheart/contracts.py",
+2026-10-27T06:51:01.3935659Z       "status": "A"
+2026-10-27T06:51:01.3935824Z     },
+2026-10-27T06:51:01.3935975Z     {
+2026-10-27T06:51:01.3936169Z       "path": "blueheart/foundations_audit.py",
+2026-10-27T06:51:01.3936421Z       "status": "A"
+2026-10-27T06:51:01.3936591Z     },
+2026-10-27T06:51:01.3936737Z     {
+2026-10-27T06:51:01.3937031Z       "path": "blueheart/io.py",
+2026-10-27T06:51:01.3937240Z       "status": "A"
+2026-10-27T06:51:01.3937405Z     },
+2026-10-27T06:51:01.3937551Z     {
+2026-10-27T06:51:01.3937751Z       "path": "blueheart/release_docs.py",
+2026-10-27T06:51:01.3937998Z       "status": "A"
+2026-10-27T06:51:01.3938170Z     },
+2026-10-27T06:51:01.3938320Z     {
+2026-10-27T06:51:01.3938657Z       "path": "blueheart/release_pdf.py",
+2026-10-27T06:51:01.3938889Z       "status": "A"
+2026-10-27T06:51:01.3939055Z     },
+2026-10-27T06:51:01.3939203Z     {
+2026-10-27T06:51:01.3939372Z       "path": "blueheart/schema.py",
+2026-10-27T06:51:01.3939583Z       "status": "A"
+2026-10-27T06:51:01.3939746Z     },
+2026-10-27T06:51:01.3939889Z     {
+2026-10-27T06:51:01.3940065Z       "path": "blueheart/tokens.py",
+2026-10-27T06:51:01.3940273Z       "status": "A"
+2026-10-27T06:51:01.3940437Z     },
+2026-10-27T06:51:01.3940587Z     {
+2026-10-27T06:51:01.3940762Z       "path": "blueheart/workspace.py",
+2026-10-27T06:51:01.3940984Z       "status": "A"
+2026-10-27T06:51:01.3941144Z     },
+2026-10-27T06:51:01.3941292Z     {
+2026-10-27T06:51:01.3941477Z       "path": "consumption/button/README.md",
+2026-10-27T06:51:01.3941719Z       "status": "A"
+2026-10-27T06:51:01.3941887Z     },
+2026-10-27T06:51:01.3942034Z     {
+2026-10-27T06:51:01.3942236Z       "path": "consumption/button/manifest.json",
+2026-10-27T06:51:01.3942489Z       "status": "A"
+2026-10-27T06:51:01.3942664Z     },
+2026-10-27T06:51:01.3942815Z     {
+2026-10-27T06:51:01.3942996Z       "path": "docs/releases/README.md",
+2026-10-27T06:51:01.3943224Z       "status": "A"
+2026-10-27T06:51:01.3943388Z     },
+2026-10-27T06:51:01.3943533Z     {
+2026-10-27T06:51:01.3943728Z       "path": "docs/releases/branch-ruleset.json",
+2026-10-27T06:51:01.3943980Z       "status": "A"
+2026-10-27T06:51:01.3944149Z     },
+2026-10-27T06:51:01.3944296Z     {
+2026-10-27T06:51:01.3944642Z       "path": "docs/releases/pushes/1815bc7a2c32e5f8a4ab5fffc0767c76bb86b702.md",
+2026-10-27T06:51:01.3944991Z       "status": "A"
+2026-10-27T06:51:01.3945158Z     },
+2026-10-27T06:51:01.3945307Z     {
+2026-10-27T06:51:01.3945575Z       "path": "docs/releases/pushes/259f1137f4d6d62adf1c3348eb5a5cd0e24cf29f.md",
+2026-10-27T06:51:01.3945901Z       "status": "A"
+2026-10-27T06:51:01.3946064Z     },
+2026-10-27T06:51:01.3946209Z     {
+2026-10-27T06:51:01.3946403Z       "path": "docs/releases/requirements-pdf.txt",
+2026-10-27T06:51:01.3946656Z       "status": "A"
+2026-10-27T06:51:01.3946815Z     },
+2026-10-27T06:51:01.3947300Z     {
+2026-10-27T06:51:01.3947531Z       "path": "evidence/authorization/button-pilot-request.txt",
+2026-10-27T06:51:01.3947822Z       "status": "A"
+2026-10-27T06:51:01.3947996Z     },
+2026-10-27T06:51:01.3948146Z     {
+2026-10-27T06:51:01.3948389Z       "path": "evidence/authorization/button-reduction-request.txt",
+2026-10-27T06:51:01.3948678Z       "status": "A"
+2026-10-27T06:51:01.3948843Z     },
+2026-10-27T06:51:01.3948988Z     {
+2026-10-27T06:51:01.3949236Z       "path": "evidence/authorization/color-normalization-request.txt",
+2026-10-27T06:51:01.3949536Z       "status": "A"
+2026-10-27T06:51:01.3949705Z     },
+2026-10-27T06:51:01.3949861Z     {
+2026-10-27T06:51:01.3950096Z       "path": "evidence/authorization/component-naming-request.txt",
+2026-10-27T06:51:01.3950561Z       "status": "A"
+2026-10-27T06:51:01.3950730Z     },
+2026-10-27T06:51:01.3950883Z     {
+2026-10-27T06:51:01.3951166Z       "path": "evidence/authorization/component-token-protocol-request.txt",
+2026-10-27T06:51:01.3951483Z       "status": "A"
+2026-10-27T06:51:01.3951654Z     },
+2026-10-27T06:51:01.3951804Z     {
+2026-10-27T06:51:01.3952042Z       "path": "evidence/authorization/figma-application-request.txt",
+2026-10-27T06:51:01.3952342Z       "status": "A"
+2026-10-27T06:51:01.3952513Z     },
+2026-10-27T06:51:01.3952657Z     {
+2026-10-27T06:51:01.3952913Z       "path": "evidence/authorization/github-publication-pdf-request.txt",
+2026-10-27T06:51:01.3953230Z       "status": "A"
+2026-10-27T06:51:01.3953395Z     },
+2026-10-27T06:51:01.3953552Z     {
+2026-10-27T06:51:01.3953814Z       "path": "evidence/authorization/main-without-reviewer-request.txt",
+2026-10-27T06:51:01.3954129Z       "status": "A"
+2026-10-27T06:51:01.3954300Z     },
+2026-10-27T06:51:01.3954443Z     {
+2026-10-27T06:51:01.3954697Z       "path": "evidence/authorization/operational-protocols-request.txt",
+2026-10-27T06:51:01.3955022Z       "status": "A"
+2026-10-27T06:51:01.3955329Z     },
+2026-10-27T06:51:01.3955478Z     {
+2026-10-27T06:51:01.3955691Z       "path": "evidence/authorization/phase-1-request.txt",
+2026-10-27T06:51:01.3955959Z       "status": "A"
+2026-10-27T06:51:01.3956123Z     },
+2026-10-27T06:51:01.3956279Z     {
+2026-10-27T06:51:01.3956515Z       "path": "evidence/authorization/phosphor-request.txt",
+2026-10-27T06:51:01.3956793Z       "status": "A"
+2026-10-27T06:51:01.3957077Z     },
+2026-10-27T06:51:01.3957225Z     {
+2026-10-27T06:51:01.3957471Z       "path": "evidence/authorization/protocol-recovery-request.txt",
+2026-10-27T06:51:01.3957775Z       "status": "A"
+2026-10-27T06:51:01.3957946Z     },
+2026-10-27T06:51:01.3958097Z     {
+2026-10-27T06:51:01.3958312Z       "path": "evidence/button-pilot/build-plan.json",
+2026-10-27T06:51:01.3958604Z       "status": "A"
+2026-10-27T06:51:01.3958800Z     },
+2026-10-27T06:51:01.3958965Z     {
+2026-10-27T06:51:01.3959208Z       "path": "evidence/button-pilot/contracts/button.1.0.0.md",
+2026-10-27T06:51:01.3959514Z       "status": "A"
+2026-10-27T06:51:01.3959693Z     },
+2026-10-27T06:51:01.3959853Z     {
+2026-10-27T06:51:01.3960119Z       "path": "evidence/button-pilot/destination/danger-response.json",
+2026-10-27T06:51:01.3960437Z       "status": "A"
+2026-10-27T06:51:01.3960615Z     },
+2026-10-27T06:51:01.3960765Z     {
+2026-10-27T06:51:01.3961065Z       "path": "evidence/button-pilot/destination/focus-loader-fix-response.json",
+2026-10-27T06:51:01.3961408Z       "status": "A"
+2026-10-27T06:51:01.3961585Z     },
+2026-10-27T06:51:01.3961732Z     {
+2026-10-27T06:51:01.3962033Z       "path": "evidence/button-pilot/destination/geometry-compact-response.json",
+2026-10-27T06:51:01.3962391Z       "status": "A"
+2026-10-27T06:51:01.3962564Z     },
+2026-10-27T06:51:01.3962719Z     {
+2026-10-27T06:51:01.3962995Z       "path": "evidence/button-pilot/destination/geometry-response.json",
+2026-10-27T06:51:01.3963320Z       "status": "A"
+2026-10-27T06:51:01.3963500Z     },
+2026-10-27T06:51:01.3963660Z     {
+2026-10-27T06:51:01.3963972Z       "path": "evidence/button-pilot/destination/helpers-compact-response.json",
+2026-10-27T06:51:01.3964315Z       "status": "A"
+2026-10-27T06:51:01.3964490Z     },
+2026-10-27T06:51:01.3964642Z     {
+2026-10-27T06:51:01.3964904Z       "path": "evidence/button-pilot/destination/helpers-response.json",
+2026-10-27T06:51:01.3965226Z       "status": "A"
+2026-10-27T06:51:01.3965403Z     },
+2026-10-27T06:51:01.3965557Z     {
+2026-10-27T06:51:01.3965830Z       "path": "evidence/button-pilot/destination/implementation-map.json",
+2026-10-27T06:51:01.3966158Z       "status": "A"
+2026-10-27T06:51:01.3966329Z     },
+2026-10-27T06:51:01.3966485Z     {
+2026-10-27T06:51:01.3966744Z       "path": "evidence/button-pilot/destination/link-response.json",
+2026-10-27T06:51:01.3967163Z       "status": "A"
+2026-10-27T06:51:01.3967491Z     },
+2026-10-27T06:51:01.3967646Z     {
+2026-10-27T06:51:01.3967956Z       "path": "evidence/button-pilot/destination/preflight-compact-response.json",
+2026-10-27T06:51:01.3968309Z       "status": "A"
+2026-10-27T06:51:01.3968491Z     },
+2026-10-27T06:51:01.3968644Z     {
+2026-10-27T06:51:01.3968921Z       "path": "evidence/button-pilot/destination/preflight-response.json",
+2026-10-27T06:51:01.3969230Z       "status": "A"
+2026-10-27T06:51:01.3969401Z     },
+2026-10-27T06:51:01.3969553Z     {
+2026-10-27T06:51:01.3969834Z       "path": "evidence/button-pilot/destination/primary-response.json",
+2026-10-27T06:51:01.3970163Z       "status": "A"
+2026-10-27T06:51:01.3970343Z     },
+2026-10-27T06:51:01.3970501Z     {
+2026-10-27T06:51:01.3970834Z       "path": "evidence/button-pilot/destination/review-clipping-fix-response.json",
+2026-10-27T06:51:01.3971226Z       "status": "A"
+2026-10-27T06:51:01.3971409Z     },
+2026-10-27T06:51:01.3971580Z     {
+2026-10-27T06:51:01.3971938Z       "path": "evidence/button-pilot/destination/review-final-screenshot-response.json",
+2026-10-27T06:51:01.3972351Z       "status": "A"
+2026-10-27T06:51:01.3972540Z     },
+2026-10-27T06:51:01.3972711Z     {
+2026-10-27T06:51:01.3973125Z       "path": "evidence/button-pilot/destination/review-final.png",
+2026-10-27T06:51:01.3973425Z       "status": "A"
+2026-10-27T06:51:01.3973598Z     },
+2026-10-27T06:51:01.3973751Z     {
+2026-10-27T06:51:01.3974027Z       "path": "evidence/button-pilot/destination/review-response.json",
+2026-10-27T06:51:01.3974364Z       "status": "A"
+2026-10-27T06:51:01.3974563Z     },
+2026-10-27T06:51:01.3974729Z     {
+2026-10-27T06:51:01.3974969Z       "path": "evidence/button-pilot/destination/review.png",
+2026-10-27T06:51:01.3975280Z       "status": "A"
+2026-10-27T06:51:01.3975468Z     },
+2026-10-27T06:51:01.3975631Z     {
+2026-10-27T06:51:01.3975921Z       "path": "evidence/button-pilot/destination/secondary-response.json",
+2026-10-27T06:51:01.3976256Z       "status": "A"
+2026-10-27T06:51:01.3976442Z     },
+2026-10-27T06:51:01.3976615Z     {
+2026-10-27T06:51:01.3976979Z       "path": "evidence/button-pilot/destination/state.json",
+2026-10-27T06:51:01.3977286Z       "status": "A"
+2026-10-27T06:51:01.3977466Z     },
+2026-10-27T06:51:01.3977623Z     {
+2026-10-27T06:51:01.3977941Z       "path": "evidence/button-pilot/destination/stroke-layout-fix-response.json",
+2026-10-27T06:51:01.3978296Z       "status": "A"
+2026-10-27T06:51:01.3978475Z     },
+2026-10-27T06:51:01.3978626Z     {
+2026-10-27T06:51:01.3978886Z       "path": "evidence/button-pilot/destination/text-response.json",
+2026-10-27T06:51:01.3979194Z       "status": "A"
+2026-10-27T06:51:01.3979367Z     },
+2026-10-27T06:51:01.3979567Z     {
+2026-10-27T06:51:01.3979855Z       "path": "evidence/button-pilot/destination/token-check-response.json",
+2026-10-27T06:51:01.3980212Z       "status": "A"
+2026-10-27T06:51:01.3980401Z     },
+2026-10-27T06:51:01.3980565Z     {
+2026-10-27T06:51:01.3980832Z       "path": "evidence/button-pilot/destination/tokens-response.json",
+2026-10-27T06:51:01.3981222Z       "status": "A"
+2026-10-27T06:51:01.3981400Z     },
+2026-10-27T06:51:01.3981556Z     {
+2026-10-27T06:51:01.3981831Z       "path": "evidence/button-pilot/qa/button-pilot-v1.0.0-check.json",
+2026-10-27T06:51:01.3982156Z       "status": "A"
+2026-10-27T06:51:01.3982334Z     },
+2026-10-27T06:51:01.3982489Z     {
+2026-10-27T06:51:01.3982771Z       "path": "evidence/button-pilot/qa/check-danger-final-response.json",
+2026-10-27T06:51:01.3983103Z       "status": "A"
+2026-10-27T06:51:01.3983283Z     },
+2026-10-27T06:51:01.3983440Z     {
+2026-10-27T06:51:01.3983704Z       "path": "evidence/button-pilot/qa/check-danger-response.json",
+2026-10-27T06:51:01.3984025Z       "status": "A"
+2026-10-27T06:51:01.3984204Z     },
+2026-10-27T06:51:01.3984362Z     {
+2026-10-27T06:51:01.3984632Z       "path": "evidence/button-pilot/qa/check-link-final-response.json",
+2026-10-27T06:51:01.3984963Z       "status": "A"
+2026-10-27T06:51:01.3985142Z     },
+2026-10-27T06:51:01.3985299Z     {
+2026-10-27T06:51:01.3985692Z       "path": "evidence/button-pilot/qa/check-link-response.json",
+2026-10-27T06:51:01.3985993Z       "status": "A"
+2026-10-27T06:51:01.3986172Z     },
+2026-10-27T06:51:01.3986331Z     {
+2026-10-27T06:51:01.3986639Z       "path": "evidence/button-pilot/qa/check-primary-final-response.json",
+2026-10-27T06:51:01.3987105Z       "status": "A"
+2026-10-27T06:51:01.3987276Z     },
+2026-10-27T06:51:01.3987431Z     {
+2026-10-27T06:51:01.3987697Z       "path": "evidence/button-pilot/qa/check-primary-response.json",
+2026-10-27T06:51:01.3988001Z       "status": "A"
+2026-10-27T06:51:01.3988168Z     },
+2026-10-27T06:51:01.3988322Z     {
+2026-10-27T06:51:01.3988622Z       "path": "evidence/button-pilot/qa/check-secondary-final-response.json",
+2026-10-27T06:51:01.3988973Z       "status": "A"
+2026-10-27T06:51:01.3989151Z     },
+2026-10-27T06:51:01.3989311Z     {
+2026-10-27T06:51:01.3989580Z       "path": "evidence/button-pilot/qa/check-secondary-response.json",
+2026-10-27T06:51:01.3989897Z       "status": "A"
+2026-10-27T06:51:01.3990082Z     },
+2026-10-27T06:51:01.3990240Z     {
+2026-10-27T06:51:01.3990515Z       "path": "evidence/button-pilot/qa/check-text-final-response.json",
+2026-10-27T06:51:01.3990837Z       "status": "A"
+2026-10-27T06:51:01.3991137Z     },
+2026-10-27T06:51:01.3991298Z     {
+2026-10-27T06:51:01.3991552Z       "path": "evidence/button-pilot/qa/check-text-response.json",
+2026-10-27T06:51:01.3991858Z       "status": "A"
+2026-10-27T06:51:01.3992038Z     },
+2026-10-27T06:51:01.3992204Z     {
+2026-10-27T06:51:01.3992509Z       "path": "evidence/button-pilot/qa/consumer-focus-clipping-response.json",
+2026-10-27T06:51:01.3992865Z       "status": "A"
+2026-10-27T06:51:01.3993041Z     },
+2026-10-27T06:51:01.3993200Z     {
+2026-10-27T06:51:01.3993517Z       "path": "evidence/button-pilot/qa/consumer-focus-geometry-response.json",
+2026-10-27T06:51:01.3993888Z       "status": "A"
+2026-10-27T06:51:01.3994068Z     },
+2026-10-27T06:51:01.3994225Z     {
+2026-10-27T06:51:01.3994491Z       "path": "evidence/button-pilot/qa/consumers-final-response.json",
+2026-10-27T06:51:01.3994825Z       "status": "A"
+2026-10-27T06:51:01.3995016Z     },
+2026-10-27T06:51:01.3995174Z     {
+2026-10-27T06:51:01.3995436Z       "path": "evidence/button-pilot/qa/context-consumption.json",
+2026-10-27T06:51:01.3995742Z       "status": "A"
+2026-10-27T06:51:01.3995918Z     },
+2026-10-27T06:51:01.3996068Z     {
+2026-10-27T06:51:01.3996364Z       "path": "evidence/button-pilot/qa/foundations-preserved-response.json",
+2026-10-27T06:51:01.3996730Z       "status": "A"
+2026-10-27T06:51:01.3997029Z     },
+2026-10-27T06:51:01.3997204Z     {
+2026-10-27T06:51:01.3997483Z       "path": "evidence/button-pilot/qa/geometry-differences.json",
+2026-10-27T06:51:01.3997812Z       "status": "A"
+2026-10-27T06:51:01.3997997Z     },
+2026-10-27T06:51:01.3998160Z     {
+2026-10-27T06:51:01.3998498Z       "path": "evidence/button-pilot/qa/helpers-corrected-check-response.json",
+2026-10-27T06:51:01.3998882Z       "status": "A"
+2026-10-27T06:51:01.3999064Z     },
+2026-10-27T06:51:01.3999229Z     {
+2026-10-27T06:51:01.3999489Z       "path": "evidence/button-pilot/qa/helpers-final-response.json",
+2026-10-27T06:51:01.3999821Z       "status": "A"
+2026-10-27T06:51:01.4000007Z     },
+2026-10-27T06:51:01.4000167Z     {
+2026-10-27T06:51:01.4021429Z       "path": "evidence/button-pilot/qa/original-preservation.json",
+2026-10-27T06:51:01.4021780Z       "status": "A"
+2026-10-27T06:51:01.4021971Z     },
+2026-10-27T06:51:01.4022135Z     {
+2026-10-27T06:51:01.4022386Z       "path": "evidence/button-pilot/qa/reproducibility.json",
+2026-10-27T06:51:01.4022708Z       "status": "A"
+2026-10-27T06:51:01.4022900Z     },
+2026-10-27T06:51:01.4023055Z     {
+2026-10-27T06:51:01.4023271Z       "path": "evidence/button-pilot/qa/unit-tests.txt",
+2026-10-27T06:51:01.4023551Z       "status": "A"
+2026-10-27T06:51:01.4023724Z     },
+2026-10-27T06:51:01.4023877Z     {
+2026-10-27T06:51:01.4024115Z       "path": "evidence/button-pilot/source/component-contract.md",
+2026-10-27T06:51:01.4024408Z       "status": "A"
+2026-10-27T06:51:01.4024758Z     },
+2026-10-27T06:51:01.4024909Z     {
+2026-10-27T06:51:01.4025156Z       "path": "evidence/button-pilot/source/component-contract.yaml",
+2026-10-27T06:51:01.4025452Z       "status": "A"
+2026-10-27T06:51:01.4025627Z     },
+2026-10-27T06:51:01.4025779Z     {
+2026-10-27T06:51:01.4026031Z       "path": "evidence/button-pilot/source/component-set-response.json",
+2026-10-27T06:51:01.4026338Z       "status": "A"
+2026-10-27T06:51:01.4026506Z     },
+2026-10-27T06:51:01.4026658Z     {
+2026-10-27T06:51:01.4027038Z       "path": "evidence/button-pilot/source/container-response.json",
+2026-10-27T06:51:01.4027338Z       "status": "A"
+2026-10-27T06:51:01.4027506Z     },
+2026-10-27T06:51:01.4027658Z     {
+2026-10-27T06:51:01.4027917Z       "path": "evidence/button-pilot/source/dependencies-response.json",
+2026-10-27T06:51:01.4028231Z       "status": "A"
+2026-10-27T06:51:01.4028399Z     },
+2026-10-27T06:51:01.4028551Z     {
+2026-10-27T06:51:01.4028783Z       "path": "evidence/button-pilot/source/description.json",
+2026-10-27T06:51:01.4029073Z       "status": "A"
+2026-10-27T06:51:01.4029248Z     },
+2026-10-27T06:51:01.4029403Z     {
+2026-10-27T06:51:01.4029692Z       "path": "evidence/button-pilot/source/discovery-compact-response.json",
+2026-10-27T06:51:01.4030138Z       "status": "A"
+2026-10-27T06:51:01.4030314Z     },
+2026-10-27T06:51:01.4030467Z     {
+2026-10-27T06:51:01.4030715Z       "path": "evidence/button-pilot/source/discovery-response.json",
+2026-10-27T06:51:01.4031020Z       "status": "A"
+2026-10-27T06:51:01.4031188Z     },
+2026-10-27T06:51:01.4031336Z     {
+2026-10-27T06:51:01.4031606Z       "path": "evidence/button-pilot/source/helper-discovery-response.json",
+2026-10-27T06:51:01.4031978Z       "status": "A"
+2026-10-27T06:51:01.4032156Z     },
+2026-10-27T06:51:01.4032306Z     {
+2026-10-27T06:51:01.4032612Z       "path": "evidence/button-pilot/source/helper-geometry-compact-response.json",
+2026-10-27T06:51:01.4032965Z       "status": "A"
+2026-10-27T06:51:01.4033138Z     },
+2026-10-27T06:51:01.4033298Z     {
+2026-10-27T06:51:01.4033567Z       "path": "evidence/button-pilot/source/helper-geometry-response.json",
+2026-10-27T06:51:01.4033895Z       "status": "A"
+2026-10-27T06:51:01.4034072Z     },
+2026-10-27T06:51:01.4034230Z     {
+2026-10-27T06:51:01.4034468Z       "path": "evidence/button-pilot/source/metadata-response.json",
+2026-10-27T06:51:01.4034768Z       "status": "A"
+2026-10-27T06:51:01.4034944Z     },
+2026-10-27T06:51:01.4035108Z     {
+2026-10-27T06:51:01.4035330Z       "path": "evidence/button-pilot/source/nodes.json",
+2026-10-27T06:51:01.4035603Z       "status": "A"
+2026-10-27T06:51:01.4035782Z     },
+2026-10-27T06:51:01.4035932Z     {
+2026-10-27T06:51:01.4036149Z       "path": "evidence/button-pilot/source/overview.png",
+2026-10-27T06:51:01.4036409Z       "status": "A"
+2026-10-27T06:51:01.4036580Z     },
+2026-10-27T06:51:01.4036741Z     {
+2026-10-27T06:51:01.4037126Z       "path": "evidence/button-pilot/source/primitive-reference-ids.json",
+2026-10-27T06:51:01.4037338Z       "status": "A"
+2026-10-27T06:51:01.4037463Z     },
+2026-10-27T06:51:01.4037564Z     {
+2026-10-27T06:51:01.4037734Z       "path": "evidence/button-pilot/source/primitives-response.json",
+2026-10-27T06:51:01.4037930Z       "status": "A"
+2026-10-27T06:51:01.4038054Z     },
+2026-10-27T06:51:01.4038155Z     {
+2026-10-27T06:51:01.4038314Z       "path": "evidence/button-pilot/source/reference-ids.json",
+2026-10-27T06:51:01.4038504Z       "status": "A"
+2026-10-27T06:51:01.4038618Z     },
+2026-10-27T06:51:01.4038720Z     {
+2026-10-27T06:51:01.4038886Z       "path": "evidence/button-pilot/source/screenshot-response.json",
+2026-10-27T06:51:01.4039112Z       "status": "A"
+2026-10-27T06:51:01.4039232Z     },
+2026-10-27T06:51:01.4039332Z     {
+2026-10-27T06:51:01.4039581Z       "path": "evidence/button-pilot/source/session-response.json",
+2026-10-27T06:51:01.4039892Z       "status": "A"
+2026-10-27T06:51:01.4040107Z     },
+2026-10-27T06:51:01.4040268Z     {
+2026-10-27T06:51:01.4040572Z       "path": "evidence/button-pilot/source/spinner-frames-compact-response.json",
+2026-10-27T06:51:01.4041133Z       "status": "A"
+2026-10-27T06:51:01.4041309Z     },
+2026-10-27T06:51:01.4041471Z     {
+2026-10-27T06:51:01.4041669Z       "path": "evidence/button-pilot/source/spinner-frames-response.json",
+2026-10-27T06:51:01.4041891Z       "status": "A"
+2026-10-27T06:51:01.4042004Z     },
+2026-10-27T06:51:01.4042107Z     {
+2026-10-27T06:51:01.4042282Z       "path": "evidence/button-pilot/source/stroke-layout-response.json",
+2026-10-27T06:51:01.4042491Z       "status": "A"
+2026-10-27T06:51:01.4042606Z     },
+2026-10-27T06:51:01.4042707Z     {
+2026-10-27T06:51:01.4042871Z       "path": "evidence/button-pilot/source/variables-response.json",
+2026-10-27T06:51:01.4043153Z       "status": "A"
+2026-10-27T06:51:01.4043272Z     },
+2026-10-27T06:51:01.4043373Z     {
+2026-10-27T06:51:01.4043526Z       "path": "evidence/button-pilot/source/variables.json",
+2026-10-27T06:51:01.4043707Z       "status": "A"
+2026-10-27T06:51:01.4043823Z     },
+2026-10-27T06:51:01.4043930Z     {
+2026-10-27T06:51:01.4044120Z       "path": "evidence/button-pilot/source/variant-calibration-response.json",
+2026-10-27T06:51:01.4044337Z       "status": "A"
+2026-10-27T06:51:01.4044449Z     },
+2026-10-27T06:51:01.4044647Z     {
+2026-10-27T06:51:01.4044817Z       "path": "evidence/button-pilot/source/variants-000-response.json",
+2026-10-27T06:51:01.4045767Z       "status": "A"
+2026-10-27T06:51:01.4045889Z     },
+2026-10-27T06:51:01.4045991Z     {
+2026-10-27T06:51:01.4046158Z       "path": "evidence/button-pilot/source/variants-006-response.json",
+2026-10-27T06:51:01.4046356Z       "status": "A"
+2026-10-27T06:51:01.4046468Z     },
+2026-10-27T06:51:01.4046572Z     {
+2026-10-27T06:51:01.4046744Z       "path": "evidence/button-pilot/source/variants-012-response.json",
+2026-10-27T06:51:01.4047100Z       "status": "A"
+2026-10-27T06:51:01.4047215Z     },
+2026-10-27T06:51:01.4047317Z     {
+2026-10-27T06:51:01.4047485Z       "path": "evidence/button-pilot/source/variants-018-response.json",
+2026-10-27T06:51:01.4047699Z       "status": "A"
+2026-10-27T06:51:01.4047813Z     },
+2026-10-27T06:51:01.4047915Z     {
+2026-10-27T06:51:01.4048086Z       "path": "evidence/button-pilot/source/variants-024-response.json",
+2026-10-27T06:51:01.4048290Z       "status": "A"
+2026-10-27T06:51:01.4048400Z     },
+2026-10-27T06:51:01.4048499Z     {
+2026-10-27T06:51:01.4048707Z       "path": "evidence/button-pilot/source/variants-030-response.json",
+2026-10-27T06:51:01.4048906Z       "status": "A"
+2026-10-27T06:51:01.4049019Z     },
+2026-10-27T06:51:01.4049121Z     {
+2026-10-27T06:51:01.4049291Z       "path": "evidence/button-pilot/source/variants-036-response.json",
+2026-10-27T06:51:01.4049492Z       "status": "A"
+2026-10-27T06:51:01.4049605Z     },
+2026-10-27T06:51:01.4049707Z     {
+2026-10-27T06:51:01.4049876Z       "path": "evidence/button-pilot/source/variants-042-response.json",
+2026-10-27T06:51:01.4050070Z       "status": "A"
+2026-10-27T06:51:01.4050185Z     },
+2026-10-27T06:51:01.4050288Z     {
+2026-10-27T06:51:01.4050454Z       "path": "evidence/button-pilot/source/variants-048-response.json",
+2026-10-27T06:51:01.4050657Z       "status": "A"
+2026-10-27T06:51:01.4050770Z     },
+2026-10-27T06:51:01.4050871Z     {
+2026-10-27T06:51:01.4051050Z       "path": "evidence/button-pilot/source/variants-054-response.json",
+2026-10-27T06:51:01.4051246Z       "status": "A"
+2026-10-27T06:51:01.4051358Z     },
+2026-10-27T06:51:01.4051458Z     {
+2026-10-27T06:51:01.4051626Z       "path": "evidence/button-pilot/source/variants-060-response.json",
+2026-10-27T06:51:01.4051822Z       "status": "A"
+2026-10-27T06:51:01.4051936Z     },
+2026-10-27T06:51:01.4052036Z     {
+2026-10-27T06:51:01.4052202Z       "path": "evidence/button-pilot/source/variants-066-response.json",
+2026-10-27T06:51:01.4052397Z       "status": "A"
+2026-10-27T06:51:01.4052507Z     },
+2026-10-27T06:51:01.4052615Z     {
+2026-10-27T06:51:01.4052783Z       "path": "evidence/button-pilot/source/variants-072-response.json",
+2026-10-27T06:51:01.4052980Z       "status": "A"
+2026-10-27T06:51:01.4053192Z     },
+2026-10-27T06:51:01.4053294Z     {
+2026-10-27T06:51:01.4053462Z       "path": "evidence/button-pilot/source/variants-078-response.json",
+2026-10-27T06:51:01.4053663Z       "status": "A"
+2026-10-27T06:51:01.4053784Z     },
+2026-10-27T06:51:01.4053884Z     {
+2026-10-27T06:51:01.4054055Z       "path": "evidence/button-pilot/source/variants-084-response.json",
+2026-10-27T06:51:01.4054250Z       "status": "A"
+2026-10-27T06:51:01.4054363Z     },
+2026-10-27T06:51:01.4054470Z     {
+2026-10-27T06:51:01.4054613Z       "path": "evidence/button-reduction/README.md",
+2026-10-27T06:51:01.4054781Z       "status": "A"
+2026-10-27T06:51:01.4054895Z     },
+2026-10-27T06:51:01.4055001Z     {
+2026-10-27T06:51:01.4055156Z       "path": "evidence/button-reduction/adapter-tests.log",
+2026-10-27T06:51:01.4055337Z       "status": "A"
+2026-10-27T06:51:01.4055451Z     },
+2026-10-27T06:51:01.4055550Z     {
+2026-10-27T06:51:01.4055709Z       "path": "evidence/button-reduction/apply-response.json",
+2026-10-27T06:51:01.4055897Z       "status": "A"
+2026-10-27T06:51:01.4056016Z     },
+2026-10-27T06:51:01.4056117Z     {
+2026-10-27T06:51:01.4056284Z       "path": "evidence/button-reduction/before/blueheart.1.0.0.json",
+2026-10-27T06:51:01.4056583Z       "status": "A"
+2026-10-27T06:51:01.4056699Z     },
+2026-10-27T06:51:01.4056800Z     {
+2026-10-27T06:51:01.4057142Z       "path": "evidence/button-reduction/before/build-plan.json",
+2026-10-27T06:51:01.4057331Z       "status": "A"
+2026-10-27T06:51:01.4057443Z     },
+2026-10-27T06:51:01.4057548Z     {
+2026-10-27T06:51:01.4057706Z       "path": "evidence/button-reduction/before/button.1.1.0.md",
+2026-10-27T06:51:01.4057894Z       "status": "A"
+2026-10-27T06:51:01.4058012Z     },
+2026-10-27T06:51:01.4058114Z     {
+2026-10-27T06:51:01.4058291Z       "path": "evidence/button-reduction/before/consumption-manifest.json",
+2026-10-27T06:51:01.4058496Z       "status": "A"
+2026-10-27T06:51:01.4058610Z     },
+2026-10-27T06:51:01.4058708Z     {
+2026-10-27T06:51:01.4058882Z       "path": "evidence/button-reduction/before/context-consumption.json",
+2026-10-27T06:51:01.4059091Z       "status": "A"
+2026-10-27T06:51:01.4059203Z     },
+2026-10-27T06:51:01.4059304Z     {
+2026-10-27T06:51:01.4059472Z       "path": "evidence/button-reduction/before/phosphor-check.json",
+2026-10-27T06:51:01.4059677Z       "status": "A"
+2026-10-27T06:51:01.4059790Z     },
+2026-10-27T06:51:01.4059892Z     {
+2026-10-27T06:51:01.4060048Z       "path": "evidence/button-reduction/before/pilot-check.json",
+2026-10-27T06:51:01.4060238Z       "status": "A"
+2026-10-27T06:51:01.4060350Z     },
+2026-10-27T06:51:01.4060457Z     {
+2026-10-27T06:51:01.4060610Z       "path": "evidence/button-reduction/before/state.json",
+2026-10-27T06:51:01.4060792Z       "status": "A"
+2026-10-27T06:51:01.4060905Z     },
+2026-10-27T06:51:01.4061004Z     {
+2026-10-27T06:51:01.4061168Z       "path": "evidence/button-reduction/binding-equivalence.json",
+2026-10-27T06:51:01.4061362Z       "status": "A"
+2026-10-27T06:51:01.4061476Z     },
+2026-10-27T06:51:01.4061583Z     {
+2026-10-27T06:51:01.4061761Z       "path": "evidence/button-reduction/bindings-after-0-response.json",
+2026-10-27T06:51:01.4061967Z       "status": "A"
+2026-10-27T06:51:01.4062082Z     },
+2026-10-27T06:51:01.4062191Z     {
+2026-10-27T06:51:01.4062369Z       "path": "evidence/button-reduction/bindings-after-108-response.json",
+2026-10-27T06:51:01.4062577Z       "status": "A"
+2026-10-27T06:51:01.4062691Z     },
+2026-10-27T06:51:01.4062793Z     {
+2026-10-27T06:51:01.4062978Z       "path": "evidence/button-reduction/bindings-after-54-response.json",
+2026-10-27T06:51:01.4063183Z       "status": "A"
+2026-10-27T06:51:01.4063299Z     },
+2026-10-27T06:51:01.4063402Z     {
+2026-10-27T06:51:01.4063576Z       "path": "evidence/button-reduction/bindings-before-0-response.json",
+2026-10-27T06:51:01.4063781Z       "status": "A"
+2026-10-27T06:51:01.4063897Z     },
+2026-10-27T06:51:01.4064001Z     {
+2026-10-27T06:51:01.4064185Z       "path": "evidence/button-reduction/bindings-before-108-response.json",
+2026-10-27T06:51:01.4064558Z       "status": "A"
+2026-10-27T06:51:01.4064671Z     },
+2026-10-27T06:51:01.4064776Z     {
+2026-10-27T06:51:01.4064951Z       "path": "evidence/button-reduction/bindings-before-54-response.json",
+2026-10-27T06:51:01.4065159Z       "status": "A"
+2026-10-27T06:51:01.4065272Z     },
+2026-10-27T06:51:01.4065374Z     {
+2026-10-27T06:51:01.4065547Z       "path": "evidence/button-reduction/bindings-before-response.json",
+2026-10-27T06:51:01.4065752Z       "status": "A"
+2026-10-27T06:51:01.4065864Z     },
+2026-10-27T06:51:01.4065963Z     {
+2026-10-27T06:51:01.4066130Z       "path": "evidence/button-reduction/check-danger-response.json",
+2026-10-27T06:51:01.4066327Z       "status": "A"
+2026-10-27T06:51:01.4066440Z     },
+2026-10-27T06:51:01.4066543Z     {
+2026-10-27T06:51:01.4066704Z       "path": "evidence/button-reduction/check-link-response.json",
+2026-10-27T06:51:01.4067024Z       "status": "A"
+2026-10-27T06:51:01.4067138Z     },
+2026-10-27T06:51:01.4067242Z     {
+2026-10-27T06:51:01.4067411Z       "path": "evidence/button-reduction/check-primary-response.json",
+2026-10-27T06:51:01.4067614Z       "status": "A"
+2026-10-27T06:51:01.4067732Z     },
+2026-10-27T06:51:01.4067834Z     {
+2026-10-27T06:51:01.4068110Z       "path": "evidence/button-reduction/check-secondary-response.json",
+2026-10-27T06:51:01.4068310Z       "status": "A"
+2026-10-27T06:51:01.4068425Z     },
+2026-10-27T06:51:01.4068525Z     {
+2026-10-27T06:51:01.4068687Z       "path": "evidence/button-reduction/check-text-response.json",
+2026-10-27T06:51:01.4068877Z       "status": "A"
+2026-10-27T06:51:01.4068989Z     },
+2026-10-27T06:51:01.4069090Z     {
+2026-10-27T06:51:01.4069249Z       "path": "evidence/button-reduction/consumers-response.json",
+2026-10-27T06:51:01.4069438Z       "status": "A"
+2026-10-27T06:51:01.4069549Z     },
+2026-10-27T06:51:01.4069648Z     {
+2026-10-27T06:51:01.4069805Z       "path": "evidence/button-reduction/metadata-response.json",
+2026-10-27T06:51:01.4069992Z       "status": "A"
+2026-10-27T06:51:01.4070099Z     },
+2026-10-27T06:51:01.4070200Z     {
+2026-10-27T06:51:01.4070351Z       "path": "evidence/button-reduction/migration-plan.json",
+2026-10-27T06:51:01.4070533Z       "status": "A"
+2026-10-27T06:51:01.4070642Z     },
+2026-10-27T06:51:01.4070745Z     {
+2026-10-27T06:51:01.4070925Z       "path": "evidence/button-reduction/preflight-compact-response.json",
+2026-10-27T06:51:01.4071135Z       "status": "A"
+2026-10-27T06:51:01.4071246Z     },
+2026-10-27T06:51:01.4071342Z     {
+2026-10-27T06:51:01.4071502Z       "path": "evidence/button-reduction/preflight-response.json",
+2026-10-27T06:51:01.4071689Z       "status": "A"
+2026-10-27T06:51:01.4071799Z     },
+2026-10-27T06:51:01.4071897Z     {
+2026-10-27T06:51:01.4072037Z       "path": "evidence/button-reduction/review.png",
+2026-10-27T06:51:01.4072204Z       "status": "A"
+2026-10-27T06:51:01.4072312Z     },
+2026-10-27T06:51:01.4072412Z     {
+2026-10-27T06:51:01.4072580Z       "path": "evidence/button-reduction/screenshot-response.json",
+2026-10-27T06:51:01.4072770Z       "status": "A"
+2026-10-27T06:51:01.4072887Z     },
+2026-10-27T06:51:01.4072988Z     {
+2026-10-27T06:51:01.4073135Z       "path": "evidence/button-reduction/unit-tests.log",
+2026-10-27T06:51:01.4073310Z       "status": "A"
+2026-10-27T06:51:01.4073429Z     },
+2026-10-27T06:51:01.4073532Z     {
+2026-10-27T06:51:01.4073682Z       "path": "evidence/button-reduction/variable-map.csv",
+2026-10-27T06:51:01.4073860Z       "status": "A"
+2026-10-27T06:51:01.4073975Z     },
+2026-10-27T06:51:01.4074076Z     {
+2026-10-27T06:51:01.4074285Z       "path": "evidence/component-naming/before/component-token-protocol-check.json",
+2026-10-27T06:51:01.4074516Z       "status": "A"
+2026-10-27T06:51:01.4074626Z     },
+2026-10-27T06:51:01.4074726Z     {
+2026-10-27T06:51:01.4074902Z       "path": "evidence/component-naming/before/context-consumption.json",
+2026-10-27T06:51:01.4075104Z       "status": "A"
+2026-10-27T06:51:01.4075219Z     },
+2026-10-27T06:51:01.4075323Z     {
+2026-10-27T06:51:01.4075479Z       "path": "evidence/component-naming/before/manifest.json",
+2026-10-27T06:51:01.4075766Z       "status": "A"
+2026-10-27T06:51:01.4075880Z     },
+2026-10-27T06:51:01.4075990Z     {
+2026-10-27T06:51:01.4076143Z       "path": "evidence/component-naming/before/state.json",
+2026-10-27T06:51:01.4076329Z       "status": "A"
+2026-10-27T06:51:01.4076443Z     },
+2026-10-27T06:51:01.4076546Z     {
+2026-10-27T06:51:01.4076707Z       "path": "evidence/component-naming/figma-read-response.json",
+2026-10-27T06:51:01.4077044Z       "status": "A"
+2026-10-27T06:51:01.4077161Z     },
+2026-10-27T06:51:01.4077263Z     {
+2026-10-27T06:51:01.4077423Z       "path": "evidence/component-naming/observed-names.json",
+2026-10-27T06:51:01.4077606Z       "status": "A"
+2026-10-27T06:51:01.4077721Z     },
+2026-10-27T06:51:01.4077825Z     {
+2026-10-27T06:51:01.4077977Z       "path": "evidence/component-naming/unit-tests.log",
+2026-10-27T06:51:01.4078155Z       "status": "A"
+2026-10-27T06:51:01.4078269Z     },
+2026-10-27T06:51:01.4078373Z     {
+2026-10-27T06:51:01.4078576Z       "path": "evidence/component-token-protocol/prior-context-consumption.json",
+2026-10-27T06:51:01.4078809Z       "status": "A"
+2026-10-27T06:51:01.4078924Z     },
+2026-10-27T06:51:01.4079025Z     {
+2026-10-27T06:51:01.4079281Z       "path": "evidence/component-token-protocol/unit-tests.log",
+2026-10-27T06:51:01.4079472Z       "status": "A"
+2026-10-27T06:51:01.4079583Z     },
+2026-10-27T06:51:01.4079689Z     {
+2026-10-27T06:51:01.4079852Z       "path": "evidence/figma-application/application-map.json",
+2026-10-27T06:51:01.4080043Z       "status": "A"
+2026-10-27T06:51:01.4080158Z     },
+2026-10-27T06:51:01.4080259Z     {
+2026-10-27T06:51:01.4080416Z       "path": "evidence/figma-application/apply-response.json",
+2026-10-27T06:51:01.4080605Z       "status": "A"
+2026-10-27T06:51:01.4080720Z     },
+2026-10-27T06:51:01.4080824Z     {
+2026-10-27T06:51:01.4080992Z       "path": "evidence/figma-application/apply.js",
+2026-10-27T06:51:01.4081165Z       "status": "A"
+2026-10-27T06:51:01.4081278Z     },
+2026-10-27T06:51:01.4081389Z     {
+2026-10-27T06:51:01.4081534Z       "path": "evidence/figma-application/plan.json",
+2026-10-27T06:51:01.4081705Z       "status": "A"
+2026-10-27T06:51:01.4081819Z     },
+2026-10-27T06:51:01.4081926Z     {
+2026-10-27T06:51:01.4082093Z       "path": "evidence/figma-application/preflight-response.json",
+2026-10-27T06:51:01.4082286Z       "status": "A"
+2026-10-27T06:51:01.4082404Z     },
+2026-10-27T06:51:01.4082505Z     {
+2026-10-27T06:51:01.4082665Z       "path": "evidence/figma-application/readback-response.json",
+2026-10-27T06:51:01.4082856Z       "status": "A"
+2026-10-27T06:51:01.4082969Z     },
+2026-10-27T06:51:01.4083079Z     {
+2026-10-27T06:51:01.4083224Z       "path": "evidence/figma-application/readback.js",
+2026-10-27T06:51:01.4083397Z       "status": "A"
+2026-10-27T06:51:01.4083511Z     },
+2026-10-27T06:51:01.4083617Z     {
+2026-10-27T06:51:01.4083758Z       "path": "evidence/figma-application/readback.json",
+2026-10-27T06:51:01.4083933Z       "status": "A"
+2026-10-27T06:51:01.4084050Z     },
+2026-10-27T06:51:01.4084151Z     {
+2026-10-27T06:51:01.4084291Z       "path": "evidence/figma-application/state.json",
+2026-10-27T06:51:01.4084462Z       "status": "A"
+2026-10-27T06:51:01.4084582Z     },
+2026-10-27T06:51:01.4084693Z     {
+2026-10-27T06:51:01.4084825Z       "path": "evidence/foundations/analysis.json",
+2026-10-27T06:51:01.4084995Z       "status": "A"
+2026-10-27T06:51:01.4085108Z     },
+2026-10-27T06:51:01.4085208Z     {
+2026-10-27T06:51:01.4085370Z       "path": "evidence/foundations/consistency-0-response.json",
+2026-10-27T06:51:01.4085560Z       "status": "A"
+2026-10-27T06:51:01.4085674Z     },
+2026-10-27T06:51:01.4085777Z     {
+2026-10-27T06:51:01.4085936Z       "path": "evidence/foundations/consistency-100-response.json",
+2026-10-27T06:51:01.4086127Z       "status": "A"
+2026-10-27T06:51:01.4086242Z     },
+2026-10-27T06:51:01.4086343Z     {
+2026-10-27T06:51:01.4086504Z       "path": "evidence/foundations/consistency-150-response.json",
+2026-10-27T06:51:01.4086691Z       "status": "A"
+2026-10-27T06:51:01.4087097Z     },
+2026-10-27T06:51:01.4087199Z     {
+2026-10-27T06:51:01.4087357Z       "path": "evidence/foundations/consistency-200-response.json",
+2026-10-27T06:51:01.4087545Z       "status": "A"
+2026-10-27T06:51:01.4087664Z     },
+2026-10-27T06:51:01.4087765Z     {
+2026-10-27T06:51:01.4087922Z       "path": "evidence/foundations/consistency-250-response.json",
+2026-10-27T06:51:01.4088114Z       "status": "A"
+2026-10-27T06:51:01.4088229Z     },
+2026-10-27T06:51:01.4088332Z     {
+2026-10-27T06:51:01.4088490Z       "path": "evidence/foundations/consistency-50-response.json",
+2026-10-27T06:51:01.4088677Z       "status": "A"
+2026-10-27T06:51:01.4088793Z     },
+2026-10-27T06:51:01.4088895Z     {
+2026-10-27T06:51:01.4089060Z       "path": "evidence/foundations/destination-final-response.json",
+2026-10-27T06:51:01.4089257Z       "status": "A"
+2026-10-27T06:51:01.4089369Z     },
+2026-10-27T06:51:01.4089475Z     {
+2026-10-27T06:51:01.4089637Z       "path": "evidence/foundations/destination-read-response.json",
+2026-10-27T06:51:01.4089839Z       "status": "A"
+2026-10-27T06:51:01.4089955Z     },
+2026-10-27T06:51:01.4090057Z     {
+2026-10-27T06:51:01.4090230Z       "path": "evidence/foundations/discard-external-ids-response.json",
+2026-10-27T06:51:01.4090525Z       "status": "A"
+2026-10-27T06:51:01.4090641Z     },
+2026-10-27T06:51:01.4090746Z     {
+2026-10-27T06:51:01.4090900Z       "path": "evidence/foundations/discovery-response.json",
+2026-10-27T06:51:01.4091085Z       "status": "A"
+2026-10-27T06:51:01.4091199Z     },
+2026-10-27T06:51:01.4091298Z     {
+2026-10-27T06:51:01.4091450Z       "path": "evidence/foundations/external-0-response.json",
+2026-10-27T06:51:01.4091638Z       "status": "A"
+2026-10-27T06:51:01.4091751Z     },
+2026-10-27T06:51:01.4091855Z     {
+2026-10-27T06:51:01.4092007Z       "path": "evidence/foundations/external-30-response.json",
+2026-10-27T06:51:01.4092195Z       "status": "A"
+2026-10-27T06:51:01.4092310Z     },
+2026-10-27T06:51:01.4092414Z     {
+2026-10-27T06:51:01.4092564Z       "path": "evidence/foundations/external-60-response.json",
+2026-10-27T06:51:01.4092753Z       "status": "A"
+2026-10-27T06:51:01.4092868Z     },
+2026-10-27T06:51:01.4092972Z     {
+2026-10-27T06:51:01.4093120Z       "path": "evidence/foundations/impact-matrix.csv",
+2026-10-27T06:51:01.4093290Z       "status": "A"
+2026-10-27T06:51:01.4093402Z     },
+2026-10-27T06:51:01.4093507Z     {
+2026-10-27T06:51:01.4093661Z       "path": "evidence/foundations/inventory-response.json",
+2026-10-27T06:51:01.4093841Z       "status": "A"
+2026-10-27T06:51:01.4093955Z     },
+2026-10-27T06:51:01.4094056Z     {
+2026-10-27T06:51:01.4094205Z       "path": "evidence/foundations/observed-inventory.json",
+2026-10-27T06:51:01.4094388Z       "status": "A"
+2026-10-27T06:51:01.4094504Z     },
+2026-10-27T06:51:01.4094607Z     {
+2026-10-27T06:51:01.4094761Z       "path": "evidence/foundations/page-0-1-response.json",
+2026-10-27T06:51:01.4094942Z       "status": "A"
+2026-10-27T06:51:01.4095059Z     },
+2026-10-27T06:51:01.4095161Z     {
+2026-10-27T06:51:01.4095325Z       "path": "evidence/foundations/page-1084-7229-response.json",
+2026-10-27T06:51:01.4095511Z       "status": "A"
+2026-10-27T06:51:01.4095625Z     },
+2026-10-27T06:51:01.4095727Z     {
+2026-10-27T06:51:01.4095893Z       "path": "evidence/foundations/page-1098-28190-response.json",
+2026-10-27T06:51:01.4096080Z       "status": "A"
+2026-10-27T06:51:01.4096198Z     },
+2026-10-27T06:51:01.4096301Z     {
+2026-10-27T06:51:01.4096452Z       "path": "evidence/foundations/page-1132-8891-response.json",
+2026-10-27T06:51:01.4096637Z       "status": "A"
+2026-10-27T06:51:01.4096752Z     },
+2026-10-27T06:51:01.4096974Z     {
+2026-10-27T06:51:01.4097142Z       "path": "evidence/foundations/page-1133-20620-response.json",
+2026-10-27T06:51:01.4097326Z       "status": "A"
+2026-10-27T06:51:01.4097440Z     },
+2026-10-27T06:51:01.4097540Z     {
+2026-10-27T06:51:01.4097693Z       "path": "evidence/foundations/page-1144-28233-response.json",
+2026-10-27T06:51:01.4097880Z       "status": "A"
+2026-10-27T06:51:01.4098093Z     },
+2026-10-27T06:51:01.4098198Z     {
+2026-10-27T06:51:01.4098354Z       "path": "evidence/foundations/page-1144-34368-response.json",
+2026-10-27T06:51:01.4098538Z       "status": "A"
+2026-10-27T06:51:01.4098658Z     },
+2026-10-27T06:51:01.4098758Z     {
+2026-10-27T06:51:01.4098910Z       "path": "evidence/foundations/page-1144-34653-response.json",
+2026-10-27T06:51:01.4099095Z       "status": "A"
+2026-10-27T06:51:01.4099210Z     },
+2026-10-27T06:51:01.4099310Z     {
+2026-10-27T06:51:01.4099465Z       "path": "evidence/foundations/page-1234-46954-response.json",
+2026-10-27T06:51:01.4099655Z       "status": "A"
+2026-10-27T06:51:01.4099774Z     },
+2026-10-27T06:51:01.4099874Z     {
+2026-10-27T06:51:01.4100032Z       "path": "evidence/foundations/page-1234-53606-response.json",
+2026-10-27T06:51:01.4100217Z       "status": "A"
+2026-10-27T06:51:01.4100332Z     },
+2026-10-27T06:51:01.4100433Z     {
+2026-10-27T06:51:01.4100587Z       "path": "evidence/foundations/page-1241-55464-response.json",
+2026-10-27T06:51:01.4100773Z       "status": "A"
+2026-10-27T06:51:01.4100889Z     },
+2026-10-27T06:51:01.4100992Z     {
+2026-10-27T06:51:01.4101143Z       "path": "evidence/foundations/page-1430-18021-response.json",
+2026-10-27T06:51:01.4101421Z       "status": "A"
+2026-10-27T06:51:01.4101541Z     },
+2026-10-27T06:51:01.4101644Z     {
+2026-10-27T06:51:01.4101798Z       "path": "evidence/foundations/page-1669-25885-response.json",
+2026-10-27T06:51:01.4101981Z       "status": "A"
+2026-10-27T06:51:01.4102095Z     },
+2026-10-27T06:51:01.4102200Z     {
+2026-10-27T06:51:01.4102352Z       "path": "evidence/foundations/page-20-2-response.json",
+2026-10-27T06:51:01.4102536Z       "status": "A"
+2026-10-27T06:51:01.4102650Z     },
+2026-10-27T06:51:01.4102751Z     {
+2026-10-27T06:51:01.4102903Z       "path": "evidence/foundations/page-20-3-response.json",
+2026-10-27T06:51:01.4103089Z       "status": "A"
+2026-10-27T06:51:01.4103202Z     },
+2026-10-27T06:51:01.4103306Z     {
+2026-10-27T06:51:01.4103456Z       "path": "evidence/foundations/page-20-4-response.json",
+2026-10-27T06:51:01.4103640Z       "status": "A"
+2026-10-27T06:51:01.4103751Z     },
+2026-10-27T06:51:01.4103851Z     {
+2026-10-27T06:51:01.4104006Z       "path": "evidence/foundations/page-2166-596-response.json",
+2026-10-27T06:51:01.4104194Z       "status": "A"
+2026-10-27T06:51:01.4104308Z     },
+2026-10-27T06:51:01.4104412Z     {
+2026-10-27T06:51:01.4104566Z       "path": "evidence/foundations/page-25-426-response.json",
+2026-10-27T06:51:01.4104750Z       "status": "A"
+2026-10-27T06:51:01.4104862Z     },
+2026-10-27T06:51:01.4104963Z     {
+2026-10-27T06:51:01.4105115Z       "path": "evidence/foundations/page-258-130806-response.json",
+2026-10-27T06:51:01.4105298Z       "status": "A"
+2026-10-27T06:51:01.4105412Z     },
+2026-10-27T06:51:01.4105512Z     {
+2026-10-27T06:51:01.4105664Z       "path": "evidence/foundations/page-2599-10321-response.json",
+2026-10-27T06:51:01.4105846Z       "status": "A"
+2026-10-27T06:51:01.4105960Z     },
+2026-10-27T06:51:01.4106062Z     {
+2026-10-27T06:51:01.4106218Z       "path": "evidence/foundations/page-268-20243-response.json",
+2026-10-27T06:51:01.4106408Z       "status": "A"
+2026-10-27T06:51:01.4106520Z     },
+2026-10-27T06:51:01.4106621Z     {
+2026-10-27T06:51:01.4106778Z       "path": "evidence/foundations/page-268-20244-response.json",
+2026-10-27T06:51:01.4107110Z       "status": "A"
+2026-10-27T06:51:01.4107226Z     },
+2026-10-27T06:51:01.4107329Z     {
+2026-10-27T06:51:01.4107487Z       "path": "evidence/foundations/page-268-20245-response.json",
+2026-10-27T06:51:01.4107674Z       "status": "A"
+2026-10-27T06:51:01.4107792Z     },
+2026-10-27T06:51:01.4107894Z     {
+2026-10-27T06:51:01.4108054Z       "path": "evidence/foundations/page-268-20247-response.json",
+2026-10-27T06:51:01.4108239Z       "status": "A"
+2026-10-27T06:51:01.4108355Z     },
+2026-10-27T06:51:01.4108458Z     {
+2026-10-27T06:51:01.4108607Z       "path": "evidence/foundations/page-268-20756-response.json",
+2026-10-27T06:51:01.4108789Z       "status": "A"
+2026-10-27T06:51:01.4109010Z     },
+2026-10-27T06:51:01.4109112Z     {
+2026-10-27T06:51:01.4109266Z       "path": "evidence/foundations/page-2798-22640-response.json",
+2026-10-27T06:51:01.4109451Z       "status": "A"
+2026-10-27T06:51:01.4109571Z     },
+2026-10-27T06:51:01.4109678Z     {
+2026-10-27T06:51:01.4109831Z       "path": "evidence/foundations/page-2798-22641-response.json",
+2026-10-27T06:51:01.4110017Z       "status": "A"
+2026-10-27T06:51:01.4110134Z     },
+2026-10-27T06:51:01.4110233Z     {
+2026-10-27T06:51:01.4110386Z       "path": "evidence/foundations/page-2798-22642-response.json",
+2026-10-27T06:51:01.4110570Z       "status": "A"
+2026-10-27T06:51:01.4110684Z     },
+2026-10-27T06:51:01.4110784Z     {
+2026-10-27T06:51:01.4110937Z       "path": "evidence/foundations/page-2798-22643-response.json",
+2026-10-27T06:51:01.4111119Z       "status": "A"
+2026-10-27T06:51:01.4111233Z     },
+2026-10-27T06:51:01.4111338Z     {
+2026-10-27T06:51:01.4111490Z       "path": "evidence/foundations/page-2817-49-response.json",
+2026-10-27T06:51:01.4111677Z       "status": "A"
+2026-10-27T06:51:01.4111794Z     },
+2026-10-27T06:51:01.4111894Z     {
+2026-10-27T06:51:01.4112046Z       "path": "evidence/foundations/page-2817-60-response.json",
+2026-10-27T06:51:01.4112318Z       "status": "A"
+2026-10-27T06:51:01.4112433Z     },
+2026-10-27T06:51:01.4112536Z     {
+2026-10-27T06:51:01.4112687Z       "path": "evidence/foundations/page-2825-10379-response.json",
+2026-10-27T06:51:01.4112873Z       "status": "A"
+2026-10-27T06:51:01.4112990Z     },
+2026-10-27T06:51:01.4113091Z     {
+2026-10-27T06:51:01.4113239Z       "path": "evidence/foundations/page-29-2-response.json",
+2026-10-27T06:51:01.4113419Z       "status": "A"
+2026-10-27T06:51:01.4113532Z     },
+2026-10-27T06:51:01.4113632Z     {
+2026-10-27T06:51:01.4113784Z       "path": "evidence/foundations/page-3027-406-response.json",
+2026-10-27T06:51:01.4113969Z       "status": "A"
+2026-10-27T06:51:01.4114081Z     },
+2026-10-27T06:51:01.4114186Z     {
+2026-10-27T06:51:01.4114338Z       "path": "evidence/foundations/page-3910-928-response.json",
+2026-10-27T06:51:01.4114528Z       "status": "A"
+2026-10-27T06:51:01.4114644Z     },
+2026-10-27T06:51:01.4114746Z     {
+2026-10-27T06:51:01.4114902Z       "path": "evidence/foundations/page-3917-1263-response.json",
+2026-10-27T06:51:01.4115089Z       "status": "A"
+2026-10-27T06:51:01.4115206Z     },
+2026-10-27T06:51:01.4115307Z     {
+2026-10-27T06:51:01.4115459Z       "path": "evidence/foundations/page-40-91-response.json",
+2026-10-27T06:51:01.4115639Z       "status": "A"
+2026-10-27T06:51:01.4115757Z     },
+2026-10-27T06:51:01.4115859Z     {
+2026-10-27T06:51:01.4116012Z       "path": "evidence/foundations/page-40-92-response.json",
+2026-10-27T06:51:01.4116200Z       "status": "A"
+2026-10-27T06:51:01.4116315Z     },
+2026-10-27T06:51:01.4116414Z     {
+2026-10-27T06:51:01.4116565Z       "path": "evidence/foundations/page-40-93-response.json",
+2026-10-27T06:51:01.4116744Z       "status": "A"
+2026-10-27T06:51:01.4117018Z     },
+2026-10-27T06:51:01.4117171Z     {
+2026-10-27T06:51:01.4117356Z       "path": "evidence/foundations/page-40-94-response.json",
+2026-10-27T06:51:01.4117534Z       "status": "A"
+2026-10-27T06:51:01.4117648Z     },
+2026-10-27T06:51:01.4117748Z     {
+2026-10-27T06:51:01.4117902Z       "path": "evidence/foundations/page-40-96-response.json",
+2026-10-27T06:51:01.4118085Z       "status": "A"
+2026-10-27T06:51:01.4118201Z     },
+2026-10-27T06:51:01.4118301Z     {
+2026-10-27T06:51:01.4118448Z       "path": "evidence/foundations/page-40-97-response.json",
+2026-10-27T06:51:01.4118628Z       "status": "A"
+2026-10-27T06:51:01.4118744Z     },
+2026-10-27T06:51:01.4118844Z     {
+2026-10-27T06:51:01.4118993Z       "path": "evidence/foundations/page-40-98-response.json",
+2026-10-27T06:51:01.4119172Z       "status": "A"
+2026-10-27T06:51:01.4119287Z     },
+2026-10-27T06:51:01.4119388Z     {
+2026-10-27T06:51:01.4119550Z       "path": "evidence/foundations/page-435-95498-response.json",
+2026-10-27T06:51:01.4119737Z       "status": "A"
+2026-10-27T06:51:01.4119851Z     },
+2026-10-27T06:51:01.4120054Z     {
+2026-10-27T06:51:01.4120206Z       "path": "evidence/foundations/page-4886-869-response.json",
+2026-10-27T06:51:01.4120389Z       "status": "A"
+2026-10-27T06:51:01.4120502Z     },
+2026-10-27T06:51:01.4120605Z     {
+2026-10-27T06:51:01.4120759Z       "path": "evidence/foundations/page-7339-129-response.json",
+2026-10-27T06:51:01.4120939Z       "status": "A"
+2026-10-27T06:51:01.4121055Z     },
+2026-10-27T06:51:01.4121159Z     {
+2026-10-27T06:51:01.4121321Z       "path": "evidence/foundations/page-7371-85-response.json",
+2026-10-27T06:51:01.4121506Z       "status": "A"
+2026-10-27T06:51:01.4121619Z     },
+2026-10-27T06:51:01.4121722Z     {
+2026-10-27T06:51:01.4121880Z       "path": "evidence/foundations/page-7568-47417-response.json",
+2026-10-27T06:51:01.4122065Z       "status": "A"
+2026-10-27T06:51:01.4122179Z     },
+2026-10-27T06:51:01.4122281Z     {
+2026-10-27T06:51:01.4122433Z       "path": "evidence/foundations/page-9054-194-response.json",
+2026-10-27T06:51:01.4122613Z       "status": "A"
+2026-10-27T06:51:01.4122732Z     },
+2026-10-27T06:51:01.4122838Z     {
+2026-10-27T06:51:01.4122988Z       "path": "evidence/foundations/page-9161-107-response.json",
+2026-10-27T06:51:01.4123169Z       "status": "A"
+2026-10-27T06:51:01.4123420Z     },
+2026-10-27T06:51:01.4123520Z     {
+2026-10-27T06:51:01.4123671Z       "path": "evidence/foundations/page-9161-108-response.json",
+2026-10-27T06:51:01.4123959Z       "status": "A"
+2026-10-27T06:51:01.4124142Z     },
+2026-10-27T06:51:01.4124486Z     {
+2026-10-27T06:51:01.4124724Z       "path": "evidence/foundations/page-9161-109-response.json",
+2026-10-27T06:51:01.4124977Z       "status": "A"
+2026-10-27T06:51:01.4125232Z     },
+2026-10-27T06:51:01.4125404Z     {
+2026-10-27T06:51:01.4125632Z       "path": "evidence/foundations/page-96-787-compact-response.json",
+2026-10-27T06:51:01.4125947Z       "status": "A"
+2026-10-27T06:51:01.4126133Z     },
+2026-10-27T06:51:01.4126398Z     {
+2026-10-27T06:51:01.4126620Z       "path": "evidence/foundations/page-96-787-response.json",
+2026-10-27T06:51:01.4127017Z       "status": "A"
+2026-10-27T06:51:01.4134185Z     },
+2026-10-27T06:51:01.4134314Z     {
+2026-10-27T06:51:01.4134475Z       "path": "evidence/foundations/read-discard-bindings.js",
+2026-10-27T06:51:01.4134673Z       "status": "A"
+2026-10-27T06:51:01.4134724Z     },
+2026-10-27T06:51:01.4134767Z     {
+2026-10-27T06:51:01.4134867Z       "path": "evidence/foundations/read-page-bindings.js",
+2026-10-27T06:51:01.4134920Z       "status": "A"
+2026-10-27T06:51:01.4134970Z     },
+2026-10-27T06:51:01.4135015Z     {
+2026-10-27T06:51:01.4135127Z       "path": "evidence/foundations/referenced-000-response.json",
+2026-10-27T06:51:01.4135177Z       "status": "A"
+2026-10-27T06:51:01.4135228Z     },
+2026-10-27T06:51:01.4135277Z     {
+2026-10-27T06:51:01.4135377Z       "path": "evidence/foundations/referenced-025-response.json",
+2026-10-27T06:51:01.4135431Z       "status": "A"
+2026-10-27T06:51:01.4135476Z     },
+2026-10-27T06:51:01.4135526Z     {
+2026-10-27T06:51:01.4135623Z       "path": "evidence/foundations/referenced-050-response.json",
+2026-10-27T06:51:01.4135681Z       "status": "A"
+2026-10-27T06:51:01.4135726Z     },
+2026-10-27T06:51:01.4135776Z     {
+2026-10-27T06:51:01.4135878Z       "path": "evidence/foundations/referenced-075-response.json",
+2026-10-27T06:51:01.4135935Z       "status": "A"
+2026-10-27T06:51:01.4135983Z     },
+2026-10-27T06:51:01.4136028Z     {
+2026-10-27T06:51:01.4136131Z       "path": "evidence/foundations/referenced-100-response.json",
+2026-10-27T06:51:01.4136180Z       "status": "A"
+2026-10-27T06:51:01.4136230Z     },
+2026-10-27T06:51:01.4136274Z     {
+2026-10-27T06:51:01.4136375Z       "path": "evidence/foundations/referenced-125-response.json",
+2026-10-27T06:51:01.4136428Z       "status": "A"
+2026-10-27T06:51:01.4136474Z     },
+2026-10-27T06:51:01.4136522Z     {
+2026-10-27T06:51:01.4136616Z       "path": "evidence/foundations/referenced-150-response.json",
+2026-10-27T06:51:01.4136670Z       "status": "A"
+2026-10-27T06:51:01.4136716Z     },
+2026-10-27T06:51:01.4137059Z     {
+2026-10-27T06:51:01.4137158Z       "path": "evidence/foundations/referenced-175-response.json",
+2026-10-27T06:51:01.4137213Z       "status": "A"
+2026-10-27T06:51:01.4137261Z     },
+2026-10-27T06:51:01.4137309Z     {
+2026-10-27T06:51:01.4137408Z       "path": "evidence/foundations/referenced-200-response.json",
+2026-10-27T06:51:01.4137457Z       "status": "A"
+2026-10-27T06:51:01.4137505Z     },
+2026-10-27T06:51:01.4137549Z     {
+2026-10-27T06:51:01.4137648Z       "path": "evidence/foundations/referenced-225-response.json",
+2026-10-27T06:51:01.4137704Z       "status": "A"
+2026-10-27T06:51:01.4137747Z     },
+2026-10-27T06:51:01.4137797Z     {
+2026-10-27T06:51:01.4137892Z       "path": "evidence/foundations/referenced-250-response.json",
+2026-10-27T06:51:01.4137947Z       "status": "A"
+2026-10-27T06:51:01.4137992Z     },
+2026-10-27T06:51:01.4138041Z     {
+2026-10-27T06:51:01.4138136Z       "path": "evidence/foundations/referenced-275-response.json",
+2026-10-27T06:51:01.4138191Z       "status": "A"
+2026-10-27T06:51:01.4138246Z     },
+2026-10-27T06:51:01.4138290Z     {
+2026-10-27T06:51:01.4138391Z       "path": "evidence/foundations/referenced-300-response.json",
+2026-10-27T06:51:01.4138442Z       "status": "A"
+2026-10-27T06:51:01.4138578Z     },
+2026-10-27T06:51:01.4138623Z     {
+2026-10-27T06:51:01.4138725Z       "path": "evidence/foundations/referenced-325-response.json",
+2026-10-27T06:51:01.4138776Z       "status": "A"
+2026-10-27T06:51:01.4138825Z     },
+2026-10-27T06:51:01.4138875Z     {
+2026-10-27T06:51:01.4138969Z       "path": "evidence/foundations/referenced-350-response.json",
+2026-10-27T06:51:01.4139024Z       "status": "A"
+2026-10-27T06:51:01.4139070Z     },
+2026-10-27T06:51:01.4139118Z     {
+2026-10-27T06:51:01.4139214Z       "path": "evidence/foundations/referenced-375-response.json",
+2026-10-27T06:51:01.4139269Z       "status": "A"
+2026-10-27T06:51:01.4139313Z     },
+2026-10-27T06:51:01.4139363Z     {
+2026-10-27T06:51:01.4139463Z       "path": "evidence/foundations/referenced-400-response.json",
+2026-10-27T06:51:01.4139519Z       "status": "A"
+2026-10-27T06:51:01.4139569Z     },
+2026-10-27T06:51:01.4139613Z     {
+2026-10-27T06:51:01.4139716Z       "path": "evidence/foundations/referenced-425-response.json",
+2026-10-27T06:51:01.4139771Z       "status": "A"
+2026-10-27T06:51:01.4139820Z     },
+2026-10-27T06:51:01.4139865Z     {
+2026-10-27T06:51:01.4139988Z       "path": "evidence/foundations/referenced-collections-response.json",
+2026-10-27T06:51:01.4140044Z       "status": "A"
+2026-10-27T06:51:01.4140088Z     },
+2026-10-27T06:51:01.4140137Z     {
+2026-10-27T06:51:01.4140234Z       "path": "evidence/foundations/referenced-impact-matrix.csv",
+2026-10-27T06:51:01.4140290Z       "status": "A"
+2026-10-27T06:51:01.4140336Z     },
+2026-10-27T06:51:01.4140385Z     {
+2026-10-27T06:51:01.4140483Z       "path": "evidence/foundations/referenced-inventory.json",
+2026-10-27T06:51:01.4140539Z       "status": "A"
+2026-10-27T06:51:01.4140592Z     },
+2026-10-27T06:51:01.4140637Z     {
+2026-10-27T06:51:01.4140770Z       "path": "evidence/foundations/source-final-reconciled-response.json",
+2026-10-27T06:51:01.4140822Z       "status": "A"
+2026-10-27T06:51:01.4140872Z     },
+2026-10-27T06:51:01.4140917Z     {
+2026-10-27T06:51:01.4141024Z       "path": "evidence/foundations/source-final-response.json",
+2026-10-27T06:51:01.4141073Z       "status": "A"
+2026-10-27T06:51:01.4141121Z     },
+2026-10-27T06:51:01.4141171Z     {
+2026-10-27T06:51:01.4141258Z       "path": "evidence/foundations/styles-response.json",
+2026-10-27T06:51:01.4141315Z       "status": "A"
+2026-10-27T06:51:01.4141359Z     },
+2026-10-27T06:51:01.4141410Z     {
+2026-10-27T06:51:01.4141508Z       "path": "evidence/foundations/variables-000-response.json",
+2026-10-27T06:51:01.4141563Z       "status": "A"
+2026-10-27T06:51:01.4141608Z     },
+2026-10-27T06:51:01.4141658Z     {
+2026-10-27T06:51:01.4141762Z       "path": "evidence/foundations/variables-050-response.json",
+2026-10-27T06:51:01.4141811Z       "status": "A"
+2026-10-27T06:51:01.4141858Z     },
+2026-10-27T06:51:01.4141992Z     {
+2026-10-27T06:51:01.4142094Z       "path": "evidence/foundations/variables-100-response.json",
+2026-10-27T06:51:01.4142143Z       "status": "A"
+2026-10-27T06:51:01.4142192Z     },
+2026-10-27T06:51:01.4142236Z     {
+2026-10-27T06:51:01.4142335Z       "path": "evidence/foundations/variables-150-response.json",
+2026-10-27T06:51:01.4142390Z       "status": "A"
+2026-10-27T06:51:01.4142436Z     },
+2026-10-27T06:51:01.4142482Z     {
+2026-10-27T06:51:01.4142579Z       "path": "evidence/foundations/variables-200-response.json",
+2026-10-27T06:51:01.4142634Z       "status": "A"
+2026-10-27T06:51:01.4142677Z     },
+2026-10-27T06:51:01.4142726Z     {
+2026-10-27T06:51:01.4142820Z       "path": "evidence/foundations/variables-250-response.json",
+2026-10-27T06:51:01.4142876Z       "status": "A"
+2026-10-27T06:51:01.4142925Z     },
+2026-10-27T06:51:01.4142970Z     {
+2026-10-27T06:51:01.4143057Z       "path": "evidence/phosphor/button-review.png",
+2026-10-27T06:51:01.4143109Z       "status": "A"
+2026-10-27T06:51:01.4143165Z     },
+2026-10-27T06:51:01.4143211Z     {
+2026-10-27T06:51:01.4143300Z       "path": "evidence/phosphor/check-response.json",
+2026-10-27T06:51:01.4143354Z       "status": "A"
+2026-10-27T06:51:01.4143460Z     },
+2026-10-27T06:51:01.4143508Z     {
+2026-10-27T06:51:01.4143595Z       "path": "evidence/phosphor/cleanup-response.json",
+2026-10-27T06:51:01.4143651Z       "status": "A"
+2026-10-27T06:51:01.4143697Z     },
+2026-10-27T06:51:01.4143747Z     {
+2026-10-27T06:51:01.4143831Z       "path": "evidence/phosphor/cover-response.json",
+2026-10-27T06:51:01.4143889Z       "status": "A"
+2026-10-27T06:51:01.4143938Z     },
+2026-10-27T06:51:01.4143982Z     {
+2026-10-27T06:51:01.4144070Z       "path": "evidence/phosphor/import-response.json",
+2026-10-27T06:51:01.4144120Z       "status": "A"
+2026-10-27T06:51:01.4144168Z     },
+2026-10-27T06:51:01.4144213Z     {
+2026-10-27T06:51:01.4144291Z       "path": "evidence/phosphor/mapping.json",
+2026-10-27T06:51:01.4144341Z       "status": "A"
+2026-10-27T06:51:01.4144394Z     },
+2026-10-27T06:51:01.4144440Z     {
+2026-10-27T06:51:01.4144541Z       "path": "evidence/phosphor/official-distribution.json",
+2026-10-27T06:51:01.4144597Z       "status": "A"
+2026-10-27T06:51:01.4144645Z     },
+2026-10-27T06:51:01.4144697Z     {
+2026-10-27T06:51:01.4144792Z       "path": "evidence/phosphor/official-export-browse.json",
+2026-10-27T06:51:01.4144848Z       "status": "A"
+2026-10-27T06:51:01.4144896Z     },
+2026-10-27T06:51:01.4144990Z     {
+2026-10-27T06:51:01.4145145Z       "path": "evidence/phosphor/official-readme-browse.json",
+2026-10-27T06:51:01.4145207Z       "status": "A"
+2026-10-27T06:51:01.4145257Z     },
+2026-10-27T06:51:01.4145303Z     {
+2026-10-27T06:51:01.4145389Z       "path": "evidence/phosphor/pages-response.json",
+2026-10-27T06:51:01.4145440Z       "status": "A"
+2026-10-27T06:51:01.4145491Z     },
+2026-10-27T06:51:01.4145535Z     {
+2026-10-27T06:51:01.4145630Z       "path": "evidence/phosphor/pluscircle-response.json",
+2026-10-27T06:51:01.4145685Z       "status": "A"
+2026-10-27T06:51:01.4145734Z     },
+2026-10-27T06:51:01.4145782Z     {
+2026-10-27T06:51:01.4145868Z       "path": "evidence/phosphor/pre-swap-response.json",
+2026-10-27T06:51:01.4145922Z       "status": "A"
+2026-10-27T06:51:01.4145972Z     },
+2026-10-27T06:51:01.4146020Z     {
+2026-10-27T06:51:01.4146123Z       "path": "evidence/phosphor/prior-context-consumption.json",
+2026-10-27T06:51:01.4146179Z       "status": "A"
+2026-10-27T06:51:01.4146231Z     },
+2026-10-27T06:51:01.4146276Z     {
+2026-10-27T06:51:01.4146363Z       "path": "evidence/phosphor/prior-state.json",
+2026-10-27T06:51:01.4146414Z       "status": "A"
+2026-10-27T06:51:01.4146463Z     },
+2026-10-27T06:51:01.4146507Z     {
+2026-10-27T06:51:01.4146602Z       "path": "evidence/phosphor/screenshot-response.json",
+2026-10-27T06:51:01.4146650Z       "status": "A"
+2026-10-27T06:51:01.4146701Z     },
+2026-10-27T06:51:01.4146747Z     {
+2026-10-27T06:51:01.4146954Z       "path": "evidence/phosphor/swap-linked-response.json",
+2026-10-27T06:51:01.4147120Z       "status": "A"
+2026-10-27T06:51:01.4147165Z     },
+2026-10-27T06:51:01.4147213Z     {
+2026-10-27T06:51:01.4147295Z       "path": "evidence/phosphor/swap-response.json",
+2026-10-27T06:51:01.4147354Z       "status": "A"
+2026-10-27T06:51:01.4147398Z     },
+2026-10-27T06:51:01.4147448Z     {
+2026-10-27T06:51:01.4147527Z       "path": "evidence/phosphor/unit-tests.txt",
+2026-10-27T06:51:01.4147578Z       "status": "A"
+2026-10-27T06:51:01.4147626Z     },
+2026-10-27T06:51:01.4147671Z     {
+2026-10-27T06:51:01.4147761Z       "path": "evidence/protocol-recovery/manifest.json",
+2026-10-27T06:51:01.4147810Z       "status": "A"
+2026-10-27T06:51:01.4147862Z     },
+2026-10-27T06:51:01.4147905Z     {
+2026-10-27T06:51:01.4148047Z       "path": "evidence/protocol-recovery/original/implementations/web/README.md",
+2026-10-27T06:51:01.4148103Z       "status": "A"
+2026-10-27T06:51:01.4148146Z     },
+2026-10-27T06:51:01.4148195Z     {
+2026-10-27T06:51:01.4148331Z       "path": "evidence/protocol-recovery/original/implementations/web/package.json",
+2026-10-27T06:51:01.4148389Z       "status": "A"
+2026-10-27T06:51:01.4148433Z     },
+2026-10-27T06:51:01.4148483Z     {
+2026-10-27T06:51:01.4148648Z       "path": "evidence/protocol-recovery/original/protocols/01-ENVIRONMENT-AND-TOOLS.md",
+2026-10-27T06:51:01.4148821Z       "status": "A"
+2026-10-27T06:51:01.4148869Z     },
+2026-10-27T06:51:01.4148912Z     {
+2026-10-27T06:51:01.4149090Z       "path": "evidence/protocol-recovery/original/protocols/02-DOCUMENT-INGESTION-AND-STORAGE.md",
+2026-10-27T06:51:01.4149142Z       "status": "A"
+2026-10-27T06:51:01.4149195Z     },
+2026-10-27T06:51:01.4149239Z     {
+2026-10-27T06:51:01.4149385Z       "path": "evidence/protocol-recovery/original/protocols/03-CONTRACT-SYNTHESIS.md",
+2026-10-27T06:51:01.4149441Z       "status": "A"
+2026-10-27T06:51:01.4149488Z     },
+2026-10-27T06:51:01.4149537Z     {
+2026-10-27T06:51:01.4149676Z       "path": "evidence/protocol-recovery/original/protocols/04-FIGMA-CONSTRUCTION.md",
+2026-10-27T06:51:01.4149734Z       "status": "A"
+2026-10-27T06:51:01.4149778Z     },
+2026-10-27T06:51:01.4149827Z     {
+2026-10-27T06:51:01.4150013Z       "path": "evidence/protocol-recovery/original/protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+2026-10-27T06:51:01.4150075Z       "status": "A"
+2026-10-27T06:51:01.4150126Z     },
+2026-10-27T06:51:01.4150170Z     {
+2026-10-27T06:51:01.4150310Z       "path": "evidence/protocol-recovery/original/protocols/06-QA-AND-VALIDATION.md",
+2026-10-27T06:51:01.4150359Z       "status": "A"
+2026-10-27T06:51:01.4150409Z     },
+2026-10-27T06:51:01.4150454Z     {
+2026-10-27T06:51:01.4150658Z       "path": "evidence/protocol-recovery/original/protocols/07-WEB-COMPONENTS-AND-TECHNICAL-DOCUMENTATION.md",
+2026-10-27T06:51:01.4150707Z       "status": "A"
+2026-10-27T06:51:01.4150758Z     },
+2026-10-27T06:51:01.4150804Z     {
+2026-10-27T06:51:01.4150945Z       "path": "evidence/protocol-recovery/original/protocols/08-SKILLS-AND-RELEASES.md",
+2026-10-27T06:51:01.4151000Z       "status": "A"
+2026-10-27T06:51:01.4151049Z     },
+2026-10-27T06:51:01.4151099Z     {
+2026-10-27T06:51:01.4151267Z       "path": "evidence/protocol-recovery/original/protocols/SLOTS-REVIEW-AND-IMPLEMENTATION.md",
+2026-10-27T06:51:01.4151324Z       "status": "A"
+2026-10-27T06:51:01.4151374Z     },
+2026-10-27T06:51:01.4151420Z     {
+2026-10-27T06:51:01.4151549Z       "path": "evidence/protocol-recovery/original/references/DESIGN-RULES.md",
+2026-10-27T06:51:01.4151599Z       "status": "A"
+2026-10-27T06:51:01.4151651Z     },
+2026-10-27T06:51:01.4151695Z     {
+2026-10-27T06:51:01.4151833Z       "path": "evidence/protocol-recovery/original/references/EFFICIENT-CLOSURE.md",
+2026-10-27T06:51:01.4151882Z       "status": "A"
+2026-10-27T06:51:01.4151933Z     },
+2026-10-27T06:51:01.4151981Z     {
+2026-10-27T06:51:01.4152065Z       "path": "evidence/qa/button-pilot-check.json",
+2026-10-27T06:51:01.4152120Z       "status": "A"
+2026-10-27T06:51:01.4152165Z     },
+2026-10-27T06:51:01.4152213Z     {
+2026-10-27T06:51:01.4152299Z       "path": "evidence/qa/button-reduction-check.json",
+2026-10-27T06:51:01.4152421Z       "status": "A"
+2026-10-27T06:51:01.4152467Z     },
+2026-10-27T06:51:01.4152516Z     {
+2026-10-27T06:51:01.4152604Z       "path": "evidence/qa/component-naming-check.json",
+2026-10-27T06:51:01.4152658Z       "status": "A"
+2026-10-27T06:51:01.4152707Z     },
+2026-10-27T06:51:01.4152751Z     {
+2026-10-27T06:51:01.4152860Z       "path": "evidence/qa/component-token-protocol-check.json",
+2026-10-27T06:51:01.4152910Z       "status": "A"
+2026-10-27T06:51:01.4152958Z     },
+2026-10-27T06:51:01.4153002Z     {
+2026-10-27T06:51:01.4153079Z       "path": "evidence/qa/core-check.json",
+2026-10-27T06:51:01.4153133Z       "status": "A"
+2026-10-27T06:51:01.4153179Z     },
+2026-10-27T06:51:01.4153227Z     {
+2026-10-27T06:51:01.4153301Z       "path": "evidence/qa/core-manifest.json",
+2026-10-27T06:51:01.4153352Z       "status": "A"
+2026-10-27T06:51:01.4153395Z     },
+2026-10-27T06:51:01.4153444Z     {
+2026-10-27T06:51:01.4153520Z       "path": "evidence/qa/evidence-manifest.json",
+2026-10-27T06:51:01.4153579Z       "status": "A"
+2026-10-27T06:51:01.4153631Z     },
+2026-10-27T06:51:01.4153674Z     {
+2026-10-27T06:51:01.4153767Z       "path": "evidence/qa/figma-application-check.json",
+2026-10-27T06:51:01.4153883Z       "status": "A"
+2026-10-27T06:51:01.4153934Z     },
+2026-10-27T06:51:01.4153977Z     {
+2026-10-27T06:51:01.4154061Z       "path": "evidence/qa/foundations-check.json",
+2026-10-27T06:51:01.4154109Z       "status": "A"
+2026-10-27T06:51:01.4154158Z     },
+2026-10-27T06:51:01.4154212Z     {
+2026-10-27T06:51:01.4154313Z       "path": "evidence/qa/github-publication-local-check.json",
+2026-10-27T06:51:01.4154367Z       "status": "A"
+2026-10-27T06:51:01.4154412Z     },
+2026-10-27T06:51:01.4154460Z     {
+2026-10-27T06:51:01.4154547Z       "path": "evidence/qa/github-publication-tests.txt",
+2026-10-27T06:51:01.4154603Z       "status": "A"
+2026-10-27T06:51:01.4154648Z     },
+2026-10-27T06:51:01.4154698Z     {
+2026-10-27T06:51:01.4154788Z       "path": "evidence/qa/main-no-reviewer-check.json",
+2026-10-27T06:51:01.4154842Z       "status": "A"
+2026-10-27T06:51:01.4154892Z     },
+2026-10-27T06:51:01.4154937Z     {
+2026-10-27T06:51:01.4155027Z       "path": "evidence/qa/main-no-reviewer-tests.txt",
+2026-10-27T06:51:01.4155082Z       "status": "A"
+2026-10-27T06:51:01.4155132Z     },
+2026-10-27T06:51:01.4155175Z     {
+2026-10-27T06:51:01.4155261Z       "path": "evidence/qa/normalization-check.json",
+2026-10-27T06:51:01.4155316Z       "status": "A"
+2026-10-27T06:51:01.4155359Z     },
+2026-10-27T06:51:01.4155409Z     {
+2026-10-27T06:51:01.4155506Z       "path": "evidence/qa/operational-protocols-check.json",
+2026-10-27T06:51:01.4155560Z       "status": "A"
+2026-10-27T06:51:01.4155604Z     },
+2026-10-27T06:51:01.4155654Z     {
+2026-10-27T06:51:01.4155749Z       "path": "evidence/qa/operational-protocols-tests.txt",
+2026-10-27T06:51:01.4155804Z       "status": "A"
+2026-10-27T06:51:01.4155852Z     },
+2026-10-27T06:51:01.4155897Z     {
+2026-10-27T06:51:01.4155977Z       "path": "evidence/qa/phase-1-check.json",
+2026-10-27T06:51:01.4156030Z       "status": "A"
+2026-10-27T06:51:01.4156079Z     },
+2026-10-27T06:51:01.4156123Z     {
+2026-10-27T06:51:01.4156204Z       "path": "evidence/qa/phosphor-check.json",
+2026-10-27T06:51:01.4156256Z       "status": "A"
+2026-10-27T06:51:01.4156305Z     },
+2026-10-27T06:51:01.4156353Z     {
+2026-10-27T06:51:01.4156439Z       "path": "evidence/qa/protocol-recovery-check.json",
+2026-10-27T06:51:01.4156492Z       "status": "A"
+2026-10-27T06:51:01.4156535Z     },
+2026-10-27T06:51:01.4156584Z     {
+2026-10-27T06:51:01.4156669Z       "path": "evidence/qa/protocol-recovery-tests.log",
+2026-10-27T06:51:01.4156725Z       "status": "A"
+2026-10-27T06:51:01.4156770Z     },
+2026-10-27T06:51:01.4156816Z     {
+2026-10-27T06:51:01.4157037Z       "path": "evidence/qa/unit-tests.log",
+2026-10-27T06:51:01.4157099Z       "status": "A"
+2026-10-27T06:51:01.4157151Z     },
+2026-10-27T06:51:01.4157196Z     {
+2026-10-27T06:51:01.4157268Z       "path": "governance/decisions.json",
+2026-10-27T06:51:01.4157420Z       "status": "A"
+2026-10-27T06:51:01.4157468Z     },
+2026-10-27T06:51:01.4157513Z     {
+2026-10-27T06:51:01.4157585Z       "path": "governance/policy.json",
+2026-10-27T06:51:01.4157641Z       "status": "A"
+2026-10-27T06:51:01.4157685Z     },
+2026-10-27T06:51:01.4157734Z     {
+2026-10-27T06:51:01.4157818Z       "path": "implementations/figma/button-builder.js",
+2026-10-27T06:51:01.4157872Z       "status": "A"
+2026-10-27T06:51:01.4157915Z     },
+2026-10-27T06:51:01.4157963Z     {
+2026-10-27T06:51:01.4158046Z       "path": "implementations/figma/button-check.js",
+2026-10-27T06:51:01.4158101Z       "status": "A"
+2026-10-27T06:51:01.4158149Z     },
+2026-10-27T06:51:01.4158193Z     {
+2026-10-27T06:51:01.4158299Z       "path": "implementations/figma/button-consumer-check.js",
+2026-10-27T06:51:01.4158350Z       "status": "A"
+2026-10-27T06:51:01.4158398Z     },
+2026-10-27T06:51:01.4158444Z     {
+2026-10-27T06:51:01.4158540Z       "path": "implementations/figma/button-helper-check.js",
+2026-10-27T06:51:01.4158591Z       "status": "A"
+2026-10-27T06:51:01.4158642Z     },
+2026-10-27T06:51:01.4158692Z     {
+2026-10-27T06:51:01.4158786Z       "path": "implementations/figma/button-phosphor-check.js",
+2026-10-27T06:51:01.4158924Z       "status": "A"
+2026-10-27T06:51:01.4158970Z     },
+2026-10-27T06:51:01.4159017Z     {
+2026-10-27T06:51:01.4159112Z       "path": "implementations/figma/button-phosphor-swap.js",
+2026-10-27T06:51:01.4159167Z       "status": "A"
+2026-10-27T06:51:01.4159213Z     },
+2026-10-27T06:51:01.4159260Z     {
+2026-10-27T06:51:01.4159359Z       "path": "implementations/figma/button-reduce-tokens.js",
+2026-10-27T06:51:01.4159408Z       "status": "A"
+2026-10-27T06:51:01.4159456Z     },
+2026-10-27T06:51:01.4159499Z     {
+2026-10-27T06:51:01.4159605Z       "path": "implementations/figma/button-reduction-inspect.js",
+2026-10-27T06:51:01.4159656Z       "status": "A"
+2026-10-27T06:51:01.4159704Z     },
+2026-10-27T06:51:01.4159746Z     {
+2026-10-27T06:51:01.4159832Z       "path": "implementations/figma/button-review.js",
+2026-10-27T06:51:01.4159888Z       "status": "A"
+2026-10-27T06:51:01.4159930Z     },
+2026-10-27T06:51:01.4159978Z     {
+2026-10-27T06:51:01.4160057Z       "path": "implementations/figma/button-tokens.js",
+2026-10-27T06:51:01.4160118Z       "status": "A"
+2026-10-27T06:51:01.4160163Z     },
+2026-10-27T06:51:01.4160211Z     {
+2026-10-27T06:51:01.4160277Z       "path": "norms/catalog.json",
+2026-10-27T06:51:01.4160330Z       "status": "A"
+2026-10-27T06:51:01.4160378Z     },
+2026-10-27T06:51:01.4160421Z     {
+2026-10-27T06:51:01.4160503Z       "path": "norms/components/button.2.0.0.md",
+2026-10-27T06:51:01.4160553Z       "status": "A"
+2026-10-27T06:51:01.4160602Z     },
+2026-10-27T06:51:01.4160645Z     {
+2026-10-27T06:51:01.4160727Z       "path": "norms/tokens/blueheart.2.0.0.json",
+2026-10-27T06:51:01.4160779Z       "status": "A"
+2026-10-27T06:51:01.4160829Z     },
+2026-10-27T06:51:01.4160878Z     {
+2026-10-27T06:51:01.4160955Z       "path": "protocols/01-COMPONENT-CONTRACT.md",
+2026-10-27T06:51:01.4161012Z       "status": "A"
+2026-10-27T06:51:01.4161056Z     },
+2026-10-27T06:51:01.4161105Z     {
+2026-10-27T06:51:01.4161182Z       "path": "protocols/02-FIGMA-CONSTRUCTION.md",
+2026-10-27T06:51:01.4161240Z       "status": "A"
+2026-10-27T06:51:01.4161287Z     },
+2026-10-27T06:51:01.4161333Z     {
+2026-10-27T06:51:01.4161412Z       "path": "protocols/03-WEB-CONSTRUCTION.md",
+2026-10-27T06:51:01.4161463Z       "status": "A"
+2026-10-27T06:51:01.4161510Z     },
+2026-10-27T06:51:01.4161555Z     {
+2026-10-27T06:51:01.4161632Z       "path": "protocols/04-QA-AND-DELIVERY.md",
+2026-10-27T06:51:01.4161682Z       "status": "A"
+2026-10-27T06:51:01.4161730Z     },
+2026-10-27T06:51:01.4161773Z     {
+2026-10-27T06:51:01.4161867Z       "path": "protocols/05-MAINTENANCE-AND-RELEASES.md",
+2026-10-27T06:51:01.4161920Z       "status": "A"
+2026-10-27T06:51:01.4161964Z     },
+2026-10-27T06:51:01.4162014Z     {
+2026-10-27T06:51:01.4162092Z       "path": "protocols/06-PHOSPHOR-ICONS.md",
+2026-10-27T06:51:01.4162218Z       "status": "A"
+2026-10-27T06:51:01.4162262Z     },
+2026-10-27T06:51:01.4162309Z     {
+2026-10-27T06:51:01.4162384Z       "path": "protocols/07-COMPONENT-TOKENS.md",
+2026-10-27T06:51:01.4162439Z       "status": "A"
+2026-10-27T06:51:01.4162488Z     },
+2026-10-27T06:51:01.4162534Z     {
+2026-10-27T06:51:01.4162635Z       "path": "protocols/08-GITHUB-RELEASE-DOCUMENTATION.md",
+2026-10-27T06:51:01.4162683Z       "status": "A"
+2026-10-27T06:51:01.4162730Z     },
+2026-10-27T06:51:01.4162775Z     {
+2026-10-27T06:51:01.4162842Z       "path": "protocols/README.md",
+2026-10-27T06:51:01.4162892Z       "status": "A"
+2026-10-27T06:51:01.4162940Z     },
+2026-10-27T06:51:01.4162986Z     {
+2026-10-27T06:51:01.4163059Z       "path": "schemas/agent-task.schema.json",
+2026-10-27T06:51:01.4163112Z       "status": "A"
+2026-10-27T06:51:01.4163157Z     },
+2026-10-27T06:51:01.4163207Z     {
+2026-10-27T06:51:01.4163279Z       "path": "schemas/catalog.schema.json",
+2026-10-27T06:51:01.4163334Z       "status": "A"
+2026-10-27T06:51:01.4163381Z     },
+2026-10-27T06:51:01.4163428Z     {
+2026-10-27T06:51:01.4163497Z       "path": "schemas/common.schema.json",
+2026-10-27T06:51:01.4163552Z       "status": "A"
+2026-10-27T06:51:01.4163665Z     },
+2026-10-27T06:51:01.4163708Z     {
+2026-10-27T06:51:01.4163785Z       "path": "schemas/component.schema.json",
+2026-10-27T06:51:01.4163837Z       "status": "A"
+2026-10-27T06:51:01.4163888Z     },
+2026-10-27T06:51:01.4163932Z     {
+2026-10-27T06:51:01.4164008Z       "path": "schemas/contract.schema.json",
+2026-10-27T06:51:01.4164060Z       "status": "A"
+2026-10-27T06:51:01.4164103Z     },
+2026-10-27T06:51:01.4164151Z     {
+2026-10-27T06:51:01.4164224Z       "path": "schemas/decisions.schema.json",
+2026-10-27T06:51:01.4164283Z       "status": "A"
+2026-10-27T06:51:01.4164328Z     },
+2026-10-27T06:51:01.4164377Z     {
+2026-10-27T06:51:01.4164450Z       "path": "schemas/foundation.schema.json",
+2026-10-27T06:51:01.4164505Z       "status": "A"
+2026-10-27T06:51:01.4164550Z     },
+2026-10-27T06:51:01.4164601Z     {
+2026-10-27T06:51:01.4164681Z       "path": "schemas/operational.schema.json",
+2026-10-27T06:51:01.4164732Z       "status": "A"
+2026-10-27T06:51:01.4164778Z     },
+2026-10-27T06:51:01.4164822Z     {
+2026-10-27T06:51:01.4164899Z       "path": "schemas/pattern.schema.json",
+2026-10-27T06:51:01.4164949Z       "status": "A"
+2026-10-27T06:51:01.4164999Z     },
+2026-10-27T06:51:01.4165043Z     {
+2026-10-27T06:51:01.4165130Z       "path": "schemas/policy.schema.json",
+2026-10-27T06:51:01.4165183Z       "status": "A"
+2026-10-27T06:51:01.4165227Z     },
+2026-10-27T06:51:01.4165275Z     {
+2026-10-27T06:51:01.4165345Z       "path": "schemas/token-set.schema.json",
+2026-10-27T06:51:01.4165397Z       "status": "A"
+2026-10-27T06:51:01.4165441Z     },
+2026-10-27T06:51:01.4165488Z     {
+2026-10-27T06:51:01.4165556Z       "path": "scripts/button_observation.py",
+2026-10-27T06:51:01.4165609Z       "status": "A"
+2026-10-27T06:51:01.4165655Z     },
+2026-10-27T06:51:01.4165700Z     {
+2026-10-27T06:51:01.4165771Z       "path": "scripts/button_pilot.py",
+2026-10-27T06:51:01.4165822Z       "status": "A"
+2026-10-27T06:51:01.4165870Z     },
+2026-10-27T06:51:01.4165912Z     {
+2026-10-27T06:51:01.4165988Z       "path": "tests/test_button_reduction.py",
+2026-10-27T06:51:01.4166038Z       "status": "A"
+2026-10-27T06:51:01.4166087Z     },
+2026-10-27T06:51:01.4166134Z     {
+2026-10-27T06:51:01.4166196Z       "path": "tests/test_core.py",
+2026-10-27T06:51:01.4166249Z       "status": "A"
+2026-10-27T06:51:01.4166294Z     },
+2026-10-27T06:51:01.4166342Z     {
+2026-10-27T06:51:01.4166414Z       "path": "tests/test_foundations_audit.py",
+2026-10-27T06:51:01.4166468Z       "status": "A"
+2026-10-27T06:51:01.4166513Z     },
+2026-10-27T06:51:01.4166561Z     {
+2026-10-27T06:51:01.4166634Z       "path": "tests/test_normalization.py",
+2026-10-27T06:51:01.4166683Z       "status": "A"
+2026-10-27T06:51:01.4166734Z     },
+2026-10-27T06:51:01.4166776Z     {
+2026-10-27T06:51:01.4167007Z       "path": "tests/test_operational_contracts.py",
+2026-10-27T06:51:01.4167160Z       "status": "A"
+2026-10-27T06:51:01.4167207Z     },
+2026-10-27T06:51:01.4167252Z     {
+2026-10-27T06:51:01.4167321Z       "path": "tests/test_release_docs.py",
+2026-10-27T06:51:01.4167376Z       "status": "A"
+2026-10-27T06:51:01.4167421Z     },
+2026-10-27T06:51:01.4167472Z     {
+2026-10-27T06:51:01.4167538Z       "path": "tests/test_release_pdf.py",
+2026-10-27T06:51:01.4167591Z       "status": "A"
+2026-10-27T06:51:01.4167634Z     }
+2026-10-27T06:51:01.4167682Z   ],
+2026-10-27T06:51:01.4167764Z   "head": "55b9fe7bd067eb63adb9eb9f514a304123d4b8d2",
+2026-10-27T06:51:01.4167822Z   "integrations": [],
+2026-10-27T06:51:01.4167875Z   "records": [
+2026-10-27T06:51:01.4167996Z     "docs/releases/pushes/1815bc7a2c32e5f8a4ab5fffc0767c76bb86b702.md",
+2026-10-27T06:51:01.4168114Z     "docs/releases/pushes/259f1137f4d6d62adf1c3348eb5a5cd0e24cf29f.md"
+2026-10-27T06:51:01.4168158Z   ],
+2026-10-27T06:51:01.4168218Z   "run_id": "40463514026",
+2026-10-27T06:51:01.4168418Z   "scope": "Recorded architecture/infrastructure tests; destination QA remains explicit in pending/evidence",
+2026-10-27T06:51:01.4168481Z   "status": "PASS"
+2026-10-27T06:51:01.4168523Z }
+
+
+=== release-documentation/7_Generate condensed PDF including failed verification outcomes.txt ===
+﻿2026-10-27T06:51:01.4211183Z ##[group]Run python3 -B -m blueheart.release_pdf --receipt "$RUNNER_TEMP/release-receipt.json" --output "$RUNNER_TEMP/release-notes/release-notes-55b9fe7bd067eb63adb9eb9f514a304123d4b8d2.pdf" --check architecture:success --check tests:success --check documentation:success
+2026-10-27T06:51:01.4211833Z [36;1mpython3 -B -m blueheart.release_pdf --receipt "$RUNNER_TEMP/release-receipt.json" --output "$RUNNER_TEMP/release-notes/release-notes-55b9fe7bd067eb63adb9eb9f514a304123d4b8d2.pdf" --check architecture:success --check tests:success --check documentation:success[0m
+2026-10-27T06:51:01.4263937Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:51:01.4263994Z ##[endgroup]
+2026-10-27T06:51:01.7073471Z {"status": "CREATED", "report_status": "PASS", "path": "/home/runner/work/_temp/release-notes/release-notes-55b9fe7bd067eb63adb9eb9f514a304123d4b8d2.pdf", "head": "55b9fe7bd067eb63adb9eb9f514a304123d4b8d2"}
