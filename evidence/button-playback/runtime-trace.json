@@ -1,0 +1,790 @@
+{
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "frameId": "16:32",
+  "url": "https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=16-32&starting-point-node-id=16%3A32&scaling=scale-down&content-scaling=fixed",
+  "viewport": {
+    "width": 865,
+    "height": 565
+  },
+  "matrixRect": {
+    "x": 308,
+    "y": 60,
+    "width": 247,
+    "height": 445
+  },
+  "runtimeCases": [
+    {
+      "kind": "default_hover_return",
+      "size": "large",
+      "family": "primary",
+      "coordinate": [
+        361,
+        127
+      ],
+      "active": "evidence/button-playback/fit-large-primary-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-primary-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "large",
+      "family": "secondary",
+      "coordinate": [
+        361,
+        144
+      ],
+      "active": "evidence/button-playback/fit-large-secondary-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-secondary-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "large",
+      "family": "text",
+      "coordinate": [
+        361,
+        161
+      ],
+      "active": "evidence/button-playback/fit-large-text-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-text-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "large",
+      "family": "link",
+      "coordinate": [
+        361,
+        178
+      ],
+      "active": "evidence/button-playback/fit-large-link-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-link-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "medium",
+      "family": "primary",
+      "coordinate": [
+        361,
+        232
+      ],
+      "active": "evidence/button-playback/fit-medium-primary-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-primary-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "medium",
+      "family": "secondary",
+      "coordinate": [
+        361,
+        249
+      ],
+      "active": "evidence/button-playback/fit-medium-secondary-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-secondary-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "medium",
+      "family": "text",
+      "coordinate": [
+        361,
+        266
+      ],
+      "active": "evidence/button-playback/fit-medium-text-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-text-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "medium",
+      "family": "link",
+      "coordinate": [
+        361,
+        283
+      ],
+      "active": "evidence/button-playback/fit-medium-link-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-link-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "small",
+      "family": "primary",
+      "coordinate": [
+        361,
+        337
+      ],
+      "active": "evidence/button-playback/fit-small-primary-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-primary-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "small",
+      "family": "secondary",
+      "coordinate": [
+        361,
+        354
+      ],
+      "active": "evidence/button-playback/fit-small-secondary-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-secondary-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "small",
+      "family": "text",
+      "coordinate": [
+        361,
+        371
+      ],
+      "active": "evidence/button-playback/fit-small-text-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-text-return.jpg"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "small",
+      "family": "link",
+      "coordinate": [
+        361,
+        388
+      ],
+      "active": "evidence/button-playback/fit-small-link-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-link-return.jpg"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "large",
+      "family": "primary",
+      "coordinate": [
+        463,
+        127
+      ],
+      "active": "evidence/button-playback/fit-large-primary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-primary-focus-return.jpg"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "large",
+      "family": "secondary",
+      "coordinate": [
+        463,
+        144
+      ],
+      "active": "evidence/button-playback/fit-large-secondary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-secondary-focus-return.jpg"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "large",
+      "family": "link",
+      "coordinate": [
+        463,
+        178
+      ],
+      "active": "evidence/button-playback/fit-large-link-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-link-focus-return.jpg"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "medium",
+      "family": "primary",
+      "coordinate": [
+        463,
+        232
+      ],
+      "active": "evidence/button-playback/fit-medium-primary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-primary-focus-return.jpg"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "medium",
+      "family": "secondary",
+      "coordinate": [
+        463,
+        249
+      ],
+      "active": "evidence/button-playback/fit-medium-secondary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-secondary-focus-return.jpg"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "medium",
+      "family": "link",
+      "coordinate": [
+        463,
+        283
+      ],
+      "active": "evidence/button-playback/fit-medium-link-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-link-focus-return.jpg"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "small",
+      "family": "secondary",
+      "coordinate": [
+        463,
+        354
+      ],
+      "active": "evidence/button-playback/fit-small-secondary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-secondary-focus-return.jpg"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "small",
+      "family": "link",
+      "coordinate": [
+        463,
+        388
+      ],
+      "active": "evidence/button-playback/fit-small-link-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-link-focus-return.jpg"
+    },
+    {
+      "kind": "hover_press_return",
+      "size": "large",
+      "family": "link",
+      "coordinate": [
+        395,
+        178
+      ],
+      "active": "evidence/button-playback/fit-large-link-pressed.jpg",
+      "returned": "evidence/button-playback/fit-large-link-press-return.jpg",
+      "startedAt": 1793114190479,
+      "capturedAt": 1793114191448,
+      "releasedAt": 1793114193622,
+      "capturedWhileHeld": true
+    },
+    {
+      "kind": "hover_press_return",
+      "size": "medium",
+      "family": "link",
+      "coordinate": [
+        395,
+        283
+      ],
+      "active": "evidence/button-playback/fit-medium-link-pressed.jpg",
+      "returned": "evidence/button-playback/fit-medium-link-press-return.jpg",
+      "startedAt": 1793114194663,
+      "capturedAt": 1793114195697,
+      "releasedAt": 1793114197787,
+      "capturedWhileHeld": true
+    },
+    {
+      "kind": "hover_press_return",
+      "size": "small",
+      "family": "link",
+      "coordinate": [
+        395,
+        388
+      ],
+      "active": "evidence/button-playback/fit-small-link-pressed.jpg",
+      "returned": "evidence/button-playback/fit-small-link-press-return.jpg",
+      "startedAt": 1793114198888,
+      "capturedAt": 1793114199829,
+      "releasedAt": 1793114202113,
+      "capturedWhileHeld": true
+    }
+  ],
+  "staticCases": [
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "primary",
+      "coordinate": [
+        531,
+        127
+      ],
+      "image": "evidence/button-playback/fit-large-primary-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "secondary",
+      "coordinate": [
+        531,
+        144
+      ],
+      "image": "evidence/button-playback/fit-large-secondary-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "text",
+      "coordinate": [
+        531,
+        161
+      ],
+      "image": "evidence/button-playback/fit-large-text-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "link",
+      "coordinate": [
+        531,
+        178
+      ],
+      "image": "evidence/button-playback/fit-large-link-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "danger",
+      "coordinate": [
+        531,
+        195
+      ],
+      "image": "evidence/button-playback/fit-large-danger-disabled-click.jpg"
+    },
+    {
+      "kind": "unwired_danger_default",
+      "size": "large",
+      "family": "danger",
+      "coordinate": [
+        361,
+        195
+      ],
+      "image": "evidence/button-playback/fit-large-danger-default-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "primary",
+      "coordinate": [
+        531,
+        232
+      ],
+      "image": "evidence/button-playback/fit-medium-primary-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "secondary",
+      "coordinate": [
+        531,
+        249
+      ],
+      "image": "evidence/button-playback/fit-medium-secondary-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "text",
+      "coordinate": [
+        531,
+        266
+      ],
+      "image": "evidence/button-playback/fit-medium-text-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "link",
+      "coordinate": [
+        531,
+        283
+      ],
+      "image": "evidence/button-playback/fit-medium-link-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "danger",
+      "coordinate": [
+        531,
+        300
+      ],
+      "image": "evidence/button-playback/fit-medium-danger-disabled-click.jpg"
+    },
+    {
+      "kind": "unwired_danger_default",
+      "size": "medium",
+      "family": "danger",
+      "coordinate": [
+        361,
+        300
+      ],
+      "image": "evidence/button-playback/fit-medium-danger-default-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "primary",
+      "coordinate": [
+        531,
+        337
+      ],
+      "image": "evidence/button-playback/fit-small-primary-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "secondary",
+      "coordinate": [
+        531,
+        354
+      ],
+      "image": "evidence/button-playback/fit-small-secondary-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "text",
+      "coordinate": [
+        531,
+        371
+      ],
+      "image": "evidence/button-playback/fit-small-text-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "link",
+      "coordinate": [
+        531,
+        388
+      ],
+      "image": "evidence/button-playback/fit-small-link-disabled-click.jpg"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "danger",
+      "coordinate": [
+        531,
+        405
+      ],
+      "image": "evidence/button-playback/fit-small-danger-disabled-click.jpg"
+    },
+    {
+      "kind": "unwired_danger_default",
+      "size": "small",
+      "family": "danger",
+      "coordinate": [
+        361,
+        405
+      ],
+      "image": "evidence/button-playback/fit-small-danger-default-click.jpg"
+    }
+  ],
+  "animationSamples": [
+    {
+      "sample": 0,
+      "time": "2026-10-27T15:12:26.830Z",
+      "path": "evidence/button-playback/fit-loading-sample-0.jpg"
+    },
+    {
+      "sample": 1,
+      "time": "2026-10-27T15:12:27.097Z",
+      "path": "evidence/button-playback/fit-loading-sample-1.jpg"
+    },
+    {
+      "sample": 2,
+      "time": "2026-10-27T15:12:27.320Z",
+      "path": "evidence/button-playback/fit-loading-sample-2.jpg"
+    },
+    {
+      "sample": 3,
+      "time": "2026-10-27T15:12:27.565Z",
+      "path": "evidence/button-playback/fit-loading-sample-3.jpg"
+    },
+    {
+      "sample": 4,
+      "time": "2026-10-27T15:12:27.784Z",
+      "path": "evidence/button-playback/fit-loading-sample-4.jpg"
+    }
+  ],
+  "events": [
+    {
+      "path": "evidence/button-playback/fit-baseline.jpg",
+      "fileWrittenAt": "2026-10-27T15:04:45.949Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-danger-default-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:11.054Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-danger-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:10.431Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-link-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:09.718Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-link-focus-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:44.990Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-link-focus-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:45.607Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-link-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:53.582Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-link-press-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:16:34.013Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-link-pressed.jpg",
+      "fileWrittenAt": "2026-10-27T15:16:31.448Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-link-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:54.302Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-primary-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:07.421Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-primary-focus-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:42.136Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-primary-focus-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:42.838Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-primary-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:49.763Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-primary-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:50.483Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-secondary-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:08.180Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-secondary-focus-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:43.563Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-secondary-focus-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:44.276Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-secondary-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:51.140Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-secondary-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:51.718Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-text-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:08.995Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-text-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:52.344Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-large-text-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:52.962Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-loading-sample-0.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:26.830Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-loading-sample-1.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:27.098Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-loading-sample-2.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:27.320Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-loading-sample-3.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:27.565Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-loading-sample-4.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:27.784Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-danger-default-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:15.275Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-danger-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:14.553Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-link-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:13.832Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-link-focus-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:49.090Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-link-focus-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:49.733Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-link-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:58.823Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-link-press-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:16:38.253Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-link-pressed.jpg",
+      "fileWrittenAt": "2026-10-27T15:16:35.698Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-link-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:59.544Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-primary-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:11.724Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-primary-focus-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:46.328Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-primary-focus-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:46.918Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-primary-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:54.915Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-primary-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:55.538Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-secondary-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:12.385Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-secondary-focus-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:47.632Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-secondary-focus-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:48.380Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-secondary-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:56.152Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-secondary-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:56.786Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-text-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:13.113Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-text-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:57.405Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-medium-text-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:07:58.101Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-danger-default-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:19.459Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-danger-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:18.848Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-link-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:18.137Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-link-focus-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:51.847Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-link-focus-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:52.566Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-link-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:08:04.479Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-link-press-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:16:42.545Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-link-pressed.jpg",
+      "fileWrittenAt": "2026-10-27T15:16:39.829Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-link-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:08:05.202Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-primary-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:15.947Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-primary-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:08:00.233Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-primary-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:08:00.990Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-secondary-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:16.703Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-secondary-focus-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:50.402Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-secondary-focus-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:10:51.132Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-secondary-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:08:01.712Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-secondary-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:08:02.434Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-text-disabled-click.jpg",
+      "fileWrittenAt": "2026-10-27T15:12:17.420Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-text-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:08:03.017Z"
+    },
+    {
+      "path": "evidence/button-playback/fit-small-text-return.jpg",
+      "fileWrittenAt": "2026-10-27T15:08:03.763Z"
+    },
+    {
+      "path": "evidence/button-playback/readable-large-baseline.jpg",
+      "fileWrittenAt": "2026-10-27T15:18:38.411Z"
+    },
+    {
+      "path": "evidence/button-playback/readable-large-loading-a.jpg",
+      "fileWrittenAt": "2026-10-27T15:18:39.203Z"
+    },
+    {
+      "path": "evidence/button-playback/readable-large-loading-b.jpg",
+      "fileWrittenAt": "2026-10-27T15:18:39.445Z"
+    },
+    {
+      "path": "evidence/button-playback/readable-large-primary-hover.jpg",
+      "fileWrittenAt": "2026-10-27T15:18:39.143Z"
+    }
+  ],
+  "input_settlement": "Accepted press captures follow pointer dispatch settlement and precede release; early dispatch-only samples are exploratory and excluded."
+}
