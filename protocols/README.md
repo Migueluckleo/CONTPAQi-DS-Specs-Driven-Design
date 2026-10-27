@@ -1,6 +1,6 @@
 # Contratos operativos de Blue Heart DS
 
-Ocho propietarios Markdown, registrados por ID, versión y hash en [norms/catalog.json](../norms/catalog.json), perfil [operational](../schemas/operational.schema.json), autoridad ADR-011 y extensión de publicación/PDF ADR-012. La elegibilidad documental no acredita implementación de los destinos ni amplía la fase. Cada archivo contiene entradas, salidas, responsables, fallos, requisitos y aceptación.
+Ocho propietarios Markdown, registrados por ID, versión y hash en [norms/catalog.json](../norms/catalog.json), perfil [operational](../schemas/operational.schema.json), autoridad ADR-011 y extensión de publicación/PDF ADR-012 y flujo sin aprobaciones obligatorias ADR-013. La elegibilidad documental no acredita implementación de los destinos ni amplía la fase. Cada archivo contiene entradas, salidas, responsables, fallos, requisitos y aceptación.
 
 | ID | Propietario único | Versión |
 |---|---|---|
@@ -11,7 +11,7 @@ Ocho propietarios Markdown, registrados por ID, versión y hash en [norms/catalo
 | BH-P05 | [05-MAINTENANCE-AND-RELEASES](05-MAINTENANCE-AND-RELEASES.md) | 2.0.0 |
 | BH-P06 | [06-PHOSPHOR-ICONS](06-PHOSPHOR-ICONS.md) | 2.0.0 |
 | BH-P07 | [07-COMPONENT-TOKENS](07-COMPONENT-TOKENS.md) | 2.0.0 |
-| BH-P08 | [08-GITHUB-RELEASE-DOCUMENTATION](08-GITHUB-RELEASE-DOCUMENTATION.md) | 1.1.0 |
+| BH-P08 | [08-GITHUB-RELEASE-DOCUMENTATION](08-GITHUB-RELEASE-DOCUMENTATION.md) | 1.2.0 |
 
 Consultar solo el contrato del encargo y sus dependencias: `python3 -B -m blueheart context BH-P02`. `check` verifica estructura, autoridad, fuentes, hashes y cierre; no ejecuta Figma ni acredita QA de destinos. Los protocolos se consultan por tarea, sin añadir los ocho al contexto de cada componente. El contrato Button conserva diseño y función; los protocolos gobiernan el trabajo. Los valores permanecen en su conjunto de tokens.
 

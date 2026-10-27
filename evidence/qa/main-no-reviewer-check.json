@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "decision": "ADR-013",
+  "status": "PASS_CONFIGURATION_APPLIED_PR_INTEGRATION_PENDING",
+  "repository": "Migueluckleo/CONTPAQi-DS-Specs-Driven-Design",
+  "ruleset_id": 25937206,
+  "before": {
+    "id": 25937206,
+    "name": "Blue Heart DS - documented integrations",
+    "target": "branch",
+    "source_type": "Repository",
+    "source": "Migueluckleo/CONTPAQi-DS-Specs-Driven-Design",
+    "enforcement": "active",
+    "conditions": {
+      "ref_name": {
+        "exclude": [],
+        "include": [
+          "~DEFAULT_BRANCH"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "type": "deletion"
+      },
+      {
+        "type": "non_fast_forward"
+      },
+      {
+        "type": "pull_request",
+        "parameters": {
+          "required_approving_review_count": 1,
+          "dismiss_stale_reviews_on_push": true,
+          "required_reviewers": [],
+          "require_code_owner_review": false,
+          "require_last_push_approval": true,
+          "required_review_thread_resolution": true,
+          "require_extra_approval_for_unattributed_changes": true,
+          "allowed_merge_methods": [
+            "merge"
+          ]
+        }
+      },
+      {
+        "type": "required_status_checks",
+        "parameters": {
+          "strict_required_status_checks_policy": true,
+          "do_not_enforce_on_create": false,
+          "required_status_checks": [
+            {
+              "context": "release-documentation",
+              "integration_id": 15368
+            }
+          ]
+        }
+      }
+    ],
+    "node_id": "RRS_lACqUmVwb3NpdG9yec5VjNqyzgGLxTY",
+    "created_at": "2026-10-27T00:24:12.271-06:00",
+    "updated_at": "2026-10-27T00:24:12.394-06:00",
+    "bypass_actors": [],
+    "current_user_can_bypass": "never",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design/rulesets/25937206"
+      },
+      "html": {
+        "href": "https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design/rules/25937206"
+      }
+    }
+  },
+  "after": {
+    "id": 25937206,
+    "name": "Blue Heart DS - documented integrations",
+    "target": "branch",
+    "source_type": "Repository",
+    "source": "Migueluckleo/CONTPAQi-DS-Specs-Driven-Design",
+    "enforcement": "active",
+    "conditions": {
+      "ref_name": {
+        "exclude": [],
+        "include": [
+          "~DEFAULT_BRANCH"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "type": "deletion"
+      },
+      {
+        "type": "non_fast_forward"
+      },
+      {
+        "type": "pull_request",
+        "parameters": {
+          "required_approving_review_count": 0,
+          "dismiss_stale_reviews_on_push": false,
+          "required_reviewers": [],
+          "require_code_owner_review": false,
+          "require_last_push_approval": false,
+          "required_review_thread_resolution": true,
+          "require_extra_approval_for_unattributed_changes": false,
+          "allowed_merge_methods": [
+            "merge"
+          ]
+        }
+      },
+      {
+        "type": "required_status_checks",
+        "parameters": {
+          "strict_required_status_checks_policy": true,
+          "do_not_enforce_on_create": false,
+          "required_status_checks": [
+            {
+              "context": "release-documentation",
+              "integration_id": 15368
+            }
+          ]
+        }
+      }
+    ],
+    "node_id": "RRS_lACqUmVwb3NpdG9yec5VjNqyzgGLxTY",
+    "created_at": "2026-10-27T00:24:12.271-06:00",
+    "updated_at": "2026-10-27T00:47:04.247-06:00",
+    "bypass_actors": [],
+    "current_user_can_bypass": "never",
+    "_links": {
+      "self": {
+        "href": "https://api.github.com/repos/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design/rulesets/25937206"
+      },
+      "html": {
+        "href": "https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design/rules/25937206"
+      }
+    }
+  },
+  "other_rules_preserved": true,
+  "classic_protection": "NOT_CONFIGURED",
+  "tests": {
+    "count": 87,
+    "status": "PASS",
+    "log": "evidence/qa/main-no-reviewer-tests.txt",
+    "sha256": "5fcb9562bd860f39ce43b355742f0e4a3c24cef78f1f17e81af9ac32363ebe89"
+  },
+  "independent_review": {
+    "executed": false,
+    "required_for_github_integration": false
+  },
+  "integration_proof": "PENDING_PR_WITH_GREEN_CI; actual merge and its CI receipt will complete verification",
+  "original_project_writes": 0,
+  "component_changes": false
+}
