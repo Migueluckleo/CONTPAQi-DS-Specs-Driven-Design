@@ -1,0 +1,75 @@
+{
+  "status": "PASS_COMPONENT_NAMING_DOCUMENTATION",
+  "authorization": "ADR-010",
+  "source": "evidence/component-naming/figma-read-response.json",
+  "observedMap": {
+    "path": "evidence/component-naming/observed-names.json",
+    "sha256": "c17d730cb006e400ca4adba05cdc660b07bb893087609bbe2b77d683783a468f"
+  },
+  "count": 47,
+  "format": [
+    "<component>/<category>/<property[-qualifier]>",
+    "<component>/color/<element>/<role[-state]>"
+  ],
+  "protocol": {
+    "id": "BH-P07",
+    "version": "1.1.0",
+    "path": "protocols/07-COMPONENT-TOKENS.md",
+    "sha256": "03e9196ca43ea15ad6ef40382480485e0bbd22f14ae009b110ce9694f663cad4"
+  },
+  "examples": [
+    "button/color/bg/primary-default",
+    "button/font/size-compact",
+    "button/size/height-medium",
+    "button/border/width-regular"
+  ],
+  "observedExceptions": [
+    {
+      "path": "button/font/line-hight",
+      "kind": "TYPO_OBSERVED",
+      "documentedCanonicalSpelling": "line-height",
+      "figmaChanged": false
+    },
+    {
+      "path": "button/color/loader (temporal)/inverse",
+      "kind": "TEMPORARY_PILOT_ANNOTATION",
+      "figmaChanged": false
+    },
+    {
+      "path": "button/color/loader (temporal)/neutral",
+      "kind": "TEMPORARY_PILOT_ANNOTATION",
+      "figmaChanged": false
+    }
+  ],
+  "identityAndValueChecks": {
+    "ids": "47 preserved",
+    "keys": "47 preserved",
+    "types": "47 preserved",
+    "scopes": "47 preserved",
+    "modeAliasIds": "188 preserved",
+    "WEB": "47 preserved",
+    "names": "47 hierarchical paths observed"
+  },
+  "localIntegration": [
+    "protocols/07-COMPONENT-TOKENS.md",
+    "protocols/01-COMPONENT-CONTRACT.md",
+    "protocols/02-FIGMA-CONSTRUCTION.md",
+    "protocols/03-WEB-CONSTRUCTION.md",
+    "protocols/04-QA-AND-DELIVERY.md",
+    "governance/policy.json",
+    "AGENTS.md",
+    "consumption/button/manifest.json",
+    "implementations/figma/button-tokens.js",
+    "implementations/figma/button-consumer-check.js"
+  ],
+  "adapterData": "PASS exact match to 47 observed paths; creates native variable from figmaName, keeps logical CSS name separate",
+  "tests": {
+    "status": "PASS",
+    "count": 49,
+    "log": "evidence/component-naming/unit-tests.log"
+  },
+  "figmaWrites": false,
+  "originalProjectWrites": false,
+  "publicTokenIdsAndCss": "UNCHANGED",
+  "scope": "Naming rule and observed implementation metadata; no visual/build/interaction change"
+}

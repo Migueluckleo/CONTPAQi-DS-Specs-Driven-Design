@@ -1,0 +1,99 @@
+{
+  "status": "PASS_PROTOCOL_RECOVERY_AND_DOCUMENTATION",
+  "authorization": "ADR-005",
+  "original_files_verified": [
+    {
+      "source": "protocols/01-ENVIRONMENT-AND-TOOLS.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/02-DOCUMENT-INGESTION-AND-STORAGE.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/03-CONTRACT-SYNTHESIS.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/04-FIGMA-CONSTRUCTION.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/06-QA-AND-VALIDATION.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/07-WEB-COMPONENTS-AND-TECHNICAL-DOCUMENTATION.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/08-SKILLS-AND-RELEASES.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/SLOTS-REVIEW-AND-IMPLEMENTATION.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "references/DESIGN-RULES.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "references/EFFICIENT-CLOSURE.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "implementations/web/README.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "implementations/web/package.json",
+      "source_unchanged": true,
+      "copy_exact": true
+    }
+  ],
+  "original_protocols": 9,
+  "optimized_procedures": 5,
+  "routing_index": "protocols/README.md",
+  "local_links_checked": 27,
+  "broken_links": [],
+  "code_fences": "BALANCED",
+  "archived_links_policy": "Exact historical snapshots retain original links; they are evidence, not operational documents or a copied contract corpus.",
+  "reference_manifest": "evidence/protocol-recovery/manifest.json",
+  "new_component_contracts": 0,
+  "new_component_implementations": 0,
+  "new_component_tokens": 0,
+  "figma_write_operations_this_task": 0,
+  "dependencies_installed": [],
+  "unit_tests": {
+    "passed": 37,
+    "failed": 0,
+    "log": "evidence/qa/protocol-recovery-tests.log"
+  },
+  "core_check": "evidence/qa/core-check.json",
+  "technical_documentation_urls_verified": [
+    "https://nextjs.org/docs/app/getting-started/server-and-client-components",
+    "https://react.dev/reference/rsc/use-client",
+    "https://tailwindcss.com/docs/detecting-classes-in-source-files",
+    "https://tailwindcss.com/docs/theme",
+    "https://www.typescriptlang.org/tsconfig/strict.html",
+    "https://www.w3.org/WAI/ARIA/apg/practices/keyboard-interface/"
+  ],
+  "validation_scope": "Document provenance, links, phase boundaries and existing infrastructure tests; no component implementation QA."
+}

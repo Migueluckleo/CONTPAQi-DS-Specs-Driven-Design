@@ -1,0 +1,149 @@
+Fase 1: Implementación arquitectónica y auditoría de Foundations
+Contexto
+Hemos completado la auditoría arquitectónica del proyecto anterior.
+
+Los documentos de referencia son:
+- auditoria/2026-10-26/01-diagnostico.md
+- auditoria/2026-10-26/02-arquitectura-propuesta.md
+- auditoria/2026-10-26/03-plan-migracion.md
+Decisión del responsable del proyecto:
+
+Adoptamos la arquitectura modular descrita en 02-arquitectura-propuesta.md como línea base para Blue Heart DS.
+
+No necesitamos repetir la auditoría general ni rediseñar desde cero lo que ya fue analizado.
+
+Puedes realizar ajustes técnicos justificados, manteniendo los principios fundamentales de la propuesta.
+Misión 1: Construcción de la arquitectura base
+Implementa la estructura inicial de Blue Heart DS siguiendo las responsabilidades y límites de módulos establecidos en la propuesta arquitectónica.
+
+El repositorio debe comenzar limpio, sin incorporar componentes ni contratos históricos.
+
+Prepara la arquitectura necesaria para:
+1. Gestionar Design Tokens con identidad y procedencia verificables.
+2. Soportar contratos SDD mediante perfiles diferenciados para Foundations, componentes y patrones.
+3. Resolver dependencias y referencias de manera determinista.
+4. Separar evidencia histórica, normas vigentes e implementaciones.
+5. Incorporar posteriormente adaptadores independientes para Figma y React.
+6. Ejecutar validaciones y controles QA proporcionales al cambio.
+7. Permitir agentes especializados bajo demanda.
+8. Incorporar Graphify posteriormente como módulo opcional.
+Optimización de protocolos
+No copies los protocolos originales.
+
+Utiliza sus aprendizajes para establecer un sistema de gobierno más compacto.
+
+Prioriza:
+- Una única fuente de autoridad por regla.
+- Contratos SDD con estructura mínima según el tipo de entidad.
+- Validaciones automatizables.
+- Trazabilidad de decisiones y evidencia.
+- Reglas de preservación.
+- Documentación generada cuando sea posible.
+- Consulta selectiva para reducir consumo de contexto.
+No generes documentación redundante ni estructuras vacías que no tengan una responsabilidad definida.
+Estado inicial obligatorio
+Al terminar la preparación arquitectónica:
+- No debe existir ningún contrato de componente.
+- No debe existir ninguna implementación de componente.
+- No debe existir una biblioteca React poblada.
+- No debe existir un grafo de conocimiento obligatorio.
+- No deben importarse los archivos históricos del sistema anterior.
+Los módulos previstos pueden permanecer sin implementación hasta que una necesidad real justifique desarrollarlos.
+
+Se autoriza crear los archivos mínimos de arquitectura, configuración, esquemas y pruebas necesarios para establecer una base funcional y verificable.
+
+No instales dependencias adicionales sin justificar previamente su necesidad.
+Misión 2: Auditoría de Foundations
+Una vez preparada y verificada la estructura base, inicia la auditoría del archivo original de Figma.
+
+ARCHIVO ORIGEN:
+
+https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=268-20245
+
+Este archivo es estrictamente de solo lectura.
+
+ARCHIVO DESTINO:
+
+https://www.figma.com/design/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=0-1
+
+Este archivo alojará posteriormente el sistema de diseño normalizado. Durante esta fase también permanece sin modificaciones.
+
+Verifica la capacidad real de lectura de las colecciones y variables del archivo origen.
+
+Audita primitivas, tokens semánticos, valores, aliases, modos, identificadores y dependencias.
+
+Detecta posibles redundancias semánticas.
+
+Por ejemplo:
+
+color.accent → color.blue.200
+
+color.subtle → color.blue.200
+
+Investiga si ambos tokens expresan la misma intención antes de proponer una consolidación.
+
+No confundas igualdad de valores con igualdad semántica.
+Arquitectura objetivo de tokens
+Trabajaremos con tres niveles:
+
+Primitivo → Semántico → Componente
+
+Ejemplo de resolución desde el consumidor:
+
+color.background.button.primary.default
+
+↓
+
+color.accent
+
+↓
+
+color.blue.200
+
+↓
+
+Valor real
+
+No crees todavía tokens de componente. Define únicamente cómo deberán gestionarse.
+Entregables
+Al finalizar, presenta:
+
+A. Arquitectura implementada
+
+Estructura del repositorio, responsabilidades de los módulos, decisiones aplicadas y mecanismos realmente funcionales.
+
+B. Gobierno SDD optimizado
+
+Reglas y esquemas mínimos que sustituirán la complejidad documental anterior.
+
+C. Auditoría de Foundations
+
+Inventario verificable de primitivas, tokens semánticos, aliases, modos y dependencias.
+
+D. Propuesta de normalización
+
+Recomendaciones justificadas para simplificar y organizar los tokens.
+
+E. Matriz de impacto
+
+Correspondencia entre variables originales, cambios propuestos y consumidores identificables.
+
+F. QA
+
+Evidencia de funcionamiento de la arquitectura base y limitaciones de cobertura de la auditoría.
+Restricciones
+- No modificar el archivo Figma original.
+- No modificar todavía el archivo Figma de destino.
+- No copiar contratos históricos.
+- No crear contratos de componentes.
+- No instalar Graphify.
+- No generar componentes.
+- No migrar la biblioteca anterior.
+- No alterar las decisiones de arquitectura sin justificación documentada.
+- No confundir infraestructura preparada con funcionalidades implementadas y verificadas.
+Criterio de éxito
+La fase será satisfactoria cuando Blue Heart DS tenga una arquitectura mínima, modular y verificable, preparada para gestionar contratos, tokens e implementaciones futuras, pero sin contenido de componentes heredado.
+
+La auditoría de Foundations deberá entregar una propuesta de normalización basada en evidencia, pendiente de aprobación antes de cualquier escritura en Figma.
+
+Comienza implementando la estructura arquitectónica mínima siguiendo el documento 02. Después realiza la auditoría de Foundations. No construyas todavía componentes ni escribas variables en Figma.

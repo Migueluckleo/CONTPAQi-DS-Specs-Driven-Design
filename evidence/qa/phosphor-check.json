@@ -1,0 +1,61 @@
+{
+  "status": "PASS_PHOSPHOR_UPDATE",
+  "authorization": "ADR-007",
+  "contract": {
+    "id": "BUTTON-001",
+    "version": "2.0.0",
+    "path": "norms/components/button.2.0.0.md",
+    "sha256": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482",
+    "current": true
+  },
+  "sourceLibrary": {
+    "fileKey": "xZSksKpcQTp5H3C4dZApBL",
+    "pageId": "7484:1322",
+    "setId": "8899:53875",
+    "componentId": "8899:53827",
+    "componentKey": "46d251bb4099700c5852180f2370d265e5166432",
+    "canonicalName": "PlusCircle",
+    "properties": {
+      "Format": "Outline",
+      "Weight": "Light"
+    },
+    "width": 32,
+    "height": 32
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "11:128",
+    "id": "28:501",
+    "key": "46d251bb4099700c5852180f2370d265e5166432",
+    "remote": true
+  },
+  "mainIcons": 150,
+  "inheritedIcons": 156,
+  "consumerInstances": 94,
+  "themeColorChecks": 600,
+  "retiredLocalNodes": [
+    "13:2",
+    "13:3"
+  ],
+  "web": {
+    "status": "OFFICIAL_MAPPING_DOCUMENTED",
+    "package": "@phosphor-icons/react",
+    "export": "PlusCircleIcon",
+    "weight": "light",
+    "dependencyInstalled": false
+  },
+  "core": "PASS",
+  "unitTests": {
+    "status": "PASS",
+    "count": 44
+  },
+  "visual": "evidence/button-reduction/review.png",
+  "sourceWrites": false,
+  "originalProjectWrites": false,
+  "inspection": "evidence/phosphor/check-response.json",
+  "limitation": "Official export and documented API verified; no web build or pixel parity certification against a pinned npm version.",
+  "variables": 298,
+  "baseVariablesUnchanged": 251,
+  "tokenBindings": "evidence/qa/button-reduction-check.json",
+  "evidenceReuse": "Remote icon identities and geometry unchanged; token remapping verified for every captured binding."
+}

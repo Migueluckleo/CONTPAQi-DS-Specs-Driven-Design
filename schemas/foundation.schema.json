@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:blueheart:foundation.schema.json",
+  "allOf": [
+    {
+      "$ref": "contract.schema.json"
+    },
+    {
+      "properties": {
+        "profile": {
+          "const": "foundation"
+        },
+        "profile_data": {
+          "type": "object",
+          "properties": {
+            "domains": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "color",
+                  "typography",
+                  "spacing",
+                  "size",
+                  "radius",
+                  "stroke",
+                  "effect",
+                  "opacity",
+                  "duration"
+                ]
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "domains"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

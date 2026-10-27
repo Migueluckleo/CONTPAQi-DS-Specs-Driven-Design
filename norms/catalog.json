@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "contracts": [
+    {
+      "id": "BUTTON-001",
+      "version": "2.0.0",
+      "path": "norms/components/button.2.0.0.md",
+      "sha256": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482",
+      "current": true
+    },
+    {
+      "id": "BH-P01",
+      "version": "2.0.0",
+      "path": "protocols/01-COMPONENT-CONTRACT.md",
+      "sha256": "7ea07daefa454d659b3912de48192df7eb9bc1edccae3502bfde494ef3433daf",
+      "current": true
+    },
+    {
+      "id": "BH-P02",
+      "version": "2.0.0",
+      "path": "protocols/02-FIGMA-CONSTRUCTION.md",
+      "sha256": "3803d3c1a6a0e27bbc70cb9194238a03ff42a9421c3290e50c70b15c334e4e63",
+      "current": true
+    },
+    {
+      "id": "BH-P03",
+      "version": "2.0.0",
+      "path": "protocols/03-WEB-CONSTRUCTION.md",
+      "sha256": "85963c24ed44c6f84db8f9ebcf7819ee8afd1dae3e39ec55a926c87c5e64675b",
+      "current": true
+    },
+    {
+      "id": "BH-P04",
+      "version": "2.0.0",
+      "path": "protocols/04-QA-AND-DELIVERY.md",
+      "sha256": "5319c313cce55463e9bd8aad4386a577fc5b247e3417fe9c7d2b3c8149b362eb",
+      "current": true
+    },
+    {
+      "id": "BH-P05",
+      "version": "2.0.0",
+      "path": "protocols/05-MAINTENANCE-AND-RELEASES.md",
+      "sha256": "c5f4619fac2912fe9251dd7a9483c2fc93cc071a762c70fbd43122552c46525d",
+      "current": true
+    },
+    {
+      "id": "BH-P06",
+      "version": "2.0.0",
+      "path": "protocols/06-PHOSPHOR-ICONS.md",
+      "sha256": "1c4dbe87f3d86a2c81b09d3a1df585efe7a5a76140ae167ddba254dc0845c625",
+      "current": true
+    },
+    {
+      "id": "BH-P07",
+      "version": "2.0.0",
+      "path": "protocols/07-COMPONENT-TOKENS.md",
+      "sha256": "c77d9bea4bcaeec0688b082d322009ab8ba154f7aa32302b4adfbfb30a5451b6",
+      "current": true
+    },
+    {
+      "id": "BH-P08",
+      "version": "1.0.0",
+      "path": "protocols/08-GITHUB-RELEASE-DOCUMENTATION.md",
+      "sha256": "2a19d9c9f86121abffd19ea04eec6a2e13d1701045d9dcc92d441b6f782ccfa5",
+      "current": true
+    }
+  ],
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "2.0.0",
+      "path": "norms/tokens/blueheart.2.0.0.json",
+      "sha256": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29",
+      "current": true
+    }
+  ]
+}

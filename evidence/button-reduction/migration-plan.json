@@ -1,0 +1,1629 @@
+{
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "pageId": "11:128",
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "tokens": [
+    {
+      "name": "color-button-bg-accent",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-accent",
+        "Administrativo": "brand-administrativo-accent",
+        "Servicios": "brand-servicios-accent",
+        "Personas": "brand-personas-accent"
+      },
+      "sourceVariableId": "VariableID:2988:12",
+      "sourceVariableIds": [
+        "VariableID:2988:12"
+      ],
+      "replaces": [
+        "color-button-secondary-bg-pressed",
+        "color-button-text-bg-pressed"
+      ],
+      "retainedFrom": "color-button-secondary-bg-pressed",
+      "id": "VariableID:11:58",
+      "key": "313528f32ed58a9bdda3b0d58f17b37432cb5f51",
+      "retireIds": [
+        "VariableID:11:78"
+      ]
+    },
+    {
+      "name": "color-button-bg-disabled",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "neutral-subtle",
+        "Administrativo": "neutral-subtle",
+        "Servicios": "neutral-subtle",
+        "Personas": "neutral-subtle"
+      },
+      "sourceVariableId": "VariableID:2988:16",
+      "sourceVariableIds": [
+        "VariableID:2988:16"
+      ],
+      "replaces": [
+        "color-button-danger-bg-disabled",
+        "color-button-primary-bg-disabled"
+      ],
+      "retainedFrom": "color-button-primary-bg-disabled",
+      "id": "VariableID:11:36",
+      "key": "f3b57c7933291db5bc39615910ec434315eb5cbf",
+      "retireIds": [
+        "VariableID:11:4"
+      ]
+    },
+    {
+      "name": "color-button-bg-soft",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-subtle",
+        "Administrativo": "brand-administrativo-subtle",
+        "Servicios": "brand-servicios-subtle",
+        "Personas": "brand-personas-subtle"
+      },
+      "sourceVariableId": "VariableID:2988:14",
+      "sourceVariableIds": [
+        "VariableID:2988:14"
+      ],
+      "replaces": [
+        "color-button-link-bg-pressed",
+        "color-button-secondary-bg-hover",
+        "color-button-text-bg-hover"
+      ],
+      "retainedFrom": "color-button-secondary-bg-hover",
+      "id": "VariableID:11:56",
+      "key": "58c307fa5402b50474d2f440c46b1fac3b0bb0cd",
+      "retireIds": [
+        "VariableID:11:22",
+        "VariableID:11:77"
+      ]
+    },
+    {
+      "name": "color-button-bg-surface",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "neutral-base",
+        "Administrativo": "neutral-base",
+        "Servicios": "neutral-base",
+        "Personas": "neutral-base"
+      },
+      "sourceVariableId": "VariableID:2849:196104",
+      "sourceVariableIds": [
+        "VariableID:2849:196104"
+      ],
+      "replaces": [
+        "color-button-secondary-bg-default",
+        "color-button-secondary-bg-disabled",
+        "color-button-secondary-bg-focus",
+        "color-button-secondary-bg-loading"
+      ],
+      "retainedFrom": "color-button-secondary-bg-default",
+      "id": "VariableID:11:53",
+      "key": "a14a084ea364256e522a3264fd54f464e55e49cb",
+      "retireIds": [
+        "VariableID:11:54",
+        "VariableID:11:55",
+        "VariableID:11:57"
+      ]
+    },
+    {
+      "name": "color-button-danger-bg",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "danger-default",
+        "Administrativo": "danger-default",
+        "Servicios": "danger-default",
+        "Personas": "danger-default"
+      },
+      "sourceVariableId": "VariableID:8856:137",
+      "sourceVariableIds": [
+        "VariableID:8856:137"
+      ],
+      "replaces": [
+        "color-button-danger-bg-default",
+        "color-button-danger-bg-focus",
+        "color-button-danger-bg-loading"
+      ],
+      "retainedFrom": "color-button-danger-bg-default",
+      "id": "VariableID:11:3",
+      "key": "5f07b3d3f87f13c99ae98f1fcaeef74047caac0c",
+      "retireIds": [
+        "VariableID:11:5",
+        "VariableID:11:7"
+      ]
+    },
+    {
+      "name": "color-button-danger-bg-hover",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "danger-strong",
+        "Administrativo": "danger-strong",
+        "Servicios": "danger-strong",
+        "Personas": "danger-strong"
+      },
+      "sourceVariableId": "VariableID:8856:138",
+      "sourceVariableIds": [
+        "VariableID:8856:138"
+      ],
+      "replaces": [
+        "color-button-danger-bg-hover"
+      ],
+      "retainedFrom": "color-button-danger-bg-hover",
+      "id": "VariableID:11:6",
+      "key": "2fc1b29d62a71df803cb6fc86beab82bf243f3b8",
+      "retireIds": []
+    },
+    {
+      "name": "color-button-danger-bg-pressed",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "danger-deep",
+        "Administrativo": "danger-deep",
+        "Servicios": "danger-deep",
+        "Personas": "danger-deep"
+      },
+      "sourceVariableId": "VariableID:8856:139",
+      "sourceVariableIds": [
+        "VariableID:8856:139"
+      ],
+      "replaces": [
+        "color-button-danger-bg-pressed"
+      ],
+      "retainedFrom": "color-button-danger-bg-pressed",
+      "id": "VariableID:11:8",
+      "key": "3de62bdf3a29b942170e54d83b6447b8842f9645",
+      "retireIds": []
+    },
+    {
+      "name": "color-button-focus-stroke",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": {
+        "Contable": "brand-strong",
+        "Administrativo": "brand-strong",
+        "Servicios": "brand-strong",
+        "Personas": "brand-strong"
+      },
+      "sourceVariableId": "VariableID:2849:196132",
+      "sourceVariableIds": [
+        "VariableID:2849:196132"
+      ],
+      "replaces": [
+        "color-button-focus-stroke"
+      ],
+      "retainedFrom": "color-button-focus-stroke",
+      "id": "VariableID:11:21",
+      "key": "d502c73c55be4f9d37b79c26bdf5075c7d24651b",
+      "retireIds": []
+    },
+    {
+      "name": "color-button-icon-brand",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-default",
+        "Administrativo": "brand-administrativo-default",
+        "Servicios": "brand-servicios-default",
+        "Personas": "brand-personas-default"
+      },
+      "sourceVariableId": "VariableID:2849:196141",
+      "sourceVariableIds": [
+        "VariableID:2849:196141"
+      ],
+      "replaces": [
+        "color-button-link-icon-default",
+        "color-button-link-icon-focus",
+        "color-button-link-icon-pressed",
+        "color-button-secondary-icon-default",
+        "color-button-secondary-icon-focus",
+        "color-button-secondary-icon-pressed",
+        "color-button-text-icon-pressed"
+      ],
+      "retainedFrom": "color-button-secondary-icon-default",
+      "id": "VariableID:11:59",
+      "key": "3c6538bd610ade83612c6571fbbd98e36dc1e9b0",
+      "retireIds": [
+        "VariableID:11:23",
+        "VariableID:11:25",
+        "VariableID:11:27",
+        "VariableID:11:61",
+        "VariableID:11:63",
+        "VariableID:11:83"
+      ]
+    },
+    {
+      "name": "color-button-icon-brand-hover",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-strong",
+        "Administrativo": "brand-administrativo-intense",
+        "Servicios": "brand-servicios-strong",
+        "Personas": "brand-personas-strong"
+      },
+      "sourceVariableId": "VariableID:2888:26807",
+      "sourceVariableIds": [
+        "VariableID:2888:26807"
+      ],
+      "replaces": [
+        "color-button-link-icon-hover",
+        "color-button-secondary-icon-hover"
+      ],
+      "retainedFrom": "color-button-secondary-icon-hover",
+      "id": "VariableID:11:62",
+      "key": "07c3d68fbcab8a611da716626cd7e12781440be4",
+      "retireIds": [
+        "VariableID:11:26"
+      ]
+    },
+    {
+      "name": "color-button-icon-disabled",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": {
+        "Contable": "neutral-soft",
+        "Administrativo": "neutral-soft",
+        "Servicios": "neutral-soft",
+        "Personas": "neutral-soft"
+      },
+      "sourceVariableId": "VariableID:2988:15",
+      "sourceVariableIds": [
+        "VariableID:2849:196147",
+        "VariableID:2988:15"
+      ],
+      "replaces": [
+        "color-button-danger-icon-disabled",
+        "color-button-link-icon-disabled",
+        "color-button-primary-icon-disabled",
+        "color-button-secondary-icon-disabled",
+        "color-button-text-icon-disabled"
+      ],
+      "retainedFrom": "color-button-primary-icon-disabled",
+      "id": "VariableID:11:42",
+      "key": "2bb743df5618c34f28157f5abc7d5ac280e1b05c",
+      "retireIds": [
+        "VariableID:11:10",
+        "VariableID:11:24",
+        "VariableID:11:60",
+        "VariableID:11:80"
+      ]
+    },
+    {
+      "name": "color-button-icon-inverse",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": {
+        "Contable": "neutral-base",
+        "Administrativo": "neutral-base",
+        "Servicios": "neutral-base",
+        "Personas": "neutral-base"
+      },
+      "sourceVariableId": "VariableID:2849:196142",
+      "sourceVariableIds": [
+        "VariableID:2849:196142"
+      ],
+      "replaces": [
+        "color-button-danger-icon-default",
+        "color-button-danger-icon-focus",
+        "color-button-danger-icon-hover",
+        "color-button-danger-icon-pressed",
+        "color-button-primary-icon-default",
+        "color-button-primary-icon-focus",
+        "color-button-primary-icon-hover",
+        "color-button-primary-icon-pressed"
+      ],
+      "retainedFrom": "color-button-primary-icon-default",
+      "id": "VariableID:11:41",
+      "key": "65bc2192007999a700faafe6e8eff544309fc398",
+      "retireIds": [
+        "VariableID:11:9",
+        "VariableID:11:11",
+        "VariableID:11:12",
+        "VariableID:11:13",
+        "VariableID:11:43",
+        "VariableID:11:44",
+        "VariableID:11:45"
+      ]
+    },
+    {
+      "name": "color-button-icon-neutral",
+      "type": "COLOR",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "aliases": {
+        "Contable": "neutral-maximum",
+        "Administrativo": "neutral-maximum",
+        "Servicios": "neutral-maximum",
+        "Personas": "neutral-maximum"
+      },
+      "sourceVariableId": "VariableID:2849:196138",
+      "sourceVariableIds": [
+        "VariableID:2849:196138"
+      ],
+      "replaces": [
+        "color-button-text-icon-default",
+        "color-button-text-icon-focus",
+        "color-button-text-icon-hover"
+      ],
+      "retainedFrom": "color-button-text-icon-default",
+      "id": "VariableID:11:79",
+      "key": "f32e85631a522427d22474ce1fffb040e44e9323",
+      "retireIds": [
+        "VariableID:11:81",
+        "VariableID:11:82"
+      ]
+    },
+    {
+      "name": "color-button-loader-inverse",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": {
+        "Contable": "neutral-base",
+        "Administrativo": "neutral-base",
+        "Servicios": "neutral-base",
+        "Personas": "neutral-base"
+      },
+      "sourceVariableId": "VariableID:2849:196142",
+      "sourceVariableIds": [
+        "VariableID:2849:196142"
+      ],
+      "replaces": [
+        "color-button-danger-loader-stroke-loading",
+        "color-button-primary-loader-stroke-loading"
+      ],
+      "retainedFrom": "color-button-primary-loader-stroke-loading",
+      "id": "VariableID:11:46",
+      "key": "8db3d7332b8c42c8111ad133f19c87d4808ed81f",
+      "retireIds": [
+        "VariableID:11:14"
+      ]
+    },
+    {
+      "name": "color-button-loader-neutral",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": {
+        "Contable": "neutral-maximum",
+        "Administrativo": "neutral-maximum",
+        "Servicios": "neutral-maximum",
+        "Personas": "neutral-maximum"
+      },
+      "sourceVariableId": "VariableID:2849:196138",
+      "sourceVariableIds": [
+        "VariableID:2849:196138"
+      ],
+      "replaces": [
+        "color-button-text-loader-stroke-loading"
+      ],
+      "retainedFrom": "color-button-text-loader-stroke-loading",
+      "id": "VariableID:11:84",
+      "key": "c262e1e810aab529de7457240805aa112bf4baa3",
+      "retireIds": []
+    },
+    {
+      "name": "color-button-primary-bg",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-default",
+        "Administrativo": "brand-administrativo-default",
+        "Servicios": "brand-servicios-default",
+        "Personas": "brand-personas-default"
+      },
+      "sourceVariableId": "VariableID:2849:197279",
+      "sourceVariableIds": [
+        "VariableID:2849:197279"
+      ],
+      "replaces": [
+        "color-button-primary-bg-default",
+        "color-button-primary-bg-focus",
+        "color-button-primary-bg-loading"
+      ],
+      "retainedFrom": "color-button-primary-bg-default",
+      "id": "VariableID:11:35",
+      "key": "9a40eae7191dd5ec4562aa29647147ab5e7fb854",
+      "retireIds": [
+        "VariableID:11:37",
+        "VariableID:11:39"
+      ]
+    },
+    {
+      "name": "color-button-primary-bg-hover",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-strong",
+        "Administrativo": "brand-administrativo-strong",
+        "Servicios": "brand-servicios-strong",
+        "Personas": "brand-personas-strong"
+      },
+      "sourceVariableId": "VariableID:2988:9",
+      "sourceVariableIds": [
+        "VariableID:2988:9"
+      ],
+      "replaces": [
+        "color-button-primary-bg-hover"
+      ],
+      "retainedFrom": "color-button-primary-bg-hover",
+      "id": "VariableID:11:38",
+      "key": "6546007a5fa4b11c295f415e9a45ec8a925c4bae",
+      "retireIds": []
+    },
+    {
+      "name": "color-button-primary-bg-pressed",
+      "type": "COLOR",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-deep",
+        "Administrativo": "brand-administrativo-intense",
+        "Servicios": "brand-servicios-deep",
+        "Personas": "brand-personas-intense"
+      },
+      "sourceVariableId": "VariableID:2988:10",
+      "sourceVariableIds": [
+        "VariableID:2988:10"
+      ],
+      "replaces": [
+        "color-button-primary-bg-pressed"
+      ],
+      "retainedFrom": "color-button-primary-bg-pressed",
+      "id": "VariableID:11:40",
+      "key": "e525a24fb517e461f99fec11b836f18586352eff",
+      "retireIds": []
+    },
+    {
+      "name": "color-button-stroke-brand",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": {
+        "Contable": "brand-default",
+        "Administrativo": "brand-administrativo-default",
+        "Servicios": "brand-servicios-default",
+        "Personas": "brand-personas-default"
+      },
+      "sourceVariableId": "VariableID:2849:196131",
+      "sourceVariableIds": [
+        "VariableID:2849:196131",
+        "VariableID:2849:196141"
+      ],
+      "replaces": [
+        "color-button-link-loader-stroke-loading",
+        "color-button-secondary-loader-stroke-loading",
+        "color-button-secondary-stroke-default",
+        "color-button-secondary-stroke-focus",
+        "color-button-secondary-stroke-loading"
+      ],
+      "retainedFrom": "color-button-secondary-stroke-default",
+      "id": "VariableID:11:65",
+      "key": "36a47c4328a6e7e4e976661bd3075a1befc35ef7",
+      "retireIds": [
+        "VariableID:11:28",
+        "VariableID:11:64",
+        "VariableID:11:67",
+        "VariableID:11:69"
+      ]
+    },
+    {
+      "name": "color-button-stroke-brand-emphasis",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": {
+        "Contable": "brand-strong",
+        "Administrativo": "brand-administrativo-strong",
+        "Servicios": "brand-servicios-strong",
+        "Personas": "brand-personas-strong"
+      },
+      "sourceVariableId": "VariableID:2992:2261",
+      "sourceVariableIds": [
+        "VariableID:2992:2261"
+      ],
+      "replaces": [
+        "color-button-secondary-stroke-hover",
+        "color-button-secondary-stroke-pressed"
+      ],
+      "retainedFrom": "color-button-secondary-stroke-hover",
+      "id": "VariableID:11:68",
+      "key": "c5c8ab4cf85b8500c46685fb8159719a828c986b",
+      "retireIds": [
+        "VariableID:11:70"
+      ]
+    },
+    {
+      "name": "color-button-stroke-disabled",
+      "type": "COLOR",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "aliases": {
+        "Contable": "neutral-muted",
+        "Administrativo": "neutral-muted",
+        "Servicios": "neutral-muted",
+        "Personas": "neutral-muted"
+      },
+      "sourceVariableId": "VariableID:2849:196137",
+      "sourceVariableIds": [
+        "VariableID:2849:196137"
+      ],
+      "replaces": [
+        "color-button-secondary-stroke-disabled"
+      ],
+      "retainedFrom": "color-button-secondary-stroke-disabled",
+      "id": "VariableID:11:66",
+      "key": "6027579ca210e0f073c6b443a1f60668ae27fe49",
+      "retireIds": []
+    },
+    {
+      "name": "color-button-text-brand",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-default",
+        "Administrativo": "brand-administrativo-default",
+        "Servicios": "brand-servicios-strong",
+        "Personas": "brand-personas-default"
+      },
+      "sourceVariableId": "VariableID:2849:196121",
+      "sourceVariableIds": [
+        "VariableID:2849:196121"
+      ],
+      "replaces": [
+        "color-button-link-text-default",
+        "color-button-link-text-focus",
+        "color-button-link-text-loading",
+        "color-button-secondary-text-default",
+        "color-button-secondary-text-focus",
+        "color-button-secondary-text-loading"
+      ],
+      "retainedFrom": "color-button-secondary-text-default",
+      "id": "VariableID:11:71",
+      "key": "f0b0e62f40fbe233ca6ce2ce9eaaaddfb18e0b13",
+      "retireIds": [
+        "VariableID:11:29",
+        "VariableID:11:31",
+        "VariableID:11:33",
+        "VariableID:11:73",
+        "VariableID:11:75"
+      ]
+    },
+    {
+      "name": "color-button-text-brand-emphasis",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": {
+        "Contable": "brand-strong",
+        "Administrativo": "brand-administrativo-strong",
+        "Servicios": "brand-servicios-strong",
+        "Personas": "brand-personas-strong"
+      },
+      "sourceVariableId": "VariableID:2849:196122",
+      "sourceVariableIds": [
+        "VariableID:2849:196122"
+      ],
+      "replaces": [
+        "color-button-link-text-hover",
+        "color-button-link-text-pressed",
+        "color-button-secondary-text-hover",
+        "color-button-secondary-text-pressed",
+        "color-button-text-text-pressed"
+      ],
+      "retainedFrom": "color-button-secondary-text-hover",
+      "id": "VariableID:11:74",
+      "key": "46e38be765adbcf5a15c2a1d045d6228cd1eebf9",
+      "retireIds": [
+        "VariableID:11:32",
+        "VariableID:11:34",
+        "VariableID:11:76",
+        "VariableID:11:90"
+      ]
+    },
+    {
+      "name": "color-button-text-disabled",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": {
+        "Contable": "neutral-soft",
+        "Administrativo": "neutral-soft",
+        "Servicios": "neutral-soft",
+        "Personas": "neutral-soft"
+      },
+      "sourceVariableId": "VariableID:2988:15",
+      "sourceVariableIds": [
+        "VariableID:2849:196119",
+        "VariableID:2988:15"
+      ],
+      "replaces": [
+        "color-button-danger-text-disabled",
+        "color-button-link-text-disabled",
+        "color-button-primary-text-disabled",
+        "color-button-secondary-text-disabled",
+        "color-button-text-text-disabled"
+      ],
+      "retainedFrom": "color-button-primary-text-disabled",
+      "id": "VariableID:11:48",
+      "key": "75ba006f067907d35a8c068f7270941018434c1b",
+      "retireIds": [
+        "VariableID:11:16",
+        "VariableID:11:30",
+        "VariableID:11:72",
+        "VariableID:11:86"
+      ]
+    },
+    {
+      "name": "color-button-text-inverse",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": {
+        "Contable": "neutral-base",
+        "Administrativo": "neutral-base",
+        "Servicios": "neutral-base",
+        "Personas": "neutral-base"
+      },
+      "sourceVariableId": "VariableID:2849:196123",
+      "sourceVariableIds": [
+        "VariableID:2849:196123"
+      ],
+      "replaces": [
+        "color-button-danger-text-default",
+        "color-button-danger-text-focus",
+        "color-button-danger-text-hover",
+        "color-button-danger-text-loading",
+        "color-button-danger-text-pressed",
+        "color-button-primary-text-default",
+        "color-button-primary-text-focus",
+        "color-button-primary-text-hover",
+        "color-button-primary-text-loading",
+        "color-button-primary-text-pressed"
+      ],
+      "retainedFrom": "color-button-primary-text-default",
+      "id": "VariableID:11:47",
+      "key": "ef851fb0ae44c4c50739170f215fa0f9462e0d1e",
+      "retireIds": [
+        "VariableID:11:15",
+        "VariableID:11:17",
+        "VariableID:11:18",
+        "VariableID:11:19",
+        "VariableID:11:20",
+        "VariableID:11:49",
+        "VariableID:11:50",
+        "VariableID:11:51",
+        "VariableID:11:52"
+      ]
+    },
+    {
+      "name": "color-button-text-neutral",
+      "type": "COLOR",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "aliases": {
+        "Contable": "neutral-maximum",
+        "Administrativo": "neutral-maximum",
+        "Servicios": "neutral-maximum",
+        "Personas": "neutral-maximum"
+      },
+      "sourceVariableId": "VariableID:2849:196116",
+      "sourceVariableIds": [
+        "VariableID:2849:196116"
+      ],
+      "replaces": [
+        "color-button-text-text-default",
+        "color-button-text-text-focus",
+        "color-button-text-text-hover",
+        "color-button-text-text-loading"
+      ],
+      "retainedFrom": "color-button-text-text-default",
+      "id": "VariableID:11:85",
+      "key": "0ab640592aeb45cd49317b32009b4fce95040910",
+      "retireIds": [
+        "VariableID:11:87",
+        "VariableID:11:88",
+        "VariableID:11:89"
+      ]
+    },
+    {
+      "name": "font-button-compact-label-size",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "aliases": {
+        "Contable": "font-size-sm",
+        "Administrativo": "font-size-sm",
+        "Servicios": "font-size-sm",
+        "Personas": "font-size-sm"
+      },
+      "sourceVariableId": "VariableID:2845:160893",
+      "sourceVariableIds": [
+        "VariableID:2845:160893"
+      ],
+      "replaces": [
+        "font-button-medium-label-size",
+        "font-button-small-label-size"
+      ],
+      "retainedFrom": "font-button-medium-label-size",
+      "id": "VariableID:11:96",
+      "key": "d7e8b888d6bfa8bcfa98b35f8778975e6076b137",
+      "retireIds": [
+        "VariableID:11:97"
+      ]
+    },
+    {
+      "name": "font-button-label-family",
+      "type": "STRING",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "aliases": {
+        "Contable": "font-family-base",
+        "Administrativo": "font-family-base",
+        "Servicios": "font-family-base",
+        "Personas": "font-family-base"
+      },
+      "sourceVariableId": "VariableID:2845:160887",
+      "sourceVariableIds": [
+        "VariableID:2845:160887"
+      ],
+      "replaces": [
+        "font-button-label-family"
+      ],
+      "retainedFrom": "font-button-label-family",
+      "id": "VariableID:11:91",
+      "key": "bd79c13e4e51b0cf48505cb173d8ac40d193a529",
+      "retireIds": []
+    },
+    {
+      "name": "font-button-label-letter-spacing",
+      "type": "FLOAT",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "aliases": {
+        "Contable": "font-letter-spacing-normal",
+        "Administrativo": "font-letter-spacing-normal",
+        "Servicios": "font-letter-spacing-normal",
+        "Personas": "font-letter-spacing-normal"
+      },
+      "sourceVariableId": "VariableID:2845:160910",
+      "sourceVariableIds": [
+        "VariableID:2845:160910"
+      ],
+      "replaces": [
+        "font-button-label-letter-spacing"
+      ],
+      "retainedFrom": "font-button-label-letter-spacing",
+      "id": "VariableID:11:92",
+      "key": "08156ec6e64aac76379b002b05e69c0c2ed273db",
+      "retireIds": []
+    },
+    {
+      "name": "font-button-label-line-height",
+      "type": "FLOAT",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "aliases": {
+        "Contable": "font-line-height-sm",
+        "Administrativo": "font-line-height-sm",
+        "Servicios": "font-line-height-sm",
+        "Personas": "font-line-height-sm"
+      },
+      "sourceVariableId": "VariableID:2845:160902",
+      "sourceVariableIds": [
+        "VariableID:2845:160902"
+      ],
+      "replaces": [
+        "font-button-label-line-height"
+      ],
+      "retainedFrom": "font-button-label-line-height",
+      "id": "VariableID:11:93",
+      "key": "5391877a46046d300be3ffa67d7e750dd3de2473",
+      "retireIds": []
+    },
+    {
+      "name": "font-button-label-style",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "aliases": {
+        "Contable": "font-weight-bold",
+        "Administrativo": "font-weight-bold",
+        "Servicios": "font-weight-bold",
+        "Personas": "font-weight-bold"
+      },
+      "sourceVariableId": "VariableID:2845:160891",
+      "sourceVariableIds": [
+        "VariableID:2845:160891"
+      ],
+      "replaces": [
+        "font-button-label-style"
+      ],
+      "retainedFrom": "font-button-label-style",
+      "id": "VariableID:11:94",
+      "key": "2e34d58868a518d5485c4eaf902e6994da67c0b4",
+      "retireIds": []
+    },
+    {
+      "name": "font-button-large-label-size",
+      "type": "FLOAT",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "aliases": {
+        "Contable": "font-size-md",
+        "Administrativo": "font-size-md",
+        "Servicios": "font-size-md",
+        "Personas": "font-size-md"
+      },
+      "sourceVariableId": "VariableID:2845:160894",
+      "sourceVariableIds": [
+        "VariableID:2845:160894"
+      ],
+      "replaces": [
+        "font-button-large-label-size"
+      ],
+      "retainedFrom": "font-button-large-label-size",
+      "id": "VariableID:11:95",
+      "key": "c7f5afa6c38a84e1b3cb52bb08f34146d42a74bc",
+      "retireIds": []
+    },
+    {
+      "name": "font-button-text-label-style",
+      "type": "STRING",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "aliases": {
+        "Contable": "font-weight-regular",
+        "Administrativo": "font-weight-regular",
+        "Servicios": "font-weight-regular",
+        "Personas": "font-weight-regular"
+      },
+      "sourceVariableId": "VariableID:2845:160888",
+      "sourceVariableIds": [
+        "VariableID:2845:160888"
+      ],
+      "replaces": [
+        "font-button-text-label-style"
+      ],
+      "retainedFrom": "font-button-text-label-style",
+      "id": "VariableID:11:98",
+      "key": "57d5a59e9e13f4a0c1cee85b2c6d5217812bc982",
+      "retireIds": []
+    },
+    {
+      "name": "radius-button-container",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "aliases": {
+        "Contable": "radius-md",
+        "Administrativo": "radius-md",
+        "Servicios": "radius-md",
+        "Personas": "radius-md"
+      },
+      "sourceVariableId": "VariableID:562:4",
+      "sourceVariableIds": [
+        "VariableID:562:4"
+      ],
+      "replaces": [
+        "radius-button-container"
+      ],
+      "retainedFrom": "radius-button-container",
+      "id": "VariableID:11:99",
+      "key": "55d90a3bc846c389e178991a59c34fe43b278f0b",
+      "retireIds": []
+    },
+    {
+      "name": "radius-button-focus",
+      "type": "FLOAT",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "aliases": {
+        "Contable": "radius-lg",
+        "Administrativo": "radius-lg",
+        "Servicios": "radius-lg",
+        "Personas": "radius-lg"
+      },
+      "sourceVariableId": "VariableID:562:5",
+      "sourceVariableIds": [
+        "VariableID:562:5"
+      ],
+      "replaces": [
+        "radius-button-focus"
+      ],
+      "retainedFrom": "radius-button-focus",
+      "id": "VariableID:11:100",
+      "key": "834928a9ede34a619df82bcbef4f6b262d04bc49",
+      "retireIds": []
+    },
+    {
+      "name": "size-button-large-content",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "aliases": {
+        "Contable": "size-2xl",
+        "Administrativo": "size-2xl",
+        "Servicios": "size-2xl",
+        "Personas": "size-2xl"
+      },
+      "sourceVariableId": "VariableID:562:20",
+      "sourceVariableIds": [
+        "VariableID:562:20"
+      ],
+      "replaces": [
+        "size-button-large-icon",
+        "size-button-large-loader"
+      ],
+      "retainedFrom": "size-button-large-icon",
+      "id": "VariableID:11:102",
+      "key": "8d8d83f61fc3c27b583d7c9b9eadec582f2fa226",
+      "retireIds": [
+        "VariableID:11:103"
+      ]
+    },
+    {
+      "name": "size-button-large-height",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "aliases": {
+        "Contable": "size-5xl",
+        "Administrativo": "size-5xl",
+        "Servicios": "size-5xl",
+        "Personas": "size-5xl"
+      },
+      "sourceVariableId": "VariableID:562:23",
+      "sourceVariableIds": [
+        "VariableID:562:23"
+      ],
+      "replaces": [
+        "size-button-large-height"
+      ],
+      "retainedFrom": "size-button-large-height",
+      "id": "VariableID:11:101",
+      "key": "db17b70e682ad15469cfea8d27598aad57b592d4",
+      "retireIds": []
+    },
+    {
+      "name": "size-button-medium-content",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "aliases": {
+        "Contable": "size-xl",
+        "Administrativo": "size-xl",
+        "Servicios": "size-xl",
+        "Personas": "size-xl"
+      },
+      "sourceVariableId": "VariableID:8871:11",
+      "sourceVariableIds": [
+        "VariableID:8871:11"
+      ],
+      "replaces": [
+        "size-button-medium-icon",
+        "size-button-medium-loader"
+      ],
+      "retainedFrom": "size-button-medium-icon",
+      "id": "VariableID:11:105",
+      "key": "3e8dc8bd1caca5fc846f6c9c2472d6812d1520fe",
+      "retireIds": [
+        "VariableID:11:106"
+      ]
+    },
+    {
+      "name": "size-button-medium-height",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "aliases": {
+        "Contable": "size-4xl",
+        "Administrativo": "size-4xl",
+        "Servicios": "size-4xl",
+        "Personas": "size-4xl"
+      },
+      "sourceVariableId": "VariableID:562:22",
+      "sourceVariableIds": [
+        "VariableID:562:22"
+      ],
+      "replaces": [
+        "size-button-medium-height"
+      ],
+      "retainedFrom": "size-button-medium-height",
+      "id": "VariableID:11:104",
+      "key": "6fb9e78c5f83780ada34b13d2becffc98ce51d4b",
+      "retireIds": []
+    },
+    {
+      "name": "size-button-small-content",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "aliases": {
+        "Contable": "size-lg",
+        "Administrativo": "size-lg",
+        "Servicios": "size-lg",
+        "Personas": "size-lg"
+      },
+      "sourceVariableId": "VariableID:562:19",
+      "sourceVariableIds": [
+        "VariableID:562:19"
+      ],
+      "replaces": [
+        "size-button-small-icon",
+        "size-button-small-loader"
+      ],
+      "retainedFrom": "size-button-small-icon",
+      "id": "VariableID:11:108",
+      "key": "3e2d41ca3ac9e901e26f59ab84c5d69c9e0de920",
+      "retireIds": [
+        "VariableID:11:109"
+      ]
+    },
+    {
+      "name": "size-button-small-height",
+      "type": "FLOAT",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "aliases": {
+        "Contable": "size-3xl",
+        "Administrativo": "size-3xl",
+        "Servicios": "size-3xl",
+        "Personas": "size-3xl"
+      },
+      "sourceVariableId": "VariableID:562:21",
+      "sourceVariableIds": [
+        "VariableID:562:21"
+      ],
+      "replaces": [
+        "size-button-small-height"
+      ],
+      "retainedFrom": "size-button-small-height",
+      "id": "VariableID:11:107",
+      "key": "0136dcef48f5476ca92f4587a9518f8b1fbfd540",
+      "retireIds": []
+    },
+    {
+      "name": "spacing-button-lg",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "aliases": {
+        "Contable": "spacing-lg",
+        "Administrativo": "spacing-lg",
+        "Servicios": "spacing-lg",
+        "Personas": "spacing-lg"
+      },
+      "sourceVariableId": "VariableID:562:12",
+      "sourceVariableIds": [
+        "VariableID:562:12"
+      ],
+      "replaces": [
+        "spacing-button-standard-large-padding-x",
+        "spacing-button-standard-medium-padding-x"
+      ],
+      "retainedFrom": "spacing-button-standard-large-padding-x",
+      "id": "VariableID:11:119",
+      "key": "fcfad7832af4b2177f94a10a964297ad5a43686a",
+      "retireIds": [
+        "VariableID:11:120"
+      ]
+    },
+    {
+      "name": "spacing-button-md",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "aliases": {
+        "Contable": "spacing-md",
+        "Administrativo": "spacing-md",
+        "Servicios": "spacing-md",
+        "Personas": "spacing-md"
+      },
+      "sourceVariableId": "VariableID:5401:76",
+      "sourceVariableIds": [
+        "VariableID:5401:76"
+      ],
+      "replaces": [
+        "spacing-button-standard-small-padding-x"
+      ],
+      "retainedFrom": "spacing-button-standard-small-padding-x",
+      "id": "VariableID:11:121",
+      "key": "82626017f5ae884d373f874c463bdda5bc466401",
+      "retireIds": []
+    },
+    {
+      "name": "spacing-button-sm",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "aliases": {
+        "Contable": "spacing-sm",
+        "Administrativo": "spacing-sm",
+        "Servicios": "spacing-sm",
+        "Personas": "spacing-sm"
+      },
+      "sourceVariableId": "VariableID:562:11",
+      "sourceVariableIds": [
+        "VariableID:562:11"
+      ],
+      "replaces": [
+        "spacing-button-large-gap",
+        "spacing-button-large-padding-y",
+        "spacing-button-medium-gap",
+        "spacing-button-medium-padding-y",
+        "spacing-button-text-large-padding-x",
+        "spacing-button-text-medium-padding-x"
+      ],
+      "retainedFrom": "spacing-button-large-gap",
+      "id": "VariableID:11:110",
+      "key": "784fb836b882a3e64c3c1e92d7d849957b1525f1",
+      "retireIds": [
+        "VariableID:11:111",
+        "VariableID:11:115",
+        "VariableID:11:116",
+        "VariableID:11:122",
+        "VariableID:11:123"
+      ]
+    },
+    {
+      "name": "spacing-button-xs",
+      "type": "FLOAT",
+      "scopes": [
+        "GAP"
+      ],
+      "aliases": {
+        "Contable": "spacing-xs",
+        "Administrativo": "spacing-xs",
+        "Servicios": "spacing-xs",
+        "Personas": "spacing-xs"
+      },
+      "sourceVariableId": "VariableID:562:10",
+      "sourceVariableIds": [
+        "VariableID:562:10"
+      ],
+      "replaces": [
+        "spacing-button-link-large-padding-x",
+        "spacing-button-link-medium-padding-x",
+        "spacing-button-link-small-padding-x",
+        "spacing-button-small-gap",
+        "spacing-button-small-padding-y",
+        "spacing-button-text-small-padding-x"
+      ],
+      "retainedFrom": "spacing-button-link-large-padding-x",
+      "id": "VariableID:11:112",
+      "key": "d1493f392f45ff7096d11486868c8bf4ce4830b1",
+      "retireIds": [
+        "VariableID:11:113",
+        "VariableID:11:114",
+        "VariableID:11:117",
+        "VariableID:11:118",
+        "VariableID:11:124"
+      ]
+    },
+    {
+      "name": "stroke-button-border-width",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "aliases": {
+        "Contable": "stroke-xs",
+        "Administrativo": "stroke-xs",
+        "Servicios": "stroke-xs",
+        "Personas": "stroke-xs"
+      },
+      "sourceVariableId": "VariableID:559:7",
+      "sourceVariableIds": [
+        "VariableID:559:7"
+      ],
+      "replaces": [
+        "stroke-button-border-width"
+      ],
+      "retainedFrom": "stroke-button-border-width",
+      "id": "VariableID:11:125",
+      "key": "0630bfb8e4ac4de7396291c4a1fe06a76b38537a",
+      "retireIds": []
+    },
+    {
+      "name": "stroke-button-emphasis-width",
+      "type": "FLOAT",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "aliases": {
+        "Contable": "stroke-md",
+        "Administrativo": "stroke-md",
+        "Servicios": "stroke-md",
+        "Personas": "stroke-md"
+      },
+      "sourceVariableId": "VariableID:559:9",
+      "sourceVariableIds": [
+        "VariableID:559:9"
+      ],
+      "replaces": [
+        "stroke-button-focus-width",
+        "stroke-button-loader-width"
+      ],
+      "retainedFrom": "stroke-button-focus-width",
+      "id": "VariableID:11:126",
+      "key": "49a6b3277e8ded372384d9c3217decf573b96338",
+      "retireIds": [
+        "VariableID:11:127"
+      ]
+    }
+  ],
+  "idMigration": {
+    "VariableID:11:111": "VariableID:11:110",
+    "VariableID:11:110": "VariableID:11:110",
+    "VariableID:11:116": "VariableID:11:110",
+    "VariableID:11:115": "VariableID:11:110",
+    "VariableID:11:122": "VariableID:11:110",
+    "VariableID:11:123": "VariableID:11:110",
+    "VariableID:11:119": "VariableID:11:119",
+    "VariableID:11:120": "VariableID:11:119",
+    "VariableID:11:101": "VariableID:11:101",
+    "VariableID:11:99": "VariableID:11:99",
+    "VariableID:11:35": "VariableID:11:35",
+    "VariableID:11:37": "VariableID:11:35",
+    "VariableID:11:39": "VariableID:11:35",
+    "VariableID:11:47": "VariableID:11:47",
+    "VariableID:11:15": "VariableID:11:47",
+    "VariableID:11:50": "VariableID:11:47",
+    "VariableID:11:18": "VariableID:11:47",
+    "VariableID:11:52": "VariableID:11:47",
+    "VariableID:11:20": "VariableID:11:47",
+    "VariableID:11:49": "VariableID:11:47",
+    "VariableID:11:17": "VariableID:11:47",
+    "VariableID:11:51": "VariableID:11:47",
+    "VariableID:11:19": "VariableID:11:47",
+    "VariableID:11:91": "VariableID:11:91",
+    "VariableID:11:94": "VariableID:11:94",
+    "VariableID:11:95": "VariableID:11:95",
+    "VariableID:11:93": "VariableID:11:93",
+    "VariableID:11:92": "VariableID:11:92",
+    "VariableID:11:41": "VariableID:11:41",
+    "VariableID:11:9": "VariableID:11:41",
+    "VariableID:11:44": "VariableID:11:41",
+    "VariableID:11:12": "VariableID:11:41",
+    "VariableID:11:45": "VariableID:11:41",
+    "VariableID:11:13": "VariableID:11:41",
+    "VariableID:11:43": "VariableID:11:41",
+    "VariableID:11:11": "VariableID:11:41",
+    "VariableID:11:102": "VariableID:11:102",
+    "VariableID:11:103": "VariableID:11:102",
+    "VariableID:11:104": "VariableID:11:104",
+    "VariableID:11:96": "VariableID:11:96",
+    "VariableID:11:97": "VariableID:11:96",
+    "VariableID:11:105": "VariableID:11:105",
+    "VariableID:11:106": "VariableID:11:105",
+    "VariableID:11:118": "VariableID:11:112",
+    "VariableID:11:117": "VariableID:11:112",
+    "VariableID:11:124": "VariableID:11:112",
+    "VariableID:11:112": "VariableID:11:112",
+    "VariableID:11:113": "VariableID:11:112",
+    "VariableID:11:114": "VariableID:11:112",
+    "VariableID:11:121": "VariableID:11:121",
+    "VariableID:11:107": "VariableID:11:107",
+    "VariableID:11:108": "VariableID:11:108",
+    "VariableID:11:109": "VariableID:11:108",
+    "VariableID:11:53": "VariableID:11:53",
+    "VariableID:11:55": "VariableID:11:53",
+    "VariableID:11:57": "VariableID:11:53",
+    "VariableID:11:54": "VariableID:11:53",
+    "VariableID:11:65": "VariableID:11:65",
+    "VariableID:11:67": "VariableID:11:65",
+    "VariableID:11:69": "VariableID:11:65",
+    "VariableID:11:64": "VariableID:11:65",
+    "VariableID:11:28": "VariableID:11:65",
+    "VariableID:11:125": "VariableID:11:125",
+    "VariableID:11:71": "VariableID:11:71",
+    "VariableID:11:29": "VariableID:11:71",
+    "VariableID:11:73": "VariableID:11:71",
+    "VariableID:11:31": "VariableID:11:71",
+    "VariableID:11:75": "VariableID:11:71",
+    "VariableID:11:33": "VariableID:11:71",
+    "VariableID:11:59": "VariableID:11:59",
+    "VariableID:11:23": "VariableID:11:59",
+    "VariableID:11:63": "VariableID:11:59",
+    "VariableID:11:83": "VariableID:11:59",
+    "VariableID:11:27": "VariableID:11:59",
+    "VariableID:11:61": "VariableID:11:59",
+    "VariableID:11:25": "VariableID:11:59",
+    "VariableID:11:85": "VariableID:11:85",
+    "VariableID:11:88": "VariableID:11:85",
+    "VariableID:11:87": "VariableID:11:85",
+    "VariableID:11:89": "VariableID:11:85",
+    "VariableID:11:98": "VariableID:11:98",
+    "VariableID:11:79": "VariableID:11:79",
+    "VariableID:11:82": "VariableID:11:79",
+    "VariableID:11:81": "VariableID:11:79",
+    "VariableID:11:3": "VariableID:11:3",
+    "VariableID:11:5": "VariableID:11:3",
+    "VariableID:11:7": "VariableID:11:3",
+    "VariableID:11:38": "VariableID:11:38",
+    "VariableID:11:56": "VariableID:11:56",
+    "VariableID:11:77": "VariableID:11:56",
+    "VariableID:11:22": "VariableID:11:56",
+    "VariableID:11:68": "VariableID:11:68",
+    "VariableID:11:70": "VariableID:11:68",
+    "VariableID:11:74": "VariableID:11:74",
+    "VariableID:11:32": "VariableID:11:74",
+    "VariableID:11:76": "VariableID:11:74",
+    "VariableID:11:90": "VariableID:11:74",
+    "VariableID:11:34": "VariableID:11:74",
+    "VariableID:11:62": "VariableID:11:62",
+    "VariableID:11:26": "VariableID:11:62",
+    "VariableID:11:6": "VariableID:11:6",
+    "VariableID:11:40": "VariableID:11:40",
+    "VariableID:11:58": "VariableID:11:58",
+    "VariableID:11:78": "VariableID:11:58",
+    "VariableID:11:8": "VariableID:11:8",
+    "VariableID:11:21": "VariableID:11:21",
+    "VariableID:11:100": "VariableID:11:100",
+    "VariableID:11:126": "VariableID:11:126",
+    "VariableID:11:127": "VariableID:11:126",
+    "VariableID:11:46": "VariableID:11:46",
+    "VariableID:11:14": "VariableID:11:46",
+    "VariableID:11:84": "VariableID:11:84",
+    "VariableID:11:36": "VariableID:11:36",
+    "VariableID:11:4": "VariableID:11:36",
+    "VariableID:11:48": "VariableID:11:48",
+    "VariableID:11:72": "VariableID:11:48",
+    "VariableID:11:86": "VariableID:11:48",
+    "VariableID:11:30": "VariableID:11:48",
+    "VariableID:11:16": "VariableID:11:48",
+    "VariableID:11:42": "VariableID:11:42",
+    "VariableID:11:60": "VariableID:11:42",
+    "VariableID:11:80": "VariableID:11:42",
+    "VariableID:11:24": "VariableID:11:42",
+    "VariableID:11:10": "VariableID:11:42",
+    "VariableID:11:66": "VariableID:11:66"
+  },
+  "rootIds": [
+    "14:2",
+    "14:8",
+    "14:14",
+    "14:20",
+    "14:26",
+    "14:32",
+    "14:38",
+    "14:44",
+    "14:50",
+    "14:56",
+    "14:63",
+    "14:70",
+    "14:77",
+    "14:82",
+    "14:87",
+    "14:92",
+    "14:98",
+    "14:104",
+    "15:8",
+    "15:14",
+    "15:20",
+    "15:26",
+    "15:32",
+    "15:38",
+    "15:44",
+    "15:50",
+    "15:56",
+    "15:62",
+    "15:69",
+    "15:76",
+    "15:83",
+    "15:88",
+    "15:93",
+    "15:98",
+    "15:104",
+    "15:110",
+    "15:123",
+    "15:129",
+    "15:135",
+    "15:141",
+    "15:147",
+    "15:153",
+    "15:159",
+    "15:165",
+    "15:171",
+    "15:177",
+    "15:184",
+    "15:191",
+    "15:198",
+    "15:203",
+    "15:208",
+    "15:213",
+    "15:219",
+    "15:225",
+    "15:235",
+    "15:241",
+    "15:247",
+    "15:253",
+    "15:259",
+    "15:265",
+    "15:271",
+    "15:277",
+    "15:283",
+    "15:289",
+    "15:296",
+    "15:303",
+    "15:310",
+    "15:315",
+    "15:320",
+    "15:325",
+    "15:331",
+    "15:337",
+    "15:353",
+    "15:359",
+    "15:365",
+    "15:371",
+    "15:377",
+    "15:383",
+    "15:389",
+    "15:395",
+    "15:401",
+    "15:407",
+    "15:414",
+    "15:421",
+    "15:428",
+    "15:433",
+    "15:438",
+    "15:443",
+    "15:449",
+    "15:455",
+    "13:4",
+    "13:7",
+    "13:10",
+    "13:13",
+    "13:16",
+    "13:19",
+    "13:22",
+    "13:25",
+    "13:28",
+    "13:31",
+    "13:34",
+    "13:37",
+    "13:40",
+    "13:43",
+    "13:46",
+    "13:49",
+    "13:52",
+    "13:55",
+    "13:58",
+    "13:61",
+    "13:64",
+    "13:67",
+    "13:70",
+    "13:73",
+    "13:77",
+    "13:80",
+    "13:83",
+    "13:86",
+    "13:89",
+    "13:92",
+    "13:95",
+    "13:98",
+    "13:101",
+    "13:104",
+    "13:107",
+    "13:110",
+    "13:113",
+    "13:116",
+    "13:119",
+    "13:122",
+    "13:125",
+    "13:128",
+    "13:131",
+    "13:134",
+    "13:137",
+    "13:140",
+    "13:143",
+    "13:146",
+    "13:150",
+    "13:153",
+    "13:156",
+    "13:159",
+    "13:162",
+    "13:165",
+    "13:168",
+    "13:171",
+    "13:174",
+    "13:177",
+    "13:180",
+    "13:183",
+    "13:186",
+    "13:189",
+    "13:192",
+    "13:195",
+    "13:198",
+    "13:201",
+    "13:204",
+    "13:207",
+    "13:210",
+    "13:213",
+    "13:216",
+    "13:219"
+  ],
+  "sets": [
+    "14:110",
+    "15:116",
+    "15:231",
+    "15:343",
+    "15:461"
+  ]
+}

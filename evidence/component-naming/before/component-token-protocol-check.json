@@ -1,0 +1,55 @@
+{
+  "status": "PASS_COMPONENT_TOKEN_PROTOCOL",
+  "authorization": "ADR-009",
+  "protocol": {
+    "id": "BH-P07",
+    "path": "protocols/07-COMPONENT-TOKENS.md",
+    "sha256": "f4ce1f13fdea62346d64ca90cbcf655c678bee2330ce66b26a59d3f1d779d828"
+  },
+  "integration": [
+    "AGENTS.md",
+    "protocols/README.md",
+    "protocols/01-COMPONENT-CONTRACT.md",
+    "protocols/02-FIGMA-CONSTRUCTION.md",
+    "protocols/03-WEB-CONSTRUCTION.md",
+    "protocols/04-QA-AND-DELIVERY.md",
+    "governance/policy.json",
+    "blueheart/tokens.py",
+    "blueheart/workspace.py",
+    "consumption/button/README.md"
+  ],
+  "automatedScope": "Every registered component contract: declared direct component token dependencies; child contracts checked independently. Destination inventory and bindings still require target QA.",
+  "blockingRules": [
+    "duplicate signatures within one component: type, unit, collection/mode context, property scope and complete direct alias values",
+    "more than one property scope per component token"
+  ],
+  "preservedDistinctions": [
+    "different property scopes",
+    "different semantic alias identities even if resolved values match",
+    "differences in any mode or alias-explicit mode override",
+    "different collection contexts",
+    "separate component families"
+  ],
+  "currentButton": {
+    "status": "PASS",
+    "protocol": "BH-P07",
+    "component_tokens": 47,
+    "distinct_signatures": 47,
+    "redundancies": 0
+  },
+  "realPrevious125TokenRegression": {
+    "status": "BLOCKED_AS_EXPECTED",
+    "tokens": 125,
+    "reason": "BH-P07 redundant component tokens: button.color-button-danger-bg-default / button.color-button-danger-bg-focus"
+  },
+  "tests": {
+    "status": "PASS",
+    "count": 49,
+    "log": "evidence/component-token-protocol/unit-tests.log"
+  },
+  "context": "PASS all four themes expose token_minimum within budget",
+  "normativeDesignAndTokens": "UNCHANGED BUTTON-001@2.0.0 and 47 component tokens",
+  "figma": "NOT_CHANGED; prior live QA reused because no design, token or binding changed",
+  "originalProjectWrites": false,
+  "independentReview": "NOT_RUN"
+}

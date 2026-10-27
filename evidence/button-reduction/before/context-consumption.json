@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "fullContext": {
+    "status": "BLOCKED",
+    "reason": "CONTEXT_LIMIT",
+    "required_bytes": 155844,
+    "budget_bytes": 65536,
+    "root": "contract:BUTTON-001@1.1.0",
+    "snapshot": "0b0052780e8bd17fd6e52c91feb367167da5381f227874f917b7e62430983e51",
+    "documents": [],
+    "tokens": []
+  },
+  "selectedModes": [
+    {
+      "mode": "Contable",
+      "status": "PASS",
+      "canonicalBytes": 59945,
+      "sha256": "da2e7a7bef984f3235a67cbab2a07dda8254ba6f8c668dd55db296b709c1b3da",
+      "tokens": 193,
+      "componentTokens": 125,
+      "requirements": 18,
+      "budget": 65536
+    },
+    {
+      "mode": "Administrativo",
+      "status": "PASS",
+      "canonicalBytes": 61955,
+      "sha256": "d122bc48eb154495291fc3c0a9927d8a4cdf581e61fc99c2dfa2fd468034189c",
+      "tokens": 195,
+      "componentTokens": 125,
+      "requirements": 18,
+      "budget": 65536
+    },
+    {
+      "mode": "Servicios",
+      "status": "PASS",
+      "canonicalBytes": 61016,
+      "sha256": "ea815c4b42336f87595180707007857571a7fde4a52539849d2fd32d18963324",
+      "tokens": 195,
+      "componentTokens": 125,
+      "requirements": 18,
+      "budget": 65536
+    },
+    {
+      "mode": "Personas",
+      "status": "PASS",
+      "canonicalBytes": 60870,
+      "sha256": "0a52bc67557180f75303db8e7ec8b380b2aff55259d226351e9b4d4a1b3b5581",
+      "tokens": 195,
+      "componentTokens": 125,
+      "requirements": 18,
+      "budget": 65536
+    }
+  ],
+  "contract": {
+    "id": "BUTTON-001",
+    "version": "1.1.0",
+    "path": "norms/components/button.1.1.0.md",
+    "sha256": "16f71ea65cce37f12a6f730d2a71102aff69407c2395b12a01772598aef85d85",
+    "current": true
+  },
+  "measurement": "canonical JSON UTF-8 bytes; no model-token or latency claim"
+}

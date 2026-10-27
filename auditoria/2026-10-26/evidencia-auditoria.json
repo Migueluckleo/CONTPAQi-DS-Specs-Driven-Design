@@ -1,0 +1,527 @@
+{
+  "audit_date": "2026-10-26",
+  "timezone": "America/Merida",
+  "original_root": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado",
+  "scope": "Architecture audit; original read-only; no implementation, live Figma inspection or remote publication verification.",
+  "git": {
+    "head_initial": "41ab4c0bf4197ef0a5b1dda73c7a6be81c818933",
+    "head_final": "41ab4c0bf4197ef0a5b1dda73c7a6be81c818933",
+    "status_counts": {
+      " M": 34,
+      "D ": 673,
+      "??": 16450
+    },
+    "porcelain_sha256_initial": "a2158b9d55690ae62fb7df2ac0f9c9d487df929b5d4b86ae6559ffbfae180836",
+    "porcelain_sha256_final": "a2158b9d55690ae62fb7df2ac0f9c9d487df929b5d4b86ae6559ffbfae180836",
+    "status_unchanged": true
+  },
+  "filesystem_preservation": {
+    "method": "Compare relative path membership, size and mtime_ns of regular files before/after; excludes named directories and symlinks. This is not a whole-disk cryptographic forensic image.",
+    "excluded_directory_names": [
+      ".git",
+      ".next",
+      "__pycache__",
+      "node_modules"
+    ],
+    "symlinks_included": false,
+    "initial_files": 73130,
+    "final_files": 73130,
+    "added": [],
+    "removed": [],
+    "changed_size_or_mtime": [],
+    "logical_bytes": 8549174718,
+    "by_top_level": {
+      ".DS_Store": {
+        "files": 1,
+        "bytes": 16388
+      },
+      ".codex": {
+        "files": 11,
+        "bytes": 82319
+      },
+      ".codex-build": {
+        "files": 20,
+        "bytes": 1417112
+      },
+      ".codex-finalizer": {
+        "files": 6,
+        "bytes": 110185
+      },
+      ".github": {
+        "files": 1,
+        "bytes": 1104
+      },
+      ".gitignore": {
+        "files": 1,
+        "bytes": 1413
+      },
+      ".graphifyignore": {
+        "files": 1,
+        "bytes": 115
+      },
+      "AGENTS.md": {
+        "files": 1,
+        "bytes": 5992
+      },
+      "CHANGELOG.md": {
+        "files": 1,
+        "bytes": 10247
+      },
+      "EVOLUTION-LAB.md": {
+        "files": 1,
+        "bytes": 4115
+      },
+      "MIGRATION-v0.2.0.md": {
+        "files": 1,
+        "bytes": 6531
+      },
+      "PACKAGE-VERIFICATION.md": {
+        "files": 1,
+        "bytes": 2271
+      },
+      "README.md": {
+        "files": 1,
+        "bytes": 8625
+      },
+      "archive": {
+        "files": 31,
+        "bytes": 149643
+      },
+      "catalog": {
+        "files": 30,
+        "bytes": 109853091
+      },
+      "config": {
+        "files": 2,
+        "bytes": 16427
+      },
+      "drafts": {
+        "files": 295,
+        "bytes": 5700992
+      },
+      "graphify-out": {
+        "files": 5908,
+        "bytes": 6077898618
+      },
+      "implementations": {
+        "files": 18071,
+        "bytes": 461497112
+      },
+      "office": {
+        "files": 15,
+        "bytes": 258762
+      },
+      "output": {
+        "files": 46908,
+        "bytes": 1817867857
+      },
+      "prompts": {
+        "files": 2,
+        "bytes": 4931
+      },
+      "protocols": {
+        "files": 9,
+        "bytes": 106515
+      },
+      "qa": {
+        "files": 1167,
+        "bytes": 56718920
+      },
+      "references": {
+        "files": 7,
+        "bytes": 45545
+      },
+      "registry": {
+        "files": 50,
+        "bytes": 1215552
+      },
+      "schemas": {
+        "files": 1,
+        "bytes": 2112
+      },
+      "scripts": {
+        "files": 16,
+        "bytes": 203760
+      },
+      "skills": {
+        "files": 35,
+        "bytes": 169998
+      },
+      "sources": {
+        "files": 330,
+        "bytes": 11070626
+      },
+      "specs": {
+        "files": 163,
+        "bytes": 1784415
+      },
+      "templates": {
+        "files": 3,
+        "bytes": 19736
+      },
+      "tests": {
+        "files": 13,
+        "bytes": 157052
+      },
+      "tmp": {
+        "files": 27,
+        "bytes": 2766637
+      }
+    }
+  },
+  "hash_checks": {
+    "graph_sources": {
+      "checked": 2473,
+      "mismatches": []
+    },
+    "graph_outputs": {
+      "checked": 8,
+      "mismatches": []
+    },
+    "derived_view_sources": {
+      "checked": 1577,
+      "mismatches": []
+    },
+    "catalog_sources": {
+      "checked": 2221,
+      "mismatches": []
+    },
+    "consumption_tools": {
+      "checked": 14,
+      "mismatches": []
+    }
+  },
+  "catalog": {
+    "manifest_identity": "2a826feb4473aa27ffc1ad7590d7f1f40eab3af7cfecfe9628666cb436215408",
+    "ds_digest": "37e550cba6b4b6f83baa6d7cb2fe16bc0df17f41bc4143de0cef9703ce98db14",
+    "bundle_bytes": 9495932,
+    "bundle_hash_matches": true,
+    "manifest_hash_matches": true,
+    "source_commit_declared": "41ab4c0bf4197ef0a5b1dda73c7a6be81c818933",
+    "components": 43
+  },
+  "graph": {
+    "run": "2026-10-26-git-publication",
+    "recorded_status": "CURRENT",
+    "nodes": 14253,
+    "edges": 34042,
+    "graph_json_bytes": 47446433,
+    "coverage_detection_reexecuted": false
+  },
+  "consumption_index": {
+    "bytes": 311526,
+    "documents": 331,
+    "relations": 905,
+    "token_entries": 291,
+    "components": 43
+  },
+  "inspected_and_cited_sources": {
+    ".codex/hooks.json": {
+      "sha256": "123313824d5e7a64f4ced412f15cf2161abb16d6a54bead18abd8f7f40e53eca",
+      "bytes": 218
+    },
+    ".github/workflows/publish-catalog.yml": {
+      "sha256": "4eec4cf075b99ab3080538bd93927b551f9c7cbe8d7ec97652c93909a316332a",
+      "bytes": 1104
+    },
+    "AGENTS.md": {
+      "sha256": "c2392ad85e7218f09cfb128eb6aa2db68fe2e8e329a1a477ed6240b1bff6f62e",
+      "bytes": 5992
+    },
+    "EVOLUTION-LAB.md": {
+      "sha256": "41202206d97713b9d61c1f89dafcc790bf714d493a056715c85bc82a8ed712d1",
+      "bytes": 4115
+    },
+    "README.md": {
+      "sha256": "0424238a525d82298ae39712b2202ec2e4b012829d7285a36c0f2cb3985181d2",
+      "bytes": 8625
+    },
+    "catalog/current.json": {
+      "sha256": "d103aa461fbdae3bcd2ea96577369816d3fd9ed886b65d514ad1b4e187129e61",
+      "bytes": 558
+    },
+    "catalog/prepared/consumption-proof.json": {
+      "sha256": "a4eb1812f7cb7d4d4706088ab1415152e73affcd522782b6d65aa9c639e285e5",
+      "bytes": 1659
+    },
+    "config/ds-project.json": {
+      "sha256": "0b5f688c85d6e86868b83dba709a404a4fca49c14e9008d6eb8e5df9095065ef",
+      "bytes": 14294
+    },
+    "config/ds-skills.json": {
+      "sha256": "b92a720ae68a4902da16d5c4b9f4349fd8c5d781a25458f86253a7ac96dc9618",
+      "bytes": 2133
+    },
+    "drafts/contracts/toggle.contract.v0.1.0.md": {
+      "sha256": "c3b6d1100241e3bdb5c89cc98e89854cda999c87f775a8552211280979326c38",
+      "bytes": 11389
+    },
+    "graphify-out/ds-closure.json": {
+      "sha256": "c6d42100f36ba5d8f4417d1ec4a9f260dd2ef822fe8c27439edda78dedabda24",
+      "bytes": 1548
+    },
+    "graphify-out/runs/2026-10-26-git-publication/source-plan.json": {
+      "sha256": "93ad9f8bbc3f3ece515d74832fb24e214ef9a7202d316067cd57a40cee35a885",
+      "bytes": 329569
+    },
+    "implementations/figma/button-evolution.v0.3.0.js": {
+      "sha256": "e77ec6d2fa2b2bc6cf621df9c158152b78864b72e845870410f3d079cdd46ceb",
+      "bytes": 4606
+    },
+    "implementations/web/README.md": {
+      "sha256": "2c00b7055c6d889e26bc91d05d1966e23c65fd1ed99603a12c57d124a5603265",
+      "bytes": 7787
+    },
+    "implementations/web/components.registry.json": {
+      "sha256": "eab29ef111de15b65317cc57459b2c17a3279b5c1c255f12526fb3d6b5ceef53",
+      "bytes": 39339
+    },
+    "implementations/web/package.json": {
+      "sha256": "dccd60589734104dbd4d1dbb820cc0d251c70feeacc9783a1e19a1e410c61a1f",
+      "bytes": 1049
+    },
+    "implementations/web/playwright.config.ts": {
+      "sha256": "62a19e7fa2ca634b4e7b1764044b66f31ff5196d013166c2ea60862c568d4690",
+      "bytes": 504
+    },
+    "implementations/web/scripts/assets.py": {
+      "sha256": "f7488bc9f24bdbbb74a45d5131736277d2b4f0b06a931233e6dcd745b31e78b5",
+      "bytes": 9985
+    },
+    "implementations/web/scripts/generate.py": {
+      "sha256": "62215c5a68219acccde2bdd8d4a004c9ec1ec8bc49129adeedb92f666b94d3f6",
+      "bytes": 8334
+    },
+    "implementations/web/src/components/actions.tsx": {
+      "sha256": "12b8eb39c7c5fe20ccbbb3ce99bab3a3d6a73e89ba02105bb5fc77f2786a6abe",
+      "bytes": 4425
+    },
+    "implementations/web/src/components/forms.tsx": {
+      "sha256": "5f9d0dd7dd17cd51f60c56137230d49430bd87243099cbec0abfb86ea147c4ea",
+      "bytes": 17268
+    },
+    "implementations/web/src/index.ts": {
+      "sha256": "5e4c30431fedc504b3724811600c64abee14d651f9bdf9755e0cce38df762513",
+      "bytes": 456
+    },
+    "office/OPERATING-PROTOCOL.md": {
+      "sha256": "39caa1ddac5e079dc7a7c8a8ed72d3a2e209e255a893232a3963b2df5f31c777",
+      "bytes": 14925
+    },
+    "office/config.json": {
+      "sha256": "7f44bb4fd561a999fe05eb14d25681aa020ce4026187340910b00dc3b1886baa",
+      "bytes": 7657
+    },
+    "office/events.jsonl": {
+      "sha256": "809c25a7c14e701de591549e039e13186739b8fd21418b20780fe80b4c5ae2bf",
+      "bytes": 45731
+    },
+    "output/closures/2026-10-23-efficient-closure-noop.json": {
+      "sha256": "6c4fb6414f941a682e0cae98022a05f7467eb959a901047b08b08411907f48be",
+      "bytes": 3597
+    },
+    "protocols/01-ENVIRONMENT-AND-TOOLS.md": {
+      "sha256": "14795e022e4d4fa3453209b703e7d817b5c96b09975beb0327ea5bacf33a85ef",
+      "bytes": 6137
+    },
+    "protocols/02-DOCUMENT-INGESTION-AND-STORAGE.md": {
+      "sha256": "57652fa6165b636affc635bcb9cc371c9f88d77d432bce4e933e92308ad57b2a",
+      "bytes": 6131
+    },
+    "protocols/03-CONTRACT-SYNTHESIS.md": {
+      "sha256": "f9dcb91c5f23c4145bc40599945e64d04f3addc6ba96361d9529d15a7b0b5edd",
+      "bytes": 25024
+    },
+    "protocols/04-FIGMA-CONSTRUCTION.md": {
+      "sha256": "bda472855dab193116da6f3de0e94cf93ab576f92f5b018cf902f0859539fcec",
+      "bytes": 11879
+    },
+    "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md": {
+      "sha256": "eab9ae622d6df180cc6fe0ecf80c6ee0426d5114bf19d6d6b71717aefc8b4be5",
+      "bytes": 13015
+    },
+    "protocols/06-QA-AND-VALIDATION.md": {
+      "sha256": "f0f0de88bc3f7f18d91eb5c60428c3fe3c1e6ccdd80ce8e5004ef3e57af8bd83",
+      "bytes": 12703
+    },
+    "protocols/07-WEB-COMPONENTS-AND-TECHNICAL-DOCUMENTATION.md": {
+      "sha256": "3e4ab6fb046788b22495fd92ade8b99a2a9446309a4fd4a67c5bb56f069686d1",
+      "bytes": 10137
+    },
+    "protocols/08-SKILLS-AND-RELEASES.md": {
+      "sha256": "edf123cb4a8614da2d4748052ac1bb3a82d3c6528be23dabce965d44dbf71bc2",
+      "bytes": 11357
+    },
+    "protocols/SLOTS-REVIEW-AND-IMPLEMENTATION.md": {
+      "sha256": "e8e524a3d69a8770693ab0646463d55a2c4dc4542e044375666b6c2da61e8847",
+      "bytes": 10132
+    },
+    "qa/implementations/web.contract-audit.v0.1.3.review.md": {
+      "sha256": "37c687a24e6fdfda06931fed1a0668feb56fe3f07e7d6bd784468573b94746e5",
+      "bytes": 9442
+    },
+    "references/ARTIFACT-RETENTION.md": {
+      "sha256": "d81b42c148d8c23b89d4e5427779857de78a75fa90900781faee8f251ad43884",
+      "bytes": 6624
+    },
+    "references/EFFICIENT-CLOSURE.md": {
+      "sha256": "50ad26dedf55d97889f11543325afee40ca14e8af38fabc6a2da5b035dfd11c5",
+      "bytes": 4854
+    },
+    "references/GRAPH-OPERATIONS.md": {
+      "sha256": "b91dae94dcf77cb3471b8f92827d7190e0fd0611f1d4290ed72f5afa4859033e",
+      "bytes": 7568
+    },
+    "references/PROJECT-TOOLING.md": {
+      "sha256": "f85b77027d5aca916b678d02edccd4ac29f8e943eac826ed031d1cc4d8e00cf3",
+      "bytes": 11163
+    },
+    "registry/DEC-AI-TECHNICAL-CLOSURE-001.md": {
+      "sha256": "39e61ad4424a01d6328000dae50676e30521e9d3d096754585451494a800b0cf",
+      "bytes": 5613
+    },
+    "registry/generated/project-status.json": {
+      "sha256": "a2b051406f87e83fc35e167ee4f01a993009934950894280874b6e7d1b1e82d1",
+      "bytes": 514492
+    },
+    "registry/refactor-backlog.md": {
+      "sha256": "371d4b88cf9b2f08b6509e7ce9b382747e26ae2ce5aca2ba9abd1702102a6958",
+      "bytes": 3091
+    },
+    "schemas/consumption-query.v1.schema.json": {
+      "sha256": "52bdf829cdbaf41c36fb7ac7492f756f57d4a2fe91c799579dfcf9aba0f23752",
+      "bytes": 2112
+    },
+    "scripts/benchmark_consumption.py": {
+      "sha256": "557955563f4fba99d9129867489c43e125ba66a4f98e811ed01e7f07d33bb8ce",
+      "bytes": 2538
+    },
+    "scripts/consumer_graph.py": {
+      "sha256": "237bff3ba780518a0f3c3e2f7afd8abed6199789f1bc511e5f81644cf90d01fa",
+      "bytes": 17147
+    },
+    "scripts/ds": {
+      "sha256": "54b66d5b40e996ed53781b0695839c72fb57f27e26fe9228962681ad7ed3c28c",
+      "bytes": 515
+    },
+    "scripts/ds.py": {
+      "sha256": "82c3728cdab8ef709b0ea5759dea2fba9f17337f6abe9bcd422fdb29b553ec27",
+      "bytes": 6867
+    },
+    "scripts/ds_close.py": {
+      "sha256": "4565c528b7bec91b2163e3f925b093d8d9b50ea476aef8493d6e7bf96fcbfc24",
+      "bytes": 9164
+    },
+    "scripts/ds_consumption.py": {
+      "sha256": "dd0661e15b7d145545136fe3cb44ec7ecdf49b8ce5d813a54af4263f1aa3191b",
+      "bytes": 12986
+    },
+    "scripts/ds_core.py": {
+      "sha256": "4b6988b42d298abcfdd4378dbebae3f9e840383caf44dbdf0fd8db3476fb76b0",
+      "bytes": 29679
+    },
+    "scripts/ds_graph.py": {
+      "sha256": "31ab64efb47edea222164c1214008631afe58cbbe41e9c731370b824fefae08f",
+      "bytes": 16915
+    },
+    "scripts/ds_graph_engine.py": {
+      "sha256": "380df217c7e2a5fa8dd89a7c1e207daec128ad13f82c3869a281399c25ce1b28",
+      "bytes": 33151
+    },
+    "scripts/ds_incremental.py": {
+      "sha256": "b22a30e6088b1e1e6fd7a77a9159fbe0d0cc95e0a4f78ac2f784a37224ba479a",
+      "bytes": 6120
+    },
+    "scripts/ds_remote.py": {
+      "sha256": "a57cc5130cd65477b9e40b8e8ce7e34efbd17c681cd10b8306ffce8c3ff64a6f",
+      "bytes": 5292
+    },
+    "scripts/ds_session.py": {
+      "sha256": "5acea73471e0f0e1f540c50e10218aed54dfeca55746db7ed7b068e587e24ace",
+      "bytes": 5410
+    },
+    "scripts/ds_skills.py": {
+      "sha256": "8e44200e9b45a267d7dc19df4e710066260546aafea608c4441aa6eb89bb66ed",
+      "bytes": 24805
+    },
+    "scripts/ds_yaml.rb": {
+      "sha256": "ffd23461122eae70c83e5f3dd62949417f41d6881b41a2420ddadb597ca1d8bd",
+      "bytes": 1093
+    },
+    "scripts/evolution_office_server.py": {
+      "sha256": "8ac10077a2a756d69f671b5250bcdd6feda6f3b2dd3f1bdfe908e466a4cc64dd",
+      "bytes": 24742
+    },
+    "skills/contpaqi-figma-screens/SKILL.md": {
+      "sha256": "0e462a4b248e695ec53db92869cae4ce29734a7c76eb5296f51b36e55cc7ad0a",
+      "bytes": 10633
+    },
+    "skills/contpaqi-figma-screens/scripts/resolve_ds.py": {
+      "sha256": "376e5b75633bef0a782cbd61cd62d722ab5c636c7bf7e3ea638da667edd0f958",
+      "bytes": 9819
+    },
+    "skills/contpaqi-po-prototypes/SKILL.md": {
+      "sha256": "b95eccf70a4fefea5148131469deddaecdf987c3e80ba9dff2d204c1e6edf0ca",
+      "bytes": 6067
+    },
+    "skills/contpaqi-po-prototypes/assets/starter/scripts/inline-export.mjs": {
+      "sha256": "bc6abe30a638c62f217b857fed005f35d4248fa3221cc144ad24f5baa333cc9e",
+      "bytes": 6656
+    },
+    "skills/contpaqi-po-prototypes/scripts/init.mjs": {
+      "sha256": "d4fd5cb63394640e667cdb9fe30dfbfa28b770dc669fe281b4674504420a3f55",
+      "bytes": 3385
+    },
+    "skills/contpaqi-po-prototypes/scripts/resolve_ds.py": {
+      "sha256": "376e5b75633bef0a782cbd61cd62d722ab5c636c7bf7e3ea638da667edd0f958",
+      "bytes": 9819
+    },
+    "specs/TYPOGRAPHY-NATIVE-INHERITANCE.amendment.v0.1.2.md": {
+      "sha256": "ece3fcbaef98505b403c11f6cba06cdf7a4ec393edddaca29cc243e52e752a55",
+      "bytes": 13692
+    },
+    "specs/components/button.contract.v0.2.0.md": {
+      "sha256": "53e13fa8e664f70d0ce81116e850bbcb0ab7da9f14ac0f08607fa5fda09894a1",
+      "bytes": 17215
+    },
+    "specs/components/button.evolution.amendment.v0.3.0.md": {
+      "sha256": "bf9c23f26cbd2582ff3d99aeb484916368d55a7c861d6291ad5b7ffcc578281b",
+      "bytes": 10898
+    },
+    "specs/conversation.contract.v0.1.0.md": {
+      "sha256": "ac9d904d56d94263f53225c4dfb4afb74c6e64d7af0f710b4ee6114584d41be6",
+      "bytes": 13704
+    },
+    "specs/foundations/foundations-tokens.contract.md": {
+      "sha256": "e7362c364aa2c93a1a5bd50e0024d6b551f8ec6c6947bb62c6779ee25c1b7999",
+      "bytes": 11345
+    },
+    "specs/header.contract.v0.1.0.md": {
+      "sha256": "18b87c9e1cb91346d6f75359d51f78c825ffeb2bf1a6ba1b148a6f8e4291e00e",
+      "bytes": 13881
+    },
+    "specs/select.contract.v0.1.0.md": {
+      "sha256": "baa34a17eb5c1674e16d0a5e736b5b09c5be73cfb4d9e48a1257dce8896065fa",
+      "bytes": 9409
+    },
+    "tests/remote/test_consumption.py": {
+      "sha256": "8610561913fa5359c4d2b8b285ac7b8df651470afc6ce237f0a4beee11b29636",
+      "bytes": 17427
+    },
+    "tests/test_efficient_closure.py": {
+      "sha256": "bcca9cc1c3492d25aa68b1bcaeaf9f727f677488d70b10fab1c21940cc035c51",
+      "bytes": 11189
+    },
+    "tests/test_project_tooling.py": {
+      "sha256": "3555aecc39e346319629b80e0e273ea08f6667ae1b6083f28fba8247aadccefd",
+      "bytes": 14369
+    }
+  },
+  "limitations": [
+    "No live Figma or GitHub readback.",
+    "No new browser, build or visual component QA.",
+    "Existing closure timings are historical receipts, not controlled benchmarks.",
+    "Benchmark uses existing retained runtime snapshot, not current catalog pointer.",
+    "Byte reductions are not measured token or monetary savings."
+  ]
+}

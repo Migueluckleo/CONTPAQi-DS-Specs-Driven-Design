@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "command": "python3 -B scripts/button_pilot.py",
+  "unchangedOutputs": {
+    "evidence/button-pilot/build-plan.json": "f5d5933e909969a65a7df6d7c9b463bfc0712d1d3ad3b95e55619166a8213766",
+    "norms/tokens/blueheart.1.0.0.json": "af33d011db88d9fc4bd8d816a9504950101f54db9ac3d5d8669c6e1bdd9a8d3f",
+    "evidence/button-pilot/source/nodes.json": "026da4ed94157b68f5c186330a7f69628cb478b9203f068c0b929b5a4dcb712e"
+  },
+  "meaning": "Identical bytes after regeneration from preserved source responses; no Figma writes."
+}

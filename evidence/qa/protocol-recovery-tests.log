@@ -1,0 +1,42 @@
+test_ambiguous_current_versions_fail (test_core.CoreTests) ... ok
+test_clean_repository_has_no_domain_content (test_core.CoreTests) ... ok
+test_cli_check_and_context_missing_are_read_only (test_core.CoreTests) ... ok
+test_context_covers_transitive_dependencies_without_partial_success (test_core.CoreTests) ... ok
+test_contract_dependencies_require_pinned_versions (test_core.CoreTests) ... ok
+test_cross_collection_alias_has_explicit_mode_trace (test_core.CoreTests) ... ok
+test_dependency_closure_is_transitive_and_cycle_safe (test_core.CoreTests) ... ok
+test_distinct_profiles_validated_in_memory (test_core.CoreTests) ... ok
+test_duplicate_keys_and_nonfinite_numbers_rejected (test_core.CoreTests) ... ok
+test_empty_workspace_is_functional_and_deterministic (test_core.CoreTests) ... ok
+test_explicit_selection_never_highest_version_wins (test_core.CoreTests) ... ok
+test_frontmatter_is_json_subset_not_an_unverified_yaml_parser (test_core.CoreTests) ... ok
+test_hash_drift_and_unregistered_norms_rejected (test_core.CoreTests) ... ok
+test_impact_is_transitive_and_unknown_paths_require_review (test_core.CoreTests) ... ok
+test_literals_are_typed_and_finite (test_core.CoreTests) ... ok
+test_missing_modes_and_alias_target_rejected (test_core.CoreTests) ... ok
+test_missing_requirement_statement_rejected (test_core.CoreTests) ... ok
+test_mode_budget_blocks_instead_of_claiming_partial_coverage (test_core.CoreTests) ... ok
+test_modes_resolve_without_implicit_name_mapping (test_core.CoreTests) ... ok
+test_same_value_does_not_merge_identities (test_core.CoreTests) ... ok
+test_scoped_authority_cannot_approve_another_contract (test_core.CoreTests) ... ok
+test_source_hash_and_pointer_must_match (test_core.CoreTests) ... ok
+test_traversal_and_symlink_rejected (test_core.CoreTests) ... ok
+test_type_unit_and_layer_violations_rejected (test_core.CoreTests) ... ok
+test_unsupported_schema_keyword_is_not_ignored (test_core.CoreTests) ... ok
+test_consumer_impact_distinguishes_discard_and_upper_bound (test_foundations_audit.AuditTests) ... ok
+test_description_is_compared_to_all_resolved_contexts (test_foundations_audit.AuditTests) ... ok
+test_equal_aliases_do_not_merge_identities (test_foundations_audit.AuditTests) ... ok
+test_incomplete_page_read_does_not_pass (test_foundations_audit.AuditTests) ... ok
+test_membership_compares_ids_not_dictionary_values (test_foundations_audit.AuditTests) ... ok
+test_missing_alias_and_cycle_block_observed_scope (test_foundations_audit.AuditTests) ... ok
+test_non_enumerated_local_records_are_quarantined_and_coverage_checked (test_foundations_audit.AuditTests) ... ok
+test_blue_200_has_only_brand_accent (test_normalization.NormalizationTests) ... ok
+test_complete_original_identity_coverage (test_normalization.NormalizationTests) ... ok
+test_every_theme_preserves_its_original_alias_target (test_normalization.NormalizationTests) ... ok
+test_one_color_semantic_per_referenced_primitive (test_normalization.NormalizationTests) ... ok
+test_semantics_have_no_application_scopes (test_normalization.NormalizationTests) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.597s
+
+OK

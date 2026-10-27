@@ -1,0 +1,91 @@
+{
+  "status": "PASS",
+  "fullContext": {
+    "status": "BLOCKED",
+    "reason": "CONTEXT_LIMIT",
+    "required_bytes": 97001,
+    "budget_bytes": 65536,
+    "root": "contract:BUTTON-001@2.0.0",
+    "snapshot": "dfa239ce51f1d1405ba4b8f4b620c75202c1b5834b24119360f3021fa44b6741",
+    "documents": [],
+    "tokens": []
+  },
+  "selectedModes": [
+    {
+      "mode": "Contable",
+      "status": "PASS",
+      "canonicalBytes": 38380,
+      "sha256": "8381d1d0cee1b787e0fe61306d227c91c3ddf56a42c72c478e3c19c64c767f94",
+      "tokens": 115,
+      "componentTokens": 47,
+      "requirements": 18,
+      "budget": 65536,
+      "token_minimum": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "redundancies": 0
+      }
+    },
+    {
+      "mode": "Administrativo",
+      "status": "PASS",
+      "canonicalBytes": 39531,
+      "sha256": "ee4f67b238676daf69635989ee8608be49ea17bf2e3bbc182bdef39b83ec7fb6",
+      "tokens": 117,
+      "componentTokens": 47,
+      "requirements": 18,
+      "budget": 65536,
+      "token_minimum": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "redundancies": 0
+      }
+    },
+    {
+      "mode": "Servicios",
+      "status": "PASS",
+      "canonicalBytes": 39118,
+      "sha256": "155c88099c4afaae130d4ab5a2f231eda555eef75e83b15971b6644b26e2c7a6",
+      "tokens": 117,
+      "componentTokens": 47,
+      "requirements": 18,
+      "budget": 65536,
+      "token_minimum": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "redundancies": 0
+      }
+    },
+    {
+      "mode": "Personas",
+      "status": "PASS",
+      "canonicalBytes": 39071,
+      "sha256": "a207f3dc98f482d3b00bf2baa6033a48d174e42ca599eaa5b1e268b7b4c9143a",
+      "tokens": 117,
+      "componentTokens": 47,
+      "requirements": 18,
+      "budget": 65536,
+      "token_minimum": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "redundancies": 0
+      }
+    }
+  ],
+  "contract": {
+    "id": "BUTTON-001",
+    "version": "2.0.0",
+    "path": "norms/components/button.2.0.0.md",
+    "sha256": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482",
+    "current": true
+  },
+  "measurement": "canonical JSON UTF-8 bytes; no model-token or latency claim"
+}

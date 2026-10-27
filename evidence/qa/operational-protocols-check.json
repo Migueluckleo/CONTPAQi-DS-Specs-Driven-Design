@@ -1,0 +1,359 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "decision": "ADR-011",
+  "status": "PASS_LOCAL_REMOTE_PENDING",
+  "scope": "Formalización documental, registro, núcleo, verificador de envíos y configuración local; no QA nuevo de Figma/web ni protección remota activa",
+  "architecture": {
+    "status": "PASS",
+    "scope": "Infrastructure and registered normative content; not design or implementation QA",
+    "contracts": 9,
+    "token_sets": 1,
+    "tokens": 298,
+    "collections": 3,
+    "mode_contexts": 4,
+    "component_token_minimum": {
+      "BUTTON-001@2.0.0": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "redundancies": 0
+      }
+    },
+    "graphify_required": false,
+    "deferred": [
+      "figma-write-adapter",
+      "react-library",
+      "graphify-adapter",
+      "persistent-agent-office",
+      "release-publication"
+    ],
+    "snapshot": "9840edd4e868c77376fa0f5d164b3ff4afc8f9af0a63a46083381a6205557d5e"
+  },
+  "snapshot": {
+    "digest": "9840edd4e868c77376fa0f5d164b3ff4afc8f9af0a63a46083381a6205557d5e",
+    "files": {
+      ".github/workflows/release-documentation.yml": "aa6162d36b7c4a963ed6a2d1df768ca10564e6e3a7df5f5e28b3f80bc60e4b9c",
+      "blueheart.json": "2b3e8b474905ac90f02db3bc8d6d35038097d13ffbaf3002c52938d1daa3606d",
+      "blueheart/__init__.py": "a43dd171d2d4462a75f8ac8cc01b4c631a3734c8179b1ee053583bef10cc8713",
+      "blueheart/__main__.py": "8a4513cfc18c8a6713f4a569a9b0427235adb98b39eb1ae41782b3822b1f593a",
+      "blueheart/contracts.py": "216d6d0c6c5581bc93579ac6490e4eaf9d17ed47e6ab46bf745d47516e4f9383",
+      "blueheart/foundations_audit.py": "e7205bb577db154960859f851d4924a2b80e3ca0880298e8ca14670db238df61",
+      "blueheart/io.py": "48cbec133b9e01a37f26dce473e809d82c12381dbcc9b04fb35eec692a4245ef",
+      "blueheart/release_docs.py": "d5a3949b294e68785d907c467e22a67a5c3c328f67740dd75772921cfd06c050",
+      "blueheart/schema.py": "00dc4efb3800c3bc14e6aa6106f7ffaef5dd75d19eb04c72b5b041c05b7825e2",
+      "blueheart/tokens.py": "68c6be1949b003cc521f9ef542427d3c4d641bce76d4a6b0ed2515a977dc3c41",
+      "blueheart/workspace.py": "008dff6a388cd6c0243c9b6f5a8eef972bf051c4a3765ccaa5accb9ef3e544c8",
+      "docs/releases/branch-ruleset.json": "57b2d221dba6312bd4da09cb68e67985569ccaf33a6eb8f8d0bb8e5578211072",
+      "evidence/authorization/button-pilot-request.txt": "ad9199e0b2241c52be0161d966dc3057bae284e4df9e16607ace9bec93de3233",
+      "evidence/authorization/button-reduction-request.txt": "45c7ea5859315f89a51b95c1d7666456b000017280cf7148e1e10d9311c57398",
+      "evidence/authorization/color-normalization-request.txt": "c70233d8ec86b98a6b6c9b6a47c4094591f90efae81b827fce2f32d0a0e635ae",
+      "evidence/authorization/component-naming-request.txt": "95d0d4bc688188075d90616b19bfc08d77472513617afc0f6e6900784aca613a",
+      "evidence/authorization/component-token-protocol-request.txt": "1f897f83669635b9a76fcc0de13e255889b01aa8c27206d38a3e2d82d6365ba5",
+      "evidence/authorization/figma-application-request.txt": "e925704f0c255e7746afae4f9d21d81bcd321edfd8c6ff67f270a4d7bebd0959",
+      "evidence/authorization/operational-protocols-request.txt": "eefa6f1db2b1defd41541064238224cfcfb6690f19d0025700a30d17a7e903f0",
+      "evidence/authorization/phase-1-request.txt": "031bf5dfea11763685ce4422461f2f5ea234cf636b36f12b5aee89919c14b3c1",
+      "evidence/authorization/phosphor-request.txt": "d15413a34395f25035e31a4a07fbbe2ea029e2ea4a8edb8d558d25386fb70aa6",
+      "evidence/authorization/protocol-recovery-request.txt": "10ba7c75ab44894675cb08b3dbe30666ca6ccf7059a1112e6a4987d40986a2b9",
+      "evidence/button-pilot/build-plan.json": "39e2d4c0f15cc729d3aff286c355456ca0cd338e12d52daa696d32de9409189c",
+      "evidence/button-pilot/source/description.json": "3f78bd2d4f911f91e95ea284546b6343c3b23360d3191fb7871cd6372ba9b5df",
+      "evidence/button-pilot/source/nodes.json": "026da4ed94157b68f5c186330a7f69628cb478b9203f068c0b929b5a4dcb712e",
+      "evidence/button-pilot/source/variables.json": "a3e9e81e2a8d8f46685be5642a52771089e535742f7559d3619835b27e4c82bb",
+      "evidence/button-reduction/migration-plan.json": "ff3f4244723aa147bb704656c15456362909e6901212e7150adbf5a9a1d45608",
+      "evidence/foundations/observed-inventory.json": "c46f7b03e477518d1106467bcb16bfd77e78dc25298093c2775e08ff32256ce6",
+      "evidence/phosphor/mapping.json": "145dda152dfb79e01b25836bbdf001faad56e90626c9501063b888a82d04ce7c",
+      "evidence/protocol-recovery/manifest.json": "d7c7ae3dca2ee7d76102f591803b1426b9300030454523467f74c7801fc33d5c",
+      "governance/decisions.json": "86135b44b630e1f5c56f95747ceda6c92b5bb6e2c50e9154c2750f4893d9e92b",
+      "governance/policy.json": "a4b436d1bcaba4fe9829753841380ee8fcf64a8e8743567b65806c114bdfecd8",
+      "norms/catalog.json": "f9704807195a365831bc65a84b319b0689484c92c04541526679f67d6cf8d5e4",
+      "norms/components/button.2.0.0.md": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482",
+      "norms/tokens/blueheart.2.0.0.json": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29",
+      "protocols/01-COMPONENT-CONTRACT.md": "7ea07daefa454d659b3912de48192df7eb9bc1edccae3502bfde494ef3433daf",
+      "protocols/02-FIGMA-CONSTRUCTION.md": "3803d3c1a6a0e27bbc70cb9194238a03ff42a9421c3290e50c70b15c334e4e63",
+      "protocols/03-WEB-CONSTRUCTION.md": "85963c24ed44c6f84db8f9ebcf7819ee8afd1dae3e39ec55a926c87c5e64675b",
+      "protocols/04-QA-AND-DELIVERY.md": "5319c313cce55463e9bd8aad4386a577fc5b247e3417fe9c7d2b3c8149b362eb",
+      "protocols/05-MAINTENANCE-AND-RELEASES.md": "c5f4619fac2912fe9251dd7a9483c2fc93cc071a762c70fbd43122552c46525d",
+      "protocols/06-PHOSPHOR-ICONS.md": "1c4dbe87f3d86a2c81b09d3a1df585efe7a5a76140ae167ddba254dc0845c625",
+      "protocols/07-COMPONENT-TOKENS.md": "c77d9bea4bcaeec0688b082d322009ab8ba154f7aa32302b4adfbfb30a5451b6",
+      "protocols/08-GITHUB-RELEASE-DOCUMENTATION.md": "2a19d9c9f86121abffd19ea04eec6a2e13d1701045d9dcc92d441b6f782ccfa5",
+      "schemas/agent-task.schema.json": "9934a47e6ead5994b9c1a5a80eb79aa751243f4d9d81bb24270444e6c24901c2",
+      "schemas/catalog.schema.json": "1b4c2ddbee639291fdc56d69c5afaa9f2f5290a0d2f2a41a8b72af5f49747a84",
+      "schemas/common.schema.json": "5f0f57d34cb1fb3acf5dde9f2ac5dd11591614efe8a87acdfaf4eb569faa7c38",
+      "schemas/component.schema.json": "ff7ae792834956890dd3af7f3bf976ea31dd313cb1adea1d764fc43a9d9098d9",
+      "schemas/contract.schema.json": "94d975f25b9cd982ecb59ddb9fb7dbae1ee75e21916a55f6cebd989457215453",
+      "schemas/decisions.schema.json": "1eb06766c836ba6bae8a61237ab5760d493b0116b0383da6bd6d34969d447589",
+      "schemas/foundation.schema.json": "b8bd130161b8c55b75ab2ed15ba3398cfe6ba4efcd2616c4abefaacc0eced6ca",
+      "schemas/operational.schema.json": "70e44df6488eb490717b783b932eeeff107a6038a15f9a66c9c4946e86232ab1",
+      "schemas/pattern.schema.json": "54089282600487b505109d745fbfa450959f23bdcfeeb21eee714896774e0884",
+      "schemas/policy.schema.json": "993fa7c25a8ad2bb01dee520d738168bc969bdc3ea7c643f2c3fe93a7ad11ce4",
+      "schemas/token-set.schema.json": "a21c7037f3957f8f73d244a2d066a2ee666f22f0b162d36fe4e86bfc77f21208"
+    }
+  },
+  "protocol_owners": {
+    "BH-P01": {
+      "version": "2.0.0",
+      "path": "protocols/01-COMPONENT-CONTRACT.md",
+      "sha256": "7ea07daefa454d659b3912de48192df7eb9bc1edccae3502bfde494ef3433daf"
+    },
+    "BH-P02": {
+      "version": "2.0.0",
+      "path": "protocols/02-FIGMA-CONSTRUCTION.md",
+      "sha256": "3803d3c1a6a0e27bbc70cb9194238a03ff42a9421c3290e50c70b15c334e4e63"
+    },
+    "BH-P03": {
+      "version": "2.0.0",
+      "path": "protocols/03-WEB-CONSTRUCTION.md",
+      "sha256": "85963c24ed44c6f84db8f9ebcf7819ee8afd1dae3e39ec55a926c87c5e64675b"
+    },
+    "BH-P04": {
+      "version": "2.0.0",
+      "path": "protocols/04-QA-AND-DELIVERY.md",
+      "sha256": "5319c313cce55463e9bd8aad4386a577fc5b247e3417fe9c7d2b3c8149b362eb"
+    },
+    "BH-P05": {
+      "version": "2.0.0",
+      "path": "protocols/05-MAINTENANCE-AND-RELEASES.md",
+      "sha256": "c5f4619fac2912fe9251dd7a9483c2fc93cc071a762c70fbd43122552c46525d"
+    },
+    "BH-P06": {
+      "version": "2.0.0",
+      "path": "protocols/06-PHOSPHOR-ICONS.md",
+      "sha256": "1c4dbe87f3d86a2c81b09d3a1df585efe7a5a76140ae167ddba254dc0845c625"
+    },
+    "BH-P07": {
+      "version": "2.0.0",
+      "path": "protocols/07-COMPONENT-TOKENS.md",
+      "sha256": "c77d9bea4bcaeec0688b082d322009ab8ba154f7aa32302b4adfbfb30a5451b6"
+    },
+    "BH-P08": {
+      "version": "1.0.0",
+      "path": "protocols/08-GITHUB-RELEASE-DOCUMENTATION.md",
+      "sha256": "2a19d9c9f86121abffd19ea04eec6a2e13d1701045d9dcc92d441b6f782ccfa5"
+    }
+  },
+  "contexts": {
+    "BH-P01": {
+      "status": "PASS",
+      "bytes": 20364,
+      "budget_bytes": 65536,
+      "documents": [
+        "BH-P07",
+        "BH-P01"
+      ],
+      "requirements": 11
+    },
+    "BH-P02": {
+      "status": "PASS",
+      "bytes": 34822,
+      "budget_bytes": 65536,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P06",
+        "BH-P02"
+      ],
+      "requirements": 21
+    },
+    "BH-P03": {
+      "status": "PASS",
+      "bytes": 34652,
+      "budget_bytes": 65536,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P06",
+        "BH-P03"
+      ],
+      "requirements": 21
+    },
+    "BH-P04": {
+      "status": "PASS",
+      "bytes": 27480,
+      "budget_bytes": 65536,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P04"
+      ],
+      "requirements": 15
+    },
+    "BH-P05": {
+      "status": "PASS",
+      "bytes": 33741,
+      "budget_bytes": 65536,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P04",
+        "BH-P05"
+      ],
+      "requirements": 19
+    },
+    "BH-P06": {
+      "status": "PASS",
+      "bytes": 5746,
+      "budget_bytes": 65536,
+      "documents": [
+        "BH-P06"
+      ],
+      "requirements": 4
+    },
+    "BH-P07": {
+      "status": "PASS",
+      "bytes": 11135,
+      "budget_bytes": 65536,
+      "documents": [
+        "BH-P07"
+      ],
+      "requirements": 5
+    },
+    "BH-P08": {
+      "status": "PASS",
+      "bytes": 44720,
+      "budget_bytes": 65536,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P04",
+        "BH-P05",
+        "BH-P08"
+      ],
+      "requirements": 25
+    }
+  },
+  "tests": {
+    "status": "PASS",
+    "command": "python3 -B -m unittest discover -s tests -q",
+    "count": 77,
+    "exit_code": 0,
+    "output": "evidence/qa/operational-protocols-tests.txt",
+    "sha256": "bb294ac2faff44a7183e09f064fe63c0749375c0d67e9fc8a502f0c815663fd3",
+    "source_hashes": {
+      "tests/test_button_reduction.py": "d792205ecf3d9eab4f916fc8c7558a859185a52ab95c092a638874b3402488e0",
+      "tests/test_core.py": "f45b5df8810de2ecc90ca0112fc57659467b383c416d4285a73e8cb68a7916bc",
+      "tests/test_foundations_audit.py": "e49836e97c2e47345ab0dfab50bbe86bde134b15229ba25038520906b794cbc9",
+      "tests/test_normalization.py": "229abd8bdedf0340749b1d35d8eb404f5b0b91d2d68e904c3a90a5beb41d74d3",
+      "tests/test_operational_contracts.py": "4fa03578d88a80942b6d0727dce45331ef01ef0351a620c14443518c75014bc6",
+      "tests/test_release_docs.py": "0cc4cf4c49feb6b89a5a87bb2cec88c67d5e4f114c8d3d05225693a070af5409"
+    }
+  },
+  "integration": {
+    "status": "PASS",
+    "scope": "Actual CLI ci with synthetic push event and temporary Git history",
+    "introduced_commits": 2,
+    "receipt_outside_worktree": true,
+    "repository_mutations_by_ci": false
+  },
+  "workflow_syntax": {
+    "status": "PASS",
+    "tool": "Ruby standard-library YAML parser",
+    "scope": "Syntax and job presence only; GitHub execution NOT_RUN"
+  },
+  "component_version_control": {
+    "status": "PASS",
+    "scope": "Registered contracts, exact child versions, token aliases in all modes and collection defaults",
+    "semver": [
+      "patch",
+      "minor",
+      "major"
+    ],
+    "initial_version_preserved": true,
+    "affected_existing_component_requires_new_version": true,
+    "react_implementation_tracking": "DEFERRED_UNTIL_REACT_LIBRARY_EXISTS"
+  },
+  "button_preservation": {
+    "contract": "BUTTON-001@2.0.0",
+    "sha256": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482",
+    "tokens": 47,
+    "figma_changed_this_task": false
+  },
+  "legacy_reference_integrity": {
+    "status": "PASS",
+    "files": [
+      {
+        "path": "protocols/01-ENVIRONMENT-AND-TOOLS.md",
+        "sha256": "14795e022e4d4fa3453209b703e7d817b5c96b09975beb0327ea5bacf33a85ef",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "protocols/02-DOCUMENT-INGESTION-AND-STORAGE.md",
+        "sha256": "57652fa6165b636affc635bcb9cc371c9f88d77d432bce4e933e92308ad57b2a",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "protocols/03-CONTRACT-SYNTHESIS.md",
+        "sha256": "f9dcb91c5f23c4145bc40599945e64d04f3addc6ba96361d9529d15a7b0b5edd",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "protocols/04-FIGMA-CONSTRUCTION.md",
+        "sha256": "bda472855dab193116da6f3de0e94cf93ab576f92f5b018cf902f0859539fcec",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+        "sha256": "eab9ae622d6df180cc6fe0ecf80c6ee0426d5114bf19d6d6b71717aefc8b4be5",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "protocols/06-QA-AND-VALIDATION.md",
+        "sha256": "f0f0de88bc3f7f18d91eb5c60428c3fe3c1e6ccdd80ce8e5004ef3e57af8bd83",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "protocols/07-WEB-COMPONENTS-AND-TECHNICAL-DOCUMENTATION.md",
+        "sha256": "3e4ab6fb046788b22495fd92ade8b99a2a9446309a4fd4a67c5bb56f069686d1",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "protocols/08-SKILLS-AND-RELEASES.md",
+        "sha256": "edf123cb4a8614da2d4748052ac1bb3a82d3c6528be23dabce965d44dbf71bc2",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "protocols/SLOTS-REVIEW-AND-IMPLEMENTATION.md",
+        "sha256": "e8e524a3d69a8770693ab0646463d55a2c4dc4542e044375666b6c2da61e8847",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "references/DESIGN-RULES.md",
+        "sha256": "2c7072afcbb66d0be89d804adf70f6d515e03721b408c35ff86f4bda0eeba6f9",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "references/EFFICIENT-CLOSURE.md",
+        "sha256": "50ad26dedf55d97889f11543325afee40ca14e8af38fabc6a2da5b035dfd11c5",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "implementations/web/README.md",
+        "sha256": "2c00b7055c6d889e26bc91d05d1966e23c65fd1ed99603a12c57d124a5603265",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      },
+      {
+        "path": "implementations/web/package.json",
+        "sha256": "dccd60589734104dbd4d1dbb820cc0d251c70feeacc9783a1e19a1e410c61a1f",
+        "status": "UNCHANGED_FROM_RECOVERY"
+      }
+    ],
+    "scope": "13 baseline reference files; this task performed no writes in the original project"
+  },
+  "remote": {
+    "local_git_present": false,
+    "repository": "NOT_CONFIGURED",
+    "workflow": "PREPARED_NOT_RUN_ON_GITHUB",
+    "branch_protection": "PREPARED_NOT_APPLIED",
+    "pushes_performed": 0,
+    "releases_published": 0
+  },
+  "independent_review": {
+    "status": "NOT_RUN",
+    "scope": "No independent reviewer used; local checks and implementing-agent review only"
+  },
+  "pending": [
+    "Configurar el repositorio remoto correcto y comprobar permisos/plan de GitHub.",
+    "Activar ruleset preservando restricciones existentes y demostrar bloqueo de PR incumplida y PASS tras corregirla.",
+    "Revisión independiente de cambios de flujo; no se atribuye aprobación humana al resultado automático."
+  ]
+}

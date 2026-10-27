@@ -1,0 +1,261 @@
+{
+  "status": "PASS_BUTTON_PILOT_WITH_DECLARED_CONSUMER_LIMITS",
+  "authorization": "ADR-006",
+  "contract": {
+    "id": "BUTTON-001",
+    "version": "1.0.0",
+    "path": "norms/components/button.1.0.0.md",
+    "sha256": "b3e2d1f82a94c57fb5181f7348f2a3de08fc27e1b6699c8be0deeb30e3a5ed61",
+    "current": true
+  },
+  "token_set": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "1.0.0",
+    "path": "norms/tokens/blueheart.1.0.0.json",
+    "sha256": "af33d011db88d9fc4bd8d816a9504950101f54db9ac3d5d8669c6e1bdd9a8d3f",
+    "current": true
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "nodeId": "2433:26890",
+    "access": "READ_ONLY",
+    "nodesInspected": 597,
+    "pendingNodes": 0,
+    "invisibleNodes": 150,
+    "componentDefinitions": 13,
+    "instances": 180,
+    "variables": 47,
+    "styles": 0
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "page": {
+      "id": "11:128",
+      "name": "Buttons"
+    },
+    "reviewFrameId": "16:32",
+    "publicSets": 5,
+    "variants": 90,
+    "privateSpinnerFrames": 72,
+    "primitiveVariables": 145,
+    "semanticVariables": 106,
+    "componentVariables": 125,
+    "totalVariables": 376,
+    "published": false
+  },
+  "checks": {
+    "variant_comparison": "PASS 90/90",
+    "bindings": 2169,
+    "aliases": 500,
+    "themes": 4,
+    "consumerInstances": 94,
+    "themedPaints": 684,
+    "foundations": "PASS 251 preserved",
+    "source_repo": "PASS 13 recovered file hashes unchanged; no writes performed",
+    "core": "PASS",
+    "unitTests": {
+      "status": "PASS",
+      "tests": 41,
+      "command": "python3 -B -m unittest discover -s tests -v"
+    },
+    "visual": "PASS final screenshot inspected; sample focus clipping repaired",
+    "independentReview": "NOT_RUN",
+    "web": "NOT_RUN_OUT_OF_SCOPE",
+    "presenterPlayback": "NOT_RUN",
+    "reproducibility": "PASS identical plan, registered tokens and reconstructed source nodes"
+  },
+  "requirements": {
+    "REQ-IDENTITY": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/check-primary-final-response.json",
+        "evidence/button-pilot/qa/check-secondary-final-response.json",
+        "evidence/button-pilot/qa/check-text-final-response.json",
+        "evidence/button-pilot/qa/check-link-final-response.json",
+        "evidence/button-pilot/qa/check-danger-final-response.json"
+      ]
+    },
+    "REQ-API": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/check-primary-final-response.json",
+        "evidence/button-pilot/qa/check-secondary-final-response.json",
+        "evidence/button-pilot/qa/check-text-final-response.json",
+        "evidence/button-pilot/qa/check-link-final-response.json",
+        "evidence/button-pilot/qa/check-danger-final-response.json"
+      ]
+    },
+    "REQ-GEOMETRY": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/check-primary-final-response.json",
+        "evidence/button-pilot/qa/check-secondary-final-response.json",
+        "evidence/button-pilot/qa/check-text-final-response.json",
+        "evidence/button-pilot/qa/check-link-final-response.json",
+        "evidence/button-pilot/qa/check-danger-final-response.json"
+      ]
+    },
+    "REQ-TYPOGRAPHY": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/check-primary-final-response.json",
+        "evidence/button-pilot/qa/check-secondary-final-response.json",
+        "evidence/button-pilot/qa/check-text-final-response.json",
+        "evidence/button-pilot/qa/check-link-final-response.json",
+        "evidence/button-pilot/qa/check-danger-final-response.json"
+      ]
+    },
+    "REQ-TOKENS": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/check-primary-final-response.json",
+        "evidence/button-pilot/qa/check-secondary-final-response.json",
+        "evidence/button-pilot/qa/check-text-final-response.json",
+        "evidence/button-pilot/qa/check-link-final-response.json",
+        "evidence/button-pilot/qa/check-danger-final-response.json"
+      ]
+    },
+    "REQ-SCOPES": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/check-primary-final-response.json",
+        "evidence/button-pilot/qa/check-secondary-final-response.json",
+        "evidence/button-pilot/qa/check-text-final-response.json",
+        "evidence/button-pilot/qa/check-link-final-response.json",
+        "evidence/button-pilot/qa/check-danger-final-response.json"
+      ]
+    },
+    "REQ-THEMES": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/consumers-final-response.json"
+      ]
+    },
+    "REQ-FOCUS": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/check-primary-final-response.json",
+        "evidence/button-pilot/qa/check-secondary-final-response.json",
+        "evidence/button-pilot/qa/check-text-final-response.json",
+        "evidence/button-pilot/qa/check-link-final-response.json",
+        "evidence/button-pilot/qa/check-danger-final-response.json"
+      ]
+    },
+    "REQ-LOADING": {
+      "status": "PASS_DOCUMENTED",
+      "evidence": [
+        "norms/components/button.1.0.0.md"
+      ],
+      "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
+      "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
+    },
+    "REQ-DISABLED": {
+      "status": "PASS_DOCUMENTED",
+      "evidence": [
+        "norms/components/button.1.0.0.md"
+      ],
+      "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
+      "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
+    },
+    "REQ-USAGE": {
+      "status": "PASS_DOCUMENTED",
+      "evidence": [
+        "norms/components/button.1.0.0.md"
+      ],
+      "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
+      "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
+    },
+    "REQ-CONTENT": {
+      "status": "PASS_DOCUMENTED",
+      "evidence": [
+        "norms/components/button.1.0.0.md"
+      ],
+      "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
+      "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
+    },
+    "REQ-COMPOSITION": {
+      "status": "PASS_DOCUMENTED",
+      "evidence": [
+        "norms/components/button.1.0.0.md"
+      ],
+      "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
+      "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
+    },
+    "REQ-PROTOTYPE": {
+      "status": "PASS_STORED_STRUCTURE",
+      "evidence": [
+        "evidence/button-pilot/qa/helpers-corrected-check-response.json"
+      ],
+      "limitation": "Presenter playback not exercised; reactions only reproduce observed source behavior."
+    },
+    "REQ-ASSETS": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/helpers-corrected-check-response.json"
+      ],
+      "coordinate_max_error": 1.4901161193847656e-08,
+      "geometry_tolerance": 1e-05
+    },
+    "REQ-ACCESSIBILITY": {
+      "status": "PASS_DOCUMENTED",
+      "evidence": [
+        "norms/components/button.1.0.0.md"
+      ],
+      "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
+      "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
+    },
+    "REQ-FIDELITY": {
+      "status": "PASS_FIGMA",
+      "evidence": [
+        "evidence/button-pilot/qa/check-primary-final-response.json",
+        "evidence/button-pilot/qa/check-secondary-final-response.json",
+        "evidence/button-pilot/qa/check-text-final-response.json",
+        "evidence/button-pilot/qa/check-link-final-response.json",
+        "evidence/button-pilot/qa/check-danger-final-response.json"
+      ]
+    },
+    "REQ-CONSUMPTION": {
+      "status": "PASS",
+      "evidence": [
+        "evidence/button-pilot/qa/context-consumption.json",
+        "consumption/button/manifest.json",
+        "consumption/button/README.md"
+      ],
+      "requirements_retained": 18
+    }
+  },
+  "corrections": [
+    "strokesIncludedInLayout=false restores source HUG widths",
+    "Secondary focus extent repaired after root geometry correction",
+    "Node and paint opacity preserved independently",
+    "QA normalizes four strokeWeight side bindings and uses consistent numeric geometry tolerance for vector coordinates",
+    "Example containers no longer clip focus rings",
+    "Selected-mode context retains all rules within budget; full 155240-byte context remains explicitly blocked"
+  ],
+  "limitations": [
+    "Loading HUG width differs from default: functional consumer must reserve stable width.",
+    "Medium visual height is 40 px: mobile consumer must provide required 44 px hit area.",
+    "No WCAG AA certification, HTML/ARIA behavior, remote service, independent review or library publication claimed.",
+    "Preferred icon swap candidates were not exhaustively inspected/imported."
+  ],
+  "evidence": {
+    "variant_checks": [
+      "evidence/button-pilot/qa/check-primary-final-response.json",
+      "evidence/button-pilot/qa/check-secondary-final-response.json",
+      "evidence/button-pilot/qa/check-text-final-response.json",
+      "evidence/button-pilot/qa/check-link-final-response.json",
+      "evidence/button-pilot/qa/check-danger-final-response.json"
+    ],
+    "consumers": "evidence/button-pilot/qa/consumers-final-response.json",
+    "helpers": "evidence/button-pilot/qa/helpers-corrected-check-response.json",
+    "preservation": "evidence/button-pilot/qa/foundations-preserved-response.json",
+    "visual": "evidence/button-pilot/destination/review-final.png",
+    "consumption": "evidence/button-pilot/qa/context-consumption.json",
+    "source_observation": "evidence/button-pilot/source/component-contract.yaml",
+    "manifest": "consumption/button/manifest.json",
+    "protocols": {
+      "path": "evidence/protocol-recovery/manifest.json",
+      "sha256": "208b1bdf13a1dd615d07e9acc771dda1a4184a40b2a54766aaa1e932a271999e"
+    }
+  }
+}

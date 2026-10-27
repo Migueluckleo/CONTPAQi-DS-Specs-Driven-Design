@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:blueheart:decisions.schema.json",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "status": {
+            "enum": [
+              "ADOPTED",
+              "PROPOSED",
+              "SUPERSEDED"
+            ]
+          },
+          "statement": {
+            "type": "string",
+            "minLength": 1
+          },
+          "scope": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "source": {
+            "$ref": "common.schema.json#/$defs/source"
+          },
+          "actor": {
+            "enum": [
+              "human_user",
+              "implementing_agent"
+            ]
+          }
+        },
+        "required": [
+          "id",
+          "status",
+          "statement",
+          "scope",
+          "source",
+          "actor"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "decisions"
+  ],
+  "additionalProperties": false
+}

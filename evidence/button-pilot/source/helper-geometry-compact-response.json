@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "Return value exceeds the 48000-byte limit (112100 bytes). Canvas edits from this run were not committed."
+    },
+    {
+      "type": "text",
+      "text": "Figma Debug UUID: 2bc6e504-34b4-4272-b802-250610ea1460"
+    }
+  ],
+  "structuredContent": {
+    "error": {
+      "message": "Return value exceeds the 48000-byte limit (112100 bytes). Canvas edits from this run were not committed.",
+      "debugUuid": "2bc6e504-34b4-4272-b802-250610ea1460"
+    },
+    "safeToRetryWithoutCanvasRead": true,
+    "error_code": "INVALID_ARGUMENT"
+  },
+  "isError": true
+}

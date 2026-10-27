@@ -1,0 +1,82 @@
+{
+  "alias_assignments": 580,
+  "by_collection": {
+    "primitive": 145,
+    "semantic": 146
+  },
+  "by_type": {
+    "COLOR": 162,
+    "FLOAT": 118,
+    "STRING": 11
+  },
+  "code_syntax_defined": 0,
+  "collections": 2,
+  "empty_descriptions": 163,
+  "equal_alias_semantic_groups": 17,
+  "file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+  "limitations": [
+    "Observed local variables only; no complete external-library or downstream-file consumer census.",
+    "Bindings counted; identities sampled. Transitive node-use sums are upper bounds, not unique-node counts.",
+    "No visual, accessibility or interaction certification; no authority granted by this audit.",
+    "Remote styles, inherited presentation and arbitrary unbound literals are not fully resolved."
+  ],
+  "mode_contexts": 4,
+  "nodes_scanned": 46235,
+  "numeric_description_mismatches": [
+    {
+      "description": "Tamaño md — 16px",
+      "id": "VariableID:5401:75",
+      "name": "size/md",
+      "resolved": [
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "description": "Espaciado md — 16px",
+      "id": "VariableID:5401:76",
+      "name": "spacing/md",
+      "resolved": [
+        12,
+        12,
+        12,
+        12
+      ]
+    },
+    {
+      "description": "Tamaño xs — 12px",
+      "id": "VariableID:5401:77",
+      "name": "font/size/1xs",
+      "resolved": [
+        10,
+        10,
+        10,
+        10
+      ]
+    }
+  ],
+  "page_errors": [],
+  "pages_scanned": 53,
+  "referenced_record_reconciliation": {
+    "local_not_enumerated": 333,
+    "readable": 441,
+    "remote": 108,
+    "status": "RECONCILIATION_REQUIRED",
+    "total": 441
+  },
+  "status": "PASS_OBSERVED_SCOPE",
+  "structural_issues": [],
+  "styles": {
+    "effect": 11,
+    "grid": 0,
+    "paint": 0,
+    "text": 0
+  },
+  "text_nodes_scanned": 10096,
+  "unique_alias_targets": 106,
+  "variables": 291,
+  "variables_with_direct_bindings": 159,
+  "variables_without_direct_bindings": 132
+}

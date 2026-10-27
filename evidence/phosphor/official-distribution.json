@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/phosphor-icons/react",
+  "package": "@phosphor-icons/react",
+  "readme": "https://github.com/phosphor-icons/react/blob/master/README.md",
+  "exportSource": "https://raw.githubusercontent.com/phosphor-icons/react/master/src/csr/PlusCircle.tsx",
+  "verifiedFacts": {
+    "export": "PlusCircleIcon",
+    "weight": "light",
+    "csrImport": "@phosphor-icons/react",
+    "ssrImport": "@phosphor-icons/react/ssr",
+    "ssrUsesIconContext": false
+  },
+  "dependencyInstalled": false,
+  "versionSelection": "Deferred until web environment is authorized; pin compatible version and lockfile."
+}

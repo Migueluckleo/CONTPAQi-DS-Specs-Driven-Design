@@ -1,0 +1,70 @@
+{
+  "status": "PASS_BUTTON_TOKEN_REDUCTION",
+  "authorization": "ADR-008",
+  "contract": {
+    "id": "BUTTON-001",
+    "version": "2.0.0",
+    "path": "norms/components/button.2.0.0.md",
+    "sha256": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482",
+    "current": true
+  },
+  "token_set": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "2.0.0",
+    "path": "norms/tokens/blueheart.2.0.0.json",
+    "sha256": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29",
+    "current": true
+  },
+  "before": 125,
+  "after": 47,
+  "removed": 78,
+  "reductionPercent": 62.4,
+  "colors": 26,
+  "metricsAndTypography": 21,
+  "baseVariablesPreserved": 251,
+  "totalVariables": 298,
+  "preservationCriterion": "Same type, one exact property scope, and same direct semantic alias in each of the four existing themes. No RGB-only merge, scope widening, literals or extra modes.",
+  "minimality": {
+    "distinctOriginalSignatures": 47,
+    "remainingSignatures": 47,
+    "scope": "Minimum under the declared constraints; not an absolute lower bound if scopes or data model are changed."
+  },
+  "liveChecks": {
+    "sourceVariants": 90,
+    "bindingsCheckedAgainstSource": 2169,
+    "beforeAfterBindingReferences": 2700,
+    "nodesCompared": 756,
+    "nativeAliasesChecked": 188,
+    "consumerInstances": 94,
+    "themes": 4,
+    "themedPaints": 684,
+    "residualRetiredReferences": 0,
+    "nativeCodeSyntax": "PASS",
+    "geometryAndTypography": "PASS",
+    "Phosphor": "Unchanged linked instances; bindings migrated without changing mains."
+  },
+  "unitTests": {
+    "status": "PASS",
+    "count": 44,
+    "log": "evidence/button-reduction/unit-tests.log",
+    "affectedAdapterTests": {
+      "status": "PASS",
+      "count": 3,
+      "log": "evidence/button-reduction/adapter-tests.log"
+    }
+  },
+  "reproducibility": "PASS identical bytes after regeneration",
+  "independentReview": "NOT_RUN",
+  "web": "NOT_RUN_OUT_OF_SCOPE",
+  "sourceWrites": false,
+  "originalProjectWrites": false,
+  "evidence": {
+    "bindings": "evidence/button-reduction/binding-equivalence.json",
+    "mutation": "evidence/button-reduction/apply-response.json",
+    "consumers": "evidence/button-reduction/consumers-response.json",
+    "visual": "evidence/button-reduction/review.png",
+    "migration": "evidence/button-reduction/variable-map.csv",
+    "context": "evidence/button-pilot/qa/context-consumption.json"
+  },
+  "creationAdapter": "PASS generates exactly the selected 47 tokens, preventing reintroduction of the 125-token set"
+}

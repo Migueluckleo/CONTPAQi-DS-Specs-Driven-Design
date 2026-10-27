@@ -1,0 +1,87 @@
+{
+  "status": "PASS_INFRASTRUCTURE_AND_OBSERVED_AUDIT_SCOPE",
+  "python": "3.9.6",
+  "platform": "Darwin",
+  "dependencies_installed": [],
+  "checks": [
+    {
+      "name": "unit-tests",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "output": "evidence/qa/unit-tests.log"
+    },
+    {
+      "name": "core-check",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "-m",
+        "blueheart",
+        "check"
+      ],
+      "exit_code": 0,
+      "output": "evidence/qa/core-check.json"
+    },
+    {
+      "name": "core-manifest",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "-m",
+        "blueheart",
+        "manifest"
+      ],
+      "exit_code": 0,
+      "output": "evidence/qa/core-manifest.json"
+    },
+    {
+      "name": "foundations-check",
+      "command": [
+        "/Library/Developer/CommandLineTools/usr/bin/python3",
+        "-B",
+        "-m",
+        "blueheart.foundations_audit",
+        "--view",
+        "summary"
+      ],
+      "exit_code": 0,
+      "output": "evidence/qa/foundations-check.json"
+    }
+  ],
+  "determinism": {
+    "analysis": true,
+    "matrix-csv": true,
+    "referenced": true,
+    "referenced-csv": true
+  },
+  "matrix_rows": {
+    "enumerated": 291,
+    "referenced": 441
+  },
+  "normative_contracts": 0,
+  "normative_token_sets": 0,
+  "component_implementations": 0,
+  "graphify_required": false,
+  "independent_review": "NOT_RUN",
+  "figma_write_operations": "APPLIED_PRIMITIVES_AND_SEMANTICS_ONLY",
+  "foundation_reconciliation": "REQUIRED_FOR_NON_ENUMERATED_RECORDS",
+  "core_snapshot": "62010b05b7d8cc1134d90c041346cdbd04e5ccffa8f477a69092f6f0d275597c",
+  "normalization_check": "evidence/qa/normalization-check.json",
+  "unit_tests_passed": 37,
+  "figma_application_check": "evidence/qa/figma-application-check.json",
+  "destination_variables": {
+    "primitive": 145,
+    "semantic": 106,
+    "component": 0
+  },
+  "protocol_recovery_check": "evidence/qa/protocol-recovery-check.json"
+}

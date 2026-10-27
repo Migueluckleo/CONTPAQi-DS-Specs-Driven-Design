@@ -1,0 +1,24 @@
+{
+  "status": "PASS_LOCAL_COLOR_NORMALIZATION",
+  "source_inventory_sha256": "c46f7b03e477518d1106467bcb16bfd77e78dc25298093c2775e08ff32256ce6",
+  "original_ids": 291,
+  "primitive_colors_preserved": 81,
+  "canonical_color_semantics": 42,
+  "referenced_primitive_colors": 42,
+  "preserved_color_alias_assignments_by_theme": 324,
+  "duplicate_semantic_names": [],
+  "duplicate_primitive_ids": [],
+  "non_empty_scopes": [],
+  "mode_target_mismatches": [],
+  "missing_original_ids": [],
+  "duplicate_original_ids": [],
+  "unit_tests": {
+    "passed": 37,
+    "failed": 0,
+    "log": "evidence/qa/unit-tests.log"
+  },
+  "historical_project_write_operations": 0,
+  "normative_imports": 0,
+  "scope": "Local canonical color catalog and mapping of enumerated variables; additional referenced records remain outside adoption.",
+  "figma_application_check": "evidence/qa/figma-application-check.json"
+}

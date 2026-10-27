@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "scope": "Infrastructure and registered normative content; not design or implementation QA",
+  "contracts": 1,
+  "token_sets": 1,
+  "tokens": 298,
+  "collections": 3,
+  "mode_contexts": 4,
+  "component_token_minimum": {
+    "BUTTON-001@2.0.0": {
+      "status": "PASS",
+      "protocol": "BH-P07",
+      "component_tokens": 47,
+      "distinct_signatures": 47,
+      "redundancies": 0
+    }
+  },
+  "graphify_required": false,
+  "deferred": [
+    "figma-write-adapter",
+    "react-library",
+    "graphify-adapter",
+    "persistent-agent-office",
+    "release-publication"
+  ],
+  "snapshot": "dfa239ce51f1d1405ba4b8f4b620c75202c1b5834b24119360f3021fa44b6741"
+}

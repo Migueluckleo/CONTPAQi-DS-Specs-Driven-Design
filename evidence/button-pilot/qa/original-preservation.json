@@ -1,0 +1,72 @@
+{
+  "status": "PASS_READ_ONLY_REFERENCE",
+  "files": [
+    {
+      "source": "protocols/01-ENVIRONMENT-AND-TOOLS.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/02-DOCUMENT-INGESTION-AND-STORAGE.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/03-CONTRACT-SYNTHESIS.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/04-FIGMA-CONSTRUCTION.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/05-SELF-DOCUMENTATION-AND-TRACEABILITY.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/06-QA-AND-VALIDATION.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/07-WEB-COMPONENTS-AND-TECHNICAL-DOCUMENTATION.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/08-SKILLS-AND-RELEASES.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "protocols/SLOTS-REVIEW-AND-IMPLEMENTATION.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "references/DESIGN-RULES.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "references/EFFICIENT-CLOSURE.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "implementations/web/README.md",
+      "source_unchanged": true,
+      "copy_exact": true
+    },
+    {
+      "source": "implementations/web/package.json",
+      "source_unchanged": true,
+      "copy_exact": true
+    }
+  ],
+  "source_writes_performed": false,
+  "scope": "13 recovered protocol/reference files verified by original hash; original project never used as a write target"
+}

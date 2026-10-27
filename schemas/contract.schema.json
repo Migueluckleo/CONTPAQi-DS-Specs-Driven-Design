@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:blueheart:contract.schema.json",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "id": {
+      "$ref": "common.schema.json#/$defs/id"
+    },
+    "version": {
+      "$ref": "common.schema.json#/$defs/version"
+    },
+    "profile": {
+      "enum": [
+        "foundation",
+        "component",
+        "pattern",
+        "operational"
+      ]
+    },
+    "status": {
+      "enum": [
+        "DRAFT",
+        "ELIGIBLE",
+        "SUPERSEDED"
+      ]
+    },
+    "authority": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "enum": [
+            "PROPOSED",
+            "DELEGATED",
+            "APPROVED"
+          ]
+        },
+        "decision_id": {
+          "$ref": "common.schema.json#/$defs/id"
+        }
+      },
+      "required": [
+        "kind"
+      ],
+      "additionalProperties": false
+    },
+    "targets": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "figma",
+          "react",
+          "documentation"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "readiness": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "READY",
+          "BLOCKED",
+          "UNRESOLVED"
+        ]
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "$ref": "common.schema.json#/$defs/source"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "dependencies": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "enum": [
+              "contract",
+              "token",
+              "evidence"
+            ]
+          },
+          "id": {
+            "$ref": "common.schema.json#/$defs/id"
+          },
+          "version": {
+            "$ref": "common.schema.json#/$defs/version"
+          },
+          "relation": {
+            "enum": [
+              "composition",
+              "uses",
+              "behavior",
+              "informative"
+            ]
+          }
+        },
+        "required": [
+          "kind",
+          "id",
+          "relation"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0,
+      "uniqueItems": true
+    },
+    "requirements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^REQ-[A-Z0-9-]+$"
+          },
+          "force": {
+            "enum": [
+              "MUST",
+              "MUST_NOT",
+              "SHOULD",
+              "MAY"
+            ]
+          },
+          "provenance": {
+            "enum": [
+              "EXPLICIT",
+              "DERIVED",
+              "OBSERVED",
+              "INFERRED",
+              "UNRESOLVED",
+              "CONFLICT"
+            ]
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "$ref": "common.schema.json#/$defs/id"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "acceptance": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1,
+            "uniqueItems": true
+          },
+          "decision_id": {
+            "$ref": "common.schema.json#/$defs/id"
+          }
+        },
+        "required": [
+          "id",
+          "force",
+          "provenance",
+          "sources",
+          "acceptance"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "profile_data": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "version",
+    "profile",
+    "status",
+    "authority",
+    "targets",
+    "readiness",
+    "sources",
+    "dependencies",
+    "requirements",
+    "profile_data"
+  ],
+  "additionalProperties": false
+}

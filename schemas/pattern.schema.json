@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:blueheart:pattern.schema.json",
+  "allOf": [
+    {
+      "$ref": "contract.schema.json"
+    },
+    {
+      "properties": {
+        "profile": {
+          "const": "pattern"
+        },
+        "profile_data": {
+          "type": "object",
+          "properties": {
+            "contexts": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "behavior": {
+              "type": "string",
+              "minLength": 1
+            },
+            "accessibility": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "contexts",
+            "behavior",
+            "accessibility"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

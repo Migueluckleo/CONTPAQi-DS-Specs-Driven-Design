@@ -1,0 +1,38 @@
+{
+  "role": "VERIFIED_ASSET_MAPPING_NOT_RULES",
+  "decision": "ADR-007",
+  "source": {
+    "fileKey": "xZSksKpcQTp5H3C4dZApBL",
+    "pageId": "7484:1322",
+    "setId": "8899:53875",
+    "componentId": "8899:53827",
+    "componentKey": "46d251bb4099700c5852180f2370d265e5166432",
+    "canonicalName": "PlusCircle",
+    "properties": {
+      "Format": "Outline",
+      "Weight": "Light"
+    },
+    "width": 32,
+    "height": 32
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "11:128",
+    "id": "28:501",
+    "key": "46d251bb4099700c5852180f2370d265e5166432",
+    "remote": true
+  },
+  "development": {
+    "export": "PlusCircleIcon",
+    "weight": "light",
+    "csrImport": "@phosphor-icons/react",
+    "ssrImport": "@phosphor-icons/react/ssr",
+    "ssrUsesIconContext": false
+  },
+  "originalPilotRemoteKeyMatches": true,
+  "evidence": {
+    "figma": "evidence/phosphor/pluscircle-response.json",
+    "official": "evidence/phosphor/official-distribution.json",
+    "write": "evidence/phosphor/swap-linked-response.json"
+  }
+}

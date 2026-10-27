@@ -1,0 +1,101 @@
+{
+  "id": "355:86695",
+  "key": "f03c71eefac1f21c6a0a82a113e57382e3d727d5",
+  "description": "ButtonElemento interactivo que ejecuta una acción (guardar, timbrar, generar, aprobar) o confirma una decisión dentro de un flujo.\n\n\nPropiedades\ntype: primary | secondary | text | link | danger.\nsize: large 48 px | medium 40 px | small 32 px.\nstate: default | hover | pressed | focus | loading | disabled.\nLabel: texto de la acción.\nShow left icon / Left icon y Show right icon / Right icon: íconos opcionales (apagados por defecto). Izquierdo para reforzar la acción; derecho solo para indicar dirección o menú (flecha, chevron).\n\n\nJerarquía de tipos\nprimary: la acción principal de la vista. Solo uno por vista o modal.\nsecondary: acciones alternativas o de apoyo junto al primary (Vista previa, Guardar borrador).\ntext: acciones terciarias de baja prioridad (Limpiar filtros, Ver más).\nlink: navegación (Ver detalle de la factura, Ir al SAT). Si cambia de página, en código es un enlace, no un botón.\ndanger: acciones destructivas o irreversibles (Cancelar CFDI, Eliminar póliza, Dar de baja). Siempre con confirmación.\n\n\nTamaños recomendados\nlarge (48): acción principal en móvil, pantallas de inicio de sesión y pasos de asistentes.\nmedium (40): formularios, modales y barras de acciones. Tamaño estándar en escritorio.\nsmall (32): barras de herramientas, tablas y filtros, solo en escritorio.\nUsa el mismo tamaño para todos los botones de un mismo grupo.\n\n\nContenido para LATAM\nVerbo en infinitivo + objeto cuando aporte claridad: \"Timbrar CFDI\", \"Generar póliza\", \"Guardar\". Evita \"OK\", \"Submit\" o \"Enviar\" genérico.\nSentence case y máximo 3 palabras. El español y el portugués son ~30% más largos que el inglés: no fijes anchos.\nCuidado con \"Cancelar\": en contexto fiscal significa anular un CFDI. Para cerrar un modal usa \"Cerrar\" o \"Volver\", y reserva \"Cancelar CFDI\" para la acción fiscal.\nEn loading usa gerundio y puntos suspensivos: \"Timbrando…\", \"Calculando nómina…\", \"Conectando con el SAT…\".\nPortugués (Brasil): \"Salvar\", \"Emitir NF-e\", \"Cancelar nota\".\nNo incluyas montos ni datos sensibles (RFC, CURP, NSS) en la etiqueta.\n\n\nComportamiento\nLoading: úsalo en procesos que dependen del SAT, PAC o bancos (timbrado, cancelación, dispersión). Mientras carga, el botón no responde a clics: evita timbres o pagos duplicados. Mantén el ancho para que la interfaz no salte. El indicador es una instancia del componente loader: extra-small (16 px) en small, small (20 px) en medium y medium (24 px) en large; color on-color en primary y danger, brand en secondary y link, strong en text.\nDisabled: solo cuando falta información para continuar; explica el motivo cerca (texto de ayuda o tooltip). Si la acción no aplica, mejor ocúltala.\nDanger: abre un modal de confirmación que nombre el objeto y la consecuencia (\"Se cancelará el CFDI A-1024. El receptor puede tener que aceptar la cancelación\").\nOrden: en modales y formularios, primary a la derecha y secondary a su izquierda. En móvil, ancho completo y apilados con el primary arriba.\n\n\nAccesibilidad\nFoco visible: anillo de 2 px color/focus/ring con 2 px de separación (capa Focus ring), visible sobre cualquier tipo.\nContraste del texto: primary 5.6:1 (hover 11.1, pressed 8.6) · secondary 5.6:1 · danger 5.5:1 (hover 8.6, pressed 13.2) · text 17.9:1. Cumple AA.\nÁrea táctil mínima de 44×44 px en móvil: usa large o medium; small solo con puntero.\nEn loading, marca el botón como ocupado (aria-busy) y anuncia el cambio; en disabled, el motivo debe ser accesible por texto.\nBotón = acción, enlace = navegación. No uses link para enviar formularios.\n\n\nDo / Don't\n✅ Un solo primary por vista.\n✅ Etiquetas específicas: \"Timbrar CFDI\" en vez de \"Aceptar\".\n✅ Usa loading en procesos con el SAT o bancos.\n❌ No uses danger para acciones reversibles.\n❌ No pongas dos íconos decorativos a la vez.\n❌ No cambies colores ni alturas a mano; usa type, size y state.\n❌ No uses \"Cancelar\" para cerrar un modal en flujos fiscales.\n\n\nTokens\nFondo color/interactive/primary/{default|hover|active} · color/interactive/danger/{default|hover|active} · color/background/default · color/interactive/ghost/active · color/interactive/secondary/hover · color/interactive/disabled/bg · Texto color/text/on-brand · text/brand · text/brand/strong · text/primary · text/disabled · interactive/disabled/text · Borde color/border/{brand|hover|disabled} + stroke/xs · Foco color/focus/ring + stroke/md + radius/lg · Radio radius/md · Alto size/5xl | 4xl | 3xl · Padding spacing/xs | sm | md | lg · Tipografía font/family/base, font/size/md | sm, font/line-height/sm · Íconos size/2xl | size/xl | size/lg.",
+  "properties": [
+    {
+      "name": "Show right icon#1017:0",
+      "type": "BOOLEAN",
+      "defaultValue": false,
+      "preferredValueCount": 0,
+      "preferredValuesSample": []
+    },
+    {
+      "name": "Show left icon#1017:13",
+      "type": "BOOLEAN",
+      "defaultValue": false,
+      "preferredValueCount": 0,
+      "preferredValuesSample": []
+    },
+    {
+      "name": "Label#1205:13",
+      "type": "TEXT",
+      "defaultValue": "Button",
+      "preferredValueCount": 0,
+      "preferredValuesSample": []
+    },
+    {
+      "name": "Left icon#2828:101",
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "3717:1976",
+      "preferredValueCount": 1512,
+      "preferredValuesSample": [
+        {
+          "type": "COMPONENT_SET",
+          "key": "322a346f2ce54ea1534d8b0a682a8139d9f20e87"
+        },
+        {
+          "type": "COMPONENT_SET",
+          "key": "cabab89c32cac28200b792f9569effc3bcdd2154"
+        }
+      ]
+    },
+    {
+      "name": "Right icon#2828:162",
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "3717:1976",
+      "preferredValueCount": 1512,
+      "preferredValuesSample": [
+        {
+          "type": "COMPONENT_SET",
+          "key": "322a346f2ce54ea1534d8b0a682a8139d9f20e87"
+        },
+        {
+          "type": "COMPONENT_SET",
+          "key": "cabab89c32cac28200b792f9569effc3bcdd2154"
+        }
+      ]
+    },
+    {
+      "name": "type",
+      "type": "VARIANT",
+      "defaultValue": "primary",
+      "variantOptions": [
+        "primary",
+        "secondary",
+        "text",
+        "link",
+        "danger"
+      ],
+      "preferredValueCount": 0,
+      "preferredValuesSample": []
+    },
+    {
+      "name": "size",
+      "type": "VARIANT",
+      "defaultValue": "large",
+      "variantOptions": [
+        "large",
+        "medium",
+        "small"
+      ],
+      "preferredValueCount": 0,
+      "preferredValuesSample": []
+    },
+    {
+      "name": "state",
+      "type": "VARIANT",
+      "defaultValue": "default",
+      "variantOptions": [
+        "default",
+        "hover",
+        "pressed",
+        "disabled",
+        "focus",
+        "loading"
+      ],
+      "preferredValueCount": 0,
+      "preferredValuesSample": []
+    }
+  ]
+}

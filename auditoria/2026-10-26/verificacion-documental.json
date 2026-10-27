@@ -1,0 +1,189 @@
+{
+  "status": "PASS",
+  "counts": {
+    "json": 1172,
+    "yaml_or_frontmatter": 279,
+    "prose_metadata": 4
+  },
+  "findings": [
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.avatar-fallback-source-color.amendment.v0.1.11.md",
+      "line": 16,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.avatar-roles.v0.1.1.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.avatar-roles.amendment.v0.1.6.md",
+      "line": 15,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.avatar-roles.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.breadcrumb-current-text.amendment.v0.1.0.md",
+      "line": 23,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.breadcrumb-current-text.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.chart-colors.amendment.v0.1.0.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.chart-colors.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.control-border-source-color.amendment.v0.1.12.md",
+      "line": 16,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.control-colors.v0.1.1.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.control-colors.amendment.v0.1.1.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.control-colors.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.dot-background-colors.amendment.v0.1.4.md",
+      "line": 15,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.dot-background-colors.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.feedback-icon-scopes.amendment.v0.1.7.md",
+      "line": 15,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.feedback-icon-scopes.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.focus-effects.amendment.v0.1.2.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.focus-effects.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.icon-button-backgrounds.amendment.v0.1.9.md",
+      "line": 15,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.icon-button-backgrounds.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.linear-progress-colors.amendment.v0.1.0.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.linear-progress-colors.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.metric-card-roles.amendment.v0.1.0.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.metric-card-roles.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/foundations.radio-indicator-colors.amendment.v0.1.3.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.radio-indicator-colors.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "toggle.contract.v0.1.0.md"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/toggle.focus-effect-amendment.v0.1.3.md",
+      "line": 26,
+      "severity": "HISTORICAL",
+      "message": "../foundations/ai-design-system.focus-effects.v0.1.0.json"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "toggle.contract.v0.1.0.md"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/toggle.mixed-amendment.v0.1.4.md",
+      "line": 19,
+      "severity": "HISTORICAL",
+      "message": "../behavior/toggle-mixed/behavior-contract.md"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "archive/specs-promotion-2026-10-06/toggle.visual-contrast-amendment.v0.1.2.md",
+      "line": 21,
+      "severity": "HISTORICAL",
+      "message": "toggle.contrast-amendment.v0.1.1.md"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "qa/contracts/chat-section.v0.1.0.prebuild-candidate.md",
+      "line": 105,
+      "severity": "HISTORICAL",
+      "message": "chat-section.source.component-contract.md"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "qa/contracts/conversation.v0.1.0.pre-promotion.md",
+      "line": 107,
+      "severity": "HISTORICAL",
+      "message": "conversation.source.component-contract.md"
+    },
+    {
+      "control": "DOC-LINK",
+      "path": "qa/contracts/conversation.v0.1.0.prebuild-candidate.md",
+      "line": 107,
+      "severity": "HISTORICAL",
+      "message": "conversation.source.component-contract.md"
+    },
+    {
+      "control": "DOC-DEPENDENCY",
+      "path": "specs/components/button.contract.md",
+      "line": null,
+      "severity": "WARNING",
+      "message": "Unresolved declared dependency: PLUS-CIRCLE-OBSERVED-001"
+    },
+    {
+      "control": "DOC-DEPENDENCY",
+      "path": "specs/components/button.contract.md",
+      "line": null,
+      "severity": "WARNING",
+      "message": "Unresolved declared dependency: PHOSPHOR-ICONS-001"
+    },
+    {
+      "control": "DOC-DEPENDENCY",
+      "path": "specs/components/button.contract.v0.2.0.md",
+      "line": null,
+      "severity": "WARNING",
+      "message": "Unresolved declared dependency: PHOSPHOR-ICONS-001"
+    },
+    {
+      "control": "DOC-DEPENDENCY",
+      "path": "specs/components/filter-chip.contract.v0.2.0.md",
+      "line": null,
+      "severity": "WARNING",
+      "message": "Unresolved declared dependency: PlusCircle"
+    }
+  ],
+  "scope": "Deterministic documentation checks; no semantic approval, Figma readback or web QA",
+  "audit_scope": "Read-only validation of the 2473 paths enumerated by the existing source plan; no new corpus detection, no graph closure, no implementation QA.",
+  "elapsed_seconds": 4.149,
+  "derived_state_matches_saved": true
+}

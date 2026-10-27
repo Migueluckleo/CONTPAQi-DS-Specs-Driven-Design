@@ -1,0 +1,5 @@
+Solicitud del responsable, 2026-10-26 (transcripción del encargo vigente, sin la repetición literal):
+
+Formaliza los 7 protocolos como contratos operativos MD, regístralos y valídalos en la arquitectura. Conserva un único archivo por protocolo, sin duplicar reglas ni modificar el proyecto original.
+
+Agrega Blue Heart DS: Gobierno de GitHub y Release Documentation. Mantener historial verificable por push: altas, cambios, correcciones, bajas, commits y archivos, pruebas y resultados/pedientes, referencias arquitectónicas, desarrollo separado de releases oficiales y sin duplicar documentación. Organizar bajo docs/releases/. Generar notas antes de publicar para incluirlas en el mismo push; validar con GitHub Actions cuando exista repositorio. Un push sin documentación válida incumple; configurar protección cuando corresponda para impedir integraciones incumplidas. Evitar commits o ejecuciones recursivas. No realizar push ni publicar releases sin autorización. Sistema ligero, trazable y automatizado. Verificar que también cubra el control de versiones de componentes.

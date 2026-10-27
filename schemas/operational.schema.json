@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:blueheart:operational.schema.json",
+  "allOf": [
+    {
+      "$ref": "contract.schema.json"
+    },
+    {
+      "properties": {
+        "profile": {
+          "const": "operational"
+        },
+        "profile_data": {
+          "type": "object",
+          "properties": {
+            "inputs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "outputs": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "responsibilities": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "failure_states": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            },
+            "applies_to": {
+              "type": "array",
+              "items": {
+                "type": "string",
+                "minLength": 1
+              },
+              "minItems": 1,
+              "uniqueItems": true
+            }
+          },
+          "required": [
+            "inputs",
+            "outputs",
+            "responsibilities",
+            "failure_states",
+            "applies_to"
+          ],
+          "additionalProperties": false
+        }
+      }
+    }
+  ]
+}

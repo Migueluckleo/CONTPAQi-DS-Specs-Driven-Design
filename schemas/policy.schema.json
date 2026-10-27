@@ -1,0 +1,253 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "phase",
+    "allowed_contract_profiles",
+    "allowed_token_layers",
+    "figma_access",
+    "historical_project_access",
+    "normative_import",
+    "component_content",
+    "graphify",
+    "layer_edges",
+    "max_mode_combinations",
+    "default_context_bytes",
+    "source_file",
+    "destination_file",
+    "gates",
+    "agent_roles",
+    "deferred",
+    "module_ownership"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "phase": {
+      "type": "string",
+      "minLength": 1
+    },
+    "allowed_contract_profiles": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "allowed_token_layers": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "figma_access": {
+      "type": "string",
+      "minLength": 1
+    },
+    "historical_project_access": {
+      "type": "string",
+      "minLength": 1
+    },
+    "normative_import": {
+      "type": "string",
+      "minLength": 1
+    },
+    "component_content": {
+      "type": "string",
+      "minLength": 1
+    },
+    "graphify": {
+      "type": "string",
+      "minLength": 1
+    },
+    "layer_edges": {
+      "type": "object",
+      "required": [
+        "primitive",
+        "semantic",
+        "component"
+      ],
+      "properties": {
+        "primitive": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "semantic": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "component": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "max_mode_combinations": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "default_context_bytes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "source_file": {
+      "type": "object",
+      "required": [
+        "key",
+        "node"
+      ],
+      "properties": {
+        "key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "node": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "destination_file": {
+      "type": "object",
+      "required": [
+        "key",
+        "node"
+      ],
+      "properties": {
+        "key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "node": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
+    },
+    "gates": {
+      "type": "object",
+      "required": [
+        "editorial",
+        "contract",
+        "token",
+        "adapter",
+        "tooling",
+        "evidence"
+      ],
+      "properties": {
+        "editorial": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "contract": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "token": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "adapter": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "tooling": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "agent_roles": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "purpose",
+          "activation",
+          "default_access"
+        ],
+        "properties": {
+          "purpose": {
+            "type": "string",
+            "minLength": 1
+          },
+          "activation": {
+            "type": "string",
+            "minLength": 1
+          },
+          "default_access": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "deferred": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "module_ownership": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "additionalProperties": false
+}

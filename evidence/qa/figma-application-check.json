@@ -1,0 +1,46 @@
+{
+  "status": "PASS_FIGMA_READBACK",
+  "destination_file_key": "98xEw6sK8FRVNEhopM5SSz",
+  "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+  "checks": {
+    "primitives": 145,
+    "semantics": 106,
+    "semanticColors": 42,
+    "emptyScopes": 251,
+    "componentTokens": 0,
+    "exactValuesAndAliasesVerified": 251
+  },
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:0"
+        }
+      ],
+      "variables": 145
+    },
+    {
+      "id": "VariableCollectionId:6:148",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:1"
+        }
+      ],
+      "variables": 106
+    }
+  ],
+  "issues": [],
+  "canvas_children": 0,
+  "source_write_operations": 0,
+  "destination_write_calls": 1,
+  "authorization": "ADR-004",
+  "plan_sha256": "d873364e057cdee1e275f4265c3cb68ceefd9c6e80edc0b0512b40840bba94cf",
+  "readback": "evidence/figma-application/readback-response.json",
+  "mapping": "evidence/figma-application/application-map.json",
+  "not_imported": "logo/categoria is literal configuration; additional non-enumerated/remote references remain outside adoption."
+}
