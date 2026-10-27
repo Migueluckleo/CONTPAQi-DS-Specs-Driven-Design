@@ -13,6 +13,29 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class OperationalContractTests(unittest.TestCase):
+    def test_main_can_integrate_without_another_reviewer(self):
+        ruleset = json.loads((ROOT/'docs/releases/branch-ruleset.json').read_text())
+        review = next(r['parameters'] for r in ruleset['rules'] if r['type'] == 'pull_request')
+        self.assertEqual(review['required_approving_review_count'], 0)
+        self.assertEqual(review['required_reviewers'], [])
+        for field in ('require_last_push_approval', 'require_code_owner_review',
+                      'require_extra_approval_for_unattributed_changes', 'dismiss_stale_reviews_on_push'):
+            self.assertFalse(review[field], field)
+
+    def test_main_still_requires_documentation_ci_and_preserved_history(self):
+        ruleset = json.loads((ROOT/'docs/releases/branch-ruleset.json').read_text())
+        self.assertEqual(ruleset['enforcement'], 'active')
+        self.assertEqual(ruleset['bypass_actors'], [])
+        self.assertEqual(ruleset['conditions']['ref_name'], {'include': ['~DEFAULT_BRANCH'], 'exclude': []})
+        rules = {r['type']: r.get('parameters', {}) for r in ruleset['rules']}
+        self.assertTrue({'deletion', 'non_fast_forward', 'pull_request', 'required_status_checks'} <= rules.keys())
+        checks = rules['required_status_checks']
+        self.assertEqual(checks['required_status_checks'], [{'context': 'release-documentation', 'integration_id': 15368}])
+        self.assertTrue(checks['strict_required_status_checks_policy'])
+        self.assertFalse(checks['do_not_enforce_on_create'])
+        self.assertEqual(rules['pull_request']['allowed_merge_methods'], ['merge'])
+        self.assertTrue(rules['pull_request']['required_review_thread_resolution'])
+
     def test_all_eight_have_one_registered_owner_and_complete_context(self):
         workspace = Workspace(ROOT)
         files = []

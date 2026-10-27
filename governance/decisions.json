@@ -180,6 +180,20 @@
         "path": "evidence/authorization/github-publication-pdf-request.txt",
         "sha256": "be6e33ab56476bab9c859ab541d121516aa94a1c25aa6390c3012810529730ed"
       }
+    },
+    {
+      "id": "ADR-013",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable elimina la dependencia de otro revisor para integrar en main. Se conserva PR, CI estricto, documentación por envío, PDF y protección sin bypass ni force push; las revisiones son voluntarias. Se autoriza aplicar la configuración, actualizar BH-P08 e integrar su cambio con CI aprobado, sin publicar una release oficial.",
+      "scope": [
+        "BH-P08",
+        "github-main-without-reviewer"
+      ],
+      "source": {
+        "path": "evidence/authorization/main-without-reviewer-request.txt",
+        "sha256": "ffa1572afeb363d4cb2887b72212e6b24e546a95554ab7a045b96244733b5cdd"
+      }
     }
   ]
 }

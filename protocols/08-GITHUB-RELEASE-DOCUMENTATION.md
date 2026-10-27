@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P08",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-012"
+    "decision_id": "ADR-013"
   },
   "targets": [
     "documentation"
@@ -34,7 +34,7 @@
     {
       "id": "SRC-PROTECTION",
       "path": "docs/releases/branch-ruleset.json",
-      "sha256": "6c691dcce2132c28d5c49517345a717ae8ec3fc3d79c19fa41f3f0459c0a4ed4"
+      "sha256": "27920ceb674fb6ae2f71e05397f96a7aa2546cc490ffc836de8bf2bf408dee93"
     },
     {
       "id": "SRC-PUBLICATION-AUTH",
@@ -50,6 +50,11 @@
       "id": "SRC-PDF-DEPENDENCY",
       "path": "docs/releases/requirements-pdf.txt",
       "sha256": "207ab33432bbe639e5cc8fce0bc03f982d0842af6c180aca114b1586844a3d18"
+    },
+    {
+      "id": "SRC-NO-REVIEWER-AUTH",
+      "path": "evidence/authorization/main-without-reviewer-request.txt",
+      "sha256": "ffa1572afeb363d4cb2887b72212e6b24e546a95554ab7a045b96244733b5cdd"
     }
   ],
   "dependencies": [
@@ -116,10 +121,12 @@
         "SRC-AUTH",
         "SRC-ENGINE",
         "SRC-CI",
-        "SRC-PROTECTION"
+        "SRC-PROTECTION",
+        "SRC-NO-REVIEWER-AUTH"
       ],
       "acceptance": [
-        "Verificar ci y protección de integraciones con los casos de tests/test_release_docs.py y la evidencia del alcance; la protección remota requiere prueba en GitHub."
+        "La regla activa exige PR y el check release-documentation de GitHub Actions (15368), con estado actualizado, cero aprobaciones y sin revisión de último push, Code Owners ni revisores específicos.",
+        "Comprobar que CI, notas obligatorias, conservación de SHAs, resolución de conversaciones y prohibiciones de bypass, force push y borrado se mantienen; integrar una PR con CI aprobado sin otro revisor."
       ]
     },
     {
@@ -217,7 +224,7 @@ Un cambio en tokens compartidos puede afectar familias sin editar su MD: la dete
 
 development es el valor predeterminado y no publica nada. release exige versión estable explícita, cero verificaciones pendientes y referencias a QA de destino si hay componentes afectados, incluidas altas iniciales. Un tag de release debe ser vX.Y.Z, corresponder al registro release y apuntar a su cierre documental; se verifica la cobertura. Preparar notas o un tag no autoriza publicar. No crear ni enviar tags, paquetes o GitHub Releases sin autorización del responsable. Las notas de release conservan referencias a registros existentes en su ascendencia; no replican manualmente un historial acumulado.
 
-La entrega de artefactos y sus consumidores sigue BH-P05. El control de infraestructura no sustituye el QA de destinos exigido por BH-P04. ADR-011 preparó el mecanismo; ADR-012 autoriza publicar este repositorio y configurar sus controles. La autorización no incluye publicar una release oficial.
+La entrega de artefactos y sus consumidores sigue BH-P05. El control de infraestructura no sustituye el QA de destinos exigido por BH-P04. ADR-011 preparó el mecanismo; ADR-012 autoriza publicar este repositorio y configurar sus controles; ADR-013 ajusta main para operar sin aprobaciones obligatorias. La autorización no incluye publicar una release oficial.
 
 ### REQ-P08-05
 
@@ -225,7 +232,7 @@ La entrega de artefactos y sus consumidores sigue BH-P05. El control de infraest
 
 El workflow [.github/workflows/release-documentation.yml](../.github/workflows/release-documentation.yml) corre para todos los pushes de ramas/tags y PRs, sin filtros que omitan documentación. Lee historia completa, repite check/tests y ejecuta el verificador con los SHAs del evento. Una rama nueva verifica toda su ascendencia; un force push cuya base ya no sea ancestro incumple. Commits sin cobertura, registros alterados, versión insuficiente, tests fallidos o metadatos incoherentes producen salida NONCOMPLIANT y código no cero.
 
-La rama protegida exige el check `release-documentation` y PR actualizada, con merge commits que conserven los SHAs. Una integración solo se acepta si no introduce contenido distinto del segundo padre y el primer padre ya está incorporado allí; las resoluciones se hacen y documentan antes del cierre en la rama de trabajo. Squash, rebase y merge queue no están habilitados por este diseño. Una actualización local requiere preparar y verificar sus notas antes de enviar; el check del push puede detectar incumplimiento después de recibirlo. Las reglas de protección impiden integrarlo.
+La rama protegida exige el check `release-documentation` de GitHub Actions (integration_id 15368) y PR actualizada, con merge commits que conserven los SHAs. ADR-013 fija cero aprobaciones obligatorias: no exigir aprobación del último push, Code Owners, revisores específicos ni aprobación adicional por cambios sin atribución. Las revisiones son voluntarias y no constituyen un gate de integración. Se conserva la resolución de conversaciones abiertas; el autor puede resolverlas. El autor puede integrar su propia PR cuando CI y la documentación cumplen la política, sin bypass ni otra persona. La aceptación técnica y su evidencia permanecen exigibles; no atribuir una revisión humana que no ocurrió. Una integración solo se acepta si no introduce contenido distinto del segundo padre y el primer padre ya está incorporado allí; las resoluciones se hacen y documentan antes del cierre en la rama de trabajo. Squash, rebase y merge queue no están habilitados por este diseño. Una actualización local requiere preparar y verificar sus notas antes de enviar; el check del push puede detectar incumplimiento después de recibirlo. Las reglas de protección impiden integrarlo.
 
 Al configurarse el repositorio remoto correcto, un administrador aplica y verifica la configuración [branch-ruleset.json](../docs/releases/branch-ruleset.json), respetando restricciones existentes. Debe comprobar el bloqueo con una PR incumplida y el desbloqueo tras corregirla. Sin repositorio, permisos o plan compatible, registrar la activación como pendiente; no declarar protección remota por validar un JSON. No inicializar ni publicar por leer el protocolo.
 
