@@ -1,5 +1,6 @@
 // Build a consumer matrix from actual main components, never detached copies.
 if (figma.fileKey !== DATA.fileKey) throw new Error("Wrong target");
+if (!DATA.contractPath) throw new Error("Missing selected contract path");
 const page = await figma.getNodeByIdAsync(DATA.pageId);
 await figma.setCurrentPageAsync(page);
 await figma.loadFontAsync({family: "Manrope", style: "Bold"});
@@ -31,7 +32,7 @@ root.fills = [{type: "SOLID", color: {r: 0.96862745, g: 0.97647059, b: 0.9843137
 page.appendChild(root); root.x = 80; root.y = 80;
 root.appendChild(text("Button", 32, true));
 root.appendChild(text("BUTTON-001 · 90 variantes · tokens de componente · cuatro temas", 16));
-root.appendChild(text("Label y swaps editables. Loading y disabled no simulan servicios. Contrato MD: norms/components/button.2.0.0.md", 12));
+root.appendChild(text("Label y swaps editables. Loading y disabled no simulan servicios. Contrato MD: " + DATA.contractPath, 12));
 const instances = [];
 for (const size of ["large", "medium", "small"]) {
   const section = layout("VERTICAL", "Size / " + size, 8); root.appendChild(section);

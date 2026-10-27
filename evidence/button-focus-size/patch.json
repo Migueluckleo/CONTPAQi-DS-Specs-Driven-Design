@@ -1,0 +1,132 @@
+{
+  "status": "APPLIED_AND_PRESERVED",
+  "changes": [
+    {
+      "id": "15:69",
+      "name": "size=medium, state=focus",
+      "before": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:26",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:26",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "after": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:32",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:32",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "width": 79,
+      "height": 40
+    },
+    {
+      "id": "15:76",
+      "name": "size=small, state=focus",
+      "before": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:26",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:26",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "after": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:38",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:38",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "width": 71,
+      "height": 32
+    }
+  ],
+  "checks": {
+    "publicVariantCount": 90,
+    "publicVisualGeometryBindingsUnchanged": true,
+    "componentPropertiesUnchanged": true,
+    "other88VariantReactionsUnchanged": true,
+    "helpersUnchanged": true,
+    "all298VariablesUnchanged": true,
+    "variableCount": 298,
+    "componentVariableCount": 47,
+    "contractReferencesCurrent": true
+  },
+  "mutatedNodeIds": [
+    "15:69",
+    "15:76",
+    "14:110",
+    "15:116",
+    "15:231",
+    "15:343",
+    "15:461",
+    "16:35"
+  ],
+  "createdNodeIds": [],
+  "sourceFileAccess": "NONE"
+}

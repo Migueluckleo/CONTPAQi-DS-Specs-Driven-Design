@@ -1,11 +1,11 @@
 {
   "status": "PASS_BUTTON_PILOT_WITH_DECLARED_CONSUMER_LIMITS",
-  "authorization": "ADR-006 + ADR-007 + ADR-008",
+  "authorization": "ADR-006 + ADR-007 + ADR-008 + ADR-014",
   "contract": {
     "id": "BUTTON-001",
-    "version": "2.0.0",
-    "path": "norms/components/button.2.0.0.md",
-    "sha256": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482",
+    "version": "2.0.1",
+    "path": "norms/components/button.2.0.1.md",
+    "sha256": "33fd628444b5e40ce747aaca9ab98e31cc18b5306681c46883713f12c73a16a4",
     "current": true
   },
   "token_set": {
@@ -54,15 +54,16 @@
     "source_repo": "PASS 13 recovered file hashes unchanged; no writes performed",
     "core": "PASS",
     "unitTests": {
-      "status": "PASS",
+      "status": "HISTORICAL_PASS",
       "tests": 44,
-      "command": "python3 -B -m unittest discover -s tests -v"
+      "command": "python3 -B -m unittest discover -s tests -v",
+      "scope": "Original pilot infrastructure run; fresh required results are recorded in BH-P08 push notes."
     },
     "visual": "PASS current screenshot",
     "independentReview": "NOT_RUN",
     "web": "NOT_RUN_OUT_OF_SCOPE",
-    "presenterPlayback": "PASS_NATIVE_FIGMA_PLAYER_WITH_SOURCE_WARNINGS",
-    "reproducibility": "PASS identical plan, registered tokens and reconstructed source nodes",
+    "presenterPlayback": "PASS_NATIVE_FIGMA_PLAYER; historical Secondary size warnings resolved by ADR-014",
+    "reproducibility": "PASS historical baseline plus hashed 2.0.1 correction; stale cross-size recipes rejected",
     "iconography": "PASS Phosphor links, tokens and themes",
     "tokenConsolidation": "PASS 125 to 47; 78 retired without residual references",
     "componentTokenProtocol": "PASS BH-P07 enforced by core; 47 unique signatures",
@@ -155,7 +156,7 @@
     "REQ-LOADING": {
       "status": "PASS_DOCUMENTED",
       "evidence": [
-        "norms/components/button.2.0.0.md"
+        "norms/components/button.2.0.1.md"
       ],
       "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
       "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
@@ -163,7 +164,7 @@
     "REQ-DISABLED": {
       "status": "PASS_DOCUMENTED",
       "evidence": [
-        "norms/components/button.2.0.0.md"
+        "norms/components/button.2.0.1.md"
       ],
       "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
       "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
@@ -171,7 +172,7 @@
     "REQ-USAGE": {
       "status": "PASS_DOCUMENTED",
       "evidence": [
-        "norms/components/button.2.0.0.md"
+        "norms/components/button.2.0.1.md"
       ],
       "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
       "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
@@ -179,7 +180,7 @@
     "REQ-CONTENT": {
       "status": "PASS_DOCUMENTED",
       "evidence": [
-        "norms/components/button.2.0.0.md"
+        "norms/components/button.2.0.1.md"
       ],
       "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
       "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
@@ -187,18 +188,20 @@
     "REQ-COMPOSITION": {
       "status": "PASS_DOCUMENTED",
       "evidence": [
-        "norms/components/button.2.0.0.md"
+        "norms/components/button.2.0.1.md"
       ],
       "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
       "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
     },
     "REQ-PROTOTYPE": {
-      "status": "PASS_NATIVE_FIGMA_PLAYBACK_WITH_SOURCE_WARNINGS",
+      "status": "PASS_SCOPED_CORRECTION_AND_PRESERVATION",
       "evidence": [
         "evidence/button-pilot/qa/helpers-corrected-check-response.json",
-        "evidence/qa/button-playback-check.json"
+        "evidence/qa/button-playback-check.json",
+        "evidence/qa/button-focus-size-check.json"
       ],
-      "limitation": "Secondary focus medium/small preserve source hover-large destinations. Native playback does not certify HTML/ARIA or animation frame rate."
+      "scope": "Native playback of both corrected focus-hover-return transitions; all other stored reactions and helpers preserved. Historical playback covers unchanged paths.",
+      "limitation": "Does not certify HTML/ARIA or animation frame rate."
     },
     "REQ-ASSETS": {
       "status": "PASS_LINKED_PHOSPHOR",
@@ -211,7 +214,7 @@
     "REQ-ACCESSIBILITY": {
       "status": "PASS_DOCUMENTED",
       "evidence": [
-        "norms/components/button.2.0.0.md"
+        "norms/components/button.2.0.1.md"
       ],
       "scope": "Normative rule and sources recorded; implementation coverage is separately declared.",
       "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
@@ -276,6 +279,8 @@
     "reduction": "evidence/qa/button-reduction-check.json",
     "tokenProtocol": "evidence/qa/component-token-protocol-check.json",
     "naming": "evidence/qa/component-naming-check.json",
-    "presenterPlayback": "evidence/qa/button-playback-check.json"
+    "presenterPlayback": "evidence/qa/button-focus-size-check.json",
+    "historicalPresenterPlayback": "evidence/qa/button-playback-check.json",
+    "prototypeCorrection": "evidence/qa/button-focus-size-check.json"
   }
 }

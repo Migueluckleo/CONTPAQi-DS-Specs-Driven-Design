@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "method": "Native screenshots: blue border silhouette versus static same-size hover; 1px subpixel raster tolerance. Before/returned crop comparison. Exact logical dimensions and destinations verified separately through Figma API.",
+  "cases": [
+    {
+      "size": "medium",
+      "logical_height_px": 40,
+      "native_scale": 0.7778776978417267,
+      "active_outline": {
+        "width_px": 62,
+        "height_px": 31
+      },
+      "same_size_hover_control": {
+        "width_px": 61,
+        "height_px": 31
+      },
+      "raster_tolerance_px": 1,
+      "focus_return_crop_mean_absolute_error": 0.0,
+      "size_matches_control": true,
+      "focus_restored": true
+    },
+    {
+      "size": "small",
+      "logical_height_px": 32,
+      "native_scale": 0.7778776978417267,
+      "active_outline": {
+        "width_px": 56,
+        "height_px": 25
+      },
+      "same_size_hover_control": {
+        "width_px": 55,
+        "height_px": 25
+      },
+      "raster_tolerance_px": 1,
+      "focus_return_crop_mean_absolute_error": 0.0,
+      "size_matches_control": true,
+      "focus_restored": true
+    }
+  ]
+}

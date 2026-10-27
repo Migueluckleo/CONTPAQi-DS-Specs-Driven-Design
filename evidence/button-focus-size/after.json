@@ -1,0 +1,259 @@
+{
+  "status": "READBACK",
+  "nodes": [
+    {
+      "id": "15:69",
+      "name": "size=medium, state=focus",
+      "type": "COMPONENT",
+      "parentId": "15:116",
+      "width": 79,
+      "height": 40,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:32",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:32",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "medium",
+        "state": "focus"
+      }
+    },
+    {
+      "id": "15:76",
+      "name": "size=small, state=focus",
+      "type": "COMPONENT",
+      "parentId": "15:116",
+      "width": 71,
+      "height": 32,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:38",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:38",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "small",
+        "state": "focus"
+      }
+    },
+    {
+      "id": "15:32",
+      "name": "size=medium, state=hover",
+      "type": "COMPONENT",
+      "parentId": "15:116",
+      "width": 79,
+      "height": 40,
+      "reactions": [],
+      "variantProperties": {
+        "size": "medium",
+        "state": "hover"
+      }
+    },
+    {
+      "id": "15:38",
+      "name": "size=small, state=hover",
+      "type": "COMPONENT",
+      "parentId": "15:116",
+      "width": 71,
+      "height": 32,
+      "reactions": [],
+      "variantProperties": {
+        "size": "small",
+        "state": "hover"
+      }
+    },
+    {
+      "id": "16:296",
+      "name": "secondary / medium / focus",
+      "type": "INSTANCE",
+      "parentId": "16:301",
+      "width": 79,
+      "height": 40,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:32",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:32",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "componentProperties": {
+        "Right icon#15:76": {
+          "type": "INSTANCE_SWAP",
+          "value": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Left icon#15:57": {
+          "type": "INSTANCE_SWAP",
+          "value": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Show right icon#15:38": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show left icon#15:19": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Label#15:0": {
+          "type": "TEXT",
+          "value": "Button"
+        },
+        "size": {
+          "value": "medium",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "id": "16:487",
+      "name": "secondary / small / focus",
+      "type": "INSTANCE",
+      "parentId": "16:492",
+      "width": 71,
+      "height": 32,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:38",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:38",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "small",
+        "state": "focus"
+      },
+      "componentProperties": {
+        "Left icon#15:57": {
+          "type": "INSTANCE_SWAP",
+          "value": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Show right icon#15:38": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show left icon#15:19": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Right icon#15:76": {
+          "type": "INSTANCE_SWAP",
+          "value": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Label#15:0": {
+          "type": "TEXT",
+          "value": "Button"
+        },
+        "size": {
+          "value": "small",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    }
+  ]
+}

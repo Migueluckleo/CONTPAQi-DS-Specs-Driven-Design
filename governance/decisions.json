@@ -194,6 +194,20 @@
         "path": "evidence/authorization/main-without-reviewer-request.txt",
         "sha256": "ffa1572afeb363d4cb2887b72212e6b24e546a95554ab7a045b96244733b5cdd"
       }
+    },
+    {
+      "id": "ADR-014",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "Corregir en Blue Heart DS Secondary focus medium y small para cambiar a hover del mismo tamaño, actualizar contrato y validar el cambio. Se adopta Button 2.0.1 como corrección compatible. Se permite divergir en esos dos destinos de la referencia histórica, que permanece intacta. No cambiar tokens, API ni el proyecto/Figma originales.",
+      "scope": [
+        "BUTTON-001",
+        "secondary-focus-same-size"
+      ],
+      "source": {
+        "path": "evidence/authorization/secondary-focus-size-request.txt",
+        "sha256": "008dc71c861dc7696d54809e7d70b4b46472919fbef04b1e7e909f06ac09a1c9"
+      }
     }
   ]
 }

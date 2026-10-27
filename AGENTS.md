@@ -15,7 +15,7 @@ El alcance vigente es el piloto Button autorizado por ADR-006: contrato MD de di
 
 La selección de iconografía está en ADR-007 y `protocols/06-PHOSPHOR-ICONS.md`: Phosphor del equipo en Figma y paquete oficial en desarrollo, sin copias vectoriales locales.
 
-ADR-008 consolida Button en 47 tokens. Consultar el contrato 2.0.0 y el mapa de migración antes de reutilizar nombres anteriores; no volver a crear variables por cada estado cuando compartan tipo, scope y aliases completos.
+ADR-008 consolida Button en 47 tokens. Consultar el contrato vigente y el mapa de migración antes de reutilizar nombres anteriores; no volver a crear variables por cada estado cuando compartan tipo, scope y aliases completos.
 
 Todo encargo de componentes debe aplicar `protocols/07-COMPONENT-TOKENS.md` (ADR-009) antes de crear variables. `check` valida minimización por contrato; `context` expone `token_minimum`. No multiplicar tokens por estados ni asumir que 47 es el límite de otra familia.
 
@@ -24,3 +24,5 @@ ADR-010 adopta los nombres Figma con componente primero y grupos `/`, por ejempl
 ADR-011 registra ocho contratos operativos con propietario MD único. Consultar `context BH-P08` para documentación de envíos y versiones de componentes; `docs/releases/README.md` enlaza comandos y configuración remota. Las notas se preparan antes del envío y CI verifica cobertura. ADR-012 autoriza publicar en Migueluckleo/CONTPAQi-DS-Specs-Driven-Design y configurar sus controles. Por cada push del encargo, entregar su PDF condensado conforme a REQ-P08-07; no publicar releases oficiales por esa autorización.
 
 ADR-013 elimina las aprobaciones obligatorias para integrar en main; las condiciones de PR, CI y notas siguen en REQ-P08-05. Las revisiones voluntarias no son un requisito de GitHub.
+
+ADR-014 adopta Button 2.0.1 y la corrección de Secondary focus en REQ-PROTOTYPE. La guía de consumo enlaza la proyección vigente de recetas y el comprobante de esa corrección; el baseline y la prueba 2.0.0 se conservan como historia.

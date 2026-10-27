@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "projection_version": "2.0.1",
+  "variants": 90,
+  "changed_variants": [
+    {
+      "sourceId": "1750:877",
+      "size": "medium"
+    },
+    {
+      "sourceId": "1750:891",
+      "size": "small"
+    }
+  ],
+  "only_authorized_destinations_changed": true,
+  "tokens_47_unchanged": true,
+  "historical_baseline_sha256": "39e2d4c0f15cc729d3aff286c355456ca0cd338e12d52daa696d32de9409189c",
+  "reference_integrity": {
+    "source_files_verified": 13,
+    "unchanged": true
+  }
+}
