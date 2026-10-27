@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "scope": "Historical evidence and exact Git recovery; not operative rules",
+  "repository": "Migueluckleo/CONTPAQi-DS-Specs-Driven-Design",
+  "main_before_cleanup": "0d13f89ea4a945d156e0867d0a0227a6bff4a05f",
+  "branches_to_remove": {
+    "fix/main-without-reviewer": {
+      "sha": "55b9fe7bd067eb63adb9eb9f514a304123d4b8d2",
+      "preservation": "ancestor of main via PR #2"
+    },
+    "verification/protocol-08": {
+      "sha": "b108e09b54764f5c57b68f49c92448d15545d284",
+      "preservation": "protocol08-test-history.bundle + retained prerequisite in main"
+    }
+  },
+  "recovery_verification": {
+    "status": "PASS",
+    "method": "isolated bare clone of main + bundle verify/unbundle; compare all three original commit/tree/parent/message identities and evidence blobs",
+    "unique_commits": [
+      "b108e09b54764f5c57b68f49c92448d15545d284",
+      "498665b6635b67097ce83a5d249866efc4f8d062",
+      "81546938340f1ae1ec4b4231252ed58a1ddc2ef3"
+    ],
+    "restoration_created_active_branches": false
+  },
+  "branch_deletion": "PENDING_ARCHIVE_INTEGRATION",
+  "files": [
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/README.md",
+      "sha256": "86dbbf414599376e93367f1a91dff4d09a88922c4d82fd04a6e5637fbe088043",
+      "bytes": 2274
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/authorization.txt",
+      "sha256": "99b8bc0d3a073346d70e73764bb2c249b0d0ee7743f2f99c49e109fbd709e715",
+      "bytes": 187
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/corrective-push-receipt.json",
+      "sha256": "369a5174ddd0d06c0ea2400faab06a6938f5097a0d377b9f436d911ab56b4675",
+      "bytes": 752
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/historical-branch-protection-check.json",
+      "sha256": "6e79347ce82dd350842890b7ea0976aac5ae01d6c66405fb1a78ab29c1553816",
+      "bytes": 3451
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/historical-test-push.md",
+      "sha256": "77126cd922e7b56da22b40ee177ed1084a3ec1416a7794b1a80961250f3e5153",
+      "bytes": 3307
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/noncompliant-probe-receipt.json",
+      "sha256": "63aa147c4bccd7805c27328a8d28bfd0588eeebc153b29a84c84095fdfbd24b7",
+      "bytes": 27439
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/pr-1.json",
+      "sha256": "9f75dc30557a4e5a056c14cfecce0677aa32712b7a682a7284567f6367dc7c85",
+      "bytes": 433
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/pr-2.json",
+      "sha256": "c7043b2e8c3642d40f81464e9f076794e0c06c4896b997ac1af5f04288c36ebe",
+      "bytes": 451
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/protocol08-test-history.bundle",
+      "sha256": "2627fe9e4f8503a6a3cf526dc0c0e497c1469645bf43994539cf958a74e32e49",
+      "bytes": 4527
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40460963098-logs.txt",
+      "sha256": "9d25c0773bee0a7ef724d14f4851e3872f5c42c8352b00b8ca17bbc120191ca5",
+      "bytes": 4024
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40460963098.json",
+      "sha256": "397678b0e58bcbf75273a09a5e04f892cb97b29d4cb981f9a671c02c51b77fd5",
+      "bytes": 3737
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40461043254-logs.txt",
+      "sha256": "6ad8da0be3df30ea6cd94542bfa5445a206f21e8ea57dbd2874cdbf71c3e0d50",
+      "bytes": 4024
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40461043254.json",
+      "sha256": "62dee9c0a3bfbe2b0aa1128f879cea7dc12f81077a051cce32428ab36a994717",
+      "bytes": 3745
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40461670953-logs.txt",
+      "sha256": "cb81f259571225800bfe3638354de880fdd1c51ff0d45760a99bdfd92efa66d1",
+      "bytes": 5633
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40461670953.json",
+      "sha256": "93cbb6553f99c47add0216a4536edf546b65e5e12e6d8536cf4f1fbb04a33b16",
+      "bytes": 3737
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40461676525-logs.txt",
+      "sha256": "3cc30436d2e68290b3b8292621da5fd124a0f32ca342fc86b8fd21da204fa9a9",
+      "bytes": 5494
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40461676525.json",
+      "sha256": "569fbd183e1beba962ee8e6f04ae5c7605da49a5e56c825167e59c4755f44196",
+      "bytes": 3745
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40463514026-logs.txt",
+      "sha256": "704017db7caeb0b7782c19c8925bc102b28f5cd8f58c2087cec020f96d455a8a",
+      "bytes": 86580
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40463514026.json",
+      "sha256": "01ce8c320022aee2a7090f95f3258f7a142723b76cff48f78b26df2eee48b183",
+      "bytes": 3738
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40463551037-logs.txt",
+      "sha256": "f86fa31bc2f8b8c16ad4b4bed0f807a24a2208eced1cc402a3742c2f9d9b5b86",
+      "bytes": 7181
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40463551037.json",
+      "sha256": "77cb2f1b265c10062cd7bb32504ab6a9285d52c79b31d74425a8e0016af039e9",
+      "bytes": 3746
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40463730582-logs.txt",
+      "sha256": "3741085f46fea6562e0631cfec223938af3b8b71422ca4a9369286b3b0025703",
+      "bytes": 7366
+    },
+    {
+      "path": "evidence/branch-cleanup/2026-10-27/run-40463730582.json",
+      "sha256": "2dd5516f276210a290904765b74a95eece473f61e49f105a0156a4228e0d3f81",
+      "bytes": 3717
+    }
+  ]
+}

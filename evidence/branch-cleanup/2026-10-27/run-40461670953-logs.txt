@@ -1,0 +1,90 @@
+=== release-documentation/4_Architecture integrity.txt ===
+﻿2026-10-27T06:32:08.8964363Z ##[group]Run python3 -B -m blueheart check
+2026-10-27T06:32:08.8964786Z [36;1mpython3 -B -m blueheart check[0m
+2026-10-27T06:32:08.9029356Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:32:08.9029625Z ##[endgroup]
+2026-10-27T06:32:10.5276371Z {
+2026-10-27T06:32:10.5277055Z   "collections": 3,
+2026-10-27T06:32:10.5279514Z   "component_token_minimum": {
+2026-10-27T06:32:10.5279948Z     "BUTTON-001@2.0.0": {
+2026-10-27T06:32:10.5280306Z       "component_tokens": 47,
+2026-10-27T06:32:10.5280757Z       "distinct_signatures": 47,
+2026-10-27T06:32:10.5281144Z       "protocol": "BH-P07",
+2026-10-27T06:32:10.5281522Z       "redundancies": 0,
+2026-10-27T06:32:10.5281902Z       "status": "PASS"
+2026-10-27T06:32:10.5282239Z     }
+2026-10-27T06:32:10.5282550Z   },
+2026-10-27T06:32:10.5282840Z   "contracts": 9,
+2026-10-27T06:32:10.5283159Z   "deferred": [
+2026-10-27T06:32:10.5283920Z     "figma-write-adapter",
+2026-10-27T06:32:10.5284603Z     "react-library",
+2026-10-27T06:32:10.5284965Z     "graphify-adapter",
+2026-10-27T06:32:10.5285601Z     "persistent-agent-office",
+2026-10-27T06:32:10.5286035Z     "release-publication"
+2026-10-27T06:32:10.5286587Z   ],
+2026-10-27T06:32:10.5286946Z   "graphify_required": false,
+2026-10-27T06:32:10.5287332Z   "mode_contexts": 4,
+2026-10-27T06:32:10.5287965Z   "scope": "Infrastructure and registered normative content; not design or implementation QA",
+2026-10-27T06:32:10.5288928Z   "snapshot": "cc75cb3dccf0d3fa126807702e0de40ef3ce24085b99c3ace0036ec725380e95",
+2026-10-27T06:32:10.5289599Z   "status": "PASS",
+2026-10-27T06:32:10.5289924Z   "token_sets": 1,
+2026-10-27T06:32:10.5290244Z   "tokens": 298
+2026-10-27T06:32:10.5290546Z }
+
+
+=== release-documentation/5_Infrastructure tests.txt ===
+﻿2026-10-27T06:32:10.5411352Z ##[group]Run python3 -B -m unittest discover -s tests -q
+2026-10-27T06:32:10.5411803Z [36;1mpython3 -B -m unittest discover -s tests -q[0m
+2026-10-27T06:32:10.5471927Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:32:10.5472194Z ##[endgroup]
+2026-10-27T06:32:29.4558196Z ----------------------------------------------------------------------
+2026-10-27T06:32:29.4558689Z Ran 85 tests in 18.782s
+2026-10-27T06:32:29.4558844Z 
+2026-10-27T06:32:29.4558928Z OK
+
+
+=== release-documentation/6_Verify every introduced commit and component version.txt ===
+﻿2026-10-27T06:32:29.4857660Z ##[group]Run python3 -B -m blueheart.release_docs ci --receipt "$RUNNER_TEMP/release-receipt.json"
+2026-10-27T06:32:29.4858380Z [36;1mpython3 -B -m blueheart.release_docs ci --receipt "$RUNNER_TEMP/release-receipt.json"[0m
+2026-10-27T06:32:29.4918610Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:32:29.4918893Z ##[endgroup]
+2026-10-27T06:32:29.6763356Z {
+2026-10-27T06:32:29.6763973Z   "base": "81546938340f1ae1ec4b4231252ed58a1ddc2ef3",
+2026-10-27T06:32:29.6764475Z   "commits": [
+2026-10-27T06:32:29.6764708Z     "498665b6635b67097ce83a5d249866efc4f8d062",
+2026-10-27T06:32:29.6765008Z     "b108e09b54764f5c57b68f49c92448d15545d284"
+2026-10-27T06:32:29.6765269Z   ],
+2026-10-27T06:32:29.6765445Z   "envelopes": [
+2026-10-27T06:32:29.6765671Z     "b108e09b54764f5c57b68f49c92448d15545d284"
+2026-10-27T06:32:29.6765941Z   ],
+2026-10-27T06:32:29.6766112Z   "files": [
+2026-10-27T06:32:29.6766297Z     {
+2026-10-27T06:32:29.6766612Z       "path": "docs/releases/pushes/498665b6635b67097ce83a5d249866efc4f8d062.md",
+2026-10-27T06:32:29.6767090Z       "status": "A"
+2026-10-27T06:32:29.6767282Z     },
+2026-10-27T06:32:29.6767448Z     {
+2026-10-27T06:32:29.6767731Z       "path": "docs/releases/verification/branch-protection-check.json",
+2026-10-27T06:32:29.6768093Z       "status": "A"
+2026-10-27T06:32:29.6768282Z     },
+2026-10-27T06:32:29.6768684Z     {
+2026-10-27T06:32:29.6768949Z       "path": "docs/releases/verification/noncompliance-probe.md",
+2026-10-27T06:32:29.6769284Z       "status": "D"
+2026-10-27T06:32:29.6769473Z     }
+2026-10-27T06:32:29.6769639Z   ],
+2026-10-27T06:32:29.6769853Z   "head": "b108e09b54764f5c57b68f49c92448d15545d284",
+2026-10-27T06:32:29.6770145Z   "integrations": [],
+2026-10-27T06:32:29.6770345Z   "records": [
+2026-10-27T06:32:29.6770631Z     "docs/releases/pushes/498665b6635b67097ce83a5d249866efc4f8d062.md"
+2026-10-27T06:32:29.6770972Z   ],
+2026-10-27T06:32:29.6771148Z   "run_id": "40461670953",
+2026-10-27T06:32:29.6771628Z   "scope": "Recorded architecture/infrastructure tests; destination QA remains explicit in pending/evidence",
+2026-10-27T06:32:29.6772158Z   "status": "PASS"
+2026-10-27T06:32:29.6772346Z }
+
+
+=== release-documentation/7_Generate condensed PDF including failed verification outcomes.txt ===
+﻿2026-10-27T06:32:29.6910252Z ##[group]Run python3 -B -m blueheart.release_pdf --receipt "$RUNNER_TEMP/release-receipt.json" --output "$RUNNER_TEMP/release-notes/release-notes-b108e09b54764f5c57b68f49c92448d15545d284.pdf" --check architecture:success --check tests:success --check documentation:success
+2026-10-27T06:32:29.6912209Z [36;1mpython3 -B -m blueheart.release_pdf --receipt "$RUNNER_TEMP/release-receipt.json" --output "$RUNNER_TEMP/release-notes/release-notes-b108e09b54764f5c57b68f49c92448d15545d284.pdf" --check architecture:success --check tests:success --check documentation:success[0m
+2026-10-27T06:32:29.6973283Z shell: /usr/bin/bash -e {0}
+2026-10-27T06:32:29.6973787Z ##[endgroup]
+2026-10-27T06:32:29.9879572Z {"status": "CREATED", "report_status": "PASS", "path": "/home/runner/work/_temp/release-notes/release-notes-b108e09b54764f5c57b68f49c92448d15545d284.pdf", "head": "b108e09b54764f5c57b68f49c92448d15545d284"}
