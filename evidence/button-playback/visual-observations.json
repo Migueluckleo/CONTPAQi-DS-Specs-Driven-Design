@@ -1,0 +1,741 @@
+{
+  "status": "PASS",
+  "method": "Same control/viewport pixels: active differs, return and static controls match exactly; motion has a stable neighbour.",
+  "scope": "Recorded native Figma player observations, not a new browser run or a frame-rate/accessibility certification.",
+  "interactive": [
+    {
+      "kind": "default_hover_return",
+      "size": "large",
+      "family": "primary",
+      "coordinate": [
+        361,
+        127
+      ],
+      "active": "evidence/button-playback/fit-large-primary-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-primary-return.jpg",
+      "active_difference": 14.87288888888889,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "large",
+      "family": "secondary",
+      "coordinate": [
+        361,
+        144
+      ],
+      "active": "evidence/button-playback/fit-large-secondary-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-secondary-return.jpg",
+      "active_difference": 6.335111111111111,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "large",
+      "family": "text",
+      "coordinate": [
+        361,
+        161
+      ],
+      "active": "evidence/button-playback/fit-large-text-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-text-return.jpg",
+      "active_difference": 6.5200000000000005,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "large",
+      "family": "link",
+      "coordinate": [
+        361,
+        178
+      ],
+      "active": "evidence/button-playback/fit-large-link-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-link-return.jpg",
+      "active_difference": 1.9671111111111113,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "medium",
+      "family": "primary",
+      "coordinate": [
+        361,
+        232
+      ],
+      "active": "evidence/button-playback/fit-medium-primary-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-primary-return.jpg",
+      "active_difference": 12.821333333333333,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "medium",
+      "family": "secondary",
+      "coordinate": [
+        361,
+        249
+      ],
+      "active": "evidence/button-playback/fit-medium-secondary-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-secondary-return.jpg",
+      "active_difference": 5.753777777777778,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "medium",
+      "family": "text",
+      "coordinate": [
+        361,
+        266
+      ],
+      "active": "evidence/button-playback/fit-medium-text-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-text-return.jpg",
+      "active_difference": 3.2275555555555555,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "medium",
+      "family": "link",
+      "coordinate": [
+        361,
+        283
+      ],
+      "active": "evidence/button-playback/fit-medium-link-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-link-return.jpg",
+      "active_difference": 1.9457777777777778,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "small",
+      "family": "primary",
+      "coordinate": [
+        361,
+        337
+      ],
+      "active": "evidence/button-playback/fit-small-primary-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-primary-return.jpg",
+      "active_difference": 8.745777777777777,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "small",
+      "family": "secondary",
+      "coordinate": [
+        361,
+        354
+      ],
+      "active": "evidence/button-playback/fit-small-secondary-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-secondary-return.jpg",
+      "active_difference": 4.511111111111111,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "small",
+      "family": "text",
+      "coordinate": [
+        361,
+        371
+      ],
+      "active": "evidence/button-playback/fit-small-text-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-text-return.jpg",
+      "active_difference": 3.704,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "default_hover_return",
+      "size": "small",
+      "family": "link",
+      "coordinate": [
+        361,
+        388
+      ],
+      "active": "evidence/button-playback/fit-small-link-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-link-return.jpg",
+      "active_difference": 2.078222222222222,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "large",
+      "family": "primary",
+      "coordinate": [
+        463,
+        127
+      ],
+      "active": "evidence/button-playback/fit-large-primary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-primary-focus-return.jpg",
+      "active_difference": 22.561777777777777,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "large",
+      "family": "secondary",
+      "coordinate": [
+        463,
+        144
+      ],
+      "active": "evidence/button-playback/fit-large-secondary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-secondary-focus-return.jpg",
+      "active_difference": 20.38577777777778,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "large",
+      "family": "link",
+      "coordinate": [
+        463,
+        178
+      ],
+      "active": "evidence/button-playback/fit-large-link-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-large-link-focus-return.jpg",
+      "active_difference": 15.441777777777778,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "medium",
+      "family": "primary",
+      "coordinate": [
+        463,
+        232
+      ],
+      "active": "evidence/button-playback/fit-medium-primary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-primary-focus-return.jpg",
+      "active_difference": 23.109333333333336,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "medium",
+      "family": "secondary",
+      "coordinate": [
+        463,
+        249
+      ],
+      "active": "evidence/button-playback/fit-medium-secondary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-secondary-focus-return.jpg",
+      "active_difference": 16.906666666666666,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "medium",
+      "family": "link",
+      "coordinate": [
+        463,
+        283
+      ],
+      "active": "evidence/button-playback/fit-medium-link-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-medium-link-focus-return.jpg",
+      "active_difference": 14.125333333333332,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "small",
+      "family": "secondary",
+      "coordinate": [
+        463,
+        354
+      ],
+      "active": "evidence/button-playback/fit-small-secondary-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-secondary-focus-return.jpg",
+      "active_difference": 22.75822222222222,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "focus_hover_return",
+      "size": "small",
+      "family": "link",
+      "coordinate": [
+        463,
+        388
+      ],
+      "active": "evidence/button-playback/fit-small-link-focus-hover.jpg",
+      "returned": "evidence/button-playback/fit-small-link-focus-return.jpg",
+      "active_difference": 13.37688888888889,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "hover_press_return",
+      "size": "large",
+      "family": "link",
+      "coordinate": [
+        395,
+        178
+      ],
+      "active": "evidence/button-playback/fit-large-link-pressed.jpg",
+      "returned": "evidence/button-playback/fit-large-link-press-return.jpg",
+      "startedAt": 1793114190479,
+      "capturedAt": 1793114191448,
+      "releasedAt": 1793114193622,
+      "capturedWhileHeld": true,
+      "active_difference": 6.443555555555555,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "hover_press_return",
+      "size": "medium",
+      "family": "link",
+      "coordinate": [
+        395,
+        283
+      ],
+      "active": "evidence/button-playback/fit-medium-link-pressed.jpg",
+      "returned": "evidence/button-playback/fit-medium-link-press-return.jpg",
+      "startedAt": 1793114194663,
+      "capturedAt": 1793114195697,
+      "releasedAt": 1793114197787,
+      "capturedWhileHeld": true,
+      "active_difference": 6.0391111111111115,
+      "return_difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "hover_press_return",
+      "size": "small",
+      "family": "link",
+      "coordinate": [
+        395,
+        388
+      ],
+      "active": "evidence/button-playback/fit-small-link-pressed.jpg",
+      "returned": "evidence/button-playback/fit-small-link-press-return.jpg",
+      "startedAt": 1793114198888,
+      "capturedAt": 1793114199829,
+      "releasedAt": 1793114202113,
+      "capturedWhileHeld": true,
+      "active_difference": 6.815111111111111,
+      "return_difference": 0,
+      "status": "PASS"
+    }
+  ],
+  "static": [
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "primary",
+      "coordinate": [
+        531,
+        127
+      ],
+      "image": "evidence/button-playback/fit-large-primary-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "secondary",
+      "coordinate": [
+        531,
+        144
+      ],
+      "image": "evidence/button-playback/fit-large-secondary-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "text",
+      "coordinate": [
+        531,
+        161
+      ],
+      "image": "evidence/button-playback/fit-large-text-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "link",
+      "coordinate": [
+        531,
+        178
+      ],
+      "image": "evidence/button-playback/fit-large-link-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "large",
+      "family": "danger",
+      "coordinate": [
+        531,
+        195
+      ],
+      "image": "evidence/button-playback/fit-large-danger-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "unwired_danger_default",
+      "size": "large",
+      "family": "danger",
+      "coordinate": [
+        361,
+        195
+      ],
+      "image": "evidence/button-playback/fit-large-danger-default-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "primary",
+      "coordinate": [
+        531,
+        232
+      ],
+      "image": "evidence/button-playback/fit-medium-primary-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "secondary",
+      "coordinate": [
+        531,
+        249
+      ],
+      "image": "evidence/button-playback/fit-medium-secondary-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "text",
+      "coordinate": [
+        531,
+        266
+      ],
+      "image": "evidence/button-playback/fit-medium-text-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "link",
+      "coordinate": [
+        531,
+        283
+      ],
+      "image": "evidence/button-playback/fit-medium-link-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "medium",
+      "family": "danger",
+      "coordinate": [
+        531,
+        300
+      ],
+      "image": "evidence/button-playback/fit-medium-danger-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "unwired_danger_default",
+      "size": "medium",
+      "family": "danger",
+      "coordinate": [
+        361,
+        300
+      ],
+      "image": "evidence/button-playback/fit-medium-danger-default-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "primary",
+      "coordinate": [
+        531,
+        337
+      ],
+      "image": "evidence/button-playback/fit-small-primary-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "secondary",
+      "coordinate": [
+        531,
+        354
+      ],
+      "image": "evidence/button-playback/fit-small-secondary-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "text",
+      "coordinate": [
+        531,
+        371
+      ],
+      "image": "evidence/button-playback/fit-small-text-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "link",
+      "coordinate": [
+        531,
+        388
+      ],
+      "image": "evidence/button-playback/fit-small-link-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "disabled_no_action",
+      "size": "small",
+      "family": "danger",
+      "coordinate": [
+        531,
+        405
+      ],
+      "image": "evidence/button-playback/fit-small-danger-disabled-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    },
+    {
+      "kind": "unwired_danger_default",
+      "size": "small",
+      "family": "danger",
+      "coordinate": [
+        361,
+        405
+      ],
+      "image": "evidence/button-playback/fit-small-danger-default-click.jpg",
+      "difference": 0,
+      "status": "PASS"
+    }
+  ],
+  "motion": [
+    {
+      "size": "large",
+      "family": "primary",
+      "sample_differences": [
+        5.7094017094017095,
+        6.532763532763532,
+        8.079772079772079,
+        7.404558404558404
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "large",
+      "family": "secondary",
+      "sample_differences": [
+        3.3304843304843303,
+        3.156695156695157,
+        7.313390313390314,
+        7.313390313390314
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "large",
+      "family": "text",
+      "sample_differences": [
+        1.1937321937321936,
+        1.1937321937321936,
+        6.985754985754986,
+        6.985754985754986
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "large",
+      "family": "link",
+      "sample_differences": [
+        2.427350427350427,
+        2.49002849002849,
+        5.851851851851852,
+        5.851851851851852
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "large",
+      "family": "danger",
+      "sample_differences": [
+        7.250712250712251,
+        8.846153846153847,
+        9.165242165242164,
+        7.715099715099715
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "medium",
+      "family": "primary",
+      "sample_differences": [
+        5.153846153846154,
+        4.7236467236467234,
+        6.222222222222222,
+        6.159544159544159
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "medium",
+      "family": "secondary",
+      "sample_differences": [
+        0,
+        0,
+        4.621082621082621,
+        4.621082621082621
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "medium",
+      "family": "text",
+      "sample_differences": [
+        0,
+        0,
+        6.3076923076923075,
+        6.3076923076923075
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "medium",
+      "family": "link",
+      "sample_differences": [
+        0.26780626780626776,
+        0.4216524216524216,
+        4.279202279202279,
+        0.24786324786324787
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "medium",
+      "family": "danger",
+      "sample_differences": [
+        6.871794871794871,
+        6.119658119658119,
+        7.347578347578348,
+        5.880341880341881
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "small",
+      "family": "primary",
+      "sample_differences": [
+        3.777777777777778,
+        5.048433048433048,
+        5.256410256410256,
+        6.304843304843305
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "small",
+      "family": "secondary",
+      "sample_differences": [
+        0.50997150997151,
+        0.3190883190883191,
+        3.5954415954415957,
+        0.6866096866096867
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "small",
+      "family": "text",
+      "sample_differences": [
+        0,
+        5.512820512820514,
+        4.113960113960114,
+        0
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "small",
+      "family": "link",
+      "sample_differences": [
+        0,
+        0,
+        3.564102564102564,
+        0
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    },
+    {
+      "size": "small",
+      "family": "danger",
+      "sample_differences": [
+        5.188034188034188,
+        4.071225071225071,
+        5.504273504273503,
+        4.165242165242165
+      ],
+      "stable_neighbour": true,
+      "status": "PASS"
+    }
+  ]
+}

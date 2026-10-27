@@ -1,0 +1,297 @@
+{
+  "schema_version": 1,
+  "date_context": "2026-10-27",
+  "status": "PASS_NATIVE_FIGMA_PLAYBACK_WITH_SOURCE_WARNINGS",
+  "authorization": {
+    "existing_scope": "ADR-006 / VALIDATE_ONLY Button; no change of normative rules or design",
+    "request": {
+      "path": "evidence/authorization/button-playback-request.txt",
+      "sha256": "eb7b30f58fdf37c12d084e05f831fa28306e2b6376caf015a96fbc374f51d744"
+    }
+  },
+  "requirement": "REQ-PROTOTYPE",
+  "contract": {
+    "id": "BUTTON-001",
+    "version": "2.0.0",
+    "path": "norms/components/button.2.0.0.md",
+    "sha256": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482"
+  },
+  "token_set": {
+    "path": "norms/tokens/blueheart.2.0.0.json",
+    "sha256": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29"
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "11:128",
+    "frameId": "16:32",
+    "player": "https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=16-32&starting-point-node-id=16%3A32",
+    "theme": "Contable",
+    "browser": "Figma native player in the in-app browser",
+    "viewport": {
+      "width": 865,
+      "height": 565
+    }
+  },
+  "checks": {
+    "interactive": {
+      "status": "PASS",
+      "authored_root_edges": 23,
+      "default_hover_return": 12,
+      "focus_hover_return": 8,
+      "hover_press_release": 3,
+      "accepted_press_captures_during_hold": true,
+      "evidence": "evidence/button-playback/visual-observations.json"
+    },
+    "noninteractive": {
+      "status": "PASS",
+      "disabled_clicks": 15,
+      "unwired_danger_default_clicks": 3,
+      "observed_changes": 0
+    },
+    "loading": {
+      "status": "PASS_OBSERVED_MOTION_AND_STORED_CYCLES",
+      "instances_with_motion": 15,
+      "sizes": 3,
+      "samples": 5,
+      "helper_cycles": [
+        {
+          "id": "13:76",
+          "name": "__Button/Loader/small",
+          "frames": 24,
+          "closed": true,
+          "timeout_seconds": 0.03333333507180214
+        },
+        {
+          "id": "13:149",
+          "name": "__Button/Loader/medium",
+          "frames": 24,
+          "closed": true,
+          "timeout_seconds": 0.03333333507180214
+        },
+        {
+          "id": "13:222",
+          "name": "__Button/Loader/large",
+          "frames": 24,
+          "closed": true,
+          "timeout_seconds": 0.03333333507180214
+        }
+      ],
+      "additional_descendant_after_timeout_reactions": 15,
+      "measured_frame_rate": "NOT_CERTIFIED"
+    },
+    "preservation": {
+      "figma_design_writes": 0,
+      "variables_added_or_changed": 0,
+      "component_version_changed": false,
+      "source_figma_writes": 0,
+      "original_project_writes": 0,
+      "original_reference_hashes_unchanged": 13
+    }
+  },
+  "warnings": [
+    {
+      "id": "SOURCE-SECONDARY-FOCUS-MEDIUM",
+      "source": "15:69",
+      "destination": "15:26",
+      "observed": "focus medium changes to hover large while hovered; returns to focus medium on exit",
+      "classification": "Preserved authored source; not a new destination invented by QA"
+    },
+    {
+      "id": "SOURCE-SECONDARY-FOCUS-SMALL",
+      "source": "15:76",
+      "destination": "15:26",
+      "observed": "focus small changes to hover large while hovered; returns to focus small on exit",
+      "classification": "Preserved authored source; not a new destination invented by QA"
+    }
+  ],
+  "closure": {
+    "previous_pending": "Presenter playback not exercised",
+    "result": "CLOSED: native playback executed and recorded; source warnings remain explicit",
+    "previous_pilot_receipt": {
+      "path": "evidence/qa/button-pilot-check.json",
+      "sha256": "bd1167ac841338f045c313fb263efa83b2854827e8638a9740b14dc2443583a7",
+      "git_revision": "9d3ac414e18c615ea5d4070e5989e7b2a569d9f2"
+    }
+  },
+  "limits": [
+    "No HTML/ARIA, keyboard accessibility, WCAG or backend activation certification.",
+    "No frame-rate measurement or cross-browser/device certification.",
+    "States without authored reactions remain static; no navigation, confirmations or remote service is invented.",
+    "Four-theme visual QA is reused from earlier receipts, not re-executed here; native playback used Contable.",
+    "No independent review performed. Source cross-size destinations remain unchanged."
+  ],
+  "independent_review": "NOT_RUN",
+  "evidence": {
+    "manifest": {
+      "path": "evidence/button-playback/artifact-manifest.json",
+      "sha256": "e65f9bfc66a023f1c607d3e215d5addbc08db7a84fe11a15984e8aaa8ec5fa1c"
+    },
+    "report": "evidence/button-playback/README.md",
+    "trace": "evidence/button-playback/runtime-trace.json",
+    "source_edges": [
+      {
+        "family": "Button/primary",
+        "from": "14:2",
+        "source_variant": "size=large, state=default",
+        "trigger": "ON_HOVER",
+        "to": "14:20"
+      },
+      {
+        "family": "Button/primary",
+        "from": "14:8",
+        "source_variant": "size=medium, state=default",
+        "trigger": "ON_HOVER",
+        "to": "14:26"
+      },
+      {
+        "family": "Button/primary",
+        "from": "14:14",
+        "source_variant": "size=small, state=default",
+        "trigger": "ON_HOVER",
+        "to": "14:32"
+      },
+      {
+        "family": "Button/primary",
+        "from": "14:56",
+        "source_variant": "size=large, state=focus",
+        "trigger": "ON_HOVER",
+        "to": "14:20"
+      },
+      {
+        "family": "Button/primary",
+        "from": "14:63",
+        "source_variant": "size=medium, state=focus",
+        "trigger": "ON_HOVER",
+        "to": "14:26"
+      },
+      {
+        "family": "Button/secondary",
+        "from": "15:8",
+        "source_variant": "size=large, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:26"
+      },
+      {
+        "family": "Button/secondary",
+        "from": "15:14",
+        "source_variant": "size=medium, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:32"
+      },
+      {
+        "family": "Button/secondary",
+        "from": "15:20",
+        "source_variant": "size=small, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:38"
+      },
+      {
+        "family": "Button/secondary",
+        "from": "15:62",
+        "source_variant": "size=large, state=focus",
+        "trigger": "ON_HOVER",
+        "to": "15:26"
+      },
+      {
+        "family": "Button/secondary",
+        "from": "15:69",
+        "source_variant": "size=medium, state=focus",
+        "trigger": "ON_HOVER",
+        "to": "15:26"
+      },
+      {
+        "family": "Button/secondary",
+        "from": "15:76",
+        "source_variant": "size=small, state=focus",
+        "trigger": "ON_HOVER",
+        "to": "15:26"
+      },
+      {
+        "family": "Button/text",
+        "from": "15:123",
+        "source_variant": "size=large, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:141"
+      },
+      {
+        "family": "Button/text",
+        "from": "15:129",
+        "source_variant": "size=medium, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:147"
+      },
+      {
+        "family": "Button/text",
+        "from": "15:135",
+        "source_variant": "size=small, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:153"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:235",
+        "source_variant": "size=large, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:253"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:241",
+        "source_variant": "size=medium, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:259"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:247",
+        "source_variant": "size=small, state=default",
+        "trigger": "ON_HOVER",
+        "to": "15:265"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:253",
+        "source_variant": "size=large, state=hover",
+        "trigger": "ON_PRESS",
+        "to": "15:271"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:259",
+        "source_variant": "size=medium, state=hover",
+        "trigger": "ON_PRESS",
+        "to": "15:277"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:265",
+        "source_variant": "size=small, state=hover",
+        "trigger": "ON_PRESS",
+        "to": "15:283"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:289",
+        "source_variant": "size=large, state=focus",
+        "trigger": "ON_HOVER",
+        "to": "15:253"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:296",
+        "source_variant": "size=medium, state=focus",
+        "trigger": "ON_HOVER",
+        "to": "15:259"
+      },
+      {
+        "family": "Button/link",
+        "from": "15:303",
+        "source_variant": "size=small, state=focus",
+        "trigger": "ON_HOVER",
+        "to": "15:265"
+      }
+    ],
+    "readable_screenshot": "evidence/button-playback/readable-large-primary-hover.jpg",
+    "comparison_command": "python3 evidence/button-playback/compare-captures.py"
+  }
+}

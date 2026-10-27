@@ -61,7 +61,7 @@
     "visual": "PASS current screenshot",
     "independentReview": "NOT_RUN",
     "web": "NOT_RUN_OUT_OF_SCOPE",
-    "presenterPlayback": "NOT_RUN",
+    "presenterPlayback": "PASS_NATIVE_FIGMA_PLAYER_WITH_SOURCE_WARNINGS",
     "reproducibility": "PASS identical plan, registered tokens and reconstructed source nodes",
     "iconography": "PASS Phosphor links, tokens and themes",
     "tokenConsolidation": "PASS 125 to 47; 78 retired without residual references",
@@ -193,11 +193,12 @@
       "consumer_implementation": "NOT_RUN_WEB_OUT_OF_SCOPE"
     },
     "REQ-PROTOTYPE": {
-      "status": "PASS_STORED_STRUCTURE",
+      "status": "PASS_NATIVE_FIGMA_PLAYBACK_WITH_SOURCE_WARNINGS",
       "evidence": [
-        "evidence/button-pilot/qa/helpers-corrected-check-response.json"
+        "evidence/button-pilot/qa/helpers-corrected-check-response.json",
+        "evidence/qa/button-playback-check.json"
       ],
-      "limitation": "Presenter playback not exercised; reactions only reproduce observed source behavior."
+      "limitation": "Secondary focus medium/small preserve source hover-large destinations. Native playback does not certify HTML/ARIA or animation frame rate."
     },
     "REQ-ASSETS": {
       "status": "PASS_LINKED_PHOSPHOR",
@@ -274,6 +275,7 @@
     "phosphor": "evidence/qa/phosphor-check.json",
     "reduction": "evidence/qa/button-reduction-check.json",
     "tokenProtocol": "evidence/qa/component-token-protocol-check.json",
-    "naming": "evidence/qa/component-naming-check.json"
+    "naming": "evidence/qa/component-naming-check.json",
+    "presenterPlayback": "evidence/qa/button-playback-check.json"
   }
 }
