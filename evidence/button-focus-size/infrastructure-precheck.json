@@ -1,0 +1,23 @@
+{
+  "status": "INITIAL_SUITE_FAILURE_REPAIRED_IN_TEST_FIXTURE",
+  "payload": "5c5e8d930bee7887c02524d66c199a133ec143ae",
+  "command": [
+    "python3",
+    "-B",
+    "-m",
+    "unittest",
+    "discover",
+    "-s",
+    "tests",
+    "-q"
+  ],
+  "exit_code": 1,
+  "tests_executed": 87,
+  "errors": 1,
+  "test": "test_operational_contracts.OperationalContractTests.test_protocol_sources_and_catalog_hashes_fail_closed",
+  "cause": "Isolated repository fixture omitted consumption/, now a registered contract source directory. Production check and native Figma QA passed.",
+  "resolution": "Include consumption/ in the fixture copy; retain all existing hash-mismatch assertions unchanged.",
+  "fresh_result_owner": "BH-P08 push notes; no PASS inferred from the fixture edit",
+  "original_run_output_sha256": "f9f052753f52b768dcf2af3d485872e9d9c1cf299747c7a6e2f97d4141e67604",
+  "local_unpublished_note_sha256": "54c8d23894bf0d6709e93d0143c06d662ce3800e923685ba986962fb17430a18"
+}

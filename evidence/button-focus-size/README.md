@@ -23,3 +23,5 @@ La [proyección vigente](../../consumption/button/README.md#recetas-reproducible
 Las dos advertencias del [QA 2.0.0](../qa/button-playback-check.json) quedan resueltas. Se conserva esa evidencia histórica sin reescribir sus resultados. El proyecto original conserva los 13 hashes de referencia comprobados; no se escribe allí ni en el Figma origen.
 
 Alcance: QA dirigida por el agente implementador, sin afirmar revisión independiente, implementación web, HTML/ARIA o certificación WCAG. Los resultados frescos del núcleo y de su suite obligatoria se registran automáticamente en las notas de envío BH-P08; no sustituyen estas pruebas de Figma.
+
+La primera suite completa ejecutó 87 pruebas y falló en una copia aislada que omitía `consumption/`. Se [registró el fallo y su corrección](infrastructure-precheck.json); el fixture ahora incluye las fuentes de consumo y mantiene intactas las aserciones de rechazo por hashes alterados. El resultado de la repetición completa pertenece a las notas BH-P08.

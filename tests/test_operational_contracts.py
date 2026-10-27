@@ -69,7 +69,7 @@ class OperationalContractTests(unittest.TestCase):
             root = Path(temp)
             for name in ('blueheart.json',):
                 shutil.copy(ROOT/name, root/name)
-            for name in ('norms', 'protocols', 'schemas', 'governance', 'evidence', 'blueheart', '.github', 'docs'):
+            for name in ('norms', 'protocols', 'schemas', 'governance', 'evidence', 'consumption', 'blueheart', '.github', 'docs'):
                 shutil.copytree(ROOT/name, root/name, ignore=shutil.ignore_patterns('.DS_Store'))
             Workspace(root)
             p = root/'protocols/08-GITHUB-RELEASE-DOCUMENTATION.md'

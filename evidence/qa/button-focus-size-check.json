@@ -233,7 +233,8 @@
     "visual": "evidence/button-focus-size/visual-observations.json",
     "reconstruction": "evidence/button-focus-size/reconstruction-check.json",
     "guard": "evidence/button-focus-size/builder-preflight-check.json",
-    "qa_plan": "evidence/button-focus-size/qa-plan.json"
+    "qa_plan": "evidence/button-focus-size/qa-plan.json",
+    "infrastructure_precheck": "evidence/button-focus-size/infrastructure-precheck.json"
   },
   "limitations": [
     "Change-scoped QA by the implementing agent; no independent review claimed.",

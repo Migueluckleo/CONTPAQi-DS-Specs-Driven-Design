@@ -3,8 +3,8 @@
   "artifacts": [
     {
       "path": "evidence/button-focus-size/README.md",
-      "sha256": "1960b4b0f5e0c70e5156f49ffdacd483e6f70a16c63bc4c5a9b957f91de39881",
-      "bytes": 3100
+      "sha256": "5b797a2d445ec3af768990e60fbb3e09a540d5b788688c905fce253f967d03f4",
+      "bytes": 3463
     },
     {
       "path": "evidence/button-focus-size/after.json",
@@ -25,6 +25,11 @@
       "path": "evidence/button-focus-size/compare-captures.py",
       "sha256": "ca01c7e7626f4951743bd3bb52fd97b90c12669e461923bb26297c6ad0798e54",
       "bytes": 1999
+    },
+    {
+      "path": "evidence/button-focus-size/infrastructure-precheck.json",
+      "sha256": "b6d41a77af4fc539782bc4aac248d7252bc55f5ce307b357682d1df3a87f8a69",
+      "bytes": 974
     },
     {
       "path": "evidence/button-focus-size/medium-focus-before.jpg",
