@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "scope": "Controlled remote verification; test PR will not be merged",
+  "repository": "Migueluckleo/CONTPAQi-DS-Specs-Driven-Design",
+  "main": {
+    "sha": "e7cc8ddd216ca61c497a5e8e58d33a726b09c0b3",
+    "protected": true
+  },
+  "ruleset": {
+    "id": 25937206,
+    "enforcement": "active",
+    "bypass_actors": [],
+    "conditions": {
+      "ref_name": {
+        "exclude": [],
+        "include": [
+          "~DEFAULT_BRANCH"
+        ]
+      }
+    },
+    "rules": [
+      {
+        "type": "deletion"
+      },
+      {
+        "type": "non_fast_forward"
+      },
+      {
+        "type": "pull_request",
+        "parameters": {
+          "required_approving_review_count": 1,
+          "dismiss_stale_reviews_on_push": true,
+          "required_reviewers": [],
+          "require_code_owner_review": false,
+          "require_last_push_approval": true,
+          "required_review_thread_resolution": true,
+          "require_extra_approval_for_unattributed_changes": true,
+          "allowed_merge_methods": [
+            "merge"
+          ]
+        }
+      },
+      {
+        "type": "required_status_checks",
+        "parameters": {
+          "strict_required_status_checks_policy": true,
+          "do_not_enforce_on_create": false,
+          "required_status_checks": [
+            {
+              "context": "release-documentation",
+              "integration_id": 15368
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "negative_case": {
+    "sha": "81546938340f1ae1ec4b4231252ed58a1ddc2ef3",
+    "run_id": 40460963098,
+    "conclusion": "failure",
+    "steps": {
+      "Set up job": "success",
+      "Checkout complete history": "success",
+      "Install optional PDF adapter": "success",
+      "Architecture integrity": "success",
+      "Infrastructure tests": "success",
+      "Verify every introduced commit and component version": "failure",
+      "Generate condensed PDF including failed verification outcomes": "success",
+      "Preserve PDF and verification receipt": "success",
+      "Link deliverables in the run summary": "success",
+      "Post Checkout complete history": "success",
+      "Complete job": "success"
+    },
+    "pr": {
+      "mergeStateStatus": "BLOCKED",
+      "number": 1,
+      "reviewDecision": "REVIEW_REQUIRED",
+      "state": "OPEN",
+      "statusCheckRollup": [
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-10-27T06:26:14Z",
+          "conclusion": "FAILURE",
+          "detailsUrl": "https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design/actions/runs/40461043254/job/122045458948",
+          "name": "release-documentation",
+          "startedAt": "2026-10-27T06:25:45Z",
+          "status": "COMPLETED",
+          "workflowName": "Release documentation"
+        },
+        {
+          "__typename": "CheckRun",
+          "completedAt": "2026-10-27T06:25:27Z",
+          "conclusion": "FAILURE",
+          "detailsUrl": "https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design/actions/runs/40460963098/job/122045194940",
+          "name": "release-documentation",
+          "startedAt": "2026-10-27T06:24:58Z",
+          "status": "COMPLETED",
+          "workflowName": "Release documentation"
+        }
+      ]
+    },
+    "pdf_generated_and_downloaded": true
+  },
+  "corrective_case": "PENDING_DOCUMENTED_PUSH_AND_CI",
+  "official_release_published": false,
+  "original_project_modified": false
+}
