@@ -164,6 +164,22 @@
         "path": "evidence/authorization/operational-protocols-request.txt",
         "sha256": "eefa6f1db2b1defd41541064238224cfcfb6690f19d0025700a30d17a7e903f0"
       }
+    },
+    {
+      "id": "ADR-012",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable autoriza publicar Blue Heart DS en Migueluckleo/CONTPAQi-DS-Specs-Driven-Design y configurar BH-P08. Cada push genera y entrega un PDF condensado derivado de sus registros MD, incluyendo fallos explícitos. Se autoriza publicación del repositorio y sus controles; no se solicita publicar una release oficial ni modificar el original.",
+      "scope": [
+        "BH-P08",
+        "github-publication",
+        "release-notes-pdf",
+        "github-protection-verification"
+      ],
+      "source": {
+        "path": "evidence/authorization/github-publication-pdf-request.txt",
+        "sha256": "be6e33ab56476bab9c859ab541d121516aa94a1c25aa6390c3012810529730ed"
+      }
     }
   ]
 }

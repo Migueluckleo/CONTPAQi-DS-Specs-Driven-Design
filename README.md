@@ -66,4 +66,4 @@ La [nomenclatura obligatoria de variables de componente](protocols/07-COMPONENT-
 
 ## Envíos y versiones de componentes
 
-[BH-P08](protocols/08-GITHUB-RELEASE-DOCUMENTATION.md) es el propietario del flujo de registros previos al envío y control de compatibilidad de componentes. [docs/releases/](docs/releases/README.md) contiene comandos y configuración. Actions está preparado; el repositorio Git y la protección remota aún no están configurados. No se ha hecho push ni publicado ninguna release.
+[BH-P08](protocols/08-GITHUB-RELEASE-DOCUMENTATION.md) es el propietario del flujo de registros previos al envío y control de compatibilidad de componentes. [docs/releases/](docs/releases/README.md) contiene comandos y configuración. El repositorio de publicación autorizado es [CONTPAQi-DS-Specs-Driven-Design](https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design). Actions valida cada envío y exporta su PDF condensado junto al receipt; el resumen de ejecución enlaza la descarga. La protección efectiva se consulta en los rulesets de GitHub. ADR-012 autoriza publicación del repositorio y sus controles; las releases oficiales requieren autorización específica.

@@ -13,20 +13,53 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout complete history
+        id: checkout
         uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4.3.1
         with:
           fetch-depth: 0
           persist-credentials: false
           ref: ${{ github.event_name == 'pull_request' && github.event.pull_request.head.sha || github.sha }}
+      - name: Install optional PDF adapter
+        run: python3 -m pip install --disable-pip-version-check -r docs/releases/requirements-pdf.txt
       - name: Architecture integrity
+        id: architecture
+        if: ${{ !cancelled() && steps.checkout.outcome == 'success' }}
         run: python3 -B -m blueheart check
       - name: Infrastructure tests
+        id: tests
+        if: ${{ !cancelled() && steps.checkout.outcome == 'success' }}
         run: python3 -B -m unittest discover -s tests -q
       - name: Verify every introduced commit and component version
+        id: documentation
+        if: ${{ !cancelled() && steps.checkout.outcome == 'success' }}
         run: python3 -B -m blueheart.release_docs ci --receipt "$RUNNER_TEMP/release-receipt.json"
-      - name: Preserve verification receipt
+      - name: Generate condensed PDF including failed verification outcomes
+        id: pdf
+        if: ${{ !cancelled() && steps.checkout.outcome == 'success' }}
+        run: >-
+          python3 -B -m blueheart.release_pdf
+          --receipt "$RUNNER_TEMP/release-receipt.json"
+          --output "$RUNNER_TEMP/release-notes/release-notes-${{ github.sha }}.pdf"
+          --check architecture:${{ steps.architecture.outcome }}
+          --check tests:${{ steps.tests.outcome }}
+          --check documentation:${{ steps.documentation.outcome }}
+      - name: Preserve PDF and verification receipt
+        id: artifact
+        if: ${{ !cancelled() && steps.pdf.outcome == 'success' }}
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
-          name: release-receipt-${{ github.run_id }}-${{ github.run_attempt }}
-          path: ${{ runner.temp }}/release-receipt.json
+          name: release-notes-${{ github.run_id }}-${{ github.run_attempt }}
+          path: |
+            ${{ runner.temp }}/release-notes/*.pdf
+            ${{ runner.temp }}/release-receipt.json
           if-no-files-found: error
+      - name: Link deliverables in the run summary
+        if: ${{ !cancelled() && steps.artifact.outcome == 'success' }}
+        env:
+          BH_ARTIFACT_URL: ${{ steps.artifact.outputs.artifact-url }}
+        run: |
+          python3 - <<'PY'
+          import os
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as stream:
+              stream.write('## Blue Heart DS - Release notes\n\n[Descargar PDF condensado y comprobante]('+os.environ['BH_ARTIFACT_URL']+')\n\nEl PDF informa los fallos sin convertir un check fallido en cumplimiento.\n')
+          PY

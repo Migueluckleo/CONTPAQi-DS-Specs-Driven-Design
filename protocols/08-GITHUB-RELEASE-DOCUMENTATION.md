@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P08",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-011"
+    "decision_id": "ADR-012"
   },
   "targets": [
     "documentation"
@@ -24,17 +24,32 @@
     {
       "id": "SRC-ENGINE",
       "path": "blueheart/release_docs.py",
-      "sha256": "d5a3949b294e68785d907c467e22a67a5c3c328f67740dd75772921cfd06c050"
+      "sha256": "11606dbb79fe91f8c70e3ff5b42a64f4e6db9947b2095abbeb60de46af23c5e0"
     },
     {
       "id": "SRC-CI",
       "path": ".github/workflows/release-documentation.yml",
-      "sha256": "aa6162d36b7c4a963ed6a2d1df768ca10564e6e3a7df5f5e28b3f80bc60e4b9c"
+      "sha256": "d5aab3c4047b09b44baf8a15c7faff88e563b915d356d02444f2c66434f6f82c"
     },
     {
       "id": "SRC-PROTECTION",
       "path": "docs/releases/branch-ruleset.json",
-      "sha256": "57b2d221dba6312bd4da09cb68e67985569ccaf33a6eb8f8d0bb8e5578211072"
+      "sha256": "6c691dcce2132c28d5c49517345a717ae8ec3fc3d79c19fa41f3f0459c0a4ed4"
+    },
+    {
+      "id": "SRC-PUBLICATION-AUTH",
+      "path": "evidence/authorization/github-publication-pdf-request.txt",
+      "sha256": "be6e33ab56476bab9c859ab541d121516aa94a1c25aa6390c3012810529730ed"
+    },
+    {
+      "id": "SRC-PDF",
+      "path": "blueheart/release_pdf.py",
+      "sha256": "765ae146452cb817af160ff7068a8688a6767a662d164c21a606983a27b565d7"
+    },
+    {
+      "id": "SRC-PDF-DEPENDENCY",
+      "path": "docs/releases/requirements-pdf.txt",
+      "sha256": "207ab33432bbe639e5cc8fce0bc03f982d0842af6c180aca114b1586844a3d18"
     }
   ],
   "dependencies": [
@@ -120,6 +135,22 @@
       "acceptance": [
         "Verificar no recursión, autoridad y aceptación con los casos de tests/test_release_docs.py y la evidencia del alcance; la protección remota requiere prueba en GitHub."
       ]
+    },
+    {
+      "id": "REQ-P08-07",
+      "force": "MUST",
+      "provenance": "EXPLICIT",
+      "sources": [
+        "SRC-PUBLICATION-AUTH",
+        "SRC-PDF",
+        "SRC-PDF-DEPENDENCY",
+        "SRC-CI"
+      ],
+      "acceptance": [
+        "Cada push produce un PDF condensado identificado por SHA y asociado a su receipt y MD; la prueba de incumplimiento produce PDF de fallo y CI no cero.",
+        "Verificar render, acentos, enlaces, alcance de pruebas y ausencia de edición manual o commits recursivos.",
+        "El agente entrega el PDF de cada push realizado durante su encargo; para pushes externos GitHub Actions conserva el artefacto descargable y su enlace en el resumen."
+      ]
     }
   ],
   "profile_data": {
@@ -129,13 +160,15 @@
     ],
     "outputs": [
       "Registro MD único por tanda y receipt verificable por push",
-      "Check CI y configuración de protección preparada"
+      "Check CI y configuración de protección preparada",
+      "PDF condensado por push y enlace de descarga en el resumen de Actions"
     ],
     "responsibilities": [
       "coordinator: rango, compatibilidad, pendientes y autorización de publicación",
       "builder: preparación local de notas sin publicar",
       "verifier: cobertura CI y pruebas de incumplimiento",
-      "administrador del repositorio: activación y prueba de protección remota"
+      "administrador del repositorio: activación y prueba de protección remota",
+      "coordinator: entregar el PDF de cada push realizado en el encargo; Actions conserva el PDF de pushes externos"
     ],
     "failure_states": [
       "NONCOMPLIANT: cobertura, integridad, versión o prueba inválida; salida 2 y CI fallido",
@@ -166,7 +199,7 @@ Primero preparar los commits de contenido con árbol limpio. `python3 -B -m blue
 
 El último commit del envío añade solo esa nota; su padre es exactamente el payload declarado. No puede incluir cambios de código, configuración o QA adicionales. Ejecutar `verify --base SHA_COMPLETO --head HEAD` antes de publicar. Si el contenido cambia antes del cierre, regenerar contra el nuevo payload; si ya se envió, usar otro registro. Pueden enviarse varias tandas disjuntas que ya tengan sus cierres, sin volver a documentar los mismos commits. Las notas de ascendencia integrada se referencian, no se copian.
 
-El SHA del commit que contiene la nota no puede formar parte de esa misma nota. CI lo resuelve y emite un receipt con before/after, todos los commits/archivos del envío, cierres y referencias. El artifact no crea commits; Git permite reconstruir esa asociación a partir del commit que añadió cada nota. La herramienta genera documentación solo en la operación prepare explícita; verify y ci no escriben el repositorio.
+El SHA del commit que contiene la nota no puede formar parte de esa misma nota. CI lo resuelve y emite un receipt con before/after, todos los commits/archivos del envío, cierres y referencias. El artifact no crea commits; Git permite reconstruir esa asociación a partir del commit que añadió cada nota. La herramienta genera notas MD solo en prepare explícito; verify y ci no escriben el repositorio. El adaptador PDF genera salidas derivadas en output/ o en el temporal del runner.
 
 ### REQ-P08-03
 
@@ -184,7 +217,7 @@ Un cambio en tokens compartidos puede afectar familias sin editar su MD: la dete
 
 development es el valor predeterminado y no publica nada. release exige versión estable explícita, cero verificaciones pendientes y referencias a QA de destino si hay componentes afectados, incluidas altas iniciales. Un tag de release debe ser vX.Y.Z, corresponder al registro release y apuntar a su cierre documental; se verifica la cobertura. Preparar notas o un tag no autoriza publicar. No crear ni enviar tags, paquetes o GitHub Releases sin autorización del responsable. Las notas de release conservan referencias a registros existentes en su ascendencia; no replican manualmente un historial acumulado.
 
-La entrega de artefactos y sus consumidores sigue BH-P05. El control de infraestructura no sustituye el QA de destinos exigido por BH-P04. La autorización presente prepara el mecanismo y sus pruebas locales, no un push ni una publicación.
+La entrega de artefactos y sus consumidores sigue BH-P05. El control de infraestructura no sustituye el QA de destinos exigido por BH-P04. ADR-011 preparó el mecanismo; ADR-012 autoriza publicar este repositorio y configurar sus controles. La autorización no incluye publicar una release oficial.
 
 ### REQ-P08-05
 
@@ -204,3 +237,15 @@ El token de Actions tiene únicamente contents:read. El workflow no escribe comm
 
 Aceptación local: ocho protocolos registrados con estructura, requisitos, autoridad, fuentes íntegras, versiones exactas, dependencias acíclicas y contexto completo; pruebas de envíos válidos, sin nota, nota incompleta/alterada, payload posterior, merges, tags, fallos de pruebas, cambios transitivos y compatibilidad de componentes. Registrar las verificaciones remotas pendientes y conservar el original intacto. El procedimiento ejecutable y los ejemplos solo enlazan este contrato como propietario de la política; no crean una segunda norma.
 
+
+### REQ-P08-07
+
+**PDF condensado en cada push**
+
+Cada push de Blue Heart DS produce un PDF condensado de sus release notes. El MD registrado sigue siendo el dato propietario; el PDF se genera desde ese registro y el receipt real del envío, sin mantener otro resumen editable. Identificar repositorio, tipo development/release, fecha, SHA final, cantidad de commits/archivos, cambios agregados/modificados/corregidos/eliminados, pruebas y resultados, pendientes, decisiones pertinentes y versiones de componentes. Condensar listados extensos y enlazar el detalle verificable, sin ocultar que se omitieron entradas de la vista resumida. Un PDF de desarrollo no anuncia una release oficial.
+
+GitHub Actions genera el PDF con el adaptador `python3 -B -m blueheart.release_pdf`, lo conserva junto al receipt como artefacto descargable y coloca su enlace en el resumen de ejecución. Si la documentación o un check fallan, el PDF informa el incumplimiento; generar ese PDF no cambia el resultado fallido ni habilita integración. Si la generación/exportación falla, el check también falla. Los fallos que impidan obtener el repositorio o ejecutar Actions requieren reintentar el flujo; no se puede afirmar que un PDF inexistente fue entregado.
+
+El agente que hace un push en un encargo entrega al responsable su PDF correspondiente, también para los envíos de prueba, e identifica cuáles incumplieron. Para pushes externos a un encargo, el artefacto de Actions es el canal automático de entrega; no se introduce un monitor ni se promete iniciar una conversación. Conservar la asociación permanente en Git; el artifact usa la retención de GitHub y puede regenerarse con sus referencias.
+
+El PDF se escribe en `output/pdf/` local (ignorado por Git) o fuera del worktree en CI, después de resolver el SHA final. No se añade al commit documental, no genera otro push y no modifica notas históricas. ReportLab es una dependencia opcional fijada del adaptador; el núcleo de arquitectura conserva la biblioteca estándar. Verificar representación visual, legibilidad, acentos y enlaces antes de entregar una nueva plantilla o un PDF local.

@@ -379,6 +379,25 @@ def ci(root, event, event_name):
     raise Invalid('Unsupported CI event')
 
 
+def failure_receipt(root, event, event_name, reason):
+    """A failed check still leaves an honest receipt for the condensed PDF report."""
+    if event_name == 'pull_request':
+        base, head = event['pull_request']['base']['sha'], event['pull_request']['head']['sha']
+    elif event_name == 'push':
+        base, head = event.get('before', EMPTY), event['after']
+        if base != EMPTY and set(base) == {'0'}:
+            base = EMPTY
+    else:
+        raise Invalid('No failure receipt for unsupported event')
+    head = commit(root, head)
+    base = EMPTY if base == EMPTY else commit(root, base)
+    return {'status': 'NONCOMPLIANT', 'reason': reason, 'base': base, 'head': head,
+            'commits': commits(root, base, head), 'files': files(root, base, head),
+            'records': [], 'envelopes': [], 'integrations': [],
+            'run_id': os.environ.get('GITHUB_RUN_ID'),
+            'scope': 'Actual Git update; documentation validation failed, no compliance certified'}
+
+
 def main():
     parser = argparse.ArgumentParser(description='BH-P08 · never commits or pushes')
     parser.add_argument('--root', type=Path, default=Path.cwd())
@@ -394,6 +413,7 @@ def main():
     v = sub.add_parser('verify'); v.add_argument('--base', required=True); v.add_argument('--head', default='HEAD')
     c = sub.add_parser('ci'); c.add_argument('--receipt', type=Path, required=True)
     args = parser.parse_args()
+    event = None
     try:
         root = args.root.resolve()
         if args.command == 'prepare':
@@ -407,7 +427,8 @@ def main():
         elif args.command == 'verify':
             result = verify(root, args.base, args.head)
         else:
-            result = ci(root, loads(Path(os.environ['GITHUB_EVENT_PATH']).read_bytes()), os.environ['GITHUB_EVENT_NAME'])
+            event = loads(Path(os.environ['GITHUB_EVENT_PATH']).read_bytes())
+            result = ci(root, event, os.environ['GITHUB_EVENT_NAME'])
             result['run_id'] = os.environ.get('GITHUB_RUN_ID')
             # Receipt is an ephemeral CI artifact, not a repository change.
             if args.receipt.resolve().is_relative_to(root):
@@ -416,6 +437,12 @@ def main():
         print(json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True))
         return 0 if result['status'] in {'PASS', 'READY'} else 2
     except (Invalid, OSError, KeyError, TypeError, ValueError, UnicodeError) as error:
+        if args.command == 'ci' and event is not None and not args.receipt.resolve().is_relative_to(args.root.resolve()):
+            try:
+                failed = failure_receipt(args.root, event, os.environ['GITHUB_EVENT_NAME'], str(error))
+                args.receipt.write_bytes(canonical(failed) + b'\n')
+            except (Invalid, OSError, KeyError, TypeError, ValueError):
+                pass  # The check still fails; never fabricate a receipt without resolvable Git refs.
         print(json.dumps({'status': 'NONCOMPLIANT', 'reason': str(error)}, ensure_ascii=False))
         return 2
 

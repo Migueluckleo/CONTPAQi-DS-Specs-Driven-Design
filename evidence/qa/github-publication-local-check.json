@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-27",
+  "decision": "ADR-012",
+  "status": "PASS_LOCAL_PUBLICATION_PREPARED",
+  "repository": "Migueluckleo/CONTPAQi-DS-Specs-Driven-Design",
+  "scope": "PDF adapter, CI configuration and source preparation; actual GitHub checks/protection are verified after the push",
+  "tests": {
+    "count": 85,
+    "status": "PASS",
+    "log": "evidence/qa/github-publication-tests.txt",
+    "sha256": "46f15aa815a67f273065819d9c138930365dbd5b08f491df0f7a76981a43422b"
+  },
+  "pdf_template": {
+    "status": "PASS",
+    "pages": 1,
+    "visual_review": "No clipping, overlap or missing accents in rendered prototype",
+    "source": "blueheart/release_pdf.py"
+  },
+  "repository_visibility": "public (existing setting; not changed)",
+  "merge_settings": {
+    "allow_merge_commit": true,
+    "allow_squash_merge": false,
+    "allow_rebase_merge": false
+  },
+  "protection_activation": "PENDING_FIRST_DOCUMENTED_PUSH",
+  "official_release_publication": "NOT_AUTHORIZED_BY_THIS_REQUEST",
+  "original_project_writes": 0,
+  "independent_review": "NOT_RUN"
+}
