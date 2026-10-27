@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "contract": {
+    "id": "BUTTON-001",
+    "version": "2.0.1"
+  },
+  "baseline": {
+    "path": "evidence/button-pilot/build-plan.json",
+    "sha256": "39e2d4c0f15cc729d3aff286c355456ca0cd338e12d52daa696d32de9409189c"
+  },
+  "authority": "ADR-014",
+  "scope": "Two Secondary focus ON_HOVER destinations; preserve all other recipes and tokens",
+  "rules": [
+    {
+      "id": "SECONDARY-FOCUS-MEDIUM",
+      "type": "secondary",
+      "size": "medium",
+      "state": "focus",
+      "trigger": "ON_HOVER",
+      "sourceId": "1750:877",
+      "oldDestinationId": "1017:5871",
+      "destinationId": "1512:45259",
+      "figma": {
+        "sourceId": "15:69",
+        "oldDestinationId": "15:26",
+        "destinationId": "15:32"
+      }
+    },
+    {
+      "id": "SECONDARY-FOCUS-SMALL",
+      "type": "secondary",
+      "size": "small",
+      "state": "focus",
+      "trigger": "ON_HOVER",
+      "sourceId": "1750:891",
+      "oldDestinationId": "1017:5871",
+      "destinationId": "1512:45307",
+      "figma": {
+        "sourceId": "15:76",
+        "oldDestinationId": "15:26",
+        "destinationId": "15:38"
+      }
+    }
+  ]
+}

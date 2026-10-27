@@ -76,6 +76,16 @@ async function createHelpers() {
 
 async function createFamily() {
   if (page.children.some(n => n.name === "Button/" + DATA.kind)) throw new Error("Family already exists; inspect before retry");
+  if (!DATA.contractVersion) throw new Error("Missing selected contract version");
+  // Fail before importing or creating nodes if historical, uncorrected recipes are supplied.
+  for (const recipe of DATA.variants.filter(v => v.type === "secondary" && v.state === "focus")) {
+    for (const reaction of recipe.reactions.filter(r => r.trigger.type === "ON_HOVER")) {
+      const actions = reaction.actions ?? [reaction.action];
+      const target = DATA.variants.find(v => v.sourceId === actions[0]?.destinationId);
+      if (actions.length !== 1 || target?.type !== recipe.type || target?.size !== recipe.size || target?.state !== "hover")
+        throw new Error("Secondary focus requires current same-size hover recipes; materialize the selected plan");
+    }
+  }
   // Unreferenced imports need not persist between calls: import and instantiate here.
   const glyph = await figma.importComponentByKeyAsync(DATA.helpers.glyphKey);
   const spinnerNodes = Object.fromEntries(await Promise.all(Object.entries(DATA.helpers.spinnerFirst).map(async ([size, id]) => [size, await figma.getNodeByIdAsync(id)])));
@@ -137,7 +147,7 @@ async function createFamily() {
       labelId: label.id, leftIconId: left?.id ?? null, rightIconId: right?.id ?? null});
   }
   const set = combineObservedVariants("Button/" + DATA.kind, components, 3, 160, 76, 1400, 80 + DATA.typeIndex * 560);
-  set.description = "Button " + DATA.kind + ". Contrato MD BUTTON-001 v2.0.0; propiedades editables Label e iconos Phosphor vinculados apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web.";
+  set.description = "Button " + DATA.kind + ". Contrato MD BUTTON-001 v" + DATA.contractVersion + "; propiedades editables Label e iconos Phosphor vinculados apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web.";
   const labelKey = set.addComponentProperty("Label", "TEXT", "Button");
   const showLeftKey = set.addComponentProperty("Show left icon", "BOOLEAN", false);
   const showRightKey = set.addComponentProperty("Show right icon", "BOOLEAN", false);

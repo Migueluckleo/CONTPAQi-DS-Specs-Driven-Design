@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "Executed real adapter preflight with read-only API stubs; current plan accepted, historical cross-size plan rejected before imports/node creation. This is not Figma rendering QA.",
+  "cases": [
+    {
+      "input": "historical",
+      "status": "PASS",
+      "reachedImport": false,
+      "createdNodes": 0,
+      "actualImportPerformed": false
+    },
+    {
+      "input": "current",
+      "status": "PASS",
+      "reachedImport": true,
+      "createdNodes": 0,
+      "actualImportPerformed": false
+    }
+  ]
+}

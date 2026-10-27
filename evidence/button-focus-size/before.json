@@ -1,0 +1,118 @@
+{
+  "page": "11:128",
+  "nodes": [
+    {
+      "id": "15:116",
+      "name": "Button/secondary",
+      "type": "COMPONENT_SET",
+      "parent": "11:128",
+      "width": 528,
+      "height": 504,
+      "description": "Button secondary. Contrato MD BUTTON-001 v2.0.0; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 47 tokens compartidos por propiedad y aliases completos; estados seleccionados por receta."
+    },
+    {
+      "id": "15:69",
+      "name": "size=medium, state=focus",
+      "type": "COMPONENT",
+      "parent": "15:116",
+      "width": 79,
+      "height": 40,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:26",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:26",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "description": ""
+    },
+    {
+      "id": "15:76",
+      "name": "size=small, state=focus",
+      "type": "COMPONENT",
+      "parent": "15:116",
+      "width": 71,
+      "height": 32,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:26",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:26",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "description": ""
+    },
+    {
+      "id": "15:26",
+      "name": "size=large, state=hover",
+      "type": "COMPONENT",
+      "parent": "15:116",
+      "width": 85,
+      "height": 48,
+      "reactions": [],
+      "description": ""
+    },
+    {
+      "id": "15:32",
+      "name": "size=medium, state=hover",
+      "type": "COMPONENT",
+      "parent": "15:116",
+      "width": 79,
+      "height": 40,
+      "reactions": [],
+      "description": ""
+    },
+    {
+      "id": "15:38",
+      "name": "size=small, state=hover",
+      "type": "COMPONENT",
+      "parent": "15:116",
+      "width": 71,
+      "height": 32,
+      "reactions": [],
+      "description": ""
+    },
+    {
+      "id": "16:35",
+      "name": "Label y swaps editables. Loading y disabled no simulan servicios. Contrato MD: norms/components/button.1.0.0.md",
+      "type": "TEXT",
+      "parent": "16:32",
+      "width": 636,
+      "height": 16,
+      "reactions": [],
+      "characters": "Label y swaps editables. Loading y disabled no simulan servicios. Contrato MD: norms/components/button.2.0.0.md"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "role": "Evidence integrity, not normative rules",
+  "artifacts": [
+    {
+      "path": "evidence/button-focus-size/README.md",
+      "sha256": "1960b4b0f5e0c70e5156f49ffdacd483e6f70a16c63bc4c5a9b957f91de39881",
+      "bytes": 3100
+    },
+    {
+      "path": "evidence/button-focus-size/after.json",
+      "sha256": "d16885f2d91ccb98b856f281f7cd6f6d7e1bc3715910549d423c4e46158a7838",
+      "bytes": 6175
+    },
+    {
+      "path": "evidence/button-focus-size/before.json",
+      "sha256": "eb7918a0c33e896068cf3df8d4471c6b9aa237111d07a03080c28edb1812e915",
+      "bytes": 3208
+    },
+    {
+      "path": "evidence/button-focus-size/builder-preflight-check.json",
+      "sha256": "5d151b174a1abc962f8d13d240d7df96827c50e15ec4ff0e0fa88237ba27cb73",
+      "bytes": 545
+    },
+    {
+      "path": "evidence/button-focus-size/compare-captures.py",
+      "sha256": "ca01c7e7626f4951743bd3bb52fd97b90c12669e461923bb26297c6ad0798e54",
+      "bytes": 1999
+    },
+    {
+      "path": "evidence/button-focus-size/medium-focus-before.jpg",
+      "sha256": "088d3bc53ede484700660324bfd0e24228b02ed275691c49e6cdc238232c1961",
+      "bytes": 42578
+    },
+    {
+      "path": "evidence/button-focus-size/medium-focus-returned.jpg",
+      "sha256": "a8c5c8f526705d9feadec88bbb7ba21ab573c9ffcf759b4d542c31da74dd0b9f",
+      "bytes": 42540
+    },
+    {
+      "path": "evidence/button-focus-size/medium-hover-active.jpg",
+      "sha256": "b9168ed763a4d5248443e304f4db32fece205a98471e95d84d0d6c7ba2c8fb02",
+      "bytes": 45090
+    },
+    {
+      "path": "evidence/button-focus-size/patch.json",
+      "sha256": "47689ed6b43a9697c98f3dccc0000dc1a310da5a81f8569066be56c51af74294",
+      "bytes": 3131
+    },
+    {
+      "path": "evidence/button-focus-size/qa-plan.json",
+      "sha256": "1c156d72c907d7dbb72784d11ccb55b042334b05660f70803d5b56872a6f8672",
+      "bytes": 663
+    },
+    {
+      "path": "evidence/button-focus-size/reconstruction-check.json",
+      "sha256": "4910d917185f05f09800f41e16f36480bf93058989ec0f2983dc26b21a5defc6",
+      "bytes": 499
+    },
+    {
+      "path": "evidence/button-focus-size/runtime-trace.json",
+      "sha256": "d22b96f9c3644d1eedc117696a2c90a94968f2c8b322cb0f28543bf8d0f49f37",
+      "bytes": 1716
+    },
+    {
+      "path": "evidence/button-focus-size/small-focus-before.jpg",
+      "sha256": "127b2323579ac7185882e4c1415a7fba383226c3d333a6047aeb9725954d218c",
+      "bytes": 40739
+    },
+    {
+      "path": "evidence/button-focus-size/small-focus-returned.jpg",
+      "sha256": "fad590e2955e16a88a36aa9d1f866b150ae9cb8e690a2c55a8a2f8933c50c672",
+      "bytes": 44955
+    },
+    {
+      "path": "evidence/button-focus-size/small-hover-active.jpg",
+      "sha256": "3358130d24400d73fa860ac167af7f9151cb4841e11607efb5202542c4b389d0",
+      "bytes": 44736
+    },
+    {
+      "path": "evidence/button-focus-size/state.json",
+      "sha256": "197f801eb53aace6095e39b988aa2af020cff06b167121dc29d2a5424f810052",
+      "bytes": 1291
+    },
+    {
+      "path": "evidence/button-focus-size/visual-observations.json",
+      "sha256": "dede27753d4665f59ef444171d85a4c82bfef271d011ecbec6a6ea6a563c9a16",
+      "bytes": 1141
+    }
+  ]
+}

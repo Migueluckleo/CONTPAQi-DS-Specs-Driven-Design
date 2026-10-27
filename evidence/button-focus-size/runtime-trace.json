@@ -1,0 +1,78 @@
+{
+  "url": "https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=16-32&starting-point-node-id=16%3A32&scaling=scale-down-width&content-scaling=fixed",
+  "events": [
+    {
+      "file": "medium-focus-before.jpg",
+      "detail": {
+        "size": "medium",
+        "phase": "focus",
+        "point": [
+          541,
+          266
+        ]
+      },
+      "time": "2026-10-27T17:06:23.125Z"
+    },
+    {
+      "file": "medium-hover-active.jpg",
+      "detail": {
+        "size": "medium",
+        "phase": "hover",
+        "point": [
+          541,
+          266
+        ]
+      },
+      "time": "2026-10-27T17:06:23.742Z"
+    },
+    {
+      "file": "medium-focus-returned.jpg",
+      "detail": {
+        "size": "medium",
+        "phase": "returned",
+        "leavePoint": [
+          700,
+          130
+        ]
+      },
+      "time": "2026-10-27T17:06:28.603Z"
+    },
+    {
+      "file": "small-focus-before.jpg",
+      "detail": {
+        "size": "small",
+        "phase": "focus",
+        "point": [
+          541,
+          321
+        ]
+      },
+      "time": "2026-10-27T17:06:34.099Z"
+    },
+    {
+      "file": "small-hover-active.jpg",
+      "detail": {
+        "size": "small",
+        "phase": "hover",
+        "point": [
+          541,
+          321
+        ]
+      },
+      "time": "2026-10-27T17:06:34.703Z"
+    },
+    {
+      "file": "small-focus-returned.jpg",
+      "detail": {
+        "size": "small",
+        "phase": "returned",
+        "leavePoint": [
+          700,
+          187
+        ]
+      },
+      "time": "2026-10-27T17:06:39.653Z"
+    }
+  ],
+  "scope": "Native Figma player, two corrected focus-hover-return cases. API IDs and preservation checked separately."
+}

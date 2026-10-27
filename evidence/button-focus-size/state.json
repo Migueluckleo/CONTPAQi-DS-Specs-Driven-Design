@@ -1,0 +1,54 @@
+{
+  "runId": "secondary-focus-sizes-20261027",
+  "scope": "BUTTON-001 patch 2.0.1",
+  "sessionId": "770390e7-c9a2-4445-83e1-506a4d26ab60",
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "pageId": "11:128",
+  "rules": [
+    {
+      "id": "SECONDARY-FOCUS-MEDIUM",
+      "type": "secondary",
+      "size": "medium",
+      "state": "focus",
+      "trigger": "ON_HOVER",
+      "sourceId": "1750:877",
+      "oldDestinationId": "1017:5871",
+      "destinationId": "1512:45259",
+      "figma": {
+        "sourceId": "15:69",
+        "oldDestinationId": "15:26",
+        "destinationId": "15:32"
+      }
+    },
+    {
+      "id": "SECONDARY-FOCUS-SMALL",
+      "type": "secondary",
+      "size": "small",
+      "state": "focus",
+      "trigger": "ON_HOVER",
+      "sourceId": "1750:891",
+      "oldDestinationId": "1017:5871",
+      "destinationId": "1512:45307",
+      "figma": {
+        "sourceId": "15:76",
+        "oldDestinationId": "15:26",
+        "destinationId": "15:38"
+      }
+    }
+  ],
+  "step": "figma-corrected-and-native-qa-passed",
+  "createdNodeIds": [],
+  "mutatedNodeIds": [
+    "15:69",
+    "15:76",
+    "14:110",
+    "15:116",
+    "15:231",
+    "15:343",
+    "15:461",
+    "16:35"
+  ],
+  "pendingValidations": [
+    "BH-P08 full infrastructure suite and remote CI/publication"
+  ]
+}

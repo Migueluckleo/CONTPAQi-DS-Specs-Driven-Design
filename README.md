@@ -16,13 +16,13 @@ Los comandos del núcleo son de lectura; la CLI separada de BH-P08 escribe notas
 
 `governance/policy.json` es el propietario de políticas de fase, capas, QA y roles; `governance/decisions.json` conserva decisiones con actor, alcance y fuente verificable. `norms/catalog.json` es la única selección explícita de contenido normativo por identidad, versión y SHA-256. `schemas/` define la estructura; `blueheart/` implementa invariantes y consulta; `evidence/` conserva observaciones/comprobantes; `tests/` contiene casos sintéticos aislados. `auditoria/` conserva el análisis previo, sin incorporarlo al catálogo de normas.
 
-El objetivo es consumir contratos MD trazables desde Skills para construir PoCs y prototipos Figma. Hay nueve contratos registrados: `BUTTON-001@2.0.0` y ocho contratos operativos. También hay un conjunto de 298 tokens: 145 primitivas, 106 semánticos y 47 tokens Button. La [guía de consumo](consumption/button/README.md) reúne la consulta mínima y el mapa real de Figma. Las responsabilidades y módulos diferidos se consultan con `describe`; React y Graphify siguen diferidos.
+El objetivo es consumir contratos MD trazables desde Skills para construir PoCs y prototipos Figma. Hay nueve contratos vigentes: `BUTTON-001@2.0.1` y ocho contratos operativos; el catálogo conserva también Button 2.0.0 como versión histórica. También hay un conjunto de 298 tokens: 145 primitivas, 106 semánticos y 47 tokens Button. La [guía de consumo](consumption/button/README.md) reúne la consulta mínima y el mapa real de Figma. Las responsabilidades y módulos diferidos se consultan con `describe`; React y Graphify siguen diferidos.
 
 ## Protocolos de construcción
 
 El [índice de protocolos](protocols/README.md) dirige a ocho contratos operativos registrados: contrato y fuentes, Figma, React/TypeScript/Tailwind/Next.js, QA, mantenimiento, iconografía Phosphor, minimización de tokens por componente y gobierno de GitHub/releases. Son adaptaciones locales de los protocolos recuperados; las [copias exactas y procedencia](evidence/protocol-recovery/manifest.json) quedan separadas como evidencia.
 
-Los protocolos se probaron y ajustaron con Button, autorizado por ADR-006 para documentación y Figma. El [contrato MD](norms/components/button.2.0.0.md) gobierna diseño y función; los snapshots observacionales y mapas son derivados con procedencia. No se importaron contratos ni permisos históricos.
+Los protocolos se probaron y ajustaron con Button, autorizado por ADR-006 para documentación y Figma. El [contrato MD](norms/components/button.2.0.1.md) gobierna diseño y función; los snapshots observacionales y mapas son derivados con procedencia. No se importaron contratos ni permisos históricos.
 
 ## Contratos y perfiles
 

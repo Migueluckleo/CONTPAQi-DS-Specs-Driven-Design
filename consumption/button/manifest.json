@@ -3,9 +3,9 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "BUTTON-001",
-    "version": "2.0.0",
-    "path": "norms/components/button.2.0.0.md",
-    "sha256": "d4ae3aeed73eaf49b2c9e8318107ccfc9cf77599f41bf3ad4159ddcf80216482",
+    "version": "2.0.1",
+    "path": "norms/components/button.2.0.1.md",
+    "sha256": "33fd628444b5e40ce747aaca9ab98e31cc18b5306681c46883713f12c73a16a4",
     "current": true
   },
   "token_set": {
@@ -1883,5 +1883,11 @@
   "namingEvidence": {
     "path": "evidence/component-naming/observed-names.json",
     "sha256": "c17d730cb006e400ca4adba05cdc660b07bb893087609bbe2b77d683783a468f"
+  },
+  "prototypeCorrections": {
+    "path": "consumption/button/prototype-corrections.2.0.1.json",
+    "sha256": "4a0aa5eb9d3e13fb504f9712dd6707560993cf3f25c672ff8240a4fdba5490cb",
+    "materialize": "python3 -B consumption/button/materialize-plan.py",
+    "evidence": "evidence/qa/button-focus-size-check.json"
   }
 }
