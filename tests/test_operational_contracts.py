@@ -13,6 +13,20 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class OperationalContractTests(unittest.TestCase):
+    def test_component_workflows_receive_theme_criteria_and_planning_gate(self):
+        workspace = Workspace(ROOT)
+        for identity in ('BH-P01', 'BH-P02', 'BH-P03', 'BH-P04', 'BH-P05', 'BH-P08'):
+            context = workspace.context(identity)
+            self.assertEqual(context['status'], 'PASS', identity)
+            tokens = next(d for d in context['documents'] if d['id'] == 'BH-P07')
+            requirements = {q['id']: q for q in tokens['requirements']}
+            self.assertTrue({'REQ-P07-02', 'REQ-P07-03', 'REQ-P07-06'} <= requirements.keys())
+            self.assertEqual(requirements['REQ-P07-06']['force'], 'MUST')
+        for change in ('contract', 'token', 'adapter'):
+            plan = workspace.qa_plan(change, ['protocols/07-COMPONENT-TOKENS.md'])
+            self.assertIn('component-theme-behavior', plan['required_gates'])
+            self.assertFalse(plan['tests_executed'])
+
     def test_main_can_integrate_without_another_reviewer(self):
         ruleset = json.loads((ROOT/'docs/releases/branch-ruleset.json').read_text())
         review = next(r['parameters'] for r in ruleset['rules'] if r['type'] == 'pull_request')

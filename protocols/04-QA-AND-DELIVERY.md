@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P04",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-011"
+    "decision_id": "ADR-018"
   },
   "targets": [
     "documentation"
@@ -25,13 +25,18 @@
       "id": "SRC-RECOVERY",
       "path": "evidence/protocol-recovery/manifest.json",
       "sha256": "d7c7ae3dca2ee7d76102f591803b1426b9300030454523467f74c7801fc33d5c"
+    },
+    {
+      "id": "SRC-CRITERIA",
+      "path": "evidence/authorization/token-protocol-criteria-request.txt",
+      "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "relation": "uses"
     }
   ],
@@ -78,10 +83,12 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-CRITERIA"
       ],
       "acceptance": [
-        "Resultado de minimización y contraste de inventario/bindings/nombres satisfacen BH-P07 sin atribuir QA remoto al check."
+        "Resultado de minimización y contraste de inventario/bindings/nombres satisfacen BH-P07 sin atribuir QA remoto al check.",
+        "La matriz comprueba REQ-P07-02/03/06: función/estado, mínimo y roles fijos/temáticos en todos los modos afectados; excepciones conservan límites."
       ]
     }
   ],
@@ -158,3 +165,5 @@ El cierre técnico sigue la autorización vigente y no espera una aprobación hu
 Aplicar [BH-P07](07-COMPONENT-TOKENS.md) a contratos, tokens y adaptadores de componentes. Registrar el resultado por familia de `component_token_minimum` en `check` y contrastarlo con recetas y variables construidas. Firmas redundantes o scopes múltiples bloquean el núcleo; variables no declaradas y bindings reales requieren inspección del destino. El conteo depende de cada familia, sin fijar 47 como límite. Una revisión documental sin cambio visual reutiliza el QA previo y no reconstruye Figma.
 
 Para nomenclatura, inspeccionar las rutas nativas y su correspondencia por ID/key con el mapa de construcción: componente primero, grupos `/` y calificadores con guiones conforme a BH-P07. Registrar erratas o marcas temporales observadas sin generalizarlas. El check local no demuestra el nombre actual de una variable remota.
+
+Añadir al comprobante los controles de [REQ-P07-02/03/06](07-COMPONENT-TOKENS.md#req-p07-06), enlazando su expectativa al contrato de familia y su resultado al destino. No basta un conteo bajo ni la coincidencia en el tema predeterminado. `check` valida firmas y aliases declarados; la clasificación funcional, las excepciones y el comportamiento remoto exigen revisión y evidencia del alcance. Para una modificación solo de protocolos, validar su consumo y referencias sin reconstruir Figma ni atribuir una nueva inspección remota.
