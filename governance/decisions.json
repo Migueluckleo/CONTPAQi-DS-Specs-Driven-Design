@@ -351,6 +351,23 @@
         "path": "evidence/authorization/dot-dependency-request.txt",
         "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
       }
+    },
+    {
+      "id": "ADR-022",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita Loader 3917:1263 y sustituir dependencias como en Dot. Se adopta LOADER-001, sus 24 variantes públicas, seis ciclos privados de 24 fases y 15 firmas de token en component. Solo el arco primary sigue el tema; los demás roles son invariantes. Se añade size-88/size-8xl por la métrica real sin alias existente. Button adopta Loader por composición, retira dos tokens exclusivos y tres ciclos privados; corrige sus remates y rieles para coincidir con el Loader real del Button fuente, conservando las 90 identidades, dimensiones, textos y reacciones. La API retirada exige versión mayor de Button y tokens. Se archivan contratos y registros exactos anteriores; los demás consumidores no se amplían. Origen y proyecto anterior solo lectura, sin React, Graphify ni releases oficiales. La aprobación explícita adicional del retiro se conserva en evidence/authorization/loader-retirement-approval.txt y el comprobante BH-P04 enlaza sus bytes/hash.",
+      "scope": [
+        "LOADER-001",
+        "BUTTON-001",
+        "BLUEHEART-TOKENS",
+        "loader-family-figma-pilot",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/loader-dependency-request.txt",
+        "sha256": "def9511ea1100631f7cccceb26f7f6e69a4813792abe882f05aa27b5b6865d33"
+      }
     }
   ]
 }

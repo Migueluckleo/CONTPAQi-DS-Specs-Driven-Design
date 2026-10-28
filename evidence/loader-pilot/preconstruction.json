@@ -1,0 +1,39 @@
+{
+  "scope": "single-family-and-existing-consumers",
+  "decision": "ADR-022",
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "sourceReadOnly": true,
+  "inventory": {
+    "publicVariants": 24,
+    "privateCycles": 6,
+    "framesPerCycle": 24,
+    "tokens": 15,
+    "additionalFoundations": 2
+  },
+  "reverseAudit": {
+    "path": "evidence/loader-pilot/destination/consumers-before.json",
+    "sha256": "4a8c161f526b21d6c8e26a5900b1d59820571f50bed900e26105e3fd6dd71534"
+  },
+  "gates": [
+    "native aliases/scopes/names",
+    "animation cycle and actual playback",
+    "four-mode paints from consumers",
+    "Button geometry/content/reactions preservation",
+    "zero retired refs",
+    "visual review",
+    "context/check/tests",
+    "BH-P08 and PDF"
+  ],
+  "rules": [
+    "BH-P01 REQ-P01-07",
+    "BH-P02",
+    "BH-P04",
+    "BH-P07 REQ-P07-02/03/06/07"
+  ],
+  "unimplemented": [
+    "React/HTML/ARIA",
+    "measured 30fps",
+    "independent review",
+    "official releases"
+  ]
+}

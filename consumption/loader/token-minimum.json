@@ -1,0 +1,14 @@
+{
+  "role": "DERIVED_MINIMUM_NOT_RULES",
+  "tokens": 15,
+  "distinctSignatures": 15,
+  "redundancies": 0,
+  "sourcePublicVariants": 24,
+  "sourceAnimationFrames": 144,
+  "groups": {
+    "color": 5,
+    "size": 6,
+    "stroke": 4
+  },
+  "grouping": "All states/phases and sizes share a token only when full type/unit/scope/mode-alias signature matches. No per-frame or per-color size variables."
+}

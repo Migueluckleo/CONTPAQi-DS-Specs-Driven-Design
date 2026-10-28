@@ -26,7 +26,7 @@ class ButtonReductionTests(unittest.TestCase):
         self.assertEqual(sum(t['type'] == 'COLOR' for t in after['tokens']), 26)
         self.assertEqual(set(after['tokenMigration']), {t['name'] for t in before['tokens']})
         # The creation adapter must not silently recreate the retired 125-token set.
-        script = (ROOT / 'implementations/figma/button-tokens.js').read_text()
+        script = (ROOT / 'evidence/loader-pilot/history/button-tokens.js').read_text()
         data = json.loads(script.split('const data=', 1)[1].split(';\n', 1)[0])
         self.assertEqual(len(data['tokens']), 47)
         self.assertEqual({t['name']: signature(t) for t in data['tokens']},
@@ -51,7 +51,7 @@ class ButtonReductionTests(unittest.TestCase):
 
     def test_foundations_are_unchanged_and_retained_ids_still_exist(self):
         before = read('evidence/button-reduction/before/blueheart.1.0.0.json')
-        after = read('norms/tokens/blueheart.4.0.0.json')
+        after = read('evidence/loader-pilot/history/blueheart.4.0.0.json')
         historical = read('evidence/avatar-pilot/history/blueheart.2.0.0.json')
         previous_ids = {t['id'] for t in historical['tokens']}
         expected = copy.deepcopy(historical['tokens'])

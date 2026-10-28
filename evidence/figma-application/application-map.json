@@ -2526,6 +2526,24 @@
       "source_ids": [],
       "extension": "ADR-019",
       "source_node": "9067:515"
+    },
+    {
+      "layer": "primitive",
+      "name": "size-88",
+      "destination_id": "VariableID:245:2",
+      "destination_key": "a0111bd68fe8611009e51a7ab1b8887dd8f802e4",
+      "source_ids": [],
+      "extension": "ADR-022",
+      "source_node": "7561:47158"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-8xl",
+      "destination_id": "VariableID:245:3",
+      "destination_key": "a5a1f802212d638aed11da1b08dce35ec72b9315",
+      "source_ids": [],
+      "extension": "ADR-022",
+      "source_node": "7561:47158"
     }
   ],
   "extensions": [
@@ -2536,6 +2554,14 @@
       "sha256": "cd0f2ff0c7226241b49cbd3783e246322e3feb6849a6d8e586895d10277af100",
       "new_variables": 6,
       "previous_map": "evidence/avatar-pilot/history/foundations-application-map.json"
+    },
+    {
+      "decision": "ADR-022",
+      "token_set": "BLUEHEART-TOKENS@5.0.0",
+      "evidence": "evidence/loader-pilot/destination/foundations.json",
+      "sha256": "023a3b588ad159bff47e97698582d372880df429353e37923bbff355cf10c8a0",
+      "new_variables": 2,
+      "previous_map": "evidence/loader-pilot/history/application-map.json"
     }
   ]
 }

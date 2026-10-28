@@ -31,7 +31,7 @@ def refresh_manifests():
             for item in value.values(): references(item)
         elif isinstance(value,list):
             for item in value: references(item)
-    for family in ('dot','button','tab','tabs','avatar','avatar-group'):
+    for family in ('dot','button','tab','tabs','avatar','avatar-group','loader'):
         path='consumption/'+family+'/manifest.json'
         manifest=read(path)
         manifest['contract']=current[manifest['contract']['id']]
@@ -39,7 +39,10 @@ def refresh_manifests():
         for dependency in manifest.get('dependencies',[]):
             dependency['contract']=current[dependency['contract']['id']]
         if 'sharedCount' in manifest: manifest['sharedCount']['contract']=current['DOT-001']
-        if family!='button': manifest['qa']=qa
+        if family not in ('button','loader'): manifest['qa']=qa
+        selected_sets=[e for e in catalog['token_sets'] if e['current']]
+        if 'token_set' in manifest: manifest['token_set']=selected_sets[0]
+        if 'token_sets' in manifest: manifest['token_sets']=selected_sets
         if family=='dot': manifest.update(build_plan='current-build-plan.json',variable_map='variable-map.csv',binding_map='binding-map.csv',minimum='token-minimum.json')
         references(manifest)
         write(path,manifest)

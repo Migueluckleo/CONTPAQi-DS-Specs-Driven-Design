@@ -1,0 +1,663 @@
+{
+  "schema_version": 1,
+  "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
+  "contract": {
+    "id": "LOADER-001",
+    "version": "1.0.0",
+    "path": "norms/components/loader.1.0.0.md",
+    "sha256": "d896097b70717e334a4c864ca254d395ce0b7a168c175dec2ff6556a5a26a088",
+    "current": true
+  },
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "5.0.0",
+      "path": "norms/tokens/blueheart.5.0.0.json",
+      "sha256": "a8daf49a3eafddfbcbfd6420f9126fdd636999869ada399531888f7c12bcd6d8",
+      "current": true
+    }
+  ],
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "page": {
+    "id": "245:19",
+    "name": "Loader"
+  },
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "family": {
+    "id": "245:626",
+    "key": "88a894fb7fab6d7e3329eb9559c87176c4348a57",
+    "name": "Loader"
+  },
+  "variants": [
+    {
+      "id": "245:602",
+      "key": "8b5539cd4d136c3e8bca620ffc070dcee0360569",
+      "axes": {
+        "size": "extra-small",
+        "color": "brand"
+      },
+      "sourceId": "8944:803",
+      "spinnerId": "245:627"
+    },
+    {
+      "id": "245:603",
+      "key": "224bb814ff133c2b34b4e3faf7c0f4d2081bccde",
+      "axes": {
+        "size": "extra-small",
+        "color": "neutral"
+      },
+      "sourceId": "8944:805",
+      "spinnerId": "245:630"
+    },
+    {
+      "id": "245:604",
+      "key": "c566d291a4a6d211f87a0278109852702e401c92",
+      "axes": {
+        "size": "extra-small",
+        "color": "strong"
+      },
+      "sourceId": "8944:807",
+      "spinnerId": "245:633"
+    },
+    {
+      "id": "245:605",
+      "key": "ea44379dff5d4cff8a50ae13883f67058914a281",
+      "axes": {
+        "size": "extra-small",
+        "color": "on-color"
+      },
+      "sourceId": "8944:809",
+      "spinnerId": "245:636"
+    },
+    {
+      "id": "245:606",
+      "key": "999e337656427f3f6444b8df29d3ad0fe640535d",
+      "axes": {
+        "size": "small",
+        "color": "brand"
+      },
+      "sourceId": "8944:811",
+      "spinnerId": "245:639"
+    },
+    {
+      "id": "245:607",
+      "key": "be03b41911dacf0f0cdcee125772611f9cec378b",
+      "axes": {
+        "size": "small",
+        "color": "neutral"
+      },
+      "sourceId": "8944:813",
+      "spinnerId": "245:642"
+    },
+    {
+      "id": "245:608",
+      "key": "136804ecf672c36a909c2a83c9c91e820909bb2f",
+      "axes": {
+        "size": "small",
+        "color": "strong"
+      },
+      "sourceId": "8944:815",
+      "spinnerId": "245:645"
+    },
+    {
+      "id": "245:609",
+      "key": "d7f2bfa9b18ebb6e460ac904e6a8527ae340af72",
+      "axes": {
+        "size": "small",
+        "color": "on-color"
+      },
+      "sourceId": "8944:817",
+      "spinnerId": "245:648"
+    },
+    {
+      "id": "245:610",
+      "key": "aff6a80d0586d80f125381680e6815b1d03ae0ff",
+      "axes": {
+        "size": "medium",
+        "color": "brand"
+      },
+      "sourceId": "7561:47154",
+      "spinnerId": "245:651"
+    },
+    {
+      "id": "245:611",
+      "key": "6b019afb3825a122b7c503c32c49163ab83b81b1",
+      "axes": {
+        "size": "medium",
+        "color": "neutral"
+      },
+      "sourceId": "7561:47161",
+      "spinnerId": "245:654"
+    },
+    {
+      "id": "245:612",
+      "key": "874dd10b787dc72df3edfd7ccb0c96b365d37d4f",
+      "axes": {
+        "size": "medium",
+        "color": "strong"
+      },
+      "sourceId": "7561:47163",
+      "spinnerId": "245:657"
+    },
+    {
+      "id": "245:613",
+      "key": "cf2be74506349121cfa15871e3b6eca5f291340e",
+      "axes": {
+        "size": "medium",
+        "color": "on-color"
+      },
+      "sourceId": "7561:47162",
+      "spinnerId": "245:660"
+    },
+    {
+      "id": "245:614",
+      "key": "1c9b96cfc105f23aeac04e21e4c900217d771f68",
+      "axes": {
+        "size": "large",
+        "color": "brand"
+      },
+      "sourceId": "7561:47152",
+      "spinnerId": "245:663"
+    },
+    {
+      "id": "245:615",
+      "key": "8a97c24e3030fc42e1e7f3d0e31961655c5f6c13",
+      "axes": {
+        "size": "large",
+        "color": "neutral"
+      },
+      "sourceId": "7561:47159",
+      "spinnerId": "245:666"
+    },
+    {
+      "id": "245:616",
+      "key": "91ddbdaf007a2562c01d15e1f2b82b49c3911efb",
+      "axes": {
+        "size": "large",
+        "color": "strong"
+      },
+      "sourceId": "7561:47156",
+      "spinnerId": "245:669"
+    },
+    {
+      "id": "245:617",
+      "key": "cb66da227c8e9250fd782f43cf24a1b5cb695670",
+      "axes": {
+        "size": "large",
+        "color": "on-color"
+      },
+      "sourceId": "7561:47155",
+      "spinnerId": "245:672"
+    },
+    {
+      "id": "245:618",
+      "key": "6d918f73a2dcd42d68cf51910d6dc10af68eb9e0",
+      "axes": {
+        "size": "extra-large",
+        "color": "brand"
+      },
+      "sourceId": "7561:47160",
+      "spinnerId": "245:675"
+    },
+    {
+      "id": "245:619",
+      "key": "d10395e0d6dc1e2339881a0ba9dea1d1f57b70df",
+      "axes": {
+        "size": "extra-large",
+        "color": "neutral"
+      },
+      "sourceId": "7561:47153",
+      "spinnerId": "245:678"
+    },
+    {
+      "id": "245:620",
+      "key": "beb985c6841f667bd0dc5f72e506e579ae07609b",
+      "axes": {
+        "size": "extra-large",
+        "color": "strong"
+      },
+      "sourceId": "7561:47151",
+      "spinnerId": "245:681"
+    },
+    {
+      "id": "245:621",
+      "key": "73dc4ee69c8c350e8b1fdb4077e5d6d743e2582a",
+      "axes": {
+        "size": "extra-large",
+        "color": "on-color"
+      },
+      "sourceId": "7561:47150",
+      "spinnerId": "245:684"
+    },
+    {
+      "id": "245:622",
+      "key": "1c87a8c30777f1445f3b1683ee72cb3991351e98",
+      "axes": {
+        "size": "2x-large",
+        "color": "brand"
+      },
+      "sourceId": "7561:47158",
+      "spinnerId": "245:687"
+    },
+    {
+      "id": "245:623",
+      "key": "1a0912ae150b23defe95ab3763bf860f9ed804db",
+      "axes": {
+        "size": "2x-large",
+        "color": "neutral"
+      },
+      "sourceId": "7561:47149",
+      "spinnerId": "245:690"
+    },
+    {
+      "id": "245:624",
+      "key": "e248ecb1f9601e8aea6d3129ed7372db171714ad",
+      "axes": {
+        "size": "2x-large",
+        "color": "strong"
+      },
+      "sourceId": "7561:47157",
+      "spinnerId": "245:693"
+    },
+    {
+      "id": "245:625",
+      "key": "6efe9912efd299874079076fa1462bbb7da0a102",
+      "axes": {
+        "size": "2x-large",
+        "color": "on-color"
+      },
+      "sourceId": "7561:47148",
+      "spinnerId": "245:696"
+    }
+  ],
+  "variables": [
+    {
+      "logicalId": "loader.color-stroke-primary-default",
+      "nativeId": "VariableID:245:4",
+      "nativeKey": "5e4f4ed9c1ed5d39b85409fe45aeb8c89edc9014",
+      "figmaName": "loader/color/stroke/primary-default",
+      "name": "--loader-color-stroke-primary-default",
+      "web": "var(--loader-color-stroke-primary-default)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-default"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "themeBehavior": "THEMED"
+    },
+    {
+      "logicalId": "loader.color-stroke-secondary",
+      "nativeId": "VariableID:245:5",
+      "nativeKey": "4108c784d832e1e713ae68e1203e2285fe07c9ff",
+      "figmaName": "loader/color/stroke/secondary",
+      "name": "--loader-color-stroke-secondary",
+      "web": "var(--loader-color-stroke-secondary)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-strong"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.color-stroke-strong",
+      "nativeId": "VariableID:245:6",
+      "nativeKey": "0b7dd9ad38aae1f7113640f9c99338f76e15ed7a",
+      "figmaName": "loader/color/stroke/strong",
+      "name": "--loader-color-stroke-strong",
+      "web": "var(--loader-color-stroke-strong)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.color-stroke-inverse",
+      "nativeId": "VariableID:245:7",
+      "nativeKey": "90b3dc8bccc2a0b680dd475e7718a09d526acd26",
+      "figmaName": "loader/color/stroke/inverse",
+      "name": "--loader-color-stroke-inverse",
+      "web": "var(--loader-color-stroke-inverse)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.color-stroke-track",
+      "nativeId": "VariableID:245:8",
+      "nativeKey": "f605f2a2b486f257b46d335de83711e609273ff4",
+      "figmaName": "loader/color/stroke/track",
+      "name": "--loader-color-stroke-track",
+      "web": "var(--loader-color-stroke-track)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-muted"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.size-extra-small",
+      "nativeId": "VariableID:245:9",
+      "nativeKey": "5391951f41ce9106d489bdec4d990fc81086d122",
+      "figmaName": "loader/size/extra-small",
+      "name": "--loader-size-extra-small",
+      "web": "var(--loader-size-extra-small)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.size-small",
+      "nativeId": "VariableID:245:10",
+      "nativeKey": "cf7e3b5f5f54921b061ecdb1201b3f9d9896e8f1",
+      "figmaName": "loader/size/small",
+      "name": "--loader-size-small",
+      "web": "var(--loader-size-small)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.size-medium",
+      "nativeId": "VariableID:245:11",
+      "nativeKey": "0e434a4859b531e8c0e6227c36a5615e4ead5c82",
+      "figmaName": "loader/size/medium",
+      "name": "--loader-size-medium",
+      "web": "var(--loader-size-medium)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-2xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-2xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-2xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-2xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.size-large",
+      "nativeId": "VariableID:245:12",
+      "nativeKey": "edff27dfd1ba26d115c2ffc018e90564f7e3334c",
+      "figmaName": "loader/size/large",
+      "name": "--loader-size-large",
+      "web": "var(--loader-size-large)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-4xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-4xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-4xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-4xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.size-extra-large",
+      "nativeId": "VariableID:245:13",
+      "nativeKey": "dbd6448bcce18f8f886682e932197355275a08bb",
+      "figmaName": "loader/size/extra-large",
+      "name": "--loader-size-extra-large",
+      "web": "var(--loader-size-extra-large)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-7xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-7xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-7xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-7xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.size-2x-large",
+      "nativeId": "VariableID:245:14",
+      "nativeKey": "d7dd0ca442266f01b6c3ff9206f8c9094f7d699e",
+      "figmaName": "loader/size/2x-large",
+      "name": "--loader-size-2x-large",
+      "web": "var(--loader-size-2x-large)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-8xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-8xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-8xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-8xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.border-width-regular",
+      "nativeId": "VariableID:245:15",
+      "nativeKey": "741f8313d6923e73345d2767cf68ca768a166d8b",
+      "figmaName": "loader/border/width-regular",
+      "name": "--loader-border-width-regular",
+      "web": "var(--loader-border-width-regular)",
+      "scope": "STROKE_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-md"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-md"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-md"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.border-width-large",
+      "nativeId": "VariableID:245:16",
+      "nativeKey": "e60a3170be6e322e0ba2510de5f00fb7198a8d2b",
+      "figmaName": "loader/border/width-large",
+      "name": "--loader-border-width-large",
+      "web": "var(--loader-border-width-large)",
+      "scope": "STROKE_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-lg"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-lg"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.border-width-extra-large",
+      "nativeId": "VariableID:245:17",
+      "nativeKey": "111a88d0a2ece3fda6bab5010153fc1706634bdd",
+      "figmaName": "loader/border/width-extra-large",
+      "name": "--loader-border-width-extra-large",
+      "web": "var(--loader-border-width-extra-large)",
+      "scope": "STROKE_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-xl"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-xl"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "loader.border-width-2x-large",
+      "nativeId": "VariableID:245:18",
+      "nativeKey": "0b016ba29c1de80688f1c40d560df527a0c953d9",
+      "figmaName": "loader/border/width-2x-large",
+      "name": "--loader-border-width-2x-large",
+      "web": "var(--loader-border-width-2x-large)",
+      "scope": "STROKE_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-2xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-2xl"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-2xl"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-2xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    }
+  ],
+  "nativeLedger": {
+    "path": "consumption/loader/current-native-ledger.json",
+    "sha256": "0d901c601d2dc7c6f864d3f917f2c639453bb1e7ef3e2d7b1590f63e70dc362d"
+  },
+  "dependencyMigration": {
+    "path": "evidence/loader-pilot/migration-map.json",
+    "sha256": "06ca1288f999854a01c56ffc7674539edfa2690d695d7dfbdfff6f0438295d84"
+  },
+  "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "build_plan": "current-build-plan.json",
+  "minimum": "token-minimum.json",
+  "variable_map": "variable-map.csv",
+  "binding_map": "binding-map.csv",
+  "qa": {
+    "path": "evidence/qa/loader-pilot-check.json",
+    "sha256": "f451d2ab54434b5abc244b9dd9bf7fec5a875864c8dfb971f5d520694f604b86"
+  }
+}

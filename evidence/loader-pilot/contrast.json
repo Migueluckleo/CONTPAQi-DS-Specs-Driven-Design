@@ -1,0 +1,166 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "mode": "Contable",
+      "color": "primary-default",
+      "background": "white",
+      "ratio": 5.5583,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Contable",
+      "color": "secondary",
+      "background": "white",
+      "ratio": 7.5777,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Contable",
+      "color": "strong",
+      "background": "white",
+      "ratio": 17.8525,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Contable",
+      "color": "on-color",
+      "background": "Button primary",
+      "ratio": 5.5583,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Contable",
+      "color": "on-color",
+      "background": "Button danger",
+      "ratio": 5.5272,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Administrativo",
+      "color": "primary-default",
+      "background": "white",
+      "ratio": 5.9289,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Administrativo",
+      "color": "secondary",
+      "background": "white",
+      "ratio": 7.5777,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Administrativo",
+      "color": "strong",
+      "background": "white",
+      "ratio": 17.8525,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Administrativo",
+      "color": "on-color",
+      "background": "Button primary",
+      "ratio": 5.9289,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Administrativo",
+      "color": "on-color",
+      "background": "Button danger",
+      "ratio": 5.5272,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Servicios",
+      "color": "primary-default",
+      "background": "white",
+      "ratio": 4.7194,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Servicios",
+      "color": "secondary",
+      "background": "white",
+      "ratio": 7.5777,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Servicios",
+      "color": "strong",
+      "background": "white",
+      "ratio": 17.8525,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Servicios",
+      "color": "on-color",
+      "background": "Button primary",
+      "ratio": 4.7194,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Servicios",
+      "color": "on-color",
+      "background": "Button danger",
+      "ratio": 5.5272,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Personas",
+      "color": "primary-default",
+      "background": "white",
+      "ratio": 6.3243,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Personas",
+      "color": "secondary",
+      "background": "white",
+      "ratio": 7.5777,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Personas",
+      "color": "strong",
+      "background": "white",
+      "ratio": 17.8525,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Personas",
+      "color": "on-color",
+      "background": "Button primary",
+      "ratio": 6.3243,
+      "threshold": 3,
+      "status": "PASS"
+    },
+    {
+      "mode": "Personas",
+      "color": "on-color",
+      "background": "Button danger",
+      "ratio": 5.5272,
+      "threshold": 3,
+      "status": "PASS"
+    }
+  ],
+  "scope": "Arc versus declared flat background; track is not the essential indicator. Not whole-component WCAG certification."
+}

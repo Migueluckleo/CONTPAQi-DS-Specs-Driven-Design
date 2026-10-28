@@ -18,15 +18,15 @@ class CollectionLayoutTests(unittest.TestCase):
     def setUpClass(cls):
         cls.workspace = Workspace(ROOT)
         cls.policy = cls.workspace.policy
-        cls.document = json.loads((ROOT/'norms/tokens/blueheart.4.0.0.json').read_text())
+        cls.document = json.loads((ROOT/'norms/tokens/blueheart.5.0.0.json').read_text())
 
     def validate(self, document):
         return Tokens([document], ROOT, self.policy).validate()
 
     def test_only_three_homonymous_collections_and_four_contexts(self):
-        self.assertEqual(self.validate(self.document), {'tokens': 396, 'collections': 3, 'mode_contexts': 4})
+        self.assertEqual(self.validate(self.document), {'tokens': 411, 'collections': 3, 'mode_contexts': 4})
         counts = {c: sum(t['collection'] == c for t in self.document['tokens']) for c in ('primitive', 'semantic', 'component')}
-        self.assertEqual(counts, {'primitive': 148, 'semantic': 109, 'component': 139})
+        self.assertEqual(counts, {'primitive': 149, 'semantic': 110, 'component': 152})
 
     def test_extra_unused_family_collection_is_rejected(self):
         doc = copy.deepcopy(self.document)
@@ -91,7 +91,7 @@ class CollectionLayoutTests(unittest.TestCase):
             self.assertEqual(collection['name'], 'component')
             self.assertEqual(set(collection['modeIds']), {'Contable', 'Administrativo', 'Servicios', 'Personas'})
         module = runpy.run_path(str(ROOT/'consumption/button/materialize-plan.py'))
-        self.assertEqual(module['materialize']()['version'], '3.0.0')
+        self.assertEqual(module['materialize']()['version'], '4.0.0')
         plan = json.loads((ROOT/'consumption/tab/build-plan.3.0.0.json').read_text())
         self.assertTrue(all(t['collection'] == 'component' for t in plan['tokens']))
         avatar = json.loads((ROOT/'consumption/avatar/current-build-plan.json').read_text())

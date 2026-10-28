@@ -1,0 +1,1264 @@
+{
+  "role": "DERIVED_CURRENT_NATIVE_MAPPING_NOT_RULES",
+  "decision": "ADR-022",
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "retired": {
+    "button.color-button-loader-inverse": "VariableID:11:46",
+    "button.color-button-loader-neutral": "VariableID:11:84"
+  },
+  "replacementTokens": {
+    "button.color-button-loader-inverse": {
+      "logicalId": "loader.color-stroke-inverse",
+      "nativeId": "VariableID:245:7"
+    },
+    "button.color-button-loader-neutral": {
+      "logicalId": "loader.color-stroke-strong",
+      "nativeId": "VariableID:245:6"
+    }
+  },
+  "retiredSets": {
+    "small": "13:76",
+    "medium": "13:149",
+    "large": "13:222"
+  },
+  "shared": {
+    "path": "consumption/loader/current-native-ledger.json",
+    "sha256": "0d901c601d2dc7c6f864d3f917f2c639453bb1e7ef3e2d7b1590f63e70dc362d"
+  },
+  "sourceAudit": {
+    "path": "evidence/loader-pilot/destination/consumers-before.json",
+    "sha256": "4a8c161f526b21d6c8e26a5900b1d59820571f50bed900e26105e3fd6dd71534"
+  },
+  "replacementEvidence": {
+    "path": "evidence/loader-pilot/destination/button-migration.json",
+    "sha256": "1b1b667a853d81be457f0e07cb8df625ed8580fff372c8f19f6c8f0afee939b0"
+  },
+  "retirement": {
+    "path": "evidence/loader-pilot/destination/retirement.json",
+    "sha256": "087bf39c09c5de7d1a37b53484d1fbd1d2614d44689708e734e4bb47a576cea8"
+  },
+  "approval": {
+    "path": "evidence/authorization/loader-retirement-approval.txt",
+    "sha256": "4af4158b24ae702a88617e4ccb40a6ba63b681f41090e86133e52df799e838e4"
+  },
+  "consumers": [
+    {
+      "id": "14:78",
+      "buttonId": "14:77",
+      "kind": "primary",
+      "buttonSize": "large",
+      "oldMain": "13:150",
+      "newMain": "245:613",
+      "size": "medium",
+      "color": "on-color",
+      "before": {
+        "x": 16,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 16,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I14:78;245:660;245:239",
+          "name": "Track",
+          "opacity": 0.30000001192092896,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I14:78;245:660;245:240",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14:83",
+      "buttonId": "14:82",
+      "kind": "primary",
+      "buttonSize": "medium",
+      "oldMain": "13:77",
+      "newMain": "245:609",
+      "size": "small",
+      "color": "on-color",
+      "before": {
+        "x": 16,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 16,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I14:83;245:648;245:142",
+          "name": "Track",
+          "opacity": 0.30000001192092896,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I14:83;245:648;245:143",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "14:88",
+      "buttonId": "14:87",
+      "kind": "primary",
+      "buttonSize": "small",
+      "oldMain": "13:4",
+      "newMain": "245:605",
+      "size": "extra-small",
+      "color": "on-color",
+      "before": {
+        "x": 12,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 12,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I14:88;245:636;245:45",
+          "name": "Track",
+          "opacity": 0.30000001192092896,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I14:88;245:636;245:46",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:84",
+      "buttonId": "15:83",
+      "kind": "secondary",
+      "buttonSize": "large",
+      "oldMain": "13:150",
+      "newMain": "245:610",
+      "size": "medium",
+      "color": "brand",
+      "before": {
+        "x": 16,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 16,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:84;245:651;245:239",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:84;245:651;245:240",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:89",
+      "buttonId": "15:88",
+      "kind": "secondary",
+      "buttonSize": "medium",
+      "oldMain": "13:77",
+      "newMain": "245:606",
+      "size": "small",
+      "color": "brand",
+      "before": {
+        "x": 16,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 16,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:89;245:639;245:142",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:89;245:639;245:143",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:94",
+      "buttonId": "15:93",
+      "kind": "secondary",
+      "buttonSize": "small",
+      "oldMain": "13:4",
+      "newMain": "245:602",
+      "size": "extra-small",
+      "color": "brand",
+      "before": {
+        "x": 12,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 12,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:94;245:627;245:45",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:94;245:627;245:46",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:199",
+      "buttonId": "15:198",
+      "kind": "text",
+      "buttonSize": "large",
+      "oldMain": "13:150",
+      "newMain": "245:612",
+      "size": "medium",
+      "color": "strong",
+      "before": {
+        "x": 8,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 8,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:199;245:657;245:239",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:199;245:657;245:240",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:204",
+      "buttonId": "15:203",
+      "kind": "text",
+      "buttonSize": "medium",
+      "oldMain": "13:77",
+      "newMain": "245:608",
+      "size": "small",
+      "color": "strong",
+      "before": {
+        "x": 8,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 8,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:204;245:645;245:142",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:204;245:645;245:143",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:209",
+      "buttonId": "15:208",
+      "kind": "text",
+      "buttonSize": "small",
+      "oldMain": "13:4",
+      "newMain": "245:604",
+      "size": "extra-small",
+      "color": "strong",
+      "before": {
+        "x": 4,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 4,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:209;245:633;245:45",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:209;245:633;245:46",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:6"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:311",
+      "buttonId": "15:310",
+      "kind": "link",
+      "buttonSize": "large",
+      "oldMain": "13:150",
+      "newMain": "245:610",
+      "size": "medium",
+      "color": "brand",
+      "before": {
+        "x": 4,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 4,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:311;245:651;245:239",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:311;245:651;245:240",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:316",
+      "buttonId": "15:315",
+      "kind": "link",
+      "buttonSize": "medium",
+      "oldMain": "13:77",
+      "newMain": "245:606",
+      "size": "small",
+      "color": "brand",
+      "before": {
+        "x": 4,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 4,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:316;245:639;245:142",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:316;245:639;245:143",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:321",
+      "buttonId": "15:320",
+      "kind": "link",
+      "buttonSize": "small",
+      "oldMain": "13:4",
+      "newMain": "245:602",
+      "size": "extra-small",
+      "color": "brand",
+      "before": {
+        "x": 4,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 4,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:321;245:627;245:45",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:8"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:321;245:627;245:46",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:4"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:429",
+      "buttonId": "15:428",
+      "kind": "danger",
+      "buttonSize": "large",
+      "oldMain": "13:150",
+      "newMain": "245:613",
+      "size": "medium",
+      "color": "on-color",
+      "before": {
+        "x": 16,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 16,
+        "y": 12,
+        "w": 24,
+        "h": 24,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:429;245:660;245:239",
+          "name": "Track",
+          "opacity": 0.30000001192092896,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:429;245:660;245:240",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:11"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:434",
+      "buttonId": "15:433",
+      "kind": "danger",
+      "buttonSize": "medium",
+      "oldMain": "13:77",
+      "newMain": "245:609",
+      "size": "small",
+      "color": "on-color",
+      "before": {
+        "x": 16,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 16,
+        "y": 10,
+        "w": 20,
+        "h": 20,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:434;245:648;245:142",
+          "name": "Track",
+          "opacity": 0.30000001192092896,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:434;245:648;245:143",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:10"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:439",
+      "buttonId": "15:438",
+      "kind": "danger",
+      "buttonSize": "small",
+      "oldMain": "13:4",
+      "newMain": "245:605",
+      "size": "extra-small",
+      "color": "on-color",
+      "before": {
+        "x": 12,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true,
+        "name": "Loader",
+        "modes": {}
+      },
+      "after": {
+        "x": 12,
+        "y": 8,
+        "w": 16,
+        "h": 16,
+        "visible": true
+      },
+      "children": [
+        {
+          "id": "I15:439;245:636;245:45",
+          "name": "Track",
+          "opacity": 0.30000001192092896,
+          "cap": "NONE",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I15:439;245:636;245:46",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:15"
+            },
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:245:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:245:7"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "unaffectedFamilies": [
+    "Tab",
+    "Tabs",
+    "Avatar",
+    "Avatar group",
+    "Dot"
+  ]
+}

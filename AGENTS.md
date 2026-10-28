@@ -11,7 +11,7 @@ Para preparar contratos o construir componentes, consultar el índice `protocols
 
 Los perfiles de agentes están definidos en la política. Se activan por encargo, con entradas, alcance y aceptación explícitos. No representan procesos persistentes ni autorizan delegación por sí mismos.
 
-El alcance vigente comprende Button (ADR-006), Tab y Tabs (ADR-015/016/017), Avatar y Avatar group (ADR-019) y Dot (ADR-021): contratos MD de diseño y comportamiento, tokens de componente con scope y construcción/QA en sus propias páginas del destino. El Figma origen y el proyecto anterior siguen en solo lectura. No importar contratos históricos ni implementar React por este encargo. Graphify y los adaptadores generales continúan diferidos.
+El alcance vigente comprende Button (ADR-006), Tab y Tabs (ADR-015/016/017), Avatar y Avatar group (ADR-019) Dot (ADR-021) y Loader (ADR-022): contratos MD de diseño y comportamiento, tokens de componente con scope y construcción/QA en sus propias páginas del destino. El Figma origen y el proyecto anterior siguen en solo lectura. No importar contratos históricos ni implementar React por este encargo. Graphify y los adaptadores generales continúan diferidos.
 
 La selección de iconografía está en ADR-007 y `protocols/06-PHOSPHOR-ICONS.md`: Phosphor del equipo en Figma y paquete oficial en desarrollo, sin copias vectoriales locales.
 
@@ -36,3 +36,5 @@ ADR-019 amplía el encargo a Avatar y Avatar group: consultar AVATAR-001 / AVATA
 ADR-020 corrige el almacenamiento. Aplicar BH-P07 REQ-P07-07 antes de crear variables: tres colecciones homónimas primitive, semantic y component; los grupos button, avatar y tab no son colecciones. Avatar group y Tabs se alojan bajo avatar/tab. El tema se selecciona en component y los roles invariantes repiten su alias en los cuatro modos. Consultar los contratos y manifiestos vigentes; los IDs y rutas retirados solo sirven como historia.
 
 ADR-021 adopta Dot 1.0.0 y Avatar/Avatar group/Tab/Tabs 3.0.0. Consultar `context DOT-001` y consumption/dot; el mapa actual retira nueve tokens privados. Antes de cada componente aplicar BH-P01 REQ-P01-07 para consumidores directos/transitivos y QA de sustitución; no reconstruir los helpers históricos.
+
+ADR-022 adopta Loader 1.0.0 y Button 4.0.0: consultar LOADER-001 y consumption/loader. Button conserva 45 tokens propios y consume Loader por composición; sus tres ciclos privados y dos colores temporales fueron retirados con aprobación explícita. No reconstruirlos desde scripts históricos. El conjunto actual añade únicamente la cadena de 88 px y los 15 tokens de Loader; aplicar el mapa y QA vigente.
