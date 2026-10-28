@@ -3,17 +3,17 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "TAB-001",
-    "version": "2.0.0",
-    "path": "norms/components/tab.2.0.0.md",
-    "sha256": "87d94b80a8008d658640b1c3410b35e0aaf977d4e453649c5dc652b876d76a4f",
+    "version": "3.0.0",
+    "path": "norms/components/tab.3.0.0.md",
+    "sha256": "b35627e9edf01c2110f534ad124eeefa38a70ce995c5f0c8addedb47b019caa4",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "3.0.0",
-      "path": "norms/tokens/blueheart.3.0.0.json",
-      "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
+      "version": "4.0.0",
+      "path": "norms/tokens/blueheart.4.0.0.json",
+      "sha256": "c522e8d2db70eac9847d040409897ee7704881efaed82ac8309197e5dd92491b",
       "current": true
     }
   ],
@@ -113,7 +113,7 @@
     "id": "79:26",
     "key": "1848649f934b1fd6f1cfae986c474b1012693f6f",
     "name": "Tab",
-    "description": "TAB-001@1.1.0 · 24 variantes · 45 tokens; segmented morado fijo, ADR-016/017.",
+    "description": "TAB-001@3.0.0 · 24 variantes · 39 tokens propios + Dot count/medium.",
     "properties": {
       "Label#79:100": {
         "type": "TEXT",
@@ -433,23 +433,10 @@
     "Icon": "Icon#79:150",
     "ShowBadge": "Show badge#79:175"
   },
-  "privateCount": {
-    "id": "78:102",
-    "key": "2c0c8d0481dd7bba9315c7af4bf15c022085a476",
-    "name": "__Tab/Count",
-    "properties": {
-      "Count#78:0": {
-        "type": "TEXT",
-        "defaultValue": "1"
-      }
-    },
-    "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
-    "propertyKey": "Count#78:0"
-  },
   "styles": {
     "regular": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
     "selected": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
-    "count": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+    "count": "S:69e9b2d42eeae84931453a60f63d937351f3d86d,",
     "shadow": "S:a8fe8b4a1196deafc96e54af7b47767fcae17c4d,"
   },
   "icons": {
@@ -557,29 +544,6 @@
         },
         "Personas": {
           "alias": "semantic.brand-personas-subtle"
-        }
-      }
-    },
-    {
-      "id": "tab.color-tab-bg-count",
-      "name": "--color-tab-bg-count",
-      "figmaName": "tab/color/bg/count-default",
-      "web": "var(--color-tab-bg-count)",
-      "scope": "FRAME_FILL",
-      "nativeId": "VariableID:171:6",
-      "nativeKey": "718c52a7a993755257c6f840a48f83a679e93870",
-      "aliases": {
-        "Contable": {
-          "alias": "semantic.danger-default"
-        },
-        "Administrativo": {
-          "alias": "semantic.danger-default"
-        },
-        "Servicios": {
-          "alias": "semantic.danger-default"
-        },
-        "Personas": {
-          "alias": "semantic.danger-default"
         }
       }
     },
@@ -837,29 +801,6 @@
       }
     },
     {
-      "id": "tab.color-tab-stroke-surface",
-      "name": "--color-tab-stroke-surface",
-      "figmaName": "tab/color/stroke/count-default",
-      "web": "var(--color-tab-stroke-surface)",
-      "scope": "STROKE_COLOR",
-      "nativeId": "VariableID:171:18",
-      "nativeKey": "b93257a073c27054762a487b02d1093369a495c4",
-      "aliases": {
-        "Contable": {
-          "alias": "semantic.neutral-base"
-        },
-        "Administrativo": {
-          "alias": "semantic.neutral-base"
-        },
-        "Servicios": {
-          "alias": "semantic.neutral-base"
-        },
-        "Personas": {
-          "alias": "semantic.neutral-base"
-        }
-      }
-    },
-    {
       "id": "tab.color-tab-text-brand",
       "name": "--color-tab-text-brand",
       "figmaName": "tab/color/text/primary-default",
@@ -998,29 +939,6 @@
       }
     },
     {
-      "id": "tab.font-tab-count-style",
-      "name": "--font-tab-count-style",
-      "figmaName": "tab/font/count-style",
-      "web": "var(--font-tab-count-style)",
-      "scope": "FONT_STYLE",
-      "nativeId": "VariableID:171:25",
-      "nativeKey": "63d9e872af4be4d8cda8164defac25d7a215197e",
-      "aliases": {
-        "Contable": {
-          "alias": "semantic.font-weight-bold"
-        },
-        "Administrativo": {
-          "alias": "semantic.font-weight-bold"
-        },
-        "Servicios": {
-          "alias": "semantic.font-weight-bold"
-        },
-        "Personas": {
-          "alias": "semantic.font-weight-bold"
-        }
-      }
-    },
-    {
       "id": "tab.font-tab-family",
       "name": "--font-tab-family",
       "figmaName": "tab/font/family",
@@ -1090,29 +1008,6 @@
       }
     },
     {
-      "id": "tab.font-tab-line-height-count",
-      "name": "--font-tab-line-height-count",
-      "figmaName": "tab/font/line-height-count",
-      "web": "var(--font-tab-line-height-count)",
-      "scope": "LINE_HEIGHT",
-      "nativeId": "VariableID:171:29",
-      "nativeKey": "20c6dd31137ce2e1366540dc82ddceb5c4d4e0c5",
-      "aliases": {
-        "Contable": {
-          "alias": "semantic.font-line-height-xs"
-        },
-        "Administrativo": {
-          "alias": "semantic.font-line-height-xs"
-        },
-        "Servicios": {
-          "alias": "semantic.font-line-height-xs"
-        },
-        "Personas": {
-          "alias": "semantic.font-line-height-xs"
-        }
-      }
-    },
-    {
       "id": "tab.font-tab-line-height-label",
       "name": "--font-tab-line-height-label",
       "figmaName": "tab/font/line-height-label",
@@ -1155,29 +1050,6 @@
         },
         "Personas": {
           "alias": "semantic.font-weight-semibold"
-        }
-      }
-    },
-    {
-      "id": "tab.font-tab-size-count",
-      "name": "--font-tab-size-count",
-      "figmaName": "tab/font/size-count",
-      "web": "var(--font-tab-size-count)",
-      "scope": "FONT_SIZE",
-      "nativeId": "VariableID:171:32",
-      "nativeKey": "eeb1c7c0af187a5659352da5e05e41e51355db6c",
-      "aliases": {
-        "Contable": {
-          "alias": "semantic.font-size-1xs"
-        },
-        "Administrativo": {
-          "alias": "semantic.font-size-1xs"
-        },
-        "Servicios": {
-          "alias": "semantic.font-size-1xs"
-        },
-        "Personas": {
-          "alias": "semantic.font-size-1xs"
         }
       }
     },
@@ -1293,29 +1165,6 @@
         },
         "Personas": {
           "alias": "semantic.radius-sm"
-        }
-      }
-    },
-    {
-      "id": "tab.size-tab-count",
-      "name": "--size-tab-count",
-      "figmaName": "tab/size/count",
-      "web": "var(--size-tab-count)",
-      "scope": "WIDTH_HEIGHT",
-      "nativeId": "VariableID:171:38",
-      "nativeKey": "c18d3bf0cc10f3ca0e25f73d1532ee65fa5ebb48",
-      "aliases": {
-        "Contable": {
-          "alias": "semantic.size-lg"
-        },
-        "Administrativo": {
-          "alias": "semantic.size-lg"
-        },
-        "Servicios": {
-          "alias": "semantic.size-lg"
-        },
-        "Personas": {
-          "alias": "semantic.size-lg"
         }
       }
     },
@@ -1504,18 +1353,14 @@
       }
     }
   ],
-  "recipes": {
-    "path": "consumption/tab/build-plan.2.0.0.json",
-    "sha256": "1a1aa8ffaf6d1abde904527fb5296776aff8fb8a07bc09a71a98dafbe740fb36",
-    "generator": "consumption/tab/materialize-plan.py"
-  },
+  "recipes": "build-plan.3.0.0.json",
   "binding_map": {
     "path": "consumption/tab/binding-map.csv",
-    "sha256": "4413f65f91e04ee268958ff6fcb17f4cc0410cb123f832e7e81042bcdd9dcd56"
+    "sha256": "f8b32620698e022788e42327ea9b657a4d303eabb534024803d65ef8e5b02778"
   },
   "qa": {
-    "path": "evidence/qa/component-collection-check.json",
-    "sha256": "c2f042b6eb240a1fae7337b641f833a79e1781728a54bebad441b1ead044bc62"
+    "path": "evidence/qa/dot-pilot-check.json",
+    "sha256": "68c6435c8bc4654781a4e2f65644ae0cac75b458788f5bc3955968dec5718aa0"
   },
   "source_observation": {
     "path": "evidence/tab-pilot/source/component-contract.md",
@@ -1536,12 +1381,49 @@
   },
   "nativeLedger": {
     "path": "consumption/tab/current-native-ledger.json",
-    "sha256": "e6417ac2aa9b2fb079f2e1e0c3b5caccd6eeb8c32d201b90de55371cc8cab0b1"
+    "sha256": "b67e93dc2f531abfa894d5a7f17c1b72fa298733e642a0e25e2b87a848af28f1"
   },
   "historicalQA": {
     "path": "evidence/tabs-page-reconciliation/slot-qa.json",
     "sha256": "23bb883f0563217ee41ec63bee7acc0248066b6e89fdcf0bf36ea74741ca6ba4",
     "current_summary": "evidence/qa/tabs-page-reconciliation-check.json",
     "historical_baseline": "evidence/qa/tab-pilot-check.json"
+  },
+  "sharedCount": {
+    "contract": {
+      "id": "DOT-001",
+      "version": "1.0.0",
+      "path": "norms/components/dot.1.0.0.md",
+      "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+      "current": true
+    },
+    "manifest": "../dot/manifest.json",
+    "id": "201:1558",
+    "key": "ecacbec7ef3e08c731a4ae523a4e629176121391",
+    "axes": {
+      "type": "count",
+      "size": "medium"
+    },
+    "textId": "201:1564",
+    "sourceId": "1133:31554",
+    "propertyKey": "Count#201:34",
+    "textStyleId": "S:69e9b2d42eeae84931453a60f63d937351f3d86d,"
+  },
+  "dependencies": [
+    {
+      "contract": {
+        "id": "DOT-001",
+        "version": "1.0.0",
+        "path": "norms/components/dot.1.0.0.md",
+        "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+        "current": true
+      },
+      "manifest": "../dot/manifest.json",
+      "usage": "count/medium"
+    }
+  ],
+  "dependencyMigration": {
+    "path": "evidence/dot-pilot/migration-map.json",
+    "sha256": "431f093ed83986f5353d865dc94332f2d16c7856d7b7b3260991e78a35fa6ab9"
   }
 }

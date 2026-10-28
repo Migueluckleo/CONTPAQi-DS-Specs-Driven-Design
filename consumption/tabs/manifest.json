@@ -3,24 +3,24 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "TABS-001",
-    "version": "2.0.0",
-    "path": "norms/components/tabs.2.0.0.md",
-    "sha256": "50591d9631734df3191703de5d92d5962504056d5b2a74a614d7728af9107306",
+    "version": "3.0.0",
+    "path": "norms/components/tabs.3.0.0.md",
+    "sha256": "66f2fe9913bf17830805ba1cb57909122b00a8adce4c36002fbaafb60ca002f2",
     "current": true
   },
   "dependency": {
     "id": "TAB-001",
-    "version": "2.0.0",
-    "path": "norms/components/tab.2.0.0.md",
-    "sha256": "87d94b80a8008d658640b1c3410b35e0aaf977d4e453649c5dc652b876d76a4f",
+    "version": "3.0.0",
+    "path": "norms/components/tab.3.0.0.md",
+    "sha256": "b35627e9edf01c2110f534ad124eeefa38a70ce995c5f0c8addedb47b019caa4",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "3.0.0",
-      "path": "norms/tokens/blueheart.3.0.0.json",
-      "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
+      "version": "4.0.0",
+      "path": "norms/tokens/blueheart.4.0.0.json",
+      "sha256": "c522e8d2db70eac9847d040409897ee7704881efaed82ac8309197e5dd92491b",
       "current": true
     }
   ],
@@ -245,8 +245,8 @@
     "slotQaFrameId": "121:409"
   },
   "qa": {
-    "path": "evidence/qa/component-collection-check.json",
-    "sha256": "c2f042b6eb240a1fae7337b641f833a79e1781728a54bebad441b1ead044bc62"
+    "path": "evidence/qa/dot-pilot-check.json",
+    "sha256": "68c6435c8bc4654781a4e2f65644ae0cac75b458788f5bc3955968dec5718aa0"
   },
   "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
   "web_implementation": "NOT_IMPLEMENTED",
@@ -259,5 +259,9 @@
     "sha256": "23bb883f0563217ee41ec63bee7acc0248066b6e89fdcf0bf36ea74741ca6ba4",
     "current_summary": "evidence/qa/tabs-page-reconciliation-check.json",
     "historical_baseline": "evidence/qa/tab-pilot-check.json"
+  },
+  "dependencyMigration": {
+    "path": "evidence/dot-pilot/migration-map.json",
+    "sha256": "431f093ed83986f5353d865dc94332f2d16c7856d7b7b3260991e78a35fa6ab9"
   }
 }

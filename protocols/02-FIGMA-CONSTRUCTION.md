@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P02",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-020"
+    "decision_id": "ADR-021"
   },
   "targets": [
     "documentation"
@@ -45,13 +45,18 @@
       "id": "SRC-COLLECTION",
       "path": "evidence/authorization/component-collection-request.txt",
       "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
+    },
+    {
+      "id": "SRC-USER-DOT",
+      "path": "evidence/authorization/dot-dependency-request.txt",
+      "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "relation": "uses"
     },
     {
@@ -69,7 +74,8 @@
       "sources": [
         "SRC-AUTH",
         "SRC-RECOVERY",
-        "SRC-TAB-AUTH"
+        "SRC-TAB-AUTH",
+        "SRC-USER-DOT"
       ],
       "acceptance": [
         "Preflight demuestra destino, página, capacidades e inventario; no hay escrituras al origen."
@@ -187,6 +193,8 @@ Obtener el destino de [policy.json](../governance/policy.json): Blue Heart DS, `
 Leer páginas, objetos existentes, componentes, variables y estilos relevantes. Confirmar permisos y operaciones de escritura y lectura necesarias; verificar capacidades concretas, no solo conexión. Cargar las skills Figma exigidas por la herramienta utilizada antes de sus llamadas; no reemplazar sus reglas técnicas con recetas antiguas.
 
 Determinar la página de familia por identidad y contenido. Reutilizarla; al crear una familia nueva, usar una página dedicada con nombre funcional del encargo/contrato, una sola para sus variantes y ejemplos. Resolver decisiones editoriales rutinarias dentro del encargo. Si hay dos candidatas o contenido ajeno, registrar el conflicto; no duplicar ni mover recursos ajenos para imponer organización. El page ID se registra después de crearlo o leerlo. No crear páginas de muestras por el mero hecho de crear variables.
+
+El impacto sobre consumidores se evalúa con [BH-P01 REQ-P01-07](01-COMPONENT-CONTRACT.md#req-p01-07); su mapa y prueba pertenecen al comprobante del encargo.
 
 ### REQ-P02-02
 

@@ -326,6 +326,31 @@
         "path": "evidence/authorization/component-collection-request.txt",
         "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
       }
+    },
+    {
+      "id": "ADR-021",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita Dot 1133:20620 y exige comprobar siempre dependencias inversas, sustituir las representaciones privadas por el componente compartido y actualizar contratos/evidencia. Se formaliza Dot con sus 16 variantes reales, sin count small, y se migran Tab/Avatar y sus consumidores transitivos Tabs/Avatar group. Las tres colecciones y cuatro modos permanecen; los roles Dot son invariantes y sus tokens mínimos reutilizan semánticos existentes. Los helpers y tokens privados que queden sin uso actual se retiran tras read-back; sus contratos y el snapshot de tokens anterior se archivan íntegros como evidencia, evitando cargar referencias históricas contra IDs retirados. Los contratos consumidores registran el cambio mayor y su mapa de migración. No habilita React, Icon Button, modificación del origen ni releases oficiales.",
+      "scope": [
+        "DOT-001",
+        "TAB-001",
+        "TABS-001",
+        "AVATAR-001",
+        "AVATAR-GROUP-001",
+        "BLUEHEART-TOKENS",
+        "BH-P01",
+        "BH-P02",
+        "BH-P03",
+        "BH-P04",
+        "BH-P05",
+        "BH-P08",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/dot-dependency-request.txt",
+        "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
+      }
     }
   ]
 }

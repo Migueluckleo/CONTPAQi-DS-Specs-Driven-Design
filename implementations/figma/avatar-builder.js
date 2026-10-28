@@ -46,14 +46,10 @@ async function foundation(){
   for(const [field,route]of Object.entries({fontFamily:'family',fontStyle:'initials-style',fontSize:'size-'+role,lineHeight:'line-height-'+(role==='extra-large'?'extra-large':'compact'),letterSpacing:'letter-spacing'}))s.setBoundVariable(field,A('font/'+route));
   styles[role]=s.id;
  }
- // This helper sets page context once. Nine variants are the observed presence subset.
- const r=await createComponentWithVariants({name:'__Avatar/Presence',description:'Dependencia privada de AVATAR-001@2.0.0: presencia active/busy/inactive, no familia Dot completa. Color acompañado de texto en el consumidor.',variantAxes:{type:['active','busy','inactive'],size:['large','medium','small']},baseProps:{width:16,height:16,fills:[],layoutMode:'HORIZONTAL'},page});
- created.push(r.componentSet.id,...r.variants.map(n=>n.id));r.componentSet.x=4200;r.componentSet.y=1600;r.componentSet.resize(340,260);
- const presence=[];
- for(const [i,c]of r.variants.entries()){
-  const axes=c.variantProperties;const num={large:16,medium:12,small:8}[axes.size];dims(c,num,num);c.layoutMode='HORIZONTAL';c.primaryAxisSizingMode='FIXED';c.counterAxisSizingMode='FIXED';zero(c);round(c);border(c);c.strokeAlign='OUTSIDE';c.clipsContent=false;paint(c,'fills',A('color/bg/status-'+axes.type));c.x=32+(i%3)*90;c.y=32+Math.floor(i/3)*72;presence.push({id:c.id,key:c.key,axes});
- }
- return {pageId:page.id,collections:nativeCollections,foundationIds,variableIds,styleIds:styles,presenceSetId:r.componentSet.id,presence,createdNodeIds:created,mutatedNodeIds:[...new Set(mutated)],createdVariableIds:[...Object.values(foundationIds),...Object.values(variableIds)],createdStyleIds:Object.values(styles)};
+ await figma.setCurrentPageAsync(page);
+ const shared=await figma.getNodeByIdAsync(DATA.dot.setId);if(!shared||shared.name!=='Dot')throw new Error('Build DOT-001 first');
+ const presence=DATA.dot.variants.filter(v=>['active','busy','inactive'].includes(v.axes.type));if(presence.length!==9)throw new Error('Dot subset incomplete');
+ return {pageId:page.id,collections:nativeCollections,foundationIds,variableIds,styleIds:styles,presenceSetId:shared.id,presence,createdNodeIds:created,mutatedNodeIds:[...new Set(mutated)],createdVariableIds:[...Object.values(foundationIds),...Object.values(variableIds)],createdStyleIds:Object.values(styles)};
 }
 
 async function avatar(){

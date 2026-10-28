@@ -3,17 +3,17 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "AVATAR-001",
-    "version": "2.0.0",
-    "path": "norms/components/avatar.2.0.0.md",
-    "sha256": "c34e6b2c0246f52c30c53e085a41265483afd5787f8930510b44dbb9afa2bfac",
+    "version": "3.0.0",
+    "path": "norms/components/avatar.3.0.0.md",
+    "sha256": "bffda9be694eed0326285dba72486e0cd4b07f4ff7c6baef70820f7a2e592d17",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "3.0.0",
-      "path": "norms/tokens/blueheart.3.0.0.json",
-      "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
+      "version": "4.0.0",
+      "path": "norms/tokens/blueheart.4.0.0.json",
+      "sha256": "c522e8d2db70eac9847d040409897ee7704881efaed82ac8309197e5dd92491b",
       "current": true
     }
   ],
@@ -312,8 +312,8 @@
   "variable_map": "variable-map.csv",
   "binding_map": "binding-map.csv",
   "qa": {
-    "path": "evidence/qa/component-collection-check.json",
-    "sha256": "c2f042b6eb240a1fae7337b641f833a79e1781728a54bebad441b1ead044bc62"
+    "path": "evidence/qa/dot-pilot-check.json",
+    "sha256": "68c6435c8bc4654781a4e2f65644ae0cac75b458788f5bc3955968dec5718aa0"
   },
   "limits": [
     "No React implementation, keyboard/ARIA testing or official release",
@@ -326,7 +326,24 @@
   },
   "nativeLedger": {
     "path": "consumption/avatar/current-native-ledger.json",
-    "sha256": "84764d65bec785357f79265d15c50dbaeaa4b66e2d906cb7f81785842b927fde"
+    "sha256": "843a2448d2ff856fd9f62a272f47767c564fd89e63de626bb85cb63e7c73edb4"
   },
-  "historicalQA": "evidence/qa/avatar-pilot-check.json"
+  "historicalQA": "evidence/qa/avatar-pilot-check.json",
+  "dependencies": [
+    {
+      "contract": {
+        "id": "DOT-001",
+        "version": "1.0.0",
+        "path": "norms/components/dot.1.0.0.md",
+        "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+        "current": true
+      },
+      "manifest": "../dot/manifest.json",
+      "usage": "presence-subset"
+    }
+  ],
+  "dependencyMigration": {
+    "path": "evidence/dot-pilot/migration-map.json",
+    "sha256": "431f093ed83986f5353d865dc94332f2d16c7856d7b7b3260991e78a35fa6ab9"
+  }
 }

@@ -18,7 +18,7 @@ const groupMaster=size=>gset.children.find(n=>n.variantProperties.size===size);
 async function av(parent,type,size,initials='JA'){const n=mark(avMaster(type,size).createInstance());parent.appendChild(n);n.setProperties({[P.Initials]:initials});return n;}
 const panel=box(page,'Avatar · Uso y QA',1920,1470);panel.x=80;panel.y=2800;panel.paddingTop=panel.paddingBottom=panel.paddingLeft=panel.paddingRight=40;panel.itemSpacing=24;panel.cornerRadius=24;panel.fills=[{type:'SOLID',color:{r:1,g:1,b:1}}];
 txt(panel,'Avatar · temas, composición y límites',32,'Bold');
-txt(panel,'25 tokens Avatar + 7 Avatar group · cuatro temas reales · anillo 1 px · Phosphor del equipo',16,'Regular',1840);
+txt(panel,'22 tokens Avatar + 7 Avatar group + Dot · cuatro temas reales · anillo 1 px · Phosphor del equipo',16,'Regular',1840);
 const themes=box(panel,'Cuatro temas',1840,720,'HORIZONTAL');themes.itemSpacing=20;
 for(const mode of DATA.modes){
  const card=box(themes,mode,445,720);card.itemSpacing=16;card.setExplicitVariableModeForCollection(DATA.collections.component.id,DATA.collections.component.modeIds[mode]);txt(card,mode,20,'SemiBold');
@@ -77,5 +77,5 @@ contentCases.push({kind:'icon-swap',id:swapped.id,iconId:icon.id,key:sm.key,remo
 const changedImage=await av(contentRow,'image','extra-large');const photo=changedImage.findOne(x=>x.type==='FRAME'&&x.name==='Avatar');const fill={...photo.fills[0],imageHash:DATA.previewHash};photo.fills=[fill];mutated.push(photo.id);const main=await changedImage.getMainComponentAsync();assert('content/image-change','REQ-IMAGE',!!main&&photo.fills[0].imageHash===DATA.previewHash,DATA.previewHash,photo.fills[0].imageHash);contentCases.push({kind:'image-change',id:changedImage.id,contentId:photo.id,mainId:main.id,imageHash:photo.fills[0].imageHash});
 txt(panel,'Marca: el fondo principal sigue el tema. Presencia, alternos y contador: invariantes.',14,'SemiBold',1840);
 txt(panel,'La muestra warning conserva el color fuente; el contraste medido y cualquier limitación se documentan en el comprobante. Figma no calcula +N ni ejecuta fallback de imagen, teclado o ARIA.',13,'Regular',1840);
-txt(panel,'Contratos: AVATAR-001@2.0.0 / AVATAR-GROUP-001@2.0.0 · consumo: consumption/avatar y consumption/avatar-group',12,'Regular',1840);
+txt(panel,'Contratos: AVATAR-001@3.0.0 / AVATAR-GROUP-001@3.0.0 · consumo: consumption/avatar y consumption/avatar-group',12,'Regular',1840);
 return {panelId:panel.id,width:panel.width,height:panel.height,expectedColors:{primary:DATA.primaryColors,fixed:DATA.fixedColors},controls:controls.map(c=>c.id.startsWith('theme/')&&c.status==='PASS'?{id:c.id,requirement:c.requirement,status:c.status,expected:'expectedColors + contract recipe',actual:'themeCases; counter paint compared before recording PASS'}:c),themeCases,slotCases:slotCases.map(c=>({...c,after:c.after.map(v=>({id:v.id,main:v.main,linked:v.linked}))})),contentCases,createdNodeIds:[...new Set(created)],mutatedNodeIds:[...new Set(mutated)],removedNodeIds:removed};

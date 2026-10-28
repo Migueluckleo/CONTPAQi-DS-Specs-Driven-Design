@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "id": "DOT-PILOT-ADR021",
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decisions": [
+    "ADR-021"
+  ],
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "1133:20620",
+    "project": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado",
+    "access": "READ_ONLY"
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "201:1543",
+    "setId": "201:1556",
+    "qaFrameId": "208:18"
+  },
+  "counts": {
+    "variants": 16,
+    "DotTokens": 19,
+    "retiredPrivateTokens": 9,
+    "netTokenIncrease": 10,
+    "variables": 396,
+    "styles": 2,
+    "themeCases": 64,
+    "editedCountCases": 6,
+    "preservedTabConsumers": 177,
+    "preservedAvatarConsumers": 238,
+    "nativeDotBindings": 250
+  },
+  "checks": [
+    {
+      "id": "dot-64-native-theme-cases",
+      "status": "PASS"
+    },
+    {
+      "id": "independent-count-properties-and-growth",
+      "status": "PASS"
+    },
+    {
+      "id": "tab-177-consumers-preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "avatar-238-consumers-preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "retirement-with-zero-current-references",
+      "status": "PASS"
+    },
+    {
+      "id": "exact-three-collections",
+      "status": "PASS"
+    },
+    {
+      "id": "native-registry-primitive",
+      "status": "PASS"
+    },
+    {
+      "id": "native-registry-semantic",
+      "status": "PASS"
+    },
+    {
+      "id": "native-registry-component",
+      "status": "PASS"
+    },
+    {
+      "id": "all-503-dot-consumers-use-owned-bindings-and-canonical-style-projections",
+      "status": "PASS"
+    },
+    {
+      "id": "all-avatar-presence-positions-and-regenerated-slot-ids-preserved",
+      "status": "PASS"
+    },
+    {
+      "id": "all-styles-and-text-ranges-have-no-retired-aliases",
+      "status": "PASS"
+    },
+    {
+      "id": "button-has-no-dot-dependency",
+      "status": "PASS"
+    },
+    {
+      "id": "tab-four-structurally-preserved-hover-transitions",
+      "status": "PASS"
+    },
+    {
+      "id": "nineteen-used-unique-signatures",
+      "status": "PASS"
+    },
+    {
+      "id": "registered-structure-and-minima",
+      "status": "PASS"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "evidence/dot-pilot/destination/native-qa.json",
+      "sha256": "ca98c207a45d4b6fe5126e876ce4504ecb9b18c9bac6d1a93594225db2a7aee8"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/migrated-tab.json",
+      "sha256": "225fc6709ad0a71ff1c885b7024acad8d1fe32547c3b91f567653908cb6fa001"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/migrated-avatar.json",
+      "sha256": "5488d1866c61c82453ce762debe7d77afecfb7a20c6b8c1ba3ec7044b91d0ca0"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/retirement.json",
+      "sha256": "5d271c46f30415ca10f1f2a5aa297e0042962bdb030058d93087ebe2c817f36e"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/dependency-audit.json",
+      "sha256": "94eb617942ee098b9c062285567ca89f8d0379fa8946096d720f5647b6a48991"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/registry-primitive.json",
+      "sha256": "6e49d0970ca37f92c26838d28f2b35c5b5b455d84c7adc77e893e4007de0893a"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/registry-semantic.json",
+      "sha256": "e917e20f3e87d111e505d8a39e35196377261fce607f4d5028373f620ebff2b9"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/registry-component.json",
+      "sha256": "d0694deb1bd375c33b1eeac9d37f8ff97b65eb9334f5f082303d3c23bc268f46"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/style-alias-audit.json",
+      "sha256": "779401c2161d7788ec16ccc906cbf34b8ad09728ee588c1efc4f6b82d745eddb"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/position-preservation.json",
+      "sha256": "0b4fa60db4ae39bfd166e483d0dee097c7813f9d514c44cbe6599dc2af59affc"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/all-consumer-bindings.json",
+      "sha256": "c2b9b8658e38c5c81c16398d9af5066241e299cc40f1967b85db84eac1e1d948"
+    },
+    {
+      "path": "evidence/dot-pilot/destination/scaled-preview-bindings.json",
+      "sha256": "79f81b7abe82fe81f529bdb37faa95d59ac545a255a8a3204d0124c686fdd2b4"
+    }
+  ],
+  "contrast": {
+    "path": "evidence/dot-pilot/contrast.json",
+    "sha256": "6000b708c03c7dfbaad96b7fa64edfa8445d8b642c1bd52066d52dea148ffc43"
+  },
+  "selectedContracts": [
+    {
+      "id": "DOT-001",
+      "version": "1.0.0",
+      "path": "norms/components/dot.1.0.0.md",
+      "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+      "current": true
+    },
+    {
+      "id": "AVATAR-001",
+      "version": "3.0.0",
+      "path": "norms/components/avatar.3.0.0.md",
+      "sha256": "bffda9be694eed0326285dba72486e0cd4b07f4ff7c6baef70820f7a2e592d17",
+      "current": true
+    },
+    {
+      "id": "AVATAR-GROUP-001",
+      "version": "3.0.0",
+      "path": "norms/components/avatar-group.3.0.0.md",
+      "sha256": "d5c6271d63b82f7366c774f9361eb98c42e05394d97444d5bd4402c9a6bfc5f0",
+      "current": true
+    },
+    {
+      "id": "TAB-001",
+      "version": "3.0.0",
+      "path": "norms/components/tab.3.0.0.md",
+      "sha256": "b35627e9edf01c2110f534ad124eeefa38a70ce995c5f0c8addedb47b019caa4",
+      "current": true
+    },
+    {
+      "id": "TABS-001",
+      "version": "3.0.0",
+      "path": "norms/components/tabs.3.0.0.md",
+      "sha256": "66f2fe9913bf17830805ba1cb57909122b00a8adce4c36002fbaafb60ca002f2",
+      "current": true
+    }
+  ],
+  "visualReview": {
+    "status": "PASS",
+    "files": [
+      {
+        "path": "evidence/dot-pilot/destination/overview.png",
+        "sha256": "b41d4ea4e280d4c94af4d052b91e0c285da08a750ac1876eb8736fc37507e323"
+      },
+      {
+        "path": "evidence/dot-pilot/destination/variants.png",
+        "sha256": "e03e520e420c653e8c280f46a210b2bfec66729288a96744f83210bf947c7c73"
+      }
+    ]
+  },
+  "limits": {
+    "nativeDotPlayback": "NOT_APPLICABLE_NO_REACTIONS",
+    "tabPlayback": "NOT_RERUN; four stored reactions preserved; previous playback proof remains historical",
+    "web": "NOT_IMPLEMENTED_OR_CERTIFIED",
+    "independentReviewer": "NOT_RUN",
+    "libraryPublication": "LOCAL_ONLY",
+    "officialRelease": "NOT_PUBLISHED"
+  }
+}

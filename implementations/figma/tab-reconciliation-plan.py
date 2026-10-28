@@ -19,4 +19,10 @@ for n in plan['normalizations'][:6]:
  node['bindings']['fills.0']=tid
  for u in plan['uses']:
   if u['sourceNodeId']==n['sourceId'] and u['field']=='fills.0':u['tokenId']=tid
-plan['normalizations']=plan['normalizations'][6:];plan['authority']=['ADR-016','ADR-017'];plan['statistics'].update(unique_signatures=45,component_variables=45,source_fields_normalized=1);catalog=load('norms/catalog.json');token_set=next(e for e in catalog['token_sets'] if e['current'] and e['id']=='BLUEHEART-TOKENS');registered={t['id']:t for t in load(token_set['path'])['tokens']};paths={v['logicalId']:v['figmaName'] for v in load('evidence/collection-consolidation/migration-map.json')['variables']};plan['tokens']=[dict(registered[t['id']],figmaName=paths[t['id']],web=t['web']) for t in plan['tokens']];plan['version']=next(e['version'] for e in catalog['contracts'] if e['current'] and e['id']=='TAB-001');plan['authority'].append('ADR-020');save('consumption/tab/build-plan.2.0.0.json',plan)
+plan['normalizations']=plan['normalizations'][6:]
+catalog=load('norms/catalog.json');entry=next(e for e in catalog['token_sets']if e['current']);registered={t['id']:t for t in load(entry['path'])['tokens']};paths={v['logicalId']:v for v in load('evidence/dot-pilot/migration-map.json')['variables']};selected=next(e for e in catalog['contracts']if e['current']and e['id']=='TAB-001');plan['tokens']=[dict(registered[t['id']],figmaName=paths[t['id']]['figmaName'],web=paths[t['id']]['web'])for t in plan['tokens']if t['id']in registered]
+countIds={v['roles'][r]for v in plan['variants']for r in ['count','countLabel']};plan['uses']=[u for u in plan['uses']if u['sourceNodeId']not in countIds and u['tokenId']in registered]
+for k in countIds:plan['nodes'].pop(k,None)
+plan['sharedCount']={'manifest':'../dot/manifest.json','contract':'DOT-001@1.0.0','type':'count','size':'medium'}
+plan['version']=selected['version'];plan['authority']=['ADR-016','ADR-017','ADR-020','ADR-021'];plan['statistics'].update(unique_signatures=len(plan['tokens']),component_variables=len(plan['tokens']),own_property_bindings=len(plan['uses']))
+save('consumption/tab/build-plan.'+selected['version']+'.json',plan)

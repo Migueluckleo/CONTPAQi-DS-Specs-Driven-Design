@@ -3,17 +3,17 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "AVATAR-GROUP-001",
-    "version": "2.0.0",
-    "path": "norms/components/avatar-group.2.0.0.md",
-    "sha256": "267cf51b0cc80c7904e2b574f246b334bd5d5c3b14f42d1dd8a7b71df5e31f74",
+    "version": "3.0.0",
+    "path": "norms/components/avatar-group.3.0.0.md",
+    "sha256": "d5c6271d63b82f7366c774f9361eb98c42e05394d97444d5bd4402c9a6bfc5f0",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "3.0.0",
-      "path": "norms/tokens/blueheart.3.0.0.json",
-      "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
+      "version": "4.0.0",
+      "path": "norms/tokens/blueheart.4.0.0.json",
+      "sha256": "c522e8d2db70eac9847d040409897ee7704881efaed82ac8309197e5dd92491b",
       "current": true
     }
   ],
@@ -149,8 +149,8 @@
   "variable_map": "variable-map.csv",
   "binding_map": "binding-map.csv",
   "qa": {
-    "path": "evidence/qa/component-collection-check.json",
-    "sha256": "c2f042b6eb240a1fae7337b641f833a79e1781728a54bebad441b1ead044bc62"
+    "path": "evidence/qa/dot-pilot-check.json",
+    "sha256": "68c6435c8bc4654781a4e2f65644ae0cac75b458788f5bc3955968dec5718aa0"
   },
   "limits": [
     "No React implementation, keyboard/ARIA testing or official release",
@@ -161,5 +161,9 @@
     "path": "evidence/collection-consolidation/migration-map.json",
     "sha256": "e5586f4a6c044234353daf7eeb97e630a2b1105888b9bcd6e827ad442e7b2e8c"
   },
-  "historicalQA": "evidence/qa/avatar-pilot-check.json"
+  "historicalQA": "evidence/qa/avatar-pilot-check.json",
+  "dependencyMigration": {
+    "path": "evidence/dot-pilot/migration-map.json",
+    "sha256": "431f093ed83986f5353d865dc94332f2d16c7856d7b7b3260991e78a35fa6ab9"
+  }
 }

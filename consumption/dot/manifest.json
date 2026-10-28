@@ -1,0 +1,951 @@
+{
+  "schema_version": 1,
+  "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
+  "contract": {
+    "id": "DOT-001",
+    "version": "1.0.0",
+    "path": "norms/components/dot.1.0.0.md",
+    "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+    "current": true
+  },
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "4.0.0",
+      "path": "norms/tokens/blueheart.4.0.0.json",
+      "sha256": "c522e8d2db70eac9847d040409897ee7704881efaed82ac8309197e5dd92491b",
+      "current": true
+    }
+  ],
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "page": {
+    "id": "201:1543",
+    "name": "Dot"
+  },
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "family": {
+    "id": "201:1556",
+    "key": "b7e5864661d0320814893ff4df68222897412f08",
+    "name": "Dot"
+  },
+  "variants": [
+    {
+      "id": "201:1544",
+      "key": "b1f443d0e4ba77c533d0ea29d5718410252fd874",
+      "axes": {
+        "type": "active",
+        "size": "large"
+      },
+      "sourceId": "1241:39842"
+    },
+    {
+      "id": "201:1545",
+      "key": "a79815975e65c52c71a08a2d86fa62255b89deba",
+      "axes": {
+        "type": "active",
+        "size": "medium"
+      },
+      "sourceId": "1133:31551"
+    },
+    {
+      "id": "201:1546",
+      "key": "be39c9e677151fb0d8e10c0c88cf3a0bd64d0d5e",
+      "axes": {
+        "type": "active",
+        "size": "small"
+      },
+      "sourceId": "1133:31550"
+    },
+    {
+      "id": "201:1547",
+      "key": "aaa34b7e7865d78fba6c23b91301cd544d36ea96",
+      "axes": {
+        "type": "busy",
+        "size": "large"
+      },
+      "sourceId": "1241:39854"
+    },
+    {
+      "id": "201:1548",
+      "key": "131176a0264f636c8d0578839f24974a16b6c1b4",
+      "axes": {
+        "type": "busy",
+        "size": "medium"
+      },
+      "sourceId": "1133:31563"
+    },
+    {
+      "id": "201:1549",
+      "key": "1c97b2c3659bd15a4b0790cb359a2647170696ce",
+      "axes": {
+        "type": "busy",
+        "size": "small"
+      },
+      "sourceId": "1133:31562"
+    },
+    {
+      "id": "201:1550",
+      "key": "2d0ce750053ec446a71f6f8f21a69e591ac694c6",
+      "axes": {
+        "type": "inactive",
+        "size": "large"
+      },
+      "sourceId": "1241:39856"
+    },
+    {
+      "id": "201:1551",
+      "key": "96e0065059c9756e98eab5af8203ebe667a56870",
+      "axes": {
+        "type": "inactive",
+        "size": "medium"
+      },
+      "sourceId": "1133:31561"
+    },
+    {
+      "id": "201:1552",
+      "key": "9362d07c56bc582ff6eefcd0056d3d161fe9b0a7",
+      "axes": {
+        "type": "inactive",
+        "size": "small"
+      },
+      "sourceId": "1133:31560"
+    },
+    {
+      "id": "201:1553",
+      "key": "cc6207cfe3b2fea0be64602d85dc0d5919f634ce",
+      "axes": {
+        "type": "notification",
+        "size": "large"
+      },
+      "sourceId": "1241:39851"
+    },
+    {
+      "id": "201:1554",
+      "key": "528274916374f53bdc4a4bab237ca36c66466bd5",
+      "axes": {
+        "type": "notification",
+        "size": "medium"
+      },
+      "sourceId": "1133:31556"
+    },
+    {
+      "id": "201:1555",
+      "key": "41f8528e0389dd8fd7ecf3a0e0ef24faacb4ae9c",
+      "axes": {
+        "type": "notification",
+        "size": "small"
+      },
+      "sourceId": "1133:31552"
+    },
+    {
+      "id": "201:1557",
+      "key": "4feacb4f1c7bd78ea1ab7aba4d76ea855c0c3a2e",
+      "axes": {
+        "type": "count",
+        "size": "large"
+      },
+      "textId": "201:1563",
+      "sourceId": "1241:39859"
+    },
+    {
+      "id": "201:1558",
+      "key": "ecacbec7ef3e08c731a4ae523a4e629176121391",
+      "axes": {
+        "type": "count",
+        "size": "medium"
+      },
+      "textId": "201:1564",
+      "sourceId": "1133:31554"
+    },
+    {
+      "id": "201:1559",
+      "key": "5d2e8b0b11f71c89cb2b2bdb006de7a09e340da6",
+      "axes": {
+        "type": "count-expand",
+        "size": "large"
+      },
+      "textId": "201:1565",
+      "sourceId": "8918:229"
+    },
+    {
+      "id": "201:1560",
+      "key": "f23bf54bd479179031dc1f325c125bcfbdd4e07e",
+      "axes": {
+        "type": "count-expand",
+        "size": "medium"
+      },
+      "textId": "201:1566",
+      "sourceId": "8918:231"
+    }
+  ],
+  "propertyKeys": {
+    "Count": "Count#201:34",
+    "MaxCount": "Max count#201:51"
+  },
+  "styles": {
+    "large": "S:c7b993aaf2886c49480873fee83c9f00cc83e324,",
+    "medium": "S:69e9b2d42eeae84931453a60f63d937351f3d86d,"
+  },
+  "variables": [
+    {
+      "logicalId": "dot.color-bg-active",
+      "nativeId": "VariableID:201:1524",
+      "nativeKey": "045fd0226da92e758e4a68095a6d070dc6415143",
+      "figmaName": "dot/color/bg/active",
+      "name": "--dot-color-bg-active",
+      "web": "var(--dot-color-bg-active)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.positive-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-default"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-default"
+        },
+        "Personas": {
+          "alias": "semantic.positive-default"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.color-bg-alert",
+      "nativeId": "VariableID:201:1525",
+      "nativeKey": "fb298b342013b350e0911d603727b9d52c5dbb68",
+      "figmaName": "dot/color/bg/alert",
+      "name": "--dot-color-bg-alert",
+      "web": "var(--dot-color-bg-alert)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.danger-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-default"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-default"
+        },
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.color-bg-inactive",
+      "nativeId": "VariableID:201:1526",
+      "nativeKey": "0de6f23fcf943d2b53489802e6df141e32d8ab6c",
+      "figmaName": "dot/color/bg/inactive",
+      "name": "--dot-color-bg-inactive",
+      "web": "var(--dot-color-bg-inactive)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.color-stroke-separator",
+      "nativeId": "VariableID:201:1527",
+      "nativeKey": "fe76e0658dfa15fcd959231a2221d42702e7ca7f",
+      "figmaName": "dot/color/stroke/separator",
+      "name": "--dot-color-stroke-separator",
+      "web": "var(--dot-color-stroke-separator)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.color-text-inverse",
+      "nativeId": "VariableID:201:1528",
+      "nativeKey": "2d5869d516e3723b67a3025a2e0cf11076ae4d82",
+      "figmaName": "dot/color/text/inverse",
+      "name": "--dot-color-text-inverse",
+      "web": "var(--dot-color-text-inverse)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.size-presence-small",
+      "nativeId": "VariableID:201:1529",
+      "nativeKey": "0e9a701f4e5ff44ae1c64cde680f3315787120b7",
+      "figmaName": "dot/size/presence-small",
+      "name": "--dot-size-presence-small",
+      "web": "var(--dot-size-presence-small)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.size-sm"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.size-presence-medium",
+      "nativeId": "VariableID:201:1530",
+      "nativeKey": "985d43e616593ec0293314a6b625aa779aadc438",
+      "figmaName": "dot/size/presence-medium",
+      "name": "--dot-size-presence-medium",
+      "web": "var(--dot-size-presence-medium)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-md"
+        },
+        "Servicios": {
+          "alias": "semantic.size-md"
+        },
+        "Personas": {
+          "alias": "semantic.size-md"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.size-regular",
+      "nativeId": "VariableID:201:1531",
+      "nativeKey": "9557ec42546ac04ec95636761f05bb1eee9e9b23",
+      "figmaName": "dot/size/presence-large-count-medium",
+      "name": "--dot-size-regular",
+      "web": "var(--dot-size-regular)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.size-count-large",
+      "nativeId": "VariableID:201:1532",
+      "nativeKey": "252adb69bef21af236149bee8796c1ddc0a71a5c",
+      "figmaName": "dot/size/count-large",
+      "name": "--dot-size-count-large",
+      "web": "var(--dot-size-count-large)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-xl"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.radius-container",
+      "nativeId": "VariableID:201:1533",
+      "nativeKey": "ff79abac1d4965709772c71f8bad58c07089e13e",
+      "figmaName": "dot/radius/container",
+      "name": "--dot-radius-container",
+      "web": "var(--dot-radius-container)",
+      "scope": "CORNER_RADIUS",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.radius-full"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-full"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-full"
+        },
+        "Personas": {
+          "alias": "semantic.radius-full"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.border-width-regular",
+      "nativeId": "VariableID:201:1534",
+      "nativeKey": "08e22fba6c12acd4258669fcfb386d198b426f03",
+      "figmaName": "dot/border/width-regular",
+      "name": "--dot-border-width-regular",
+      "web": "var(--dot-border-width-regular)",
+      "scope": "STROKE_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-xs"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.spacing-none",
+      "nativeId": "VariableID:201:1535",
+      "nativeKey": "5343bdf3b6509fea088ab99356ad7266defb82c4",
+      "figmaName": "dot/spacing/none",
+      "name": "--dot-spacing-none",
+      "web": "var(--dot-spacing-none)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.spacing-counter-inline",
+      "nativeId": "VariableID:201:1536",
+      "nativeKey": "4ec4d38d1856af7f7257d49dd170ca3055a010ee",
+      "figmaName": "dot/spacing/counter-inline",
+      "name": "--dot-spacing-counter-inline",
+      "web": "var(--dot-spacing-counter-inline)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.font-family",
+      "nativeId": "VariableID:201:1537",
+      "nativeKey": "23ca1fd01fef809daa39c565cb8284d2c91719e6",
+      "figmaName": "dot/font/family",
+      "name": "--dot-font-family",
+      "web": "var(--dot-font-family)",
+      "scope": "FONT_FAMILY",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-family-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-family-base"
+        },
+        "Servicios": {
+          "alias": "semantic.font-family-base"
+        },
+        "Personas": {
+          "alias": "semantic.font-family-base"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.font-count-style",
+      "nativeId": "VariableID:201:1538",
+      "nativeKey": "c43881c8da9b1fe66569dc6ca8483e8a8d399470",
+      "figmaName": "dot/font/count-style",
+      "name": "--dot-font-count-style",
+      "web": "var(--dot-font-count-style)",
+      "scope": "FONT_STYLE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-bold"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.font-size-large",
+      "nativeId": "VariableID:201:1539",
+      "nativeKey": "1b31d72bc8ff0527d59c860ae0c07d7e1fa72ed7",
+      "figmaName": "dot/font/size-large",
+      "name": "--dot-font-size-large",
+      "web": "var(--dot-font-size-large)",
+      "scope": "FONT_SIZE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-xs"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.font-size-medium",
+      "nativeId": "VariableID:201:1540",
+      "nativeKey": "f4e511a43a1357e6cd58e2192e0fb2d8ff1363cf",
+      "figmaName": "dot/font/size-medium",
+      "name": "--dot-font-size-medium",
+      "web": "var(--dot-font-size-medium)",
+      "scope": "FONT_SIZE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-1xs"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.font-line-height",
+      "nativeId": "VariableID:201:1541",
+      "nativeKey": "45a0d220d79f1dafe61545ecfe48a06dd0d55a9c",
+      "figmaName": "dot/font/line-height",
+      "name": "--dot-font-line-height",
+      "web": "var(--dot-font-line-height)",
+      "scope": "LINE_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-xs"
+        }
+      }
+    },
+    {
+      "logicalId": "dot.font-letter-spacing",
+      "nativeId": "VariableID:201:1542",
+      "nativeKey": "fcfc30f23a55c59c0532667f16bf4215a61e3757",
+      "figmaName": "dot/font/letter-spacing",
+      "name": "--dot-font-letter-spacing",
+      "web": "var(--dot-font-letter-spacing)",
+      "scope": "LETTER_SPACING",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Servicios": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-normal"
+        }
+      }
+    }
+  ],
+  "documentation": {
+    "overviewId": "207:85",
+    "variantsId": "207:273",
+    "mastersId": "201:1556",
+    "createdNodeIds": [
+      "207:85",
+      "207:271",
+      "207:273",
+      "207:274",
+      "207:285",
+      "207:286",
+      "207:287",
+      "207:288",
+      "207:289",
+      "207:290",
+      "207:291",
+      "207:292",
+      "207:293",
+      "207:294",
+      "207:295",
+      "207:296",
+      "207:297",
+      "207:298",
+      "207:300",
+      "207:302",
+      "207:303",
+      "207:304",
+      "207:305",
+      "207:307",
+      "207:309",
+      "207:310",
+      "207:313",
+      "207:355",
+      "207:356",
+      "207:358",
+      "207:360",
+      "207:361",
+      "207:363",
+      "207:365",
+      "207:366",
+      "207:368",
+      "207:369",
+      "207:370",
+      "207:371",
+      "207:86",
+      "207:87",
+      "207:88",
+      "207:89",
+      "207:90",
+      "207:91",
+      "207:92",
+      "207:93",
+      "207:94",
+      "207:95",
+      "207:96",
+      "207:97",
+      "207:98",
+      "207:99",
+      "207:100",
+      "207:101",
+      "207:102",
+      "207:103",
+      "207:104",
+      "207:105",
+      "207:106",
+      "207:107",
+      "207:108",
+      "207:109",
+      "207:110",
+      "207:111",
+      "207:112",
+      "207:113",
+      "207:114",
+      "207:115",
+      "207:116",
+      "207:117",
+      "207:118",
+      "207:119",
+      "207:120",
+      "207:121",
+      "207:122",
+      "207:123",
+      "207:124",
+      "207:125",
+      "207:126",
+      "207:127",
+      "207:128",
+      "207:129",
+      "207:130",
+      "207:131",
+      "207:132",
+      "207:133",
+      "207:134",
+      "207:135",
+      "207:136",
+      "207:137",
+      "207:138",
+      "207:139",
+      "207:140",
+      "207:141",
+      "207:142",
+      "207:143",
+      "207:144",
+      "207:145",
+      "207:146",
+      "207:147",
+      "207:148",
+      "207:149",
+      "207:150",
+      "207:151",
+      "207:152",
+      "207:153",
+      "207:154",
+      "207:155",
+      "207:156",
+      "207:157",
+      "207:158",
+      "207:159",
+      "207:160",
+      "207:161",
+      "207:162",
+      "207:163",
+      "207:164",
+      "207:165",
+      "207:166",
+      "207:167",
+      "207:168",
+      "I207:168;8899:27917",
+      "207:169",
+      "207:170",
+      "207:171",
+      "207:172",
+      "207:173",
+      "207:174",
+      "207:175",
+      "207:176",
+      "207:177",
+      "207:178",
+      "207:179",
+      "I207:271;201:1563",
+      "207:184",
+      "207:185",
+      "207:275",
+      "207:276",
+      "207:277",
+      "207:278",
+      "207:279",
+      "207:280",
+      "207:281",
+      "207:282",
+      "207:283",
+      "207:284",
+      "I207:298;201:1563",
+      "I207:300;201:1565",
+      "I207:305;201:1563",
+      "I207:307;201:1564",
+      "I207:310;145:107",
+      "I207:310;145:108",
+      "I207:313;145:131",
+      "I207:313;145:132",
+      "I207:313;145:133",
+      "I207:356;8899:42163",
+      "I207:358;201:1564",
+      "I207:361;8899:42163",
+      "I207:363;201:1566",
+      "I207:366;8899:42163"
+    ],
+    "mutatedNodeIds": [
+      "201:1556"
+    ],
+    "links": [
+      {
+        "instanceId": "207:271",
+        "mainId": "201:1557",
+        "type": "count",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:294",
+        "mainId": "201:1544",
+        "type": "active",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:295",
+        "mainId": "201:1547",
+        "type": "busy",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:296",
+        "mainId": "201:1550",
+        "type": "inactive",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:297",
+        "mainId": "201:1553",
+        "type": "notification",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:298",
+        "mainId": "201:1557",
+        "type": "count",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:300",
+        "mainId": "201:1559",
+        "type": "count-expand",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:302",
+        "mainId": "201:1544",
+        "type": "active",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:303",
+        "mainId": "201:1545",
+        "type": "active",
+        "size": "medium"
+      },
+      {
+        "instanceId": "207:304",
+        "mainId": "201:1546",
+        "type": "active",
+        "size": "small"
+      },
+      {
+        "instanceId": "207:305",
+        "mainId": "201:1557",
+        "type": "count",
+        "size": "large"
+      },
+      {
+        "instanceId": "207:307",
+        "mainId": "201:1558",
+        "type": "count",
+        "size": "medium"
+      },
+      {
+        "instanceId": "207:309",
+        "mainId": "201:1555",
+        "type": "notification",
+        "size": "small"
+      },
+      {
+        "avatarInstanceId": "207:310",
+        "statusId": "I207:310;145:108"
+      },
+      {
+        "avatarInstanceId": "207:313",
+        "statusId": "I207:313;145:133"
+      },
+      {
+        "instanceId": "207:358",
+        "mainId": "201:1558",
+        "type": "count",
+        "size": "medium"
+      },
+      {
+        "hostId": "207:355",
+        "iconId": "207:356",
+        "remoteKey": "ef703d88cfc6792cdd17351c4cc923a019b91855",
+        "fixture": true
+      },
+      {
+        "instanceId": "207:363",
+        "mainId": "201:1560",
+        "type": "count-expand",
+        "size": "medium"
+      },
+      {
+        "hostId": "207:360",
+        "iconId": "207:361",
+        "remoteKey": "ef703d88cfc6792cdd17351c4cc923a019b91855",
+        "fixture": true
+      },
+      {
+        "instanceId": "207:368",
+        "mainId": "201:1555",
+        "type": "notification",
+        "size": "small"
+      },
+      {
+        "hostId": "207:365",
+        "iconId": "207:366",
+        "remoteKey": "ef703d88cfc6792cdd17351c4cc923a019b91855",
+        "fixture": true
+      }
+    ]
+  },
+  "nativeLedger": {
+    "path": "consumption/dot/current-native-ledger.json",
+    "sha256": "bf496f017f453984829154785b045b636c5cb8a9d7a71cfc15caccc8f4e63d29"
+  },
+  "dependencyMigration": {
+    "path": "evidence/dot-pilot/migration-map.json",
+    "sha256": "431f093ed83986f5353d865dc94332f2d16c7856d7b7b3260991e78a35fa6ab9"
+  },
+  "qa": {
+    "path": "evidence/qa/dot-pilot-check.json",
+    "sha256": "68c6435c8bc4654781a4e2f65644ae0cac75b458788f5bc3955968dec5718aa0"
+  },
+  "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "build_plan": "current-build-plan.json",
+  "variable_map": "variable-map.csv",
+  "binding_map": "binding-map.csv",
+  "minimum": "token-minimum.json"
+}

@@ -1,0 +1,844 @@
+{
+  "role": "DERIVED_RECIPE_NOT_RULES",
+  "contract": {
+    "id": "DOT-001",
+    "version": "1.0.0",
+    "path": "norms/components/dot.1.0.0.md",
+    "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+    "current": true
+  },
+  "token_set": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "4.0.0",
+    "path": "norms/tokens/blueheart.4.0.0.json",
+    "sha256": "c522e8d2db70eac9847d040409897ee7704881efaed82ac8309197e5dd92491b",
+    "current": true
+  },
+  "tokens": [
+    {
+      "id": "dot.color-bg-active",
+      "name": "--dot-color-bg-active",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Dot: color/bg/active; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.positive-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-default"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-default"
+        },
+        "Personas": {
+          "alias": "semantic.positive-default"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2849:196143",
+        "selector": "JSON:/variables/3",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/color/bg/active",
+      "web": "var(--dot-color-bg-active)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.color-bg-alert",
+      "name": "--dot-color-bg-alert",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Dot: color/bg/alert; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.danger-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-default"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-default"
+        },
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2849:196145",
+        "selector": "JSON:/variables/7",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/color/bg/alert",
+      "web": "var(--dot-color-bg-alert)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.color-bg-inactive",
+      "name": "--dot-color-bg-inactive",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Dot: color/bg/inactive; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2849:196139",
+        "selector": "JSON:/variables/8",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/color/bg/inactive",
+      "web": "var(--dot-color-bg-inactive)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.color-stroke-separator",
+      "name": "--dot-color-stroke-separator",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Dot: color/stroke/separator; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:8917:10",
+        "selector": "JSON:/variables/4",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/color/stroke/separator",
+      "web": "var(--dot-color-stroke-separator)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.color-text-inverse",
+      "name": "--dot-color-text-inverse",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Dot: color/text/inverse; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2849:196123",
+        "selector": "JSON:/variables/12",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/color/text/inverse",
+      "web": "var(--dot-color-text-inverse)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.size-presence-small",
+      "name": "--dot-size-presence-small",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "Dot: size/presence-small; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.size-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:562:18",
+        "selector": "JSON:/variables/6",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/size/presence-small",
+      "web": "var(--dot-size-presence-small)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.size-presence-medium",
+      "name": "--dot-size-presence-medium",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "Dot: size/presence-medium; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-md"
+        },
+        "Servicios": {
+          "alias": "semantic.size-md"
+        },
+        "Personas": {
+          "alias": "semantic.size-md"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:5401:75",
+        "selector": "JSON:/variables/5",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/size/presence-medium",
+      "web": "var(--dot-size-presence-medium)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.size-regular",
+      "name": "--dot-size-regular",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "Dot: size/presence-large-count-medium; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:562:19",
+        "selector": "JSON:/variables/0",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/size/presence-large-count-medium",
+      "web": "var(--dot-size-regular)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.size-count-large",
+      "name": "--dot-size-count-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "Dot: size/count-large; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-xl"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:8871:11",
+        "selector": "JSON:/variables/11",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/size/count-large",
+      "web": "var(--dot-size-count-large)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.radius-container",
+      "name": "--dot-radius-container",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Dot: radius/container; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.radius-full"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-full"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-full"
+        },
+        "Personas": {
+          "alias": "semantic.radius-full"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:562:9",
+        "selector": "JSON:/variables/1",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/radius/container",
+      "web": "var(--dot-radius-container)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.border-width-regular",
+      "name": "--dot-border-width-regular",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Dot: border/width-regular; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:559:7",
+        "selector": "JSON:/variables/2",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/border/width-regular",
+      "web": "var(--dot-border-width-regular)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.spacing-none",
+      "name": "--dot-spacing-none",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Dot: spacing/none; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:1098:28491",
+        "selector": "JSON:/variables/9",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/spacing/none",
+      "web": "var(--dot-spacing-none)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.spacing-counter-inline",
+      "name": "--dot-spacing-counter-inline",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Dot: spacing/counter-inline; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:562:10",
+        "selector": "JSON:/variables/10",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/spacing/counter-inline",
+      "web": "var(--dot-spacing-counter-inline)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.font-family",
+      "name": "--dot-font-family",
+      "layer": "component",
+      "type": "string",
+      "collection": "component",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "description": "Dot: font/family; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-family-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-family-base"
+        },
+        "Servicios": {
+          "alias": "semantic.font-family-base"
+        },
+        "Personas": {
+          "alias": "semantic.font-family-base"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2845:160887",
+        "selector": "JSON:/variables/16",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/font/family",
+      "web": "var(--dot-font-family)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.font-count-style",
+      "name": "--dot-font-count-style",
+      "layer": "component",
+      "type": "string",
+      "collection": "component",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "Dot: font/count-style; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-bold"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2845:160891",
+        "selector": "JSON:/variables/15",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/font/count-style",
+      "web": "var(--dot-font-count-style)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.font-size-large",
+      "name": "--dot-font-size-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Dot: font/size-large; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2845:160892",
+        "selector": "JSON:/variables/14",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/font/size-large",
+      "web": "var(--dot-font-size-large)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.font-size-medium",
+      "name": "--dot-font-size-medium",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Dot: font/size-medium; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-1xs"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:5401:77",
+        "selector": "JSON:/variables/18",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/font/size-medium",
+      "web": "var(--dot-font-size-medium)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.font-line-height",
+      "name": "--dot-font-line-height",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "Dot: font/line-height; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2845:160901",
+        "selector": "JSON:/variables/17",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/font/line-height",
+      "web": "var(--dot-font-line-height)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "dot.font-letter-spacing",
+      "name": "--dot-font-letter-spacing",
+      "layer": "component",
+      "type": "number",
+      "collection": "component",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "description": "Dot: font/letter-spacing; rol invariante en los cuatro temas; BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Servicios": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-normal"
+        }
+      },
+      "source": {
+        "path": "evidence/dot-pilot/source/variables.json",
+        "sha256": "43b931d9d7f27c2acd940f097a653042cc638c81395fdf119c570b7eab82ba57",
+        "original_id": "VariableID:2845:160910",
+        "selector": "JSON:/variables/13",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "figmaName": "dot/font/letter-spacing",
+      "web": "var(--dot-font-letter-spacing)",
+      "themeBehavior": "INVARIANT"
+    }
+  ],
+  "modes": [
+    "Contable",
+    "Administrativo",
+    "Servicios",
+    "Personas"
+  ],
+  "semanticIds": {
+    "semantic.positive-default": "VariableID:6:160",
+    "semantic.danger-default": "VariableID:6:188",
+    "semantic.neutral-medium": "VariableID:6:170",
+    "semantic.neutral-base": "VariableID:6:166",
+    "semantic.size-sm": "VariableID:6:235",
+    "semantic.size-md": "VariableID:6:219",
+    "semantic.size-lg": "VariableID:6:236",
+    "semantic.size-xl": "VariableID:6:251",
+    "semantic.radius-full": "VariableID:6:250",
+    "semantic.stroke-xs": "VariableID:6:224",
+    "semantic.spacing-none": "VariableID:6:191",
+    "semantic.spacing-xs": "VariableID:6:227",
+    "semantic.font-family-base": "VariableID:6:194",
+    "semantic.font-weight-bold": "VariableID:6:198",
+    "semantic.font-size-xs": "VariableID:6:199",
+    "semantic.font-size-1xs": "VariableID:6:221",
+    "semantic.font-line-height-xs": "VariableID:6:208",
+    "semantic.font-letter-spacing-normal": "VariableID:6:217"
+  },
+  "variants": [
+    {
+      "id": "1241:39842",
+      "name": "type=active, size=large",
+      "width": 16,
+      "height": 16,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1133:31551",
+      "name": "type=active, size=medium",
+      "width": 12,
+      "height": 12,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1133:31550",
+      "name": "type=active, size=small",
+      "width": 8,
+      "height": 8,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1241:39854",
+      "name": "type=busy, size=large",
+      "width": 16,
+      "height": 16,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1133:31563",
+      "name": "type=busy, size=medium",
+      "width": 12,
+      "height": 12,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1133:31562",
+      "name": "type=busy, size=small",
+      "width": 8,
+      "height": 8,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1241:39856",
+      "name": "type=inactive, size=large",
+      "width": 16,
+      "height": 16,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1133:31561",
+      "name": "type=inactive, size=medium",
+      "width": 12,
+      "height": 12,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1133:31560",
+      "name": "type=inactive, size=small",
+      "width": 8,
+      "height": 8,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1241:39851",
+      "name": "type=notification, size=large",
+      "width": 16,
+      "height": 16,
+      "paddingLeft": 4,
+      "paddingRight": 4
+    },
+    {
+      "id": "1133:31556",
+      "name": "type=notification, size=medium",
+      "width": 12,
+      "height": 12,
+      "paddingLeft": 2,
+      "paddingRight": 2
+    },
+    {
+      "id": "1133:31552",
+      "name": "type=notification, size=small",
+      "width": 8,
+      "height": 8,
+      "paddingLeft": 2,
+      "paddingRight": 2
+    },
+    {
+      "id": "1241:39859",
+      "name": "type=count, size=large",
+      "width": 20,
+      "height": 20,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "1133:31554",
+      "name": "type=count, size=medium",
+      "width": 16,
+      "height": 16,
+      "paddingLeft": 0,
+      "paddingRight": 0
+    },
+    {
+      "id": "8918:229",
+      "name": "type=count-expand, size=large",
+      "width": 30,
+      "height": 20,
+      "paddingLeft": 4,
+      "paddingRight": 4
+    },
+    {
+      "id": "8918:231",
+      "name": "type=count-expand, size=medium",
+      "width": 27,
+      "height": 16,
+      "paddingLeft": 4,
+      "paddingRight": 4
+    }
+  ],
+  "source": {
+    "path": "evidence/dot-pilot/source/variants.json",
+    "sha256": "3900e1848081c6e65783d661dda5b2a69821d5130c94fd99952f545fc78d987d"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "baseCommit": "182c007969a8177af3abb435936366556c7e01fe",
+  "role": "IMMUTABLE_HISTORY_NOT_CURRENT_RULES",
+  "contracts": [
+    {
+      "id": "TAB-001",
+      "version": "1.0.0",
+      "path": "norms/components/tab.1.0.0.md",
+      "sha256": "1148c2a12aff33eb3d526f32633c68f6cab20a0fcaf75fb7fb9bac3bfa33f2ce",
+      "current": false,
+      "archive": "evidence/dot-pilot/history/tab.1.0.0.md"
+    },
+    {
+      "id": "TABS-001",
+      "version": "1.0.0",
+      "path": "norms/components/tabs.1.0.0.md",
+      "sha256": "65a0b03038e73cf0fc43a9d197cd80b60154be3445b879e00b0d6a68a9f90ab2",
+      "current": false,
+      "archive": "evidence/dot-pilot/history/tabs.1.0.0.md"
+    },
+    {
+      "id": "TAB-001",
+      "version": "1.1.0",
+      "path": "norms/components/tab.1.1.0.md",
+      "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f",
+      "current": false,
+      "archive": "evidence/dot-pilot/history/tab.1.1.0.md"
+    },
+    {
+      "id": "AVATAR-001",
+      "version": "1.0.0",
+      "current": false,
+      "path": "norms/components/avatar.1.0.0.md",
+      "sha256": "385aa42232f1241451940f479b4c1a6b31ed9bcc42f18e84200ec2d473aae83b",
+      "archive": "evidence/dot-pilot/history/avatar.1.0.0.md"
+    },
+    {
+      "id": "AVATAR-GROUP-001",
+      "version": "1.0.0",
+      "current": false,
+      "path": "norms/components/avatar-group.1.0.0.md",
+      "sha256": "29b2ceb001700063b91ed5c90b5df1e2c4098ab7703686eca3cd742ab2fba5e5",
+      "archive": "evidence/dot-pilot/history/avatar-group.1.0.0.md"
+    },
+    {
+      "id": "TABS-001",
+      "version": "2.0.0",
+      "path": "norms/components/tabs.2.0.0.md",
+      "sha256": "50591d9631734df3191703de5d92d5962504056d5b2a74a614d7728af9107306",
+      "current": true,
+      "archive": "evidence/dot-pilot/history/tabs.2.0.0.md"
+    },
+    {
+      "id": "TAB-001",
+      "version": "2.0.0",
+      "path": "norms/components/tab.2.0.0.md",
+      "sha256": "87d94b80a8008d658640b1c3410b35e0aaf977d4e453649c5dc652b876d76a4f",
+      "current": true,
+      "archive": "evidence/dot-pilot/history/tab.2.0.0.md"
+    },
+    {
+      "id": "AVATAR-001",
+      "version": "2.0.0",
+      "path": "norms/components/avatar.2.0.0.md",
+      "sha256": "c34e6b2c0246f52c30c53e085a41265483afd5787f8930510b44dbb9afa2bfac",
+      "current": true,
+      "archive": "evidence/dot-pilot/history/avatar.2.0.0.md"
+    },
+    {
+      "id": "AVATAR-GROUP-001",
+      "version": "2.0.0",
+      "path": "norms/components/avatar-group.2.0.0.md",
+      "sha256": "267cf51b0cc80c7904e2b574f246b334bd5d5c3b14f42d1dd8a7b71df5e31f74",
+      "current": true,
+      "archive": "evidence/dot-pilot/history/avatar-group.2.0.0.md"
+    }
+  ],
+  "tokenSet": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "3.0.0",
+    "path": "norms/tokens/blueheart.3.0.0.json",
+    "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
+    "current": true,
+    "archive": "evidence/dot-pilot/history/blueheart.3.0.0.json"
+  }
+}
