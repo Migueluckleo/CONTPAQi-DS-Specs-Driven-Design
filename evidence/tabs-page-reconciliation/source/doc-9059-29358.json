@@ -1,0 +1,838 @@
+{
+  "id": "9059:29358",
+  "name": "Overview",
+  "frames": [
+    {
+      "id": "9059:29358",
+      "name": "Overview",
+      "type": "FRAME",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 2374,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "9059:29359",
+      "name": "Cover tool kit",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 0,
+      "width": 1920,
+      "height": 144,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        80,
+        0,
+        80
+      ]
+    },
+    {
+      "id": "I9059:29359;7371:24380",
+      "name": "CONTPAQi",
+      "type": "INSTANCE",
+      "x": 80,
+      "y": 52,
+      "width": 178.44131469726562,
+      "height": 40,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "I9059:29359;7371:24380;5390:194",
+      "name": "Group",
+      "type": "GROUP",
+      "x": 0,
+      "y": 0,
+      "width": 173.9445343017578,
+      "height": 40,
+      "layoutMode": null,
+      "itemSpacing": null,
+      "padding": null
+    },
+    {
+      "id": "I9059:29359;7371:24380;5390:254",
+      "name": "Vector",
+      "type": "VECTOR",
+      "x": 174.25523376464844,
+      "y": 9.110875129699707,
+      "width": 4.186084747314453,
+      "height": 4.180482387542725,
+      "layoutMode": null,
+      "itemSpacing": null,
+      "padding": null
+    },
+    {
+      "id": "I9059:29359;7371:24278",
+      "name": "Frame 2095585101",
+      "type": "FRAME",
+      "x": 1591.111083984375,
+      "y": 47.11111068725586,
+      "width": 248.88888549804688,
+      "height": 49.77777862548828,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "I9059:29359;7371:24279",
+      "name": "Resource icons",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 0,
+      "width": 49.77777862548828,
+      "height": 49.77777862548828,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "I9059:29359;7371:24280",
+      "name": "Resource icons",
+      "type": "INSTANCE",
+      "x": 49.77777862548828,
+      "y": 0,
+      "width": 49.77777862548828,
+      "height": 49.77777862548828,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "I9059:29359;7371:24281",
+      "name": "Resource icons",
+      "type": "INSTANCE",
+      "x": 99.55555725097656,
+      "y": 0,
+      "width": 49.77777862548828,
+      "height": 49.77777862548828,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "I9059:29359;7371:24282",
+      "name": "Resource icons",
+      "type": "INSTANCE",
+      "x": 149.33334350585938,
+      "y": 0,
+      "width": 49.77777862548828,
+      "height": 49.77777862548828,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "I9059:29359;7371:24283",
+      "name": "Resource icons",
+      "type": "INSTANCE",
+      "x": 199.11111450195312,
+      "y": 0,
+      "width": 49.77777862548828,
+      "height": 49.77777862548828,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "9059:29360",
+      "name": "Cover tool kit",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 144,
+      "width": 1920,
+      "height": 1080,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 16,
+      "padding": [
+        160,
+        80,
+        160,
+        80
+      ]
+    },
+    {
+      "id": "I9059:29360;7371:24261",
+      "name": "Container",
+      "type": "FRAME",
+      "x": 80,
+      "y": 308,
+      "width": 1760,
+      "height": 464,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 80,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "I9059:29360;7371:24262",
+      "name": "Container",
+      "type": "FRAME",
+      "x": 0,
+      "y": 0,
+      "width": 1760,
+      "height": 336,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 32,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "I9059:29360;7371:24266",
+      "name": "Statuses",
+      "type": "FRAME",
+      "x": 715.5020751953125,
+      "y": 416,
+      "width": 328.995849609375,
+      "height": 48,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 9.600000381469727,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "9059:29361",
+      "name": "Image Container",
+      "type": "FRAME",
+      "x": 0,
+      "y": 1224,
+      "width": 1920,
+      "height": 1046,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 10,
+      "padding": [
+        0,
+        40,
+        0,
+        40
+      ]
+    },
+    {
+      "id": "9059:29362",
+      "name": "Image",
+      "type": "FRAME",
+      "x": 40,
+      "y": 0,
+      "width": 1840,
+      "height": 1046,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 130,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "9059:29637",
+      "name": "Example",
+      "type": "FRAME",
+      "x": 542,
+      "y": 406,
+      "width": 757,
+      "height": 315,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 56,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "9059:29365",
+      "name": "Cover tool kit",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 2270,
+      "width": 1920,
+      "height": 104,
+      "layoutMode": "HORIZONTAL",
+      "itemSpacing": 0,
+      "padding": [
+        40,
+        56,
+        40,
+        56
+      ]
+    },
+    {
+      "id": "I9059:29365;7371:24273",
+      "name": "Crafted by CONTPAQi: contpaqi design platform",
+      "type": "TEXT",
+      "x": 697,
+      "y": 40,
+      "width": 526,
+      "height": 24,
+      "layoutMode": null,
+      "itemSpacing": null,
+      "padding": null
+    }
+  ],
+  "texts": [
+    {
+      "id": "I9059:29360;7371:24263",
+      "name": "Title",
+      "text": "Tabs",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 160,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29360;7371:24265",
+      "name": "Description",
+      "text": "Las tabs organizan contenido relacionado en secciones del mismo nivel y permiten cambiar entre ellas sin salir de la página. Disponibles en estilo underline, pill y segmented.",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 32,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 150
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29360;7371:27010",
+      "name": "Resource type",
+      "text": "Component",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29360;7371:26966;7371:26934",
+      "name": "Done",
+      "text": "Done",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29360;7371:27019",
+      "name": "General",
+      "text": "Owner",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29638;9059:149;9058:280",
+      "name": "Label",
+      "text": "Facturas",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29638;9059:149;9058:281;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29638;9059:157;9058:301",
+      "name": "Label",
+      "text": "Pagos",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29638;9059:157;9058:302;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29638;9059:165;9058:301",
+      "name": "Label",
+      "text": "Notas de crédito",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29638;9059:165;9058:302;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29638;9059:171;9058:301",
+      "name": "Label",
+      "text": "Complementos",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29638;9059:171;9058:302;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29666;9059:190;9058:327",
+      "name": "Label",
+      "text": "Todos",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29666;9059:190;9058:328;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29666;9059:198;9058:364",
+      "name": "Label",
+      "text": "Vigentes",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29666;9059:198;9058:365;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29666;9059:206;9058:364",
+      "name": "Label",
+      "text": "Cancelados",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29666;9059:206;9058:365;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29666;9059:212;9058:364",
+      "name": "Label",
+      "text": "Por timbrar",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29666;9059:212;9058:365;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29693;9062:403;9062:29466;9058:385",
+      "name": "Label",
+      "text": "Lista",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29693;9062:403;9062:29466;9058:386;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29693;9062:403;9062:29467;9058:322",
+      "name": "Label",
+      "text": "Tarjetas",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29693;9062:403;9062:29467;9058:323;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29693;9062:403;9062:29468;9058:322",
+      "name": "Label",
+      "text": "Calendario",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 34.999996185302734
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29693;9062:403;9062:29468;9058:323;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 17.499998092651367,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 27.999998092651367
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:29365;7371:24273",
+      "name": "Crafted by CONTPAQi: contpaqi design platform",
+      "text": "Crafted by CONTPAQi: contpaqi design platform",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 24,
+      "lineHeight": {
+        "unit": "PERCENT",
+        "value": 100
+      },
+      "visible": true
+    }
+  ],
+  "readOnly": true
+}

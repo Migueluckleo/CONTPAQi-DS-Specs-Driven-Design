@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "id": "TABS-TOKENS",
+  "version": "1.0.0",
+  "collections": [
+    {
+      "id": "tabs",
+      "name": "tabs",
+      "default_mode": "Value",
+      "modes": [
+        {
+          "id": "Value",
+          "name": "Value"
+        }
+      ]
+    }
+  ],
+  "tokens": [
+    {
+      "id": "tabs.color-tabs-divider-default",
+      "name": "--color-tabs-divider-default",
+      "layer": "component",
+      "type": "color",
+      "collection": "tabs",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tabs: color/divider/default; uso compartido conforme BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196128",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/variables/23"
+      }
+    },
+    {
+      "id": "tabs.size-tabs-divider",
+      "name": "--size-tabs-divider",
+      "layer": "component",
+      "type": "number",
+      "collection": "tabs",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "Tabs: size/divider; uso compartido conforme BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.stroke-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:559:7",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/variables/15"
+      }
+    },
+    {
+      "id": "tabs.spacing-tabs-container",
+      "name": "--spacing-tabs-container",
+      "layer": "component",
+      "type": "number",
+      "collection": "tabs",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Tabs: spacing/container; uso compartido conforme BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:10",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/variables/42"
+      }
+    },
+    {
+      "id": "tabs.radius-tabs-container",
+      "name": "--radius-tabs-container",
+      "layer": "component",
+      "type": "number",
+      "collection": "tabs",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Tabs: radius/container; uso compartido conforme BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.radius-md"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:4",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/variables/36"
+      }
+    },
+    {
+      "id": "tabs.color-tabs-bg-segmented-default",
+      "name": "--color-tabs-bg-segmented-default",
+      "layer": "component",
+      "type": "color",
+      "collection": "tabs",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Tabs: color/bg/segmented-default; uso compartido conforme BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.neutral-subtle"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196105",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/variables/37"
+      }
+    }
+  ]
+}

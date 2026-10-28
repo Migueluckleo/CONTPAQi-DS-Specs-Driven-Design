@@ -1,0 +1,458 @@
+{
+  "id": "15:343",
+  "name": "Button/link",
+  "description": "Button link. Contrato MD BUTTON-001 v2.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 47 tokens compartidos por propiedad y aliases completos; estados seleccionados por receta.",
+  "properties": {
+    "Label#15:190": {
+      "type": "TEXT",
+      "defaultValue": "Button"
+    },
+    "Show left icon#15:209": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Show right icon#15:228": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Left icon#15:247": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "28:501",
+      "preferredValues": [
+        {
+          "type": "COMPONENT",
+          "key": "46d251bb4099700c5852180f2370d265e5166432"
+        }
+      ]
+    },
+    "Right icon#15:266": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "28:501",
+      "preferredValues": [
+        {
+          "type": "COMPONENT",
+          "key": "46d251bb4099700c5852180f2370d265e5166432"
+        }
+      ]
+    },
+    "size": {
+      "type": "VARIANT",
+      "defaultValue": "large",
+      "variantOptions": [
+        "large",
+        "medium",
+        "small"
+      ]
+    },
+    "state": {
+      "type": "VARIANT",
+      "defaultValue": "default",
+      "variantOptions": [
+        "default",
+        "hover",
+        "pressed",
+        "focus",
+        "loading",
+        "disabled"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "15:235",
+      "name": "size=large, state=default",
+      "width": 61,
+      "height": 48,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:253",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:253",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "large",
+        "state": "default"
+      }
+    },
+    {
+      "id": "15:241",
+      "name": "size=medium, state=default",
+      "width": 55,
+      "height": 40,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:259",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:259",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "medium",
+        "state": "default"
+      }
+    },
+    {
+      "id": "15:247",
+      "name": "size=small, state=default",
+      "width": 55,
+      "height": 32,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:265",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:265",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "small",
+        "state": "default"
+      }
+    },
+    {
+      "id": "15:253",
+      "name": "size=large, state=hover",
+      "width": 61,
+      "height": 48,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:271",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:271",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_PRESS"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "large",
+        "state": "hover"
+      }
+    },
+    {
+      "id": "15:259",
+      "name": "size=medium, state=hover",
+      "width": 55,
+      "height": 40,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:277",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:277",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_PRESS"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "medium",
+        "state": "hover"
+      }
+    },
+    {
+      "id": "15:265",
+      "name": "size=small, state=hover",
+      "width": 55,
+      "height": 32,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:283",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:283",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_PRESS"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "small",
+        "state": "hover"
+      }
+    },
+    {
+      "id": "15:271",
+      "name": "size=large, state=pressed",
+      "width": 61,
+      "height": 48,
+      "reactions": [],
+      "variantProperties": {
+        "size": "large",
+        "state": "pressed"
+      }
+    },
+    {
+      "id": "15:277",
+      "name": "size=medium, state=pressed",
+      "width": 55,
+      "height": 40,
+      "reactions": [],
+      "variantProperties": {
+        "size": "medium",
+        "state": "pressed"
+      }
+    },
+    {
+      "id": "15:283",
+      "name": "size=small, state=pressed",
+      "width": 55,
+      "height": 32,
+      "reactions": [],
+      "variantProperties": {
+        "size": "small",
+        "state": "pressed"
+      }
+    },
+    {
+      "id": "15:289",
+      "name": "size=large, state=focus",
+      "width": 61,
+      "height": 48,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:253",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:253",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "large",
+        "state": "focus"
+      }
+    },
+    {
+      "id": "15:296",
+      "name": "size=medium, state=focus",
+      "width": 55,
+      "height": 40,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:259",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:259",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "medium",
+        "state": "focus"
+      }
+    },
+    {
+      "id": "15:303",
+      "name": "size=small, state=focus",
+      "width": 55,
+      "height": 32,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:265",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:265",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "small",
+        "state": "focus"
+      }
+    },
+    {
+      "id": "15:310",
+      "name": "size=large, state=loading",
+      "width": 93,
+      "height": 48,
+      "reactions": [],
+      "variantProperties": {
+        "size": "large",
+        "state": "loading"
+      }
+    },
+    {
+      "id": "15:315",
+      "name": "size=medium, state=loading",
+      "width": 83,
+      "height": 40,
+      "reactions": [],
+      "variantProperties": {
+        "size": "medium",
+        "state": "loading"
+      }
+    },
+    {
+      "id": "15:320",
+      "name": "size=small, state=loading",
+      "width": 75,
+      "height": 32,
+      "reactions": [],
+      "variantProperties": {
+        "size": "small",
+        "state": "loading"
+      }
+    },
+    {
+      "id": "15:325",
+      "name": "size=large, state=disabled",
+      "width": 61,
+      "height": 48,
+      "reactions": [],
+      "variantProperties": {
+        "size": "large",
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "15:331",
+      "name": "size=medium, state=disabled",
+      "width": 55,
+      "height": 40,
+      "reactions": [],
+      "variantProperties": {
+        "size": "medium",
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "15:337",
+      "name": "size=small, state=disabled",
+      "width": 55,
+      "height": 32,
+      "reactions": [],
+      "variantProperties": {
+        "size": "small",
+        "state": "disabled"
+      }
+    }
+  ]
+}

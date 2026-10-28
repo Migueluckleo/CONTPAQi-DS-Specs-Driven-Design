@@ -1,0 +1,513 @@
+{
+  "status": "PASS",
+  "frameId": "121:409",
+  "cases": [
+    {
+      "type": "underline",
+      "count": 2,
+      "instanceId": "121:411",
+      "slotId": "I121:411;105:224",
+      "slotType": "SLOT",
+      "actualCount": 2,
+      "violations": [],
+      "selectedCount": 1,
+      "types": [
+        "underline",
+        "underline"
+      ],
+      "firstId": "I121:411;105:225",
+      "movedId": null,
+      "label": "Vista",
+      "focus": {
+        "id": "I121:411;105:224;121:449;81:18",
+        "marginWidth": 8,
+        "marginHeight": 8,
+        "slotClips": false,
+        "groupClips": false
+      },
+      "pass": true
+    },
+    {
+      "type": "underline",
+      "count": 6,
+      "instanceId": "121:461",
+      "slotId": "I121:461;105:224",
+      "slotType": "SLOT",
+      "actualCount": 6,
+      "violations": [],
+      "selectedCount": 1,
+      "types": [
+        "underline",
+        "underline",
+        "underline",
+        "underline",
+        "underline",
+        "underline"
+      ],
+      "firstId": "121:500",
+      "movedId": "121:500",
+      "label": "Vista de comprobación ampliada",
+      "focus": {
+        "id": "I121:461;105:224;121:495;81:18",
+        "marginWidth": 8,
+        "marginHeight": 8,
+        "slotClips": false,
+        "groupClips": false
+      },
+      "pass": true
+    },
+    {
+      "type": "pill",
+      "count": 2,
+      "instanceId": "121:514",
+      "slotId": "I121:514;105:254",
+      "slotType": "SLOT",
+      "actualCount": 2,
+      "violations": [],
+      "selectedCount": 1,
+      "types": [
+        "pill",
+        "pill"
+      ],
+      "firstId": "I121:514;105:255",
+      "movedId": null,
+      "label": "Vista",
+      "focus": {
+        "id": "I121:514;105:254;121:552;81:62",
+        "marginWidth": 8,
+        "marginHeight": 8,
+        "slotClips": false,
+        "groupClips": false
+      },
+      "pass": true
+    },
+    {
+      "type": "pill",
+      "count": 6,
+      "instanceId": "121:563",
+      "slotId": "I121:563;105:254",
+      "slotType": "SLOT",
+      "actualCount": 6,
+      "violations": [],
+      "selectedCount": 1,
+      "types": [
+        "pill",
+        "pill",
+        "pill",
+        "pill",
+        "pill",
+        "pill"
+      ],
+      "firstId": "121:601",
+      "movedId": "121:601",
+      "label": "Vista de comprobación ampliada",
+      "focus": {
+        "id": "I121:563;105:254;121:596;81:62",
+        "marginWidth": 8,
+        "marginHeight": 8,
+        "slotClips": false,
+        "groupClips": false
+      },
+      "pass": true
+    },
+    {
+      "type": "segmented",
+      "count": 2,
+      "instanceId": "121:615",
+      "slotId": "I121:615;105:282",
+      "slotType": "SLOT",
+      "actualCount": 2,
+      "violations": [],
+      "selectedCount": 1,
+      "types": [
+        "segmented",
+        "segmented"
+      ],
+      "firstId": "I121:615;105:283",
+      "movedId": null,
+      "label": "Vista",
+      "focus": {
+        "id": "I121:615;105:282;121:654;81:104",
+        "marginWidth": 8,
+        "marginHeight": 8,
+        "slotClips": false,
+        "groupClips": false
+      },
+      "pass": true
+    },
+    {
+      "type": "segmented",
+      "count": 6,
+      "instanceId": "121:665",
+      "slotId": "I121:665;105:282",
+      "slotType": "SLOT",
+      "actualCount": 6,
+      "violations": [],
+      "selectedCount": 1,
+      "types": [
+        "segmented",
+        "segmented",
+        "segmented",
+        "segmented",
+        "segmented",
+        "segmented"
+      ],
+      "firstId": "121:703",
+      "movedId": "121:703",
+      "label": "Vista de comprobación ampliada",
+      "focus": {
+        "id": "I121:665;105:282;121:698;81:104",
+        "marginWidth": 8,
+        "marginHeight": 8,
+        "slotClips": false,
+        "groupClips": false
+      },
+      "pass": true
+    }
+  ],
+  "themes": [
+    {
+      "mode": "Contable",
+      "state": "default",
+      "id": "121:719",
+      "background": {
+        "r": 0.6313725709915161,
+        "g": 0.27450981736183167,
+        "b": 0.9843137264251709
+      },
+      "foreground": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fillVariableId": "VariableID:107:250",
+      "textVariableId": "VariableID:78:74"
+    },
+    {
+      "mode": "Contable",
+      "state": "hover",
+      "id": "121:725",
+      "background": {
+        "r": 0.7764706015586853,
+        "g": 0.5960784554481506,
+        "b": 0.9843137264251709
+      },
+      "foreground": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fillVariableId": "VariableID:107:251",
+      "textVariableId": "VariableID:78:74"
+    },
+    {
+      "mode": "Contable",
+      "state": "focus",
+      "id": "121:733",
+      "background": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "foreground": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "fillVariableId": "VariableID:78:61",
+      "textVariableId": "VariableID:78:75"
+    },
+    {
+      "mode": "Contable",
+      "state": "disabled",
+      "id": "121:740",
+      "background": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "foreground": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "fillVariableId": "VariableID:78:61",
+      "textVariableId": "VariableID:78:73"
+    },
+    {
+      "mode": "Administrativo",
+      "state": "default",
+      "id": "121:749",
+      "background": {
+        "r": 0.6313725709915161,
+        "g": 0.27450981736183167,
+        "b": 0.9843137264251709
+      },
+      "foreground": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fillVariableId": "VariableID:107:250",
+      "textVariableId": "VariableID:78:74"
+    },
+    {
+      "mode": "Administrativo",
+      "state": "hover",
+      "id": "121:755",
+      "background": {
+        "r": 0.7764706015586853,
+        "g": 0.5960784554481506,
+        "b": 0.9843137264251709
+      },
+      "foreground": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fillVariableId": "VariableID:107:251",
+      "textVariableId": "VariableID:78:74"
+    },
+    {
+      "mode": "Administrativo",
+      "state": "focus",
+      "id": "121:761",
+      "background": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "foreground": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "fillVariableId": "VariableID:78:61",
+      "textVariableId": "VariableID:78:75"
+    },
+    {
+      "mode": "Administrativo",
+      "state": "disabled",
+      "id": "121:768",
+      "background": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "foreground": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "fillVariableId": "VariableID:78:61",
+      "textVariableId": "VariableID:78:73"
+    },
+    {
+      "mode": "Servicios",
+      "state": "default",
+      "id": "121:775",
+      "background": {
+        "r": 0.6313725709915161,
+        "g": 0.27450981736183167,
+        "b": 0.9843137264251709
+      },
+      "foreground": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fillVariableId": "VariableID:107:250",
+      "textVariableId": "VariableID:78:74"
+    },
+    {
+      "mode": "Servicios",
+      "state": "hover",
+      "id": "121:781",
+      "background": {
+        "r": 0.7764706015586853,
+        "g": 0.5960784554481506,
+        "b": 0.9843137264251709
+      },
+      "foreground": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fillVariableId": "VariableID:107:251",
+      "textVariableId": "VariableID:78:74"
+    },
+    {
+      "mode": "Servicios",
+      "state": "focus",
+      "id": "121:787",
+      "background": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "foreground": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "fillVariableId": "VariableID:78:61",
+      "textVariableId": "VariableID:78:75"
+    },
+    {
+      "mode": "Servicios",
+      "state": "disabled",
+      "id": "121:794",
+      "background": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "foreground": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "fillVariableId": "VariableID:78:61",
+      "textVariableId": "VariableID:78:73"
+    },
+    {
+      "mode": "Personas",
+      "state": "default",
+      "id": "121:801",
+      "background": {
+        "r": 0.6313725709915161,
+        "g": 0.27450981736183167,
+        "b": 0.9843137264251709
+      },
+      "foreground": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fillVariableId": "VariableID:107:250",
+      "textVariableId": "VariableID:78:74"
+    },
+    {
+      "mode": "Personas",
+      "state": "hover",
+      "id": "121:807",
+      "background": {
+        "r": 0.7764706015586853,
+        "g": 0.5960784554481506,
+        "b": 0.9843137264251709
+      },
+      "foreground": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "fillVariableId": "VariableID:107:251",
+      "textVariableId": "VariableID:78:74"
+    },
+    {
+      "mode": "Personas",
+      "state": "focus",
+      "id": "121:813",
+      "background": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "foreground": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "fillVariableId": "VariableID:78:61",
+      "textVariableId": "VariableID:78:75"
+    },
+    {
+      "mode": "Personas",
+      "state": "disabled",
+      "id": "121:820",
+      "background": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "foreground": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "fillVariableId": "VariableID:78:61",
+      "textVariableId": "VariableID:78:73"
+    }
+  ],
+  "publicProperties": {
+    "Tabs#105:0": {
+      "type": "SLOT",
+      "description": "Agrega, quita o reordena Tab del mismo type; conserva una selección.",
+      "slotSettings": {
+        "stretchChildOnInsert": false,
+        "displayEmptyByDefault": false,
+        "minChildren": 2,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      },
+      "preferredValues": [
+        {
+          "type": "COMPONENT_SET",
+          "key": "1848649f934b1fd6f1cfae986c474b1012693f6f"
+        }
+      ]
+    },
+    "type": {
+      "type": "VARIANT",
+      "defaultValue": "underline",
+      "variantOptions": [
+        "underline",
+        "pill",
+        "segmented"
+      ]
+    }
+  },
+  "createdNodeIds": [
+    "121:409",
+    "121:410",
+    "121:411",
+    "121:460",
+    "121:461",
+    "121:488",
+    "121:500",
+    "121:513",
+    "121:514",
+    "121:562",
+    "121:563",
+    "121:589",
+    "121:601",
+    "121:614",
+    "121:615",
+    "121:664",
+    "121:665",
+    "121:691",
+    "121:703",
+    "121:716",
+    "121:717",
+    "121:718",
+    "121:719",
+    "121:725",
+    "121:733",
+    "121:740",
+    "121:748",
+    "121:749",
+    "121:755",
+    "121:761",
+    "121:768",
+    "121:774",
+    "121:775",
+    "121:781",
+    "121:787",
+    "121:794",
+    "121:800",
+    "121:801",
+    "121:807",
+    "121:813",
+    "121:820"
+  ]
+}

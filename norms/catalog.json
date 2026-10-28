@@ -76,6 +76,20 @@
       "version": "1.0.0",
       "path": "norms/components/tab.1.0.0.md",
       "sha256": "1148c2a12aff33eb3d526f32633c68f6cab20a0fcaf75fb7fb9bac3bfa33f2ce",
+      "current": false
+    },
+    {
+      "id": "TABS-001",
+      "version": "1.0.0",
+      "path": "norms/components/tabs.1.0.0.md",
+      "sha256": "65a0b03038e73cf0fc43a9d197cd80b60154be3445b879e00b0d6a68a9f90ab2",
+      "current": true
+    },
+    {
+      "id": "TAB-001",
+      "version": "1.1.0",
+      "path": "norms/components/tab.1.1.0.md",
+      "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f",
       "current": true
     }
   ],
@@ -89,9 +103,16 @@
     },
     {
       "id": "TAB-TOKENS",
+      "version": "1.1.0",
+      "path": "norms/tokens/tab.1.1.0.json",
+      "sha256": "00dab9bfdb202a689461f609a288afb01dcec41e41d006043df1a852969a35b4",
+      "current": true
+    },
+    {
+      "id": "TABS-TOKENS",
       "version": "1.0.0",
-      "path": "norms/tokens/tab.1.0.0.json",
-      "sha256": "140c5c062a65a9b4ec28b171b6b1d67e69264f38535320d274e5f82198cbccab",
+      "path": "norms/tokens/tabs.1.0.0.json",
+      "sha256": "4abd890dfa3ec2faf8598f015084a4ef12dcee97c5c20809a266c42e9e3bd08d",
       "current": true
     }
   ]

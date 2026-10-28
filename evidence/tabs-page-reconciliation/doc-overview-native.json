@@ -1,0 +1,270 @@
+{
+  "rootId": "111:461",
+  "sourceRootId": "9059:29358",
+  "width": 1920,
+  "height": 1643,
+  "createdNodeIds": [
+    "111:461",
+    "111:462",
+    "111:463",
+    "111:528",
+    "111:529",
+    "111:530",
+    "111:531",
+    "111:532",
+    "111:533",
+    "111:534",
+    "111:535",
+    "111:536",
+    "111:537",
+    "111:538",
+    "111:539",
+    "111:540",
+    "111:541",
+    "111:542",
+    "111:543",
+    "111:544",
+    "111:545",
+    "111:546",
+    "111:549",
+    "111:550",
+    "111:551",
+    "111:552",
+    "111:553",
+    "111:554",
+    "111:555",
+    "111:556",
+    "111:588",
+    "111:619",
+    "111:649",
+    "111:650"
+  ],
+  "mutatedNodeIds": [],
+  "links": [
+    {
+      "sourceId": "I9059:29359;7371:24380",
+      "destinationId": "111:463",
+      "kind": "logo"
+    },
+    {
+      "sourceId": "I9059:29359;7371:24279",
+      "destinationId": "111:529",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29359;7371:24280",
+      "destinationId": "111:530",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29359;7371:24281",
+      "destinationId": "111:531",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29359;7371:24282",
+      "destinationId": "111:532",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29359;7371:24283",
+      "destinationId": "111:533",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29359;7371:24278",
+      "destinationId": "111:528",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "9059:29359",
+      "destinationId": "111:462",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29360;7371:24263",
+      "destinationId": "111:537",
+      "kind": "TEXT"
+    },
+    {
+      "sourceId": "I9059:29360;7371:24265",
+      "destinationId": "111:539",
+      "kind": "TEXT"
+    },
+    {
+      "sourceId": "I9059:29360;7371:24264",
+      "destinationId": "111:538",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "I9059:29360;7371:24262",
+      "destinationId": "111:536",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "I9059:29360;7371:27009",
+      "destinationId": "111:543",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29360;7371:27008",
+      "destinationId": "111:542",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "I9059:29360;7371:27010",
+      "destinationId": "111:544",
+      "kind": "TEXT"
+    },
+    {
+      "sourceId": "I9059:29360;7371:27007",
+      "destinationId": "111:541",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "I9059:29360;7371:26966;7371:26933",
+      "destinationId": "111:546",
+      "kind": "bullet"
+    },
+    {
+      "sourceId": "I9059:29360;7371:26966;7371:26934",
+      "destinationId": "111:549",
+      "kind": "TEXT"
+    },
+    {
+      "sourceId": "I9059:29360;7371:26966",
+      "destinationId": "111:545",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29360;7371:27018",
+      "destinationId": "111:551",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29360;7371:27019",
+      "destinationId": "111:552",
+      "kind": "TEXT"
+    },
+    {
+      "sourceId": "I9059:29360;7371:27017",
+      "destinationId": "111:550",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "I9059:29360;7371:24266",
+      "destinationId": "111:540",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "I9059:29360;7371:24261",
+      "destinationId": "111:535",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "9059:29360",
+      "destinationId": "111:534",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "I9059:29638;9059:149",
+      "destinationId": "I111:556;105:225",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "I9059:29638;9059:157",
+      "destinationId": "I111:556;105:233",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "I9059:29638;9059:165",
+      "destinationId": "I111:556;105:241",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "I9059:29638;9059:171",
+      "destinationId": "I111:556;105:247",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "9059:29638",
+      "destinationId": "111:556",
+      "kind": "tabs"
+    },
+    {
+      "sourceId": "I9059:29666;9059:190",
+      "destinationId": "I111:588;105:255",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "I9059:29666;9059:198",
+      "destinationId": "I111:588;105:263",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "I9059:29666;9059:206",
+      "destinationId": "I111:588;105:270",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "I9059:29666;9059:212",
+      "destinationId": "I111:588;105:276",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "9059:29666",
+      "destinationId": "111:588",
+      "kind": "tabs"
+    },
+    {
+      "sourceId": "I9059:29693;9062:403;9062:29466",
+      "destinationId": "I111:619;105:283",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "I9059:29693;9062:403;9062:29467",
+      "destinationId": "I111:619;105:291",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "I9059:29693;9062:403;9062:29468",
+      "destinationId": "I111:619;105:299",
+      "kind": "tab"
+    },
+    {
+      "sourceId": "9059:29693",
+      "destinationId": "111:619",
+      "kind": "tabs"
+    },
+    {
+      "sourceId": "9059:29637",
+      "destinationId": "111:555",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "9059:29362",
+      "destinationId": "111:554",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "9059:29361",
+      "destinationId": "111:553",
+      "kind": "FRAME"
+    },
+    {
+      "sourceId": "I9059:29365;7371:24273",
+      "destinationId": "111:650",
+      "kind": "TEXT"
+    },
+    {
+      "sourceId": "9059:29365",
+      "destinationId": "111:649",
+      "kind": "INSTANCE"
+    },
+    {
+      "sourceId": "9059:29358",
+      "destinationId": "111:461",
+      "kind": "FRAME"
+    }
+  ]
+}

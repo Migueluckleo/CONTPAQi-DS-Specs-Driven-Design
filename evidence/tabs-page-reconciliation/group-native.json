@@ -1,0 +1,161 @@
+{
+  "setId": "105:223",
+  "setKey": "ff82dcaeabe82f9acfa899194e49c16f40cbf931",
+  "collectionId": "VariableCollectionId:105:2",
+  "modeIds": {
+    "Value": "105:0"
+  },
+  "variableIds": {
+    "tabs.color-tabs-divider-default": "VariableID:105:3",
+    "tabs.size-tabs-divider": "VariableID:105:4",
+    "tabs.spacing-tabs-container": "VariableID:105:5",
+    "tabs.radius-tabs-container": "VariableID:105:6",
+    "tabs.color-tabs-bg-segmented-default": "VariableID:105:7"
+  },
+  "slotKey": "Tabs#105:0",
+  "groups": [
+    {
+      "id": "105:220",
+      "key": "69bb0e1028a2fa74e92ab260da71feea771f4b10",
+      "type": "underline",
+      "width": 265,
+      "height": 44,
+      "slotId": "105:224",
+      "slotType": "SLOT",
+      "limitViolations": [],
+      "children": [
+        "105:225",
+        "105:233",
+        "105:241",
+        "105:247"
+      ],
+      "dividerId": "105:253"
+    },
+    {
+      "id": "105:221",
+      "key": "7f6c21db185178b5518beea1b9ec52e0a983feda",
+      "type": "pill",
+      "width": 277,
+      "height": 36,
+      "slotId": "105:254",
+      "slotType": "SLOT",
+      "limitViolations": [],
+      "children": [
+        "105:255",
+        "105:263",
+        "105:270",
+        "105:276"
+      ]
+    },
+    {
+      "id": "105:222",
+      "key": "fa7173147a3d0b858e33784063d1d973727db157",
+      "type": "segmented",
+      "width": 253,
+      "height": 36,
+      "slotId": "105:282",
+      "slotType": "SLOT",
+      "limitViolations": [],
+      "children": [
+        "105:283",
+        "105:291",
+        "105:299",
+        "105:305"
+      ]
+    }
+  ],
+  "properties": {
+    "Tabs#105:0": {
+      "type": "SLOT",
+      "description": "Agrega, quita o reordena Tab del mismo type; conserva una selección.",
+      "slotSettings": {
+        "stretchChildOnInsert": false,
+        "displayEmptyByDefault": false,
+        "minChildren": 2,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      },
+      "preferredValues": [
+        {
+          "type": "COMPONENT_SET",
+          "key": "1848649f934b1fd6f1cfae986c474b1012693f6f"
+        }
+      ]
+    },
+    "Tabs#105:4": {
+      "type": "SLOT",
+      "description": null,
+      "preferredValues": []
+    },
+    "Tabs#105:8": {
+      "type": "SLOT",
+      "description": null,
+      "preferredValues": []
+    },
+    "Tabs#105:12": {
+      "type": "SLOT",
+      "description": null,
+      "preferredValues": []
+    },
+    "type": {
+      "type": "VARIANT",
+      "defaultValue": "underline",
+      "variantOptions": [
+        "underline",
+        "pill",
+        "segmented"
+      ]
+    }
+  },
+  "createdNodeIds": [
+    "105:223",
+    "105:220",
+    "105:221",
+    "105:222",
+    "105:224",
+    "105:225",
+    "105:233",
+    "105:241",
+    "105:247",
+    "105:253",
+    "105:254",
+    "105:255",
+    "105:263",
+    "105:270",
+    "105:276",
+    "105:282",
+    "105:283",
+    "105:291",
+    "105:299",
+    "105:305"
+  ],
+  "mutatedNodeIds": [
+    "105:223",
+    "105:220",
+    "105:221",
+    "105:222",
+    "105:224",
+    "105:225",
+    "105:233",
+    "105:241",
+    "105:247",
+    "105:253",
+    "105:254",
+    "105:255",
+    "105:263",
+    "105:270",
+    "105:276",
+    "105:282",
+    "105:283",
+    "105:291",
+    "105:299",
+    "105:305"
+  ],
+  "createdVariableIds": [
+    "VariableID:105:3",
+    "VariableID:105:4",
+    "VariableID:105:5",
+    "VariableID:105:6",
+    "VariableID:105:7"
+  ]
+}

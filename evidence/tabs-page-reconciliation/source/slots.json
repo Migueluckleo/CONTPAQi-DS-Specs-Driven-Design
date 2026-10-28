@@ -1,0 +1,604 @@
+{
+  "items": [
+    {
+      "id": "9059:148",
+      "name": "Divider",
+      "type": "RECTANGLE",
+      "x": 0,
+      "y": 43,
+      "width": 265,
+      "height": 1,
+      "constraints": {
+        "horizontal": "STRETCH",
+        "vertical": "MAX"
+      },
+      "layoutPositioning": "ABSOLUTE",
+      "children": []
+    },
+    {
+      "id": "9062:401",
+      "name": "Tabs",
+      "type": "SLOT",
+      "x": 0,
+      "y": 0,
+      "width": 265,
+      "height": 44,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "children": [
+        {
+          "id": "9059:149",
+          "name": "Tab 1",
+          "type": "INSTANCE",
+          "properties": {
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 1"
+            },
+            "type": {
+              "value": "underline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:157",
+          "name": "Tab 2",
+          "type": "INSTANCE",
+          "properties": {
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 2"
+            },
+            "type": {
+              "value": "underline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:165",
+          "name": "Tab 3",
+          "type": "INSTANCE",
+          "properties": {
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 3"
+            },
+            "type": {
+              "value": "underline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:171",
+          "name": "Tab 4",
+          "type": "INSTANCE",
+          "properties": {
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 4"
+            },
+            "type": {
+              "value": "underline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "9062:402",
+      "name": "Tabs",
+      "type": "SLOT",
+      "x": 0,
+      "y": 0,
+      "width": 277,
+      "height": 36,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "children": [
+        {
+          "id": "9059:190",
+          "name": "Tab 1",
+          "type": "INSTANCE",
+          "properties": {
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 1"
+            },
+            "type": {
+              "value": "pill",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:198",
+          "name": "Tab 2",
+          "type": "INSTANCE",
+          "properties": {
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 2"
+            },
+            "type": {
+              "value": "pill",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:206",
+          "name": "Tab 3",
+          "type": "INSTANCE",
+          "properties": {
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 3"
+            },
+            "type": {
+              "value": "pill",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:212",
+          "name": "Tab 4",
+          "type": "INSTANCE",
+          "properties": {
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 4"
+            },
+            "type": {
+              "value": "pill",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "9062:403",
+      "name": "Tabs",
+      "type": "SLOT",
+      "x": 4,
+      "y": 4,
+      "width": 245,
+      "height": 28,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "children": [
+        {
+          "id": "9059:231",
+          "name": "Tab 1",
+          "type": "INSTANCE",
+          "properties": {
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 1"
+            },
+            "type": {
+              "value": "segmented",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:239",
+          "name": "Tab 2",
+          "type": "INSTANCE",
+          "properties": {
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 2"
+            },
+            "type": {
+              "value": "segmented",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:247",
+          "name": "Tab 3",
+          "type": "INSTANCE",
+          "properties": {
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 3"
+            },
+            "type": {
+              "value": "segmented",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        },
+        {
+          "id": "9059:253",
+          "name": "Tab 4",
+          "type": "INSTANCE",
+          "properties": {
+            "Icon#9058:50": {
+              "type": "INSTANCE_SWAP",
+              "value": "4334:1074",
+              "preferredValues": []
+            },
+            "Show icon#9058:25": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Show badge#9058:75": {
+              "type": "BOOLEAN",
+              "value": false
+            },
+            "Label#9058:0": {
+              "type": "TEXT",
+              "value": "Tab 4"
+            },
+            "type": {
+              "value": "segmented",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "selected": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "9059:29638",
+      "name": "tabs",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 0,
+      "width": 757,
+      "height": 77,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "children": [
+        {
+          "id": "I9059:29638;9059:148",
+          "name": "Divider",
+          "type": "RECTANGLE"
+        },
+        {
+          "id": "I9059:29638;9062:401",
+          "name": "Tabs",
+          "type": "SLOT"
+        }
+      ]
+    },
+    {
+      "id": "9059:29666",
+      "name": "tabs",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 133,
+      "width": 676,
+      "height": 62.999996185302734,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "children": [
+        {
+          "id": "I9059:29666;9062:402",
+          "name": "Tabs",
+          "type": "SLOT"
+        }
+      ]
+    },
+    {
+      "id": "9059:29693",
+      "name": "tabs",
+      "type": "INSTANCE",
+      "x": 0,
+      "y": 252,
+      "width": 427,
+      "height": 62.999996185302734,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "children": [
+        {
+          "id": "I9059:29693;9062:403",
+          "name": "Tabs",
+          "type": "SLOT"
+        }
+      ]
+    }
+  ],
+  "readOnly": true
+}

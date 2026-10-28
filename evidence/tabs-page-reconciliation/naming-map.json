@@ -1,0 +1,306 @@
+{
+  "role": "DERIVED_NAMING_MIGRATION",
+  "changes": [
+    {
+      "id": "tab.border-tab-width-emphasis",
+      "before": "tab/border/width-emphasis",
+      "after": "tab/border/width-emphasis",
+      "web": "var(--border-tab-width-emphasis)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.border-tab-width-regular",
+      "before": "tab/border/width-regular",
+      "after": "tab/border/width-regular",
+      "web": "var(--border-tab-width-regular)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-bg-brand-accent",
+      "before": "tab/color/bg/brand-accent",
+      "after": "tab/color/bg/primary-hover",
+      "web": "var(--color-tab-bg-brand-accent)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-bg-brand-subtle",
+      "before": "tab/color/bg/brand-subtle",
+      "after": "tab/color/bg/primary-default",
+      "web": "var(--color-tab-bg-brand-subtle)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-bg-count",
+      "before": "tab/color/bg/count",
+      "after": "tab/color/bg/count-default",
+      "web": "var(--color-tab-bg-count)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-bg-muted",
+      "before": "tab/color/bg/muted",
+      "after": "tab/color/bg/segmented-hover",
+      "web": "var(--color-tab-bg-muted)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-bg-subtle",
+      "before": "tab/color/bg/subtle",
+      "after": "tab/color/bg/secondary-hover",
+      "web": "var(--color-tab-bg-subtle)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-bg-surface",
+      "before": "tab/color/bg/surface",
+      "after": "tab/color/bg/segmented-focus",
+      "web": "var(--color-tab-bg-surface)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-icon-brand",
+      "before": "tab/color/icon/brand",
+      "after": "tab/color/icon/primary-default",
+      "web": "var(--color-tab-icon-brand)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-icon-disabled",
+      "before": "tab/color/icon/disabled",
+      "after": "tab/color/icon/disabled",
+      "web": "var(--color-tab-icon-disabled)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-icon-primary",
+      "before": "tab/color/icon/primary",
+      "after": "tab/color/icon/secondary-hover",
+      "web": "var(--color-tab-icon-primary)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-icon-secondary",
+      "before": "tab/color/icon/secondary",
+      "after": "tab/color/icon/secondary-default",
+      "web": "var(--color-tab-icon-secondary)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-stroke-brand",
+      "before": "tab/color/stroke/brand",
+      "after": "tab/color/stroke/primary-default",
+      "web": "var(--color-tab-stroke-brand)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-stroke-brand-hover",
+      "before": "tab/color/stroke/brand-hover",
+      "after": "tab/color/stroke/primary-hover",
+      "web": "var(--color-tab-stroke-brand-hover)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-stroke-focus",
+      "before": "tab/color/stroke/focus",
+      "after": "tab/color/stroke/focus",
+      "web": "var(--color-tab-stroke-focus)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-stroke-neutral",
+      "before": "tab/color/stroke/neutral",
+      "after": "tab/color/stroke/secondary-hover",
+      "web": "var(--color-tab-stroke-neutral)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-stroke-surface",
+      "before": "tab/color/stroke/surface",
+      "after": "tab/color/stroke/count-default",
+      "web": "var(--color-tab-stroke-surface)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-text-brand",
+      "before": "tab/color/text/brand",
+      "after": "tab/color/text/primary-default",
+      "web": "var(--color-tab-text-brand)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-text-brand-hover",
+      "before": "tab/color/text/brand-hover",
+      "after": "tab/color/text/primary-hover",
+      "web": "var(--color-tab-text-brand-hover)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-text-disabled",
+      "before": "tab/color/text/disabled",
+      "after": "tab/color/text/disabled",
+      "web": "var(--color-tab-text-disabled)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-text-inverse",
+      "before": "tab/color/text/inverse",
+      "after": "tab/color/text/inverse",
+      "web": "var(--color-tab-text-inverse)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-text-primary",
+      "before": "tab/color/text/primary",
+      "after": "tab/color/text/secondary-hover",
+      "web": "var(--color-tab-text-primary)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.color-tab-text-secondary",
+      "before": "tab/color/text/secondary",
+      "after": "tab/color/text/secondary-default",
+      "web": "var(--color-tab-text-secondary)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-count-style",
+      "before": "tab/font/count-style",
+      "after": "tab/font/count-style",
+      "web": "var(--font-tab-count-style)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-family",
+      "before": "tab/font/family",
+      "after": "tab/font/family",
+      "web": "var(--font-tab-family)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-label-style",
+      "before": "tab/font/label-style",
+      "after": "tab/font/label-style",
+      "web": "var(--font-tab-label-style)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-letter-spacing",
+      "before": "tab/font/letter-spacing",
+      "after": "tab/font/letter-spacing",
+      "web": "var(--font-tab-letter-spacing)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-line-height-count",
+      "before": "tab/font/line-height-count",
+      "after": "tab/font/line-height-count",
+      "web": "var(--font-tab-line-height-count)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-line-height-label",
+      "before": "tab/font/line-height-label",
+      "after": "tab/font/line-height-label",
+      "web": "var(--font-tab-line-height-label)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-selected-style",
+      "before": "tab/font/selected-style",
+      "after": "tab/font/selected-style",
+      "web": "var(--font-tab-selected-style)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-size-count",
+      "before": "tab/font/size-count",
+      "after": "tab/font/size-count",
+      "web": "var(--font-tab-size-count)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.font-tab-size-label",
+      "before": "tab/font/size-label",
+      "after": "tab/font/size-label",
+      "web": "var(--font-tab-size-label)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.radius-tab-full",
+      "before": "tab/radius/full",
+      "after": "tab/radius/full",
+      "web": "var(--radius-tab-full)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.radius-tab-lg",
+      "before": "tab/radius/lg",
+      "after": "tab/radius/lg",
+      "web": "var(--radius-tab-lg)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.radius-tab-md",
+      "before": "tab/radius/md",
+      "after": "tab/radius/md",
+      "web": "var(--radius-tab-md)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.radius-tab-sm",
+      "before": "tab/radius/sm",
+      "after": "tab/radius/sm",
+      "web": "var(--radius-tab-sm)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.size-tab-count",
+      "before": "tab/size/count",
+      "after": "tab/size/count",
+      "web": "var(--size-tab-count)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.size-tab-icon",
+      "before": "tab/size/icon",
+      "after": "tab/size/icon",
+      "web": "var(--size-tab-icon)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.spacing-tab-lg",
+      "before": "tab/spacing/lg",
+      "after": "tab/spacing/lg",
+      "web": "var(--spacing-tab-lg)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.spacing-tab-md",
+      "before": "tab/spacing/md",
+      "after": "tab/spacing/md",
+      "web": "var(--spacing-tab-md)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.spacing-tab-none",
+      "before": "tab/spacing/none",
+      "after": "tab/spacing/none",
+      "web": "var(--spacing-tab-none)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.spacing-tab-sm",
+      "before": "tab/spacing/sm",
+      "after": "tab/spacing/sm",
+      "web": "var(--spacing-tab-sm)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    },
+    {
+      "id": "tab.spacing-tab-xs",
+      "before": "tab/spacing/xs",
+      "after": "tab/spacing/xs",
+      "web": "var(--spacing-tab-xs)",
+      "reason": "Rol y estado consumidor, conforme a la estructura observada en Button; ID lógico y WEB conservados."
+    }
+  ]
+}

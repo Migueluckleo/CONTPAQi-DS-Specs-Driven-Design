@@ -1,0 +1,1652 @@
+{
+  "id": "1183:936",
+  "name": "Tabs",
+  "frames": [
+    {
+      "id": "1183:936",
+      "name": "Tabs",
+      "type": "FRAME",
+      "x": 4160,
+      "y": 0,
+      "width": 842,
+      "height": 936,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 64,
+      "padding": [
+        64,
+        64,
+        64,
+        64
+      ]
+    },
+    {
+      "id": "1183:1121",
+      "name": "Content",
+      "type": "FRAME",
+      "x": 64,
+      "y": 64,
+      "width": 714,
+      "height": 808,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 64,
+      "padding": [
+        32,
+        64,
+        32,
+        64
+      ]
+    },
+    {
+      "id": "9059:29341",
+      "name": "Tab component",
+      "type": "FRAME",
+      "x": 64,
+      "y": 32,
+      "width": 586,
+      "height": 452,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "1183:1146",
+      "name": "tab",
+      "type": "COMPONENT_SET",
+      "x": 170,
+      "y": 28,
+      "width": 416,
+      "height": 424,
+      "layoutMode": "GRID",
+      "itemSpacing": 10,
+      "padding": [
+        24,
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "id": "9059:29352",
+      "name": "Labels",
+      "type": "GROUP",
+      "x": 12,
+      "y": 0,
+      "width": 546,
+      "height": 422,
+      "layoutMode": null,
+      "itemSpacing": null,
+      "padding": null
+    },
+    {
+      "id": "9059:29353",
+      "name": "Tabs component",
+      "type": "FRAME",
+      "x": 109.5,
+      "y": 548,
+      "width": 495,
+      "height": 228,
+      "layoutMode": "NONE",
+      "itemSpacing": 0,
+      "padding": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "9059:271",
+      "name": "tabs",
+      "type": "COMPONENT_SET",
+      "x": 170,
+      "y": 0,
+      "width": 325,
+      "height": 228,
+      "layoutMode": "VERTICAL",
+      "itemSpacing": 32,
+      "padding": [
+        24,
+        24,
+        24,
+        24
+      ]
+    },
+    {
+      "id": "9059:29357",
+      "name": "Labels",
+      "type": "GROUP",
+      "x": 105,
+      "y": 38,
+      "width": 65,
+      "height": 156,
+      "layoutMode": null,
+      "itemSpacing": null,
+      "padding": null
+    }
+  ],
+  "texts": [
+    {
+      "id": "9058:301",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:302;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:306",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:307;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:311",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:312;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:317",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:318;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:280",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:281;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:285",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:286;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:290",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:291;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:296",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:297;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:364",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:365;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:343",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:344;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:348",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:349;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:354",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:355;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:327",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:328;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:332",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:333;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:337",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:338;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:359",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:360;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:322",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:323;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:369",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:370;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:374",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:375;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:380",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:381;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:385",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:386;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:390",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:391;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:395",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:396;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9058:401",
+      "name": "Label",
+      "text": "Tab",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9058:402;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29342",
+      "name": "default",
+      "text": "default",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29343",
+      "name": "hover",
+      "text": "hover",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29344",
+      "name": "focus",
+      "text": "focus",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29345",
+      "name": "disabled",
+      "text": "disabled",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29346",
+      "name": "underline · selected=false",
+      "text": "underline · selected=false",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29347",
+      "name": "underline · selected=true",
+      "text": "underline · selected=true",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29348",
+      "name": "pill · selected=false",
+      "text": "pill · selected=false",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29349",
+      "name": "pill · selected=true",
+      "text": "pill · selected=true",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29350",
+      "name": "segmented · selected=false",
+      "text": "segmented · selected=false",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29351",
+      "name": "segmented · selected=true",
+      "text": "segmented · selected=true",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:149;9058:280",
+      "name": "Label",
+      "text": "Tab 1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:149;9058:281;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:157;9058:301",
+      "name": "Label",
+      "text": "Tab 2",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:157;9058:302;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:165;9058:301",
+      "name": "Label",
+      "text": "Tab 3",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:165;9058:302;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:171;9058:301",
+      "name": "Label",
+      "text": "Tab 4",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:171;9058:302;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:190;9058:327",
+      "name": "Label",
+      "text": "Tab 1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:190;9058:328;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:198;9058:364",
+      "name": "Label",
+      "text": "Tab 2",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:198;9058:365;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:206;9058:364",
+      "name": "Label",
+      "text": "Tab 3",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:206;9058:365;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:212;9058:364",
+      "name": "Label",
+      "text": "Tab 4",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:212;9058:365;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:231;9058:385",
+      "name": "Label",
+      "text": "Tab 1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:231;9058:386;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:239;9058:322",
+      "name": "Label",
+      "text": "Tab 2",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:239;9058:323;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:247;9058:322",
+      "name": "Label",
+      "text": "Tab 3",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:247;9058:323;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:253;9058:322",
+      "name": "Label",
+      "text": "Tab 4",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "visible": true
+    },
+    {
+      "id": "I9059:253;9058:323;1133:31555",
+      "name": "Count",
+      "text": "1",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29354",
+      "name": "underline",
+      "text": "underline",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29355",
+      "name": "pill",
+      "text": "pill",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    },
+    {
+      "id": "9059:29356",
+      "name": "segmented",
+      "text": "segmented",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Medium",
+        "variationSettings": {
+          "wght": 500
+        }
+      },
+      "fontSize": 12,
+      "lineHeight": {
+        "unit": "AUTO"
+      },
+      "visible": true
+    }
+  ],
+  "readOnly": true
+}

@@ -1,0 +1,2581 @@
+{
+  "schema_version": 1,
+  "id": "TABS-PAGE-RECONCILIATION-20261027",
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decisions": [
+    "ADR-016",
+    "ADR-017"
+  ],
+  "source": {
+    "project": "/Users/miguel.leo/Desktop/CONTPAQi-designSystem-Optimizado",
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "268:20245",
+    "access": "READ_ONLY"
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "78:97",
+    "overviewId": "111:461",
+    "variantsId": "113:298",
+    "mastersId": "111:442",
+    "slotQaId": "121:409"
+  },
+  "counts": {
+    "native_variables": 348,
+    "preserved_foundations": 251,
+    "preserved_button_tokens": 47,
+    "Tab": 45,
+    "Tabs": 5,
+    "renamed_native_tokens": 17,
+    "native_bindings_checked": 1026,
+    "slot_cases": 6,
+    "theme_state_cases": 16
+  },
+  "checks": [
+    {
+      "control": "native-inventory",
+      "status": "PASS",
+      "variables": 348,
+      "added": 7
+    },
+    {
+      "control": "preserved-variable-VariableID:6:78",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:79",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:80",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:81",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:82",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:83",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:84",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:85",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:86",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:87",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:88",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:89",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:90",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:91",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:92",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:93",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:94",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:95",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:96",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:97",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:98",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:99",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:100",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:101",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:102",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:103",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:104",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:105",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:106",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:107",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:108",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:109",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:110",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:111",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:112",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:113",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:114",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:115",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:116",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:117",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:118",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:119",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:120",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:121",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:122",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:123",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:124",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:125",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:126",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:127",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:128",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:129",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:130",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:131",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:132",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:133",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:134",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:135",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:136",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:137",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:138",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:139",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:140",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:141",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:142",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:143",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:144",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:145",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:146",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:147",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:149",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:150",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:151",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:152",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:153",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:3",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:4",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:5",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:6",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:7",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:8",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:9",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:10",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:11",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:12",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:13",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:14",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:15",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:16",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:17",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:18",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:19",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:20",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:21",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:22",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:23",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:24",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:25",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:26",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:27",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:28",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:29",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:30",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:31",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:32",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:33",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:34",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:35",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:36",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:37",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:38",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:39",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:40",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:41",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:42",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:43",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:44",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:45",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:46",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:47",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:48",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:49",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:50",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:51",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:52",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:53",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:54",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:55",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:56",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:57",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:58",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:59",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:60",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:61",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:62",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:63",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:64",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:65",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:66",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:67",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:68",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:69",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:70",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:71",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:72",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:73",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:74",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:75",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:76",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:77",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:154",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:155",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:156",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:157",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:158",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:159",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:160",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:161",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:162",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:163",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:164",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:165",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:166",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:167",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:168",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:169",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:170",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:171",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:172",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:173",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:174",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:175",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:176",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:177",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:178",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:179",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:180",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:181",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:182",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:183",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:184",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:185",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:186",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:187",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:188",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:189",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:190",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:191",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:192",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:193",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:194",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:195",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:196",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:197",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:198",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:199",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:200",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:201",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:202",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:203",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:204",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:205",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:206",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:207",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:208",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:209",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:210",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:211",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:212",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:213",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:214",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:215",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:216",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:217",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:218",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:219",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:220",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:221",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:222",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:223",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:224",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:225",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:226",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:227",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:228",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:56",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:57",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:58",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:59",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:60",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:61",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:62",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:63",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:64",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:65",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:66",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:67",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:68",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:69",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:70",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:71",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:72",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:73",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:74",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:75",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:76",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:77",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:78",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:79",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:80",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:81",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:82",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:83",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:84",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:85",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:86",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:87",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:88",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:89",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:90",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:91",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:92",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:93",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:94",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:95",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:96",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:229",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:230",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:231",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:232",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:233",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:234",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:235",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:236",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:237",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:238",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:239",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:240",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:241",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:242",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:243",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:244",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:245",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:246",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:247",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:248",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:249",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:250",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:251",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:252",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:253",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:6:254",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:3",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:6",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:8",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:21",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:35",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:36",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:38",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:40",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:41",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:42",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:46",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:47",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:48",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:53",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:56",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:58",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:59",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:62",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:65",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:66",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:68",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:71",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:74",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:79",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:84",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:85",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:91",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:92",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:93",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:94",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:95",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:96",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:98",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:99",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:100",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:101",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:102",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:104",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:105",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:107",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:108",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:110",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:112",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:119",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:121",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:125",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:11:126",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:54",
+      "status": "PASS"
+    },
+    {
+      "control": "preserved-variable-VariableID:78:55",
+      "status": "PASS"
+    },
+    {
+      "control": "foundation-scopes-empty",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.border-tab-width-emphasis",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.border-tab-width-emphasis-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.border-tab-width-emphasis-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.border-tab-width-emphasis-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.border-tab-width-emphasis-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.border-tab-width-regular",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.border-tab-width-regular-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.border-tab-width-regular-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.border-tab-width-regular-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.border-tab-width-regular-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-bg-brand-accent",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-brand-accent-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-brand-accent-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-brand-accent-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-brand-accent-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-bg-brand-subtle",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-brand-subtle-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-brand-subtle-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-brand-subtle-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-brand-subtle-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-bg-count",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-count-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-count-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-count-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-count-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-bg-muted",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-muted-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-muted-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-muted-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-muted-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-bg-subtle",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-subtle-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-subtle-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-subtle-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-subtle-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-bg-surface",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-surface-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-surface-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-surface-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-surface-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-icon-brand",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-brand-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-brand-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-brand-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-brand-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-icon-disabled",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-disabled-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-disabled-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-disabled-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-disabled-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-icon-primary",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-primary-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-primary-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-primary-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-primary-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-icon-secondary",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-secondary-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-secondary-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-secondary-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-icon-secondary-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-stroke-brand",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-brand-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-brand-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-brand-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-brand-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-stroke-brand-hover",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-brand-hover-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-brand-hover-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-brand-hover-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-brand-hover-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-stroke-focus",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-focus-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-focus-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-focus-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-focus-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-stroke-neutral",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-neutral-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-neutral-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-neutral-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-neutral-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-stroke-surface",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-surface-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-surface-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-surface-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-stroke-surface-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-text-brand",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-brand-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-brand-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-brand-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-brand-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-text-brand-hover",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-brand-hover-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-brand-hover-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-brand-hover-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-brand-hover-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-text-disabled",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-disabled-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-disabled-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-disabled-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-disabled-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-text-inverse",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-inverse-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-inverse-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-inverse-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-inverse-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-text-primary",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-primary-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-primary-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-primary-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-primary-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-text-secondary",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-secondary-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-secondary-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-secondary-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-text-secondary-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-count-style",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-count-style-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-count-style-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-count-style-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-count-style-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-family",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-family-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-family-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-family-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-family-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-label-style",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-label-style-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-label-style-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-label-style-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-label-style-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-letter-spacing",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-letter-spacing-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-letter-spacing-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-letter-spacing-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-letter-spacing-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-line-height-count",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-line-height-count-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-line-height-count-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-line-height-count-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-line-height-count-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-line-height-label",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-line-height-label-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-line-height-label-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-line-height-label-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-line-height-label-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-selected-style",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-selected-style-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-selected-style-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-selected-style-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-selected-style-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-size-count",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-size-count-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-size-count-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-size-count-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-size-count-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.font-tab-size-label",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-size-label-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-size-label-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-size-label-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.font-tab-size-label-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.radius-tab-full",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-full-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-full-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-full-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-full-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.radius-tab-lg",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-lg-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-lg-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-lg-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-lg-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.radius-tab-md",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-md-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-md-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-md-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-md-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.radius-tab-sm",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-sm-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-sm-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-sm-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.radius-tab-sm-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.size-tab-count",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.size-tab-count-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.size-tab-count-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.size-tab-count-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.size-tab-count-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.size-tab-icon",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.size-tab-icon-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.size-tab-icon-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.size-tab-icon-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.size-tab-icon-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.spacing-tab-lg",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-lg-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-lg-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-lg-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-lg-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.spacing-tab-md",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-md-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-md-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-md-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-md-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.spacing-tab-none",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-none-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-none-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-none-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-none-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.spacing-tab-sm",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-sm-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-sm-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-sm-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-sm-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.spacing-tab-xs",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-xs-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-xs-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-xs-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.spacing-tab-xs-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-bg-segmented-selected-default",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-segmented-selected-default-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-segmented-selected-default-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-segmented-selected-default-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-segmented-selected-default-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tab.color-tab-bg-segmented-selected-hover",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-segmented-selected-hover-Contable",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-segmented-selected-hover-Administrativo",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-segmented-selected-hover-Servicios",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tab.color-tab-bg-segmented-selected-hover-Personas",
+      "status": "PASS"
+    },
+    {
+      "control": "manifest-hash-TAB-001",
+      "status": "PASS"
+    },
+    {
+      "control": "manifest-hash-BLUEHEART-TOKENS",
+      "status": "PASS"
+    },
+    {
+      "control": "manifest-hash-TAB-TOKENS",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tabs.color-tabs-divider-default",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tabs.color-tabs-divider-default-Value",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tabs.size-tabs-divider",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tabs.size-tabs-divider-Value",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tabs.spacing-tabs-container",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tabs.spacing-tabs-container-Value",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tabs.radius-tabs-container",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tabs.radius-tabs-container-Value",
+      "status": "PASS"
+    },
+    {
+      "control": "native-token-tabs.color-tabs-bg-segmented-default",
+      "status": "PASS"
+    },
+    {
+      "control": "alias-tabs.color-tabs-bg-segmented-default-Value",
+      "status": "PASS"
+    },
+    {
+      "control": "manifest-hash-TABS-001",
+      "status": "PASS"
+    },
+    {
+      "control": "manifest-hash-BLUEHEART-TOKENS",
+      "status": "PASS"
+    },
+    {
+      "control": "manifest-hash-TAB-TOKENS",
+      "status": "PASS"
+    },
+    {
+      "control": "manifest-hash-TABS-TOKENS",
+      "status": "PASS"
+    },
+    {
+      "control": "button-five-families-preserved",
+      "status": "PASS"
+    },
+    {
+      "control": "current-1026-bindings",
+      "status": "PASS"
+    },
+    {
+      "control": "slot-2-and-6-three-types",
+      "status": "PASS"
+    },
+    {
+      "control": "editable-count-99plus-focus-growth",
+      "status": "PASS"
+    },
+    {
+      "control": "single-public-slot-property",
+      "status": "PASS"
+    },
+    {
+      "control": "default-group-underline",
+      "status": "PASS"
+    },
+    {
+      "control": "stretching-divider",
+      "status": "PASS"
+    },
+    {
+      "control": "default-group-pill",
+      "status": "PASS"
+    },
+    {
+      "control": "default-group-segmented",
+      "status": "PASS"
+    },
+    {
+      "control": "divider-shape-height-bindings",
+      "status": "PASS"
+    },
+    {
+      "control": "group-gap-binding-pill",
+      "status": "PASS"
+    },
+    {
+      "control": "group-gap-binding-segmented",
+      "status": "PASS"
+    },
+    {
+      "control": "segmented-frame-fill-binding",
+      "status": "PASS"
+    },
+    {
+      "control": "segmented-four-padding-bindings",
+      "status": "PASS"
+    },
+    {
+      "control": "segmented-four-radius-bindings",
+      "status": "PASS"
+    },
+    {
+      "control": "collection-counts",
+      "status": "PASS"
+    },
+    {
+      "control": "three-source-page-sections",
+      "status": "PASS"
+    },
+    {
+      "control": "four-observed-hover-reactions",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Contable-default",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Contable-hover",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Contable-focus",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Contable-disabled",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Administrativo-default",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Administrativo-hover",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Administrativo-focus",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Administrativo-disabled",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Servicios-default",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Servicios-hover",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Servicios-focus",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Servicios-disabled",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Personas-default",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Personas-hover",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Personas-focus",
+      "status": "PASS"
+    },
+    {
+      "control": "fixed-segmented-Personas-disabled",
+      "status": "PASS"
+    }
+  ],
+  "contrast": [
+    {
+      "mode": "Contable",
+      "state": "default",
+      "ratio": 4.3892,
+      "threshold": 4.5,
+      "conformance": "BELOW_THRESHOLD_ACCEPTED_FOR_FIDELITY_ADR_017"
+    },
+    {
+      "mode": "Contable",
+      "state": "hover",
+      "ratio": 2.2616,
+      "threshold": 4.5,
+      "conformance": "BELOW_THRESHOLD_ACCEPTED_FOR_FIDELITY_ADR_017"
+    },
+    {
+      "mode": "Administrativo",
+      "state": "default",
+      "ratio": 4.3892,
+      "threshold": 4.5,
+      "conformance": "BELOW_THRESHOLD_ACCEPTED_FOR_FIDELITY_ADR_017"
+    },
+    {
+      "mode": "Administrativo",
+      "state": "hover",
+      "ratio": 2.2616,
+      "threshold": 4.5,
+      "conformance": "BELOW_THRESHOLD_ACCEPTED_FOR_FIDELITY_ADR_017"
+    },
+    {
+      "mode": "Servicios",
+      "state": "default",
+      "ratio": 4.3892,
+      "threshold": 4.5,
+      "conformance": "BELOW_THRESHOLD_ACCEPTED_FOR_FIDELITY_ADR_017"
+    },
+    {
+      "mode": "Servicios",
+      "state": "hover",
+      "ratio": 2.2616,
+      "threshold": 4.5,
+      "conformance": "BELOW_THRESHOLD_ACCEPTED_FOR_FIDELITY_ADR_017"
+    },
+    {
+      "mode": "Personas",
+      "state": "default",
+      "ratio": 4.3892,
+      "threshold": 4.5,
+      "conformance": "BELOW_THRESHOLD_ACCEPTED_FOR_FIDELITY_ADR_017"
+    },
+    {
+      "mode": "Personas",
+      "state": "hover",
+      "ratio": 2.2616,
+      "threshold": 4.5,
+      "conformance": "BELOW_THRESHOLD_ACCEPTED_FOR_FIDELITY_ADR_017"
+    }
+  ],
+  "limits": {
+    "independent_review": "NOT_RUN",
+    "web_keyboard_aria": "NOT_IMPLEMENTED_OR_CERTIFIED",
+    "official_release": "NOT_PUBLISHED",
+    "library_publication": "LOCAL_ONLY",
+    "native_playback": "Existing four unchanged hover transitions: prior native playback evidence retained; no new playback execution claimed.",
+    "initial_reader": "Initial direct-field reader misread text-range arrays and one lazy hidden descendant; corrected range-aware traversal passed all 1026 bindings."
+  },
+  "failures": []
+}

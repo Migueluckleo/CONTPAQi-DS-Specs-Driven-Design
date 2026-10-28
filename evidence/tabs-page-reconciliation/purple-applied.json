@@ -1,0 +1,105 @@
+{
+  "variableIds": {
+    "tab.color-tab-bg-segmented-selected-default": "VariableID:107:250",
+    "tab.color-tab-bg-segmented-selected-hover": "VariableID:107:251"
+  },
+  "roots": [
+    {
+      "id": "79:22",
+      "labelId": "81:91",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.6313725709915161,
+            "g": 0.27450981736183167,
+            "b": 0.9843137264251709
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:107:250"
+            }
+          }
+        }
+      ],
+      "labelFills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+    },
+    {
+      "id": "79:23",
+      "labelId": "81:96",
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.7764706015586853,
+            "g": 0.5960784554481506,
+            "b": 0.9843137264251709
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:107:251"
+            }
+          }
+        }
+      ],
+      "labelFills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+    }
+  ],
+  "mutatedNodeIds": [
+    "79:26",
+    "79:22",
+    "81:91",
+    "79:23",
+    "81:96"
+  ],
+  "createdVariableIds": [
+    "VariableID:107:250",
+    "VariableID:107:251"
+  ]
+}

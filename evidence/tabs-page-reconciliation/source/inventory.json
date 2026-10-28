@@ -1,0 +1,1038 @@
+{
+  "page": {
+    "id": "268:20245",
+    "name": "❖ Tabs"
+  },
+  "counts": {
+    "PAGE": 1,
+    "FRAME": 78,
+    "COMPONENT_SET": 2,
+    "COMPONENT": 27,
+    "INSTANCE": 226,
+    "VECTOR": 147,
+    "TEXT": 195,
+    "GROUP": 7,
+    "RECTANGLE": 3,
+    "SLOT": 9
+  },
+  "roots": [
+    {
+      "id": "1183:936",
+      "name": "Tabs",
+      "type": "FRAME",
+      "width": 842,
+      "height": 936,
+      "children": [
+        {
+          "id": "1183:1121",
+          "name": "Content",
+          "type": "FRAME",
+          "width": 714,
+          "height": 808
+        }
+      ]
+    },
+    {
+      "id": "9059:29358",
+      "name": "Overview",
+      "type": "FRAME",
+      "width": 1920,
+      "height": 2374,
+      "children": [
+        {
+          "id": "9059:29359",
+          "name": "Cover tool kit",
+          "type": "INSTANCE",
+          "width": 1920,
+          "height": 144
+        },
+        {
+          "id": "9059:29360",
+          "name": "Cover tool kit",
+          "type": "INSTANCE",
+          "width": 1920,
+          "height": 1080
+        },
+        {
+          "id": "9059:29361",
+          "name": "Image Container",
+          "type": "FRAME",
+          "width": 1920,
+          "height": 1046
+        },
+        {
+          "id": "9059:29365",
+          "name": "Cover tool kit",
+          "type": "INSTANCE",
+          "width": 1920,
+          "height": 104
+        }
+      ]
+    },
+    {
+      "id": "9059:29366",
+      "name": "Variants & states",
+      "type": "FRAME",
+      "width": 1920,
+      "height": 1506,
+      "children": [
+        {
+          "id": "9059:29367",
+          "name": "Documentation tool kit",
+          "type": "INSTANCE",
+          "width": 1920,
+          "height": 160
+        },
+        {
+          "id": "9059:29368",
+          "name": "Variant Section Container",
+          "type": "FRAME",
+          "width": 1920,
+          "height": 1138
+        }
+      ]
+    }
+  ],
+  "componentSets": [
+    {
+      "id": "1183:1146",
+      "name": "tab",
+      "key": "3fbabad3e0521532b6055ea2e5de2f74de4b2693",
+      "description": "Tab es la pestaña individual que permite cambiar entre vistas o secciones relacionadas dentro de un mismo contexto, sin salir de la página.\n\n\nCuándo usarlo\nPara organizar contenido relacionado en secciones del mismo nivel.\nNormalmente se usa dentro de tabs; úsalo suelto solo para armar grupos personalizados.\n\n\nTipos\nunderline: navegación principal entre secciones de una página. Indicador inferior de 2 px.\npill: filtros o subsecciones dentro de un contenido. Fondo color/surface/brand al seleccionarse.\nsegmented: alternar entre 2–5 vistas de un mismo dato (p. ej. lista / tarjetas). Tab seleccionado en blanco con elevation/shadow/sm.\n\n\nEstados: default, hover, focus (anillo color/focus/ring) y disabled.\nTipografía: SemiBold cuando selected=true, Regular cuando selected=false.\n\n\nPropiedades\nLabel: texto de la pestaña. Corto (1–2 palabras).\nShow icon / Icon: icono Phosphor opcional antes del texto (apagado por defecto).\nShow badge: contador opcional (apagado por defecto).\n\n\nAccesibilidad\nrole=\"tab\" con aria-selected; el contenedor usa role=\"tablist\".\nNavegación con flechas ← → entre pestañas; Tab mueve el foco al panel.\nNo uses solo color para indicar la selección: el peso de fuente y el indicador/fondo la refuerzan.",
+      "properties": {
+        "Label#9058:0": {
+          "type": "TEXT",
+          "defaultValue": "Tab"
+        },
+        "Show icon#9058:25": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Icon#9058:50": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "4334:1074",
+          "preferredValues": []
+        },
+        "Show badge#9058:75": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "underline",
+          "variantOptions": [
+            "underline",
+            "segmented",
+            "pill"
+          ]
+        },
+        "selected": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "true",
+            "false"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "hover",
+            "focus"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "1183:1147",
+          "name": "type=underline, selected=false, state=default",
+          "axes": {
+            "type": "underline",
+            "selected": "false",
+            "state": "default"
+          },
+          "width": 56,
+          "height": 44
+        },
+        {
+          "id": "1183:1151",
+          "name": "type=underline, selected=false, state=hover",
+          "axes": {
+            "type": "underline",
+            "selected": "false",
+            "state": "hover"
+          },
+          "width": 56,
+          "height": 44
+        },
+        {
+          "id": "1183:1159",
+          "name": "type=underline, selected=false, state=focus",
+          "axes": {
+            "type": "underline",
+            "selected": "false",
+            "state": "focus"
+          },
+          "width": 56,
+          "height": 44
+        },
+        {
+          "id": "1183:1163",
+          "name": "type=underline, selected=false, state=disabled",
+          "axes": {
+            "type": "underline",
+            "selected": "false",
+            "state": "disabled"
+          },
+          "width": 56,
+          "height": 44
+        },
+        {
+          "id": "1183:1155",
+          "name": "type=underline, selected=true, state=default",
+          "axes": {
+            "type": "underline",
+            "selected": "true",
+            "state": "default"
+          },
+          "width": 56,
+          "height": 44
+        },
+        {
+          "id": "1334:8323",
+          "name": "type=underline, selected=true, state=hover",
+          "axes": {
+            "type": "underline",
+            "selected": "true",
+            "state": "hover"
+          },
+          "width": 56,
+          "height": 44
+        },
+        {
+          "id": "1334:8329",
+          "name": "type=underline, selected=true, state=focus",
+          "axes": {
+            "type": "underline",
+            "selected": "true",
+            "state": "focus"
+          },
+          "width": 56,
+          "height": 44
+        },
+        {
+          "id": "1334:8365",
+          "name": "type=underline, selected=true, state=disabled",
+          "axes": {
+            "type": "underline",
+            "selected": "true",
+            "state": "disabled"
+          },
+          "width": 56,
+          "height": 44
+        },
+        {
+          "id": "1308:5394",
+          "name": "type=pill, selected=false, state=default",
+          "axes": {
+            "type": "pill",
+            "selected": "false",
+            "state": "default"
+          },
+          "width": 56,
+          "height": 36
+        },
+        {
+          "id": "1308:5498",
+          "name": "type=pill, selected=false, state=hover",
+          "axes": {
+            "type": "pill",
+            "selected": "false",
+            "state": "hover"
+          },
+          "width": 56,
+          "height": 36
+        },
+        {
+          "id": "1339:8387",
+          "name": "type=pill, selected=false, state=focus",
+          "axes": {
+            "type": "pill",
+            "selected": "false",
+            "state": "focus"
+          },
+          "width": 56,
+          "height": 36
+        },
+        {
+          "id": "1308:5519",
+          "name": "type=pill, selected=false, state=disabled",
+          "axes": {
+            "type": "pill",
+            "selected": "false",
+            "state": "disabled"
+          },
+          "width": 56,
+          "height": 36
+        },
+        {
+          "id": "1339:8406",
+          "name": "type=pill, selected=true, state=default",
+          "axes": {
+            "type": "pill",
+            "selected": "true",
+            "state": "default"
+          },
+          "width": 56,
+          "height": 36
+        },
+        {
+          "id": "1334:8380",
+          "name": "type=pill, selected=true, state=hover",
+          "axes": {
+            "type": "pill",
+            "selected": "true",
+            "state": "hover"
+          },
+          "width": 56,
+          "height": 36
+        },
+        {
+          "id": "1308:5512",
+          "name": "type=pill, selected=true, state=focus",
+          "axes": {
+            "type": "pill",
+            "selected": "true",
+            "state": "focus"
+          },
+          "width": 56,
+          "height": 36
+        },
+        {
+          "id": "1339:8413",
+          "name": "type=pill, selected=true, state=disabled",
+          "axes": {
+            "type": "pill",
+            "selected": "true",
+            "state": "disabled"
+          },
+          "width": 56,
+          "height": 36
+        },
+        {
+          "id": "1308:5505",
+          "name": "type=segmented, selected=false, state=default",
+          "axes": {
+            "type": "segmented",
+            "selected": "false",
+            "state": "default"
+          },
+          "width": 48,
+          "height": 28
+        },
+        {
+          "id": "9058:229",
+          "name": "type=segmented, selected=false, state=hover",
+          "axes": {
+            "type": "segmented",
+            "selected": "false",
+            "state": "hover"
+          },
+          "width": 48,
+          "height": 28
+        },
+        {
+          "id": "9058:234",
+          "name": "type=segmented, selected=false, state=focus",
+          "axes": {
+            "type": "segmented",
+            "selected": "false",
+            "state": "focus"
+          },
+          "width": 48,
+          "height": 28
+        },
+        {
+          "id": "9058:239",
+          "name": "type=segmented, selected=false, state=disabled",
+          "axes": {
+            "type": "segmented",
+            "selected": "false",
+            "state": "disabled"
+          },
+          "width": 48,
+          "height": 28
+        },
+        {
+          "id": "9058:244",
+          "name": "type=segmented, selected=true, state=default",
+          "axes": {
+            "type": "segmented",
+            "selected": "true",
+            "state": "default"
+          },
+          "width": 48,
+          "height": 28
+        },
+        {
+          "id": "9058:249",
+          "name": "type=segmented, selected=true, state=hover",
+          "axes": {
+            "type": "segmented",
+            "selected": "true",
+            "state": "hover"
+          },
+          "width": 48,
+          "height": 28
+        },
+        {
+          "id": "9058:254",
+          "name": "type=segmented, selected=true, state=focus",
+          "axes": {
+            "type": "segmented",
+            "selected": "true",
+            "state": "focus"
+          },
+          "width": 48,
+          "height": 28
+        },
+        {
+          "id": "9058:259",
+          "name": "type=segmented, selected=true, state=disabled",
+          "axes": {
+            "type": "segmented",
+            "selected": "true",
+            "state": "disabled"
+          },
+          "width": 48,
+          "height": 28
+        }
+      ]
+    },
+    {
+      "id": "9059:271",
+      "name": "tabs",
+      "key": "933d4398dc5f732dfe7dd31d311fa65fdebc49d5",
+      "description": "Tabs es el grupo de pestañas (tablist). Las pestañas viven en un slot con instancias de tab; la primera viene seleccionada.\n\n\nTipos\nunderline: línea divisoria inferior de 1 px (color/border/default).\npill: tabs separados con gap xs, sin contenedor.\nsegmented: contenedor color/background/subtle, padding y gap xs, radio md.\n\n\nSlot · Tabs\nTrae 4 pestañas por defecto. Agrega, quita o reordena instancias de tab directamente en el slot (mínimo 2).\nUsa tabs del mismo type que el grupo y edita Label, selected, state, icono y badge en cada una.\n\n\nBuenas prácticas\nSolo una pestaña seleccionada a la vez.\nRecomendado máximo 6 pestañas; si necesitas más, considera un select o navegación lateral.\nSegmented: ideal con 2–5 opciones de longitud similar.",
+      "properties": {
+        "Tabs#9062:0": {
+          "type": "SLOT",
+          "description": "Agrega, quita o reordena instancias de tab del mismo type. Solo una con selected=true.",
+          "slotSettings": {
+            "stretchChildOnInsert": false,
+            "displayEmptyByDefault": false,
+            "minChildren": 2,
+            "maxChildren": null,
+            "allowPreferredValuesOnly": false
+          },
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "3fbabad3e0521532b6055ea2e5de2f74de4b2693"
+            }
+          ]
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "underline",
+          "variantOptions": [
+            "underline",
+            "pill",
+            "segmented"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "9059:147",
+          "name": "type=underline",
+          "axes": {
+            "type": "underline"
+          },
+          "width": 265,
+          "height": 44
+        },
+        {
+          "id": "9059:189",
+          "name": "type=pill",
+          "axes": {
+            "type": "pill"
+          },
+          "width": 277,
+          "height": 36
+        },
+        {
+          "id": "9059:230",
+          "name": "type=segmented",
+          "axes": {
+            "type": "segmented"
+          },
+          "width": 253,
+          "height": 36
+        }
+      ]
+    }
+  ],
+  "solo": [],
+  "slots": [
+    {
+      "id": "9062:401",
+      "name": "Tabs",
+      "parentId": "9059:147",
+      "children": [
+        {
+          "id": "9059:149",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:157",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:165",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:171",
+          "name": "Tab 4",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "9062:402",
+      "name": "Tabs",
+      "parentId": "9059:189",
+      "children": [
+        {
+          "id": "9059:190",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:198",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:206",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:212",
+          "name": "Tab 4",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "9062:403",
+      "name": "Tabs",
+      "parentId": "9059:230",
+      "children": [
+        {
+          "id": "9059:231",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:239",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:247",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "9059:253",
+          "name": "Tab 4",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "I9059:29638;9062:401",
+      "name": "Tabs",
+      "parentId": "9059:29638",
+      "children": [
+        {
+          "id": "I9059:29638;9059:149",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29638;9059:157",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29638;9059:165",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29638;9059:171",
+          "name": "Tab 4",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "I9059:29666;9062:402",
+      "name": "Tabs",
+      "parentId": "9059:29666",
+      "children": [
+        {
+          "id": "I9059:29666;9059:190",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29666;9059:198",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29666;9059:206",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29666;9059:212",
+          "name": "Tab 4",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "I9059:29693;9062:403",
+      "name": "Tabs",
+      "parentId": "9059:29693",
+      "children": [
+        {
+          "id": "I9059:29693;9062:403;9062:29466",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29693;9062:403;9062:29467",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29693;9062:403;9062:29468",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "I9059:29764;9062:401",
+      "name": "Tabs",
+      "parentId": "9059:29764",
+      "children": [
+        {
+          "id": "I9059:29764;9059:149",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29764;9059:157",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29764;9059:165",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29764;9059:171",
+          "name": "Tab 4",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "I9059:29784;9062:402",
+      "name": "Tabs",
+      "parentId": "9059:29784",
+      "children": [
+        {
+          "id": "I9059:29784;9059:190",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29784;9059:198",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29784;9059:206",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29784;9059:212",
+          "name": "Tab 4",
+          "type": "INSTANCE"
+        }
+      ]
+    },
+    {
+      "id": "I9059:29803;9062:403",
+      "name": "Tabs",
+      "parentId": "9059:29803",
+      "children": [
+        {
+          "id": "I9059:29803;9059:231",
+          "name": "Tab 1",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29803;9059:239",
+          "name": "Tab 2",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29803;9059:247",
+          "name": "Tab 3",
+          "type": "INSTANCE"
+        },
+        {
+          "id": "I9059:29803;9059:253",
+          "name": "Tab 4",
+          "type": "INSTANCE"
+        }
+      ]
+    }
+  ],
+  "text": [
+    {
+      "id": "9058:301",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:306",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:311",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:317",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:280",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:285",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:290",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:296",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:364",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:343",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:348",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:354",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:327",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:332",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:337",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:359",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:322",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:369",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:374",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:380",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:385",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:390",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:395",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9058:401",
+      "name": "Label",
+      "text": "Tab"
+    },
+    {
+      "id": "9059:29342",
+      "name": "default",
+      "text": "default"
+    },
+    {
+      "id": "9059:29343",
+      "name": "hover",
+      "text": "hover"
+    },
+    {
+      "id": "9059:29344",
+      "name": "focus",
+      "text": "focus"
+    },
+    {
+      "id": "9059:29345",
+      "name": "disabled",
+      "text": "disabled"
+    },
+    {
+      "id": "9059:29346",
+      "name": "underline · selected=false",
+      "text": "underline · selected=false"
+    },
+    {
+      "id": "9059:29347",
+      "name": "underline · selected=true",
+      "text": "underline · selected=true"
+    },
+    {
+      "id": "9059:29348",
+      "name": "pill · selected=false",
+      "text": "pill · selected=false"
+    },
+    {
+      "id": "9059:29349",
+      "name": "pill · selected=true",
+      "text": "pill · selected=true"
+    },
+    {
+      "id": "9059:29350",
+      "name": "segmented · selected=false",
+      "text": "segmented · selected=false"
+    },
+    {
+      "id": "9059:29351",
+      "name": "segmented · selected=true",
+      "text": "segmented · selected=true"
+    },
+    {
+      "id": "9059:29354",
+      "name": "underline",
+      "text": "underline"
+    },
+    {
+      "id": "9059:29355",
+      "name": "pill",
+      "text": "pill"
+    },
+    {
+      "id": "9059:29356",
+      "name": "segmented",
+      "text": "segmented"
+    },
+    {
+      "id": "9059:29373",
+      "name": "Type",
+      "text": "Type"
+    },
+    {
+      "id": "9059:29374",
+      "name": "Estilo visual de las pestañas. Usa el mismo type en todo el grupo.",
+      "text": "Estilo visual de las pestañas. Usa el mismo type en todo el grupo."
+    },
+    {
+      "id": "9059:29378",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29380",
+      "name": "text",
+      "text": "underline: navegación principal entre secciones de una página."
+    },
+    {
+      "id": "9059:29384",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29386",
+      "name": "text",
+      "text": "pill: filtros o subsecciones dentro de un contenido."
+    },
+    {
+      "id": "9059:29760",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29762",
+      "name": "text",
+      "text": "segmented: alternar entre 2–5 vistas de un mismo dato (lista / tarjetas)."
+    },
+    {
+      "id": "9059:29397",
+      "name": "Selected",
+      "text": "Selected"
+    },
+    {
+      "id": "9059:29398",
+      "name": "Indica la pestaña activa. Solo una puede estar seleccionada a la vez.",
+      "text": "Indica la pestaña activa. Solo una puede estar seleccionada a la vez."
+    },
+    {
+      "id": "9059:29402",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29404",
+      "name": "text",
+      "text": "selected=true usa SemiBold y selected=false Regular; la selección no depende solo del color."
+    },
+    {
+      "id": "9059:29408",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29410",
+      "name": "text",
+      "text": "Cada tipo refuerza la selección: indicador inferior, fondo brand o tab elevado."
+    },
+    {
+      "id": "9059:29420",
+      "name": "State",
+      "text": "State"
+    },
+    {
+      "id": "9059:29421",
+      "name": "Respuesta visual a la interacción del usuario.",
+      "text": "Respuesta visual a la interacción del usuario."
+    },
+    {
+      "id": "9059:29425",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29427",
+      "name": "text",
+      "text": "focus: anillo color/focus/ring visible al navegar con teclado (flechas ← →)."
+    },
+    {
+      "id": "9059:29431",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29433",
+      "name": "text",
+      "text": "disabled: úsalo cuando la sección no está disponible para el usuario."
+    },
+    {
+      "id": "9059:29722",
+      "name": "Icon & badge",
+      "text": "Icon & badge"
+    },
+    {
+      "id": "9059:29723",
+      "name": "Elementos opcionales de cada pestaña, apagados por defecto.",
+      "text": "Elementos opcionales de cada pestaña, apagados por defecto."
+    },
+    {
+      "id": "9059:29727",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29729",
+      "name": "text",
+      "text": "Icon: refuerza el significado; úsalo en todas las pestañas del grupo o en ninguna."
+    },
+    {
+      "id": "9059:29733",
+      "name": "title",
+      "text": "Casos de uso:"
+    },
+    {
+      "id": "9059:29735",
+      "name": "text",
+      "text": "Badge: muestra conteos pendientes, p. ej. facturas por timbrar."
+    }
+  ],
+  "readOnly": true
+}

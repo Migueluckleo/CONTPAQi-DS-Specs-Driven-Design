@@ -1,0 +1,392 @@
+{
+  "id": "15:116",
+  "name": "Button/secondary",
+  "description": "Button secondary. Contrato MD BUTTON-001 v2.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 47 tokens compartidos por propiedad y aliases completos; estados seleccionados por receta.",
+  "properties": {
+    "Label#15:0": {
+      "type": "TEXT",
+      "defaultValue": "Button"
+    },
+    "Show left icon#15:19": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Show right icon#15:38": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Left icon#15:57": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "28:501",
+      "preferredValues": [
+        {
+          "type": "COMPONENT",
+          "key": "46d251bb4099700c5852180f2370d265e5166432"
+        }
+      ]
+    },
+    "Right icon#15:76": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "28:501",
+      "preferredValues": [
+        {
+          "type": "COMPONENT",
+          "key": "46d251bb4099700c5852180f2370d265e5166432"
+        }
+      ]
+    },
+    "size": {
+      "type": "VARIANT",
+      "defaultValue": "large",
+      "variantOptions": [
+        "large",
+        "medium",
+        "small"
+      ]
+    },
+    "state": {
+      "type": "VARIANT",
+      "defaultValue": "default",
+      "variantOptions": [
+        "default",
+        "hover",
+        "pressed",
+        "focus",
+        "loading",
+        "disabled"
+      ]
+    }
+  },
+  "variants": [
+    {
+      "id": "15:8",
+      "name": "size=large, state=default",
+      "width": 85,
+      "height": 48,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:26",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:26",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "large",
+        "state": "default"
+      }
+    },
+    {
+      "id": "15:14",
+      "name": "size=medium, state=default",
+      "width": 79,
+      "height": 40,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:32",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:32",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "medium",
+        "state": "default"
+      }
+    },
+    {
+      "id": "15:20",
+      "name": "size=small, state=default",
+      "width": 71,
+      "height": 32,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:38",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:38",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "small",
+        "state": "default"
+      }
+    },
+    {
+      "id": "15:26",
+      "name": "size=large, state=hover",
+      "width": 85,
+      "height": 48,
+      "reactions": [],
+      "variantProperties": {
+        "size": "large",
+        "state": "hover"
+      }
+    },
+    {
+      "id": "15:32",
+      "name": "size=medium, state=hover",
+      "width": 79,
+      "height": 40,
+      "reactions": [],
+      "variantProperties": {
+        "size": "medium",
+        "state": "hover"
+      }
+    },
+    {
+      "id": "15:38",
+      "name": "size=small, state=hover",
+      "width": 71,
+      "height": 32,
+      "reactions": [],
+      "variantProperties": {
+        "size": "small",
+        "state": "hover"
+      }
+    },
+    {
+      "id": "15:44",
+      "name": "size=large, state=pressed",
+      "width": 85,
+      "height": 48,
+      "reactions": [],
+      "variantProperties": {
+        "size": "large",
+        "state": "pressed"
+      }
+    },
+    {
+      "id": "15:50",
+      "name": "size=medium, state=pressed",
+      "width": 79,
+      "height": 40,
+      "reactions": [],
+      "variantProperties": {
+        "size": "medium",
+        "state": "pressed"
+      }
+    },
+    {
+      "id": "15:56",
+      "name": "size=small, state=pressed",
+      "width": 71,
+      "height": 32,
+      "reactions": [],
+      "variantProperties": {
+        "size": "small",
+        "state": "pressed"
+      }
+    },
+    {
+      "id": "15:62",
+      "name": "size=large, state=focus",
+      "width": 85,
+      "height": 48,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:26",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:26",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "large",
+        "state": "focus"
+      }
+    },
+    {
+      "id": "15:69",
+      "name": "size=medium, state=focus",
+      "width": 79,
+      "height": 40,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:32",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:32",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "medium",
+        "state": "focus"
+      }
+    },
+    {
+      "id": "15:76",
+      "name": "size=small, state=focus",
+      "width": 71,
+      "height": 32,
+      "reactions": [
+        {
+          "action": {
+            "type": "NODE",
+            "destinationId": "15:38",
+            "navigation": "CHANGE_TO",
+            "transition": null,
+            "resetVideoPosition": false
+          },
+          "actions": [
+            {
+              "type": "NODE",
+              "destinationId": "15:38",
+              "navigation": "CHANGE_TO",
+              "transition": null,
+              "resetVideoPosition": false
+            }
+          ],
+          "trigger": {
+            "type": "ON_HOVER"
+          }
+        }
+      ],
+      "variantProperties": {
+        "size": "small",
+        "state": "focus"
+      }
+    },
+    {
+      "id": "15:83",
+      "name": "size=large, state=loading",
+      "width": 117,
+      "height": 48,
+      "reactions": [],
+      "variantProperties": {
+        "size": "large",
+        "state": "loading"
+      }
+    },
+    {
+      "id": "15:88",
+      "name": "size=medium, state=loading",
+      "width": 107,
+      "height": 40,
+      "reactions": [],
+      "variantProperties": {
+        "size": "medium",
+        "state": "loading"
+      }
+    },
+    {
+      "id": "15:93",
+      "name": "size=small, state=loading",
+      "width": 91,
+      "height": 32,
+      "reactions": [],
+      "variantProperties": {
+        "size": "small",
+        "state": "loading"
+      }
+    },
+    {
+      "id": "15:98",
+      "name": "size=large, state=disabled",
+      "width": 85,
+      "height": 48,
+      "reactions": [],
+      "variantProperties": {
+        "size": "large",
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "15:104",
+      "name": "size=medium, state=disabled",
+      "width": 79,
+      "height": 40,
+      "reactions": [],
+      "variantProperties": {
+        "size": "medium",
+        "state": "disabled"
+      }
+    },
+    {
+      "id": "15:110",
+      "name": "size=small, state=disabled",
+      "width": 71,
+      "height": 32,
+      "reactions": [],
+      "variantProperties": {
+        "size": "small",
+        "state": "disabled"
+      }
+    }
+  ]
+}

@@ -40,3 +40,5 @@ ADR-009 hace obligatorio BH-P07 para cada componente nuevo o modificado. La regl
 ADR-010 fija la nomenclatura Figma con componente primero: `button/color/bg/primary-default`, `button/font/family` y `button/size/height-medium`. BH-P07 es el propietario de la regla; nombres CSS, rutas Figma e identidades se mantienen separados.
 
 ADR-015 amplía el encargo a Tab individual. Las revisiones 2.0.1 de BH-P01/P02 y sus consumidores retiran la selección fija del piloto y actualizan dependencias exactas; BH-P08 1.2.1 conserva sus controles. Las reglas de minimización y nomenclatura de BH-P07 no cambian.
+
+ADR-016/017 incorporan la página completa y TABS-001, con dependencia exacta del contrato Tab vigente. Las reglas de nombres y minimización siguen en BH-P07; cada familia conserva su propio contrato MD.
