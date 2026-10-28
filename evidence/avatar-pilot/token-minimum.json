@@ -1,0 +1,57 @@
+{
+  "role": "DERIVED_MINIMUM_NOT_RULES",
+  "families": {
+    "avatar": {
+      "tokens": 25,
+      "distinctSignatures": 25,
+      "redundancies": 0,
+      "themeRoles": {
+        "avatar/color/bg/primary-default": "THEMED",
+        "avatar/color/stroke/separator": "INVARIANT",
+        "avatar/color/text/inverse": "INVARIANT",
+        "avatar/color/icon/inverse": "INVARIANT",
+        "avatar/color/bg/status-active": "INVARIANT",
+        "avatar/color/bg/status-busy": "INVARIANT",
+        "avatar/color/bg/status-inactive": "INVARIANT",
+        "avatar/border/width-regular": "INVARIANT",
+        "avatar/radius/container": "INVARIANT",
+        "avatar/spacing/none": "INVARIANT",
+        "avatar/size/extra-large": "INVARIANT",
+        "avatar/size/large": "INVARIANT",
+        "avatar/size/medium": "INVARIANT",
+        "avatar/size/small": "INVARIANT",
+        "avatar/size/content-regular": "INVARIANT",
+        "avatar/size/content-compact": "INVARIANT",
+        "avatar/size/content-small": "INVARIANT",
+        "avatar/font/family": "INVARIANT",
+        "avatar/font/initials-style": "INVARIANT",
+        "avatar/font/size-extra-large": "INVARIANT",
+        "avatar/font/size-large": "INVARIANT",
+        "avatar/font/size-compact": "INVARIANT",
+        "avatar/font/line-height-extra-large": "INVARIANT",
+        "avatar/font/line-height-compact": "INVARIANT",
+        "avatar/font/letter-spacing": "INVARIANT"
+      },
+      "candidatePropertyBindings": 1357,
+      "candidateMethod": "Bindings reales por propiedad en maestros y dependencias privadas, incluyendo herencia en grupos; sin producto cartesiano de estados.",
+      "uniqueSelectedSignatures": 25
+    },
+    "avatar-group": {
+      "tokens": 7,
+      "distinctSignatures": 7,
+      "redundancies": 0,
+      "themeRoles": {
+        "avatar-group/color/bg/alternate-warning": "INVARIANT",
+        "avatar-group/color/bg/alternate-positive": "INVARIANT",
+        "avatar-group/color/bg/overflow-default": "INVARIANT",
+        "avatar-group/color/text/overflow-default": "INVARIANT",
+        "avatar-group/spacing/overlap-extra-large": "INVARIANT",
+        "avatar-group/spacing/overlap-large": "INVARIANT",
+        "avatar-group/spacing/overlap-compact": "INVARIANT"
+      },
+      "candidatePropertyBindings": 20,
+      "candidateMethod": "Bindings reales por propiedad en maestros y dependencias privadas, incluyendo herencia en grupos; sin producto cartesiano de estados.",
+      "uniqueSelectedSignatures": 7
+    }
+  }
+}

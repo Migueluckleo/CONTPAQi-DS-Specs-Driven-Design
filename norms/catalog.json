@@ -91,14 +91,28 @@
       "path": "norms/components/tab.1.1.0.md",
       "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f",
       "current": true
+    },
+    {
+      "id": "AVATAR-001",
+      "version": "1.0.0",
+      "current": true,
+      "path": "norms/components/avatar.1.0.0.md",
+      "sha256": "385aa42232f1241451940f479b4c1a6b31ed9bcc42f18e84200ec2d473aae83b"
+    },
+    {
+      "id": "AVATAR-GROUP-001",
+      "version": "1.0.0",
+      "current": true,
+      "path": "norms/components/avatar-group.1.0.0.md",
+      "sha256": "29b2ceb001700063b91ed5c90b5df1e2c4098ab7703686eca3cd742ab2fba5e5"
     }
   ],
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "2.0.0",
-      "path": "norms/tokens/blueheart.2.0.0.json",
-      "sha256": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29",
+      "version": "2.1.0",
+      "path": "norms/tokens/blueheart.2.1.0.json",
+      "sha256": "aefb82a057f9cce158b30412bab31dbff5757731f7af93ed8620a49a9fb63608",
       "current": true
     },
     {
@@ -114,6 +128,13 @@
       "path": "norms/tokens/tabs.1.0.0.json",
       "sha256": "4abd890dfa3ec2faf8598f015084a4ef12dcee97c5c20809a266c42e9e3bd08d",
       "current": true
+    },
+    {
+      "id": "AVATAR-TOKENS",
+      "version": "1.0.0",
+      "current": true,
+      "path": "norms/tokens/avatar.1.0.0.json",
+      "sha256": "42ce25df36664a6db3c8a960cf0113e67272df456c643c17274c9cebc5ed8b57"
     }
   ]
 }

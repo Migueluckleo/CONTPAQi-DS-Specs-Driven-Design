@@ -48,7 +48,7 @@ def prepare():
     source = read('evidence/tab-pilot/source/variables.json')
     variables = {v['id']: v for v in source['variables']}
     collections = {c['id']: c for c in source['collections']}
-    base = read('norms/tokens/blueheart.2.0.0.json')
+    base = read('evidence/avatar-pilot/history/blueheart.2.0.0.json')
     base_by = {t['id']: t for t in base['tokens']}
     semantics = [t for t in base['tokens'] if t['layer'] == 'semantic']
 

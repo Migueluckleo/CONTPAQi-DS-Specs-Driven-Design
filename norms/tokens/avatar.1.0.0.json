@@ -1,0 +1,1004 @@
+{
+  "schema_version": 1,
+  "id": "AVATAR-TOKENS",
+  "version": "1.0.0",
+  "collections": [
+    {
+      "id": "avatar",
+      "name": "avatar",
+      "default_mode": "Contable",
+      "modes": [
+        {
+          "id": "Contable",
+          "name": "Contable"
+        },
+        {
+          "id": "Administrativo",
+          "name": "Administrativo"
+        },
+        {
+          "id": "Servicios",
+          "name": "Servicios"
+        },
+        {
+          "id": "Personas",
+          "name": "Personas"
+        }
+      ]
+    },
+    {
+      "id": "avatar-group",
+      "name": "avatar-group",
+      "default_mode": "Value",
+      "modes": [
+        {
+          "id": "Value",
+          "name": "Value"
+        }
+      ]
+    }
+  ],
+  "tokens": [
+    {
+      "id": "avatar.color-bg-primary-default",
+      "name": "--avatar-color-bg-primary-default",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "avatar: color/bg/primary-default; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-default"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.color-stroke-separator",
+      "name": "--avatar-color-stroke-separator",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "avatar: color/stroke/separator; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.color-text-inverse",
+      "name": "--avatar-color-text-inverse",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "avatar: color/text/inverse; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.color-icon-inverse",
+      "name": "--avatar-color-icon-inverse",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "avatar: color/icon/inverse; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.color-bg-status-active",
+      "name": "--avatar-color-bg-status-active",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "avatar: color/bg/status-active; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.positive-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-default"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-default"
+        },
+        "Personas": {
+          "alias": "semantic.positive-default"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.color-bg-status-busy",
+      "name": "--avatar-color-bg-status-busy",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "avatar: color/bg/status-busy; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.danger-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-default"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-default"
+        },
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.color-bg-status-inactive",
+      "name": "--avatar-color-bg-status-inactive",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "avatar: color/bg/status-inactive; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.border-width-regular",
+      "name": "--avatar-border-width-regular",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "avatar: border/width-regular; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.radius-container",
+      "name": "--avatar-radius-container",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "avatar: radius/container; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.radius-full"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-full"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-full"
+        },
+        "Personas": {
+          "alias": "semantic.radius-full"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.spacing-none",
+      "name": "--avatar-spacing-none",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "avatar: spacing/none; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.size-extra-large",
+      "name": "--avatar-size-extra-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "avatar: size/extra-large; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-5xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-5xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-5xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-5xl"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.size-large",
+      "name": "--avatar-size-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "avatar: size/large; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-3xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-3xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-3xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-3xl"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.size-medium",
+      "name": "--avatar-size-medium",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "avatar: size/medium; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-2xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-2xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-2xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-2xl"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.size-small",
+      "name": "--avatar-size-small",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "avatar: size/small; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-xl"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.size-content-regular",
+      "name": "--avatar-size-content-regular",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "avatar: size/content-regular; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.size-content-compact",
+      "name": "--avatar-size-content-compact",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "avatar: size/content-compact; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-md"
+        },
+        "Servicios": {
+          "alias": "semantic.size-md"
+        },
+        "Personas": {
+          "alias": "semantic.size-md"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.size-content-small",
+      "name": "--avatar-size-content-small",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "avatar: size/content-small; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.size-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.font-family",
+      "name": "--avatar-font-family",
+      "layer": "component",
+      "type": "string",
+      "collection": "avatar",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "description": "avatar: font/family; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-family-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-family-base"
+        },
+        "Servicios": {
+          "alias": "semantic.font-family-base"
+        },
+        "Personas": {
+          "alias": "semantic.font-family-base"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.font-initials-style",
+      "name": "--avatar-font-initials-style",
+      "layer": "component",
+      "type": "string",
+      "collection": "avatar",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "avatar: font/initials-style; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-semibold"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.font-size-extra-large",
+      "name": "--avatar-font-size-extra-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "avatar: font/size-extra-large; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-lg"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.font-size-large",
+      "name": "--avatar-font-size-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "avatar: font/size-large; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.font-size-compact",
+      "name": "--avatar-font-size-compact",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "avatar: font/size-compact; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-1xs"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.font-line-height-extra-large",
+      "name": "--avatar-font-line-height-extra-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "avatar: font/line-height-extra-large; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.font-line-height-compact",
+      "name": "--avatar-font-line-height-compact",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "avatar: font/line-height-compact; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar.font-letter-spacing",
+      "name": "--avatar-font-letter-spacing",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "description": "avatar: font/letter-spacing; uso compartido según BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Servicios": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-normal"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "1132:21344",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/3"
+      }
+    },
+    {
+      "id": "avatar-group.color-bg-alternate-warning",
+      "name": "--avatar-group-color-bg-alternate-warning",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar-group",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "avatar-group: color/bg/alternate-warning; uso compartido según BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.warning-default"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "9064:292",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/62"
+      }
+    },
+    {
+      "id": "avatar-group.color-bg-alternate-positive",
+      "name": "--avatar-group-color-bg-alternate-positive",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar-group",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "avatar-group: color/bg/alternate-positive; uso compartido según BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.positive-default"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "9064:292",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/62"
+      }
+    },
+    {
+      "id": "avatar-group.color-bg-overflow-default",
+      "name": "--avatar-group-color-bg-overflow-default",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar-group",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "avatar-group: color/bg/overflow-default; uso compartido según BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.neutral-muted"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "9064:292",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/62"
+      }
+    },
+    {
+      "id": "avatar-group.color-text-overflow-default",
+      "name": "--avatar-group-color-text-overflow-default",
+      "layer": "component",
+      "type": "color",
+      "collection": "avatar-group",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "avatar-group: color/text/overflow-default; uso compartido según BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.neutral-strong"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "9064:292",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/62"
+      }
+    },
+    {
+      "id": "avatar-group.spacing-overlap-extra-large",
+      "name": "--avatar-group-spacing-overlap-extra-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar-group",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "avatar-group: spacing/overlap-extra-large; uso compartido según BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.spacing-overlap-md"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "9067:515",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/63"
+      }
+    },
+    {
+      "id": "avatar-group.spacing-overlap-large",
+      "name": "--avatar-group-spacing-overlap-large",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar-group",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "avatar-group: spacing/overlap-large; uso compartido según BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.spacing-overlap-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "9067:516",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/81"
+      }
+    },
+    {
+      "id": "avatar-group.spacing-overlap-compact",
+      "name": "--avatar-group-spacing-overlap-compact",
+      "layer": "component",
+      "type": "number",
+      "collection": "avatar-group",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "avatar-group: spacing/overlap-compact; uso compartido según BH-P07.",
+      "values": {
+        "Value": {
+          "alias": "semantic.spacing-overlap-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/avatar-pilot/source/page-snapshot.json",
+        "sha256": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+        "original_id": "9067:517",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
+        "selector": "JSON:/nodes/99"
+      }
+    }
+  ]
+}

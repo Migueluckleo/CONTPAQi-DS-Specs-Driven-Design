@@ -1,6 +1,6 @@
 # Blue Heart DS
 
-Núcleo modular y familias Button, Tab y Tabs. Python 3.9+ y biblioteca estándar; no requiere instalación, Figma, React ni Graphify para verificar su núcleo. El flujo de envíos y sus pruebas usan también Git.
+Núcleo modular y familias Button, Tab, Tabs, Avatar y Avatar group. Python 3.9+ y biblioteca estándar; no requiere instalación, Figma, React ni Graphify para verificar su núcleo. El flujo de envíos y sus pruebas usan también Git.
 
 ```sh
 python3 -B -m blueheart check
@@ -16,7 +16,7 @@ Los comandos del núcleo son de lectura; la CLI separada de BH-P08 escribe notas
 
 `governance/policy.json` es el propietario de políticas de fase, capas, QA y roles; `governance/decisions.json` conserva decisiones con actor, alcance y fuente verificable. `norms/catalog.json` es la única selección explícita de contenido normativo por identidad, versión y SHA-256. `schemas/` define la estructura; `blueheart/` implementa invariantes y consulta; `evidence/` conserva observaciones/comprobantes; `tests/` contiene casos sintéticos aislados. `auditoria/` conserva el análisis previo, sin incorporarlo al catálogo de normas.
 
-El objetivo es consumir contratos MD trazables desde Skills para construir PoCs y prototipos Figma. Hay once contratos vigentes: `BUTTON-001@2.0.1`, `TAB-001@1.1.0`, `TABS-001@1.0.0` y ocho contratos operativos. El catálogo conserva versiones históricas de contratos. Hay tres conjuntos con 348 tokens: 145 primitivas, 106 semánticos, 47 Button, 45 Tab y 5 Tabs; foundations y Button se conservan. Las guías de consumo de [Button](consumption/button/README.md) y [Tab](consumption/tab/README.md) y [Tabs](consumption/tabs/README.md) reúnen la consulta mínima y sus mapas reales de Figma. Las responsabilidades y módulos diferidos se consultan con `describe`; React y Graphify siguen diferidos.
+El objetivo es consumir contratos MD trazables desde Skills para construir PoCs y prototipos Figma. Hay trece contratos vigentes: `BUTTON-001@2.0.1`, `TAB-001@1.1.0`, `TABS-001@1.0.0`, `AVATAR-001@1.0.0`, `AVATAR-GROUP-001@1.0.0` y ocho contratos operativos. El catálogo conserva versiones históricas de contratos. Hay cuatro conjuntos con 386 tokens: 148 primitivas, 109 semánticos, 47 Button, 45 Tab, 5 Tabs, 25 Avatar y 7 Avatar group. Los 348 tokens anteriores se conservan intactos; Foundations 2.1.0 añade únicamente tres valores negativos de espaciado y sus aliases. Las guías de consumo de [Button](consumption/button/README.md) y [Tab](consumption/tab/README.md) y [Tabs](consumption/tabs/README.md) reúnen la consulta mínima y sus mapas reales de Figma. Las responsabilidades y módulos diferidos se consultan con `describe`; React y Graphify siguen diferidos.
 
 ## Protocolos de construcción
 
@@ -26,7 +26,7 @@ Los protocolos se probaron y ajustaron con Button (ADR-006) y Tab/Tabs (ADR-015/
 
 ## Contratos y perfiles
 
-El formato soportado es Markdown con frontmatter **JSON entre delimitadores `---`**. JSON es un subconjunto de YAML 1.2; esta implementación acepta únicamente ese subconjunto explícito, sin parser YAML propio. Los esquemas comunes y por perfil (`foundation`, `component`, `pattern`, `operational`) son la autoridad estructural. La fase habilita Foundations, Button, Tab y Tabs por sus decisiones explícitas; no autoriza otras familias o implementaciones web.
+El formato soportado es Markdown con frontmatter **JSON entre delimitadores `---`**. JSON es un subconjunto de YAML 1.2; esta implementación acepta únicamente ese subconjunto explícito, sin parser YAML propio. Los esquemas comunes y por perfil (`foundation`, `component`, `pattern`, `operational`) son la autoridad estructural. La fase habilita Foundations, Button, Tab, Tabs, Avatar y Avatar group por sus decisiones explícitas; no autoriza otras familias o implementaciones web.
 
 Cada requisito se declara una vez en el cuerpo bajo `### REQ-ID`; sus metadatos contienen fuerza, procedencia, fuentes y aceptación. Identidad y requisitos deben coincidir exactamente. Un contrato elegible necesita decisión adoptada con alcance a su ID y fuentes íntegras; `APPROVED` exige actor humano. Los requisitos inferidos necesitan adopción específica. Los estados documental, autoridad, preparación y QA permanecen distintos. La herramienta no interpreta intención de producto ni valida semánticamente todos los requisitos.
 
@@ -71,3 +71,5 @@ La [nomenclatura obligatoria de variables de componente](protocols/07-COMPONENT-
 La [guía de consumo de Tab](consumption/tab/README.md) enlaza su [contrato operativo](norms/components/tab.1.1.0.md), la proyección mínima y su QA. ADR-015 amplía el encargo a esta familia; las referencias a Button en ejemplos históricos no seleccionan identidad o versión de Tab. Los seis protocolos afectados actualizan sus revisiones/pines exactos sin duplicar archivos ni reglas.
 
 ADR-018 integra los criterios para próximas familias en [BH-P07](protocols/07-COMPONENT-TOKENS.md): su consumo obligatorio pasa por BH-P01/P02/P03 y su aceptación por BH-P04. El catálogo fija las revisiones exactas y la política incorpora el gate de comportamiento temático.
+
+ADR-019 incorpora la [página Avatar](consumption/avatar/README.md) y [Avatar group](consumption/avatar-group/README.md), sus contratos y tokens mínimos. El responsable conserva bindings/geometría reales y corrige la descripción fuente contradictoria. El [comprobante](evidence/qa/avatar-pilot-check.json) distingue QA Figma, la limitación de contraste del alterno warning y los destinos diferidos.

@@ -2472,6 +2472,70 @@
         "VariableID:8944:406"
       ],
       "primitive_destination_id": "VariableID:6:132"
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-negative-4",
+      "destination_id": "VariableID:145:2",
+      "destination_key": "b8879a6feafb543182b893c61bd98b838e13d724",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:517"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-overlap-xs",
+      "destination_id": "VariableID:145:3",
+      "destination_key": "89d9d584d9cd5552a119ca5aab3b63345a9325b3",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:517"
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-negative-6",
+      "destination_id": "VariableID:145:4",
+      "destination_key": "750d21f2ea86b96f01d976c4893211d88a2481e1",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:516"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-overlap-sm",
+      "destination_id": "VariableID:145:5",
+      "destination_key": "f1856b246f57637b359404a806f9bf1694541776",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:516"
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-negative-8",
+      "destination_id": "VariableID:145:6",
+      "destination_key": "1361b95ba62158c2545cbde99e29b6fa69d846fd",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:515"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-overlap-md",
+      "destination_id": "VariableID:145:7",
+      "destination_key": "b24776260fcf2e3dbdc45c9d60e5063e7eb35171",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:515"
+    }
+  ],
+  "extensions": [
+    {
+      "decision": "ADR-019",
+      "token_set": "BLUEHEART-TOKENS@2.1.0",
+      "evidence": "evidence/avatar-pilot/destination/binding-index.json",
+      "sha256": "cd0f2ff0c7226241b49cbd3783e246322e3feb6849a6d8e586895d10277af100",
+      "new_variables": 6,
+      "previous_map": "evidence/avatar-pilot/history/foundations-application-map.json"
     }
   ]
 }

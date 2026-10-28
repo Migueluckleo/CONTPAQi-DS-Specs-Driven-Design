@@ -135,7 +135,7 @@ require(len(stress['records'])==24 and stress['retainedQaNodes']==0,'complete-fo
 for r in stress['records']:
     require(same([r['ring']['x'],r['ring']['y'],r['ring']['width'],r['ring']['height']],[-4,-4,r['width']+8,r['height']+8]) and r['label']['textStyleId'] and r['count']['text']=='99+' and r['icon']['width']==r['icon']['height']==20,'focus-consumer-stress',mode=r['mode'],axes=r['axes'])
 
-base=read(ROOT/'norms/tokens/blueheart.2.0.0.json')['tokens']
+base=read(ROOT/'evidence/avatar-pilot/history/blueheart.2.0.0.json')['tokens']
 tokens={t['id']:t for t in base+plan['tokens']}
 def resolve(identity,mode):
     t=tokens[identity];value=t['values'].get(mode,t['values'].get('Value'))

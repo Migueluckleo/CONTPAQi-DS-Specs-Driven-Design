@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
+  "contract": {
+    "id": "AVATAR-GROUP-001",
+    "version": "1.0.0",
+    "current": true,
+    "path": "norms/components/avatar-group.1.0.0.md",
+    "sha256": "29b2ceb001700063b91ed5c90b5df1e2c4098ab7703686eca3cd742ab2fba5e5"
+  },
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "2.1.0",
+      "path": "norms/tokens/blueheart.2.1.0.json",
+      "sha256": "aefb82a057f9cce158b30412bab31dbff5757731f7af93ed8620a49a9fb63608",
+      "current": true
+    },
+    {
+      "id": "AVATAR-TOKENS",
+      "version": "1.0.0",
+      "current": true,
+      "path": "norms/tokens/avatar.1.0.0.json",
+      "sha256": "42ce25df36664a6db3c8a960cf0113e67272df456c643c17274c9cebc5ed8b57"
+    }
+  ],
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "page": {
+    "id": "145:42",
+    "name": "Avatars"
+  },
+  "family": {
+    "setId": "145:147",
+    "setKey": "14de0880ff7fd2189b9bbe7e3581f67955b165d0",
+    "slotKey": "Avatars#145:39",
+    "groups": [
+      {
+        "id": "145:143",
+        "key": "b4d216610f1e550c86fd812ef1f79426b559124b",
+        "size": "extra-large",
+        "slotId": "145:148",
+        "children": [
+          "145:149",
+          "145:153",
+          "145:157",
+          "145:161"
+        ],
+        "width": 168,
+        "height": 48
+      },
+      {
+        "id": "145:144",
+        "key": "a4fb8fac2cea6d4df95aeadd04f2ef17ca2b1bff",
+        "size": "large",
+        "slotId": "145:165",
+        "children": [
+          "145:166",
+          "145:170",
+          "145:174",
+          "145:178"
+        ],
+        "width": 110,
+        "height": 32
+      },
+      {
+        "id": "145:145",
+        "key": "2ed26cf088ca3644fc8df56d0006bc785cd53212",
+        "size": "medium",
+        "slotId": "145:182",
+        "children": [
+          "145:183",
+          "145:187",
+          "145:191",
+          "145:195"
+        ],
+        "width": 84,
+        "height": 24
+      },
+      {
+        "id": "145:146",
+        "key": "2ba1ef2083e0b7161d8b002f2c2a09abdf601f39",
+        "size": "small",
+        "slotId": "145:199",
+        "children": [
+          "145:200",
+          "145:204",
+          "145:208",
+          "145:212"
+        ],
+        "width": 68,
+        "height": 20
+      }
+    ],
+    "createdNodeIds": [
+      "145:147",
+      "145:143",
+      "145:144",
+      "145:145",
+      "145:146",
+      "145:148",
+      "145:149",
+      "145:153",
+      "145:157",
+      "145:161",
+      "145:165",
+      "145:166",
+      "145:170",
+      "145:174",
+      "145:178",
+      "145:182",
+      "145:183",
+      "145:187",
+      "145:191",
+      "145:195",
+      "145:199",
+      "145:200",
+      "145:204",
+      "145:208",
+      "145:212"
+    ],
+    "mutatedNodeIds": [
+      "145:148",
+      "I145:153;145:131",
+      "I145:157;145:131",
+      "I145:161;145:131",
+      "I145:161;145:132",
+      "145:165",
+      "I145:170;145:134",
+      "I145:174;145:134",
+      "I145:178;145:134",
+      "I145:178;145:135",
+      "145:182",
+      "I145:187;145:137",
+      "I145:191;145:137",
+      "I145:195;145:137",
+      "I145:195;145:138",
+      "145:199",
+      "I145:204;145:140",
+      "I145:208;145:140",
+      "I145:212;145:140",
+      "I145:212;145:141"
+    ]
+  },
+  "native_collection": {
+    "id": "VariableCollectionId:145:34",
+    "modeIds": {
+      "Value": "145:4"
+    }
+  },
+  "build_plan": "../avatar/current-build-plan.json",
+  "variable_map": "variable-map.csv",
+  "binding_map": "binding-map.csv",
+  "qa": "evidence/qa/avatar-pilot-check.json",
+  "limits": [
+    "No React implementation, keyboard/ARIA testing or official release",
+    "Alterno warning: 3.32:1; source fidelity, not AA",
+    "Counter and fallback are consumer responsibilities"
+  ]
+}

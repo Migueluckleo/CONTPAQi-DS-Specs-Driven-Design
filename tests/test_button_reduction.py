@@ -50,9 +50,15 @@ class ButtonReductionTests(unittest.TestCase):
 
     def test_foundations_are_unchanged_and_retained_ids_still_exist(self):
         before = read('evidence/button-reduction/before/blueheart.1.0.0.json')
-        after = read('norms/tokens/blueheart.2.0.0.json')
+        after = read('norms/tokens/blueheart.2.1.0.json')
+        historical = read('evidence/avatar-pilot/history/blueheart.2.0.0.json')
+        previous_ids = {t['id'] for t in historical['tokens']}
+        self.assertEqual([t for t in after['tokens'] if t['id'] in previous_ids], historical['tokens'])
+        self.assertEqual({t['id'] for t in after['tokens']} - previous_ids,
+                         {'primitive.spacing-negative-' + str(n) for n in (4, 6, 8)} |
+                         {'semantic.spacing-overlap-' + r for r in ('xs', 'sm', 'md')})
         self.assertEqual([t for t in before['tokens'] if t['layer'] != 'component'],
-                         [t for t in after['tokens'] if t['layer'] != 'component'])
+                         [t for t in after['tokens'] if t['layer'] != 'component' and t['id'] in previous_ids])
         before_ids = {v['id'] for v in read('evidence/button-reduction/before/state.json')['createdVariables']}
         state = read('evidence/button-pilot/destination/state.json')
         retained = {v['id'] for v in state['createdVariables']}
