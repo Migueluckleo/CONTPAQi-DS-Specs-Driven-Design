@@ -3,25 +3,18 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "AVATAR-GROUP-001",
-    "version": "1.0.0",
-    "current": true,
-    "path": "norms/components/avatar-group.1.0.0.md",
-    "sha256": "29b2ceb001700063b91ed5c90b5df1e2c4098ab7703686eca3cd742ab2fba5e5"
+    "version": "2.0.0",
+    "path": "norms/components/avatar-group.2.0.0.md",
+    "sha256": "267cf51b0cc80c7904e2b574f246b334bd5d5c3b14f42d1dd8a7b71df5e31f74",
+    "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "2.1.0",
-      "path": "norms/tokens/blueheart.2.1.0.json",
-      "sha256": "aefb82a057f9cce158b30412bab31dbff5757731f7af93ed8620a49a9fb63608",
+      "version": "3.0.0",
+      "path": "norms/tokens/blueheart.3.0.0.json",
+      "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
       "current": true
-    },
-    {
-      "id": "AVATAR-TOKENS",
-      "version": "1.0.0",
-      "current": true,
-      "path": "norms/tokens/avatar.1.0.0.json",
-      "sha256": "42ce25df36664a6db3c8a960cf0113e67272df456c643c17274c9cebc5ed8b57"
     }
   ],
   "fileKey": "98xEw6sK8FRVNEhopM5SSz",
@@ -142,18 +135,31 @@
     ]
   },
   "native_collection": {
-    "id": "VariableCollectionId:145:34",
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
     "modeIds": {
-      "Value": "145:4"
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
     }
   },
   "build_plan": "../avatar/current-build-plan.json",
   "variable_map": "variable-map.csv",
   "binding_map": "binding-map.csv",
-  "qa": "evidence/qa/avatar-pilot-check.json",
+  "qa": {
+    "path": "evidence/qa/component-collection-check.json",
+    "sha256": "c2f042b6eb240a1fae7337b641f833a79e1781728a54bebad441b1ead044bc62"
+  },
   "limits": [
     "No React implementation, keyboard/ARIA testing or official release",
     "Alterno warning: 3.32:1; source fidelity, not AA",
     "Counter and fallback are consumer responsibilities"
-  ]
+  ],
+  "collectionMigration": {
+    "path": "evidence/collection-consolidation/migration-map.json",
+    "sha256": "e5586f4a6c044234353daf7eeb97e630a2b1105888b9bcd6e827ad442e7b2e8c"
+  },
+  "historicalQA": "evidence/qa/avatar-pilot-check.json"
 }

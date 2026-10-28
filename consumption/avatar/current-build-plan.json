@@ -14,7 +14,7 @@
       "name": "--avatar-color-bg-primary-default",
       "layer": "component",
       "type": "color",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FRAME_FILL"
       ],
@@ -49,7 +49,7 @@
       "name": "--avatar-color-stroke-separator",
       "layer": "component",
       "type": "color",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "STROKE_COLOR"
       ],
@@ -84,7 +84,7 @@
       "name": "--avatar-color-text-inverse",
       "layer": "component",
       "type": "color",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "TEXT_FILL"
       ],
@@ -119,7 +119,7 @@
       "name": "--avatar-color-icon-inverse",
       "layer": "component",
       "type": "color",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "SHAPE_FILL"
       ],
@@ -154,7 +154,7 @@
       "name": "--avatar-color-bg-status-active",
       "layer": "component",
       "type": "color",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FRAME_FILL"
       ],
@@ -189,7 +189,7 @@
       "name": "--avatar-color-bg-status-busy",
       "layer": "component",
       "type": "color",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FRAME_FILL"
       ],
@@ -224,7 +224,7 @@
       "name": "--avatar-color-bg-status-inactive",
       "layer": "component",
       "type": "color",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FRAME_FILL"
       ],
@@ -259,7 +259,7 @@
       "name": "--avatar-border-width-regular",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "STROKE_FLOAT"
       ],
@@ -294,7 +294,7 @@
       "name": "--avatar-radius-container",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "CORNER_RADIUS"
       ],
@@ -329,7 +329,7 @@
       "name": "--avatar-spacing-none",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "GAP"
       ],
@@ -364,7 +364,7 @@
       "name": "--avatar-size-extra-large",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "WIDTH_HEIGHT"
       ],
@@ -399,7 +399,7 @@
       "name": "--avatar-size-large",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "WIDTH_HEIGHT"
       ],
@@ -434,7 +434,7 @@
       "name": "--avatar-size-medium",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "WIDTH_HEIGHT"
       ],
@@ -469,7 +469,7 @@
       "name": "--avatar-size-small",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "WIDTH_HEIGHT"
       ],
@@ -504,7 +504,7 @@
       "name": "--avatar-size-content-regular",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "WIDTH_HEIGHT"
       ],
@@ -539,7 +539,7 @@
       "name": "--avatar-size-content-compact",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "WIDTH_HEIGHT"
       ],
@@ -574,7 +574,7 @@
       "name": "--avatar-size-content-small",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "WIDTH_HEIGHT"
       ],
@@ -609,7 +609,7 @@
       "name": "--avatar-font-family",
       "layer": "component",
       "type": "string",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FONT_FAMILY"
       ],
@@ -644,7 +644,7 @@
       "name": "--avatar-font-initials-style",
       "layer": "component",
       "type": "string",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FONT_STYLE"
       ],
@@ -679,7 +679,7 @@
       "name": "--avatar-font-size-extra-large",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FONT_SIZE"
       ],
@@ -714,7 +714,7 @@
       "name": "--avatar-font-size-large",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FONT_SIZE"
       ],
@@ -749,7 +749,7 @@
       "name": "--avatar-font-size-compact",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "FONT_SIZE"
       ],
@@ -784,7 +784,7 @@
       "name": "--avatar-font-line-height-extra-large",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "LINE_HEIGHT"
       ],
@@ -819,7 +819,7 @@
       "name": "--avatar-font-line-height-compact",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "LINE_HEIGHT"
       ],
@@ -854,7 +854,7 @@
       "name": "--avatar-font-letter-spacing",
       "layer": "component",
       "type": "number",
-      "collection": "avatar",
+      "collection": "component",
       "scopes": [
         "LETTER_SPACING"
       ],
@@ -889,13 +889,22 @@
       "name": "--avatar-group-color-bg-alternate-warning",
       "layer": "component",
       "type": "color",
-      "collection": "avatar-group",
+      "collection": "component",
       "scopes": [
         "FRAME_FILL"
       ],
       "description": "avatar-group: color/bg/alternate-warning; uso compartido según BH-P07.",
       "values": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.warning-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.warning-default"
+        },
+        "Servicios": {
+          "alias": "semantic.warning-default"
+        },
+        "Personas": {
           "alias": "semantic.warning-default"
         }
       },
@@ -906,7 +915,7 @@
         "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
         "selector": "JSON:/nodes/62"
       },
-      "figmaName": "avatar-group/color/bg/alternate-warning",
+      "figmaName": "avatar/color/bg/group-alternate-warning",
       "web": "var(--avatar-group-color-bg-alternate-warning)",
       "themeBehavior": "INVARIANT"
     },
@@ -915,13 +924,22 @@
       "name": "--avatar-group-color-bg-alternate-positive",
       "layer": "component",
       "type": "color",
-      "collection": "avatar-group",
+      "collection": "component",
       "scopes": [
         "FRAME_FILL"
       ],
       "description": "avatar-group: color/bg/alternate-positive; uso compartido según BH-P07.",
       "values": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.positive-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-default"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-default"
+        },
+        "Personas": {
           "alias": "semantic.positive-default"
         }
       },
@@ -932,7 +950,7 @@
         "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
         "selector": "JSON:/nodes/62"
       },
-      "figmaName": "avatar-group/color/bg/alternate-positive",
+      "figmaName": "avatar/color/bg/group-alternate-positive",
       "web": "var(--avatar-group-color-bg-alternate-positive)",
       "themeBehavior": "INVARIANT"
     },
@@ -941,13 +959,22 @@
       "name": "--avatar-group-color-bg-overflow-default",
       "layer": "component",
       "type": "color",
-      "collection": "avatar-group",
+      "collection": "component",
       "scopes": [
         "FRAME_FILL"
       ],
       "description": "avatar-group: color/bg/overflow-default; uso compartido según BH-P07.",
       "values": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Personas": {
           "alias": "semantic.neutral-muted"
         }
       },
@@ -958,7 +985,7 @@
         "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
         "selector": "JSON:/nodes/62"
       },
-      "figmaName": "avatar-group/color/bg/overflow-default",
+      "figmaName": "avatar/color/bg/group-overflow-default",
       "web": "var(--avatar-group-color-bg-overflow-default)",
       "themeBehavior": "INVARIANT"
     },
@@ -967,13 +994,22 @@
       "name": "--avatar-group-color-text-overflow-default",
       "layer": "component",
       "type": "color",
-      "collection": "avatar-group",
+      "collection": "component",
       "scopes": [
         "TEXT_FILL"
       ],
       "description": "avatar-group: color/text/overflow-default; uso compartido según BH-P07.",
       "values": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Personas": {
           "alias": "semantic.neutral-strong"
         }
       },
@@ -984,7 +1020,7 @@
         "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
         "selector": "JSON:/nodes/62"
       },
-      "figmaName": "avatar-group/color/text/overflow-default",
+      "figmaName": "avatar/color/text/group-overflow-default",
       "web": "var(--avatar-group-color-text-overflow-default)",
       "themeBehavior": "INVARIANT"
     },
@@ -993,13 +1029,22 @@
       "name": "--avatar-group-spacing-overlap-extra-large",
       "layer": "component",
       "type": "number",
-      "collection": "avatar-group",
+      "collection": "component",
       "scopes": [
         "GAP"
       ],
       "description": "avatar-group: spacing/overlap-extra-large; uso compartido según BH-P07.",
       "values": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.spacing-overlap-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-overlap-md"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-overlap-md"
+        },
+        "Personas": {
           "alias": "semantic.spacing-overlap-md"
         }
       },
@@ -1010,7 +1055,7 @@
         "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
         "selector": "JSON:/nodes/63"
       },
-      "figmaName": "avatar-group/spacing/overlap-extra-large",
+      "figmaName": "avatar/spacing/group-overlap-extra-large",
       "web": "var(--avatar-group-spacing-overlap-extra-large)",
       "themeBehavior": "INVARIANT"
     },
@@ -1019,13 +1064,22 @@
       "name": "--avatar-group-spacing-overlap-large",
       "layer": "component",
       "type": "number",
-      "collection": "avatar-group",
+      "collection": "component",
       "scopes": [
         "GAP"
       ],
       "description": "avatar-group: spacing/overlap-large; uso compartido según BH-P07.",
       "values": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.spacing-overlap-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-overlap-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-overlap-sm"
+        },
+        "Personas": {
           "alias": "semantic.spacing-overlap-sm"
         }
       },
@@ -1036,7 +1090,7 @@
         "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
         "selector": "JSON:/nodes/81"
       },
-      "figmaName": "avatar-group/spacing/overlap-large",
+      "figmaName": "avatar/spacing/group-overlap-large",
       "web": "var(--avatar-group-spacing-overlap-large)",
       "themeBehavior": "INVARIANT"
     },
@@ -1045,13 +1099,22 @@
       "name": "--avatar-group-spacing-overlap-compact",
       "layer": "component",
       "type": "number",
-      "collection": "avatar-group",
+      "collection": "component",
       "scopes": [
         "GAP"
       ],
       "description": "avatar-group: spacing/overlap-compact; uso compartido según BH-P07.",
       "values": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.spacing-overlap-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-overlap-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-overlap-xs"
+        },
+        "Personas": {
           "alias": "semantic.spacing-overlap-xs"
         }
       },
@@ -1062,7 +1125,7 @@
         "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA",
         "selector": "JSON:/nodes/99"
       },
-      "figmaName": "avatar-group/spacing/overlap-compact",
+      "figmaName": "avatar/spacing/group-overlap-compact",
       "web": "var(--avatar-group-spacing-overlap-compact)",
       "themeBehavior": "INVARIANT"
     }

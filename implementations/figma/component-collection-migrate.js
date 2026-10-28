@@ -1,0 +1,41 @@
+// ADR-020 migration adapter, driven by the preserved plan and ledger.
+// Operations: create, styles, page, retire. Never run against a source file.
+if(figma.fileKey!=='98xEw6sK8FRVNEhopM5SSz')throw new Error('Destination only');
+const collections=await figma.variables.getLocalVariableCollectionsAsync();const component=collections.find(c=>c.id===DATA.destinationCollection&&c.name==='component');if(!component)throw new Error('Missing canonical component collection');
+const modes=Object.fromEntries(component.modes.map(m=>[m.name,m.modeId]));const migration=DATA.variables;const affected=new Set(migration.map(v=>v.oldId));const newVariables=new Map();for(const item of migration)if(item.newId){const v=await figma.variables.getVariableByIdAsync(item.newId);if(!v)throw new Error('Missing migrated variable '+item.newId);newVariables.set(item.oldId,v);}
+async function fontsFor(nodes){const fonts=new Map();for(const n of nodes)if(n.type==='TEXT')for(const s of n.getStyledTextSegments(['fontName']))fonts.set(JSON.stringify(s.fontName),s.fontName);const styles=await figma.getLocalTextStylesAsync();for(const s of styles)fonts.set(JSON.stringify(s.fontName),s.fontName);for(const f of fonts.values())await figma.loadFontAsync(f);const available=await figma.listAvailableFontsAsync();for(const f of available.filter(f=>f.fontName.family==='Manrope'))await figma.loadFontAsync(f.fontName);return fonts.size;}
+if(DATA.operation==='create'){
+ await fontsFor([]);const all=await figma.variables.getLocalVariablesAsync();const created=[],rows=[];
+ for(const item of migration){const old=await figma.variables.getVariableByIdAsync(item.oldId);if(!old)throw new Error('Missing source variable');if(old.variableCollectionId!==item.oldCollection)throw new Error('Unexpected source collection');const original=collections.find(c=>c.id===item.oldCollection);const existing=all.filter(v=>v.variableCollectionId===component.id&&v.name===item.newName);if(existing.length>1)throw new Error('Duplicate route');const v=existing[0]||figma.variables.createVariable(item.newName,component,item.type);if(!existing.length)created.push(v.id);v.scopes=old.scopes;v.description=old.description;v.hiddenFromPublishing=old.hiddenFromPublishing;for(const [platform,syntax]of Object.entries(old.codeSyntax))v.setVariableCodeSyntax(platform,syntax);for(const mode of component.modes){const src=original.modes.find(m=>m.name===mode.name)||original.modes.find(m=>m.name==='Value');if(!src)throw new Error('No mode mapping');const value=old.valuesByMode[src.modeId];if(!value||value.type!=='VARIABLE_ALIAS')throw new Error('Expected semantic alias');v.setValueForMode(mode.modeId,value);}rows.push({oldId:old.id,newId:v.id,newKey:v.key,newName:v.name});}
+ return {operation:'create',createdVariableIds:created,mutatedVariableIds:rows.map(r=>r.newId),collectionId:component.id,modeIds:modes,rows};
+}
+function remapObject(value){if(Array.isArray(value))return value.map(remapObject);if(value&&typeof value==='object'){const out={};for(const [k,v]of Object.entries(value))out[k]=k==='id'&&value.type==='VARIABLE_ALIAS'&&newVariables.has(v)?newVariables.get(v).id:remapObject(v);return out;}return value;}
+function hasOld(value){if(Array.isArray(value))return value.some(hasOld);if(value&&typeof value==='object')return(value.type==='VARIABLE_ALIAS'&&affected.has(value.id))||Object.values(value).some(hasOld);return false;}
+function boundPaints(paints){return paints.map(p=>{if(hasOld(p)){if(p.type!=='SOLID')throw new Error('Unsupported bound paint');const alias=p.boundVariables?.color;if(!alias||!newVariables.has(alias.id))throw new Error('Unsupported nested paint alias');return figma.variables.setBoundVariableForPaint(p,'color',newVariables.get(alias.id));}return p;});}
+if(DATA.operation==='styles'){
+ await fontsFor([]);const changed=[];for(const style of await figma.getLocalTextStylesAsync()){let dirty=false;for(const [field,alias]of Object.entries(style.boundVariables||{}))if(newVariables.has(alias.id)){style.setBoundVariable(field,newVariables.get(alias.id));dirty=true;}if(dirty)changed.push(style.id);}
+ for(const style of await figma.getLocalEffectStylesAsync())if(hasOld(style.effects)){style.effects=style.effects.map(e=>{let result=e;for(const [field,a]of Object.entries(e.boundVariables||{}))if(newVariables.has(a.id))result=figma.variables.setBoundVariableForEffect(result,field,newVariables.get(a.id));return result;});changed.push(style.id);}
+ for(const style of await figma.getLocalPaintStylesAsync())if(hasOld(style.paints)){style.paints=boundPaints(style.paints);changed.push(style.id);}return {operation:'styles',mutatedStyleIds:changed};
+}
+if(DATA.operation==='page'){
+ const page=await figma.getNodeByIdAsync(DATA.pageId);await page.loadAsync();await figma.setCurrentPageAsync(page);figma.skipInvisibleInstanceChildren=false;const nodes=[];function walk(n){nodes.push(n);if('children'in n)for(const c of n.children)walk(c);}walk(page);await fontsFor(nodes);const mutated=[],modeChanges=[];
+ // Capture before changing modes; mutations on an ancestor must not change a descendant's input.
+ const oldModes=new Map(nodes.map(n=>[n.id,{...(n.explicitVariableModes||{})}]));
+ for(const n of nodes){let dirty=false;const explicit=oldModes.get(n.id),wanted=[];for(const [cid,mid]of Object.entries(explicit)){const original=collections.find(c=>c.id===cid);if(original&&['VariableCollectionId:78:53','VariableCollectionId:145:8'].includes(cid))wanted.push(original.modes.find(m=>m.modeId===mid).name);}if(new Set(wanted).size>1)throw new Error('Conflicting explicit themes '+n.id);if(wanted.length){if(explicit[component.id]&&explicit[component.id]!==modes[wanted[0]])throw new Error('Conflicting canonical theme '+n.id);n.setExplicitVariableModeForCollection(component,modes[wanted[0]]);modeChanges.push([n.id,wanted[0]]);dirty=true;}
+ for(const cid of Object.keys(explicit))if(['VariableCollectionId:78:53','VariableCollectionId:105:2','VariableCollectionId:145:8','VariableCollectionId:145:34'].includes(cid)){n.clearExplicitVariableModeForCollection(collections.find(c=>c.id===cid));dirty=true;}
+ if(n.type==='TEXT'){
+  const segments=n.getStyledTextSegments(['boundVariables','fills']);for(const s of segments){for(const [field,a]of Object.entries(s.boundVariables||{}))if(newVariables.has(a.id)){n.setRangeBoundVariable(s.start,s.end,field,newVariables.get(a.id));dirty=true;}if(hasOld(s.fills)){n.setRangeFills(s.start,s.end,boundPaints(s.fills));dirty=true;}}
+ }
+ for(const [field,a]of Object.entries(n.boundVariables||{})){if(Array.isArray(a))continue;if(a&&newVariables.has(a.id)){n.setBoundVariable(field,newVariables.get(a.id));dirty=true;}}
+ for(const field of ['fills','strokes'])if(field in n&&n[field]!==figma.mixed&&hasOld(n[field])){n[field]=boundPaints(n[field]);dirty=true;}
+ if('effects'in n&&hasOld(n.effects)){n.effects=n.effects.map(e=>{let result=e;for(const [field,a]of Object.entries(e.boundVariables||{}))if(newVariables.has(a.id))result=figma.variables.setBoundVariableForEffect(result,field,newVariables.get(a.id));return result;});dirty=true;}
+ if('layoutGrids'in n&&hasOld(n.layoutGrids))throw new Error('Layout grid migration must be explicit');if('reactions'in n&&hasOld(n.reactions))throw new Error('Prototype variable migration must be explicit');if('componentProperties'in n&&hasOld(n.componentProperties))throw new Error('Component property migration must be explicit');if('componentPropertyDefinitions'in n&&hasOld(n.componentPropertyDefinitions))throw new Error('Definition migration must be explicit');
+ if(dirty)mutated.push(n.id);
+ }
+ return {operation:'page',pageId:page.id,mutatedNodeIds:mutated,modeChanges,nodesExamined:nodes.length};
+}
+if(DATA.operation==='retire'){
+ if(DATA.noRetiredReferences!==true)throw new Error('Require complete read-back evidence before retiring');const removed=[];for(const cid of ['VariableCollectionId:78:53','VariableCollectionId:105:2','VariableCollectionId:145:8','VariableCollectionId:145:34']){const c=collections.find(c=>c.id===cid);if(c){removed.push({id:c.id,name:c.name,variables:[...c.variableIds]});c.remove();}}
+ return {operation:'retire',removedCollections:removed,collections:(await figma.variables.getLocalVariableCollectionsAsync()).map(c=>({id:c.id,name:c.name,modes:c.modes,count:c.variableIds.length}))};
+}
+throw new Error('Unknown migration operation');

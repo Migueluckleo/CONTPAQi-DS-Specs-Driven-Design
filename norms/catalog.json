@@ -13,41 +13,41 @@
       "version": "2.0.1",
       "path": "norms/components/button.2.0.1.md",
       "sha256": "33fd628444b5e40ce747aaca9ab98e31cc18b5306681c46883713f12c73a16a4",
-      "current": true
+      "current": false
     },
     {
       "id": "BH-P01",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "path": "protocols/01-COMPONENT-CONTRACT.md",
-      "sha256": "acedbf26e19ff6100bc852bd4f6a649cd18b5859c474ecfb8a346a0df1d74a34",
+      "sha256": "f23ba3b5fe84d21073fef3070cec4a319e579b73937a4f8f24038797a3e62ae3",
       "current": true
     },
     {
       "id": "BH-P02",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "path": "protocols/02-FIGMA-CONSTRUCTION.md",
-      "sha256": "318cfb2470ba6898f72381a9b8f201db6a21620e175690c5579bacb85bf51e14",
+      "sha256": "ed224db4837cf3eec25427f52ca0f85dcdb2b3842f78d38a57fb7c572ef33c91",
       "current": true
     },
     {
       "id": "BH-P03",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "path": "protocols/03-WEB-CONSTRUCTION.md",
-      "sha256": "2d0a20056b36300cf29eaf541b7784fedd6294e9cafcf9847640f93f91798b61",
+      "sha256": "bd7413e4c84c46de69577a845bf907dfff558994f1f00ac47888f31849012d19",
       "current": true
     },
     {
       "id": "BH-P04",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "path": "protocols/04-QA-AND-DELIVERY.md",
-      "sha256": "7b309282ccd751cf1c0e147daaf1bf8dfb97d1f308d9093c5878badfa2a9cb0d",
+      "sha256": "7651abc0def1d22f52b857dd40fdb07395e6b9f0314144b7eeeeebec0921b036",
       "current": true
     },
     {
       "id": "BH-P05",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "path": "protocols/05-MAINTENANCE-AND-RELEASES.md",
-      "sha256": "5ec8dfa1f49dd3820259aa47412ec84c1547b3525b905dc34bb6b6a8da0aece5",
+      "sha256": "dc91c89538a02dd81e98328060f778fd7e72b36087e568e63f25640d9fd2e101",
       "current": true
     },
     {
@@ -59,16 +59,16 @@
     },
     {
       "id": "BH-P07",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "path": "protocols/07-COMPONENT-TOKENS.md",
-      "sha256": "219c920ea5bcf8b3d4c91ed72ee6429fc31cb627d4b388c5b192013b4a5080d0",
+      "sha256": "ed99d54267572163a7c58274d5aa0a4517f8da8c21fd0eed1e9f4fc2b634cd1c",
       "current": true
     },
     {
       "id": "BH-P08",
-      "version": "1.2.2",
+      "version": "1.2.3",
       "path": "protocols/08-GITHUB-RELEASE-DOCUMENTATION.md",
-      "sha256": "c3f12e78d16f94df97ba3442407bb490917276965ffd8eb9fb3045a79bc19c03",
+      "sha256": "5a58523e048ddd2a0c91d7d8165c786802c5839775832c03d955fb62ea03556a",
       "current": true
     },
     {
@@ -83,58 +83,72 @@
       "version": "1.0.0",
       "path": "norms/components/tabs.1.0.0.md",
       "sha256": "65a0b03038e73cf0fc43a9d197cd80b60154be3445b879e00b0d6a68a9f90ab2",
-      "current": true
+      "current": false
     },
     {
       "id": "TAB-001",
       "version": "1.1.0",
       "path": "norms/components/tab.1.1.0.md",
       "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f",
-      "current": true
+      "current": false
     },
     {
       "id": "AVATAR-001",
       "version": "1.0.0",
-      "current": true,
+      "current": false,
       "path": "norms/components/avatar.1.0.0.md",
       "sha256": "385aa42232f1241451940f479b4c1a6b31ed9bcc42f18e84200ec2d473aae83b"
     },
     {
       "id": "AVATAR-GROUP-001",
       "version": "1.0.0",
-      "current": true,
+      "current": false,
       "path": "norms/components/avatar-group.1.0.0.md",
       "sha256": "29b2ceb001700063b91ed5c90b5df1e2c4098ab7703686eca3cd742ab2fba5e5"
+    },
+    {
+      "id": "BUTTON-001",
+      "version": "3.0.0",
+      "path": "norms/components/button.3.0.0.md",
+      "sha256": "898621e9b341519892b513b14bf230855791e77e5f7438cf1cd6ce1975772b36",
+      "current": true
+    },
+    {
+      "id": "TABS-001",
+      "version": "2.0.0",
+      "path": "norms/components/tabs.2.0.0.md",
+      "sha256": "50591d9631734df3191703de5d92d5962504056d5b2a74a614d7728af9107306",
+      "current": true
+    },
+    {
+      "id": "TAB-001",
+      "version": "2.0.0",
+      "path": "norms/components/tab.2.0.0.md",
+      "sha256": "87d94b80a8008d658640b1c3410b35e0aaf977d4e453649c5dc652b876d76a4f",
+      "current": true
+    },
+    {
+      "id": "AVATAR-001",
+      "version": "2.0.0",
+      "path": "norms/components/avatar.2.0.0.md",
+      "sha256": "c34e6b2c0246f52c30c53e085a41265483afd5787f8930510b44dbb9afa2bfac",
+      "current": true
+    },
+    {
+      "id": "AVATAR-GROUP-001",
+      "version": "2.0.0",
+      "path": "norms/components/avatar-group.2.0.0.md",
+      "sha256": "267cf51b0cc80c7904e2b574f246b334bd5d5c3b14f42d1dd8a7b71df5e31f74",
+      "current": true
     }
   ],
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "2.1.0",
-      "path": "norms/tokens/blueheart.2.1.0.json",
-      "sha256": "aefb82a057f9cce158b30412bab31dbff5757731f7af93ed8620a49a9fb63608",
+      "version": "3.0.0",
+      "path": "norms/tokens/blueheart.3.0.0.json",
+      "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
       "current": true
-    },
-    {
-      "id": "TAB-TOKENS",
-      "version": "1.1.0",
-      "path": "norms/tokens/tab.1.1.0.json",
-      "sha256": "00dab9bfdb202a689461f609a288afb01dcec41e41d006043df1a852969a35b4",
-      "current": true
-    },
-    {
-      "id": "TABS-TOKENS",
-      "version": "1.0.0",
-      "path": "norms/tokens/tabs.1.0.0.json",
-      "sha256": "4abd890dfa3ec2faf8598f015084a4ef12dcee97c5c20809a266c42e9e3bd08d",
-      "current": true
-    },
-    {
-      "id": "AVATAR-TOKENS",
-      "version": "1.0.0",
-      "current": true,
-      "path": "norms/tokens/avatar.1.0.0.json",
-      "sha256": "42ce25df36664a6db3c8a960cf0113e67272df456c643c17274c9cebc5ed8b57"
     }
   ]
 }

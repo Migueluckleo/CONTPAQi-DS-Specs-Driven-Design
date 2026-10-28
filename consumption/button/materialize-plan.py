@@ -18,8 +18,8 @@ def materialize():
     manifest = json.loads((ROOT / 'consumption/button/manifest.json').read_text())
     verified(manifest['contract'])
     correction = json.loads(verified(manifest['prototypeCorrections']))
-    if correction['contract'] != {k: manifest['contract'][k] for k in ('id', 'version')}:
-        raise ValueError('Correction does not match the selected contract')
+    if manifest['prototypeCorrections'].get('selectedContract', correction['contract']) != {k: manifest['contract'][k] for k in ('id', 'version')} or correction['contract']['id'] != manifest['contract']['id']:
+        raise ValueError('Correction selection does not match the selected contract')
     baseline = json.loads(verified(correction['baseline']))
     plan = copy.deepcopy(baseline)
     variants = {v['sourceId']: v for v in plan['variants']}
@@ -40,7 +40,7 @@ def materialize():
         actions[0]['destinationId'] = rule['destinationId']
         if reactions[0].get('action'):
             reactions[0]['action']['destinationId'] = rule['destinationId']
-    plan['version'] = correction['contract']['version']
+    plan['version'] = manifest['contract']['version']
     return plan
 
 

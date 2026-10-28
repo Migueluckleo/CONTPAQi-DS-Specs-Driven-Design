@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P05",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-011"
+    "decision_id": "ADR-020"
   },
   "targets": [
     "documentation"
@@ -30,19 +30,24 @@
       "id": "SRC-CRITERIA",
       "path": "evidence/authorization/token-protocol-criteria-request.txt",
       "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
+    },
+    {
+      "id": "SRC-COLLECTION",
+      "path": "evidence/authorization/component-collection-request.txt",
+      "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "relation": "uses"
     },
     {
       "kind": "contract",
       "id": "BH-P04",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "relation": "uses"
     }
   ],
@@ -94,6 +99,17 @@
       "acceptance": [
         "Se regeneró únicamente lo afectado y las capacidades diferidas no se presentan como implementadas."
       ]
+    },
+    {
+      "id": "REQ-COLLECTION",
+      "force": "MUST",
+      "provenance": "EXPLICIT",
+      "sources": [
+        "SRC-COLLECTION"
+      ],
+      "acceptance": [
+        "Consumir y verificar la organización de colecciones declarada únicamente en BH-P07 REQ-P07-07; no crear colecciones por familia."
+      ]
     }
   ],
   "profile_data": {
@@ -135,7 +151,7 @@ Registrar una revisión y su alcance cuando cambie una norma. Conservar versione
 
 **2. Consulta e invalidación**
 
-Leer primero el índice de protocolos y el propietario pertinente. Para entidades registradas usar contexto por identidad e intención; ampliar hacia requisitos originales y dependencias cuando la tarea lo requiera. Para Button usar `context BUTTON-001 --compact --modes '{"button":"Contable"}'`; el presupuesto se mide sobre JSON canónico UTF-8, sin el espaciado de presentación CLI. El modo predeterminado es Contable y la salida lo declara; los overrides explícitos del alias prevalecen en su traza. No cargar inventarios completos, snapshots ni todos los protocolos como arranque obligatorio. El mapa de consumo solo enlaza identidades, propiedades y nodos; no duplica requisitos editables del MD.
+Leer primero el índice de protocolos y el propietario pertinente. Para entidades registradas usar contexto por identidad e intención; ampliar hacia requisitos originales y dependencias cuando la tarea lo requiera. Para Button usar `context BUTTON-001 --compact --modes '{"component":"Contable"}'`; el presupuesto se mide sobre JSON canónico UTF-8, sin el espaciado de presentación CLI. El modo predeterminado es Contable y la salida lo declara; los overrides explícitos del alias prevalecen en su traza. No cargar inventarios completos, snapshots ni todos los protocolos como arranque obligatorio. El mapa de consumo solo enlaza identidades, propiedades y nodos; no duplica requisitos editables del MD.
 
 Identificar altas, cambios y bajas y sus consumidores. `impact` cubre dependencias declaradas actuales; una ruta sin correspondencia o una baja requiere comparar el corte anterior. La ausencia de relación declarada no demuestra ausencia de consumidores. Revalidar únicamente la parte afectada con cobertura suficiente; no propagar un fallo local a familias independientes.
 
@@ -160,3 +176,7 @@ Las skills, paquetes y oficina de agentes se mantienen solo cuando existan y el 
 Registrar bytes, tiempos, invocaciones y reintentos cuando puedan medirse; no equiparar reducción de texto con ahorro garantizado de tokens o latencia. En coordinación futura, reutilizar el resultado del propietario de un trabajo activo y su evidencia; no reconstruir en paralelo lo mismo ni borrar locks. No se implementa aquí un servicio o scheduler.
 
 El mantenimiento termina al poder localizar la regla vigente, sus fuentes y el QA del alcance sin depender de la conversación. Los procedimientos preparados no acreditan software, componentes, adaptadores o pipelines aún inexistentes.
+
+### REQ-COLLECTION
+
+Para la ubicación de variables, consumir [BH-P07 REQ-P07-07](07-COMPONENT-TOKENS.md#req-p07-07). El pase y QA del destino deben acreditar esa organización con su inventario nativo. El registro y la migración pertenecen a ADR-020 y al contrato vigente; no copiar aquí otra definición de la estructura.

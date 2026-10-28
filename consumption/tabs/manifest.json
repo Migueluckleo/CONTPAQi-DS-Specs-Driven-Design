@@ -3,34 +3,25 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "TABS-001",
-    "version": "1.0.0",
-    "path": "norms/components/tabs.1.0.0.md",
-    "sha256": "65a0b03038e73cf0fc43a9d197cd80b60154be3445b879e00b0d6a68a9f90ab2"
+    "version": "2.0.0",
+    "path": "norms/components/tabs.2.0.0.md",
+    "sha256": "50591d9631734df3191703de5d92d5962504056d5b2a74a614d7728af9107306",
+    "current": true
   },
   "dependency": {
     "id": "TAB-001",
-    "version": "1.1.0",
-    "path": "norms/components/tab.1.1.0.md",
-    "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f"
+    "version": "2.0.0",
+    "path": "norms/components/tab.2.0.0.md",
+    "sha256": "87d94b80a8008d658640b1c3410b35e0aaf977d4e453649c5dc652b876d76a4f",
+    "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "2.1.0",
-      "path": "norms/tokens/blueheart.2.1.0.json",
-      "sha256": "aefb82a057f9cce158b30412bab31dbff5757731f7af93ed8620a49a9fb63608"
-    },
-    {
-      "id": "TAB-TOKENS",
-      "version": "1.1.0",
-      "path": "norms/tokens/tab.1.1.0.json",
-      "sha256": "00dab9bfdb202a689461f609a288afb01dcec41e41d006043df1a852969a35b4"
-    },
-    {
-      "id": "TABS-TOKENS",
-      "version": "1.0.0",
-      "path": "norms/tokens/tabs.1.0.0.json",
-      "sha256": "4abd890dfa3ec2faf8598f015084a4ef12dcee97c5c20809a266c42e9e3bd08d"
+      "version": "3.0.0",
+      "path": "norms/tokens/blueheart.3.0.0.json",
+      "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
+      "current": true
     }
   ],
   "fileKey": "98xEw6sK8FRVNEhopM5SSz",
@@ -124,74 +115,123 @@
   ],
   "slotKey": "Tabs#105:0",
   "collection": {
-    "id": "VariableCollectionId:105:2",
-    "name": "tabs",
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
     "modeIds": {
-      "Value": "105:0"
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
     }
   },
   "variables": [
     {
       "id": "tabs.color-tabs-divider-default",
-      "figmaName": "tabs/color/divider/default",
+      "figmaName": "tab/color/divider/default",
       "web": "var(--color-tabs-divider-default)",
       "scope": "SHAPE_FILL",
-      "nativeId": "VariableID:105:3",
-      "nativeKey": "fb52006653ba308e93e423e3da9b87ad87fa6b78",
+      "nativeId": "VariableID:171:45",
+      "nativeKey": "4d05cd4ec3b9b9ccf394f917b525079b3c2592be",
       "aliases": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
           "alias": "semantic.neutral-soft"
         }
       }
     },
     {
       "id": "tabs.size-tabs-divider",
-      "figmaName": "tabs/size/divider",
+      "figmaName": "tab/size/group-divider",
       "web": "var(--size-tabs-divider)",
       "scope": "WIDTH_HEIGHT",
-      "nativeId": "VariableID:105:4",
-      "nativeKey": "dbd93ff9feb292df087f994567d3a5c409ecd81c",
+      "nativeId": "VariableID:171:46",
+      "nativeKey": "f884473db8173d42a84287f12cef933a44501f37",
       "aliases": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Personas": {
           "alias": "semantic.stroke-xs"
         }
       }
     },
     {
       "id": "tabs.spacing-tabs-container",
-      "figmaName": "tabs/spacing/container",
+      "figmaName": "tab/spacing/group-container",
       "web": "var(--spacing-tabs-container)",
       "scope": "GAP",
-      "nativeId": "VariableID:105:5",
-      "nativeKey": "26255cc9d767ad3bfd5651fa5d23b7914261515a",
+      "nativeId": "VariableID:171:47",
+      "nativeKey": "08c9a477cba0db3c31ae082171895228626dbd86",
       "aliases": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
           "alias": "semantic.spacing-xs"
         }
       }
     },
     {
       "id": "tabs.radius-tabs-container",
-      "figmaName": "tabs/radius/container",
+      "figmaName": "tab/radius/group-container",
       "web": "var(--radius-tabs-container)",
       "scope": "CORNER_RADIUS",
-      "nativeId": "VariableID:105:6",
-      "nativeKey": "a62e4005dc5ee0dba03f2a0a86c85a57abcc5aaa",
+      "nativeId": "VariableID:171:48",
+      "nativeKey": "fb26fc593430145fcb301bf85ec7438866baae48",
       "aliases": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.radius-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-md"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-md"
+        },
+        "Personas": {
           "alias": "semantic.radius-md"
         }
       }
     },
     {
       "id": "tabs.color-tabs-bg-segmented-default",
-      "figmaName": "tabs/color/bg/segmented-default",
+      "figmaName": "tab/color/bg/group-segmented-default",
       "web": "var(--color-tabs-bg-segmented-default)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:105:7",
-      "nativeKey": "b944d0fa33bf3b2b8861c0f9188a53aca473e49c",
+      "nativeId": "VariableID:171:49",
+      "nativeKey": "8cae7019ea68b917f4ab1346005368df8a74bd46",
       "aliases": {
-        "Value": {
+        "Contable": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Personas": {
           "alias": "semantic.neutral-subtle"
         }
       }
@@ -205,11 +245,19 @@
     "slotQaFrameId": "121:409"
   },
   "qa": {
+    "path": "evidence/qa/component-collection-check.json",
+    "sha256": "c2f042b6eb240a1fae7337b641f833a79e1781728a54bebad441b1ead044bc62"
+  },
+  "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "collectionMigration": {
+    "path": "evidence/collection-consolidation/migration-map.json",
+    "sha256": "e5586f4a6c044234353daf7eeb97e630a2b1105888b9bcd6e827ad442e7b2e8c"
+  },
+  "historicalQA": {
     "path": "evidence/tabs-page-reconciliation/slot-qa.json",
     "sha256": "23bb883f0563217ee41ec63bee7acc0248066b6e89fdcf0bf36ea74741ca6ba4",
     "current_summary": "evidence/qa/tabs-page-reconciliation-check.json",
     "historical_baseline": "evidence/qa/tab-pilot-check.json"
-  },
-  "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
-  "web_implementation": "NOT_IMPLEMENTED"
+  }
 }

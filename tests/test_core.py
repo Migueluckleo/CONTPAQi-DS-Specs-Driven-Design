@@ -24,6 +24,10 @@ class CoreTests(unittest.TestCase):
         self.root = Path(self.temp.name)
         for directory in ("schemas", "governance", "evidence/authorization"):
             shutil.copytree(ROOT / directory, self.root / directory)
+        # Synthetic fixtures exercise arbitrary collections, outside the DS layout.
+        policy = json.loads((self.root / "governance/policy.json").read_text())
+        policy.pop("token_collections", None)
+        self.write("governance/policy.json", policy)
         (self.root / "norms").mkdir()
         self.write("norms/catalog.json", {"schema_version": 1, "contracts": [], "token_sets": []})
         shutil.copyfile(ROOT / "blueheart.json", self.root / "blueheart.json")
@@ -96,7 +100,7 @@ class CoreTests(unittest.TestCase):
 
     def test_registered_families_keep_unrequested_destinations_deferred(self):
         w = Workspace(ROOT)
-        self.assertEqual(set(w.current), {"BUTTON-001", "TAB-001", "TABS-001", "BLUEHEART-TOKENS", "TAB-TOKENS", "TABS-TOKENS", "AVATAR-001", "AVATAR-GROUP-001", "AVATAR-TOKENS"} | {"BH-P%02d" % i for i in range(1, 9)})
+        self.assertEqual(set(w.current), {"BUTTON-001", "TAB-001", "TABS-001", "BLUEHEART-TOKENS", "AVATAR-001", "AVATAR-GROUP-001"} | {"BH-P%02d" % i for i in range(1, 9)})
         report = w.check()["component_token_minimum"]["BUTTON-001@2.0.0"]
         self.assertEqual(report["component_tokens"], 47)
         self.assertEqual(report["redundancies"], 0)
@@ -229,14 +233,16 @@ class CoreTests(unittest.TestCase):
         w = Workspace(ROOT)
         self.assertEqual(w.context("BUTTON-001")["status"], "BLOCKED")
         for mode in ("Contable", "Administrativo", "Servicios", "Personas"):
-            result = w.context("BUTTON-001", compact=True, modes={"button": mode})
+            result = w.context("BUTTON-001", compact=True, modes={"component": mode})
             self.assertEqual(result["status"], "PASS")
             self.assertLessEqual(result["context_bytes"], w.policy["default_context_bytes"])
-            self.assertEqual(len(result["documents"][0]["requirements"]), 18)
+            self.assertEqual({r["id"] for r in result["documents"][0]["requirements"]},
+                             set(w.contracts[w.current["BUTTON-001"]]["requirements"]))
+            self.assertIn("REQ-COLLECTION", {r["id"] for r in result["documents"][0]["requirements"]})
             self.assertEqual(len([t for t in result["tokens"] if t["layer"] == "component"]), 47)
             for t in result["tokens"]:
                 for selected, value in t["values"].items(): self.assertEqual(value, w.tokens.tokens[t["id"]]["values"][selected])
-        self.assertEqual(w.tokens.resolve("button.color-button-primary-bg-hover", {"button": "Contable"})["chain"][-1]["id"], "primitive.blue-500")
+        self.assertEqual(w.tokens.resolve("button.color-button-primary-bg-hover", {"component": "Contable"})["chain"][-1]["id"], "primitive.blue-500")
 
     def test_semantic_scope_and_component_scope_type_fail_closed(self):
         d = self.token_document(); d["tokens"][1]["scopes"] = ["WIDTH_HEIGHT"]

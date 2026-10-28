@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "status": "PASS",
+  "decision": "ADR-020",
+  "scope": "Consolidación de colecciones y consumo MD/Figma; sin React ni fuentes modificadas",
+  "base_commit": "6a5c090840daec99f50e74789449591768a18d0f",
+  "figma": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "session": "f05dea6e-7883-478c-91c7-109f787772f9",
+    "collectionsBefore": 7,
+    "collectionsAfter": 3,
+    "names": [
+      "primitive",
+      "semantic",
+      "component"
+    ],
+    "groups": {
+      "button": 47,
+      "avatar": 32,
+      "tab": 50
+    },
+    "variables": 386,
+    "componentVariables": 129,
+    "nativeControls": 906,
+    "movedVariables": 82,
+    "unchangedNativeVariables": 304,
+    "retiredReferences": 0,
+    "stylesRebound": 6,
+    "pages": [
+      {
+        "page": "0:1",
+        "nodes": 0,
+        "nodeVariableCases": 0,
+        "roots": 0,
+        "oldReferences": 0
+      },
+      {
+        "page": "149:639",
+        "nodes": 0,
+        "nodeVariableCases": 0,
+        "roots": 0,
+        "oldReferences": 0
+      },
+      {
+        "page": "11:128",
+        "nodes": 1530,
+        "nodeVariableCases": 3216,
+        "roots": 9,
+        "oldReferences": 0
+      },
+      {
+        "page": "78:97",
+        "nodes": 1584,
+        "nodeVariableCases": 4485,
+        "roots": 11,
+        "oldReferences": 0
+      },
+      {
+        "page": "145:42",
+        "nodes": 1386,
+        "nodeVariableCases": 4337,
+        "roots": 7,
+        "oldReferences": 0
+      }
+    ]
+  },
+  "portable": {
+    "status": "PASS",
+    "collections": 3,
+    "modeContextsBefore": 64,
+    "modeContextsAfter": 4,
+    "snapshot": "8c66ea2ad6da24f0444c32775277fc792133a110a87ac9e277e3f54608fdca22",
+    "contexts": {
+      "BH-P01": {
+        "status": "PASS",
+        "context_bytes": 30048
+      },
+      "BH-P02": {
+        "status": "PASS",
+        "context_bytes": 46033
+      },
+      "BH-P03": {
+        "status": "PASS",
+        "context_bytes": 45282
+      },
+      "BH-P04": {
+        "status": "PASS",
+        "context_bytes": 38432
+      },
+      "BH-P05": {
+        "status": "PASS",
+        "context_bytes": 45256
+      },
+      "BH-P06": {
+        "status": "PASS",
+        "context_bytes": 5924
+      },
+      "BH-P07": {
+        "status": "PASS",
+        "context_bytes": 19613
+      },
+      "BH-P08": {
+        "status": "PASS",
+        "context_bytes": 60751
+      },
+      "BUTTON-001": {
+        "status": "PASS",
+        "context_bytes": 40479
+      },
+      "TAB-001": {
+        "status": "PASS",
+        "context_bytes": 44119
+      },
+      "TABS-001": {
+        "status": "PASS",
+        "context_bytes": 55278
+      },
+      "AVATAR-001": {
+        "status": "PASS",
+        "context_bytes": 25778
+      },
+      "AVATAR-GROUP-001": {
+        "status": "PASS",
+        "context_bytes": 38392
+      }
+    }
+  },
+  "tests": {
+    "status": "PASS",
+    "count": 94,
+    "evidence": {
+      "path": "evidence/collection-consolidation/tests.txt",
+      "sha256": "a89d014d62fd0fd0622b4c60595b9a843fee7fc3e918c86dea2349063acc31e0"
+    }
+  },
+  "visual": {
+    "status": "PASS",
+    "pixelComparison": {
+      "path": "evidence/collection-consolidation/visual/comparison.json",
+      "sha256": "ec494502e7eb7986675642d41eb8d45025076532f0fb36ffae844c843e7f9cf8"
+    },
+    "screenshots": [
+      {
+        "path": "evidence/collection-consolidation/visual/tabs-overview.png",
+        "sha256": "fead2ce200a2030bd01a5fa2c812b75b67b2e04a18ecb227d827d2bdfe799ff4"
+      },
+      {
+        "path": "evidence/collection-consolidation/visual/tabs-spec.png",
+        "sha256": "90294242daad5ca45c1aeaf43a37e2f6361f92752389fed3ab298eaa3d69b1e6"
+      },
+      {
+        "path": "evidence/collection-consolidation/visual/avatar-qa.png",
+        "sha256": "c1da9e0512940ecdd396f6016456acfb90508fb1f82ff20df5d62a3a6e7cc33f"
+      }
+    ],
+    "metadataFingerprintDifferences": [
+      {
+        "page": "78:97",
+        "id": "82:2",
+        "before": "471cc621",
+        "after": "8b1f78d9"
+      },
+      {
+        "page": "78:97",
+        "id": "111:461",
+        "before": "30e24bb9",
+        "after": "87563691"
+      }
+    ],
+    "interpretation": "Se identifican dos huellas documentales distintas: las leyendas/MD y metadatos sin pintura del ejemplo de Tab, y Overview. Todos los bindings, cantidades de nodos y valores resueltos son iguales tras normalizar IDs y las leyendas declaradas. Overview tiene PNG idéntico al corte anterior; tablero Tab y panel Avatar revisados visualmente. No se afirma identidad binaria completa de metadatos para esos dos frames."
+  },
+  "evidence": [
+    {
+      "path": "evidence/collection-consolidation/migration-map.json",
+      "sha256": "e5586f4a6c044234353daf7eeb97e630a2b1105888b9bcd6e827ad442e7b2e8c"
+    },
+    {
+      "path": "evidence/collection-consolidation/after/variables.json",
+      "sha256": "f7ab7b0f21f5d74e9072f73c1d7972d14bc996ce80e3d56801154fd6ac1f67ca"
+    },
+    {
+      "path": "evidence/collection-consolidation/reference-gate.json",
+      "sha256": "f9515d267ec1466892aae3c677ba08803c688b1d8a70f5194025f12e8119fb56"
+    },
+    {
+      "path": "evidence/collection-consolidation/retired.json",
+      "sha256": "bf454f0ba3431215a7663db110525dde03da910f2a978d32e5fa415f84f78e99"
+    },
+    {
+      "path": "evidence/collection-consolidation/styles.json",
+      "sha256": "bd6ccf3999cdf59e2724782a917d97c67e31b1d803bf395779c1cb3f4663b76f"
+    }
+  ],
+  "limits": [
+    "Contraste autorizado de segmented selected default/hover: 4.39:1 y 2.26:1; warning Avatar: 3.32:1. Se conserva la limitación, sin declarar AA.",
+    "Se preservó la configuración de reacciones y las identidades de componentes; no se repitió reproducción interactiva ni se acreditan ARIA/teclado/React.",
+    "Las huellas FNV del adaptador son controles de transporte/comparación; la integridad de los archivos de evidencia se registra con SHA-256."
+  ]
+}

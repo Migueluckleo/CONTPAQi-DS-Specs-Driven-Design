@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P08",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-013"
+    "decision_id": "ADR-020"
   },
   "targets": [
     "documentation"
@@ -60,13 +60,18 @@
       "id": "SRC-CRITERIA",
       "path": "evidence/authorization/token-protocol-criteria-request.txt",
       "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
+    },
+    {
+      "id": "SRC-COLLECTION",
+      "path": "evidence/authorization/component-collection-request.txt",
+      "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P05",
-      "version": "2.0.2",
+      "version": "2.0.3",
       "relation": "uses"
     }
   ],
@@ -162,6 +167,17 @@
         "Cada push produce un PDF condensado identificado por SHA y asociado a su receipt y MD; la prueba de incumplimiento produce PDF de fallo y CI no cero.",
         "Verificar render, acentos, enlaces, alcance de pruebas y ausencia de edición manual o commits recursivos.",
         "El agente entrega el PDF de cada push realizado durante su encargo; para pushes externos GitHub Actions conserva el artefacto descargable y su enlace en el resumen."
+      ]
+    },
+    {
+      "id": "REQ-COLLECTION",
+      "force": "MUST",
+      "provenance": "EXPLICIT",
+      "sources": [
+        "SRC-COLLECTION"
+      ],
+      "acceptance": [
+        "Consumir y verificar la organización de colecciones declarada únicamente en BH-P07 REQ-P07-07; no crear colecciones por familia."
       ]
     }
   ],
@@ -261,3 +277,7 @@ GitHub Actions genera el PDF con el adaptador `python3 -B -m blueheart.release_p
 El agente que hace un push en un encargo entrega al responsable su PDF correspondiente, también para los envíos de prueba, e identifica cuáles incumplieron. Para pushes externos a un encargo, el artefacto de Actions es el canal automático de entrega; no se introduce un monitor ni se promete iniciar una conversación. Conservar la asociación permanente en Git; el artifact usa la retención de GitHub y puede regenerarse con sus referencias.
 
 El PDF se escribe en `output/pdf/` local (ignorado por Git) o fuera del worktree en CI, después de resolver el SHA final. No se añade al commit documental, no genera otro push y no modifica notas históricas. ReportLab es una dependencia opcional fijada del adaptador; el núcleo de arquitectura conserva la biblioteca estándar. Verificar representación visual, legibilidad, acentos y enlaces antes de entregar una nueva plantilla o un PDF local.
+
+### REQ-COLLECTION
+
+Para la ubicación de variables, consumir [BH-P07 REQ-P07-07](07-COMPONENT-TOKENS.md#req-p07-07). El pase y QA del destino deben acreditar esa organización con su inventario nativo. El registro y la migración pertenecen a ADR-020 y al contrato vigente; no copiar aquí otra definición de la estructura.

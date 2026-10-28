@@ -1,6 +1,6 @@
 # Consumir Button desde una Skill
 
-La fuente de verdad es [BUTTON-001@2.0.1](../../norms/components/button.2.0.1.md): diseño, función, requisitos y responsabilidades del consumidor. El [manifiesto derivado](manifest.json) enlaza ese contrato y su token set por hash con las identidades reales de Figma; no contiene otra definición editable de reglas. El [snapshot MD de inspección](../../evidence/button-pilot/source/component-contract.md) documenta lo observado, sin autoridad normativa.
+La fuente de verdad es [BUTTON-001@3.0.0](../../norms/components/button.3.0.0.md): diseño, función, requisitos y responsabilidades del consumidor. El [manifiesto derivado](manifest.json) enlaza ese contrato y su token set por hash con las identidades reales de Figma; no contiene otra definición editable de reglas. El [snapshot MD de inspección](../../evidence/button-pilot/source/component-contract.md) documenta lo observado, sin autoridad normativa.
 
 ## Entrada mínima
 
@@ -8,13 +8,13 @@ Desde la raíz de Blue Heart DS:
 
 ```sh
 python3 -B -m blueheart check
-python3 -B -m blueheart context BUTTON-001 --version 2.0.1 --compact --modes '{"button":"Contable"}'
-python3 -B -m blueheart resolve-token button.color-button-primary-bg-hover --modes '{"button":"Contable"}'
+python3 -B -m blueheart context BUTTON-001 --version 3.0.0 --compact --modes '{"component":"Contable"}'
+python3 -B -m blueheart resolve-token button.color-button-primary-bg-hover --modes '{"component":"Contable"}'
 ```
 
 Fijar los hashes de contrato, token set y snapshot al inicio del trabajo. La consulta compacta conserva los 18 requisitos y los 47 tokens consumidores; selecciona solamente los aliases necesarios para el tema. Declara el contexto de modos y conserva los overrides explícitos de alias. La procedencia por token se recupera del conjunto enlazado por hash. El límite se mide en bytes UTF-8 del JSON canónico, no en tokens de modelo ni en bytes de la presentación indentada del CLI. Un resultado BLOCKED nunca habilita consumir una salida parcial.
 
-Los temas válidos de la colección `button` son `Contable` (predeterminado), `Administrativo`, `Servicios` y `Personas`. Si se necesita evidencia, usar `context BUTTON-001 --intent evidence` y abrir únicamente el selector afectado. No cargar todos los snapshots, protocolos históricos o el repositorio original para construir una pantalla.
+Los temas válidos de la colección `component` son `Contable` (predeterminado), `Administrativo`, `Servicios` y `Personas`. Si se necesita evidencia, usar `context BUTTON-001 --intent evidence` y abrir únicamente el selector afectado. No cargar todos los snapshots, protocolos históricos o el repositorio original para construir una pantalla.
 
 ## Prototipo Figma
 
@@ -53,3 +53,5 @@ python3 -B consumption/button/materialize-plan.py > /tmp/blueheart-button-plan.j
 ```
 
 La salida combina el baseline histórico con la corrección mínima enlazada por hash en el manifiesto; conserva geometría, bindings, propiedades y tokens. No editar ni consumir directamente el baseline como receta vigente. Para `button-builder.js`, suministrar `DATA.contractVersion` desde el manifiesto y `DATA.variants` filtradas por familia desde esta salida; el adaptador rechaza Secondary focus con destino de otro tamaño antes de crear nodos. `button-check.js` recibe esas mismas variantes para calcular lo esperado. `button-review.js` recibe `DATA.contractPath` desde el mismo manifiesto. Estas proyecciones no autorizan reconstruir o duplicar componentes ya existentes.
+
+La migración ADR-020 deja tres colecciones y se gobierna por [BH-P07 REQ-P07-07](../../protocols/07-COMPONENT-TOKENS.md#req-p07-07). El [mapa actual](../../evidence/collection-consolidation/migration-map.json) conserva identidades lógicas/WEB y enlaza IDs, rutas y modos nuevos; el [QA de la migración](../../evidence/qa/component-collection-check.json) complementa las pruebas históricas enlazadas arriba. Consultar `component` para el tema; las colecciones anteriores ya no existen en el destino.

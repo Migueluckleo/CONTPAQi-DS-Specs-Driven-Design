@@ -3,22 +3,18 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "TAB-001",
-    "version": "1.1.0",
-    "path": "norms/components/tab.1.1.0.md",
-    "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f"
+    "version": "2.0.0",
+    "path": "norms/components/tab.2.0.0.md",
+    "sha256": "87d94b80a8008d658640b1c3410b35e0aaf977d4e453649c5dc652b876d76a4f",
+    "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "2.1.0",
-      "path": "norms/tokens/blueheart.2.1.0.json",
-      "sha256": "aefb82a057f9cce158b30412bab31dbff5757731f7af93ed8620a49a9fb63608"
-    },
-    {
-      "id": "TAB-TOKENS",
-      "version": "1.1.0",
-      "path": "norms/tokens/tab.1.1.0.json",
-      "sha256": "00dab9bfdb202a689461f609a288afb01dcec41e41d006043df1a852969a35b4"
+      "version": "3.0.0",
+      "path": "norms/tokens/blueheart.3.0.0.json",
+      "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
+      "current": true
     }
   ],
   "fileKey": "98xEw6sK8FRVNEhopM5SSz",
@@ -103,13 +99,14 @@
     }
   ],
   "collection": {
-    "id": "VariableCollectionId:78:53",
-    "name": "tab",
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
     "modeIds": {
-      "Contable": "78:4",
-      "Administrativo": "78:5",
-      "Servicios": "78:6",
-      "Personas": "78:7"
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
     }
   },
   "family": {
@@ -477,8 +474,8 @@
       "figmaName": "tab/border/width-emphasis",
       "web": "var(--border-tab-width-emphasis)",
       "scope": "STROKE_FLOAT",
-      "nativeId": "VariableID:78:54",
-      "nativeKey": "88f2ab98682ccd4762bb2ee6c870f03391605871",
+      "nativeId": "VariableID:171:2",
+      "nativeKey": "2ed81db8ba7d561f4a04ec0261b8bbd77ee9e612",
       "aliases": {
         "Contable": {
           "alias": "semantic.stroke-md"
@@ -500,8 +497,8 @@
       "figmaName": "tab/border/width-regular",
       "web": "var(--border-tab-width-regular)",
       "scope": "STROKE_FLOAT",
-      "nativeId": "VariableID:78:55",
-      "nativeKey": "48c8b2810f0c13a3951f35be9ef3c5f7d811e0a8",
+      "nativeId": "VariableID:171:3",
+      "nativeKey": "f5665d751fb98e861dab8889f5b7b953153e820a",
       "aliases": {
         "Contable": {
           "alias": "semantic.stroke-xs"
@@ -523,8 +520,8 @@
       "figmaName": "tab/color/bg/primary-hover",
       "web": "var(--color-tab-bg-brand-accent)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:78:56",
-      "nativeKey": "42053b97ab2f8b09bb8b70c14345b7eb3d3b2b34",
+      "nativeId": "VariableID:171:4",
+      "nativeKey": "7868bdd93414cd2194b23769dcc7e53fa0bb18a5",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-accent"
@@ -546,8 +543,8 @@
       "figmaName": "tab/color/bg/primary-default",
       "web": "var(--color-tab-bg-brand-subtle)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:78:57",
-      "nativeKey": "3ff781b9e0ced5cd883707a13a6532ee93717aba",
+      "nativeId": "VariableID:171:5",
+      "nativeKey": "4b23ebb6ea1cbafd80820e83b9149b73bbe13ef5",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-subtle"
@@ -569,8 +566,8 @@
       "figmaName": "tab/color/bg/count-default",
       "web": "var(--color-tab-bg-count)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:78:58",
-      "nativeKey": "6665b77009b0cd0e8771514d3a06c182e90acbad",
+      "nativeId": "VariableID:171:6",
+      "nativeKey": "718c52a7a993755257c6f840a48f83a679e93870",
       "aliases": {
         "Contable": {
           "alias": "semantic.danger-default"
@@ -592,8 +589,8 @@
       "figmaName": "tab/color/bg/segmented-hover",
       "web": "var(--color-tab-bg-muted)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:78:59",
-      "nativeKey": "36e26eb47b31e7a2bf2bd390c277b742ef713349",
+      "nativeId": "VariableID:171:7",
+      "nativeKey": "9d0306bccba432714ce154e6043a7999617dd05a",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-muted"
@@ -615,8 +612,8 @@
       "figmaName": "tab/color/bg/secondary-hover",
       "web": "var(--color-tab-bg-subtle)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:78:60",
-      "nativeKey": "921450f4824611c46a080e35468d6ac24d967295",
+      "nativeId": "VariableID:171:8",
+      "nativeKey": "8ed5a98264511b34c93e50c04b05e60f530cf05f",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-subtle"
@@ -638,8 +635,8 @@
       "figmaName": "tab/color/bg/segmented-focus",
       "web": "var(--color-tab-bg-surface)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:78:61",
-      "nativeKey": "f271ebb723008234a5f6942049ed7c4912825c44",
+      "nativeId": "VariableID:171:9",
+      "nativeKey": "013bb5bed8c0737b2060cc5ef7a039bc7bf5c30b",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-base"
@@ -661,8 +658,8 @@
       "figmaName": "tab/color/icon/primary-default",
       "web": "var(--color-tab-icon-brand)",
       "scope": "SHAPE_FILL",
-      "nativeId": "VariableID:78:62",
-      "nativeKey": "7cb5ca300223d7d0c03ae57d8688481152ae234b",
+      "nativeId": "VariableID:171:10",
+      "nativeKey": "a4b0f5b9e6b271f790de1f6e6c31cb0df451b8a1",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-default"
@@ -684,8 +681,8 @@
       "figmaName": "tab/color/icon/disabled",
       "web": "var(--color-tab-icon-disabled)",
       "scope": "SHAPE_FILL",
-      "nativeId": "VariableID:78:63",
-      "nativeKey": "9659a240f39e59221a317c73d510ecd5b728b1e5",
+      "nativeId": "VariableID:171:11",
+      "nativeKey": "9df0130a84fd502e6ec573c1b633fb6fd27f1418",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-soft"
@@ -707,8 +704,8 @@
       "figmaName": "tab/color/icon/secondary-hover",
       "web": "var(--color-tab-icon-primary)",
       "scope": "SHAPE_FILL",
-      "nativeId": "VariableID:78:64",
-      "nativeKey": "958377a3c98ea0520081eee4b1bad51095b8cdf2",
+      "nativeId": "VariableID:171:12",
+      "nativeKey": "c96f94238ba8ca3c06732324f88725e564477472",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-maximum"
@@ -730,8 +727,8 @@
       "figmaName": "tab/color/icon/secondary-default",
       "web": "var(--color-tab-icon-secondary)",
       "scope": "SHAPE_FILL",
-      "nativeId": "VariableID:78:65",
-      "nativeKey": "ce7d1b15669edc4f513ab307a02f0c242f5380e1",
+      "nativeId": "VariableID:171:13",
+      "nativeKey": "4729594a6e9951df01f20ed5c2fc0a6d518f6595",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-medium"
@@ -753,8 +750,8 @@
       "figmaName": "tab/color/stroke/primary-default",
       "web": "var(--color-tab-stroke-brand)",
       "scope": "STROKE_COLOR",
-      "nativeId": "VariableID:78:66",
-      "nativeKey": "3ca3af3e537b863d086bd347eb705d998e142f29",
+      "nativeId": "VariableID:171:14",
+      "nativeKey": "433a559a8a14dd49b040748babc7be5c25d9bc0e",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-default"
@@ -776,8 +773,8 @@
       "figmaName": "tab/color/stroke/primary-hover",
       "web": "var(--color-tab-stroke-brand-hover)",
       "scope": "STROKE_COLOR",
-      "nativeId": "VariableID:78:67",
-      "nativeKey": "2685f7c5ac9ca276ad44e9610131c835fea79707",
+      "nativeId": "VariableID:171:15",
+      "nativeKey": "62980914decc73c76a8f5ac127201d5e8184addc",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-strong"
@@ -799,8 +796,8 @@
       "figmaName": "tab/color/stroke/focus",
       "web": "var(--color-tab-stroke-focus)",
       "scope": "STROKE_COLOR",
-      "nativeId": "VariableID:78:68",
-      "nativeKey": "9659c9c1d8961c47827b3b62865a015c6bd8bd27",
+      "nativeId": "VariableID:171:16",
+      "nativeKey": "18915c1394eaa88fe14ac46768407728f2a3ce04",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-strong"
@@ -822,8 +819,8 @@
       "figmaName": "tab/color/stroke/secondary-hover",
       "web": "var(--color-tab-stroke-neutral)",
       "scope": "STROKE_COLOR",
-      "nativeId": "VariableID:78:69",
-      "nativeKey": "8b89acd5ec6683717949404f763d08e622609b22",
+      "nativeId": "VariableID:171:17",
+      "nativeKey": "659089c4be38b869fef3ce002f7865b12ec03db9",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-soft"
@@ -845,8 +842,8 @@
       "figmaName": "tab/color/stroke/count-default",
       "web": "var(--color-tab-stroke-surface)",
       "scope": "STROKE_COLOR",
-      "nativeId": "VariableID:78:70",
-      "nativeKey": "3212ad1730f4a5ebbefee2c88454465a076b16aa",
+      "nativeId": "VariableID:171:18",
+      "nativeKey": "b93257a073c27054762a487b02d1093369a495c4",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-base"
@@ -868,8 +865,8 @@
       "figmaName": "tab/color/text/primary-default",
       "web": "var(--color-tab-text-brand)",
       "scope": "TEXT_FILL",
-      "nativeId": "VariableID:78:71",
-      "nativeKey": "88366c6b1e895fa33196f365cfcd54101a68aa55",
+      "nativeId": "VariableID:171:19",
+      "nativeKey": "1713ad58d89c7221914be6369e3144bd157ae201",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-default"
@@ -891,8 +888,8 @@
       "figmaName": "tab/color/text/primary-hover",
       "web": "var(--color-tab-text-brand-hover)",
       "scope": "TEXT_FILL",
-      "nativeId": "VariableID:78:72",
-      "nativeKey": "3a28c09290ddf19b787d78952722367bf0e879b7",
+      "nativeId": "VariableID:171:20",
+      "nativeKey": "3942ee1d88bc053f1507b80dfbd4c5469175a997",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-strong"
@@ -914,8 +911,8 @@
       "figmaName": "tab/color/text/disabled",
       "web": "var(--color-tab-text-disabled)",
       "scope": "TEXT_FILL",
-      "nativeId": "VariableID:78:73",
-      "nativeKey": "9880851d226e3adfdb286b7dfdd4cd82e3c611d8",
+      "nativeId": "VariableID:171:21",
+      "nativeKey": "c43d30a1da5adf7cececd6cd5cb13215996bf338",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-soft"
@@ -937,8 +934,8 @@
       "figmaName": "tab/color/text/inverse",
       "web": "var(--color-tab-text-inverse)",
       "scope": "TEXT_FILL",
-      "nativeId": "VariableID:78:74",
-      "nativeKey": "f18ac84e1ce17882e16363ca4c844d855be4ce8d",
+      "nativeId": "VariableID:171:22",
+      "nativeKey": "b3c252a35799f8e00263766005514d2fc0fc3a83",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-base"
@@ -960,8 +957,8 @@
       "figmaName": "tab/color/text/secondary-hover",
       "web": "var(--color-tab-text-primary)",
       "scope": "TEXT_FILL",
-      "nativeId": "VariableID:78:75",
-      "nativeKey": "61b9cd201bae592f1a1bc5af601f8aaa0d8992d3",
+      "nativeId": "VariableID:171:23",
+      "nativeKey": "bcbd1743790190227a584a52abe384698072cfe9",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-maximum"
@@ -983,8 +980,8 @@
       "figmaName": "tab/color/text/secondary-default",
       "web": "var(--color-tab-text-secondary)",
       "scope": "TEXT_FILL",
-      "nativeId": "VariableID:78:76",
-      "nativeKey": "6bbd071d778d1b3dea7fc4acb6f8cc330f1727cb",
+      "nativeId": "VariableID:171:24",
+      "nativeKey": "b4ce56ab086a7a766980645ddf839829cb503879",
       "aliases": {
         "Contable": {
           "alias": "semantic.neutral-strong"
@@ -1006,8 +1003,8 @@
       "figmaName": "tab/font/count-style",
       "web": "var(--font-tab-count-style)",
       "scope": "FONT_STYLE",
-      "nativeId": "VariableID:78:77",
-      "nativeKey": "c997ff04cc56f0714630a4e6946afc2277fc82d5",
+      "nativeId": "VariableID:171:25",
+      "nativeKey": "63d9e872af4be4d8cda8164defac25d7a215197e",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-weight-bold"
@@ -1029,8 +1026,8 @@
       "figmaName": "tab/font/family",
       "web": "var(--font-tab-family)",
       "scope": "FONT_FAMILY",
-      "nativeId": "VariableID:78:78",
-      "nativeKey": "03404a2ad78dd080622856b12e1123df8a4012e2",
+      "nativeId": "VariableID:171:26",
+      "nativeKey": "507bcf9888ec47efba145fe379705e793f233663",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-family-base"
@@ -1052,8 +1049,8 @@
       "figmaName": "tab/font/label-style",
       "web": "var(--font-tab-label-style)",
       "scope": "FONT_STYLE",
-      "nativeId": "VariableID:78:79",
-      "nativeKey": "0b9c11efafa4642c70d0229de43b9aa6b18967cc",
+      "nativeId": "VariableID:171:27",
+      "nativeKey": "8bef34452e81339852093d694e47857bc46969c6",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-weight-regular"
@@ -1075,8 +1072,8 @@
       "figmaName": "tab/font/letter-spacing",
       "web": "var(--font-tab-letter-spacing)",
       "scope": "LETTER_SPACING",
-      "nativeId": "VariableID:78:80",
-      "nativeKey": "6674a9ecb7ed74fbc4e141a4786c5317fccd5784",
+      "nativeId": "VariableID:171:28",
+      "nativeKey": "47ad43d2950283636706d9e86518bd9471f8d3bd",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-letter-spacing-normal"
@@ -1098,8 +1095,8 @@
       "figmaName": "tab/font/line-height-count",
       "web": "var(--font-tab-line-height-count)",
       "scope": "LINE_HEIGHT",
-      "nativeId": "VariableID:78:81",
-      "nativeKey": "f09ab9b72da44994f0b60a12fb232dd8cc8b17d5",
+      "nativeId": "VariableID:171:29",
+      "nativeKey": "20c6dd31137ce2e1366540dc82ddceb5c4d4e0c5",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-line-height-xs"
@@ -1121,8 +1118,8 @@
       "figmaName": "tab/font/line-height-label",
       "web": "var(--font-tab-line-height-label)",
       "scope": "LINE_HEIGHT",
-      "nativeId": "VariableID:78:82",
-      "nativeKey": "91642ba7344c49e7b2110c83742720e71ed567ca",
+      "nativeId": "VariableID:171:30",
+      "nativeKey": "731d7ba62040d226e3aac9621b9974e1c9acc16c",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-line-height-sm"
@@ -1144,8 +1141,8 @@
       "figmaName": "tab/font/selected-style",
       "web": "var(--font-tab-selected-style)",
       "scope": "FONT_STYLE",
-      "nativeId": "VariableID:78:83",
-      "nativeKey": "3436876781598bc4363f19579fd867227fd1d7e5",
+      "nativeId": "VariableID:171:31",
+      "nativeKey": "df42215818c0f8a9279ba50b51f0d8b9242fc004",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-weight-semibold"
@@ -1167,8 +1164,8 @@
       "figmaName": "tab/font/size-count",
       "web": "var(--font-tab-size-count)",
       "scope": "FONT_SIZE",
-      "nativeId": "VariableID:78:84",
-      "nativeKey": "7afb0deaca5786ab06f9fd51e0070a1883881dce",
+      "nativeId": "VariableID:171:32",
+      "nativeKey": "eeb1c7c0af187a5659352da5e05e41e51355db6c",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-size-1xs"
@@ -1190,8 +1187,8 @@
       "figmaName": "tab/font/size-label",
       "web": "var(--font-tab-size-label)",
       "scope": "FONT_SIZE",
-      "nativeId": "VariableID:78:85",
-      "nativeKey": "0f05223f11687865a5150e52d4d86100bb7f83f9",
+      "nativeId": "VariableID:171:33",
+      "nativeKey": "e17d6c2360881ec3d81b7ae75ddc0839f578285c",
       "aliases": {
         "Contable": {
           "alias": "semantic.font-size-sm"
@@ -1213,8 +1210,8 @@
       "figmaName": "tab/radius/full",
       "web": "var(--radius-tab-full)",
       "scope": "CORNER_RADIUS",
-      "nativeId": "VariableID:78:86",
-      "nativeKey": "5605bb9674f0c8140418c8bf9213586a9c9afd93",
+      "nativeId": "VariableID:171:34",
+      "nativeKey": "1069689fbbb6d2f6d88c899ddbc6ca50306530f6",
       "aliases": {
         "Contable": {
           "alias": "semantic.radius-full"
@@ -1236,8 +1233,8 @@
       "figmaName": "tab/radius/lg",
       "web": "var(--radius-tab-lg)",
       "scope": "CORNER_RADIUS",
-      "nativeId": "VariableID:78:87",
-      "nativeKey": "d85da439feb207234fa27b8f4938a0ff6b761a4f",
+      "nativeId": "VariableID:171:35",
+      "nativeKey": "8d047bde67a90d490212f4f5b5c44c13d408dc53",
       "aliases": {
         "Contable": {
           "alias": "semantic.radius-lg"
@@ -1259,8 +1256,8 @@
       "figmaName": "tab/radius/md",
       "web": "var(--radius-tab-md)",
       "scope": "CORNER_RADIUS",
-      "nativeId": "VariableID:78:88",
-      "nativeKey": "4f4d5a3e13af9c4d466cf5828f9291d7b1e32dd5",
+      "nativeId": "VariableID:171:36",
+      "nativeKey": "2180083f6a34de2a47f747dd1bf4e4423fd438e7",
       "aliases": {
         "Contable": {
           "alias": "semantic.radius-md"
@@ -1282,8 +1279,8 @@
       "figmaName": "tab/radius/sm",
       "web": "var(--radius-tab-sm)",
       "scope": "CORNER_RADIUS",
-      "nativeId": "VariableID:78:89",
-      "nativeKey": "cb02d8a691e5eb742a483c1e01a02e538401ef2c",
+      "nativeId": "VariableID:171:37",
+      "nativeKey": "7c8b0b671e47b437671ef1d75ac28fab202379bf",
       "aliases": {
         "Contable": {
           "alias": "semantic.radius-sm"
@@ -1305,8 +1302,8 @@
       "figmaName": "tab/size/count",
       "web": "var(--size-tab-count)",
       "scope": "WIDTH_HEIGHT",
-      "nativeId": "VariableID:78:90",
-      "nativeKey": "a46f9e7cbe3a83fc8bb1bcab26b5a8dd74103eea",
+      "nativeId": "VariableID:171:38",
+      "nativeKey": "c18d3bf0cc10f3ca0e25f73d1532ee65fa5ebb48",
       "aliases": {
         "Contable": {
           "alias": "semantic.size-lg"
@@ -1328,8 +1325,8 @@
       "figmaName": "tab/size/icon",
       "web": "var(--size-tab-icon)",
       "scope": "WIDTH_HEIGHT",
-      "nativeId": "VariableID:78:91",
-      "nativeKey": "ebeea9157128ea3535a13045872a2fa04c38f5ab",
+      "nativeId": "VariableID:171:39",
+      "nativeKey": "74a06460723e59d6b8d4fdee448ef0b1fd353970",
       "aliases": {
         "Contable": {
           "alias": "semantic.size-xl"
@@ -1351,8 +1348,8 @@
       "figmaName": "tab/spacing/lg",
       "web": "var(--spacing-tab-lg)",
       "scope": "GAP",
-      "nativeId": "VariableID:78:92",
-      "nativeKey": "7061aea2b11dc954c8675e7a6f36b451fd37662d",
+      "nativeId": "VariableID:171:40",
+      "nativeKey": "29ba9dad7a492c962acc2e1b4f4d0cff78f8687b",
       "aliases": {
         "Contable": {
           "alias": "semantic.spacing-lg"
@@ -1374,8 +1371,8 @@
       "figmaName": "tab/spacing/md",
       "web": "var(--spacing-tab-md)",
       "scope": "GAP",
-      "nativeId": "VariableID:78:93",
-      "nativeKey": "1da740854bb0305d2c6392140664426f4798b671",
+      "nativeId": "VariableID:171:41",
+      "nativeKey": "a1b0d4490e5a868b6901c7661c3faaf6b3e1f550",
       "aliases": {
         "Contable": {
           "alias": "semantic.spacing-md"
@@ -1397,8 +1394,8 @@
       "figmaName": "tab/spacing/none",
       "web": "var(--spacing-tab-none)",
       "scope": "GAP",
-      "nativeId": "VariableID:78:94",
-      "nativeKey": "6846c844f25a1b11dc3ae28f6329cc0ef6e6121d",
+      "nativeId": "VariableID:171:42",
+      "nativeKey": "ade8b6787d1958e79ff21c6fd6044b1f26ab8242",
       "aliases": {
         "Contable": {
           "alias": "semantic.spacing-none"
@@ -1420,8 +1417,8 @@
       "figmaName": "tab/spacing/sm",
       "web": "var(--spacing-tab-sm)",
       "scope": "GAP",
-      "nativeId": "VariableID:78:95",
-      "nativeKey": "c78e58e0de5804a8bb1be02c1d65377c07b2a778",
+      "nativeId": "VariableID:171:43",
+      "nativeKey": "1efd977b7b6503058ffc1499c71d554dfc9d3142",
       "aliases": {
         "Contable": {
           "alias": "semantic.spacing-sm"
@@ -1443,8 +1440,8 @@
       "figmaName": "tab/spacing/xs",
       "web": "var(--spacing-tab-xs)",
       "scope": "GAP",
-      "nativeId": "VariableID:78:96",
-      "nativeKey": "926d4ce62f57364ee53868333df2f4dd60b02dc9",
+      "nativeId": "VariableID:171:44",
+      "nativeKey": "21ac3cbf1a496919b836948e119ff6f324a78fd4",
       "aliases": {
         "Contable": {
           "alias": "semantic.spacing-xs"
@@ -1466,8 +1463,8 @@
       "figmaName": "tab/color/bg/segmented-selected-default",
       "web": "var(--color-tab-bg-segmented-selected-default)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:107:250",
-      "nativeKey": "818ffe9b16788be432ffe0a63f9b2aa3b8f33688",
+      "nativeId": "VariableID:171:50",
+      "nativeKey": "36b5bfbc7adc65d3efe57b88ca0d510055a82a21",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-personas-medium"
@@ -1489,8 +1486,8 @@
       "figmaName": "tab/color/bg/segmented-selected-hover",
       "web": "var(--color-tab-bg-segmented-selected-hover)",
       "scope": "FRAME_FILL",
-      "nativeId": "VariableID:107:251",
-      "nativeKey": "f3bdbe1fcd0d397adfcc22a8c8bbbe33c3a44d8e",
+      "nativeId": "VariableID:171:51",
+      "nativeKey": "3dd129ae2c5870da3fdca3ed434d7bfc4f4ec17f",
       "aliases": {
         "Contable": {
           "alias": "semantic.brand-personas-soft"
@@ -1508,8 +1505,8 @@
     }
   ],
   "recipes": {
-    "path": "consumption/tab/current-build-plan.json",
-    "sha256": "0335a0b29170030689623f322bb2fd534df3e054e41e31592bc2c0a3bf2e75c8",
+    "path": "consumption/tab/build-plan.2.0.0.json",
+    "sha256": "1a1aa8ffaf6d1abde904527fb5296776aff8fb8a07bc09a71a98dafbe740fb36",
     "generator": "consumption/tab/materialize-plan.py"
   },
   "binding_map": {
@@ -1517,10 +1514,8 @@
     "sha256": "4413f65f91e04ee268958ff6fcb17f4cc0410cb123f832e7e81042bcdd9dcd56"
   },
   "qa": {
-    "path": "evidence/tabs-page-reconciliation/slot-qa.json",
-    "sha256": "23bb883f0563217ee41ec63bee7acc0248066b6e89fdcf0bf36ea74741ca6ba4",
-    "current_summary": "evidence/qa/tabs-page-reconciliation-check.json",
-    "historical_baseline": "evidence/qa/tab-pilot-check.json"
+    "path": "evidence/qa/component-collection-check.json",
+    "sha256": "c2f042b6eb240a1fae7337b641f833a79e1781728a54bebad441b1ead044bc62"
   },
   "source_observation": {
     "path": "evidence/tab-pilot/source/component-contract.md",
@@ -1534,5 +1529,19 @@
     "mastersId": "111:442",
     "groupContract": "TABS-001@1.0.0",
     "slotQaFrameId": "121:409"
+  },
+  "collectionMigration": {
+    "path": "evidence/collection-consolidation/migration-map.json",
+    "sha256": "e5586f4a6c044234353daf7eeb97e630a2b1105888b9bcd6e827ad442e7b2e8c"
+  },
+  "nativeLedger": {
+    "path": "consumption/tab/current-native-ledger.json",
+    "sha256": "1eb51de6e7dba024b5d3a4472db7a7088fd6a99248237f94254bd55d4a7caf42"
+  },
+  "historicalQA": {
+    "path": "evidence/tabs-page-reconciliation/slot-qa.json",
+    "sha256": "23bb883f0563217ee41ec63bee7acc0248066b6e89fdcf0bf36ea74741ca6ba4",
+    "current_summary": "evidence/qa/tabs-page-reconciliation-check.json",
+    "historical_baseline": "evidence/qa/tab-pilot-check.json"
   }
 }

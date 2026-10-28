@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P03",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-018"
+    "decision_id": "ADR-020"
   },
   "targets": [
     "documentation"
@@ -30,13 +30,18 @@
       "id": "SRC-CRITERIA",
       "path": "evidence/authorization/token-protocol-criteria-request.txt",
       "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
+    },
+    {
+      "id": "SRC-COLLECTION",
+      "path": "evidence/authorization/component-collection-request.txt",
+      "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "relation": "uses"
     },
     {
@@ -119,6 +124,17 @@
       ],
       "acceptance": [
         "Import oficial y peso/export coinciden con BH-P06."
+      ]
+    },
+    {
+      "id": "REQ-COLLECTION",
+      "force": "MUST",
+      "provenance": "EXPLICIT",
+      "sources": [
+        "SRC-COLLECTION"
+      ],
+      "acceptance": [
+        "Consumir y verificar la organización de colecciones declarada únicamente en BH-P07 REQ-P07-07; no crear colecciones por familia."
       ]
     }
   ],
@@ -211,3 +227,7 @@ Aplicar [BH-P04](04-QA-AND-DELIVERY.md) y registrar alcance probado, comandos y 
 Aplicar [BH-P06 · Phosphor](06-PHOSPHOR-ICONS.md): Figma consume la biblioteca del equipo mediante instancias vinculadas; desarrollo consume directamente el paquete oficial. Conservar mapeo de nombre, peso, variante y key/export, con color y tamaño desde tokens del consumidor.
 
 Los nombres agrupados de Figma se leen como `figmaName` conforme a BH-P07. El CSS se consume desde el WEB registrado: no derivarlo automáticamente de esa ruta ni renombrar la API por una reorganización de grupos Figma.
+
+### REQ-COLLECTION
+
+Para la ubicación de variables, consumir [BH-P07 REQ-P07-07](07-COMPONENT-TOKENS.md#req-p07-07). El pase y QA del destino deben acreditar esa organización con su inventario nativo. El registro y la migración pertenecen a ADR-020 y al contrato vigente; no copiar aquí otra definición de la estructura.

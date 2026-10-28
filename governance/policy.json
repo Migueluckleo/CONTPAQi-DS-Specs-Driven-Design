@@ -130,5 +130,10 @@
     "protocols": "Contratos operativos MD registrados en el catálogo; un propietario por protocolo, sin valores del DS ni permisos adicionales de construcción",
     "docs/releases": "Registros derivados por envío, evidencias de pruebas y configuración CI de BH-P08; no constituye otro contrato normativo",
     ".github": "CI de BH-P08 con permisos de lectura; notas, comprobante y PDF derivados sin autocommits"
+  },
+  "token_collections": {
+    "primitive": "primitive",
+    "semantic": "semantic",
+    "component": "component"
   }
 }

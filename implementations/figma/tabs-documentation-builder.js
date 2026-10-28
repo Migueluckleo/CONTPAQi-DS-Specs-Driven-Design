@@ -56,5 +56,5 @@ async function build(d,parent){
  tag(n,d);return n;
 }
 const root=await build(DATA.recipe,groupParent);
-if(groupParent===page)root.setExplicitVariableModeForCollection('VariableCollectionId:78:53','78:4');
+if(groupParent===page)root.setExplicitVariableModeForCollection('VariableCollectionId:11:2','11:0');
 return{rootId:root.id,sourceRootId:DATA.recipe.id,width:root.width,height:root.height,createdNodeIds:created,mutatedNodeIds:mutated,links};
