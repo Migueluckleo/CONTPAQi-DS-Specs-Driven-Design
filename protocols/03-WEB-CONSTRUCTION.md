@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P03",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-011"
+    "decision_id": "ADR-018"
   },
   "targets": [
     "documentation"
@@ -25,13 +25,18 @@
       "id": "SRC-RECOVERY",
       "path": "evidence/protocol-recovery/manifest.json",
       "sha256": "d7c7ae3dca2ee7d76102f591803b1426b9300030454523467f74c7801fc33d5c"
+    },
+    {
+      "id": "SRC-CRITERIA",
+      "path": "evidence/authorization/token-protocol-criteria-request.txt",
+      "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "relation": "uses"
     },
     {
@@ -72,10 +77,12 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-CRITERIA"
       ],
       "acceptance": [
-        "CSS generado resuelve tokens y unidades; recetas conservan mínimo y nombres de BH-P07 sin inventario manual de valores."
+        "CSS generado resuelve tokens y unidades; recetas conservan mínimo y nombres de BH-P07 sin inventario manual de valores.",
+        "Proyección CSS y cambio de tema respetan REQ-P07-06; nombres se resuelven desde WEB registrado y no se genera otra paleta o token por clase."
       ]
     },
     {
@@ -172,6 +179,8 @@ Representar composición mediante children, regiones ReactNode o colecciones tip
 **3. Tokens, Tailwind y tipografía**
 
 Resolver la cadena con BH-P01 y aplicar obligatoriamente [BH-P07](07-COMPONENT-TOKENS.md): las recetas de estados reutilizan tokens compartidos y el adaptador no genera otra variable por cada clase o combinación. Ejecutar el gate de minimización antes de generar CSS o componentes. El CSS será una proyección generada de las fuentes seleccionadas; no otro inventario editable. No reemplazar un binding por el RGB equivalente ni usar escalas cromáticas de Tailwind como sustituto del DS. Las variables CSS de componente contendrán propiedad/estado y referenciarán los semánticos compartidos; su creación espera la familia real y la fase habilitada.
+
+La proyección consume [REQ-P07-06](07-COMPONENT-TOKENS.md#req-p07-06) y verifica sus roles/excepciones al cambiar el tema en el navegador. No derivar la dependencia temática de una clase Tailwind o del nombre de un alias.
 
 No convertir unidades implícitamente ni modificar pesos, interlineados, tracking, decoración o escalas para acomodar una clase. Conservar fuentes y assets con procedencia, rutas configurables y pruebas de carga; no depender sin declararlo de `/assets` en la raíz del consumidor. Las recetas compartidas futuras tendrán un propietario único y se verificarán por propiedades resueltas.
 

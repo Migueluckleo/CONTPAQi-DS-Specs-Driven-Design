@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "BH-P05",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
@@ -25,19 +25,24 @@
       "id": "SRC-RECOVERY",
       "path": "evidence/protocol-recovery/manifest.json",
       "sha256": "d7c7ae3dca2ee7d76102f591803b1426b9300030454523467f74c7801fc33d5c"
+    },
+    {
+      "id": "SRC-CRITERIA",
+      "path": "evidence/authorization/token-protocol-criteria-request.txt",
+      "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "relation": "uses"
     },
     {
       "kind": "contract",
       "id": "BH-P04",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "relation": "uses"
     }
   ],

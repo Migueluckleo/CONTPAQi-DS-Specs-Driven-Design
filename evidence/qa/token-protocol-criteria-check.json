@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "id": "TOKEN-PROTOCOL-CRITERIA-20261027",
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decision": "ADR-018",
+  "scope": "Operational protocol content, exact dependency pins, registration, contexts and planning gates; no design or Figma changes",
+  "core": {
+    "status": "PASS",
+    "scope": "Infrastructure and registered normative content; not design or implementation QA",
+    "contracts": 13,
+    "token_sets": 3,
+    "tokens": 348,
+    "collections": 5,
+    "mode_contexts": 16,
+    "component_token_minimum": {
+      "BUTTON-001@2.0.0": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "redundancies": 0
+      },
+      "BUTTON-001@2.0.1": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "redundancies": 0
+      },
+      "TAB-001@1.0.0": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 43,
+        "distinct_signatures": 43,
+        "redundancies": 0
+      },
+      "TAB-001@1.1.0": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 45,
+        "distinct_signatures": 45,
+        "redundancies": 0
+      },
+      "TABS-001@1.0.0": {
+        "status": "PASS",
+        "protocol": "BH-P07",
+        "component_tokens": 5,
+        "distinct_signatures": 5,
+        "redundancies": 0
+      }
+    },
+    "graphify_required": false,
+    "deferred": [
+      "figma-write-adapter",
+      "react-library",
+      "graphify-adapter",
+      "persistent-agent-office",
+      "release-publication"
+    ],
+    "snapshot": "141bcdf9240f9976b7d14a8baed06ae87a1889c1e74a0fbce6d0bb057d9f03a4"
+  },
+  "contexts": {
+    "BH-P01": {
+      "version": "2.1.0",
+      "status": "PASS",
+      "bytes": 26179,
+      "documents": [
+        "BH-P07",
+        "BH-P01"
+      ]
+    },
+    "BH-P02": {
+      "version": "2.1.0",
+      "status": "PASS",
+      "bytes": 41604,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P06",
+        "BH-P02"
+      ]
+    },
+    "BH-P03": {
+      "version": "2.1.0",
+      "status": "PASS",
+      "bytes": 40853,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P06",
+        "BH-P03"
+      ]
+    },
+    "BH-P04": {
+      "version": "2.1.0",
+      "status": "PASS",
+      "bytes": 34003,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P04"
+      ]
+    },
+    "BH-P05": {
+      "version": "2.0.2",
+      "status": "PASS",
+      "bytes": 40264,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P04",
+        "BH-P05"
+      ]
+    },
+    "BH-P06": {
+      "version": "2.0.0",
+      "status": "PASS",
+      "bytes": 5746,
+      "documents": [
+        "BH-P06"
+      ]
+    },
+    "BH-P07": {
+      "version": "2.1.0",
+      "status": "PASS",
+      "bytes": 16304,
+      "documents": [
+        "BH-P07"
+      ]
+    },
+    "BH-P08": {
+      "version": "1.2.2",
+      "status": "PASS",
+      "bytes": 55199,
+      "documents": [
+        "BH-P07",
+        "BH-P01",
+        "BH-P04",
+        "BH-P05",
+        "BH-P08"
+      ]
+    }
+  },
+  "qa_plan": {
+    "change": "contract",
+    "impact": {
+      "affected": [
+        "contract:BH-P01@2.1.0",
+        "contract:BH-P02@2.1.0",
+        "contract:BH-P03@2.1.0",
+        "contract:BH-P04@2.1.0",
+        "contract:BH-P05@2.0.2",
+        "contract:BH-P07@2.1.0",
+        "contract:BH-P08@1.2.2"
+      ],
+      "changed": [
+        "protocols/07-COMPONENT-TOKENS.md"
+      ],
+      "scope": "Current declared dependencies; removed/unmapped paths require review against the previous snapshot",
+      "status": "PASS",
+      "unmapped_paths": []
+    },
+    "independent_review": true,
+    "required_gates": [
+      "structure",
+      "references",
+      "authority",
+      "dependencies",
+      "requirements-review",
+      "affected-target-qa",
+      "component-token-minimization",
+      "component-variable-naming",
+      "operational-contracts",
+      "component-theme-behavior"
+    ],
+    "status": "PLAN_ONLY",
+    "tests_executed": false
+  },
+  "preserved_component_and_token_files": [
+    "norms/tokens/blueheart.2.0.0.json",
+    "norms/tokens/tab.1.1.0.json",
+    "norms/tokens/tabs.1.0.0.json",
+    "norms/components/button.2.0.0.md",
+    "norms/components/button.2.0.1.md",
+    "norms/components/tab.1.0.0.md",
+    "norms/components/tabs.1.0.0.md",
+    "norms/components/tab.1.1.0.md"
+  ],
+  "protocol_file_count": 8,
+  "owners": {
+    "criteria": "protocols/07-COMPONENT-TOKENS.md",
+    "contract": "protocols/01-COMPONENT-CONTRACT.md",
+    "figma": "protocols/02-FIGMA-CONSTRUCTION.md",
+    "web": "protocols/03-WEB-CONSTRUCTION.md",
+    "acceptance": "protocols/04-QA-AND-DELIVERY.md"
+  },
+  "limits": {
+    "remote_figma_qa": "NOT_APPLICABLE: no remote changes; prior component evidence retained",
+    "web_implementation": "NOT_APPLICABLE: remains deferred",
+    "independent_review": "NOT_RUN",
+    "unit_tests": "Run by BH-P08 prepare; result stored once in the push record"
+  }
+}

@@ -262,6 +262,26 @@
         "path": "evidence/authorization/tabs-purple-contrast-choice.txt",
         "sha256": "b891d1ceaf4dc510893900f42731341a9e4cbcc8a8c1dfa2179e6faa3cf8b497"
       }
+    },
+    {
+      "id": "ADR-018",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable exige generalizar en los protocolos la nomenclatura por función/estado, el mínimo por firma y la declaración y verificación de comportamiento temático y excepciones. BH-P07 conserva la regla única; contrato, construcción Figma/web y QA la consumen. La excepción concreta de Tab no se generaliza. Actualización documental y controles de consumo, sin cambiar componentes, variables, el origen ni habilitar web o releases oficiales.",
+      "scope": [
+        "BH-P01",
+        "BH-P02",
+        "BH-P03",
+        "BH-P04",
+        "BH-P05",
+        "BH-P07",
+        "BH-P08",
+        "component-token-governance"
+      ],
+      "source": {
+        "path": "evidence/authorization/token-protocol-criteria-request.txt",
+        "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
+      }
     }
   ]
 }

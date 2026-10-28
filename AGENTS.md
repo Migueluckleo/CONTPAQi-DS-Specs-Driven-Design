@@ -28,3 +28,5 @@ ADR-013 elimina las aprobaciones obligatorias para integrar en main; las condici
 ADR-014 adopta Button 2.0.1 y la corrección de Secondary focus en REQ-PROTOTYPE. La guía de consumo enlaza la proyección vigente de recetas y el comprobante de esa corrección; el baseline y la prueba 2.0.0 se conservan como historia.
 
 ADR-015/016/017 registran Tab 1.1.0 y Tabs 1.0.0. Consultar los contratos vigentes por ID y las guías consumption/tab y consumption/tabs; allí se enlazan recetas, mapas y QA actuales. Las decisiones anteriores permanecen como historia; las fuentes siguen en solo lectura y React diferido.
+
+ADR-018 hace obligatorios los criterios de BH-P07 REQ-P07-02/03/06 antes de crear o modificar variables de cualquier familia. Consumir el pase por BH-P01 y verificarlo con BH-P04; la clasificación temática y las excepciones pertenecen al contrato de cada componente. Los casos de Tab no son reglas de color para las familias siguientes.

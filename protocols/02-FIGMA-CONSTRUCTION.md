@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P02",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-011"
+    "decision_id": "ADR-018"
   },
   "targets": [
     "documentation"
@@ -35,13 +35,18 @@
       "id": "SRC-TAB-TYPOGRAPHY",
       "path": "evidence/tab-pilot/destination/style-link-correction.json",
       "sha256": "21552b04d690c457731babd11d5596000e347765e114d78891286234ac183541"
+    },
+    {
+      "id": "SRC-CRITERIA",
+      "path": "evidence/authorization/token-protocol-criteria-request.txt",
+      "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.0.1",
+      "version": "2.1.0",
       "relation": "uses"
     },
     {
@@ -121,10 +126,12 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-CRITERIA"
       ],
       "acceptance": [
-        "Variables observadas, recetas y dependencias corresponden al mínimo y nombres de BH-P07; retiros no conservan referencias."
+        "Variables observadas, recetas y dependencias corresponden al mínimo y nombres de BH-P07; retiros no conservan referencias.",
+        "Lectura posterior contrasta función/estado y comportamiento temático de REQ-P07-02/06 contra variables e instancias reales."
       ]
     }
   ],
@@ -214,3 +221,5 @@ Aplicar [BH-P06 · Phosphor](06-PHOSPHOR-ICONS.md): Figma consume la biblioteca 
 **Consolidación de tokens de componente**
 
 Aplicar obligatoriamente [BH-P07](07-COMPONENT-TOKENS.md) antes de crear variables. Nombrarlas con componente primero y grupos separados por `/`, como `button/color/bg/primary-default`; usar el campo `figmaName` seleccionado por el contrato/mapa. Contrastar los tokens seleccionados con el inventario real del destino para detectar variables no declaradas. Migrar bindings antes de retirar IDs y comprobar referencias en maestros, helpers e instancias consumidoras.
+
+El mapa de REQ-P02-02 consume también [REQ-P07-06](07-COMPONENT-TOKENS.md#req-p07-06). Antes de escribir, verificar ese pase; después, leer nombres, aliases y paints de los consumidores en los modos afectados según BH-P04. Crear variables o configurar sus scopes sin esa lectura no cierra la aceptación.

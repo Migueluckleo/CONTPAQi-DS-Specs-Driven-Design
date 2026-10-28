@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "BH-P08",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
@@ -55,13 +55,18 @@
       "id": "SRC-NO-REVIEWER-AUTH",
       "path": "evidence/authorization/main-without-reviewer-request.txt",
       "sha256": "ffa1572afeb363d4cb2887b72212e6b24e546a95554ab7a045b96244733b5cdd"
+    },
+    {
+      "id": "SRC-CRITERIA",
+      "path": "evidence/authorization/token-protocol-criteria-request.txt",
+      "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P05",
-      "version": "2.0.1",
+      "version": "2.0.2",
       "relation": "uses"
     }
   ],

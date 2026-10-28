@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P01",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-011"
+    "decision_id": "ADR-018"
   },
   "targets": [
     "documentation"
@@ -30,13 +30,18 @@
       "id": "SRC-TAB-AUTH",
       "path": "evidence/authorization/tab-pilot-request.txt",
       "sha256": "a01ef90b7236d87a5cf1c1fa1dcc872b5924b206515a3e306aae0ae6b2d6a586"
+    },
+    {
+      "id": "SRC-CRITERIA",
+      "path": "evidence/authorization/token-protocol-criteria-request.txt",
+      "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P07",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "relation": "uses"
     }
   ],
@@ -109,10 +114,12 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-CRITERIA"
       ],
       "acceptance": [
-        "Dependencias directas, token_minimum y mapa lógico/Figma/WEB son consistentes con BH-P07."
+        "Dependencias directas, token_minimum y mapa lógico/Figma/WEB son consistentes con BH-P07.",
+        "Pase a construcción enlaza REQ-P07-02/03/06: nombres por uso, mínimo por firma y clasificación temática con excepciones delimitadas."
       ]
     }
   ],
@@ -200,3 +207,5 @@ Continuar con [BH-P02](02-FIGMA-CONSTRUCTION.md) o [BH-P03](03-WEB-CONSTRUCTION.
 Aplicar obligatoriamente [BH-P07 · Tokens mínimos y nombres](07-COMPONENT-TOKENS.md) antes de construir o modificar una familia. El contrato debe declarar sus tokens directos y seleccionar la receta parte/propiedad/estado → token. Cada dependencia hija se comprueba en su propio contrato. `check` bloquea firmas redundantes por componente; el consumidor recibe el resultado en `token_minimum` del contexto.
 
 El mapa de construcción declara nombre lógico, ID/key, `figmaName` con la jerarquía de BH-P07 y `codeSyntax.WEB`. El contrato no convierte una ruta visual de Figma en un cambio implícito de la API CSS.
+
+El pase de REQ-P01-05 exige los artefactos de [REQ-P07-02](07-COMPONENT-TOKENS.md#req-p07-02), [REQ-P07-03](07-COMPONENT-TOKENS.md#req-p07-03) y [REQ-P07-06](07-COMPONENT-TOKENS.md#req-p07-06). La Skill debe recibirlos antes de proponer variables; una referencia genérica a la marca no reemplaza la clasificación de los roles.

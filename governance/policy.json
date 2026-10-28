@@ -50,7 +50,8 @@
       "affected-target-qa",
       "component-token-minimization",
       "component-variable-naming",
-      "operational-contracts"
+      "operational-contracts",
+      "component-theme-behavior"
     ],
     "token": [
       "structure",
@@ -59,7 +60,8 @@
       "consumer-impact",
       "affected-target-qa",
       "component-token-minimization",
-      "component-variable-naming"
+      "component-variable-naming",
+      "component-theme-behavior"
     ],
     "adapter": [
       "capabilities",
@@ -67,7 +69,8 @@
       "retry-readback",
       "affected-target-qa",
       "component-token-minimization",
-      "component-variable-naming"
+      "component-variable-naming",
+      "component-theme-behavior"
     ],
     "tooling": [
       "unit-tests",
