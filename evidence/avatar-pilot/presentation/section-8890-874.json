@@ -1,0 +1,900 @@
+{
+  "id": "8890:874",
+  "parent": "7415:28903",
+  "type": "FRAME",
+  "name": "Variant Section Container",
+  "x": 0,
+  "y": 926,
+  "width": 1920,
+  "height": 240,
+  "visible": true,
+  "opacity": 1,
+  "layoutMode": "VERTICAL",
+  "primaryAxisSizingMode": "AUTO",
+  "counterAxisSizingMode": "FIXED",
+  "primaryAxisAlignItems": "MIN",
+  "counterAxisAlignItems": "MIN",
+  "itemSpacing": 104,
+  "paddingTop": 0,
+  "paddingRight": 80,
+  "paddingBottom": 0,
+  "paddingLeft": 80,
+  "layoutSizingHorizontal": "FILL",
+  "layoutSizingVertical": "HUG",
+  "layoutPositioning": "AUTO",
+  "constraints": {
+    "horizontal": "MIN",
+    "vertical": "MIN"
+  },
+  "cornerRadius": 0,
+  "strokeWeight": 1,
+  "strokeAlign": "INSIDE",
+  "strokesIncludedInLayout": false,
+  "clipsContent": false,
+  "fills": [],
+  "strokes": [],
+  "effects": [],
+  "explicitVariableModes": {},
+  "kids": [
+    {
+      "id": "8890:875",
+      "parent": "8890:874",
+      "type": "FRAME",
+      "name": "Variant Section",
+      "x": 80,
+      "y": 0,
+      "width": 1760,
+      "height": 240,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "primaryAxisSizingMode": "FIXED",
+      "counterAxisSizingMode": "AUTO",
+      "primaryAxisAlignItems": "MIN",
+      "counterAxisAlignItems": "MIN",
+      "itemSpacing": 64,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "layoutPositioning": "AUTO",
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "strokesIncludedInLayout": false,
+      "clipsContent": false,
+      "fills": [],
+      "strokes": [],
+      "effects": [],
+      "explicitVariableModes": {},
+      "kids": [
+        {
+          "id": "8890:876",
+          "parent": "8890:875",
+          "type": "FRAME",
+          "name": "Variant Section",
+          "x": 0,
+          "y": 0,
+          "width": 400,
+          "height": 174,
+          "visible": true,
+          "opacity": 1,
+          "layoutMode": "VERTICAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "itemSpacing": 8,
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "HUG",
+          "layoutPositioning": "AUTO",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "cornerRadius": 0,
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokesIncludedInLayout": false,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "effects": [],
+          "explicitVariableModes": {},
+          "kids": [
+            {
+              "id": "8890:877",
+              "parent": "8890:876",
+              "type": "FRAME",
+              "name": "Description",
+              "x": 0,
+              "y": 0,
+              "width": 400,
+              "height": 24,
+              "visible": true,
+              "opacity": 1,
+              "layoutMode": "VERTICAL",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "FIXED",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "MIN",
+              "itemSpacing": 24,
+              "paddingTop": 0,
+              "paddingRight": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "layoutSizingHorizontal": "FILL",
+              "layoutSizingVertical": "HUG",
+              "layoutPositioning": "AUTO",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "cornerRadius": 0,
+              "strokeAlign": "INSIDE",
+              "strokesIncludedInLayout": false,
+              "clipsContent": false,
+              "fills": [],
+              "strokes": [],
+              "effects": [],
+              "explicitVariableModes": {},
+              "kids": [
+                {
+                  "id": "8890:878",
+                  "parent": "8890:877",
+                  "type": "TEXT",
+                  "name": "Show status",
+                  "x": 0,
+                  "y": 0,
+                  "width": 400,
+                  "height": 24,
+                  "visible": true,
+                  "opacity": 1,
+                  "layoutSizingHorizontal": "FILL",
+                  "layoutSizingVertical": "HUG",
+                  "layoutPositioning": "AUTO",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "strokeWeight": 5.744145393371582,
+                  "strokeAlign": "OUTSIDE",
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendMode": "NORMAL",
+                      "color": {
+                        "r": 0.05882352963089943,
+                        "g": 0.09019608050584793,
+                        "b": 0.16470588743686676
+                      },
+                      "boundVariables": {
+                        "color": {
+                          "type": "VARIABLE_ALIAS",
+                          "id": "VariableID:2849:196116"
+                        }
+                      }
+                    }
+                  ],
+                  "strokes": [],
+                  "effects": [],
+                  "explicitVariableModes": {},
+                  "characters": "Show status",
+                  "fontSize": 24,
+                  "fontName": {
+                    "family": "Manrope",
+                    "style": "Bold"
+                  },
+                  "textCase": "ORIGINAL",
+                  "lineHeight": {
+                    "unit": "PERCENT",
+                    "value": 100
+                  },
+                  "letterSpacing": {
+                    "unit": "PERCENT",
+                    "value": 0
+                  },
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "textAutoResize": "HEIGHT",
+                  "textTruncation": "DISABLED",
+                  "kids": []
+                },
+                {
+                  "id": "8890:879",
+                  "parent": "8890:877",
+                  "type": "TEXT",
+                  "name": "Description",
+                  "x": 0,
+                  "y": 48,
+                  "width": 1136,
+                  "height": 24,
+                  "visible": false,
+                  "opacity": 1,
+                  "layoutSizingHorizontal": "FIXED",
+                  "layoutSizingVertical": "FIXED",
+                  "layoutPositioning": "AUTO",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "strokeWeight": 21.75,
+                  "strokeAlign": "OUTSIDE",
+                  "fills": [
+                    {
+                      "type": "SOLID",
+                      "visible": true,
+                      "opacity": 1,
+                      "blendMode": "NORMAL",
+                      "color": {
+                        "r": 0.19699646532535553,
+                        "g": 0.20079189538955688,
+                        "b": 0.21976901590824127
+                      },
+                      "boundVariables": {
+                        "color": {
+                          "type": "VARIABLE_ALIAS",
+                          "id": "VariableID:81d0a9d887c3d65c933d08b3d9b1a58d3da82999/2430:406"
+                        }
+                      }
+                    }
+                  ],
+                  "strokes": [],
+                  "effects": [],
+                  "explicitVariableModes": {},
+                  "characters": "Show status controla la presencia opcional. Los tipos active, busy e inactive son fijos y requieren texto o tooltip.",
+                  "fontSize": 16,
+                  "fontName": {
+                    "family": "Figtree",
+                    "style": "Regular"
+                  },
+                  "textCase": "ORIGINAL",
+                  "lineHeight": {
+                    "unit": "PERCENT",
+                    "value": 150
+                  },
+                  "letterSpacing": {
+                    "unit": "PERCENT",
+                    "value": 2
+                  },
+                  "textAlignHorizontal": "LEFT",
+                  "textAlignVertical": "TOP",
+                  "textAutoResize": "HEIGHT",
+                  "textTruncation": "DISABLED",
+                  "kids": []
+                }
+              ]
+            },
+            {
+              "id": "8890:880",
+              "parent": "8890:876",
+              "type": "FRAME",
+              "name": "Note",
+              "x": 0,
+              "y": 32,
+              "width": 400,
+              "height": 142,
+              "visible": true,
+              "opacity": 1,
+              "layoutMode": "VERTICAL",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "FIXED",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "MIN",
+              "itemSpacing": 8,
+              "paddingTop": 16,
+              "paddingRight": 16,
+              "paddingBottom": 16,
+              "paddingLeft": 16,
+              "layoutSizingHorizontal": "FIXED",
+              "layoutSizingVertical": "HUG",
+              "layoutPositioning": "AUTO",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "cornerRadius": 8,
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokesIncludedInLayout": false,
+              "clipsContent": false,
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:2849:196104"
+                    }
+                  }
+                }
+              ],
+              "strokes": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.886274516582489,
+                    "g": 0.9098039269447327,
+                    "b": 0.9411764740943909
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:2849:196130"
+                    }
+                  }
+                }
+              ],
+              "effects": [],
+              "explicitVariableModes": {},
+              "kids": [
+                {
+                  "id": "8890:881",
+                  "parent": "8890:880",
+                  "type": "FRAME",
+                  "name": "title-row",
+                  "x": 16,
+                  "y": 16,
+                  "width": 368,
+                  "height": 22,
+                  "visible": true,
+                  "opacity": 1,
+                  "layoutMode": "HORIZONTAL",
+                  "primaryAxisSizingMode": "FIXED",
+                  "counterAxisSizingMode": "AUTO",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "CENTER",
+                  "itemSpacing": 8,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "layoutSizingHorizontal": "FILL",
+                  "layoutSizingVertical": "HUG",
+                  "layoutPositioning": "AUTO",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "cornerRadius": 0,
+                  "strokeWeight": 1,
+                  "strokeAlign": "INSIDE",
+                  "strokesIncludedInLayout": false,
+                  "clipsContent": false,
+                  "fills": [],
+                  "strokes": [],
+                  "effects": [],
+                  "explicitVariableModes": {},
+                  "kids": [
+                    {
+                      "id": "8890:882",
+                      "parent": "8890:881",
+                      "type": "INSTANCE",
+                      "name": "Icon / Platform / Idea",
+                      "x": 0,
+                      "y": 1,
+                      "width": 20,
+                      "height": 20,
+                      "visible": true,
+                      "opacity": 1,
+                      "layoutMode": "NONE",
+                      "primaryAxisSizingMode": "AUTO",
+                      "counterAxisSizingMode": "FIXED",
+                      "primaryAxisAlignItems": "MIN",
+                      "counterAxisAlignItems": "MIN",
+                      "itemSpacing": 0,
+                      "paddingTop": 0,
+                      "paddingRight": 0,
+                      "paddingBottom": 0,
+                      "paddingLeft": 0,
+                      "layoutSizingHorizontal": "FIXED",
+                      "layoutSizingVertical": "FIXED",
+                      "layoutPositioning": "AUTO",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "cornerRadius": 0,
+                      "strokeWeight": 1,
+                      "strokeAlign": "INSIDE",
+                      "strokesIncludedInLayout": false,
+                      "clipsContent": false,
+                      "fills": [
+                        {
+                          "type": "SOLID",
+                          "visible": false,
+                          "opacity": 1,
+                          "blendMode": "NORMAL",
+                          "color": {
+                            "r": 1,
+                            "g": 1,
+                            "b": 1
+                          },
+                          "boundVariables": {}
+                        }
+                      ],
+                      "strokes": [],
+                      "effects": [],
+                      "explicitVariableModes": {},
+                      "kind": "idea"
+                    },
+                    {
+                      "id": "8890:883",
+                      "parent": "8890:881",
+                      "type": "TEXT",
+                      "name": "title",
+                      "x": 28,
+                      "y": 0,
+                      "width": 340,
+                      "height": 22,
+                      "visible": true,
+                      "opacity": 1,
+                      "layoutSizingHorizontal": "FILL",
+                      "layoutSizingVertical": "HUG",
+                      "layoutPositioning": "AUTO",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "strokeWeight": 1,
+                      "strokeAlign": "OUTSIDE",
+                      "fills": [
+                        {
+                          "type": "SOLID",
+                          "visible": true,
+                          "opacity": 1,
+                          "blendMode": "NORMAL",
+                          "color": {
+                            "r": 0.05882352963089943,
+                            "g": 0.09019608050584793,
+                            "b": 0.16470588743686676
+                          },
+                          "boundVariables": {
+                            "color": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:2849:196116"
+                            }
+                          }
+                        }
+                      ],
+                      "strokes": [],
+                      "effects": [],
+                      "explicitVariableModes": {},
+                      "characters": "Casos de uso:",
+                      "fontSize": 16,
+                      "fontName": {
+                        "family": "Manrope",
+                        "style": "Bold"
+                      },
+                      "textCase": "ORIGINAL",
+                      "lineHeight": {
+                        "unit": "PIXELS",
+                        "value": 22
+                      },
+                      "letterSpacing": {
+                        "unit": "PERCENT",
+                        "value": 0
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "textAutoResize": "HEIGHT",
+                      "textTruncation": "DISABLED",
+                      "kids": []
+                    }
+                  ]
+                },
+                {
+                  "id": "8890:884",
+                  "parent": "8890:880",
+                  "type": "FRAME",
+                  "name": "text",
+                  "x": 16,
+                  "y": 46,
+                  "width": 368,
+                  "height": 80,
+                  "visible": true,
+                  "opacity": 1,
+                  "layoutMode": "HORIZONTAL",
+                  "primaryAxisSizingMode": "FIXED",
+                  "counterAxisSizingMode": "AUTO",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "itemSpacing": 8,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 28,
+                  "layoutSizingHorizontal": "FILL",
+                  "layoutSizingVertical": "HUG",
+                  "layoutPositioning": "AUTO",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "cornerRadius": 0,
+                  "strokeWeight": 1,
+                  "strokeAlign": "INSIDE",
+                  "strokesIncludedInLayout": false,
+                  "clipsContent": false,
+                  "fills": [],
+                  "strokes": [],
+                  "effects": [],
+                  "explicitVariableModes": {},
+                  "kids": [
+                    {
+                      "id": "8890:885",
+                      "parent": "8890:884",
+                      "type": "TEXT",
+                      "name": "text",
+                      "x": 28,
+                      "y": 0,
+                      "width": 340,
+                      "height": 80,
+                      "visible": true,
+                      "opacity": 1,
+                      "layoutSizingHorizontal": "FILL",
+                      "layoutSizingVertical": "HUG",
+                      "layoutPositioning": "AUTO",
+                      "constraints": {
+                        "horizontal": "MIN",
+                        "vertical": "MIN"
+                      },
+                      "strokeWeight": 1,
+                      "strokeAlign": "OUTSIDE",
+                      "fills": [
+                        {
+                          "type": "SOLID",
+                          "visible": true,
+                          "opacity": 1,
+                          "blendMode": "NORMAL",
+                          "color": {
+                            "r": 0.3921568691730499,
+                            "g": 0.45490196347236633,
+                            "b": 0.545098066329956
+                          },
+                          "boundVariables": {
+                            "color": {
+                              "type": "VARIABLE_ALIAS",
+                              "id": "VariableID:2849:196139"
+                            }
+                          }
+                        }
+                      ],
+                      "strokes": [],
+                      "effects": [],
+                      "explicitVariableModes": {},
+                      "characters": "Indicador de presencia (en línea, ocupado, inactivo) para chat o asignaciones en tiempo real. No lo uses en listados de nómina, clientes o proveedores, y acompaña el estado con texto o tooltip.",
+                      "fontSize": 14,
+                      "fontName": {
+                        "family": "Manrope",
+                        "style": "Regular"
+                      },
+                      "textCase": "ORIGINAL",
+                      "lineHeight": {
+                        "unit": "PIXELS",
+                        "value": 20
+                      },
+                      "letterSpacing": {
+                        "unit": "PIXELS",
+                        "value": 0
+                      },
+                      "textAlignHorizontal": "LEFT",
+                      "textAlignVertical": "TOP",
+                      "textAutoResize": "HEIGHT",
+                      "textTruncation": "DISABLED",
+                      "kids": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8890:886",
+          "parent": "8890:875",
+          "type": "FRAME",
+          "name": "Prop Container",
+          "x": 464,
+          "y": 0,
+          "width": 1296,
+          "height": 240,
+          "visible": true,
+          "opacity": 1,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "FIXED",
+          "counterAxisSizingMode": "AUTO",
+          "primaryAxisAlignItems": "CENTER",
+          "counterAxisAlignItems": "CENTER",
+          "itemSpacing": 32,
+          "paddingTop": 40,
+          "paddingRight": 40,
+          "paddingBottom": 40,
+          "paddingLeft": 40,
+          "layoutSizingHorizontal": "FILL",
+          "layoutSizingVertical": "HUG",
+          "layoutPositioning": "AUTO",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "cornerRadius": 0,
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokesIncludedInLayout": false,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.9647058844566345,
+                "g": 0.9686274528503418,
+                "b": 0.9843137264251709
+              },
+              "boundVariables": {}
+            }
+          ],
+          "strokes": [],
+          "effects": [],
+          "explicitVariableModes": {},
+          "kids": [
+            {
+              "id": "8890:1057",
+              "parent": "8890:886",
+              "type": "FRAME",
+              "name": "Frame",
+              "x": 504,
+              "y": 96,
+              "width": 288,
+              "height": 48,
+              "visible": true,
+              "opacity": 1,
+              "layoutMode": "HORIZONTAL",
+              "primaryAxisSizingMode": "AUTO",
+              "counterAxisSizingMode": "AUTO",
+              "primaryAxisAlignItems": "MIN",
+              "counterAxisAlignItems": "CENTER",
+              "itemSpacing": 32,
+              "paddingTop": 0,
+              "paddingRight": 0,
+              "paddingBottom": 0,
+              "paddingLeft": 0,
+              "layoutSizingHorizontal": "HUG",
+              "layoutSizingVertical": "HUG",
+              "layoutPositioning": "AUTO",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "cornerRadius": 0,
+              "strokeWeight": 1,
+              "strokeAlign": "INSIDE",
+              "strokesIncludedInLayout": true,
+              "clipsContent": false,
+              "fills": [],
+              "strokes": [],
+              "effects": [],
+              "explicitVariableModes": {},
+              "kids": [
+                {
+                  "id": "8890:1045",
+                  "parent": "8890:1057",
+                  "type": "INSTANCE",
+                  "name": "avatar",
+                  "x": 0,
+                  "y": 0,
+                  "width": 48,
+                  "height": 48,
+                  "visible": true,
+                  "opacity": 1,
+                  "layoutMode": "VERTICAL",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "itemSpacing": 0,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "layoutSizingHorizontal": "HUG",
+                  "layoutSizingVertical": "HUG",
+                  "layoutPositioning": "AUTO",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "cornerRadius": 0,
+                  "strokeWeight": 1.75,
+                  "strokeAlign": "INSIDE",
+                  "strokesIncludedInLayout": false,
+                  "clipsContent": false,
+                  "fills": [],
+                  "strokes": [],
+                  "effects": [],
+                  "explicitVariableModes": {},
+                  "kind": "avatar",
+                  "props": {
+                    "Icon": "8901:6509",
+                    "Initials": "JA",
+                    "Show status": false,
+                    "type": "image",
+                    "size": "extra-large"
+                  },
+                  "statusType": "active"
+                },
+                {
+                  "id": "8890:1048",
+                  "parent": "8890:1057",
+                  "type": "INSTANCE",
+                  "name": "avatar",
+                  "x": 80,
+                  "y": 0,
+                  "width": 48,
+                  "height": 48,
+                  "visible": true,
+                  "opacity": 1,
+                  "layoutMode": "VERTICAL",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "itemSpacing": 0,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "layoutSizingHorizontal": "HUG",
+                  "layoutSizingVertical": "HUG",
+                  "layoutPositioning": "AUTO",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "cornerRadius": 0,
+                  "strokeWeight": 1.75,
+                  "strokeAlign": "INSIDE",
+                  "strokesIncludedInLayout": false,
+                  "clipsContent": false,
+                  "fills": [],
+                  "strokes": [],
+                  "effects": [],
+                  "explicitVariableModes": {},
+                  "kind": "avatar",
+                  "props": {
+                    "Icon": "8901:6509",
+                    "Initials": "JA",
+                    "Show status": true,
+                    "type": "image",
+                    "size": "extra-large"
+                  },
+                  "statusType": "active"
+                },
+                {
+                  "id": "8890:1051",
+                  "parent": "8890:1057",
+                  "type": "INSTANCE",
+                  "name": "avatar",
+                  "x": 160,
+                  "y": 0,
+                  "width": 48,
+                  "height": 48,
+                  "visible": true,
+                  "opacity": 1,
+                  "layoutMode": "VERTICAL",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "itemSpacing": 0,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "layoutSizingHorizontal": "HUG",
+                  "layoutSizingVertical": "HUG",
+                  "layoutPositioning": "AUTO",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "cornerRadius": 0,
+                  "strokeWeight": 1.75,
+                  "strokeAlign": "INSIDE",
+                  "strokesIncludedInLayout": false,
+                  "clipsContent": false,
+                  "fills": [],
+                  "strokes": [],
+                  "effects": [],
+                  "explicitVariableModes": {},
+                  "kind": "avatar",
+                  "props": {
+                    "Icon": "8901:6509",
+                    "Initials": "JA",
+                    "Show status": true,
+                    "type": "image",
+                    "size": "extra-large"
+                  },
+                  "statusType": "busy"
+                },
+                {
+                  "id": "8890:1054",
+                  "parent": "8890:1057",
+                  "type": "INSTANCE",
+                  "name": "avatar",
+                  "x": 240,
+                  "y": 0,
+                  "width": 48,
+                  "height": 48,
+                  "visible": true,
+                  "opacity": 1,
+                  "layoutMode": "VERTICAL",
+                  "primaryAxisSizingMode": "AUTO",
+                  "counterAxisSizingMode": "AUTO",
+                  "primaryAxisAlignItems": "MIN",
+                  "counterAxisAlignItems": "MIN",
+                  "itemSpacing": 0,
+                  "paddingTop": 0,
+                  "paddingRight": 0,
+                  "paddingBottom": 0,
+                  "paddingLeft": 0,
+                  "layoutSizingHorizontal": "HUG",
+                  "layoutSizingVertical": "HUG",
+                  "layoutPositioning": "AUTO",
+                  "constraints": {
+                    "horizontal": "MIN",
+                    "vertical": "MIN"
+                  },
+                  "cornerRadius": 0,
+                  "strokeWeight": 1.75,
+                  "strokeAlign": "INSIDE",
+                  "strokesIncludedInLayout": false,
+                  "clipsContent": false,
+                  "fills": [],
+                  "strokes": [],
+                  "effects": [],
+                  "explicitVariableModes": {},
+                  "kind": "avatar",
+                  "props": {
+                    "Icon": "8901:6509",
+                    "Initials": "JA",
+                    "Show status": true,
+                    "type": "image",
+                    "size": "extra-large"
+                  },
+                  "statusType": "inactive"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

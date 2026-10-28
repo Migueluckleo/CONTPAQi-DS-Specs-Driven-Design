@@ -282,6 +282,24 @@
         "path": "evidence/authorization/token-protocol-criteria-request.txt",
         "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
       }
+    },
+    {
+      "id": "ADR-019",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita continuar con la página Avatar 1132:8891, con los protocolos vigentes: contratos MD, Avatar y Avatar group con su presencia privada, tokens mínimos y construcción/QA en Blue Heart DS. Elige conservar bindings y geometría reales con cuatro temas y corregir la descripción contradictoria: sin siete modos inexistentes ni anillos de 3/2 px. Se incorporan únicamente tres espaciados negativos requeridos por el traslape observado, con primitivas/semánticos sin scope y tres tokens GAP del grupo; versión menor de Foundations y preservación exacta de los tokens anteriores. No amplía React, Graphify, originales ni publicaciones de biblioteca/releases.",
+      "scope": [
+        "AVATAR-001",
+        "AVATAR-GROUP-001",
+        "AVATAR-TOKENS",
+        "BLUEHEART-TOKENS",
+        "avatar-family-figma-pilot",
+        "avatar-page-documentation"
+      ],
+      "source": {
+        "path": "evidence/authorization/avatar-pilot-request.txt",
+        "sha256": "5c384535b5e34ef6bea2c91253bc592dbd46106062612094fab96870237608d6"
+      }
     }
   ]
 }

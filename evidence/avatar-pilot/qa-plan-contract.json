@@ -1,0 +1,31 @@
+{
+  "change": "contract",
+  "impact": {
+    "affected": [
+      "contract:AVATAR-001@1.0.0",
+      "contract:AVATAR-GROUP-001@1.0.0"
+    ],
+    "changed": [
+      "norms/components/avatar-group.1.0.0.md",
+      "norms/components/avatar.1.0.0.md"
+    ],
+    "scope": "Current declared dependencies; removed/unmapped paths require review against the previous snapshot",
+    "status": "PASS",
+    "unmapped_paths": []
+  },
+  "independent_review": true,
+  "required_gates": [
+    "structure",
+    "references",
+    "authority",
+    "dependencies",
+    "requirements-review",
+    "affected-target-qa",
+    "component-token-minimization",
+    "component-variable-naming",
+    "operational-contracts",
+    "component-theme-behavior"
+  ],
+  "status": "PLAN_ONLY",
+  "tests_executed": false
+}

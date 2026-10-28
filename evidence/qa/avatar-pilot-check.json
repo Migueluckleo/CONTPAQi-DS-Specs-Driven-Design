@@ -1,0 +1,379 @@
+{
+  "schema_version": 1,
+  "id": "AVATAR-PILOT-QA",
+  "date": "2026-10-28",
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "authority": [
+    "ADR-019",
+    "ADR-012",
+    "ADR-013"
+  ],
+  "scope": "Avatar + Avatar group: contratos MD, tokens mínimos, documentación y QA Figma. No validación de React/ARIA/teclado ni release oficial.",
+  "sources": {
+    "evidence/avatar-pilot/source/discovery.json": "d0e645762915047442e6c7168241f25c86b2e4989fc07473139725780c545fee",
+    "evidence/avatar-pilot/source/page-snapshot.json": "84264381b8a2fc19117a07c9d3d188205b57a070c6c6f6122aa07cb3b11c010d",
+    "evidence/avatar-pilot/source/phosphor.json": "47bd8e5371eaae376a6a48d9bed9e47ae5b38bfce4da15c1eab2482d3fcf9588",
+    "evidence/avatar-pilot/source/presence-and-gaps.json": "1dadf1360f8a9927cb9b54cb27d5c72ae3eb9b674030ef60f1914831598f7304",
+    "evidence/avatar-pilot/source/text-layout.json": "84f25e9140791429ec8594945fb04e6c9e9991da00b6b921c5b3147e2cbee62d",
+    "evidence/avatar-pilot/source/variables.json": "080d9afcfaa3ceaebe17318d630d804c5708298feb753a90a7db8a5cb6326c78",
+    "evidence/avatar-pilot/assets/portrait-preview.png": "1aac0f98ce9e0eebb5ca9c1a737af9ff6b94e5bebcd653920b6ac96593945a50",
+    "evidence/avatar-pilot/assets/portrait.png": "70a3a9c5cbb671a3a3c76597e5764df7c12b1f69c41158d12730d12088565c44"
+  },
+  "contracts": [
+    {
+      "id": "AVATAR-001",
+      "version": "1.0.0",
+      "current": true,
+      "path": "norms/components/avatar.1.0.0.md",
+      "sha256": "385aa42232f1241451940f479b4c1a6b31ed9bcc42f18e84200ec2d473aae83b"
+    },
+    {
+      "id": "AVATAR-GROUP-001",
+      "version": "1.0.0",
+      "current": true,
+      "path": "norms/components/avatar-group.1.0.0.md",
+      "sha256": "29b2ceb001700063b91ed5c90b5df1e2c4098ab7703686eca3cd742ab2fba5e5"
+    }
+  ],
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "145:42",
+    "avatarSetId": "145:106",
+    "groupSetId": "145:147",
+    "presenceSetId": "145:55",
+    "overviewId": "154:54",
+    "variantsId": "154:255",
+    "reviewId": "154:268",
+    "qaId": "161:281"
+  },
+  "architecture": {
+    "status": "PASS",
+    "tokens": 386,
+    "collections": 7,
+    "mode_contexts": 64,
+    "component_token_minimum": {
+      "AVATAR-001@1.0.0": {
+        "component_tokens": 25,
+        "distinct_signatures": 25,
+        "protocol": "BH-P07",
+        "redundancies": 0,
+        "status": "PASS"
+      },
+      "AVATAR-GROUP-001@1.0.0": {
+        "component_tokens": 7,
+        "distinct_signatures": 7,
+        "protocol": "BH-P07",
+        "redundancies": 0,
+        "status": "PASS"
+      },
+      "BUTTON-001@2.0.0": {
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "protocol": "BH-P07",
+        "redundancies": 0,
+        "status": "PASS"
+      },
+      "BUTTON-001@2.0.1": {
+        "component_tokens": 47,
+        "distinct_signatures": 47,
+        "protocol": "BH-P07",
+        "redundancies": 0,
+        "status": "PASS"
+      },
+      "TAB-001@1.0.0": {
+        "component_tokens": 43,
+        "distinct_signatures": 43,
+        "protocol": "BH-P07",
+        "redundancies": 0,
+        "status": "PASS"
+      },
+      "TAB-001@1.1.0": {
+        "component_tokens": 45,
+        "distinct_signatures": 45,
+        "protocol": "BH-P07",
+        "redundancies": 0,
+        "status": "PASS"
+      },
+      "TABS-001@1.0.0": {
+        "component_tokens": 5,
+        "distinct_signatures": 5,
+        "protocol": "BH-P07",
+        "redundancies": 0,
+        "status": "PASS"
+      }
+    }
+  },
+  "controls": [
+    {
+      "id": "native-audit",
+      "requirements": "BH-P02/04/07 + contratos de componente",
+      "expected": "Recetas y bindings del plan seleccionado; identidades exactas y tolerancias previas.",
+      "actual": {
+        "executed": 1250,
+        "groups": {
+          "preservation": {
+            "executed": 348,
+            "passed": 348,
+            "failed": 0
+          },
+          "inventory": {
+            "executed": 1,
+            "passed": 1,
+            "failed": 0
+          },
+          "variables": {
+            "executed": 267,
+            "passed": 267,
+            "failed": 0
+          },
+          "foundations": {
+            "executed": 18,
+            "passed": 18,
+            "failed": 0
+          },
+          "anatomy": {
+            "executed": 15,
+            "passed": 15,
+            "failed": 0
+          },
+          "api": {
+            "executed": 31,
+            "passed": 31,
+            "failed": 0
+          },
+          "geometry": {
+            "executed": 60,
+            "passed": 60,
+            "failed": 0
+          },
+          "bindings": {
+            "executed": 404,
+            "passed": 404,
+            "failed": 0
+          },
+          "assets": {
+            "executed": 8,
+            "passed": 8,
+            "failed": 0
+          },
+          "interactions": {
+            "executed": 12,
+            "passed": 12,
+            "failed": 0
+          },
+          "icons": {
+            "executed": 8,
+            "passed": 8,
+            "failed": 0
+          },
+          "typography": {
+            "executed": 12,
+            "passed": 12,
+            "failed": 0
+          },
+          "metadata": {
+            "executed": 4,
+            "passed": 4,
+            "failed": 0
+          },
+          "presence": {
+            "executed": 18,
+            "passed": 18,
+            "failed": 0
+          },
+          "composition": {
+            "executed": 28,
+            "passed": 28,
+            "failed": 0
+          },
+          "styles": {
+            "executed": 15,
+            "passed": 15,
+            "failed": 0
+          },
+          "documentation": {
+            "executed": 1,
+            "passed": 1,
+            "failed": 0
+          }
+        },
+        "failures": [],
+        "checkedBindings": 404
+      },
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/avatar-pilot/destination/native-audit.json",
+        "sha256": "3d04669285bcf5723d8c213958683687f7617d20aa92dc26ca1dbddbef40d807"
+      }
+    },
+    {
+      "id": "consumer-qa",
+      "requirements": "REQ-THEME / SLOT / CONTENT / API / TYPOGRAPHY / IMAGE",
+      "expected": "Colores temáticos/fijos correctos, slot 2→4 y reordenación con vínculos, iniciales amplias y swap remoto.",
+      "actual": {
+        "executed": 122,
+        "failed": 0,
+        "themeCases": 76,
+        "slotCases": 4,
+        "contentCases": 10
+      },
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/avatar-pilot/destination/consumer-qa.json",
+        "sha256": "e1f7fcaf8ca3ff1ebe6c472161b98beda9fef1f54c7d6e56e55cf4b0816ad4b9"
+      }
+    },
+    {
+      "id": "bindings-inventory",
+      "requirements": "REQ-TOKENS / BH-P07",
+      "expected": "Toda variable propia tiene un consumidor real y scopes exactos; sin firmas duplicadas.",
+      "actual": {
+        "bindingUses": 1377,
+        "coveredTokens": 32,
+        "avatar": 25,
+        "avatarGroup": 7,
+        "minimum": "evidence/avatar-pilot/token-minimum.json"
+      },
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/avatar-pilot/destination/binding-index.json",
+        "sha256": "cd0f2ff0c7226241b49cbd3783e246322e3feb6849a6d8e586895d10277af100"
+      }
+    },
+    {
+      "id": "visual",
+      "requirements": "REQ-DOCUMENTATION / QA",
+      "expected": "Contenido editable, fuentes correctas, ejemplos vinculados, texto legible y sin clipping accidental.",
+      "actual": "Overview, cinco secciones, matriz de referencia y panel de uso inspeccionados. Correcciones de rótulo y nota de contraste verificadas.",
+      "status": "PASS",
+      "evidence": [
+        {
+          "path": "evidence/avatar-pilot/visual/overview.png",
+          "sha256": "8e2b7dd4d4b48e7f700f80544086f001f52b5da4d370eb11cf757796d5a229b6"
+        },
+        {
+          "path": "evidence/avatar-pilot/visual/qa.png",
+          "sha256": "df1b52b4053d2d019167e9634bc70b7af04491e439526404736073f1ede7893a"
+        },
+        {
+          "path": "evidence/avatar-pilot/visual/review.png",
+          "sha256": "783787cb1ab327d779af5510960dfe43ea1dfec1e4680382abfc218b0599fae3"
+        },
+        {
+          "path": "evidence/avatar-pilot/visual/variants.png",
+          "sha256": "d413609987c68acb5deeb2d146c042c2da2f35e1b2f01db82a0c1dbb3ccc4c5a"
+        }
+      ]
+    },
+    {
+      "id": "context-consumption",
+      "requirements": "BH-P01/04",
+      "expected": "Contexto compacto completo dentro del presupuesto; no consumir resultados parciales.",
+      "actual": {
+        "AVATAR-001": {
+          "status": "PASS",
+          "context_bytes": 24828,
+          "mode": {
+            "avatar": "Contable"
+          },
+          "all_requirements": true
+        },
+        "AVATAR-GROUP-001": {
+          "status": "PASS",
+          "context_bytes": 36350,
+          "mode": {
+            "avatar": "Contable"
+          },
+          "all_requirements": true
+        }
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "prior-preservation",
+      "requirements": "REQ-QA",
+      "expected": "348 variables previas y datos normativos anteriores conservados.",
+      "actual": {
+        "nativeFingerprintMethod": "FNV-1a 32 de atributos serializados: nombre/tipo/colección/scopes/aliases/WEB/descripción; 348/348 iguales",
+        "norms": [
+          {
+            "path": "norms/components/button.2.0.1.md",
+            "sha256": "33fd628444b5e40ce747aaca9ab98e31cc18b5306681c46883713f12c73a16a4",
+            "status": "BYTE_IDENTICAL"
+          },
+          {
+            "path": "norms/components/tab.1.1.0.md",
+            "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f",
+            "status": "BYTE_IDENTICAL"
+          },
+          {
+            "path": "norms/components/tabs.1.0.0.md",
+            "sha256": "65a0b03038e73cf0fc43a9d197cd80b60154be3445b879e00b0d6a68a9f90ab2",
+            "status": "BYTE_IDENTICAL"
+          },
+          {
+            "path": "norms/tokens/tab.1.1.0.json",
+            "sha256": "00dab9bfdb202a689461f609a288afb01dcec41e41d006043df1a852969a35b4",
+            "status": "BYTE_IDENTICAL"
+          },
+          {
+            "path": "norms/tokens/tabs.1.0.0.json",
+            "sha256": "4abd890dfa3ec2faf8598f015084a4ef12dcee97c5c20809a266c42e9e3bd08d",
+            "status": "BYTE_IDENTICAL"
+          }
+        ],
+        "foundationExtension": "Tres primitivas y tres semánticos numéricos nuevos; mapa conserva 251 entradas anteriores."
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "targeted-infrastructure-regression",
+      "requirements": "Preservación y fase",
+      "expected": "Pruebas existentes de familias autorizadas y preservación de Foundations.",
+      "actual": "2 pruebas PASS; salida conservada.",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/avatar-pilot/targeted-tests.txt",
+        "sha256": "ddf0346cf1bec12d0b864035c39cc47d5dd5201066d1d567cb926018f66b9c45"
+      }
+    }
+  ],
+  "totalExecutedDestinationControls": 1372,
+  "limitations": [
+    {
+      "id": "contrast-warning",
+      "status": "DOCUMENTED_LIMITATION",
+      "result": "3.324528566:1, inferior a 4.5:1 para iniciales normales blancas; fidelidad de binding fuente adoptada. No AA.",
+      "evidence": "evidence/avatar-pilot/contrast.json"
+    },
+    {
+      "id": "context-full-group",
+      "status": "EXPECTED_BUDGET_BLOCK",
+      "result": "Contexto completo 70669 bytes supera 65536 y bloquea sin contenido parcial; el consumo contratado usa --compact, con todos los requisitos. No se alteró el presupuesto.",
+      "selectedContext": {
+        "status": "PASS",
+        "context_bytes": 36350,
+        "mode": {
+          "avatar": "Contable"
+        },
+        "all_requirements": true
+      }
+    },
+    {
+      "id": "independent-review",
+      "status": "NOT_RUN",
+      "result": "Revisión técnica y pruebas en el encargo, sin revisor/agente independiente; no se declara ese gate ejecutado."
+    },
+    {
+      "id": "web",
+      "status": "NOT_IMPLEMENTED",
+      "result": "React, teclado/ARIA, fallback/carga reales, cálculo de +N y privacidad de producto son responsabilidad del futuro consumidor."
+    },
+    {
+      "id": "playback",
+      "status": "NOT_APPLICABLE",
+      "result": "Maestros fuente sin reacciones: las representaciones visuales y ediciones de instancia no se presentan como reproducción interactiva o navegador."
+    }
+  ],
+  "releaseValidation": "Los controles completos de arquitectura y unittest se registran en las notas previas al envío y son revalidados por CI de BH-P08; este comprobante no los sustituye."
+}

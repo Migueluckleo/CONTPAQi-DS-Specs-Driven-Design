@@ -1,0 +1,18 @@
+{
+  "method": "WCAG relative luminance; observed opaque sRGB paints; normal text threshold 4.5:1",
+  "ratios": {
+    "primary": {
+      "Contable": 5.5583465826531215,
+      "Administrativo": 5.928899341680591,
+      "Servicios": 4.719382256352987,
+      "Personas": 6.324308346933874
+    },
+    "warning": 3.3245285661857986,
+    "positive": 4.931735825175439,
+    "overflow": 6.146802156786935
+  },
+  "limitations": [
+    "warning alternate retains source color; ratio below 4.5:1, no AA claim",
+    "No browser keyboard/ARIA or legal certification"
+  ]
+}
