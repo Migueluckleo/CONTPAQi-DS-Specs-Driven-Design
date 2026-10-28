@@ -1,0 +1,96 @@
+{
+  "status": "PASS_PLAYBACK_SAMPLES",
+  "frames": [
+    "fit-0.jpg",
+    "fit-1.jpg",
+    "fit-2.jpg",
+    "fit-3.jpg",
+    "fit-4.jpg"
+  ],
+  "cases": [
+    {
+      "color": "brand",
+      "box": [
+        340,
+        339,
+        368,
+        368
+      ],
+      "changedPixels": [
+        320,
+        327,
+        301,
+        301
+      ],
+      "animationObserved": true
+    },
+    {
+      "color": "neutral",
+      "box": [
+        404,
+        339,
+        432,
+        368
+      ],
+      "changedPixels": [
+        183,
+        209,
+        188,
+        188
+      ],
+      "animationObserved": true
+    },
+    {
+      "color": "strong",
+      "box": [
+        468,
+        339,
+        496,
+        368
+      ],
+      "changedPixels": [
+        185,
+        193,
+        178,
+        178
+      ],
+      "animationObserved": true
+    },
+    {
+      "color": "on-color",
+      "box": [
+        533,
+        339,
+        561,
+        368
+      ],
+      "changedPixels": [
+        440,
+        409,
+        392,
+        392
+      ],
+      "animationObserved": true
+    }
+  ],
+  "staticReference": {
+    "box": [
+      281,
+      75,
+      500,
+      113
+    ],
+    "changedPixels": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "visualReview": "Native presenter shows moving arcs in all six sizes and four colors, stable white inverse/0.3 track, four brand themes and linked Button loading. Readable captures 0/1/2 show color persistence and no navigation on secondary loading click.",
+  "limits": [
+    "No frame-rate or exact-cycle wall-clock measurement",
+    "No web/ARIA/reduced-motion implementation",
+    "No independent reviewer"
+  ]
+}

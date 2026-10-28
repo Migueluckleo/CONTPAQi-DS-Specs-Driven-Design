@@ -1,0 +1,89 @@
+{
+  "pageId": "245:19",
+  "variableIds": {
+    "primitive.size-88": "VariableID:245:2",
+    "semantic.size-8xl": "VariableID:245:3",
+    "loader.color-stroke-primary-default": "VariableID:245:4",
+    "loader.color-stroke-secondary": "VariableID:245:5",
+    "loader.color-stroke-strong": "VariableID:245:6",
+    "loader.color-stroke-inverse": "VariableID:245:7",
+    "loader.color-stroke-track": "VariableID:245:8",
+    "loader.size-extra-small": "VariableID:245:9",
+    "loader.size-small": "VariableID:245:10",
+    "loader.size-medium": "VariableID:245:11",
+    "loader.size-large": "VariableID:245:12",
+    "loader.size-extra-large": "VariableID:245:13",
+    "loader.size-2x-large": "VariableID:245:14",
+    "loader.border-width-regular": "VariableID:245:15",
+    "loader.border-width-large": "VariableID:245:16",
+    "loader.border-width-extra-large": "VariableID:245:17",
+    "loader.border-width-2x-large": "VariableID:245:18"
+  },
+  "variableKeys": {
+    "primitive.size-88": "a0111bd68fe8611009e51a7ab1b8887dd8f802e4",
+    "semantic.size-8xl": "a5a1f802212d638aed11da1b08dce35ec72b9315",
+    "loader.color-stroke-primary-default": "5e4f4ed9c1ed5d39b85409fe45aeb8c89edc9014",
+    "loader.color-stroke-secondary": "4108c784d832e1e713ae68e1203e2285fe07c9ff",
+    "loader.color-stroke-strong": "0b7dd9ad38aae1f7113640f9c99338f76e15ed7a",
+    "loader.color-stroke-inverse": "90b3dc8bccc2a0b680dd475e7718a09d526acd26",
+    "loader.color-stroke-track": "f605f2a2b486f257b46d335de83711e609273ff4",
+    "loader.size-extra-small": "5391951f41ce9106d489bdec4d990fc81086d122",
+    "loader.size-small": "cf7e3b5f5f54921b061ecdb1201b3f9d9896e8f1",
+    "loader.size-medium": "0e434a4859b531e8c0e6227c36a5615e4ead5c82",
+    "loader.size-large": "edff27dfd1ba26d115c2ffc018e90564f7e3334c",
+    "loader.size-extra-large": "dbd6448bcce18f8f886682e932197355275a08bb",
+    "loader.size-2x-large": "d7dd0ca442266f01b6c3ff9206f8c9094f7d699e",
+    "loader.border-width-regular": "741f8313d6923e73345d2767cf68ca768a166d8b",
+    "loader.border-width-large": "e60a3170be6e322e0ba2510de5f00fb7198a8d2b",
+    "loader.border-width-extra-large": "111a88d0a2ece3fda6bab5010153fc1706634bdd",
+    "loader.border-width-2x-large": "0b016ba29c1de80688f1c40d560df527a0c953d9"
+  },
+  "extensions": [
+    {
+      "logicalId": "primitive.size-88",
+      "nativeId": "VariableID:245:2",
+      "nativeKey": "a0111bd68fe8611009e51a7ab1b8887dd8f802e4",
+      "nativeName": "size-88"
+    },
+    {
+      "logicalId": "semantic.size-8xl",
+      "nativeId": "VariableID:245:3",
+      "nativeKey": "a5a1f802212d638aed11da1b08dce35ec72b9315",
+      "nativeName": "size-8xl"
+    }
+  ],
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "createdNodeIds": [
+    "245:19"
+  ],
+  "mutatedNodeIds": [],
+  "createdVariableIds": [
+    "VariableID:245:2",
+    "VariableID:245:3",
+    "VariableID:245:4",
+    "VariableID:245:5",
+    "VariableID:245:6",
+    "VariableID:245:7",
+    "VariableID:245:8",
+    "VariableID:245:9",
+    "VariableID:245:10",
+    "VariableID:245:11",
+    "VariableID:245:12",
+    "VariableID:245:13",
+    "VariableID:245:14",
+    "VariableID:245:15",
+    "VariableID:245:16",
+    "VariableID:245:17",
+    "VariableID:245:18"
+  ]
+}

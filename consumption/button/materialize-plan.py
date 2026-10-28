@@ -41,6 +41,24 @@ def materialize():
         if reactions[0].get('action'):
             reactions[0]['action']['destinationId'] = rule['destinationId']
     plan['version'] = manifest['contract']['version']
+    if 'sharedLoader' in manifest:
+        dependency = json.loads(verified(manifest['sharedLoader']['manifest']))
+        verified(dependency['contract'])
+        plan['tokens'] = [t for t in plan['tokens'] if t['name'] not in
+                          {'color-button-loader-inverse', 'color-button-loader-neutral'}]
+        plan.pop('spinnerFrames', None)
+        plan['loader'] = {'contract': dependency['contract'],
+                          'variants': dependency['variants'],
+                          'variableIds': {v['logicalId']: v['nativeId'] for v in dependency['variables']}}
+        for recipe in plan['variants']:
+            if recipe.get('loader'):
+                size = {'small': 'extra-small', 'medium': 'small', 'large': 'medium'}[recipe['size']]
+                color = {'primary': 'on-color', 'danger': 'on-color', 'secondary': 'brand',
+                         'link': 'brand', 'text': 'strong'}[recipe['type']]
+                target = next(v for v in dependency['variants'] if v['axes'] == {'size': size, 'color': color})
+                recipe['loader'] = {'contract': {'id': 'LOADER-001', 'version': dependency['contract']['version']},
+                                    'variantId': target['id'], 'size': recipe['loader']['size'],
+                                    'axes': target['axes']}
     return plan
 
 

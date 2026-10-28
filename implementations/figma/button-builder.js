@@ -41,37 +41,8 @@ async function createHelpers() {
     throw new Error("Helpers already exist; read state before retry");
   const glyphKey = "46d251bb4099700c5852180f2370d265e5166432";
   if (DATA.icon.key !== glyphKey) throw new Error("Phosphor mapping differs from selected contract");
-  const spinnerSets = {}, spinnerFirst = {}, sourceToTarget = {};
-  const sizeNames = {"extra-small": "small", small: "medium", medium: "large"};
-  for (const [sourceSize, buttonSize] of Object.entries(sizeNames)) {
-    const frames = DATA.spinnerFrames.filter(f => f.size === sourceSize).sort((a, b) => Number(a.frame) - Number(b.frame));
-    const components = [];
-    for (const frame of frames) {
-      const component = mark(figma.createComponent());
-      component.name = "frame=" + frame.frame;
-      component.resize(frame.width, frame.height); component.fills = []; component.strokes = []; component.clipsContent = false;
-      bindVariablesToComponent(component, {width: "size-button-" + buttonSize + "-content", height: "size-button-" + buttonSize + "-content"});
-      for (const name of ["Track", "Arc"]) {
-        const ellipse = mark(figma.createEllipse()); ellipse.name = name;
-        ellipse.resize(frame.width, frame.height); ellipse.arcData = name === "Track" ? frame.track : frame.arc;
-        ellipse.fills = []; ellipse.strokes = [color("color-button-loader-inverse")];
-        ellipse.strokeAlign = "INSIDE"; ellipse.opacity = name === "Track" ? 0.30000001192092896 : 1;
-        ellipse.setBoundVariable("strokeWeight", variables["stroke-button-emphasis-width"]);
-        ellipse.constraints = {horizontal: "SCALE", vertical: "SCALE"};
-        component.appendChild(ellipse);
-      }
-      page.appendChild(component); components.push(component); sourceToTarget[frame.id] = component;
-    }
-    const set = combineObservedVariants("__Button/Loader/" + buttonSize, components, 6, 48, 48, 2500, 180 + Object.keys(spinnerSets).length * 290);
-    set.description = "Dependencia animada privada de Button: 24 frames observados, 0.033333335 s/frame. El consumidor conserva color y tamaño por tokens. BUTTON-001.";
-    spinnerSets[buttonSize] = set.id; spinnerFirst[buttonSize] = components[0].id;
-  }
-  for (const frame of DATA.spinnerFrames) {
-    const target = sourceToTarget[frame.id];
-    const reactions = frame.reactions.map(r => ({trigger: r.trigger, actions: r.actions.map(a => ({...a, destinationId: sourceToTarget[a.destinationId].id}))}));
-    await target.setReactionsAsync(reactions);
-  }
-  return {glyphKey, glyphRemote: true, spinnerSets, spinnerFirst, sourceToTarget: Object.fromEntries(Object.entries(sourceToTarget).map(([id, node]) => [id, node.id]))};
+  if (!DATA.loader || DATA.loader.contract.id !== 'LOADER-001') throw new Error('Resolve the selected shared Loader before Button');
+  return {glyphKey, glyphRemote: true, sharedLoader: DATA.loader.contract};
 }
 
 async function createFamily() {
@@ -88,7 +59,7 @@ async function createFamily() {
   }
   // Unreferenced imports need not persist between calls: import and instantiate here.
   const glyph = await figma.importComponentByKeyAsync(DATA.helpers.glyphKey);
-  const spinnerNodes = Object.fromEntries(await Promise.all(Object.entries(DATA.helpers.spinnerFirst).map(async ([size, id]) => [size, await figma.getNodeByIdAsync(id)])));
+  if (!DATA.loader) throw new Error("Current Loader dependency required");
   const ordered = [...DATA.variants].sort((a, b) => DATA.states.indexOf(a.state) - DATA.states.indexOf(b.state) || DATA.sizes.indexOf(a.size) - DATA.sizes.indexOf(b.size));
   const components = [], sourceToTarget = {}, nodeRecords = [];
   for (const recipe of ordered) {
@@ -103,15 +74,13 @@ async function createFamily() {
     for (const [field, token] of Object.entries(recipe.paints)) component[field] = [color(token)];
     component.strokeAlign = "INSIDE";
     if (recipe.loader) {
-      const instance = spinnerNodes[recipe.size].createInstance(); markTree(instance); instance.name = "Loader";
-      component.appendChild(instance); instance.resize(recipe.loader.size, recipe.loader.size);
-      bindVariablesToComponent(instance, {width: recipe.loader.sizeToken, height: recipe.loader.sizeToken});
-      for (const child of instance.findAllWithCriteria({types: ["ELLIPSE"]})) {
-        const paint = color(recipe.loader.colorToken);
-        paint.opacity = child.name === "Track" ? recipe.loader.trackPaintOpacity : recipe.loader.arcPaintOpacity;
-        child.opacity = child.name === "Track" ? recipe.loader.trackOpacity : recipe.loader.arcOpacity;
-        child.strokes = [paint]; child.setBoundVariable("strokeWeight", variables[recipe.loader.widthToken]);
-      }
+      const target = await figma.getNodeByIdAsync(recipe.loader.variantId);
+      if (!target || target.type !== 'COMPONENT' || target.parent.name !== 'Loader') throw new Error('Missing shared Loader variant');
+      const instance = target.createInstance(); markTree(instance); instance.name = 'Loader';
+      component.appendChild(instance);
+      const sizeId = DATA.loader.variableIds['loader.size-' + recipe.loader.axes.size];
+      const sizeVariable = await figma.variables.getVariableByIdAsync(sizeId);
+      instance.setBoundVariable('width', sizeVariable); instance.setBoundVariable('height', sizeVariable);
     }
     async function addIcon(icon) {
       const instance = glyph.createInstance(); markTree(instance);

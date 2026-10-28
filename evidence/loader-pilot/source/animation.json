@@ -1,0 +1,3180 @@
+{
+  "groups": {
+    "extra-small": {
+      "first": {
+        "id": "8944:407",
+        "w": 16,
+        "h": 16,
+        "b": {
+          "width": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:562:19"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:562:19"
+          }
+        },
+        "children": [
+          {
+            "id": "8944:408",
+            "name": "Track",
+            "type": "ELLIPSE",
+            "w": 16,
+            "h": 16,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": 0,
+              "endingAngle": 6.2831854820251465,
+              "innerRadius": 0
+            },
+            "stroke": 2,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:559:9"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8944:409",
+            "name": "Arc",
+            "type": "ELLIPSE",
+            "w": 16,
+            "h": 16,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": -1.5707963705062866,
+              "endingAngle": 0,
+              "innerRadius": 1
+            },
+            "stroke": 2,
+            "align": "INSIDE",
+            "cap": "ROUND",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:559:9"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196141"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "phases": [
+        {
+          "id": "8944:407",
+          "frame": "1",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -1.5707963705062866,
+            "endingAngle": 0,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:410",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:410",
+          "frame": "2",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -1.3089969158172607,
+            "endingAngle": 0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:413",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:413",
+          "frame": "3",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -1.0471975803375244,
+            "endingAngle": 0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:416",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:416",
+          "frame": "4",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -0.7853981852531433,
+            "endingAngle": 0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:310",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:310",
+          "frame": "5",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -0.5235987901687622,
+            "endingAngle": 1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:313",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:313",
+          "frame": "6",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -0.2617993950843811,
+            "endingAngle": 1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:316",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:316",
+          "frame": "7",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 0,
+            "endingAngle": 1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:319",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:319",
+          "frame": "8",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 0.2617993950843811,
+            "endingAngle": 1.832595705986023,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:322",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:322",
+          "frame": "9",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 0.5235987901687622,
+            "endingAngle": 2.094395160675049,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:325",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:325",
+          "frame": "10",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 0.7853981852531433,
+            "endingAngle": 2.356194496154785,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:328",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:328",
+          "frame": "11",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 1.0471975803375244,
+            "endingAngle": 2.6179938316345215,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:331",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:331",
+          "frame": "12",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 1.3089969158172607,
+            "endingAngle": 2.879793167114258,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:334",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:334",
+          "frame": "13",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 1.5707963705062866,
+            "endingAngle": 3.1415927410125732,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:337",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:337",
+          "frame": "14",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 1.832595705986023,
+            "endingAngle": 3.4033920764923096,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:340",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:340",
+          "frame": "15",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 2.094395160675049,
+            "endingAngle": 3.665191411972046,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:343",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:343",
+          "frame": "16",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 2.356194496154785,
+            "endingAngle": 3.9269907474517822,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:346",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:346",
+          "frame": "17",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 2.6179938316345215,
+            "endingAngle": 4.188790321350098,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:349",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:349",
+          "frame": "18",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": 2.879793167114258,
+            "endingAngle": 4.450589656829834,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:352",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:352",
+          "frame": "19",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -3.1415927410125732,
+            "endingAngle": -1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:355",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:355",
+          "frame": "20",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -2.879793167114258,
+            "endingAngle": -1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:358",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:358",
+          "frame": "21",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -2.6179938316345215,
+            "endingAngle": -1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:361",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:361",
+          "frame": "22",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -2.356194496154785,
+            "endingAngle": -0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:364",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:364",
+          "frame": "23",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -2.094395160675049,
+            "endingAngle": -0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:367",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:367",
+          "frame": "24",
+          "w": 16,
+          "h": 16,
+          "arc": {
+            "startingAngle": -1.832595705986023,
+            "endingAngle": -0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:407",
+          "nav": "CHANGE_TO",
+          "transition": null
+        }
+      ]
+    },
+    "small": {
+      "first": {
+        "id": "8944:419",
+        "w": 20,
+        "h": 20,
+        "b": {
+          "width": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8871:11"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:8871:11"
+          }
+        },
+        "children": [
+          {
+            "id": "8944:420",
+            "name": "Track",
+            "type": "ELLIPSE",
+            "w": 20,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": 0,
+              "endingAngle": 6.2831854820251465,
+              "innerRadius": 0
+            },
+            "stroke": 2,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:559:9"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8944:421",
+            "name": "Arc",
+            "type": "ELLIPSE",
+            "w": 20,
+            "h": 20,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": -1.5707963705062866,
+              "endingAngle": 0,
+              "innerRadius": 1
+            },
+            "stroke": 2,
+            "align": "INSIDE",
+            "cap": "ROUND",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:559:9"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196141"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "phases": [
+        {
+          "id": "8944:419",
+          "frame": "1",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -1.5707963705062866,
+            "endingAngle": 0,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:422",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:422",
+          "frame": "2",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -1.3089969158172607,
+            "endingAngle": 0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:425",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:425",
+          "frame": "3",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -1.0471975803375244,
+            "endingAngle": 0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:428",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:428",
+          "frame": "4",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -0.7853981852531433,
+            "endingAngle": 0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:370",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:370",
+          "frame": "5",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -0.5235987901687622,
+            "endingAngle": 1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:373",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:373",
+          "frame": "6",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -0.2617993950843811,
+            "endingAngle": 1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:376",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:376",
+          "frame": "7",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 0,
+            "endingAngle": 1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:379",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:379",
+          "frame": "8",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 0.2617993950843811,
+            "endingAngle": 1.832595705986023,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:382",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:382",
+          "frame": "9",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 0.5235987901687622,
+            "endingAngle": 2.094395160675049,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:385",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:385",
+          "frame": "10",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 0.7853981852531433,
+            "endingAngle": 2.356194496154785,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:388",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:388",
+          "frame": "11",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 1.0471975803375244,
+            "endingAngle": 2.6179938316345215,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:391",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:391",
+          "frame": "12",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 1.3089969158172607,
+            "endingAngle": 2.879793167114258,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:394",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:394",
+          "frame": "13",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 1.5707963705062866,
+            "endingAngle": 3.1415927410125732,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:397",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:397",
+          "frame": "14",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 1.832595705986023,
+            "endingAngle": 3.4033920764923096,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:400",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:400",
+          "frame": "15",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 2.094395160675049,
+            "endingAngle": 3.665191411972046,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:403",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:403",
+          "frame": "16",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 2.356194496154785,
+            "endingAngle": 3.9269907474517822,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:406",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:406",
+          "frame": "17",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 2.6179938316345215,
+            "endingAngle": 4.188790321350098,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:409",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:409",
+          "frame": "18",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": 2.879793167114258,
+            "endingAngle": 4.450589656829834,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:412",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:412",
+          "frame": "19",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -3.1415927410125732,
+            "endingAngle": -1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:415",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:415",
+          "frame": "20",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -2.879793167114258,
+            "endingAngle": -1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:418",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:418",
+          "frame": "21",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -2.6179938316345215,
+            "endingAngle": -1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:421",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:421",
+          "frame": "22",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -2.356194496154785,
+            "endingAngle": -0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:424",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:424",
+          "frame": "23",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -2.094395160675049,
+            "endingAngle": -0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:427",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:427",
+          "frame": "24",
+          "w": 20,
+          "h": 20,
+          "arc": {
+            "startingAngle": -1.832595705986023,
+            "endingAngle": -0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:419",
+          "nav": "CHANGE_TO",
+          "transition": null
+        }
+      ]
+    },
+    "medium": {
+      "first": {
+        "id": "8944:431",
+        "w": 24,
+        "h": 24,
+        "b": {
+          "width": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:562:20"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:562:20"
+          }
+        },
+        "children": [
+          {
+            "id": "8944:432",
+            "name": "Track",
+            "type": "ELLIPSE",
+            "w": 24,
+            "h": 24,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": 0,
+              "endingAngle": 6.2831854820251465,
+              "innerRadius": 0
+            },
+            "stroke": 2,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:559:9"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8944:433",
+            "name": "Arc",
+            "type": "ELLIPSE",
+            "w": 24,
+            "h": 24,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": -1.5707963705062866,
+              "endingAngle": 0,
+              "innerRadius": 1
+            },
+            "stroke": 2,
+            "align": "INSIDE",
+            "cap": "ROUND",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:559:9"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196141"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "phases": [
+        {
+          "id": "8944:431",
+          "frame": "1",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -1.5707963705062866,
+            "endingAngle": 0,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:434",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:434",
+          "frame": "2",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -1.3089969158172607,
+            "endingAngle": 0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:437",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:437",
+          "frame": "3",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -1.0471975803375244,
+            "endingAngle": 0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:440",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:440",
+          "frame": "4",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -0.7853981852531433,
+            "endingAngle": 0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:430",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:430",
+          "frame": "5",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -0.5235987901687622,
+            "endingAngle": 1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:433",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:433",
+          "frame": "6",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -0.2617993950843811,
+            "endingAngle": 1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:436",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:436",
+          "frame": "7",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 0,
+            "endingAngle": 1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:439",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:439",
+          "frame": "8",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 0.2617993950843811,
+            "endingAngle": 1.832595705986023,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:442",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:442",
+          "frame": "9",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 0.5235987901687622,
+            "endingAngle": 2.094395160675049,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:445",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:445",
+          "frame": "10",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 0.7853981852531433,
+            "endingAngle": 2.356194496154785,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:448",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:448",
+          "frame": "11",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 1.0471975803375244,
+            "endingAngle": 2.6179938316345215,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:451",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:451",
+          "frame": "12",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 1.3089969158172607,
+            "endingAngle": 2.879793167114258,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:454",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:454",
+          "frame": "13",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 1.5707963705062866,
+            "endingAngle": 3.1415927410125732,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:457",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:457",
+          "frame": "14",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 1.832595705986023,
+            "endingAngle": 3.4033920764923096,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:460",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:460",
+          "frame": "15",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 2.094395160675049,
+            "endingAngle": 3.665191411972046,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:463",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:463",
+          "frame": "16",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 2.356194496154785,
+            "endingAngle": 3.9269907474517822,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:466",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:466",
+          "frame": "17",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 2.6179938316345215,
+            "endingAngle": 4.188790321350098,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:469",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:469",
+          "frame": "18",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": 2.879793167114258,
+            "endingAngle": 4.450589656829834,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:472",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:472",
+          "frame": "19",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -3.1415927410125732,
+            "endingAngle": -1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:475",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:475",
+          "frame": "20",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -2.879793167114258,
+            "endingAngle": -1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:478",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:478",
+          "frame": "21",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -2.6179938316345215,
+            "endingAngle": -1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:481",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:481",
+          "frame": "22",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -2.356194496154785,
+            "endingAngle": -0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:484",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:484",
+          "frame": "23",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -2.094395160675049,
+            "endingAngle": -0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:487",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:487",
+          "frame": "24",
+          "w": 24,
+          "h": 24,
+          "arc": {
+            "startingAngle": -1.832595705986023,
+            "endingAngle": -0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:431",
+          "nav": "CHANGE_TO",
+          "transition": null
+        }
+      ]
+    },
+    "large": {
+      "first": {
+        "id": "8944:443",
+        "w": 40,
+        "h": 40,
+        "b": {
+          "width": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:562:22"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:562:22"
+          }
+        },
+        "children": [
+          {
+            "id": "8944:444",
+            "name": "Track",
+            "type": "ELLIPSE",
+            "w": 40,
+            "h": 40,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": 0,
+              "endingAngle": 6.2831854820251465,
+              "innerRadius": 0
+            },
+            "stroke": 4,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:8944:402"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8944:445",
+            "name": "Arc",
+            "type": "ELLIPSE",
+            "w": 40,
+            "h": 40,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": -1.5707963705062866,
+              "endingAngle": 0,
+              "innerRadius": 1
+            },
+            "stroke": 4,
+            "align": "INSIDE",
+            "cap": "ROUND",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:8944:402"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196141"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "phases": [
+        {
+          "id": "8944:443",
+          "frame": "1",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -1.5707963705062866,
+            "endingAngle": 0,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:446",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:446",
+          "frame": "2",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -1.3089969158172607,
+            "endingAngle": 0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:449",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:449",
+          "frame": "3",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -1.0471975803375244,
+            "endingAngle": 0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:452",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:452",
+          "frame": "4",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -0.7853981852531433,
+            "endingAngle": 0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:490",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:490",
+          "frame": "5",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -0.5235987901687622,
+            "endingAngle": 1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:493",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:493",
+          "frame": "6",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -0.2617993950843811,
+            "endingAngle": 1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:496",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:496",
+          "frame": "7",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 0,
+            "endingAngle": 1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:499",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:499",
+          "frame": "8",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 0.2617993950843811,
+            "endingAngle": 1.832595705986023,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:502",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:502",
+          "frame": "9",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 0.5235987901687622,
+            "endingAngle": 2.094395160675049,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:505",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:505",
+          "frame": "10",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 0.7853981852531433,
+            "endingAngle": 2.356194496154785,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:508",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:508",
+          "frame": "11",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 1.0471975803375244,
+            "endingAngle": 2.6179938316345215,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:511",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:511",
+          "frame": "12",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 1.3089969158172607,
+            "endingAngle": 2.879793167114258,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:514",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:514",
+          "frame": "13",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 1.5707963705062866,
+            "endingAngle": 3.1415927410125732,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:517",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:517",
+          "frame": "14",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 1.832595705986023,
+            "endingAngle": 3.4033920764923096,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:520",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:520",
+          "frame": "15",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 2.094395160675049,
+            "endingAngle": 3.665191411972046,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:523",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:523",
+          "frame": "16",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 2.356194496154785,
+            "endingAngle": 3.9269907474517822,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:526",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:526",
+          "frame": "17",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 2.6179938316345215,
+            "endingAngle": 4.188790321350098,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:529",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:529",
+          "frame": "18",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": 2.879793167114258,
+            "endingAngle": 4.450589656829834,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:532",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:532",
+          "frame": "19",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -3.1415927410125732,
+            "endingAngle": -1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:535",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:535",
+          "frame": "20",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -2.879793167114258,
+            "endingAngle": -1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:538",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:538",
+          "frame": "21",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -2.6179938316345215,
+            "endingAngle": -1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:541",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:541",
+          "frame": "22",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -2.356194496154785,
+            "endingAngle": -0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:544",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:544",
+          "frame": "23",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -2.094395160675049,
+            "endingAngle": -0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:547",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:547",
+          "frame": "24",
+          "w": 40,
+          "h": 40,
+          "arc": {
+            "startingAngle": -1.832595705986023,
+            "endingAngle": -0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:443",
+          "nav": "CHANGE_TO",
+          "transition": null
+        }
+      ]
+    },
+    "extra-large": {
+      "first": {
+        "id": "8944:455",
+        "w": 64,
+        "h": 64,
+        "b": {
+          "width": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:562:25"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:562:25"
+          }
+        },
+        "children": [
+          {
+            "id": "8944:456",
+            "name": "Track",
+            "type": "ELLIPSE",
+            "w": 64,
+            "h": 64,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": 0,
+              "endingAngle": 6.2831854820251465,
+              "innerRadius": 0
+            },
+            "stroke": 6,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:8944:404"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8944:457",
+            "name": "Arc",
+            "type": "ELLIPSE",
+            "w": 64,
+            "h": 64,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": -1.5707963705062866,
+              "endingAngle": 0,
+              "innerRadius": 1
+            },
+            "stroke": 6,
+            "align": "INSIDE",
+            "cap": "ROUND",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:8944:404"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196141"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "phases": [
+        {
+          "id": "8944:455",
+          "frame": "1",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -1.5707963705062866,
+            "endingAngle": 0,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:458",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:458",
+          "frame": "2",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -1.3089969158172607,
+            "endingAngle": 0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:461",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:461",
+          "frame": "3",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -1.0471975803375244,
+            "endingAngle": 0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:464",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:464",
+          "frame": "4",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -0.7853981852531433,
+            "endingAngle": 0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:550",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:550",
+          "frame": "5",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -0.5235987901687622,
+            "endingAngle": 1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:553",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:553",
+          "frame": "6",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -0.2617993950843811,
+            "endingAngle": 1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:556",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:556",
+          "frame": "7",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 0,
+            "endingAngle": 1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:559",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:559",
+          "frame": "8",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 0.2617993950843811,
+            "endingAngle": 1.832595705986023,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:562",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:562",
+          "frame": "9",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 0.5235987901687622,
+            "endingAngle": 2.094395160675049,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:565",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:565",
+          "frame": "10",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 0.7853981852531433,
+            "endingAngle": 2.356194496154785,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:568",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:568",
+          "frame": "11",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 1.0471975803375244,
+            "endingAngle": 2.6179938316345215,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:571",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:571",
+          "frame": "12",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 1.3089969158172607,
+            "endingAngle": 2.879793167114258,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:574",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:574",
+          "frame": "13",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 1.5707963705062866,
+            "endingAngle": 3.1415927410125732,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:577",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:577",
+          "frame": "14",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 1.832595705986023,
+            "endingAngle": 3.4033920764923096,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:580",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:580",
+          "frame": "15",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 2.094395160675049,
+            "endingAngle": 3.665191411972046,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:583",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:583",
+          "frame": "16",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 2.356194496154785,
+            "endingAngle": 3.9269907474517822,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:586",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:586",
+          "frame": "17",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 2.6179938316345215,
+            "endingAngle": 4.188790321350098,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:589",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:589",
+          "frame": "18",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": 2.879793167114258,
+            "endingAngle": 4.450589656829834,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:592",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:592",
+          "frame": "19",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -3.1415927410125732,
+            "endingAngle": -1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:595",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:595",
+          "frame": "20",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -2.879793167114258,
+            "endingAngle": -1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:598",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:598",
+          "frame": "21",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -2.6179938316345215,
+            "endingAngle": -1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:601",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:601",
+          "frame": "22",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -2.356194496154785,
+            "endingAngle": -0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:604",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:604",
+          "frame": "23",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -2.094395160675049,
+            "endingAngle": -0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:607",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:607",
+          "frame": "24",
+          "w": 64,
+          "h": 64,
+          "arc": {
+            "startingAngle": -1.832595705986023,
+            "endingAngle": -0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:455",
+          "nav": "CHANGE_TO",
+          "transition": null
+        }
+      ]
+    },
+    "2x-large": {
+      "first": {
+        "id": "8944:467",
+        "w": 88,
+        "h": 88,
+        "b": {},
+        "children": [
+          {
+            "id": "8944:468",
+            "name": "Track",
+            "type": "ELLIPSE",
+            "w": 88,
+            "h": 88,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": 0,
+              "endingAngle": 6.2831854820251465,
+              "innerRadius": 0
+            },
+            "stroke": 8,
+            "align": "INSIDE",
+            "cap": "NONE",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:8944:406"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              ]
+            }
+          },
+          {
+            "id": "8944:469",
+            "name": "Arc",
+            "type": "ELLIPSE",
+            "w": 88,
+            "h": 88,
+            "x": 0,
+            "y": 0,
+            "arc": {
+              "startingAngle": -1.5707963705062866,
+              "endingAngle": 0,
+              "innerRadius": 1
+            },
+            "stroke": 8,
+            "align": "INSIDE",
+            "cap": "ROUND",
+            "b": {
+              "strokeWeight": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:8944:406"
+              },
+              "strokes": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196141"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "phases": [
+        {
+          "id": "8944:467",
+          "frame": "1",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -1.5707963705062866,
+            "endingAngle": 0,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:470",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:470",
+          "frame": "2",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -1.3089969158172607,
+            "endingAngle": 0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:473",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:473",
+          "frame": "3",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -1.0471975803375244,
+            "endingAngle": 0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:476",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8944:476",
+          "frame": "4",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -0.7853981852531433,
+            "endingAngle": 0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:610",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:610",
+          "frame": "5",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -0.5235987901687622,
+            "endingAngle": 1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:613",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:613",
+          "frame": "6",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -0.2617993950843811,
+            "endingAngle": 1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:616",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:616",
+          "frame": "7",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 0,
+            "endingAngle": 1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:619",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:619",
+          "frame": "8",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 0.2617993950843811,
+            "endingAngle": 1.832595705986023,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:622",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:622",
+          "frame": "9",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 0.5235987901687622,
+            "endingAngle": 2.094395160675049,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:625",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:625",
+          "frame": "10",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 0.7853981852531433,
+            "endingAngle": 2.356194496154785,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:628",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:628",
+          "frame": "11",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 1.0471975803375244,
+            "endingAngle": 2.6179938316345215,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:631",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:631",
+          "frame": "12",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 1.3089969158172607,
+            "endingAngle": 2.879793167114258,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:634",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:634",
+          "frame": "13",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 1.5707963705062866,
+            "endingAngle": 3.1415927410125732,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:637",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:637",
+          "frame": "14",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 1.832595705986023,
+            "endingAngle": 3.4033920764923096,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:640",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:640",
+          "frame": "15",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 2.094395160675049,
+            "endingAngle": 3.665191411972046,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:643",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:643",
+          "frame": "16",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 2.356194496154785,
+            "endingAngle": 3.9269907474517822,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:646",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:646",
+          "frame": "17",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 2.6179938316345215,
+            "endingAngle": 4.188790321350098,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:649",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:649",
+          "frame": "18",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": 2.879793167114258,
+            "endingAngle": 4.450589656829834,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:652",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:652",
+          "frame": "19",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -3.1415927410125732,
+            "endingAngle": -1.5707963705062866,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:655",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:655",
+          "frame": "20",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -2.879793167114258,
+            "endingAngle": -1.3089969158172607,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:658",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:658",
+          "frame": "21",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -2.6179938316345215,
+            "endingAngle": -1.0471975803375244,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:661",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:661",
+          "frame": "22",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -2.356194496154785,
+            "endingAngle": -0.7853981852531433,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:664",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:664",
+          "frame": "23",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -2.094395160675049,
+            "endingAngle": -0.5235987901687622,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8948:667",
+          "nav": "CHANGE_TO",
+          "transition": null
+        },
+        {
+          "id": "8948:667",
+          "frame": "24",
+          "w": 88,
+          "h": 88,
+          "arc": {
+            "startingAngle": -1.832595705986023,
+            "endingAngle": -0.2617993950843811,
+            "innerRadius": 1
+          },
+          "rotation": 0,
+          "timeout": 0.03333333507180214,
+          "to": "8944:467",
+          "nav": "CHANGE_TO",
+          "transition": null
+        }
+      ]
+    }
+  },
+  "variables": [
+    {
+      "id": "VariableID:559:9",
+      "name": "stroke/md",
+      "type": "FLOAT",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:476:12577"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:476:12577"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:476:12577"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:476:12577"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VariableID:2849:196106",
+      "name": "color/background/muted",
+      "type": "COLOR",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:193:43180"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:193:43180"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:193:43180"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:193:43180"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VariableID:2849:196141",
+      "name": "color/icon/brand",
+      "type": "COLOR",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:82:159"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2496:177"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5976:12000"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2496:187"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VariableID:8944:402",
+      "name": "stroke/lg",
+      "type": "FLOAT",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:401"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:401"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:401"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:401"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VariableID:8944:404",
+      "name": "stroke/xl",
+      "type": "FLOAT",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:403"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:403"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:403"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:403"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VariableID:8944:406",
+      "name": "stroke/2xl",
+      "type": "FLOAT",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:405"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:405"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:405"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:8944:405"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VariableID:2849:196139",
+      "name": "color/icon/secondary",
+      "type": "COLOR",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:90:720"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:90:720"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:90:720"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:90:720"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VariableID:2849:196138",
+      "name": "color/icon/primary",
+      "type": "COLOR",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:268:21767"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:268:21767"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:268:21767"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:268:21767"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    },
+    {
+      "id": "VariableID:2849:196142",
+      "name": "color/icon/on-brand",
+      "type": "COLOR",
+      "values": {
+        "52:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:57:82"
+        },
+        "2849:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:57:82"
+        },
+        "2849:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:57:82"
+        },
+        "2849:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:57:82"
+        }
+      },
+      "collection": {
+        "id": "VariableCollectionId:52:726",
+        "name": "semantic",
+        "modes": [
+          {
+            "name": "Contable",
+            "modeId": "52:2"
+          },
+          {
+            "name": "Administrativo",
+            "modeId": "2849:0"
+          },
+          {
+            "name": "Servicios",
+            "modeId": "2849:1"
+          },
+          {
+            "name": "Personas",
+            "modeId": "2849:2"
+          }
+        ]
+      }
+    }
+  ]
+}

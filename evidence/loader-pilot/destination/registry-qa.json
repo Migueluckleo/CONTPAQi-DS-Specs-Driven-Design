@@ -1,0 +1,475 @@
+{
+  "status": "PASS_REGISTRY",
+  "issues": [],
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:0"
+        }
+      ],
+      "count": 149
+    },
+    {
+      "id": "VariableCollectionId:6:148",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:1"
+        }
+      ],
+      "count": 110
+    },
+    {
+      "id": "VariableCollectionId:11:2",
+      "name": "component",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "11:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "11:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "11:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "11:3"
+        }
+      ],
+      "count": 152
+    }
+  ],
+  "variables": [
+    {
+      "logicalId": "loader.color-stroke-primary-default",
+      "id": "VariableID:245:4",
+      "key": "5e4f4ed9c1ed5d39b85409fe45aeb8c89edc9014",
+      "name": "loader/color/stroke/primary-default",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "web": "var(--loader-color-stroke-primary-default)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.color-stroke-secondary",
+      "id": "VariableID:245:5",
+      "key": "4108c784d832e1e713ae68e1203e2285fe07c9ff",
+      "name": "loader/color/stroke/secondary",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "web": "var(--loader-color-stroke-secondary)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.color-stroke-strong",
+      "id": "VariableID:245:6",
+      "key": "0b7dd9ad38aae1f7113640f9c99338f76e15ed7a",
+      "name": "loader/color/stroke/strong",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "web": "var(--loader-color-stroke-strong)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.color-stroke-inverse",
+      "id": "VariableID:245:7",
+      "key": "90b3dc8bccc2a0b680dd475e7718a09d526acd26",
+      "name": "loader/color/stroke/inverse",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "web": "var(--loader-color-stroke-inverse)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.color-stroke-track",
+      "id": "VariableID:245:8",
+      "key": "f605f2a2b486f257b46d335de83711e609273ff4",
+      "name": "loader/color/stroke/track",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "web": "var(--loader-color-stroke-track)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.size-extra-small",
+      "id": "VariableID:245:9",
+      "key": "5391951f41ce9106d489bdec4d990fc81086d122",
+      "name": "loader/size/extra-small",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "web": "var(--loader-size-extra-small)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.size-small",
+      "id": "VariableID:245:10",
+      "key": "cf7e3b5f5f54921b061ecdb1201b3f9d9896e8f1",
+      "name": "loader/size/small",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "web": "var(--loader-size-small)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.size-medium",
+      "id": "VariableID:245:11",
+      "key": "0e434a4859b531e8c0e6227c36a5615e4ead5c82",
+      "name": "loader/size/medium",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "web": "var(--loader-size-medium)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.size-large",
+      "id": "VariableID:245:12",
+      "key": "edff27dfd1ba26d115c2ffc018e90564f7e3334c",
+      "name": "loader/size/large",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "web": "var(--loader-size-large)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:240"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:240"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:240"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:240"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.size-extra-large",
+      "id": "VariableID:245:13",
+      "key": "dbd6448bcce18f8f886682e932197355275a08bb",
+      "name": "loader/size/extra-large",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "web": "var(--loader-size-extra-large)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:243"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:243"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:243"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:243"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.size-2x-large",
+      "id": "VariableID:245:14",
+      "key": "d7dd0ca442266f01b6c3ff9206f8c9094f7d699e",
+      "name": "loader/size/2x-large",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "web": "var(--loader-size-2x-large)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:245:3"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:245:3"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:245:3"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:245:3"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.border-width-regular",
+      "id": "VariableID:245:15",
+      "key": "741f8313d6923e73345d2767cf68ca768a166d8b",
+      "name": "loader/border/width-regular",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "web": "var(--loader-border-width-regular)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.border-width-large",
+      "id": "VariableID:245:16",
+      "key": "e60a3170be6e322e0ba2510de5f00fb7198a8d2b",
+      "name": "loader/border/width-large",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "web": "var(--loader-border-width-large)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:252"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:252"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:252"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:252"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.border-width-extra-large",
+      "id": "VariableID:245:17",
+      "key": "111a88d0a2ece3fda6bab5010153fc1706634bdd",
+      "name": "loader/border/width-extra-large",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "web": "var(--loader-border-width-extra-large)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:253"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:253"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:253"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:253"
+        }
+      }
+    },
+    {
+      "logicalId": "loader.border-width-2x-large",
+      "id": "VariableID:245:18",
+      "key": "0b016ba29c1de80688f1c40d560df527a0c953d9",
+      "name": "loader/border/width-2x-large",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "web": "var(--loader-border-width-2x-large)",
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:254"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:254"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:254"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:254"
+        }
+      }
+    }
+  ],
+  "activeRetired": [],
+  "oldSets": []
+}

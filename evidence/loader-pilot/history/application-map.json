@@ -1,0 +1,2541 @@
+{
+  "sourceFileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+  "destinationFileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "variables": [
+    {
+      "layer": "primitive",
+      "name": "spacing-0",
+      "destination_id": "VariableID:6:3",
+      "destination_key": "33985a7579051cc10aaa7bb51d173425e29d79ad",
+      "source_ids": [
+        "VariableID:1098:28492"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-weight-semibold",
+      "destination_id": "VariableID:6:4",
+      "destination_key": "d37a9e1bde0bf6d885f3d275308d76694adadc17",
+      "source_ids": [
+        "VariableID:1683:44036"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-300",
+      "destination_id": "VariableID:6:5",
+      "destination_key": "dfdcc3872f2ad3bf5f0d8b6ef6f88ea6f13adc89",
+      "source_ids": [
+        "VariableID:193:43180"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-400",
+      "destination_id": "VariableID:6:6",
+      "destination_key": "999a8dd4b3212916a7bb3eae1d46a0b196a17a63",
+      "source_ids": [
+        "VariableID:193:43208"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-500",
+      "destination_id": "VariableID:6:7",
+      "destination_key": "a9cefb3ebc410e8fc404da25b3f9b19a781b0508",
+      "source_ids": [
+        "VariableID:193:43251"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-500",
+      "destination_id": "VariableID:6:8",
+      "destination_key": "7731d85ff1d077f1da7d0982397fad0b868bd72b",
+      "source_ids": [
+        "VariableID:193:43252"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-500",
+      "destination_id": "VariableID:6:9",
+      "destination_key": "78f9de661a786d630b760ff20de65d0c63b5048a",
+      "source_ids": [
+        "VariableID:193:43256"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-100",
+      "destination_id": "VariableID:6:10",
+      "destination_key": "c930bf93e86950d4eb6537f6ae8bd0893055f774",
+      "source_ids": [
+        "VariableID:2496:173"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-200",
+      "destination_id": "VariableID:6:11",
+      "destination_key": "ad9e3d4ac04f90e043faef78f4dbacbbcf7dcf74",
+      "source_ids": [
+        "VariableID:2496:174"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-300",
+      "destination_id": "VariableID:6:12",
+      "destination_key": "c78a4d984b4bf21ab4e17169cd9c6b19a698adb0",
+      "source_ids": [
+        "VariableID:2496:175"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-400",
+      "destination_id": "VariableID:6:13",
+      "destination_key": "5070e730338c0ba93b087d42d383420b91005d2d",
+      "source_ids": [
+        "VariableID:2496:176"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-500",
+      "destination_id": "VariableID:6:14",
+      "destination_key": "0d03c69c283ae241149edef6254f2f0d8f971634",
+      "source_ids": [
+        "VariableID:2496:177"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-100",
+      "destination_id": "VariableID:6:15",
+      "destination_key": "1082f4d044a524d82763b7485f580cb9a1d32fd2",
+      "source_ids": [
+        "VariableID:2496:178"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-200",
+      "destination_id": "VariableID:6:16",
+      "destination_key": "b3807158ba2a1f6e518ccae240da1be6a3edce88",
+      "source_ids": [
+        "VariableID:2496:179"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-300",
+      "destination_id": "VariableID:6:17",
+      "destination_key": "b35a9d3620f9dcb898c5d806bfbb0c26b321c096",
+      "source_ids": [
+        "VariableID:2496:180"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-400",
+      "destination_id": "VariableID:6:18",
+      "destination_key": "4ee7689f138bf4da975580bdf7a3c593df5496fe",
+      "source_ids": [
+        "VariableID:2496:181"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-500",
+      "destination_id": "VariableID:6:19",
+      "destination_key": "b25da927b74a46e0c272d6dff5e58254364f3959",
+      "source_ids": [
+        "VariableID:2496:182"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-100",
+      "destination_id": "VariableID:6:20",
+      "destination_key": "71fae2aa4c1e90ca43ad2b3c12bb98d39f6b964b",
+      "source_ids": [
+        "VariableID:2496:183"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-200",
+      "destination_id": "VariableID:6:21",
+      "destination_key": "5ab00b211bddf3c3f106519698d7960b3035f206",
+      "source_ids": [
+        "VariableID:2496:184"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-300",
+      "destination_id": "VariableID:6:22",
+      "destination_key": "c9ca5424f823f116adaaac90546bccc3a77f48e0",
+      "source_ids": [
+        "VariableID:2496:185"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-400",
+      "destination_id": "VariableID:6:23",
+      "destination_key": "1f58170a1ef68132bc10dd0d9c07c43ddd9936f3",
+      "source_ids": [
+        "VariableID:2496:186"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-500",
+      "destination_id": "VariableID:6:24",
+      "destination_key": "bfd988a5f998bf9925d350166c59571fc023f611",
+      "source_ids": [
+        "VariableID:2496:187"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-56",
+      "destination_id": "VariableID:6:25",
+      "destination_key": "b42308d7038d7cc1ded6618576a4da32a48919a7",
+      "source_ids": [
+        "VariableID:2634:2"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-64",
+      "destination_id": "VariableID:6:26",
+      "destination_key": "f776d217056cd4eac4229bf0d9ff7d6f066e05ed",
+      "source_ids": [
+        "VariableID:2634:3"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-600",
+      "destination_id": "VariableID:6:27",
+      "destination_key": "5b0ce3004d0585f5c3a8896a76343fabd630876b",
+      "source_ids": [
+        "VariableID:268:21764"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-700",
+      "destination_id": "VariableID:6:28",
+      "destination_key": "12726140de70b660a15795ce915a5022df5bfc36",
+      "source_ids": [
+        "VariableID:268:21765"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-800",
+      "destination_id": "VariableID:6:29",
+      "destination_key": "0de1a80ba070ff9dc748efa137ce49227d6655ff",
+      "source_ids": [
+        "VariableID:268:21766"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-900",
+      "destination_id": "VariableID:6:30",
+      "destination_key": "456153c7403c241414830ff81e5e21d9e60dfe5f",
+      "source_ids": [
+        "VariableID:268:21767"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-0",
+      "destination_id": "VariableID:6:31",
+      "destination_key": "5ef485789c94d33dbde8defdb655d80a32a8a8bf",
+      "source_ids": [
+        "VariableID:435:95765"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-32",
+      "destination_id": "VariableID:6:32",
+      "destination_key": "dc268df07bfd6cd67f037ddb61e56b9b543b5f56",
+      "source_ids": [
+        "VariableID:435:95767"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "stroke-0",
+      "destination_id": "VariableID:6:33",
+      "destination_key": "50d2b11f1a6cb29a78386d1dea8a0efc8c32963c",
+      "source_ids": [
+        "VariableID:476:12575"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "stroke-1",
+      "destination_id": "VariableID:6:34",
+      "destination_key": "8ba648670f9ce414c18df7d110c27444bb147d18",
+      "source_ids": [
+        "VariableID:476:12576"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "stroke-2",
+      "destination_id": "VariableID:6:35",
+      "destination_key": "ceeeec3b6cc7fd95ecba2511cb969f7fd01f2790",
+      "source_ids": [
+        "VariableID:476:12577"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "stroke-1-5",
+      "destination_id": "VariableID:6:36",
+      "destination_key": "f4628249af66816b77d568aa5bb05ce3d974ad8f",
+      "source_ids": [
+        "VariableID:476:12579"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-family-manrope",
+      "destination_id": "VariableID:6:37",
+      "destination_key": "614150a5bde525d73b0e60d5201defba59e1ab12",
+      "source_ids": [
+        "VariableID:52:691"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-weight-regular",
+      "destination_id": "VariableID:6:38",
+      "destination_key": "7498f52749d5726b8cfd94b85875d69fb5f0db37",
+      "source_ids": [
+        "VariableID:52:696"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-weight-medium",
+      "destination_id": "VariableID:6:39",
+      "destination_key": "3176cbda13962d3637b0652873e6733df2500128",
+      "source_ids": [
+        "VariableID:52:697"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-weight-bold",
+      "destination_id": "VariableID:6:40",
+      "destination_key": "95e23b1439f38125ef70924a3f937a21e780a5ba",
+      "source_ids": [
+        "VariableID:52:699"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-12",
+      "destination_id": "VariableID:6:41",
+      "destination_key": "fe1d47e3bfd53b0918be4492849a90bf70aca186",
+      "source_ids": [
+        "VariableID:52:706"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-14",
+      "destination_id": "VariableID:6:42",
+      "destination_key": "1edb7765b992c0e0c822cb571267fc57fd4ebd8d",
+      "source_ids": [
+        "VariableID:52:707"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-16",
+      "destination_id": "VariableID:6:43",
+      "destination_key": "a8f71774fd80795dedaa8e2b53955140634f63d0",
+      "source_ids": [
+        "VariableID:52:708"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-20",
+      "destination_id": "VariableID:6:44",
+      "destination_key": "c2a8e26145076a5652f8830c1d4c2d62d9f025eb",
+      "source_ids": [
+        "VariableID:52:709"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-24",
+      "destination_id": "VariableID:6:45",
+      "destination_key": "9b3d7688682309e647651414f8ced5d457354555",
+      "source_ids": [
+        "VariableID:52:710"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-32",
+      "destination_id": "VariableID:6:46",
+      "destination_key": "7738eee5fa63248be5158eb70234560a85a6009a",
+      "source_ids": [
+        "VariableID:52:711"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-40",
+      "destination_id": "VariableID:6:47",
+      "destination_key": "956ac71b197649919c28855b2dcc0623a2666017",
+      "source_ids": [
+        "VariableID:52:712"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-48",
+      "destination_id": "VariableID:6:48",
+      "destination_key": "3403567537e48a15576f624ee8d8860337e79f8f",
+      "source_ids": [
+        "VariableID:52:713"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-56",
+      "destination_id": "VariableID:6:49",
+      "destination_key": "9d6c6c5422d6d981eb2693e20379c597d6b1e734",
+      "source_ids": [
+        "VariableID:52:714"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-line-height-16",
+      "destination_id": "VariableID:6:50",
+      "destination_key": "f55865e5ff1b1a68f897b32267bf06900d2e1a56",
+      "source_ids": [
+        "VariableID:52:717"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-line-height-20",
+      "destination_id": "VariableID:6:51",
+      "destination_key": "f8d994ba629ddfe3c26713ece705cd979b474faf",
+      "source_ids": [
+        "VariableID:52:718"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-line-height-24",
+      "destination_id": "VariableID:6:52",
+      "destination_key": "a34fc268a2ba21db2f0a7186ebe2f88e7c3fb60a",
+      "source_ids": [
+        "VariableID:52:719"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-line-height-32",
+      "destination_id": "VariableID:6:53",
+      "destination_key": "1ad1bb2c11be0901dac82aa0ae92439e0efbb954",
+      "source_ids": [
+        "VariableID:52:720"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-line-height-40",
+      "destination_id": "VariableID:6:54",
+      "destination_key": "9a1aa6778d59474607010c0489766e814cf92357",
+      "source_ids": [
+        "VariableID:52:721"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-line-height-48",
+      "destination_id": "VariableID:6:55",
+      "destination_key": "990bc7a1b04b007bb9ed92f438dc96d32b84d91e",
+      "source_ids": [
+        "VariableID:52:722"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-line-height-56",
+      "destination_id": "VariableID:6:56",
+      "destination_key": "a7ae89c416f2fe1d684b863291dc8dedeb2d0d59",
+      "source_ids": [
+        "VariableID:52:723"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-line-height-28",
+      "destination_id": "VariableID:6:57",
+      "destination_key": "716c3c3994a19da3286c90a2393a020d48cff772",
+      "source_ids": [
+        "VariableID:52:725"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-letter-spacing-tight",
+      "destination_id": "VariableID:6:58",
+      "destination_key": "3efc8a8d44072a62cec27178aacaf3568fd8098a",
+      "source_ids": [
+        "VariableID:53:729"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-letter-spacing-normal",
+      "destination_id": "VariableID:6:59",
+      "destination_key": "92039d6e55e0f625e48eeb192defa5100607ba1a",
+      "source_ids": [
+        "VariableID:53:730"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-letter-spacing-wide",
+      "destination_id": "VariableID:6:60",
+      "destination_key": "bef618f50123c47836d6682f94f41200d8bc961f",
+      "source_ids": [
+        "VariableID:53:731"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "font-size-10",
+      "destination_id": "VariableID:6:61",
+      "destination_key": "898b8f087b9138b10aa9059be35dbe0e7eddcea2",
+      "source_ids": [
+        "VariableID:5401:72"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-12",
+      "destination_id": "VariableID:6:62",
+      "destination_key": "d1caa9e71c3d72a59a7c321fc686dbc7abfc6c85",
+      "source_ids": [
+        "VariableID:5401:73"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-12",
+      "destination_id": "VariableID:6:63",
+      "destination_key": "b4642ff843092441e26c8d220392bab018af11d8",
+      "source_ids": [
+        "VariableID:5401:74"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-8",
+      "destination_id": "VariableID:6:64",
+      "destination_key": "4f1095f7614e1d534926f26e6cd7f20605398a2d",
+      "source_ids": [
+        "VariableID:54:10"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-16",
+      "destination_id": "VariableID:6:65",
+      "destination_key": "84a5492e1e640fcf8a3547305b4f0c769edc256b",
+      "source_ids": [
+        "VariableID:54:11"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-24",
+      "destination_id": "VariableID:6:66",
+      "destination_key": "9fae52d1c139bfb525ec3d10d3cf23c8742e11a6",
+      "source_ids": [
+        "VariableID:54:13"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-32",
+      "destination_id": "VariableID:6:67",
+      "destination_key": "5d0729a45b2b3d752474db2dea0d2306a4cdcb39",
+      "source_ids": [
+        "VariableID:54:14"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-40",
+      "destination_id": "VariableID:6:68",
+      "destination_key": "0a0ad61268660578544fddcc623e090b75337afc",
+      "source_ids": [
+        "VariableID:54:15"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-48",
+      "destination_id": "VariableID:6:69",
+      "destination_key": "f9851d089aac3924dfdf47d305359b3ea9f6e6e4",
+      "source_ids": [
+        "VariableID:54:16"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-56",
+      "destination_id": "VariableID:6:70",
+      "destination_key": "4999df7dfaa09d74dc8991c5ff86a1829022b9f9",
+      "source_ids": [
+        "VariableID:54:17"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-64",
+      "destination_id": "VariableID:6:71",
+      "destination_key": "accb5cde7f45b46d073848adfb7197cbbdd48d61",
+      "source_ids": [
+        "VariableID:54:18"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-4",
+      "destination_id": "VariableID:6:72",
+      "destination_key": "11833c7fb013b3a8f9c106d8f1b373be5b965547",
+      "source_ids": [
+        "VariableID:54:9"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-2",
+      "destination_id": "VariableID:6:73",
+      "destination_key": "62ce622cece3ab9b0e053ca31497a337299add7b",
+      "source_ids": [
+        "VariableID:55:33"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-4",
+      "destination_id": "VariableID:6:74",
+      "destination_key": "0b5f07e8ffe46750d80c14ea278afd5be9a697bd",
+      "source_ids": [
+        "VariableID:55:34"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-8",
+      "destination_id": "VariableID:6:75",
+      "destination_key": "d76af0fadb9e7e991b52abb9062c6afdab7dc41f",
+      "source_ids": [
+        "VariableID:55:35"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-12",
+      "destination_id": "VariableID:6:76",
+      "destination_key": "821f9f5f3addb93f16f7359d35bfd394cc3c97eb",
+      "source_ids": [
+        "VariableID:55:36"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-16",
+      "destination_id": "VariableID:6:77",
+      "destination_key": "f861a1106901407623428a3c8252c6e4263d07d9",
+      "source_ids": [
+        "VariableID:55:37"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-24",
+      "destination_id": "VariableID:6:78",
+      "destination_key": "68807befc0b362b3116a8f7fb625bf1a13f6d3e0",
+      "source_ids": [
+        "VariableID:55:38"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "radius-9999",
+      "destination_id": "VariableID:6:79",
+      "destination_key": "917c7551ccf6b5b0bb9e2d277ad86c6d90bef3c9",
+      "source_ids": [
+        "VariableID:55:39"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-4",
+      "destination_id": "VariableID:6:80",
+      "destination_key": "e8718b09fb458e08cb85b96da6f81967d4afb928",
+      "source_ids": [
+        "VariableID:55:42"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-8",
+      "destination_id": "VariableID:6:81",
+      "destination_key": "487e81a60496de807f913febd61e4a2b44569926",
+      "source_ids": [
+        "VariableID:55:43"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-16",
+      "destination_id": "VariableID:6:82",
+      "destination_key": "4462b81da3b6f5089d8395cb7120c933e71850ee",
+      "source_ids": [
+        "VariableID:55:44"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-24",
+      "destination_id": "VariableID:6:83",
+      "destination_key": "b143dd0bbf38ef2b00856e3135941f50ae46485c",
+      "source_ids": [
+        "VariableID:55:45"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-32",
+      "destination_id": "VariableID:6:84",
+      "destination_key": "6a92172570833993a8b7a6deaf48a7ba61280513",
+      "source_ids": [
+        "VariableID:55:46"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-40",
+      "destination_id": "VariableID:6:85",
+      "destination_key": "1f815d401700fd21ae47fad9f480f54575af7329",
+      "source_ids": [
+        "VariableID:55:47"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-48",
+      "destination_id": "VariableID:6:86",
+      "destination_key": "59f3098fca611f5bb71441eaaf79717f68e2d540",
+      "source_ids": [
+        "VariableID:55:48"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-500",
+      "destination_id": "VariableID:6:87",
+      "destination_key": "a9613eda480c2e63fa80495cb7f3b6991af6da32",
+      "source_ids": [
+        "VariableID:55:77"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-100",
+      "destination_id": "VariableID:6:88",
+      "destination_key": "d23848ff6393040ff722c82274e8bab0185316bc",
+      "source_ids": [
+        "VariableID:55:78"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-100",
+      "destination_id": "VariableID:6:89",
+      "destination_key": "53e4525b079efaa9791387dc3c15218188718090",
+      "source_ids": [
+        "VariableID:55:79"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-100",
+      "destination_id": "VariableID:6:90",
+      "destination_key": "cbe75b2a18d777b9ecfcc9f94c1831c6688278d3",
+      "source_ids": [
+        "VariableID:55:80"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-100",
+      "destination_id": "VariableID:6:91",
+      "destination_key": "75cc4ef3dc411c8bb34a5db411c22a42e44954ad",
+      "source_ids": [
+        "VariableID:57:81"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-100",
+      "destination_id": "VariableID:6:92",
+      "destination_key": "d4b5cbeb63ce703bdab77852e0ddeb193d6e9ceb",
+      "source_ids": [
+        "VariableID:57:82"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-600",
+      "destination_id": "VariableID:6:93",
+      "destination_key": "69d2087021a3d50fa19d5dbbe1c4e9e9bcc21c05",
+      "source_ids": [
+        "VariableID:5976:12000"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-700",
+      "destination_id": "VariableID:6:94",
+      "destination_key": "a891275c3bc69e4f4513b5a3f62e7a19221877f7",
+      "source_ids": [
+        "VariableID:5976:12001"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-800",
+      "destination_id": "VariableID:6:95",
+      "destination_key": "56b7a2528010e5600aeab8218fc26d874abfeab0",
+      "source_ids": [
+        "VariableID:5976:12002"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "orange-900",
+      "destination_id": "VariableID:6:96",
+      "destination_key": "5d680cc9881cd13b83fbff905c8b4848797ea656",
+      "source_ids": [
+        "VariableID:5976:12003"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-600",
+      "destination_id": "VariableID:6:97",
+      "destination_key": "e01476015ae96afc3bd62e1e801570cb29188217",
+      "source_ids": [
+        "VariableID:5976:15666"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-700",
+      "destination_id": "VariableID:6:98",
+      "destination_key": "479f90d90fff54942efd9c250dc134abea38bd56",
+      "source_ids": [
+        "VariableID:5976:15667"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-800",
+      "destination_id": "VariableID:6:99",
+      "destination_key": "7e0dd9bd07fce85d094c1c89c6c43e815e8e99dd",
+      "source_ids": [
+        "VariableID:5976:15668"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-900",
+      "destination_id": "VariableID:6:100",
+      "destination_key": "4ae9bf18c687b1ab362f743aeef3a7f97ca6ea5a",
+      "source_ids": [
+        "VariableID:5976:15669"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-600",
+      "destination_id": "VariableID:6:101",
+      "destination_key": "0bacc6a80351c5ecbd34b8260a7bb7e3952ce0d9",
+      "source_ids": [
+        "VariableID:5976:15670"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-700",
+      "destination_id": "VariableID:6:102",
+      "destination_key": "beb0ff7c1e7b9d3cde313cf16eac3e007355b7ba",
+      "source_ids": [
+        "VariableID:5976:15671"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-800",
+      "destination_id": "VariableID:6:103",
+      "destination_key": "b49d6f357a4efa9d3610f2d336122e25cd9f2ec1",
+      "source_ids": [
+        "VariableID:5976:15672"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "green-900",
+      "destination_id": "VariableID:6:104",
+      "destination_key": "b84c26860262ace4e86dab36f7257dcc6ff1b307",
+      "source_ids": [
+        "VariableID:5976:15673"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-600",
+      "destination_id": "VariableID:6:105",
+      "destination_key": "2ff833a9b399fe5f5b8756ad4a18eda5bd28378d",
+      "source_ids": [
+        "VariableID:5976:9495"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-700",
+      "destination_id": "VariableID:6:106",
+      "destination_key": "e2d542a55117d2c06aa962ba4c48f4454c3f4f83",
+      "source_ids": [
+        "VariableID:5976:9496"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-800",
+      "destination_id": "VariableID:6:107",
+      "destination_key": "d1b88f8cdef291028bc195b607231d124931b6c1",
+      "source_ids": [
+        "VariableID:5976:9497"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "purple-900",
+      "destination_id": "VariableID:6:108",
+      "destination_key": "7519c7ba669768f3ef430f77ac3e1b2e92e29b38",
+      "source_ids": [
+        "VariableID:5976:9498"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-600",
+      "destination_id": "VariableID:6:109",
+      "destination_key": "ae9303e8f0d80291ba29106a5282a575617269d4",
+      "source_ids": [
+        "VariableID:6075:10446"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-700",
+      "destination_id": "VariableID:6:110",
+      "destination_key": "47a93c0b72e9d34a6f351e62e6842e0e40262340",
+      "source_ids": [
+        "VariableID:6075:10447"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-800",
+      "destination_id": "VariableID:6:111",
+      "destination_key": "00d4bf242da3a952a1ded20fb971c1ba49ce7091",
+      "source_ids": [
+        "VariableID:6075:10448"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-900",
+      "destination_id": "VariableID:6:112",
+      "destination_key": "3d58974ff6d4cc77c6b7fe3fcd9cf362fe6c7c84",
+      "source_ids": [
+        "VariableID:6075:10449"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-600",
+      "destination_id": "VariableID:6:113",
+      "destination_key": "34b9e2633447abd17df83f4b9ada7d29925c6fc4",
+      "source_ids": [
+        "VariableID:6075:4634"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-700",
+      "destination_id": "VariableID:6:114",
+      "destination_key": "5f1fb4e84c0110b47647a88fb8ae63c966903559",
+      "source_ids": [
+        "VariableID:6075:4635"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-800",
+      "destination_id": "VariableID:6:115",
+      "destination_key": "765a8053f4e168fca3758c4955346d4c360fc377",
+      "source_ids": [
+        "VariableID:6075:4636"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-900",
+      "destination_id": "VariableID:6:116",
+      "destination_key": "a6fdd4ee33ed87843eefbc592323be4099d52bd3",
+      "source_ids": [
+        "VariableID:6075:4637"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-600",
+      "destination_id": "VariableID:6:117",
+      "destination_key": "2124e277e4e3c700cc2aa3ce78e8a39d05c74808",
+      "source_ids": [
+        "VariableID:6183:6062"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-700",
+      "destination_id": "VariableID:6:118",
+      "destination_key": "a0af3c891d4d54b5eccd727628b012df44ffc6c9",
+      "source_ids": [
+        "VariableID:6183:6063"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-800",
+      "destination_id": "VariableID:6:119",
+      "destination_key": "b2eb809ac22874c22d252df72c9cd94da617fb4b",
+      "source_ids": [
+        "VariableID:6183:6064"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-900",
+      "destination_id": "VariableID:6:120",
+      "destination_key": "b4476b061b6be9c09af2fbf2855e21772081dced",
+      "source_ids": [
+        "VariableID:6183:6065"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-600",
+      "destination_id": "VariableID:6:121",
+      "destination_key": "3d7acee1fef077f3cbd7855768e21bb6126a783f",
+      "source_ids": [
+        "VariableID:6183:6066"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-700",
+      "destination_id": "VariableID:6:122",
+      "destination_key": "ca4bb51881aa7c08b26307929886d85a6a3f9331",
+      "source_ids": [
+        "VariableID:6183:6067"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-800",
+      "destination_id": "VariableID:6:123",
+      "destination_key": "466d9bfa835452a24aecc1c6acdf0470133472ce",
+      "source_ids": [
+        "VariableID:6183:6068"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-900",
+      "destination_id": "VariableID:6:124",
+      "destination_key": "d9f4959234ce23a95a8752e0a1a765f27f39ee53",
+      "source_ids": [
+        "VariableID:6183:6069"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-400",
+      "destination_id": "VariableID:6:125",
+      "destination_key": "943cba0e375d8f65be558fac012f92a3f995b0f7",
+      "source_ids": [
+        "VariableID:82:159"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-300",
+      "destination_id": "VariableID:6:126",
+      "destination_key": "85977a18966597b140545979b24972aba1c056da",
+      "source_ids": [
+        "VariableID:82:160"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-200",
+      "destination_id": "VariableID:6:127",
+      "destination_key": "610775e1de09ec1b5f15373ef1b69a16be530394",
+      "source_ids": [
+        "VariableID:82:161"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "blue-100",
+      "destination_id": "VariableID:6:128",
+      "destination_key": "3e51f790d537a0021ce210bc66477729783d9186",
+      "source_ids": [
+        "VariableID:82:162"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "size-20",
+      "destination_id": "VariableID:6:129",
+      "destination_key": "8569c0a14e0c96d3556cdaf6764b1379218578fb",
+      "source_ids": [
+        "VariableID:8871:10"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "stroke-4",
+      "destination_id": "VariableID:6:130",
+      "destination_key": "e04271eceabf66617d384f6000d43a41bcb2e632",
+      "source_ids": [
+        "VariableID:8944:401"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "stroke-6",
+      "destination_id": "VariableID:6:131",
+      "destination_key": "bfbed94f6cf45e219970a745114a99ccdfd5b92e",
+      "source_ids": [
+        "VariableID:8944:403"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "stroke-8",
+      "destination_id": "VariableID:6:132",
+      "destination_key": "2b1c5f0161c475625e364d41bb106e6425176846",
+      "source_ids": [
+        "VariableID:8944:405"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-200",
+      "destination_id": "VariableID:6:133",
+      "destination_key": "16a453da8227b33f784d0c25d3fc4d0546cf2cc4",
+      "source_ids": [
+        "VariableID:90:706"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-300",
+      "destination_id": "VariableID:6:134",
+      "destination_key": "65c552f88c64dde567b1c26c0d275a8496cff02d",
+      "source_ids": [
+        "VariableID:90:707"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "emerald-500",
+      "destination_id": "VariableID:6:135",
+      "destination_key": "fdcceaf559d03cdc5e69f9ef3be4f5bf5c690f57",
+      "source_ids": [
+        "VariableID:90:708"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-200",
+      "destination_id": "VariableID:6:136",
+      "destination_key": "499e7e7806d757494c5c4a8f4277db21a44a68c0",
+      "source_ids": [
+        "VariableID:90:709"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-200",
+      "destination_id": "VariableID:6:137",
+      "destination_key": "7fe17be1985cfef06cf8187c332fecbc672b7ee5",
+      "source_ids": [
+        "VariableID:90:710"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-300",
+      "destination_id": "VariableID:6:138",
+      "destination_key": "94a9c788b014f9ddb9ea33d58563a9a9b8e7e586",
+      "source_ids": [
+        "VariableID:90:711"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "red-400",
+      "destination_id": "VariableID:6:139",
+      "destination_key": "03a822c2de85ddccd3046c066457344e18def0c9",
+      "source_ids": [
+        "VariableID:90:712"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-200",
+      "destination_id": "VariableID:6:140",
+      "destination_key": "26800e49d4d55b1f240c1656a4cf0dfe07b279b3",
+      "source_ids": [
+        "VariableID:90:713"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-300",
+      "destination_id": "VariableID:6:141",
+      "destination_key": "6ff14de0817d6c07fe4cad936437ae424d338811",
+      "source_ids": [
+        "VariableID:90:714"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "amber-400",
+      "destination_id": "VariableID:6:142",
+      "destination_key": "99722a162d2bf9e2ac28bd772293b2b2cb47eaeb",
+      "source_ids": [
+        "VariableID:90:715"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-200",
+      "destination_id": "VariableID:6:143",
+      "destination_key": "4e1b3b2b8b838cf105dff9c622f4fe10f64b8a1c",
+      "source_ids": [
+        "VariableID:90:716"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-300",
+      "destination_id": "VariableID:6:144",
+      "destination_key": "183046a4b96b53a5184b123827dc9d39552341a5",
+      "source_ids": [
+        "VariableID:90:717"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "cyan-400",
+      "destination_id": "VariableID:6:145",
+      "destination_key": "d5399e3645095a3e2da501035164a3e4fcf508d7",
+      "source_ids": [
+        "VariableID:90:718"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-400",
+      "destination_id": "VariableID:6:146",
+      "destination_key": "0684b1077e3735ac5bd4dc2304f38bb1bad3597e",
+      "source_ids": [
+        "VariableID:90:719"
+      ]
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-500",
+      "destination_id": "VariableID:6:147",
+      "destination_key": "d455ea2c820d052eca802c864574ff007c426e9c",
+      "source_ids": [
+        "VariableID:90:720"
+      ]
+    },
+    {
+      "layer": "semantic",
+      "name": "warning-subtle",
+      "destination_id": "VariableID:6:149",
+      "destination_key": "885ec06f14cbf4d8f8c5b7850d0d19b58f8e2393",
+      "source_ids": [
+        "VariableID:2849:196110"
+      ],
+      "primitive_destination_id": "VariableID:6:89"
+    },
+    {
+      "layer": "semantic",
+      "name": "warning-default",
+      "destination_id": "VariableID:6:150",
+      "destination_key": "842cedd7f96d87273cde306d02bbd2414d4718dd",
+      "source_ids": [
+        "VariableID:2849:196125",
+        "VariableID:2849:196134",
+        "VariableID:2849:196144"
+      ],
+      "primitive_destination_id": "VariableID:6:117"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-subtle",
+      "destination_id": "VariableID:6:151",
+      "destination_key": "dd0d18fc902e646cdd3fb8630a1f6ff1797896e1",
+      "source_ids": [
+        "VariableID:2849:196107",
+        "VariableID:2988:13",
+        "VariableID:2988:14",
+        "VariableID:2992:388",
+        "VariableID:3069:15808",
+        "VariableID:3069:15809",
+        "VariableID:5669:5547",
+        "VariableID:5669:5548"
+      ],
+      "primitive_destination_id": "VariableID:6:128"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-accent",
+      "destination_id": "VariableID:6:152",
+      "destination_key": "b4c893b0674f583ed0df7f2ca0a7f44b462e6755",
+      "source_ids": [
+        "VariableID:2849:196108",
+        "VariableID:2849:196129",
+        "VariableID:2896:2347",
+        "VariableID:2988:12",
+        "VariableID:2992:389"
+      ],
+      "primitive_destination_id": "VariableID:6:127"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-soft",
+      "destination_id": "VariableID:6:153",
+      "destination_key": "18d00bc569a831f5c4630dde48a7ac04f5eaa970",
+      "source_ids": [
+        "VariableID:3015:2937",
+        "VariableID:3069:15807"
+      ],
+      "primitive_destination_id": "VariableID:6:126"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-default",
+      "destination_id": "VariableID:6:154",
+      "destination_key": "c638a42e7385bdf5741140cee422dfbb65e25682",
+      "source_ids": [
+        "VariableID:2849:196121",
+        "VariableID:2849:196131",
+        "VariableID:2849:196141",
+        "VariableID:2849:197279",
+        "VariableID:2992:386",
+        "VariableID:3069:15806"
+      ],
+      "primitive_destination_id": "VariableID:6:125"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-strong",
+      "destination_id": "VariableID:6:155",
+      "destination_key": "bcc125b9760b2e9c931e82a4cfb77fa64864a920",
+      "source_ids": [
+        "VariableID:2849:196122",
+        "VariableID:2849:196132",
+        "VariableID:2888:26807",
+        "VariableID:2988:9",
+        "VariableID:2992:2261",
+        "VariableID:2992:387"
+      ],
+      "primitive_destination_id": "VariableID:6:87"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-deep",
+      "destination_id": "VariableID:6:156",
+      "destination_key": "76067f3d498c436c80186e5ac463da7f6b7108c7",
+      "source_ids": [
+        "VariableID:2988:10"
+      ],
+      "primitive_destination_id": "VariableID:6:97"
+    },
+    {
+      "layer": "semantic",
+      "name": "information-subtle",
+      "destination_id": "VariableID:6:157",
+      "destination_key": "0dc1eef1ee0f33acce02567926638423bb96f36f",
+      "source_ids": [
+        "VariableID:2849:196112"
+      ],
+      "primitive_destination_id": "VariableID:6:91"
+    },
+    {
+      "layer": "semantic",
+      "name": "information-default",
+      "destination_id": "VariableID:6:158",
+      "destination_key": "67798188f72b1e17dc28b374eb784062c02c58f7",
+      "source_ids": [
+        "VariableID:2849:196127",
+        "VariableID:2849:196136",
+        "VariableID:2849:196146"
+      ],
+      "primitive_destination_id": "VariableID:6:121"
+    },
+    {
+      "layer": "semantic",
+      "name": "positive-subtle",
+      "destination_id": "VariableID:6:159",
+      "destination_key": "42ff3e62a0d3d3a1b352d63391ad35ca05375d2a",
+      "source_ids": [
+        "VariableID:2849:196109"
+      ],
+      "primitive_destination_id": "VariableID:6:90"
+    },
+    {
+      "layer": "semantic",
+      "name": "positive-default",
+      "destination_id": "VariableID:6:160",
+      "destination_key": "b48b79b768f45fa20e4e769bbbb3c661b8924932",
+      "source_ids": [
+        "VariableID:2849:196124",
+        "VariableID:2849:196133",
+        "VariableID:2849:196143"
+      ],
+      "primitive_destination_id": "VariableID:6:109"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-administrativo-subtle",
+      "destination_id": "VariableID:6:161",
+      "destination_key": "155421c2d67f2843ebef4e76dcb715cfc9544667",
+      "source_ids": [
+        "VariableID:2849:196107",
+        "VariableID:2988:13",
+        "VariableID:2988:14",
+        "VariableID:2992:388"
+      ],
+      "primitive_destination_id": "VariableID:6:10"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-administrativo-accent",
+      "destination_id": "VariableID:6:162",
+      "destination_key": "9c2544dee51b3732783f746abe2d39d56b02ded0",
+      "source_ids": [
+        "VariableID:2849:196108",
+        "VariableID:2849:196129",
+        "VariableID:2896:2347",
+        "VariableID:2988:12",
+        "VariableID:2992:389"
+      ],
+      "primitive_destination_id": "VariableID:6:11"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-administrativo-default",
+      "destination_id": "VariableID:6:163",
+      "destination_key": "a7d3dfd05aadc7f199b9cfd1ec376bda61dca94b",
+      "source_ids": [
+        "VariableID:2849:196121",
+        "VariableID:2849:196131",
+        "VariableID:2849:196141",
+        "VariableID:2849:197279",
+        "VariableID:2992:386"
+      ],
+      "primitive_destination_id": "VariableID:6:14"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-administrativo-strong",
+      "destination_id": "VariableID:6:164",
+      "destination_key": "60f25a500ff7cdc28e26b7b4be9907ff110c2607",
+      "source_ids": [
+        "VariableID:2849:196122",
+        "VariableID:2988:9",
+        "VariableID:2992:2261",
+        "VariableID:2992:387"
+      ],
+      "primitive_destination_id": "VariableID:6:101"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-administrativo-intense",
+      "destination_id": "VariableID:6:165",
+      "destination_key": "b79c0580120086375248791e39fde8eb5cf31a30",
+      "source_ids": [
+        "VariableID:2888:26807",
+        "VariableID:2988:10"
+      ],
+      "primitive_destination_id": "VariableID:6:102"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-base",
+      "destination_id": "VariableID:6:166",
+      "destination_key": "e744c44c41155081b330327dc5f55fb3f5181a06",
+      "source_ids": [
+        "VariableID:2849:196104",
+        "VariableID:2849:196120",
+        "VariableID:2849:196123",
+        "VariableID:2849:196142",
+        "VariableID:2888:26808",
+        "VariableID:8917:10"
+      ],
+      "primitive_destination_id": "VariableID:6:92"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-subtle",
+      "destination_id": "VariableID:6:167",
+      "destination_key": "41e1ccd23d2ab5b8865a3007ecb61f90e0d8e237",
+      "source_ids": [
+        "VariableID:2849:196105",
+        "VariableID:2988:16"
+      ],
+      "primitive_destination_id": "VariableID:6:136"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-muted",
+      "destination_id": "VariableID:6:168",
+      "destination_key": "6696382b8c4c85f7a672359b2240d0d4cecd6fc2",
+      "source_ids": [
+        "VariableID:2849:196106",
+        "VariableID:2849:196113",
+        "VariableID:2849:196130",
+        "VariableID:2849:196137",
+        "VariableID:2988:11"
+      ],
+      "primitive_destination_id": "VariableID:6:5"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-soft",
+      "destination_id": "VariableID:6:169",
+      "destination_key": "a25577ac8de242fe98734500a41363ca0f3b81be",
+      "source_ids": [
+        "VariableID:2849:196119",
+        "VariableID:2849:196128",
+        "VariableID:2849:196140",
+        "VariableID:2849:196147",
+        "VariableID:2988:15",
+        "VariableID:9021:2090",
+        "VariableID:9021:2091",
+        "VariableID:9115:203"
+      ],
+      "primitive_destination_id": "VariableID:6:146"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-medium",
+      "destination_id": "VariableID:6:170",
+      "destination_key": "841bd35b92349147f917ad0def7166863d3ac38f",
+      "source_ids": [
+        "VariableID:2849:196118",
+        "VariableID:2849:196139",
+        "VariableID:8911:10",
+        "VariableID:9030:349"
+      ],
+      "primitive_destination_id": "VariableID:6:147"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-strong",
+      "destination_id": "VariableID:6:171",
+      "destination_key": "b7b6a5fc1a9f0852b46fa05584d341b01d3439b8",
+      "source_ids": [
+        "VariableID:2849:196117",
+        "VariableID:9030:350"
+      ],
+      "primitive_destination_id": "VariableID:6:27"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-intense",
+      "destination_id": "VariableID:6:172",
+      "destination_key": "e4cbbf051cda4ce53be6c399070f381d202a0180",
+      "source_ids": [
+        "VariableID:8930:452"
+      ],
+      "primitive_destination_id": "VariableID:6:28"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-deep",
+      "destination_id": "VariableID:6:173",
+      "destination_key": "eb0b9100c07d61e34242e3180c0cc03aa052a5ab",
+      "source_ids": [
+        "VariableID:2849:196114",
+        "VariableID:8930:451"
+      ],
+      "primitive_destination_id": "VariableID:6:29"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-maximum",
+      "destination_id": "VariableID:6:174",
+      "destination_key": "4796c814fe576b70ece0057415007c5b970eaabb",
+      "source_ids": [
+        "VariableID:2849:196115",
+        "VariableID:2849:196116",
+        "VariableID:2849:196138",
+        "VariableID:8930:453"
+      ],
+      "primitive_destination_id": "VariableID:6:30"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-servicios-subtle",
+      "destination_id": "VariableID:6:175",
+      "destination_key": "cdb44315ea67909244ebc0dd1888bdfb13640f0c",
+      "source_ids": [
+        "VariableID:2849:196107",
+        "VariableID:2988:13",
+        "VariableID:2988:14",
+        "VariableID:2992:388"
+      ],
+      "primitive_destination_id": "VariableID:6:15"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-servicios-accent",
+      "destination_id": "VariableID:6:176",
+      "destination_key": "68235fb0eb3a870548f1e4456fb180dd2abc8263",
+      "source_ids": [
+        "VariableID:2849:196108",
+        "VariableID:2849:196129",
+        "VariableID:2896:2347",
+        "VariableID:2988:12",
+        "VariableID:2992:389"
+      ],
+      "primitive_destination_id": "VariableID:6:16"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-servicios-default",
+      "destination_id": "VariableID:6:177",
+      "destination_key": "3ca4b685b56418e482c62413c3654b2136acd062",
+      "source_ids": [
+        "VariableID:2849:196131",
+        "VariableID:2849:196141",
+        "VariableID:2849:197279",
+        "VariableID:2992:386"
+      ],
+      "primitive_destination_id": "VariableID:6:93"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-servicios-strong",
+      "destination_id": "VariableID:6:178",
+      "destination_key": "23cb823e435d48645685c1019525a9d22bf5cefc",
+      "source_ids": [
+        "VariableID:2849:196121",
+        "VariableID:2849:196122",
+        "VariableID:2888:26807",
+        "VariableID:2988:9",
+        "VariableID:2992:2261",
+        "VariableID:2992:387"
+      ],
+      "primitive_destination_id": "VariableID:6:94"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-servicios-deep",
+      "destination_id": "VariableID:6:179",
+      "destination_key": "813c02ec3afdff778bc50ec1983b6331f943586f",
+      "source_ids": [
+        "VariableID:2988:10"
+      ],
+      "primitive_destination_id": "VariableID:6:95"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-personas-subtle",
+      "destination_id": "VariableID:6:180",
+      "destination_key": "698f9240d4e10e7df7b8550293b03fdc705b0f7c",
+      "source_ids": [
+        "VariableID:2849:196107",
+        "VariableID:2988:13",
+        "VariableID:2988:14",
+        "VariableID:2992:388",
+        "VariableID:3069:15808",
+        "VariableID:3069:15809",
+        "VariableID:5669:5547",
+        "VariableID:5669:5548"
+      ],
+      "primitive_destination_id": "VariableID:6:20"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-personas-accent",
+      "destination_id": "VariableID:6:181",
+      "destination_key": "2ef64c1055189b549bde13b8600297bd32532bfc",
+      "source_ids": [
+        "VariableID:2849:196108",
+        "VariableID:2849:196129",
+        "VariableID:2896:2347",
+        "VariableID:2988:12",
+        "VariableID:2992:389"
+      ],
+      "primitive_destination_id": "VariableID:6:21"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-personas-soft",
+      "destination_id": "VariableID:6:182",
+      "destination_key": "930fe6be214a15002dc821af3d0a1c3c416ee39c",
+      "source_ids": [
+        "VariableID:3015:2937",
+        "VariableID:3069:15807"
+      ],
+      "primitive_destination_id": "VariableID:6:22"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-personas-medium",
+      "destination_id": "VariableID:6:183",
+      "destination_key": "7da57f2690118fb2c167546bc2280ca4d6df3f1a",
+      "source_ids": [
+        "VariableID:3069:15806"
+      ],
+      "primitive_destination_id": "VariableID:6:23"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-personas-default",
+      "destination_id": "VariableID:6:184",
+      "destination_key": "5a79a4fa4bb00e524d727920adbd377c32bb8258",
+      "source_ids": [
+        "VariableID:2849:196121",
+        "VariableID:2849:196131",
+        "VariableID:2849:196141",
+        "VariableID:2849:197279",
+        "VariableID:2992:386"
+      ],
+      "primitive_destination_id": "VariableID:6:24"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-personas-strong",
+      "destination_id": "VariableID:6:185",
+      "destination_key": "bc9722dcfb7d5824ca5a58690d96ef3a04a41475",
+      "source_ids": [
+        "VariableID:2849:196122",
+        "VariableID:2888:26807",
+        "VariableID:2988:9",
+        "VariableID:2992:2261",
+        "VariableID:2992:387"
+      ],
+      "primitive_destination_id": "VariableID:6:105"
+    },
+    {
+      "layer": "semantic",
+      "name": "brand-personas-intense",
+      "destination_id": "VariableID:6:186",
+      "destination_key": "9808c046069a65e0127f27cdb56a5d54f3f96ef9",
+      "source_ids": [
+        "VariableID:2988:10"
+      ],
+      "primitive_destination_id": "VariableID:6:106"
+    },
+    {
+      "layer": "semantic",
+      "name": "danger-subtle",
+      "destination_id": "VariableID:6:187",
+      "destination_key": "2ea46ce9e7ff927a005ab92df54b477ed930f764",
+      "source_ids": [
+        "VariableID:2849:196111"
+      ],
+      "primitive_destination_id": "VariableID:6:88"
+    },
+    {
+      "layer": "semantic",
+      "name": "danger-default",
+      "destination_id": "VariableID:6:188",
+      "destination_key": "2d1321a823f0d8e07c866e7b22f2aa71a6b01b05",
+      "source_ids": [
+        "VariableID:2849:196126",
+        "VariableID:2849:196135",
+        "VariableID:2849:196145",
+        "VariableID:8856:137"
+      ],
+      "primitive_destination_id": "VariableID:6:113"
+    },
+    {
+      "layer": "semantic",
+      "name": "danger-strong",
+      "destination_id": "VariableID:6:189",
+      "destination_key": "4de3376785612ee4432feeea5ae7e042653961ab",
+      "source_ids": [
+        "VariableID:8856:138"
+      ],
+      "primitive_destination_id": "VariableID:6:114"
+    },
+    {
+      "layer": "semantic",
+      "name": "danger-deep",
+      "destination_id": "VariableID:6:190",
+      "destination_key": "1ae0b7806360f0fc63d9d0c4532f0ad71f41e130",
+      "source_ids": [
+        "VariableID:8856:139"
+      ],
+      "primitive_destination_id": "VariableID:6:115"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-none",
+      "destination_id": "VariableID:6:191",
+      "destination_key": "80c0d96e8b91f0bfdf3573c1e41299b35ec8c7c3",
+      "source_ids": [
+        "VariableID:1098:28491"
+      ],
+      "primitive_destination_id": "VariableID:6:3"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-5xl",
+      "destination_id": "VariableID:6:192",
+      "destination_key": "d0b6c4d4629975897c73e1c417083bc58ae27971",
+      "source_ids": [
+        "VariableID:2810:21160"
+      ],
+      "primitive_destination_id": "VariableID:6:25"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-6xl",
+      "destination_id": "VariableID:6:193",
+      "destination_key": "6f28eb776ba3d9c9fad416c8a8a5a73db7ac5d90",
+      "source_ids": [
+        "VariableID:2810:21161"
+      ],
+      "primitive_destination_id": "VariableID:6:26"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-family-base",
+      "destination_id": "VariableID:6:194",
+      "destination_key": "06fef748511133be56d059e0c41dea105dbc355f",
+      "source_ids": [
+        "VariableID:2845:160887"
+      ],
+      "primitive_destination_id": "VariableID:6:37"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-weight-regular",
+      "destination_id": "VariableID:6:195",
+      "destination_key": "031d0c88dbf18d42c3b423cb2562d2ca3aee8890",
+      "source_ids": [
+        "VariableID:2845:160888"
+      ],
+      "primitive_destination_id": "VariableID:6:38"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-weight-medium",
+      "destination_id": "VariableID:6:196",
+      "destination_key": "a015147aa570391e423a02fd2db5fa5cfa523865",
+      "source_ids": [
+        "VariableID:2845:160889"
+      ],
+      "primitive_destination_id": "VariableID:6:39"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-weight-semibold",
+      "destination_id": "VariableID:6:197",
+      "destination_key": "4c14e6cce937377800a777ac0a96517d8dbcc943",
+      "source_ids": [
+        "VariableID:2845:160890"
+      ],
+      "primitive_destination_id": "VariableID:6:4"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-weight-bold",
+      "destination_id": "VariableID:6:198",
+      "destination_key": "a04d7c937da43aa873df9b91db2c391963d19c6a",
+      "source_ids": [
+        "VariableID:2845:160891"
+      ],
+      "primitive_destination_id": "VariableID:6:40"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-xs",
+      "destination_id": "VariableID:6:199",
+      "destination_key": "23b40edb18219700f6c9ec59502f2617717dc5a7",
+      "source_ids": [
+        "VariableID:2845:160892"
+      ],
+      "primitive_destination_id": "VariableID:6:41"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-sm",
+      "destination_id": "VariableID:6:200",
+      "destination_key": "e9dc068fa40b5d0c301565ae78a6bd3e224ae2c9",
+      "source_ids": [
+        "VariableID:2845:160893"
+      ],
+      "primitive_destination_id": "VariableID:6:42"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-md",
+      "destination_id": "VariableID:6:201",
+      "destination_key": "0a1576d0c8a8bf097189c2dc863d13ba1aef9f21",
+      "source_ids": [
+        "VariableID:2845:160894"
+      ],
+      "primitive_destination_id": "VariableID:6:43"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-lg",
+      "destination_id": "VariableID:6:202",
+      "destination_key": "8f9703efa63e839488f071a5bba7dbb55a4e34be",
+      "source_ids": [
+        "VariableID:2845:160895"
+      ],
+      "primitive_destination_id": "VariableID:6:44"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-xl",
+      "destination_id": "VariableID:6:203",
+      "destination_key": "32096b9ef0fd1b7a22894dd8e2e1ce577db7ffcf",
+      "source_ids": [
+        "VariableID:2845:160896"
+      ],
+      "primitive_destination_id": "VariableID:6:45"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-2xl",
+      "destination_id": "VariableID:6:204",
+      "destination_key": "77bb2fd57e4c8ab9006f5d1401cd8e0c7e3d8d26",
+      "source_ids": [
+        "VariableID:2845:160897"
+      ],
+      "primitive_destination_id": "VariableID:6:46"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-3xl",
+      "destination_id": "VariableID:6:205",
+      "destination_key": "ee9a06326bfa452c2125661b6f344955475bcb33",
+      "source_ids": [
+        "VariableID:2845:160898"
+      ],
+      "primitive_destination_id": "VariableID:6:47"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-4xl",
+      "destination_id": "VariableID:6:206",
+      "destination_key": "6f0f0f5d2dd3234db697cd5190e94264379e5c1b",
+      "source_ids": [
+        "VariableID:2845:160899"
+      ],
+      "primitive_destination_id": "VariableID:6:48"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-5xl",
+      "destination_id": "VariableID:6:207",
+      "destination_key": "79a4ee54deb6b739dffbf4da22cf7d366939bc9f",
+      "source_ids": [
+        "VariableID:2845:160900"
+      ],
+      "primitive_destination_id": "VariableID:6:49"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-line-height-xs",
+      "destination_id": "VariableID:6:208",
+      "destination_key": "e4b4821408b9b402af0862d995d797dc844a91b0",
+      "source_ids": [
+        "VariableID:2845:160901"
+      ],
+      "primitive_destination_id": "VariableID:6:50"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-line-height-sm",
+      "destination_id": "VariableID:6:209",
+      "destination_key": "b7531cf31c4bf67253dc078c9e7f6c59cca6ea9e",
+      "source_ids": [
+        "VariableID:2845:160902"
+      ],
+      "primitive_destination_id": "VariableID:6:51"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-line-height-md",
+      "destination_id": "VariableID:6:210",
+      "destination_key": "d2df609399534af6dfbb0cf3387c89d373e130c5",
+      "source_ids": [
+        "VariableID:2845:160903"
+      ],
+      "primitive_destination_id": "VariableID:6:52"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-line-height-lg",
+      "destination_id": "VariableID:6:211",
+      "destination_key": "15ed27f9868a627ac4197eb1fa1b1a0f21653b7b",
+      "source_ids": [
+        "VariableID:2845:160904"
+      ],
+      "primitive_destination_id": "VariableID:6:57"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-line-height-xl",
+      "destination_id": "VariableID:6:212",
+      "destination_key": "440a3f4aa413316231962d853755fe060b72e76b",
+      "source_ids": [
+        "VariableID:2845:160905"
+      ],
+      "primitive_destination_id": "VariableID:6:53"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-line-height-2xl",
+      "destination_id": "VariableID:6:213",
+      "destination_key": "c589aa6075dc96c57d9bdd29e2e98c954f453777",
+      "source_ids": [
+        "VariableID:2845:160906"
+      ],
+      "primitive_destination_id": "VariableID:6:54"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-line-height-3xl",
+      "destination_id": "VariableID:6:214",
+      "destination_key": "8acec39258b3bcf45f59b425cc0882473d0e74e0",
+      "source_ids": [
+        "VariableID:2845:160907"
+      ],
+      "primitive_destination_id": "VariableID:6:55"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-line-height-4xl",
+      "destination_id": "VariableID:6:215",
+      "destination_key": "f2de109bed50247fcba86fc0b5ee5af964d64fa1",
+      "source_ids": [
+        "VariableID:2845:160908"
+      ],
+      "primitive_destination_id": "VariableID:6:56"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-letter-spacing-tight",
+      "destination_id": "VariableID:6:216",
+      "destination_key": "c76a7bc45bfe8ce1ccb2da127a6b5e355f888d6a",
+      "source_ids": [
+        "VariableID:2845:160909"
+      ],
+      "primitive_destination_id": "VariableID:6:58"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-letter-spacing-normal",
+      "destination_id": "VariableID:6:217",
+      "destination_key": "86d1f45f0373a2762827ddc2be9ed475fe242c36",
+      "source_ids": [
+        "VariableID:2845:160910"
+      ],
+      "primitive_destination_id": "VariableID:6:59"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-letter-spacing-wide",
+      "destination_id": "VariableID:6:218",
+      "destination_key": "1e43c7249999d4e574d59b2dead8b66d633e4361",
+      "source_ids": [
+        "VariableID:2845:160911"
+      ],
+      "primitive_destination_id": "VariableID:6:60"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-md",
+      "destination_id": "VariableID:6:219",
+      "destination_key": "a0146d42042dff00a697d14ed316272964481654",
+      "source_ids": [
+        "VariableID:5401:75"
+      ],
+      "primitive_destination_id": "VariableID:6:62"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-md",
+      "destination_id": "VariableID:6:220",
+      "destination_key": "ebdcb4c6029415fc4c8ad7b90da2a54866f6cc98",
+      "source_ids": [
+        "VariableID:5401:76"
+      ],
+      "primitive_destination_id": "VariableID:6:63"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-size-1xs",
+      "destination_id": "VariableID:6:221",
+      "destination_key": "36ea2f25256d245f1ff13e062874135bed47ff91",
+      "source_ids": [
+        "VariableID:5401:77"
+      ],
+      "primitive_destination_id": "VariableID:6:61"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-none",
+      "destination_id": "VariableID:6:222",
+      "destination_key": "db97e92eb16686f163da0c1fe70413f9b617a0cc",
+      "source_ids": [
+        "VariableID:559:40"
+      ],
+      "primitive_destination_id": "VariableID:6:31"
+    },
+    {
+      "layer": "semantic",
+      "name": "stroke-none",
+      "destination_id": "VariableID:6:223",
+      "destination_key": "1ce4e0e9911edf8461209e634681188d159bb88a",
+      "source_ids": [
+        "VariableID:559:6"
+      ],
+      "primitive_destination_id": "VariableID:6:33"
+    },
+    {
+      "layer": "semantic",
+      "name": "stroke-xs",
+      "destination_id": "VariableID:6:224",
+      "destination_key": "f2873f7363aed4f7ed4088e5017f52874d7fb172",
+      "source_ids": [
+        "VariableID:559:7"
+      ],
+      "primitive_destination_id": "VariableID:6:34"
+    },
+    {
+      "layer": "semantic",
+      "name": "stroke-sm",
+      "destination_id": "VariableID:6:225",
+      "destination_key": "7bd46c30b3e420f2094db946aeff28354d4a8ff6",
+      "source_ids": [
+        "VariableID:559:8"
+      ],
+      "primitive_destination_id": "VariableID:6:36"
+    },
+    {
+      "layer": "semantic",
+      "name": "stroke-md",
+      "destination_id": "VariableID:6:226",
+      "destination_key": "e62d4e495d011032ea71788a47f15beb9ff0eee2",
+      "source_ids": [
+        "VariableID:559:9"
+      ],
+      "primitive_destination_id": "VariableID:6:35"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-xs",
+      "destination_id": "VariableID:6:227",
+      "destination_key": "b385067ab77768d49f7d76fc727ee5141be9f0ea",
+      "source_ids": [
+        "VariableID:562:10"
+      ],
+      "primitive_destination_id": "VariableID:6:80"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-sm",
+      "destination_id": "VariableID:6:228",
+      "destination_key": "3dd4980a7dbb2e3fba158a750cf5067dba6ac849",
+      "source_ids": [
+        "VariableID:562:11"
+      ],
+      "primitive_destination_id": "VariableID:6:81"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-lg",
+      "destination_id": "VariableID:6:229",
+      "destination_key": "8dca44f7e6fc3bd6117b5b3c22470ca8be02f249",
+      "source_ids": [
+        "VariableID:562:12"
+      ],
+      "primitive_destination_id": "VariableID:6:82"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-xl",
+      "destination_id": "VariableID:6:230",
+      "destination_key": "98427675b88b2cf9027243209ca968aae3ed18c4",
+      "source_ids": [
+        "VariableID:562:13"
+      ],
+      "primitive_destination_id": "VariableID:6:83"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-2xl",
+      "destination_id": "VariableID:6:231",
+      "destination_key": "812b7cd672712b16f32bd6185b752b477e67967c",
+      "source_ids": [
+        "VariableID:562:14"
+      ],
+      "primitive_destination_id": "VariableID:6:84"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-3xl",
+      "destination_id": "VariableID:6:232",
+      "destination_key": "0c47598792e164cd9b369f3aa52b0efefaa0c860",
+      "source_ids": [
+        "VariableID:562:15"
+      ],
+      "primitive_destination_id": "VariableID:6:85"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-4xl",
+      "destination_id": "VariableID:6:233",
+      "destination_key": "912ce9ea9e369a0d28d49c8f4a09a5b96c5d0079",
+      "source_ids": [
+        "VariableID:562:16"
+      ],
+      "primitive_destination_id": "VariableID:6:86"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-xs",
+      "destination_id": "VariableID:6:234",
+      "destination_key": "fde1c8baa4d5ff0dc6450f63102feaac619ad4fc",
+      "source_ids": [
+        "VariableID:562:17"
+      ],
+      "primitive_destination_id": "VariableID:6:72"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-sm",
+      "destination_id": "VariableID:6:235",
+      "destination_key": "d04fdac3a7ee7cf087c1e2a166be38e55666dec3",
+      "source_ids": [
+        "VariableID:562:18"
+      ],
+      "primitive_destination_id": "VariableID:6:64"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-lg",
+      "destination_id": "VariableID:6:236",
+      "destination_key": "86d4b58016877253298c7e6dff8ef6404508fd3b",
+      "source_ids": [
+        "VariableID:562:19"
+      ],
+      "primitive_destination_id": "VariableID:6:65"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-xs",
+      "destination_id": "VariableID:6:237",
+      "destination_key": "a6d0dc8624fe4edf9347b5a563e0abb447c1a2f4",
+      "source_ids": [
+        "VariableID:562:2"
+      ],
+      "primitive_destination_id": "VariableID:6:73"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-2xl",
+      "destination_id": "VariableID:6:238",
+      "destination_key": "d70727cb9f48c7db642741237c7e10ce3751785a",
+      "source_ids": [
+        "VariableID:562:20"
+      ],
+      "primitive_destination_id": "VariableID:6:66"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-3xl",
+      "destination_id": "VariableID:6:239",
+      "destination_key": "5055c89d0affb25aaf238dfec27fc4502aea2729",
+      "source_ids": [
+        "VariableID:562:21"
+      ],
+      "primitive_destination_id": "VariableID:6:67"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-4xl",
+      "destination_id": "VariableID:6:240",
+      "destination_key": "45f0a049e2338fb8f7d0f3a96bdc9f8e99090123",
+      "source_ids": [
+        "VariableID:562:22"
+      ],
+      "primitive_destination_id": "VariableID:6:68"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-5xl",
+      "destination_id": "VariableID:6:241",
+      "destination_key": "2ad94f3f85bbdd4f511a378f4c2d3526afccd042",
+      "source_ids": [
+        "VariableID:562:23"
+      ],
+      "primitive_destination_id": "VariableID:6:69"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-6xl",
+      "destination_id": "VariableID:6:242",
+      "destination_key": "548b450b1f8fdca7e4a804ceafea7297268aa7d9",
+      "source_ids": [
+        "VariableID:562:24"
+      ],
+      "primitive_destination_id": "VariableID:6:70"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-7xl",
+      "destination_id": "VariableID:6:243",
+      "destination_key": "7ace9a35bc1a0bd09b6713aff54a85dbad932172",
+      "source_ids": [
+        "VariableID:562:25"
+      ],
+      "primitive_destination_id": "VariableID:6:71"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-sm",
+      "destination_id": "VariableID:6:244",
+      "destination_key": "ec87c9b5601df4c2e66a9221ea507aecdbdcee2f",
+      "source_ids": [
+        "VariableID:562:3"
+      ],
+      "primitive_destination_id": "VariableID:6:74"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-md",
+      "destination_id": "VariableID:6:245",
+      "destination_key": "8c11e0abd1c5dbcbd9b7704f5fa9235b58ca43bb",
+      "source_ids": [
+        "VariableID:562:4"
+      ],
+      "primitive_destination_id": "VariableID:6:75"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-lg",
+      "destination_id": "VariableID:6:246",
+      "destination_key": "d63b28dfc244d1d518b1737b422bc45cf364c806",
+      "source_ids": [
+        "VariableID:562:5"
+      ],
+      "primitive_destination_id": "VariableID:6:76"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-xl",
+      "destination_id": "VariableID:6:247",
+      "destination_key": "3ef8146b1d4e615047bfdc4d6cabc8b01082588a",
+      "source_ids": [
+        "VariableID:562:6"
+      ],
+      "primitive_destination_id": "VariableID:6:77"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-2xl",
+      "destination_id": "VariableID:6:248",
+      "destination_key": "8f810c81c6c1bf6dc7f21cd902e45e7db7ecd5c9",
+      "source_ids": [
+        "VariableID:562:7"
+      ],
+      "primitive_destination_id": "VariableID:6:78"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-3xl",
+      "destination_id": "VariableID:6:249",
+      "destination_key": "18fecb861c0152ee7b963c6a45ca09b082d108a9",
+      "source_ids": [
+        "VariableID:562:8"
+      ],
+      "primitive_destination_id": "VariableID:6:32"
+    },
+    {
+      "layer": "semantic",
+      "name": "radius-full",
+      "destination_id": "VariableID:6:250",
+      "destination_key": "d517a07efee1785dcb9184435708aedcb084ec32",
+      "source_ids": [
+        "VariableID:562:9"
+      ],
+      "primitive_destination_id": "VariableID:6:79"
+    },
+    {
+      "layer": "semantic",
+      "name": "size-xl",
+      "destination_id": "VariableID:6:251",
+      "destination_key": "42faa8d88fa1d2ddb36a01690a60954bb2a7dae8",
+      "source_ids": [
+        "VariableID:8871:11"
+      ],
+      "primitive_destination_id": "VariableID:6:129"
+    },
+    {
+      "layer": "semantic",
+      "name": "stroke-lg",
+      "destination_id": "VariableID:6:252",
+      "destination_key": "20911965b3331e0511d55111215fae0408ca8498",
+      "source_ids": [
+        "VariableID:8944:402"
+      ],
+      "primitive_destination_id": "VariableID:6:130"
+    },
+    {
+      "layer": "semantic",
+      "name": "stroke-xl",
+      "destination_id": "VariableID:6:253",
+      "destination_key": "039b6ba6cba29037c321d01a6be798aa40b6e0ea",
+      "source_ids": [
+        "VariableID:8944:404"
+      ],
+      "primitive_destination_id": "VariableID:6:131"
+    },
+    {
+      "layer": "semantic",
+      "name": "stroke-2xl",
+      "destination_id": "VariableID:6:254",
+      "destination_key": "960414c4c72c25d7bf64c478b7ff08f21eacd2a6",
+      "source_ids": [
+        "VariableID:8944:406"
+      ],
+      "primitive_destination_id": "VariableID:6:132"
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-negative-4",
+      "destination_id": "VariableID:145:2",
+      "destination_key": "b8879a6feafb543182b893c61bd98b838e13d724",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:517"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-overlap-xs",
+      "destination_id": "VariableID:145:3",
+      "destination_key": "89d9d584d9cd5552a119ca5aab3b63345a9325b3",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:517"
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-negative-6",
+      "destination_id": "VariableID:145:4",
+      "destination_key": "750d21f2ea86b96f01d976c4893211d88a2481e1",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:516"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-overlap-sm",
+      "destination_id": "VariableID:145:5",
+      "destination_key": "f1856b246f57637b359404a806f9bf1694541776",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:516"
+    },
+    {
+      "layer": "primitive",
+      "name": "spacing-negative-8",
+      "destination_id": "VariableID:145:6",
+      "destination_key": "1361b95ba62158c2545cbde99e29b6fa69d846fd",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:515"
+    },
+    {
+      "layer": "semantic",
+      "name": "spacing-overlap-md",
+      "destination_id": "VariableID:145:7",
+      "destination_key": "b24776260fcf2e3dbdc45c9d60e5063e7eb35171",
+      "source_ids": [],
+      "extension": "ADR-019",
+      "source_node": "9067:515"
+    }
+  ],
+  "extensions": [
+    {
+      "decision": "ADR-019",
+      "token_set": "BLUEHEART-TOKENS@2.1.0",
+      "evidence": "evidence/avatar-pilot/destination/binding-index.json",
+      "sha256": "cd0f2ff0c7226241b49cbd3783e246322e3feb6849a6d8e586895d10277af100",
+      "new_variables": 6,
+      "previous_map": "evidence/avatar-pilot/history/foundations-application-map.json"
+    }
+  ]
+}

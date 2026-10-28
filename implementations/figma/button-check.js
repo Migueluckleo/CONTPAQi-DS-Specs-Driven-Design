@@ -68,13 +68,11 @@ for (const recipe of DATA.variants) {
   }
   if (recipe.loader) {
     const loader = node.children.find(c => c.name === "Loader");
-    check(loader.id,"loader-linked",loader.mainComponent.id,DATA.helpers.spinnerFirst[recipe.size]);
-    checkBindings(loader,{width:recipe.loader.sizeToken,height:recipe.loader.sizeToken});
-    for (const ellipse of loader.findAllWithCriteria({types:["ELLIPSE"]})) {
-      checkBindings(ellipse,{strokes:recipe.loader.colorToken,strokeWeight:recipe.loader.widthToken});
-      check(ellipse.id,"loader-opacity",ellipse.opacity,ellipse.name==="Track"?recipe.loader.trackOpacity:recipe.loader.arcOpacity);
-      check(ellipse.id,"loader-paint-opacity",ellipse.strokes[0].opacity,ellipse.name==="Track"?recipe.loader.trackPaintOpacity:recipe.loader.arcPaintOpacity);
-    }
+    check(loader.id, 'loader-linked', (await loader.getMainComponentAsync()).id, recipe.loader.variantId);
+    const dim = DATA.loader.variableIds['loader.size-' + recipe.loader.axes.size];
+    check(loader.id, 'loader-size-binding', binding(loader, 'width'), dim);
+    check(loader.id, 'loader-dimensions', [loader.width, loader.height], [recipe.loader.size, recipe.loader.size]);
+    // The child owns colors, width and animation; verify them through LOADER-001 QA.
   }
   const expectedReactions = recipe.reactions.map(r=>({trigger:r.trigger,actions:(r.actions??[r.action]).map(a=>({type:a.type,navigation:a.navigation,destinationId:DATA.mapping.find(m=>m.sourceId===a.destinationId)?.id}))}));
   const actualReactions = node.reactions.map(r=>({trigger:r.trigger,actions:(r.actions??[r.action]).map(a=>({type:a.type,navigation:a.navigation,destinationId:a.destinationId}))}));

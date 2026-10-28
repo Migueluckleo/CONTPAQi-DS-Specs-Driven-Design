@@ -1,0 +1,230 @@
+{
+  "schema_version": 1,
+  "id": "LOADER-PILOT-ADR022",
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decisions": [
+    "ADR-022"
+  ],
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "3917:1263",
+    "access": "READ_ONLY",
+    "historicalProjectAccess": "READ_ONLY"
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "245:19",
+    "setId": "245:626",
+    "reviewFrameId": "247:50"
+  },
+  "contracts": [
+    {
+      "id": "LOADER-001",
+      "version": "1.0.0",
+      "path": "norms/components/loader.1.0.0.md",
+      "sha256": "d896097b70717e334a4c864ca254d395ce0b7a168c175dec2ff6556a5a26a088",
+      "current": true
+    },
+    {
+      "id": "BUTTON-001",
+      "version": "4.0.0",
+      "path": "norms/components/button.4.0.0.md",
+      "sha256": "16fd8defb22e923246a30a42306471ab9184c43b8d928defb65e653b83c7a7df",
+      "current": true
+    }
+  ],
+  "counts": {
+    "publicVariants": 24,
+    "animationFrames": 144,
+    "sharedCycles": 6,
+    "loaderTokens": 15,
+    "buttonOwnedTokens": 45,
+    "variables": 411,
+    "collections": 3,
+    "themeObservations": 132,
+    "preservedButtonPrincipals": 90,
+    "replacedExistingUses": 31,
+    "modifiedMasterDependencies": 15,
+    "inheritedDependencies": 16,
+    "retiredSets": 3,
+    "retiredFrames": 72,
+    "retiredTokens": 2,
+    "addedFoundations": 2
+  },
+  "checks": [
+    {
+      "id": "source-and-authority",
+      "requirement": "REQ-SCOPE",
+      "status": "PASS"
+    },
+    {
+      "id": "24-public-variants",
+      "requirement": "REQ-API",
+      "status": "PASS"
+    },
+    {
+      "id": "144-phase-geometry-and-loop",
+      "requirement": "REQ-ANIMATION",
+      "status": "PASS"
+    },
+    {
+      "id": "15-full-signatures-scopes-names-web",
+      "requirement": "REQ-TOKENS",
+      "status": "PASS"
+    },
+    {
+      "id": "132-native-theme-consumer-observations",
+      "requirement": "REQ-THEME",
+      "status": "PASS"
+    },
+    {
+      "id": "90-Button-principals-preserved",
+      "requirement": "REQ-CONSUMERS",
+      "status": "PASS"
+    },
+    {
+      "id": "31-existing-uses-replaced",
+      "requirement": "REQ-CONSUMERS",
+      "status": "PASS"
+    },
+    {
+      "id": "retirement-authorized-with-zero-references",
+      "requirement": "REQ-CONSUMERS",
+      "status": "PASS"
+    },
+    {
+      "id": "exactly-three-collections",
+      "requirement": "REQ-TOKENS",
+      "status": "PASS"
+    },
+    {
+      "id": "native-presenter-animation-and-stable-colors",
+      "requirement": "REQ-ANIMATION",
+      "status": "PASS"
+    },
+    {
+      "id": "editable-matrix-visible-and-linked",
+      "requirement": "REQ-DOCUMENTATION",
+      "status": "PASS"
+    },
+    {
+      "id": "contexts-fit-all-modes",
+      "requirement": "REQ-QA",
+      "status": "PASS"
+    },
+    {
+      "id": "arc-contrast-flat-backgrounds",
+      "requirement": "REQ-A11Y",
+      "status": "PASS"
+    }
+  ],
+  "evidence": [
+    {
+      "path": "evidence/loader-pilot/source/public.json",
+      "sha256": "193d4c82c28dfafbf01b2e14e92628d7cdcad691fe13070a115a27cb3e8203ef"
+    },
+    {
+      "path": "evidence/loader-pilot/source/animation.json",
+      "sha256": "009559f1416e56b6b0ccf5bb830dba5c4cf272c488a599b761c4c197d763b2e0"
+    },
+    {
+      "path": "evidence/loader-pilot/source/button-loading.json",
+      "sha256": "da728dfa7e7d48706e15d6261247ea787f1afd6ffb22426afb3a2987882aa925"
+    },
+    {
+      "path": "evidence/loader-pilot/source/variants.png",
+      "sha256": "6830fd1c0775547328e4589d68649a8eb023a16526ae37d0174585dc0527cef1"
+    },
+    {
+      "path": "evidence/loader-pilot/destination/consumers-before.json",
+      "sha256": "4a8c161f526b21d6c8e26a5900b1d59820571f50bed900e26105e3fd6dd71534"
+    },
+    {
+      "path": "evidence/loader-pilot/destination/button-baseline.json",
+      "sha256": "9491a48fc6c2f31f94551b93ed744c9f71b415928578d5bc88937b2d7652f87f"
+    },
+    {
+      "path": "evidence/loader-pilot/destination/button-migration.json",
+      "sha256": "1b1b667a853d81be457f0e07cb8df625ed8580fff372c8f19f6c8f0afee939b0"
+    },
+    {
+      "path": "evidence/loader-pilot/destination/native-qa.json",
+      "sha256": "1853e93b36b689c582533b2d8587e636c8eadf7328ec8a9e499dd11d5aa15c49"
+    },
+    {
+      "path": "evidence/loader-pilot/destination/registry-qa.json",
+      "sha256": "cbca1f37dce1d56eea215941c061513754904162ff5137d938765048a5e1dcff"
+    },
+    {
+      "path": "evidence/loader-pilot/destination/retirement.json",
+      "sha256": "087bf39c09c5de7d1a37b53484d1fbd1d2614d44689708e734e4bb47a576cea8"
+    },
+    {
+      "path": "evidence/loader-pilot/destination/variants.png",
+      "sha256": "cb3142d999260e19f481f3b3aeb3864f49ef9ee028aa8b15199b5d5bdf339618"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/runtime-trace.json",
+      "sha256": "525127be1ca0a66d34a923b9c6a646a2c4d5535207f2f4e69b7c73fe324a6288"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/observations.json",
+      "sha256": "008b28b2e7bef4bd3adce00b8c7afa23b5d6727ef9ef03c4ea84b97c761e8d15"
+    },
+    {
+      "path": "evidence/loader-pilot/contrast.json",
+      "sha256": "dee3d29703ebfb5285b1dc24989ea0001a913d4e7fff148c47f3f24f01d012df"
+    },
+    {
+      "path": "evidence/loader-pilot/context-check.json",
+      "sha256": "9639eab4fe34981cfee9685250f7145b7112f3372485767b56aede4a45bc7dc6"
+    },
+    {
+      "path": "evidence/loader-pilot/migration-map.json",
+      "sha256": "06ca1288f999854a01c56ffc7674539edfa2690d695d7dfbdfff6f0438295d84"
+    },
+    {
+      "path": "evidence/authorization/loader-retirement-approval.txt",
+      "sha256": "4af4158b24ae702a88617e4ccb40a6ba63b681f41090e86133e52df799e838e4"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/fit-0.jpg",
+      "sha256": "a24ff7aa20d2a67594df81ccc239abdaf4c406a43bb599c2a386bc88bc759caf"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/fit-1.jpg",
+      "sha256": "92e654f53f99aaaa94650949d754f36d0c62f3208dbb82180838cca5dd662a6f"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/fit-2.jpg",
+      "sha256": "24b23c3b2aa9cfe578f28b7e537df10cc584fa8751e42c56f88725a2b7fd38f3"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/fit-3.jpg",
+      "sha256": "18aace759a904fc673911fa8f51f3ca27ed69ba3a74acfae5db28b1f1696a852"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/fit-4.jpg",
+      "sha256": "e1327a51ba06f336b341be33efa4c52770524414f767ac1fb2d7bce645a8977c"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/readable-0.jpg",
+      "sha256": "d81dc03fd60e2a3e289618eeeb066b6c3dbb11d689c6b4d5ab2f523ae3f31bcd"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/readable-1.jpg",
+      "sha256": "91c60f04253b4879d53d677b8d3f0a471c94d77ff5697a8dad0bbbb70c8ec23b"
+    },
+    {
+      "path": "evidence/loader-pilot/playback/readable-2.jpg",
+      "sha256": "3c7d103635c136c4264fa331c8bad3318e6ab4a465ca344686f2877882ce2ee2"
+    }
+  ],
+  "limits": [
+    "Revisión independiente NOT_RUN; QA ejecutada por el implementador",
+    "No implementación React/HTML/ARIA, servicios ni reduced motion del navegador",
+    "0.8 s es duración nominal configurada; reproducción observada sin medir fps",
+    "Componentes locales; no publicación de biblioteca ni release oficial"
+  ],
+  "visualCorrection": "Button source actually uses round arc and neutral track in secondary/link/text. Shared Loader corrects those earlier target deviations; other Button content/geometry/reactions preserve frozen hashes."
+}

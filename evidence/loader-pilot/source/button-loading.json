@@ -1,0 +1,409 @@
+{
+  "node": {
+    "id": "2433:26890",
+    "name": "Button component",
+    "type": "GROUP"
+  },
+  "loading": [
+    {
+      "id": "8857:26557",
+      "name": "type=primary, size=large, state=loading",
+      "parts": [
+        {
+          "id": "I8855:3428;8944:828;8944:432",
+          "name": "Track",
+          "opacity": 0.30000001192092896,
+          "cap": "NONE",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196142"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196142"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I8855:3428;8944:828;8944:433",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196142"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196142"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8857:26572",
+      "name": "type=secondary, size=large, state=loading",
+      "parts": [
+        {
+          "id": "I8855:3521;8944:819;8944:432",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196106"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I8855:3521;8944:819;8944:433",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196141"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196141"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8857:26602",
+      "name": "type=text, size=large, state=loading",
+      "parts": [
+        {
+          "id": "I8855:3554;8944:825;8944:432",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196106"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I8855:3554;8944:825;8944:433",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8857:26587",
+      "name": "type=link, size=large, state=loading",
+      "parts": [
+        {
+          "id": "I8855:3533;8944:819;8944:432",
+          "name": "Track",
+          "opacity": 1,
+          "cap": "NONE",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.886274516582489,
+                "g": 0.9098039269447327,
+                "b": 0.9411764740943909
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196106"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196106"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I8855:3533;8944:819;8944:433",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196141"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196141"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "8857:26617",
+      "name": "type=danger, size=large, state=loading",
+      "parts": [
+        {
+          "id": "I8855:3584;8944:828;8944:432",
+          "name": "Track",
+          "opacity": 0.30000001192092896,
+          "cap": "NONE",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196142"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196142"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I8855:3584;8944:828;8944:433",
+          "name": "Arc",
+          "opacity": 1,
+          "cap": "ROUND",
+          "strokes": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196142"
+                }
+              }
+            }
+          ],
+          "b": {
+            "strokeWeight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:559:9"
+            },
+            "strokes": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196142"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

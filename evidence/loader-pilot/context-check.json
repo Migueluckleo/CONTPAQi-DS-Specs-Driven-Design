@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "budget": 65536,
+  "cases": [
+    {
+      "id": "LOADER-001",
+      "mode": "Contable",
+      "bytes": 19494,
+      "status": "PASS"
+    },
+    {
+      "id": "BUTTON-001",
+      "mode": "Contable",
+      "bytes": 56451,
+      "status": "PASS"
+    },
+    {
+      "id": "LOADER-001",
+      "mode": "Administrativo",
+      "bytes": 19653,
+      "status": "PASS"
+    },
+    {
+      "id": "BUTTON-001",
+      "mode": "Administrativo",
+      "bytes": 57695,
+      "status": "PASS"
+    },
+    {
+      "id": "LOADER-001",
+      "mode": "Servicios",
+      "bytes": 19541,
+      "status": "PASS"
+    },
+    {
+      "id": "BUTTON-001",
+      "mode": "Servicios",
+      "bytes": 57212,
+      "status": "PASS"
+    },
+    {
+      "id": "LOADER-001",
+      "mode": "Personas",
+      "bytes": 19520,
+      "status": "PASS"
+    },
+    {
+      "id": "BUTTON-001",
+      "mode": "Personas",
+      "bytes": 57151,
+      "status": "PASS"
+    }
+  ]
+}

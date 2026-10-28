@@ -11,7 +11,7 @@ class SharedDotTests(unittest.TestCase):
    deps=w.contracts[w.current[identity]]['metadata']['dependencies'];self.assertTrue(any(d['kind']=='contract'and d['id']==child and d['version']==version for d in deps))
   self.assertFalse(any(d['id']=='DOT-001'for d in w.contracts[w.current['BUTTON-001']]['metadata']['dependencies']))
  def test_retired_tokens_have_equivalent_owned_replacements(self):
-  current={t['id']:t for t in read('norms/tokens/blueheart.4.0.0.json')['tokens']};old={t['id']:t for t in read('evidence/dot-pilot/history/blueheart.3.0.0.json')['tokens']};mapping=read('evidence/dot-pilot/migration-map.json')
+  current={t['id']:t for t in read('evidence/loader-pilot/history/blueheart.4.0.0.json')['tokens']};old={t['id']:t for t in read('evidence/dot-pilot/history/blueheart.3.0.0.json')['tokens']};mapping=read('evidence/dot-pilot/migration-map.json')
   self.assertEqual(set(old)-set(current),set(mapping['replacementTokens']));self.assertEqual(len(mapping['replacementTokens']),9)
   for tid,entry in mapping['replacementTokens'].items():
    a=old[tid];b=current[entry['logicalId']]
@@ -33,7 +33,7 @@ class SharedDotTests(unittest.TestCase):
 
  def test_current_component_contexts_fit_without_raising_budget(self):
   w=Workspace(ROOT)
-  for identity in ['BUTTON-001','DOT-001','TAB-001','TABS-001','AVATAR-001','AVATAR-GROUP-001']:
+  for identity in ['LOADER-001','BUTTON-001','DOT-001','TAB-001','TABS-001','AVATAR-001','AVATAR-GROUP-001']:
    result=w.context(identity,compact=True,modes={'component':'Contable'})
    self.assertEqual(result['status'],'PASS',identity)
    self.assertLessEqual(result['context_bytes'],w.policy['default_context_bytes'])

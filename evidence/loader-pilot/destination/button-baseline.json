@@ -1,0 +1,1051 @@
+{
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Cover",
+      "candidates": []
+    },
+    {
+      "id": "149:639",
+      "name": "---",
+      "candidates": []
+    },
+    {
+      "id": "145:42",
+      "name": "Avatars",
+      "candidates": []
+    },
+    {
+      "id": "11:128",
+      "name": "Buttons",
+      "candidates": [
+        {
+          "id": "13:76",
+          "name": "__Button/Loader/small",
+          "type": "COMPONENT_SET",
+          "parent": "11:128"
+        },
+        {
+          "id": "13:149",
+          "name": "__Button/Loader/medium",
+          "type": "COMPONENT_SET",
+          "parent": "11:128"
+        },
+        {
+          "id": "13:222",
+          "name": "__Button/Loader/large",
+          "type": "COMPONENT_SET",
+          "parent": "11:128"
+        },
+        {
+          "id": "14:78",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "14:77"
+        },
+        {
+          "id": "14:83",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "14:82"
+        },
+        {
+          "id": "14:88",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "14:87"
+        },
+        {
+          "id": "15:84",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:83"
+        },
+        {
+          "id": "15:89",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:88"
+        },
+        {
+          "id": "15:94",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:93"
+        },
+        {
+          "id": "15:199",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:198"
+        },
+        {
+          "id": "15:204",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:203"
+        },
+        {
+          "id": "15:209",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:208"
+        },
+        {
+          "id": "15:311",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:310"
+        },
+        {
+          "id": "15:316",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:315"
+        },
+        {
+          "id": "15:321",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:320"
+        },
+        {
+          "id": "15:429",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:428"
+        },
+        {
+          "id": "15:434",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:433"
+        },
+        {
+          "id": "15:439",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "15:438"
+        },
+        {
+          "id": "I16:76;14:78",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:76"
+        },
+        {
+          "id": "I16:111;15:84",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:111"
+        },
+        {
+          "id": "I16:146;15:199",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:146"
+        },
+        {
+          "id": "I16:181;15:311",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:181"
+        },
+        {
+          "id": "I16:216;15:429",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:216"
+        },
+        {
+          "id": "I16:267;14:83",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:267"
+        },
+        {
+          "id": "I16:302;15:89",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:302"
+        },
+        {
+          "id": "I16:337;15:204",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:337"
+        },
+        {
+          "id": "I16:372;15:316",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:372"
+        },
+        {
+          "id": "I16:407;15:434",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:407"
+        },
+        {
+          "id": "I16:458;14:88",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:458"
+        },
+        {
+          "id": "I16:493;15:94",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:493"
+        },
+        {
+          "id": "I16:528;15:209",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:528"
+        },
+        {
+          "id": "I16:563;15:321",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:563"
+        },
+        {
+          "id": "I16:598;15:439",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:598"
+        },
+        {
+          "id": "I16:645;14:83",
+          "name": "Loader",
+          "type": "INSTANCE",
+          "parent": "16:645"
+        }
+      ]
+    },
+    {
+      "id": "78:97",
+      "name": "Tabs",
+      "candidates": []
+    },
+    {
+      "id": "201:1543",
+      "name": "Dot",
+      "candidates": []
+    }
+  ],
+  "buttons": [
+    {
+      "id": "14:2",
+      "name": "size=large, state=default",
+      "set": "14:110",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "d2f96d10",
+      "reactionHash": "abe9c852"
+    },
+    {
+      "id": "14:8",
+      "name": "size=medium, state=default",
+      "set": "14:110",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "2d692ee",
+      "reactionHash": "2b437bd2"
+    },
+    {
+      "id": "14:14",
+      "name": "size=small, state=default",
+      "set": "14:110",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "67a0c8fb",
+      "reactionHash": "4d879fc"
+    },
+    {
+      "id": "14:20",
+      "name": "size=large, state=hover",
+      "set": "14:110",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "90436424",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:26",
+      "name": "size=medium, state=hover",
+      "set": "14:110",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "9af3c5e7",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:32",
+      "name": "size=small, state=hover",
+      "set": "14:110",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "b3891d83",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:38",
+      "name": "size=large, state=pressed",
+      "set": "14:110",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "4477cd69",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:44",
+      "name": "size=medium, state=pressed",
+      "set": "14:110",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "57dd99f7",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:50",
+      "name": "size=small, state=pressed",
+      "set": "14:110",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "52290199",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:56",
+      "name": "size=large, state=focus",
+      "set": "14:110",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "22a06f75",
+      "reactionHash": "abe9c852"
+    },
+    {
+      "id": "14:63",
+      "name": "size=medium, state=focus",
+      "set": "14:110",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "c96da399",
+      "reactionHash": "2b437bd2"
+    },
+    {
+      "id": "14:70",
+      "name": "size=small, state=focus",
+      "set": "14:110",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "8460c6f1",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:77",
+      "name": "size=large, state=loading",
+      "set": "14:110",
+      "w": 117,
+      "h": 48,
+      "preservationHash": "7156101a",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:82",
+      "name": "size=medium, state=loading",
+      "set": "14:110",
+      "w": 107,
+      "h": 40,
+      "preservationHash": "c3136e5e",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:87",
+      "name": "size=small, state=loading",
+      "set": "14:110",
+      "w": 91,
+      "h": 32,
+      "preservationHash": "14ab8921",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:92",
+      "name": "size=large, state=disabled",
+      "set": "14:110",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "bb0af374",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:98",
+      "name": "size=medium, state=disabled",
+      "set": "14:110",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "373d81c7",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "14:104",
+      "name": "size=small, state=disabled",
+      "set": "14:110",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "c6ff4545",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:8",
+      "name": "size=large, state=default",
+      "set": "15:116",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "e734d050",
+      "reactionHash": "1dcc323c"
+    },
+    {
+      "id": "15:14",
+      "name": "size=medium, state=default",
+      "set": "15:116",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "74085a6e",
+      "reactionHash": "290babba"
+    },
+    {
+      "id": "15:20",
+      "name": "size=small, state=default",
+      "set": "15:116",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "c76b840a",
+      "reactionHash": "a75f8ac2"
+    },
+    {
+      "id": "15:26",
+      "name": "size=large, state=hover",
+      "set": "15:116",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "765d53f8",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:32",
+      "name": "size=medium, state=hover",
+      "set": "15:116",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "1b815b81",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:38",
+      "name": "size=small, state=hover",
+      "set": "15:116",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "bc9d58ca",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:44",
+      "name": "size=large, state=pressed",
+      "set": "15:116",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "4474b98",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:50",
+      "name": "size=medium, state=pressed",
+      "set": "15:116",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "d66bac91",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:56",
+      "name": "size=small, state=pressed",
+      "set": "15:116",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "b01016a5",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:62",
+      "name": "size=large, state=focus",
+      "set": "15:116",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "19cc4553",
+      "reactionHash": "1dcc323c"
+    },
+    {
+      "id": "15:69",
+      "name": "size=medium, state=focus",
+      "set": "15:116",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "447a514b",
+      "reactionHash": "290babba"
+    },
+    {
+      "id": "15:76",
+      "name": "size=small, state=focus",
+      "set": "15:116",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "4d3d4ae3",
+      "reactionHash": "a75f8ac2"
+    },
+    {
+      "id": "15:83",
+      "name": "size=large, state=loading",
+      "set": "15:116",
+      "w": 117,
+      "h": 48,
+      "preservationHash": "6e5b9d16",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:88",
+      "name": "size=medium, state=loading",
+      "set": "15:116",
+      "w": 107,
+      "h": 40,
+      "preservationHash": "8fa8f964",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:93",
+      "name": "size=small, state=loading",
+      "set": "15:116",
+      "w": 91,
+      "h": 32,
+      "preservationHash": "2236899b",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:98",
+      "name": "size=large, state=disabled",
+      "set": "15:116",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "edbc9aed",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:104",
+      "name": "size=medium, state=disabled",
+      "set": "15:116",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "130e0222",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:110",
+      "name": "size=small, state=disabled",
+      "set": "15:116",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "5411eec6",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:123",
+      "name": "size=large, state=default",
+      "set": "15:231",
+      "w": 67,
+      "h": 48,
+      "preservationHash": "8eb4aeb",
+      "reactionHash": "cfe053f2"
+    },
+    {
+      "id": "15:129",
+      "name": "size=medium, state=default",
+      "set": "15:231",
+      "w": 60,
+      "h": 40,
+      "preservationHash": "c6becd51",
+      "reactionHash": "f97d5f06"
+    },
+    {
+      "id": "15:135",
+      "name": "size=small, state=default",
+      "set": "15:231",
+      "w": 52,
+      "h": 32,
+      "preservationHash": "2cd7be83",
+      "reactionHash": "8305127a"
+    },
+    {
+      "id": "15:141",
+      "name": "size=large, state=hover",
+      "set": "15:231",
+      "w": 67,
+      "h": 48,
+      "preservationHash": "7e72e8dd",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:147",
+      "name": "size=medium, state=hover",
+      "set": "15:231",
+      "w": 60,
+      "h": 40,
+      "preservationHash": "54894cc1",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:153",
+      "name": "size=small, state=hover",
+      "set": "15:231",
+      "w": 52,
+      "h": 32,
+      "preservationHash": "64dca77b",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:159",
+      "name": "size=large, state=pressed",
+      "set": "15:231",
+      "w": 67,
+      "h": 48,
+      "preservationHash": "e5f92f4f",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:165",
+      "name": "size=medium, state=pressed",
+      "set": "15:231",
+      "w": 60,
+      "h": 40,
+      "preservationHash": "4557f5cf",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:171",
+      "name": "size=small, state=pressed",
+      "set": "15:231",
+      "w": 52,
+      "h": 32,
+      "preservationHash": "f7eefef4",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:177",
+      "name": "size=large, state=focus",
+      "set": "15:231",
+      "w": 67,
+      "h": 48,
+      "preservationHash": "d45217ed",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:184",
+      "name": "size=medium, state=focus",
+      "set": "15:231",
+      "w": 60,
+      "h": 40,
+      "preservationHash": "70b20390",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:191",
+      "name": "size=small, state=focus",
+      "set": "15:231",
+      "w": 52,
+      "h": 32,
+      "preservationHash": "c6331782",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:198",
+      "name": "size=large, state=loading",
+      "set": "15:231",
+      "w": 99,
+      "h": 48,
+      "preservationHash": "bab4761c",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:203",
+      "name": "size=medium, state=loading",
+      "set": "15:231",
+      "w": 88,
+      "h": 40,
+      "preservationHash": "76a921da",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:208",
+      "name": "size=small, state=loading",
+      "set": "15:231",
+      "w": 72,
+      "h": 32,
+      "preservationHash": "b6ed10a4",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:213",
+      "name": "size=large, state=disabled",
+      "set": "15:231",
+      "w": 67,
+      "h": 48,
+      "preservationHash": "d3da6235",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:219",
+      "name": "size=medium, state=disabled",
+      "set": "15:231",
+      "w": 60,
+      "h": 40,
+      "preservationHash": "f7759481",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:225",
+      "name": "size=small, state=disabled",
+      "set": "15:231",
+      "w": 52,
+      "h": 32,
+      "preservationHash": "79d31d2f",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:235",
+      "name": "size=large, state=default",
+      "set": "15:343",
+      "w": 61,
+      "h": 48,
+      "preservationHash": "a04ac891",
+      "reactionHash": "105b4e16"
+    },
+    {
+      "id": "15:241",
+      "name": "size=medium, state=default",
+      "set": "15:343",
+      "w": 55,
+      "h": 40,
+      "preservationHash": "11fc969f",
+      "reactionHash": "5c483c5e"
+    },
+    {
+      "id": "15:247",
+      "name": "size=small, state=default",
+      "set": "15:343",
+      "w": 55,
+      "h": 32,
+      "preservationHash": "69ba19db",
+      "reactionHash": "61527b62"
+    },
+    {
+      "id": "15:253",
+      "name": "size=large, state=hover",
+      "set": "15:343",
+      "w": 61,
+      "h": 48,
+      "preservationHash": "2409eaad",
+      "reactionHash": "155b3e0b"
+    },
+    {
+      "id": "15:259",
+      "name": "size=medium, state=hover",
+      "set": "15:343",
+      "w": 55,
+      "h": 40,
+      "preservationHash": "5fe58a10",
+      "reactionHash": "2e1d0d03"
+    },
+    {
+      "id": "15:265",
+      "name": "size=small, state=hover",
+      "set": "15:343",
+      "w": 55,
+      "h": 32,
+      "preservationHash": "65b591f4",
+      "reactionHash": "d3be36db"
+    },
+    {
+      "id": "15:271",
+      "name": "size=large, state=pressed",
+      "set": "15:343",
+      "w": 61,
+      "h": 48,
+      "preservationHash": "1e3a312b",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:277",
+      "name": "size=medium, state=pressed",
+      "set": "15:343",
+      "w": 55,
+      "h": 40,
+      "preservationHash": "6b244380",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:283",
+      "name": "size=small, state=pressed",
+      "set": "15:343",
+      "w": 55,
+      "h": 32,
+      "preservationHash": "52c63678",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:289",
+      "name": "size=large, state=focus",
+      "set": "15:343",
+      "w": 61,
+      "h": 48,
+      "preservationHash": "43108251",
+      "reactionHash": "105b4e16"
+    },
+    {
+      "id": "15:296",
+      "name": "size=medium, state=focus",
+      "set": "15:343",
+      "w": 55,
+      "h": 40,
+      "preservationHash": "6fcd959c",
+      "reactionHash": "5c483c5e"
+    },
+    {
+      "id": "15:303",
+      "name": "size=small, state=focus",
+      "set": "15:343",
+      "w": 55,
+      "h": 32,
+      "preservationHash": "9aa41a10",
+      "reactionHash": "61527b62"
+    },
+    {
+      "id": "15:310",
+      "name": "size=large, state=loading",
+      "set": "15:343",
+      "w": 93,
+      "h": 48,
+      "preservationHash": "a919ef",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:315",
+      "name": "size=medium, state=loading",
+      "set": "15:343",
+      "w": 83,
+      "h": 40,
+      "preservationHash": "1b13de28",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:320",
+      "name": "size=small, state=loading",
+      "set": "15:343",
+      "w": 75,
+      "h": 32,
+      "preservationHash": "1f498fbf",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:325",
+      "name": "size=large, state=disabled",
+      "set": "15:343",
+      "w": 61,
+      "h": 48,
+      "preservationHash": "1b2a3cf7",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:331",
+      "name": "size=medium, state=disabled",
+      "set": "15:343",
+      "w": 55,
+      "h": 40,
+      "preservationHash": "1081325b",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:337",
+      "name": "size=small, state=disabled",
+      "set": "15:343",
+      "w": 55,
+      "h": 32,
+      "preservationHash": "33edb63b",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:353",
+      "name": "size=large, state=default",
+      "set": "15:461",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "7e05eeaf",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:359",
+      "name": "size=medium, state=default",
+      "set": "15:461",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "9d22a6a7",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:365",
+      "name": "size=small, state=default",
+      "set": "15:461",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "d46544ee",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:371",
+      "name": "size=large, state=hover",
+      "set": "15:461",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "abf3f40d",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:377",
+      "name": "size=medium, state=hover",
+      "set": "15:461",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "da35eb85",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:383",
+      "name": "size=small, state=hover",
+      "set": "15:461",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "27c8a8a6",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:389",
+      "name": "size=large, state=pressed",
+      "set": "15:461",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "6ef09177",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:395",
+      "name": "size=medium, state=pressed",
+      "set": "15:461",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "84cc9b55",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:401",
+      "name": "size=small, state=pressed",
+      "set": "15:461",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "d5747b1",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:407",
+      "name": "size=large, state=focus",
+      "set": "15:461",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "b28b646e",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:414",
+      "name": "size=medium, state=focus",
+      "set": "15:461",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "531f432",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:421",
+      "name": "size=small, state=focus",
+      "set": "15:461",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "1983905e",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:428",
+      "name": "size=large, state=loading",
+      "set": "15:461",
+      "w": 117,
+      "h": 48,
+      "preservationHash": "f81579d2",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:433",
+      "name": "size=medium, state=loading",
+      "set": "15:461",
+      "w": 107,
+      "h": 40,
+      "preservationHash": "76c53d1c",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:438",
+      "name": "size=small, state=loading",
+      "set": "15:461",
+      "w": 91,
+      "h": 32,
+      "preservationHash": "ca4153e9",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:443",
+      "name": "size=large, state=disabled",
+      "set": "15:461",
+      "w": 85,
+      "h": 48,
+      "preservationHash": "eeb36482",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:449",
+      "name": "size=medium, state=disabled",
+      "set": "15:461",
+      "w": 79,
+      "h": 40,
+      "preservationHash": "acaa2b4",
+      "reactionHash": "741638a5"
+    },
+    {
+      "id": "15:455",
+      "name": "size=small, state=disabled",
+      "set": "15:461",
+      "w": 71,
+      "h": 32,
+      "preservationHash": "a2f45831",
+      "reactionHash": "741638a5"
+    }
+  ]
+}
