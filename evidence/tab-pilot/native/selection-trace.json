@@ -1,0 +1,114 @@
+{
+  "views": [
+    {
+      "index": 0,
+      "label": "Resumen",
+      "id": "82:487",
+      "panelId": "82:519",
+      "links": [
+        {
+          "hitId": "82:491",
+          "instanceId": "82:492",
+          "index": 0
+        },
+        {
+          "hitId": "82:498",
+          "instanceId": "82:499",
+          "index": 1
+        },
+        {
+          "hitId": "82:505",
+          "instanceId": "82:506",
+          "index": 2
+        }
+      ],
+      "disabledHitId": "82:512"
+    },
+    {
+      "index": 1,
+      "label": "Movimientos",
+      "id": "82:523",
+      "panelId": "82:555",
+      "links": [
+        {
+          "hitId": "82:527",
+          "instanceId": "82:528",
+          "index": 0
+        },
+        {
+          "hitId": "82:534",
+          "instanceId": "82:535",
+          "index": 1
+        },
+        {
+          "hitId": "82:541",
+          "instanceId": "82:542",
+          "index": 2
+        }
+      ],
+      "disabledHitId": "82:548"
+    },
+    {
+      "index": 2,
+      "label": "Documentos",
+      "id": "82:559",
+      "panelId": "82:591",
+      "links": [
+        {
+          "hitId": "82:563",
+          "instanceId": "82:564",
+          "index": 0
+        },
+        {
+          "hitId": "82:570",
+          "instanceId": "82:571",
+          "index": 1
+        },
+        {
+          "hitId": "82:577",
+          "instanceId": "82:578",
+          "index": 2
+        }
+      ],
+      "disabledHitId": "82:584"
+    }
+  ],
+  "cases": [
+    {
+      "expected": "Movimientos",
+      "point": [
+        276,
+        221
+      ],
+      "ax": "Browser tab: 3, Title: \"Blue Heart DS - Tabs\", URL: \"https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-523&starting-point-node-id=82%3A487\".\n1 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-523&starting-point-node-id=82%3A487\n\t2 container react-page\n\t\t3 container\n\t\t\t4 container Prototype controls\n\t\t\t5 container\n\t\t\t\t6 text Screenreader support is currently disabled. To enable it, use the Accessibility settings from the Options menu.\n\t\t\t\t7 container Pages\n\t\t\t\t\t8 toolbar Stepper\n\t\t\t\t\t\t9 button Previous frame\n\t\t\t\t\t\t\t10 image\n\t\t\t\t\t\t11 button Next frame\n\t\t\t\t\t\t\t12 image\n\t\t\t\t\t13 button Restart\n\t\t\t\t\t\t14 image\n\t\t\t\t\t\t15 text Restart\n\nThe focused UI element is 1 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-523&starting-point-node-id=82%3A487",
+      "screenshot": "selection-movimientos.jpg"
+    },
+    {
+      "expected": "Documentos",
+      "point": [
+        444,
+        221
+      ],
+      "ax": "Browser tab: 3, Title: \"Blue Heart DS - Tabs\", URL: \"https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-559&starting-point-node-id=82%3A487\".\n1 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-559&starting-point-node-id=82%3A487\n\t2 container react-page\n\t\t3 container\n\t\t\t4 container Prototype controls\n\t\t\t5 container\n\t\t\t\t6 text Screenreader support is currently disabled. To enable it, use the Accessibility settings from the Options menu.\n\t\t\t\t7 container Pages\n\t\t\t\t\t8 toolbar Stepper\n\t\t\t\t\t\t9 button Previous frame\n\t\t\t\t\t\t\t10 image\n\t\t\t\t\t\t11 button Next frame\n\t\t\t\t\t\t\t12 image\n\t\t\t\t\t13 button Restart\n\t\t\t\t\t\t14 image\n\t\t\t\t\t\t15 text Restart\n\nThe focused UI element is 1 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-559&starting-point-node-id=82%3A487",
+      "screenshot": "selection-documentos.jpg"
+    },
+    {
+      "expected": "Resumen",
+      "point": [
+        84,
+        221
+      ],
+      "ax": "Browser tab: 3, Title: \"Blue Heart DS - Tabs\", URL: \"https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-559&starting-point-node-id=82%3A487\".\n1 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-559&starting-point-node-id=82%3A487\n\t2 container react-page\n\t\t3 container\n\t\t\t4 container Prototype controls\n\t\t\t5 container\n\t\t\t\t6 text Screenreader support is currently disabled. To enable it, use the Accessibility settings from the Options menu.\n\t\t\t\t7 container Pages\n\t\t\t\t\t8 toolbar Stepper\n\t\t\t\t\t\t9 button (disabled) Previous frame\n\t\t\t\t\t\t\t10 image\n\t\t\t\t\t\t11 button Next frame\n\t\t\t\t\t\t\t12 image\n\t\t\t\t\t13 button Restart\n\t\t\t\t\t\t14 image\n\t\t\t\t\t\t15 text Restart\n\nThe focused UI element is 1 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-559&starting-point-node-id=82%3A487",
+      "screenshot": "selection-resumen.jpg"
+    }
+  ],
+  "disabled": {
+    "point": [
+      624,
+      221
+    ],
+    "expected": "Resumen remains selected; same panel",
+    "ax": "Browser tab: 3, Title: \"Blue Heart DS - Tabs\", URL: \"https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-487&starting-point-node-id=82%3A487\".\n1 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-487&starting-point-node-id=82%3A487\n\t2 container react-page\n\t\t3 container\n\t\t\t4 container Prototype controls\n\t\t\t5 container\n\t\t\t\t6 text Screenreader support is currently disabled. To enable it, use the Accessibility settings from the Options menu.\n\t\t\t\t7 container Pages\n\t\t\t\t\t8 toolbar Stepper\n\t\t\t\t\t\t9 button (disabled) Previous frame\n\t\t\t\t\t\t\t10 image\n\t\t\t\t\t\t11 button Next frame\n\t\t\t\t\t\t\t12 image\n\t\t\t\t\t13 button Restart\n\t\t\t\t\t\t14 image\n\t\t\t\t\t\t15 text Restart\n\nThe focused UI element is 1 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-487&starting-point-node-id=82%3A487",
+    "screenshot": "selection-disabled.jpg"
+  }
+}

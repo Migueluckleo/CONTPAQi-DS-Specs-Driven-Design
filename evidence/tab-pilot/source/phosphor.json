@@ -1,0 +1,47 @@
+{
+  "fileKey": "xZSksKpcQTp5H3C4dZApBL",
+  "page": {
+    "id": "7484:1322",
+    "name": "Components"
+  },
+  "matches": [
+    {
+      "id": "8899:16512",
+      "key": "62049057b63bb8cbb66bbcba5a385d9621f05d3f",
+      "name": "ImageSquare",
+      "description": "pictures, photographs, photography, wallpapers, gallery, landscape, media",
+      "properties": {
+        "Format": {
+          "type": "VARIANT",
+          "defaultValue": "Stroke",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ]
+        },
+        "Weight": {
+          "type": "VARIANT",
+          "defaultValue": "Regular",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "8899:16464",
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "name": "Format=Outline, Weight=Light",
+          "width": 32,
+          "height": 32
+        }
+      ]
+    }
+  ],
+  "readOnly": true
+}

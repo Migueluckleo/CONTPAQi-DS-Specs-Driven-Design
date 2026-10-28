@@ -1,0 +1,1408 @@
+{
+  "schema_version": 1,
+  "id": "TAB-TOKENS",
+  "version": "1.0.0",
+  "collections": [
+    {
+      "id": "tab",
+      "name": "tab",
+      "default_mode": "Contable",
+      "modes": [
+        {
+          "id": "Contable",
+          "name": "Contable"
+        },
+        {
+          "id": "Administrativo",
+          "name": "Administrativo"
+        },
+        {
+          "id": "Servicios",
+          "name": "Servicios"
+        },
+        {
+          "id": "Personas",
+          "name": "Personas"
+        }
+      ]
+    }
+  ],
+  "tokens": [
+    {
+      "id": "tab.border-tab-width-emphasis",
+      "name": "--border-tab-width-emphasis",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Tab: border / width-emphasis; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.stroke-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-md"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-md"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-md"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:559:9",
+        "selector": "JSON:/variables/22",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.border-tab-width-regular",
+      "name": "--border-tab-width-regular",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "description": "Tab: border / width-regular; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:559:7",
+        "selector": "JSON:/variables/15",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-brand-accent",
+      "name": "--color-tab-bg-brand-accent",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Tab: color / bg / brand-accent; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-accent"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-accent"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-accent"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-accent"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196108",
+        "selector": "JSON:/variables/40",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-brand-subtle",
+      "name": "--color-tab-bg-brand-subtle",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Tab: color / bg / brand-subtle; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-subtle"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196107",
+        "selector": "JSON:/variables/39",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-count",
+      "name": "--color-tab-bg-count",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Tab: color / bg / count; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.danger-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-default"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-default"
+        },
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196145",
+        "selector": "JSON:/variables/16",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-muted",
+      "name": "--color-tab-bg-muted",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Tab: color / bg / muted; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-muted"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196106",
+        "selector": "JSON:/variables/43",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-subtle",
+      "name": "--color-tab-bg-subtle",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Tab: color / bg / subtle; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-subtle"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196105",
+        "selector": "JSON:/variables/37",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-surface",
+      "name": "--color-tab-bg-surface",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "description": "Tab: color / bg / surface; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196104",
+        "selector": "JSON:/variables/46",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-brand",
+      "name": "--color-tab-icon-brand",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tab: color / icon / brand; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-default"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196141",
+        "selector": "JSON:/variables/31",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-disabled",
+      "name": "--color-tab-icon-disabled",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tab: color / icon / disabled; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196147",
+        "selector": "JSON:/variables/28",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-primary",
+      "name": "--color-tab-icon-primary",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tab: color / icon / primary; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196138",
+        "selector": "JSON:/variables/24",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-secondary",
+      "name": "--color-tab-icon-secondary",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tab: color / icon / secondary; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196139",
+        "selector": "JSON:/variables/5",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-brand",
+      "name": "--color-tab-stroke-brand",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Tab: color / stroke / brand; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-default"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:197279",
+        "selector": "JSON:/variables/30",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-brand-hover",
+      "name": "--color-tab-stroke-brand-hover",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Tab: color / stroke / brand-hover; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2988:9",
+        "selector": "JSON:/variables/34",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-focus",
+      "name": "--color-tab-stroke-focus",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Tab: color / stroke / focus; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-strong"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196132",
+        "selector": "JSON:/variables/27",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-neutral",
+      "name": "--color-tab-stroke-neutral",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Tab: color / stroke / neutral; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196128",
+        "selector": "JSON:/variables/23",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-surface",
+      "name": "--color-tab-stroke-surface",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "description": "Tab: color / stroke / surface; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:8917:10",
+        "selector": "JSON:/variables/17",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-text-brand",
+      "name": "--color-tab-text-brand",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Tab: color / text / brand; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196121",
+        "selector": "JSON:/variables/32",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-text-brand-hover",
+      "name": "--color-tab-text-brand-hover",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Tab: color / text / brand-hover; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2988:9",
+        "selector": "JSON:/variables/34",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-text-disabled",
+      "name": "--color-tab-text-disabled",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Tab: color / text / disabled; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196119",
+        "selector": "JSON:/variables/29",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-text-inverse",
+      "name": "--color-tab-text-inverse",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Tab: color / text / inverse; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196123",
+        "selector": "JSON:/variables/18",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-text-primary",
+      "name": "--color-tab-text-primary",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Tab: color / text / primary; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196116",
+        "selector": "JSON:/variables/25",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.color-tab-text-secondary",
+      "name": "--color-tab-text-secondary",
+      "layer": "component",
+      "type": "color",
+      "collection": "tab",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "description": "Tab: color / text / secondary; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-strong"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2849:196117",
+        "selector": "JSON:/variables/6",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-count-style",
+      "name": "--font-tab-count-style",
+      "layer": "component",
+      "type": "string",
+      "collection": "tab",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "Tab: font / count-style; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-bold"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2845:160891",
+        "selector": "JSON:/variables/20",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-family",
+      "name": "--font-tab-family",
+      "layer": "component",
+      "type": "string",
+      "collection": "tab",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "description": "Tab: font / family; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-family-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-family-base"
+        },
+        "Servicios": {
+          "alias": "semantic.font-family-base"
+        },
+        "Personas": {
+          "alias": "semantic.font-family-base"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2845:160887",
+        "selector": "JSON:/variables/10",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-label-style",
+      "name": "--font-tab-label-style",
+      "layer": "component",
+      "type": "string",
+      "collection": "tab",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "Tab: font / label-style; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-regular"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2845:160888",
+        "selector": "JSON:/variables/9",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-letter-spacing",
+      "name": "--font-tab-letter-spacing",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "description": "Tab: font / letter-spacing; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Servicios": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-normal"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2845:160910",
+        "selector": "JSON:/variables/7",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-line-height-count",
+      "name": "--font-tab-line-height-count",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "Tab: font / line-height-count; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2845:160901",
+        "selector": "JSON:/variables/21",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-line-height-label",
+      "name": "--font-tab-line-height-label",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "description": "Tab: font / line-height-label; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2845:160902",
+        "selector": "JSON:/variables/11",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-selected-style",
+      "name": "--font-tab-selected-style",
+      "layer": "component",
+      "type": "string",
+      "collection": "tab",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "description": "Tab: font / selected-style; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-semibold"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2845:160890",
+        "selector": "JSON:/variables/33",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-size-count",
+      "name": "--font-tab-size-count",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Tab: font / size-count; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-1xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-1xs"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:5401:77",
+        "selector": "JSON:/variables/19",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.font-tab-size-label",
+      "name": "--font-tab-size-label",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "description": "Tab: font / size-label; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:2845:160893",
+        "selector": "JSON:/variables/8",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.radius-tab-full",
+      "name": "--radius-tab-full",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Tab: radius / full; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.radius-full"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-full"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-full"
+        },
+        "Personas": {
+          "alias": "semantic.radius-full"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:9",
+        "selector": "JSON:/variables/14",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.radius-tab-lg",
+      "name": "--radius-tab-lg",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Tab: radius / lg; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.radius-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-lg"
+        },
+        "Personas": {
+          "alias": "semantic.radius-lg"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:5",
+        "selector": "JSON:/variables/38",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.radius-tab-md",
+      "name": "--radius-tab-md",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Tab: radius / md; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.radius-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-md"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-md"
+        },
+        "Personas": {
+          "alias": "semantic.radius-md"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:4",
+        "selector": "JSON:/variables/36",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.radius-tab-sm",
+      "name": "--radius-tab-sm",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "description": "Tab: radius / sm; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.radius-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-sm"
+        },
+        "Personas": {
+          "alias": "semantic.radius-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:3",
+        "selector": "JSON:/variables/26",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.size-tab-count",
+      "name": "--size-tab-count",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "Tab: size / count; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:19",
+        "selector": "JSON:/variables/13",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.size-tab-icon",
+      "name": "--size-tab-icon",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "description": "Tab: size / icon; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-xl"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:8871:11",
+        "selector": "JSON:/variables/4",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.spacing-tab-lg",
+      "name": "--spacing-tab-lg",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Tab: spacing / lg; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-lg"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:12",
+        "selector": "JSON:/variables/2",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.spacing-tab-md",
+      "name": "--spacing-tab-md",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Tab: spacing / md; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-md"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-md"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-md"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:5401:76",
+        "selector": "JSON:/variables/3",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.spacing-tab-none",
+      "name": "--spacing-tab-none",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Tab: spacing / none; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:1098:28491",
+        "selector": "JSON:/variables/12",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.spacing-tab-sm",
+      "name": "--spacing-tab-sm",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Tab: spacing / sm; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:11",
+        "selector": "JSON:/variables/1",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    },
+    {
+      "id": "tab.spacing-tab-xs",
+      "name": "--spacing-tab-xs",
+      "layer": "component",
+      "type": "number",
+      "collection": "tab",
+      "scopes": [
+        "GAP"
+      ],
+      "description": "Tab: spacing / xs; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "source": {
+        "path": "evidence/tab-pilot/source/variables.json",
+        "sha256": "f7549d44aca387aacbc8da7d22f48714dfbaffeeba995aee99054c0218dd21ff",
+        "original_id": "VariableID:562:10",
+        "selector": "JSON:/variables/42",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      }
+    }
+  ]
+}

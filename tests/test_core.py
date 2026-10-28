@@ -94,13 +94,15 @@ class CoreTests(unittest.TestCase):
             d["tokens"].append(t)
         return d
 
-    def test_registered_pilot_keeps_unrequested_destinations_deferred(self):
+    def test_registered_families_keep_unrequested_destinations_deferred(self):
         w = Workspace(ROOT)
-        self.assertEqual(set(w.current), {"BUTTON-001", "BLUEHEART-TOKENS"} | {"BH-P%02d" % i for i in range(1, 9)})
+        self.assertEqual(set(w.current), {"BUTTON-001", "TAB-001", "BLUEHEART-TOKENS", "TAB-TOKENS"} | {"BH-P%02d" % i for i in range(1, 9)})
         report = w.check()["component_token_minimum"]["BUTTON-001@2.0.0"]
         self.assertEqual(report["component_tokens"], 47)
         self.assertEqual(report["redundancies"], 0)
-        self.assertTrue(all(t["id"].startswith("button.") for t in w.tokens.tokens.values() if t["layer"] == "component"))
+        self.assertEqual(w.check()["component_token_minimum"]["TAB-001@1.0.0"]["component_tokens"], 43)
+        self.assertEqual(w.check()["component_token_minimum"]["TAB-001@1.0.0"]["redundancies"], 0)
+        self.assertTrue(all(t["id"].startswith(("button.", "tab.")) for t in w.tokens.tokens.values() if t["layer"] == "component"))
         self.assertFalse((ROOT / "implementations/react").exists())
         self.assertFalse((ROOT / "implementations/web").exists())
         self.assertFalse((ROOT / "graphify-out").exists())

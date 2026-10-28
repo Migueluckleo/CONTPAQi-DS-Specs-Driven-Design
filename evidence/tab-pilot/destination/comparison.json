@@ -1,0 +1,715 @@
+{
+  "status": "PASS",
+  "scope": "Captured Figma structure, tokens, aliases, typography, consumers and calculated contrast; native playback is separate",
+  "tolerances": {
+    "geometry_absolute_tolerance": 0.0001,
+    "color_absolute_tolerance": 1e-06,
+    "identity_alias_scope_comparison": "exact",
+    "derived_width": "HUG from measured text, padding, visible children and gaps; not fixed source sample width",
+    "contrast": "sRGB relative luminance; enabled normal text >=4.5:1; disabled excluded; background explicit",
+    "independent_review": "NOT_RUN; single implementing/verifying agent; no independent gate claim",
+    "rendered_srgb_channel_tolerance": 1,
+    "pixel_sampling": "Flat background at local x=4, y=height/2; 8-bit sRGB rounding; no antialiased text pixels"
+  },
+  "counts": {
+    "existing_variables_preserved": 298,
+    "total_variables": 341,
+    "component_tokens": 43,
+    "variants": 24,
+    "mapped_nodes": 150,
+    "binding_uses": 1026,
+    "mode_resolutions": 172,
+    "text_style_nodes": 48,
+    "shared_text_styles": 3,
+    "shared_effect_styles": 1
+  },
+  "contrast": {
+    "method": "WCAG sRGB relative luminance",
+    "enabled_label_contexts": 72,
+    "minimum": 5.0116121079331535,
+    "pill_selected_hover_actual_paints": [
+      {
+        "mode": "Contable",
+        "ratio": 5.491702202362721
+      },
+      {
+        "mode": "Administrativo",
+        "ratio": 5.584144648225992
+      },
+      {
+        "mode": "Servicios",
+        "ratio": 5.45565662684898
+      },
+      {
+        "mode": "Personas",
+        "ratio": 6.681844019672905
+      }
+    ],
+    "count_actual_paints": [
+      {
+        "value": "1",
+        "ratio": 5.527174247985883
+      },
+      {
+        "value": "12",
+        "ratio": 5.527174247985883
+      },
+      {
+        "value": "99+",
+        "ratio": 5.527174247985883
+      }
+    ],
+    "all_enabled_contexts": [
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Contable",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Administrativo",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Servicios",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Personas",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Contable",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Administrativo",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Servicios",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Personas",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Contable",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Administrativo",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Servicios",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Personas",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Contable",
+        "ratio": 5.5583465826531215
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Administrativo",
+        "ratio": 5.928899341680591
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Servicios",
+        "ratio": 7.20179167279936
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Personas",
+        "ratio": 6.324308346933874
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Contable",
+        "ratio": 5.5583465826531215
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Administrativo",
+        "ratio": 5.928899341680591
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Servicios",
+        "ratio": 7.20179167279936
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Personas",
+        "ratio": 6.324308346933874
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Contable",
+        "ratio": 5.5583465826531215
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Administrativo",
+        "ratio": 5.928899341680591
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Servicios",
+        "ratio": 7.20179167279936
+      },
+      {
+        "axes": {
+          "type": "underline",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Personas",
+        "ratio": 6.324308346933874
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Contable",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Administrativo",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Servicios",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Personas",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Contable",
+        "ratio": 16.295987904593165
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Administrativo",
+        "ratio": 16.295987904593165
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Servicios",
+        "ratio": 16.295987904593165
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Personas",
+        "ratio": 16.295987904593165
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Contable",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Administrativo",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Servicios",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Personas",
+        "ratio": 7.577663650675143
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Contable",
+        "ratio": 5.0116121079331535
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Administrativo",
+        "ratio": 5.628275851272183
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Servicios",
+        "ratio": 6.779125914271908
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Personas",
+        "ratio": 5.6589100574558
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Contable",
+        "ratio": 5.491702202362721
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Administrativo",
+        "ratio": 5.584144648225992
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Servicios",
+        "ratio": 5.45565662684898
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Personas",
+        "ratio": 6.681844019672905
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Contable",
+        "ratio": 5.0116121079331535
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Administrativo",
+        "ratio": 5.628275851272183
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Servicios",
+        "ratio": 6.779125914271908
+      },
+      {
+        "axes": {
+          "type": "pill",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Personas",
+        "ratio": 5.6589100574558
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Contable",
+        "ratio": 6.146802156786935
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Administrativo",
+        "ratio": 6.146802156786935
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Servicios",
+        "ratio": 6.146802156786935
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "default"
+        },
+        "mode": "Personas",
+        "ratio": 6.146802156786935
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Contable",
+        "ratio": 14.48150840409291
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Administrativo",
+        "ratio": 14.48150840409291
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Servicios",
+        "ratio": 14.48150840409291
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "hover"
+        },
+        "mode": "Personas",
+        "ratio": 14.48150840409291
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Contable",
+        "ratio": 6.146802156786935
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Administrativo",
+        "ratio": 6.146802156786935
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Servicios",
+        "ratio": 6.146802156786935
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "false",
+          "state": "focus"
+        },
+        "mode": "Personas",
+        "ratio": 6.146802156786935
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Contable",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Administrativo",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Servicios",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "default"
+        },
+        "mode": "Personas",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Contable",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Administrativo",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Servicios",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "hover"
+        },
+        "mode": "Personas",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Contable",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Administrativo",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Servicios",
+        "ratio": 17.85253486961142
+      },
+      {
+        "axes": {
+          "type": "segmented",
+          "selected": "true",
+          "state": "focus"
+        },
+        "mode": "Personas",
+        "ratio": 17.85253486961142
+      }
+    ],
+    "disabled": "Excluded from text contrast requirement; still tested structurally and interactively"
+  },
+  "failures": []
+}

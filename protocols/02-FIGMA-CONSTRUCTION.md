@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "BH-P02",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
@@ -25,13 +25,23 @@
       "id": "SRC-RECOVERY",
       "path": "evidence/protocol-recovery/manifest.json",
       "sha256": "d7c7ae3dca2ee7d76102f591803b1426b9300030454523467f74c7801fc33d5c"
+    },
+    {
+      "id": "SRC-TAB-AUTH",
+      "path": "evidence/authorization/tab-pilot-request.txt",
+      "sha256": "a01ef90b7236d87a5cf1c1fa1dcc872b5924b206515a3e306aae0ae6b2d6a586"
+    },
+    {
+      "id": "SRC-TAB-TYPOGRAPHY",
+      "path": "evidence/tab-pilot/destination/style-link-correction.json",
+      "sha256": "21552b04d690c457731babd11d5596000e347765e114d78891286234ac183541"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "relation": "uses"
     },
     {
@@ -48,7 +58,8 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-TAB-AUTH"
       ],
       "acceptance": [
         "Preflight demuestra destino, página, capacidades e inventario; no hay escrituras al origen."
@@ -72,7 +83,8 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-TAB-TYPOGRAPHY"
       ],
       "acceptance": [
         "Instancias permanecen vinculadas; layout, tipografía, composición e interacciones observadas satisfacen el contrato."
@@ -84,7 +96,8 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-TAB-AUTH"
       ],
       "acceptance": [
         "Lectura posterior y captura corresponden a los IDs entregados; referencias y foco no quedan recortados."
@@ -144,7 +157,7 @@
 
 **1. Preflight del destino**
 
-Prerequisito: [BH-P01](01-COMPONENT-CONTRACT.md). ADR-006 autoriza Button en su página dedicada. ADR-004 conserva la procedencia de las variables base.
+Prerequisito: [BH-P01](01-COMPONENT-CONTRACT.md). La decisión adoptada del encargo autoriza la familia concreta en su página dedicada; no elegirla por un ejemplo histórico de Button. ADR-004 conserva la procedencia de las variables base.
 
 Obtener el destino de [policy.json](../governance/policy.json): Blue Heart DS, `98xEw6sK8FRVNEhopM5SSz`. El origen `9zs5RMR8LB5wHjW9Bd59BA` y el proyecto anterior son de solo lectura. Un ID histórico nunca se utiliza como ID local de escritura.
 
@@ -170,6 +183,8 @@ Crear solo la anatomía, propiedades, combinaciones y estados sustentados; depen
 
 Usar Auto Layout para relaciones entre elementos y tamaños acordes al contexto. Comprobar crecimiento, ancho/altura, espaciado, alineación, overflow y contenido largo. No fijar alturas o cardinalidad a partir de la cantidad del ejemplo. Cargar las fuentes reales antes de modificar texto; comprobar familias/pesos disponibles sin aproximarlos silenciosamente. Conservar asignación tipográfica, unidades y excepciones explícitas.
 
+Cuando se combinan estilos tipográficos y variables, vincular las variables al estilo compartido y aplicar ese estilo al finalizar las ediciones tipográficas. Verificar que el ID del estilo y los bindings sigan presentes en los nodos y sus instancias; crear el estilo sin conservar su vínculo no acredita su uso. Evidencia de la corrección: `SRC-TAB-TYPOGRAPHY`.
+
 Leer y conservar `strokesIncludedInLayout`: puede cambiar el ancho HUG incluso con las mismas métricas. En QA normalizar el binding de strokeWeight cuando Figma lo representa mediante cuatro bindings de lado; comprobar que todos coincidan. Registrar por separado opacity del nodo y del paint: su producto determina el alpha efectivo. Conservar comandos vectoriales y comparar sus coordenadas con la tolerancia numérica declarada para geometría, porque Figma puede normalizar floats.
 
 Los bindings son referencias reales, no colores o métricas pegados. Una limitación de API no se disimula con un literal. Las dependencias privadas deben limitarse al uso real: Button recupera tres tamaños y 24 frames del spinner por tamaño, no todas las variantes de la librería. Un ciclo AFTER_TIMEOUT almacenado se comprueba estructuralmente y no acredita reproducción en el presentador. Separar representación visual de interacciones de prototipo y comportamiento de navegador; Figma no acredita por sí solo teclado ni ARIA.
@@ -184,7 +199,7 @@ Agrupar operaciones relacionadas en lotes seguros de reintentar. Mantener escrit
 
 Leer bindings, aliases, tipos, scopes, modos, propiedades, variantes y layout realmente escritos. Conservar una captura visual del alcance construido y otra después de una corrección visual, si la hubo. No repetir inspecciones idénticas cuando las entradas y el resultado no cambiaron; cubrir lo que falte según [BH-P04](04-QA-AND-DELIVERY.md).
 
-Comprobar el foco desde una instancia con etiqueta e iconos modificados, incluidos los contenedores de muestra: una geometría correcta puede quedar recortada por clipsContent del padre. Corregir el contenedor del ejemplo sin cambiar la anatomía contractual del botón.
+Comprobar el foco desde una instancia con etiqueta e iconos modificados, incluidos los contenedores de muestra: una geometría correcta puede quedar recortada por clipsContent del padre. Corregir el contenedor del ejemplo sin cambiar la anatomía contractual del componente.
 
 La entrega identifica contrato/hash, archivo/página/nodos, mapa de variables, cambios realizados, pruebas, diferencias y límites. Crear nodos no equivale a validar la familia. Publicar la biblioteca sigue siendo una acción distinta.
 

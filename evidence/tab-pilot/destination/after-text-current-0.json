@@ -1,0 +1,2645 @@
+{
+  "nodes": [
+    {
+      "sourceId": "9058:301",
+      "id": "79:117",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:76"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 400,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:302;1133:31555",
+      "id": "I79:118;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:306",
+      "id": "79:123",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:75"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:75"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 400,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:307;1133:31555",
+      "id": "I79:124;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:311",
+      "id": "79:128",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:76"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 400,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:312;1133:31555",
+      "id": "I79:129;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:317",
+      "id": "79:134",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:73"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 400,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:318;1133:31555",
+      "id": "I79:135;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:280",
+      "id": "81:4",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:71"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:71"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 600,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:281;1133:31555",
+      "id": "I81:5;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:285",
+      "id": "81:10",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:71"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:71"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 600,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:286;1133:31555",
+      "id": "I81:11;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:290",
+      "id": "81:15",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.19607843458652496,
+            "g": 0.3333333432674408,
+            "b": 0.9686274528503418
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:71"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:71"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 600,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:291;1133:31555",
+      "id": "I81:16;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:296",
+      "id": "81:21",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:73"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 600,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:297;1133:31555",
+      "id": "I81:22;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:364",
+      "id": "81:26",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:76"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 400,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:365;1133:31555",
+      "id": "I81:27;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:343",
+      "id": "81:32",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:75"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:75"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 400,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:344;1133:31555",
+      "id": "I81:33;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:348",
+      "id": "81:37",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.27843138575553894,
+            "g": 0.3333333432674408,
+            "b": 0.4117647111415863
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:76"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 400,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:349;1133:31555",
+      "id": "I81:38;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    },
+    {
+      "sourceId": "9058:354",
+      "id": "81:43",
+      "type": "TEXT",
+      "props": {
+        "name": "Label",
+        "width": 24,
+        "height": 20,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "LEFT",
+        "textAlignVertical": "TOP",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "Tab"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.5803921818733215,
+            "g": 0.6392157077789307,
+            "b": 0.7215686440467834
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:73"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Label#79:100"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 400,
+      "children": []
+    },
+    {
+      "sourceId": "I9058:355;1133:31555",
+      "id": "I81:44;78:103",
+      "type": "TEXT",
+      "props": {
+        "name": "Count",
+        "width": 5,
+        "height": 16,
+        "visible": true,
+        "opacity": 1,
+        "blendMode": "PASS_THROUGH",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "HUG",
+        "minWidth": null,
+        "minHeight": null,
+        "strokeAlign": "OUTSIDE",
+        "fontName": {
+          "family": "Manrope",
+          "style": "Bold",
+          "variationSettings": {
+            "wght": 700
+          }
+        },
+        "fontSize": 10,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 16
+        },
+        "letterSpacing": {
+          "unit": "PIXELS",
+          "value": 0
+        },
+        "textAlignHorizontal": "CENTER",
+        "textAlignVertical": "CENTER",
+        "textAutoResize": "WIDTH_AND_HEIGHT",
+        "textTruncation": "DISABLED",
+        "maxLines": null,
+        "textCase": "ORIGINAL",
+        "textDecoration": "NONE",
+        "characters": "1"
+      },
+      "fills": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 1,
+            "g": 1,
+            "b": 1
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:74"
+            }
+          }
+        }
+      ],
+      "strokes": [],
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "effectStyleId": "",
+      "effects": [],
+      "componentPropertyReferences": {
+        "characters": "Count#78:0"
+      },
+      "reactions": [],
+      "main": null,
+      "fontWeight": 700,
+      "children": []
+    }
+  ],
+  "readOnly": true
+}

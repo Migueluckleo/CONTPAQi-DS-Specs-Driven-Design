@@ -1,0 +1,1593 @@
+{
+  "records": [],
+  "resolution": [
+    {
+      "mode": "Contable",
+      "token": "tab.border-tab-width-emphasis",
+      "value": 2,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.border-tab-width-regular",
+      "value": 1,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-bg-brand-accent",
+      "value": {
+        "r": 0.7490196228027344,
+        "g": 0.8078431487083435,
+        "b": 0.9960784316062927,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-bg-brand-subtle",
+      "value": {
+        "r": 0.9372549057006836,
+        "g": 0.9529411792755127,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-bg-count",
+      "value": {
+        "r": 0.8313725590705872,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-bg-muted",
+      "value": {
+        "r": 0.886274516582489,
+        "g": 0.9098039269447327,
+        "b": 0.9411764740943909,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-bg-subtle",
+      "value": {
+        "r": 0.9450980424880981,
+        "g": 0.9607843160629272,
+        "b": 0.9764705896377563,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-bg-surface",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-icon-brand",
+      "value": {
+        "r": 0.19607843458652496,
+        "g": 0.3333333432674408,
+        "b": 0.9686274528503418,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-icon-disabled",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-icon-primary",
+      "value": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-icon-secondary",
+      "value": {
+        "r": 0.3921568691730499,
+        "g": 0.45490196347236633,
+        "b": 0.545098066329956,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-stroke-brand",
+      "value": {
+        "r": 0.19607843458652496,
+        "g": 0.3333333432674408,
+        "b": 0.9686274528503418,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-stroke-brand-hover",
+      "value": {
+        "r": 0.15294118225574493,
+        "g": 0.18431372940540314,
+        "b": 0.8352941274642944,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-stroke-focus",
+      "value": {
+        "r": 0.15294118225574493,
+        "g": 0.18431372940540314,
+        "b": 0.8352941274642944,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-stroke-neutral",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-stroke-surface",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-text-brand",
+      "value": {
+        "r": 0.19607843458652496,
+        "g": 0.3333333432674408,
+        "b": 0.9686274528503418,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-text-brand-hover",
+      "value": {
+        "r": 0.15294118225574493,
+        "g": 0.18431372940540314,
+        "b": 0.8352941274642944,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-text-disabled",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-text-inverse",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-text-primary",
+      "value": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.color-tab-text-secondary",
+      "value": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-count-style",
+      "value": "bold",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-family",
+      "value": "Manrope",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-label-style",
+      "value": "Regular",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-letter-spacing",
+      "value": 0,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-line-height-count",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-line-height-label",
+      "value": 20,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-selected-style",
+      "value": "Semibold",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-size-count",
+      "value": 10,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.font-tab-size-label",
+      "value": 14,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.radius-tab-full",
+      "value": 9999,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.radius-tab-lg",
+      "value": 12,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.radius-tab-md",
+      "value": 8,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.radius-tab-sm",
+      "value": 4,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.size-tab-count",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.size-tab-icon",
+      "value": 20,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.spacing-tab-lg",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.spacing-tab-md",
+      "value": 12,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.spacing-tab-none",
+      "value": 0,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.spacing-tab-sm",
+      "value": 8,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Contable",
+      "token": "tab.spacing-tab-xs",
+      "value": 4,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.border-tab-width-emphasis",
+      "value": 2,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.border-tab-width-regular",
+      "value": 1,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-bg-brand-accent",
+      "value": {
+        "r": 0.5764706134796143,
+        "g": 0.8274509906768799,
+        "b": 0.7490196228027344,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-bg-brand-subtle",
+      "value": {
+        "r": 0.9254902005195618,
+        "g": 0.9921568632125854,
+        "b": 0.9607843160629272,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-bg-count",
+      "value": {
+        "r": 0.8313725590705872,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-bg-muted",
+      "value": {
+        "r": 0.886274516582489,
+        "g": 0.9098039269447327,
+        "b": 0.9411764740943909,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-bg-subtle",
+      "value": {
+        "r": 0.9450980424880981,
+        "g": 0.9607843160629272,
+        "b": 0.9764705896377563,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-bg-surface",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-icon-brand",
+      "value": {
+        "r": 0.0117647061124444,
+        "g": 0.4470588266849518,
+        "b": 0.3333333432674408,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-icon-disabled",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-icon-primary",
+      "value": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-icon-secondary",
+      "value": {
+        "r": 0.3921568691730499,
+        "g": 0.45490196347236633,
+        "b": 0.545098066329956,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-stroke-brand",
+      "value": {
+        "r": 0.0117647061124444,
+        "g": 0.4470588266849518,
+        "b": 0.3333333432674408,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-stroke-brand-hover",
+      "value": {
+        "r": 0,
+        "g": 0.3137255012989044,
+        "b": 0.21960784494876862,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-stroke-focus",
+      "value": {
+        "r": 0.15294118225574493,
+        "g": 0.18431372940540314,
+        "b": 0.8352941274642944,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-stroke-neutral",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-stroke-surface",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-text-brand",
+      "value": {
+        "r": 0.0117647061124444,
+        "g": 0.4470588266849518,
+        "b": 0.3333333432674408,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-text-brand-hover",
+      "value": {
+        "r": 0,
+        "g": 0.3137255012989044,
+        "b": 0.21960784494876862,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-text-disabled",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-text-inverse",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-text-primary",
+      "value": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.color-tab-text-secondary",
+      "value": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-count-style",
+      "value": "bold",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-family",
+      "value": "Manrope",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-label-style",
+      "value": "Regular",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-letter-spacing",
+      "value": 0,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-line-height-count",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-line-height-label",
+      "value": 20,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-selected-style",
+      "value": "Semibold",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-size-count",
+      "value": 10,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.font-tab-size-label",
+      "value": 14,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.radius-tab-full",
+      "value": 9999,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.radius-tab-lg",
+      "value": 12,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.radius-tab-md",
+      "value": 8,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.radius-tab-sm",
+      "value": 4,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.size-tab-count",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.size-tab-icon",
+      "value": 20,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.spacing-tab-lg",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.spacing-tab-md",
+      "value": 12,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.spacing-tab-none",
+      "value": 0,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.spacing-tab-sm",
+      "value": 8,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Administrativo",
+      "token": "tab.spacing-tab-xs",
+      "value": 4,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.border-tab-width-emphasis",
+      "value": 2,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.border-tab-width-regular",
+      "value": 1,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-bg-brand-accent",
+      "value": {
+        "r": 1,
+        "g": 0.8470588326454163,
+        "b": 0.7843137383460999,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-bg-brand-subtle",
+      "value": {
+        "r": 1,
+        "g": 0.9686274528503418,
+        "b": 0.9254902005195618,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-bg-count",
+      "value": {
+        "r": 0.8313725590705872,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-bg-muted",
+      "value": {
+        "r": 0.886274516582489,
+        "g": 0.9098039269447327,
+        "b": 0.9411764740943909,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-bg-subtle",
+      "value": {
+        "r": 0.9450980424880981,
+        "g": 0.9607843160629272,
+        "b": 0.9764705896377563,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-bg-surface",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-icon-brand",
+      "value": {
+        "r": 0.8627451062202454,
+        "g": 0.18431372940540314,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-icon-disabled",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-icon-primary",
+      "value": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-icon-secondary",
+      "value": {
+        "r": 0.3921568691730499,
+        "g": 0.45490196347236633,
+        "b": 0.545098066329956,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-stroke-brand",
+      "value": {
+        "r": 0.8627451062202454,
+        "g": 0.18431372940540314,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-stroke-brand-hover",
+      "value": {
+        "r": 0.686274528503418,
+        "g": 0.07450980693101883,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-stroke-focus",
+      "value": {
+        "r": 0.15294118225574493,
+        "g": 0.18431372940540314,
+        "b": 0.8352941274642944,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-stroke-neutral",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-stroke-surface",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-text-brand",
+      "value": {
+        "r": 0.686274528503418,
+        "g": 0.07450980693101883,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-text-brand-hover",
+      "value": {
+        "r": 0.686274528503418,
+        "g": 0.07450980693101883,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-text-disabled",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-text-inverse",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-text-primary",
+      "value": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.color-tab-text-secondary",
+      "value": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-count-style",
+      "value": "bold",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-family",
+      "value": "Manrope",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-label-style",
+      "value": "Regular",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-letter-spacing",
+      "value": 0,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-line-height-count",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-line-height-label",
+      "value": 20,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-selected-style",
+      "value": "Semibold",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-size-count",
+      "value": 10,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.font-tab-size-label",
+      "value": 14,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.radius-tab-full",
+      "value": 9999,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.radius-tab-lg",
+      "value": 12,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.radius-tab-md",
+      "value": 8,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.radius-tab-sm",
+      "value": 4,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.size-tab-count",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.size-tab-icon",
+      "value": 20,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.spacing-tab-lg",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.spacing-tab-md",
+      "value": 12,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.spacing-tab-none",
+      "value": 0,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.spacing-tab-sm",
+      "value": 8,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Servicios",
+      "token": "tab.spacing-tab-xs",
+      "value": 4,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.border-tab-width-emphasis",
+      "value": 2,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.border-tab-width-regular",
+      "value": 1,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-bg-brand-accent",
+      "value": {
+        "r": 0.8784313797950745,
+        "g": 0.7921568751335144,
+        "b": 0.9882352948188782,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-bg-brand-subtle",
+      "value": {
+        "r": 0.9607843160629272,
+        "g": 0.9411764740943909,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-bg-count",
+      "value": {
+        "r": 0.8313725590705872,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-bg-muted",
+      "value": {
+        "r": 0.886274516582489,
+        "g": 0.9098039269447327,
+        "b": 0.9411764740943909,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-bg-subtle",
+      "value": {
+        "r": 0.9450980424880981,
+        "g": 0.9607843160629272,
+        "b": 0.9764705896377563,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-bg-surface",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-icon-brand",
+      "value": {
+        "r": 0.5137255191802979,
+        "g": 0,
+        "b": 0.9725490212440491,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-icon-disabled",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-icon-primary",
+      "value": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-icon-secondary",
+      "value": {
+        "r": 0.3921568691730499,
+        "g": 0.45490196347236633,
+        "b": 0.545098066329956,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-stroke-brand",
+      "value": {
+        "r": 0.5137255191802979,
+        "g": 0,
+        "b": 0.9725490212440491,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-stroke-brand-hover",
+      "value": {
+        "r": 0.3450980484485626,
+        "g": 0,
+        "b": 0.7176470756530762,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-stroke-focus",
+      "value": {
+        "r": 0.15294118225574493,
+        "g": 0.18431372940540314,
+        "b": 0.8352941274642944,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-stroke-neutral",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-stroke-surface",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-text-brand",
+      "value": {
+        "r": 0.5137255191802979,
+        "g": 0,
+        "b": 0.9725490212440491,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-text-brand-hover",
+      "value": {
+        "r": 0.3450980484485626,
+        "g": 0,
+        "b": 0.7176470756530762,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-text-disabled",
+      "value": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-text-inverse",
+      "value": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-text-primary",
+      "value": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.color-tab-text-secondary",
+      "value": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863,
+        "a": 1
+      },
+      "resolvedType": "COLOR"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-count-style",
+      "value": "bold",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-family",
+      "value": "Manrope",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-label-style",
+      "value": "Regular",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-letter-spacing",
+      "value": 0,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-line-height-count",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-line-height-label",
+      "value": 20,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-selected-style",
+      "value": "Semibold",
+      "resolvedType": "STRING"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-size-count",
+      "value": 10,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.font-tab-size-label",
+      "value": 14,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.radius-tab-full",
+      "value": 9999,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.radius-tab-lg",
+      "value": 12,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.radius-tab-md",
+      "value": 8,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.radius-tab-sm",
+      "value": 4,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.size-tab-count",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.size-tab-icon",
+      "value": 20,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.spacing-tab-lg",
+      "value": 16,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.spacing-tab-md",
+      "value": 12,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.spacing-tab-none",
+      "value": 0,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.spacing-tab-sm",
+      "value": 8,
+      "resolvedType": "FLOAT"
+    },
+    {
+      "mode": "Personas",
+      "token": "tab.spacing-tab-xs",
+      "value": 4,
+      "resolvedType": "FLOAT"
+    }
+  ],
+  "properties": {
+    "Label#79:100": {
+      "type": "TEXT",
+      "defaultValue": "Tab"
+    },
+    "Show icon#79:125": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Icon#79:150": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "79:75",
+      "preferredValues": []
+    },
+    "Show badge#79:175": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "type": {
+      "type": "VARIANT",
+      "defaultValue": "underline",
+      "variantOptions": [
+        "underline",
+        "pill",
+        "segmented"
+      ]
+    },
+    "selected": {
+      "type": "VARIANT",
+      "defaultValue": "false",
+      "variantOptions": [
+        "false",
+        "true"
+      ]
+    },
+    "state": {
+      "type": "VARIANT",
+      "defaultValue": "default",
+      "variantOptions": [
+        "default",
+        "hover",
+        "focus",
+        "disabled"
+      ]
+    }
+  },
+  "textStyles": [
+    {
+      "id": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "name": "tab/label/regular",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "name": "tab/label/selected",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      }
+    },
+    {
+      "id": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "name": "tab/count",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      }
+    }
+  ],
+  "effectStyles": [
+    {
+      "id": "S:a8fe8b4a1196deafc96e54af7b47767fcae17c4d,",
+      "name": "tab/elevation/selected",
+      "effects": [
+        {
+          "type": "DROP_SHADOW",
+          "visible": true,
+          "radius": 4,
+          "boundVariables": {},
+          "color": {
+            "r": 0.0470588244497776,
+            "g": 0.0470588244497776,
+            "b": 0.0470588244497776,
+            "a": 0.05000000074505806
+          },
+          "offset": {
+            "x": 0,
+            "y": 1
+          },
+          "spread": 0,
+          "blendMode": "NORMAL",
+          "showShadowBehindNode": false
+        }
+      ]
+    }
+  ],
+  "readOnly": true
+}

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "phase": "button-contract-and-figma-pilot",
+  "phase": "component-contract-and-figma-pilots",
   "allowed_contract_profiles": [
     "foundation",
     "component",
@@ -11,10 +11,10 @@
     "semantic",
     "component"
   ],
-  "figma_access": "SOURCE_READ_ONLY_DESTINATION_BUTTON_PILOT_WRITE",
+  "figma_access": "SOURCE_READ_ONLY_DESTINATION_BUTTON_AND_TAB_SCOPED_WRITE",
   "historical_project_access": "READ_ONLY",
   "normative_import": "EXPLICIT_CATALOG_AND_HASH_ONLY",
-  "component_content": "BUTTON_PILOT_ONLY",
+  "component_content": "BUTTON_AND_TAB_SCOPED_PILOTS_ONLY",
   "graphify": "OPTIONAL_NOT_IMPLEMENTED",
   "layer_edges": {
     "primitive": [],

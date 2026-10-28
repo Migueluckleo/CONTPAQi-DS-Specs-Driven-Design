@@ -1,0 +1,653 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:55:77",
+      "key": "9cf1a2dd47440a988f7ec70a8127d98d0e203a07",
+      "name": "color/blue/500",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.15294118225574493,
+          "g": 0.18431372940540314,
+          "b": 0.8352941274642944,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.15294118225574493,
+          "g": 0.18431372940540314,
+          "b": 0.8352941274642944,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:82:159",
+      "key": "d34a62c3adc2c5d143178a0aa79b5345e7bb674f",
+      "name": "color/blue/400",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.19607843458652496,
+          "g": 0.3333333432674408,
+          "b": 0.9686274528503418,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.19607843458652496,
+          "g": 0.3333333432674408,
+          "b": 0.9686274528503418,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:177",
+      "key": "ea90dcd4e62e8109711ad9531f9698feccf10da0",
+      "name": "color/green/500",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.0117647061124444,
+          "g": 0.4470588266849518,
+          "b": 0.3333333432674408,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.0117647061124444,
+          "g": 0.4470588266849518,
+          "b": 0.3333333432674408,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:5976:12000",
+      "key": "99dedd45d3db9c63b730fe85ab7dcb0ee0b23d07",
+      "name": "color/orange/600",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.8627451062202454,
+          "g": 0.18431372940540314,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.8627451062202454,
+          "g": 0.18431372940540314,
+          "b": 0,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:187",
+      "key": "f99f566c8d6f89b5bd08462a28e01861944b59b8",
+      "name": "color/purple/500",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.5137255191802979,
+          "g": 0,
+          "b": 0.9725490212440491,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.5137255191802979,
+          "g": 0,
+          "b": 0.9725490212440491,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:5976:12001",
+      "key": "9dda1966dc1e1e4c0bda71a148b327bf912a6f99",
+      "name": "color/orange/700",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.686274528503418,
+          "g": 0.07450980693101883,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.686274528503418,
+          "g": 0.07450980693101883,
+          "b": 0,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:1683:44036",
+      "key": "20d84cb5fd9f47430695a02b203339a55e8c3bd9",
+      "name": "font/weight/semibold",
+      "type": "STRING",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": "Semibold"
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": "Semibold",
+        "resolvedType": "STRING"
+      }
+    },
+    {
+      "id": "VariableID:5976:15670",
+      "key": "cbb9002d6e1a4504a586c6600fdc4eaa3ac05678",
+      "name": "color/green/600",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0,
+          "g": 0.3137255012989044,
+          "b": 0.21960784494876862,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0,
+          "g": 0.3137255012989044,
+          "b": 0.21960784494876862,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:5976:9495",
+      "key": "f8f1e268d062bd1dd6b08235ba09b784242fda92",
+      "name": "color/purple/600",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.3450980484485626,
+          "g": 0,
+          "b": 0.7176470756530762,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.3450980484485626,
+          "g": 0,
+          "b": 0.7176470756530762,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:55:35",
+      "key": "fe441063e0ec63f2758bc3dea112cad37f6542bb",
+      "name": "radius/8",
+      "type": "FLOAT",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": 8
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": 8,
+        "resolvedType": "FLOAT"
+      }
+    },
+    {
+      "id": "VariableID:90:709",
+      "key": "183d3d06fd99a08b56531da6c95c8aa317d49ee7",
+      "name": "color/neutral/200",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.9450980424880981,
+          "g": 0.9607843160629272,
+          "b": 0.9764705896377563,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.9450980424880981,
+          "g": 0.9607843160629272,
+          "b": 0.9764705896377563,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:55:36",
+      "key": "2f9ba32647d0d7fd5e7c9a4d7669a13b08e0c93c",
+      "name": "radius/12",
+      "type": "FLOAT",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": 12
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": 12,
+        "resolvedType": "FLOAT"
+      }
+    },
+    {
+      "id": "VariableID:82:162",
+      "key": "a2c4aafb717bd6ae76df5fc12ff6fd068ea07464",
+      "name": "color/blue/100",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.9372549057006836,
+          "g": 0.9529411792755127,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.9372549057006836,
+          "g": 0.9529411792755127,
+          "b": 1,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:173",
+      "key": "24e633e2a5ea27b25c6ac601f4743a7eb7e44200",
+      "name": "color/green/100",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.9254902005195618,
+          "g": 0.9921568632125854,
+          "b": 0.9607843160629272,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.9254902005195618,
+          "g": 0.9921568632125854,
+          "b": 0.9607843160629272,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:178",
+      "key": "9cd9256e394e8bee300d3d2a8b3efebc25a0268a",
+      "name": "color/orange/100",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 1,
+          "g": 0.9686274528503418,
+          "b": 0.9254902005195618,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 1,
+          "g": 0.9686274528503418,
+          "b": 0.9254902005195618,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:183",
+      "key": "4aa5f640e1b273a5364be10518bf63fb17dd6ac2",
+      "name": "color/purple/100",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.9607843160629272,
+          "g": 0.9411764740943909,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.9607843160629272,
+          "g": 0.9411764740943909,
+          "b": 1,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:82:161",
+      "key": "d4571db9b7fe7cabf53a096d952965f69b7c2a60",
+      "name": "color/blue/200",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.7490196228027344,
+          "g": 0.8078431487083435,
+          "b": 0.9960784316062927,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.7490196228027344,
+          "g": 0.8078431487083435,
+          "b": 0.9960784316062927,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:174",
+      "key": "59855a93c2a187542cd085cafdedd78ded48be3c",
+      "name": "color/green/200",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.5764706134796143,
+          "g": 0.8274509906768799,
+          "b": 0.7490196228027344,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.5764706134796143,
+          "g": 0.8274509906768799,
+          "b": 0.7490196228027344,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:179",
+      "key": "3e315cde8d266c85f9d24d88b976bde5ca886147",
+      "name": "color/orange/200",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 1,
+          "g": 0.8470588326454163,
+          "b": 0.7843137383460999,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 1,
+          "g": 0.8470588326454163,
+          "b": 0.7843137383460999,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:184",
+      "key": "58f7eb91005259a9ce8e62a83e99cefadef5b2a2",
+      "name": "color/purple/200",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.8784313797950745,
+          "g": 0.7921568751335144,
+          "b": 0.9882352948188782,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.8784313797950745,
+          "g": 0.7921568751335144,
+          "b": 0.9882352948188782,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:55:42",
+      "key": "f886fba5a15f60efb0c4776bf6d92c0ac88d1eb7",
+      "name": "spacing/4",
+      "type": "FLOAT",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": 4
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": 4,
+        "resolvedType": "FLOAT"
+      }
+    },
+    {
+      "id": "VariableID:193:43180",
+      "key": "d451813be0c500439dc999a132408d2b5ee39846",
+      "name": "color/neutral/300",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.886274516582489,
+          "g": 0.9098039269447327,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.886274516582489,
+          "g": 0.9098039269447327,
+          "b": 0.9411764740943909,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:186",
+      "key": "3453e5e835e1262ec829b5f4aa420031549f4e1d",
+      "name": "color/purple/400",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.6313725709915161,
+          "g": 0.27450981736183167,
+          "b": 0.9843137264251709,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.6313725709915161,
+          "g": 0.27450981736183167,
+          "b": 0.9843137264251709,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    },
+    {
+      "id": "VariableID:2496:185",
+      "key": "c4f770013a95530fc924b752905a7e288e4c6d05",
+      "name": "color/purple/300",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.7764706015586853,
+          "g": 0.5960784554481506,
+          "b": 0.9843137264251709,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.7764706015586853,
+          "g": 0.5960784554481506,
+          "b": 0.9843137264251709,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:52:690",
+      "key": "2f0d34582613f0f2777e6dd77a4f9b6995fa8a09",
+      "name": "primitive",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ],
+      "defaultModeId": "52:0"
+    }
+  ],
+  "errors": [],
+  "readOnly": true
+}

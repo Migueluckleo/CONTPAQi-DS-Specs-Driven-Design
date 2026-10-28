@@ -1,0 +1,174 @@
+{
+  "status": "PASS",
+  "scope": "Native Figma hover/return, disabled clicks, separately demonstrated selection/panels and rendered theme backgrounds; no keyboard/ARIA web claim",
+  "hover_cases": 4,
+  "disabled_cases": 6,
+  "selection_panel_transitions_visually_verified": [
+    "Resumen -> Movimientos",
+    "Movimientos -> Documentos",
+    "Documentos -> Resumen"
+  ],
+  "cases": [
+    {
+      "case": "underline-normal",
+      "hover": {
+        "changed_pixels": 329,
+        "mean_absolute_channel_difference": 5.909420289855073
+      },
+      "returned": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "underline-selected",
+      "hover": {
+        "changed_pixels": 222,
+        "mean_absolute_channel_difference": 1.4320339830084956
+      },
+      "returned": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "pill-normal",
+      "hover": {
+        "changed_pixels": 1946,
+        "mean_absolute_channel_difference": 10.564125831820931
+      },
+      "returned": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "pill-selected",
+      "hover": {
+        "changed_pixels": 2027,
+        "mean_absolute_channel_difference": 24.503629764065337
+      },
+      "returned": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "disabled/underline-false",
+      "metrics": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "disabled/underline-true",
+      "metrics": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "disabled/pill-false",
+      "metrics": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "disabled/pill-true",
+      "metrics": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "disabled/segmented-false",
+      "metrics": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    },
+    {
+      "case": "disabled/segmented-true",
+      "metrics": {
+        "changed_pixels": 0,
+        "mean_absolute_channel_difference": 0.0
+      }
+    }
+  ],
+  "selection_disabled": {
+    "changed_pixels": 13426,
+    "mean_absolute_channel_difference": 0.5231190001193582
+  },
+  "rendered_theme_backgrounds": [
+    {
+      "mode": "Contable",
+      "point": [
+        161,
+        913
+      ],
+      "expected": [
+        191,
+        206,
+        254
+      ],
+      "actual": [
+        191,
+        206,
+        254
+      ]
+    },
+    {
+      "mode": "Administrativo",
+      "point": [
+        425,
+        913
+      ],
+      "expected": [
+        147,
+        211,
+        191
+      ],
+      "actual": [
+        147,
+        211,
+        191
+      ]
+    },
+    {
+      "mode": "Servicios",
+      "point": [
+        689,
+        913
+      ],
+      "expected": [
+        255,
+        216,
+        200
+      ],
+      "actual": [
+        255,
+        216,
+        200
+      ]
+    },
+    {
+      "mode": "Personas",
+      "point": [
+        953,
+        913
+      ],
+      "expected": [
+        224,
+        202,
+        252
+      ],
+      "actual": [
+        224,
+        202,
+        252
+      ]
+    }
+  ],
+  "failures": []
+}

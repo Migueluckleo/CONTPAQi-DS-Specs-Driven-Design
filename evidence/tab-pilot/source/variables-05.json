@@ -1,0 +1,49 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:82:160",
+      "key": "d22368ca811f99072263d0ee40a868f8ba053c91",
+      "name": "color/blue/300",
+      "type": "COLOR",
+      "remote": false,
+      "collectionId": "VariableCollectionId:52:690",
+      "valuesByMode": {
+        "52:0": {
+          "r": 0.37254902720451355,
+          "g": 0.5215686559677124,
+          "b": 0.9843137264251709,
+          "a": 1
+        }
+      },
+      "scopes": [],
+      "description": "",
+      "codeSyntax": {},
+      "resolved": {
+        "value": {
+          "r": 0.37254902720451355,
+          "g": 0.5215686559677124,
+          "b": 0.9843137264251709,
+          "a": 1
+        },
+        "resolvedType": "COLOR"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:52:690",
+      "key": "2f0d34582613f0f2777e6dd77a4f9b6995fa8a09",
+      "name": "primitive",
+      "remote": false,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ],
+      "defaultModeId": "52:0"
+    }
+  ],
+  "errors": [],
+  "readOnly": true
+}

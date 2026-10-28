@@ -1,0 +1,1987 @@
+{
+  "context_bytes": 41454,
+  "dependencies": [
+    "contract:TAB-001@1.0.0",
+    "token:primitive.blue-500",
+    "token:primitive.font-family-manrope",
+    "token:primitive.font-letter-spacing-normal",
+    "token:primitive.font-line-height-16",
+    "token:primitive.font-line-height-20",
+    "token:primitive.font-size-10",
+    "token:primitive.font-size-14",
+    "token:primitive.font-weight-bold",
+    "token:primitive.font-weight-regular",
+    "token:primitive.font-weight-semibold",
+    "token:primitive.neutral-100",
+    "token:primitive.neutral-200",
+    "token:primitive.neutral-300",
+    "token:primitive.neutral-400",
+    "token:primitive.neutral-500",
+    "token:primitive.neutral-600",
+    "token:primitive.neutral-900",
+    "token:primitive.purple-100",
+    "token:primitive.purple-200",
+    "token:primitive.purple-500",
+    "token:primitive.purple-600",
+    "token:primitive.radius-12",
+    "token:primitive.radius-4",
+    "token:primitive.radius-8",
+    "token:primitive.radius-9999",
+    "token:primitive.red-600",
+    "token:primitive.size-16",
+    "token:primitive.size-20",
+    "token:primitive.spacing-0",
+    "token:primitive.spacing-12",
+    "token:primitive.spacing-16",
+    "token:primitive.spacing-4",
+    "token:primitive.spacing-8",
+    "token:primitive.stroke-1",
+    "token:primitive.stroke-2",
+    "token:semantic.brand-personas-accent",
+    "token:semantic.brand-personas-default",
+    "token:semantic.brand-personas-strong",
+    "token:semantic.brand-personas-subtle",
+    "token:semantic.brand-strong",
+    "token:semantic.danger-default",
+    "token:semantic.font-family-base",
+    "token:semantic.font-letter-spacing-normal",
+    "token:semantic.font-line-height-sm",
+    "token:semantic.font-line-height-xs",
+    "token:semantic.font-size-1xs",
+    "token:semantic.font-size-sm",
+    "token:semantic.font-weight-bold",
+    "token:semantic.font-weight-regular",
+    "token:semantic.font-weight-semibold",
+    "token:semantic.neutral-base",
+    "token:semantic.neutral-maximum",
+    "token:semantic.neutral-medium",
+    "token:semantic.neutral-muted",
+    "token:semantic.neutral-soft",
+    "token:semantic.neutral-strong",
+    "token:semantic.neutral-subtle",
+    "token:semantic.radius-full",
+    "token:semantic.radius-lg",
+    "token:semantic.radius-md",
+    "token:semantic.radius-sm",
+    "token:semantic.size-lg",
+    "token:semantic.size-xl",
+    "token:semantic.spacing-lg",
+    "token:semantic.spacing-md",
+    "token:semantic.spacing-none",
+    "token:semantic.spacing-sm",
+    "token:semantic.spacing-xs",
+    "token:semantic.stroke-md",
+    "token:semantic.stroke-xs",
+    "token:tab.border-tab-width-emphasis",
+    "token:tab.border-tab-width-regular",
+    "token:tab.color-tab-bg-brand-accent",
+    "token:tab.color-tab-bg-brand-subtle",
+    "token:tab.color-tab-bg-count",
+    "token:tab.color-tab-bg-muted",
+    "token:tab.color-tab-bg-subtle",
+    "token:tab.color-tab-bg-surface",
+    "token:tab.color-tab-icon-brand",
+    "token:tab.color-tab-icon-disabled",
+    "token:tab.color-tab-icon-primary",
+    "token:tab.color-tab-icon-secondary",
+    "token:tab.color-tab-stroke-brand",
+    "token:tab.color-tab-stroke-brand-hover",
+    "token:tab.color-tab-stroke-focus",
+    "token:tab.color-tab-stroke-neutral",
+    "token:tab.color-tab-stroke-surface",
+    "token:tab.color-tab-text-brand",
+    "token:tab.color-tab-text-brand-hover",
+    "token:tab.color-tab-text-disabled",
+    "token:tab.color-tab-text-inverse",
+    "token:tab.color-tab-text-primary",
+    "token:tab.color-tab-text-secondary",
+    "token:tab.font-tab-count-style",
+    "token:tab.font-tab-family",
+    "token:tab.font-tab-label-style",
+    "token:tab.font-tab-letter-spacing",
+    "token:tab.font-tab-line-height-count",
+    "token:tab.font-tab-line-height-label",
+    "token:tab.font-tab-selected-style",
+    "token:tab.font-tab-size-count",
+    "token:tab.font-tab-size-label",
+    "token:tab.radius-tab-full",
+    "token:tab.radius-tab-lg",
+    "token:tab.radius-tab-md",
+    "token:tab.radius-tab-sm",
+    "token:tab.size-tab-count",
+    "token:tab.size-tab-icon",
+    "token:tab.spacing-tab-lg",
+    "token:tab.spacing-tab-md",
+    "token:tab.spacing-tab-none",
+    "token:tab.spacing-tab-sm",
+    "token:tab.spacing-tab-xs"
+  ],
+  "documents": [
+    {
+      "authority": {
+        "decision_id": "ADR-015",
+        "kind": "DELEGATED"
+      },
+      "id": "TAB-001",
+      "path": "norms/components/tab.1.0.0.md",
+      "profile_data": {
+        "accessibility": "Declared tab/tablist semantics and consumer responsibilities; Figma does not certify executable web accessibility.",
+        "anatomy": [
+          "container",
+          "optional Phosphor Icon",
+          "Label",
+          "optional private Count",
+          "Focus ring"
+        ],
+        "composition": "Individual Tab with fixed anatomy and editable properties; selection/group/panels belong to its consumer."
+      },
+      "readiness": {
+        "documentation": "READY",
+        "figma": "READY"
+      },
+      "requirements": [
+        {
+          "acceptance": [
+            "Un set Tab en su página Tabs, 24 variantes y ausencia de ejes o estados de Button."
+          ],
+          "force": "MUST",
+          "id": "REQ-IDENTITY",
+          "provenance": "EXPLICIT",
+          "sources": [
+            "SRC-USER",
+            "SRC-INVENTORY"
+          ],
+          "statement": "Tab es la pestaña individual que representa una vista o sección relacionada dentro de un contexto. Este contrato no es Button ni formaliza la familia contenedora Tabs. Crear un único set local `Tab` en la página dedicada `Tabs` del destino autorizado; los maestros y dependencias privadas quedan fuera del frame final de revisión. El origen Figma y el proyecto anterior permanecen en solo lectura. La autoridad es ADR-015, no los permisos históricos de la biblioteca fuente."
+        },
+        {
+          "acceptance": [
+            "Label TEXT, Show icon BOOLEAN, Icon INSTANCE_SWAP y Show badge BOOLEAN; todos operan desde instancias sin editar principales."
+          ],
+          "force": "MUST",
+          "id": "REQ-API",
+          "provenance": "OBSERVED",
+          "sources": [
+            "SRC-INVENTORY",
+            "SRC-NODES"
+          ],
+          "statement": "Conservar las propiedades públicas Label (TEXT, predeterminado Tab), Show icon (BOOLEAN, false), Icon (INSTANCE_SWAP, Phosphor ImageSquare Outline Light) y Show badge (BOOLEAN, false). El eje selected es VARIANT con strings `false`/`true` en Figma; no confundirlo con una propiedad BOOLEAN. Capturar las claves generadas por Figma, sin reutilizar sufijos del origen. El contador expone su instancia anidada y Count editable; no presentar esa exposición como un Slot nativo."
+        },
+        {
+          "acceptance": [
+            "Producto observado 3 tipos × 2 selecciones × 4 estados = 24; cada combinación es única."
+          ],
+          "force": "MUST",
+          "id": "REQ-VARIANTS",
+          "provenance": "OBSERVED",
+          "sources": [
+            "SRC-INVENTORY",
+            "SRC-NODES"
+          ],
+          "statement": "Los ejes son type=underline|pill|segmented, selected=false|true y state=default|hover|focus|disabled. No añadir size, pressed, loading, primary o secondary por analogía con Button. selected y focus son independientes. Las 24 combinaciones están observadas, incluidas selected=true con disabled. Las alturas derivadas del contenido/padding son 44, 36 y 28 px por tipo; no constituyen un nuevo eje ni justifican variables de altura duplicadas."
+        },
+        {
+          "acceptance": [
+            "Orden Icon–Label–Count y Focus ring absoluto en las seis variantes focus."
+          ],
+          "force": "MUST",
+          "id": "REQ-ANATOMY",
+          "provenance": "DERIVED",
+          "sources": [
+            "SRC-NODES",
+            "SRC-DEPENDENCIES"
+          ],
+          "statement": "La anatomía fija es Icon opcional antes de Label, Count opcional después de Label y Focus ring absoluto cuando state=focus. Los dos opcionales están apagados por defecto. El contador es una dependencia privada de esta familia, limitada a la representación activa Count medium; no importar ni recrear toda la familia Dot. La personalización admitida es contenido, visibilidad y swap de icono; no se ofrece inserción arbitraria de hijos o Slots."
+        },
+        {
+          "acceptance": [
+            "Manrope Regular/SemiBold 14/20 en Label y Bold 10/16 en Count; bindings tipográficos completos y fuentes disponibles."
+          ],
+          "force": "MUST",
+          "id": "REQ-TYPOGRAPHY",
+          "provenance": "OBSERVED",
+          "sources": [
+            "SRC-NODES",
+            "SRC-VARIABLES"
+          ],
+          "statement": "Label usa Manrope Regular no seleccionado y SemiBold seleccionado, 14 px con línea de 20 px. Count usa Bold 10 px con línea de 16 px. Mantener el letter-spacing porcentual observado y sus bindings. Las variables FONT_STYLE son strings de estilo Figma, no un valor CSS font-style; el consumidor web traduce Regular/SemiBold/Bold a 400/600/700 conforme al peso observado. Cargar las fuentes reales antes de asignarlas o vincular variables. Aplicar estilos de texto locales compartidos por estos tres roles, derivados de las mismas recetas."
+        },
+        {
+          "acceptance": [
+            "43 dependencias directas, 43 firmas únicas, cero redundancias y 1.026 bindings fuente cubiertos por el mapa.",
+            "Todos los tokens aliasan semánticos existentes en cuatro modos, con un solo scope y nombres tab/categoría/propiedad."
+          ],
+          "force": "MUST",
+          "id": "REQ-TOKENS",
+          "provenance": "DERIVED",
+          "sources": [
+            "SRC-RECIPES",
+            "SRC-VARIABLES"
+          ],
+          "statement": "Aplicar BH-P07 antes de crear variables. La receta seleccionada consolida 1.026 usos en 43 firmas de tipo, unidad, scope y aliases completos. Cada token se declara una vez como dependencia. La cadena es propiedad → token Tab → semántico → primitiva. Las 145 primitivas y 106 semánticos existentes se reutilizan con scopes vacíos; no crear duplicados. La colección de Tab tiene Contable (predeterminado), Administrativo, Servicios y Personas. Usar `figmaName` de la receta y `web` explícito con var(); el nombre lógico conserva su identidad. Las referencias de primitivas originales se preservan, no se agrupan por RGB. Un alias fijo de foco que no cambia de tema no se convierte en un alias de marca por intuición."
+        },
+        {
+          "acceptance": [
+            "El ejemplo consumidor mantiene exactamente una Tab seleccionada y muestra su panel correspondiente."
+          ],
+          "force": "MUST",
+          "id": "REQ-SELECTION",
+          "provenance": "DERIVED",
+          "sources": [
+            "SRC-INVENTORY"
+          ],
+          "statement": "El contenedor consumidor controla qué Tab está seleccionada y qué panel/vista corresponde; Tab comunica esa selección visualmente. Una activación habilitada solicita seleccionar la vista y el consumidor actualiza el grupo y su panel. El foco por sí solo no cambia selected en esta unidad. La orientación de 2–5 vistas de segmented pertenece al contexto consumidor, no a una cardinalidad interna de Tab. El ejemplo de tres vistas solo demuestra consumo; no agrega un componente público Tabs ni implementa servicios."
+        },
+        {
+          "acceptance": [
+            "Las cuatro reacciones fuente default→hover mantienen type y selected y retornan al salir en el reproductor nativo.",
+            "Las acciones de selección del ejemplo se distinguen de las reacciones del principal."
+          ],
+          "force": "MUST",
+          "id": "REQ-INTERACTIONS",
+          "provenance": "OBSERVED",
+          "sources": [
+            "SRC-NODES",
+            "SRC-RECIPES"
+          ],
+          "statement": "Conservar las cuatro reacciones ON_HOVER/CHANGE_TO observadas: underline y pill, selected=false/true, default→hover del mismo tipo y selección. No hay acciones de click de selección ni controlador de grupo en el principal fuente. Los estados sin reacción observada siguen disponibles como variantes. El ejemplo consumidor puede gestionar selección y paneles mediante navegación nativa entre frames; sus acciones pertenecen al ejemplo, no se atribuyen al principal o al origen. Validar reproducción real; una reacción almacenada no demuestra ejecución."
+        },
+        {
+          "acceptance": [
+            "Seis anillos visibles; ancho/alto siguen al contenedor con margen de 4 px y sobreviven a Label, icono, Count y temas."
+          ],
+          "force": "MUST",
+          "id": "REQ-FOCUS",
+          "provenance": "OBSERVED",
+          "sources": [
+            "SRC-NODES",
+            "SRC-RECIPES"
+          ],
+          "statement": "Conservar el anillo de 2 px, offset exterior de 4 px y radios observados por tipo. Las constraints STRETCH mantienen el margen al crecer el contenido HUG. El anillo no puede quedar recortado por contenedores de revisión o consumo. Mantener independientes color del anillo, indicador, texto e icono cuando sus scopes o vectores de aliases difieran."
+        },
+        {
+          "acceptance": [
+            "Seis variantes disabled sin activación ni hover; selected se conserva como estado visual independiente."
+          ],
+          "force": "MUST",
+          "id": "REQ-DISABLED",
+          "provenance": "EXPLICIT",
+          "sources": [
+            "SRC-INVENTORY",
+            "SRC-NODES"
+          ],
+          "statement": "disabled impide la activación del usuario y conserva la selección recibida, incluida selected=true. El contenedor no conecta hotspots de selección sobre un ejemplo disabled. No deducir una selección alternativa ni cambiar de panel automáticamente cuando una Tab pasa a disabled: esa decisión corresponde al flujo consumidor. Mantener los colores y superficies deshabilitados observados; el contador informativo mantiene su receta propia."
+        },
+        {
+          "acceptance": [
+            "Icon es una instancia remota de Phosphor del equipo; swap real mantiene tamaño y color desde tokens, sin copias SVG."
+          ],
+          "force": "MUST",
+          "id": "REQ-ICONS",
+          "provenance": "EXPLICIT",
+          "sources": [
+            "SRC-USER",
+            "SRC-PHOSPHOR",
+            "SRC-OFFICIAL"
+          ],
+          "statement": "Aplicar BH-P06. El valor inicial es ImageSquare, Format=Outline y Weight=Light, key f273018f11d7d4e938078bd0b21b0b3a9e7f2634, verificado en la biblioteca del equipo. El tamaño es 20 px y el color se vincula a SHAPE_FILL. No copiar paths vectoriales ni usar assets temporales del codegen. Desarrollo consume ImageSquareIcon weight=light desde @phosphor-icons/react (o su export SSR oficial). Con Label visible el icono es decorativo; un swap no crea otra variante. La normalización de segmented aplica el rol oscuro al icono junto a Label, manteniendo sus scopes separados."
+        },
+        {
+          "acceptance": [
+            "Show badge y Count se modifican desde instancias; 1, 12 y 99+ conservan layout, vínculo y legibilidad."
+          ],
+          "force": "MUST",
+          "id": "REQ-COUNT",
+          "provenance": "DERIVED",
+          "sources": [
+            "SRC-NODES",
+            "SRC-DEPENDENCIES"
+          ],
+          "statement": "Show badge controla el contador opcional. La dependencia privada conserva alto y mínimo de ancho de 16 px, ancho HUG, radio completo, borde blanco de 1 px, relleno de aviso y texto blanco. Count es texto formateado por el consumidor; la representación no realiza cálculos, topes ni consultas. El consumidor controla su visibilidad y nombre accesible según el significado del conteo. No prometer los tipos de presencia, notificación o count-expand ni la lógica de Max count de la familia Dot completa. El helper es propiedad de este contrato, no una segunda familia pública."
+        },
+        {
+          "acceptance": [
+            "Auto Layout horizontal HUG, gap 8, paddings por tipo, stroke fuera de layout y ausencia de recortes con contenido largo/opcionales."
+          ],
+          "force": "MUST",
+          "id": "REQ-LAYOUT",
+          "provenance": "OBSERVED",
+          "sources": [
+            "SRC-NODES",
+            "SRC-RECIPES"
+          ],
+          "statement": "Conservar Auto Layout horizontal, ancho HUG, padding horizontal 16/16/12 y vertical 12/8/4 por underline/pill/segmented, y gap 8 px. Mantener strokesIncludedInLayout=false en las unidades para no alterar las dimensiones por el indicador. El icono mide 20 px y Count no supera la línea base de 20 px de Label. El ancho depende del contenido real; los 56/48 px de los ejemplos fuente no son límites. No fijar anchos de texto por la etiqueta de muestra. El contenedor consumidor resuelve el espacio disponible y el overflow del conjunto."
+        },
+        {
+          "acceptance": [
+            "Un único estilo local de efecto compartido en los tres selected segmented activos, con valores iguales a la fuente."
+          ],
+          "force": "MUST",
+          "id": "REQ-ELEVATION",
+          "provenance": "OBSERVED",
+          "sources": [
+            "SRC-DEPENDENCIES",
+            "SRC-NODES"
+          ],
+          "statement": "segmented seleccionado en default/hover/focus conserva elevation/shadow/sm mediante un estilo de efecto local compartido. Su definición deriva del único estilo de efecto observado; sus parámetros no eran variables de origen y no se multiplican como tokens por estado. La receta y el estilo conservan color/alpha, offset, blur y spread exactos con la tolerancia numérica declarada. disabled conserva ausencia de sombra. El estilo y sus IDs son derivados verificables, no otra paleta o regla editable paralela."
+        },
+        {
+          "acceptance": [
+            "selected segmented default/hover/focus resuelve blanco y Label/icono oscuros en los cuatro temas; sombra, anillo y geometría se conservan."
+          ],
+          "force": "MUST",
+          "id": "REQ-SEGMENTED",
+          "provenance": "EXPLICIT",
+          "sources": [
+            "SRC-USER",
+            "SRC-RECIPES"
+          ],
+          "statement": "Por decisión expresa del usuario, normalizar selected segmented a fondo blanco con Label e icono oscuros en default, hover y focus. Reutilizar la receta de foreground/superficie del focus seleccionado observado. La normalización afecta contenedor, Label e icono; Count mantiene su receta propia. Conservar tipografía, sombra y anillo. Este criterio prevalece sobre los morados de default/hover del origen, que se documentan como referencia histórica sin modificarlos."
+        },
+        {
+          "acceptance": [
+            "Pill selected/hover usa el vector de marca más oscuro en TEXT_FILL; comprobación puntual de Label habilitado ≥4.5:1 sobre los fondos demostrados en cada tema."
+          ],
+          "force": "MUST",
+          "id": "REQ-CONTRAST",
+          "provenance": "EXPLICIT",
+          "sources": [
+            "SRC-USER",
+            "SRC-RECIPES"
+          ],
+          "statement": "El usuario adopta el color de marca más oscuro existente para el texto de pill selected/hover. Se registra un único token adicional de TEXT_FILL con el vector completo de aliases; no se crea un semántico o un token por tema. La elección corrige los contrastes de texto insuficientes heredados. La verificación cromática puntual usa los valores aplicados y sus fondos demostrados; no equivale a certificar WCAG general, teclado, ARIA o un flujo web. disabled se registra separadamente como control inactivo."
+        },
+        {
+          "acceptance": [
+            "Label conserva contenido y HUG al cambiarlo; los valores de prueba no se convierten en límites de producto."
+          ],
+          "force": "MUST",
+          "id": "REQ-CONTENT",
+          "provenance": "DERIVED",
+          "sources": [
+            "SRC-INVENTORY",
+            "SRC-NODES"
+          ],
+          "statement": "Label identifica la vista y requiere un nombre comprensible no vacío. La fuente recomienda 1–2 palabras; esa guía no fija un límite de caracteres. No se formaliza un modo de solo icono. Conservar wrapping/truncation observado; probar contenido largo y opcionales desde la instancia. Los textos de ejemplo y los valores 1, 12 y 99+ no son reglas de negocio ni un servicio de conteo."
+        },
+        {
+          "acceptance": [
+            "El contrato registra role=tab, aria-selected, tablist y responsabilidad de teclado/paneles, sin atribuir pruebas DOM a Figma."
+          ],
+          "force": "MUST",
+          "id": "REQ-ACCESSIBILITY",
+          "provenance": "EXPLICIT",
+          "sources": [
+            "SRC-INVENTORY",
+            "SRC-DEPENDENCIES"
+          ],
+          "statement": "La implementación web consumidora usa semántica tab con aria-selected y relación con el panel; el grupo usa tablist y gestiona flechas y orden de tabulación. El estado disabled debe reflejarse en la interacción y semántica. El consumidor define IDs, activación manual/automática y nombres accesibles del contexto, incluido el conteo; no se deducen del canvas. La selección se comunica también por peso e indicador/superficie. Figma representa estilos y transiciones, sin implementar ni certificar HTML/ARIA, teclado web o conformidad global."
+        },
+        {
+          "acceptance": [
+            "context TAB-001 compacto conserva todos los requisitos y 43 tokens en los cuatro temas; manifiesto enlaza hashes/IDs/keys/properties/QA."
+          ],
+          "force": "MUST",
+          "id": "REQ-CONSUMPTION",
+          "provenance": "DERIVED",
+          "sources": [
+            "SRC-RECIPES",
+            "SRC-USER"
+          ],
+          "statement": "El MD es la fuente operativa de diseño y función; YAML/MD de inspección son evidencia original. La Skill fija contrato/hash, ambos token sets y contexto de modos al iniciar. El manifiesto derivado enlaza la familia, helpers, variables, estilos, claves de propiedades y QA; no duplica requisitos editables. Crear instancias vinculadas y aplicar el modo de tab al contenedor. Los componentes locales no se presumen publicados/importables en otro archivo. React, Next.js y Graphify siguen sin implementarse por este encargo. Aplicar BH-P08 para notas, CI y versiones; no publicar releases oficiales por esta alta de componente."
+        }
+      ],
+      "sha256": "1148c2a12aff33eb3d526f32633c68f6cab20a0fcaf75fb7fb9bac3bfa33f2ce",
+      "status": "ELIGIBLE",
+      "targets": [
+        "figma",
+        "documentation"
+      ],
+      "token_minimum": {
+        "component_tokens": 43,
+        "distinct_signatures": 43,
+        "protocol": "BH-P07",
+        "redundancies": 0,
+        "status": "PASS"
+      },
+      "version": "1.0.0"
+    }
+  ],
+  "intent": "rules",
+  "mode_context": {
+    "button": "Contable",
+    "primitive": "Value",
+    "semantic": "Value",
+    "tab": "Personas"
+  },
+  "projection": "selected-modes; provenance is retained in the referenced token sets",
+  "root": "contract:TAB-001@1.0.0",
+  "scope": "Declared transitive dependencies",
+  "snapshot": "4122120998d5e71aa98e60a0abeab68036d752e04e50ae2df0719b71f5156eda",
+  "status": "PASS",
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "path": "norms/tokens/blueheart.2.0.0.json",
+      "sha256": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29",
+      "version": "2.0.0"
+    },
+    {
+      "id": "TAB-TOKENS",
+      "path": "norms/tokens/tab.1.0.0.json",
+      "sha256": "140c5c062a65a9b4ec28b171b6b1d67e69264f38535320d274e5f82198cbccab",
+      "version": "1.0.0"
+    }
+  ],
+  "tokens": [
+    {
+      "collection": "primitive",
+      "id": "primitive.blue-500",
+      "layer": "primitive",
+      "name": "--primitive-blue-500",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.8352941274642944,
+          "g": 0.18431372940540314,
+          "r": 0.15294118225574493
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-family-manrope",
+      "layer": "primitive",
+      "name": "--primitive-font-family-manrope",
+      "scopes": [],
+      "type": "string",
+      "values": {
+        "Value": "Manrope"
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-letter-spacing-normal",
+      "layer": "primitive",
+      "name": "--primitive-font-letter-spacing-normal",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 0
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-line-height-16",
+      "layer": "primitive",
+      "name": "--primitive-font-line-height-16",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 16
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-line-height-20",
+      "layer": "primitive",
+      "name": "--primitive-font-line-height-20",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 20
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-size-10",
+      "layer": "primitive",
+      "name": "--primitive-font-size-10",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 10
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-size-14",
+      "layer": "primitive",
+      "name": "--primitive-font-size-14",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 14
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-weight-bold",
+      "layer": "primitive",
+      "name": "--primitive-font-weight-bold",
+      "scopes": [],
+      "type": "string",
+      "values": {
+        "Value": "bold"
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-weight-regular",
+      "layer": "primitive",
+      "name": "--primitive-font-weight-regular",
+      "scopes": [],
+      "type": "string",
+      "values": {
+        "Value": "Regular"
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.font-weight-semibold",
+      "layer": "primitive",
+      "name": "--primitive-font-weight-semibold",
+      "scopes": [],
+      "type": "string",
+      "values": {
+        "Value": "Semibold"
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.neutral-100",
+      "layer": "primitive",
+      "name": "--primitive-neutral-100",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 1,
+          "g": 1,
+          "r": 1
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.neutral-200",
+      "layer": "primitive",
+      "name": "--primitive-neutral-200",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.9764705896377563,
+          "g": 0.9607843160629272,
+          "r": 0.9450980424880981
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.neutral-300",
+      "layer": "primitive",
+      "name": "--primitive-neutral-300",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.9411764740943909,
+          "g": 0.9098039269447327,
+          "r": 0.886274516582489
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.neutral-400",
+      "layer": "primitive",
+      "name": "--primitive-neutral-400",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.7215686440467834,
+          "g": 0.6392157077789307,
+          "r": 0.5803921818733215
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.neutral-500",
+      "layer": "primitive",
+      "name": "--primitive-neutral-500",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.545098066329956,
+          "g": 0.45490196347236633,
+          "r": 0.3921568691730499
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.neutral-600",
+      "layer": "primitive",
+      "name": "--primitive-neutral-600",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.4117647111415863,
+          "g": 0.3333333432674408,
+          "r": 0.27843138575553894
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.neutral-900",
+      "layer": "primitive",
+      "name": "--primitive-neutral-900",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.16470588743686676,
+          "g": 0.09019608050584793,
+          "r": 0.05882352963089943
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.purple-100",
+      "layer": "primitive",
+      "name": "--primitive-purple-100",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 1,
+          "g": 0.9411764740943909,
+          "r": 0.9607843160629272
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.purple-200",
+      "layer": "primitive",
+      "name": "--primitive-purple-200",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.9882352948188782,
+          "g": 0.7921568751335144,
+          "r": 0.8784313797950745
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.purple-500",
+      "layer": "primitive",
+      "name": "--primitive-purple-500",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.9725490212440491,
+          "g": 0,
+          "r": 0.5137255191802979
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.purple-600",
+      "layer": "primitive",
+      "name": "--primitive-purple-600",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0.7176470756530762,
+          "g": 0,
+          "r": 0.3450980484485626
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.radius-12",
+      "layer": "primitive",
+      "name": "--primitive-radius-12",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 12
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.radius-4",
+      "layer": "primitive",
+      "name": "--primitive-radius-4",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 4
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.radius-8",
+      "layer": "primitive",
+      "name": "--primitive-radius-8",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 8
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.radius-9999",
+      "layer": "primitive",
+      "name": "--primitive-radius-9999",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 9999
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.red-600",
+      "layer": "primitive",
+      "name": "--primitive-red-600",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0.8313725590705872
+        }
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.size-16",
+      "layer": "primitive",
+      "name": "--primitive-size-16",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 16
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.size-20",
+      "layer": "primitive",
+      "name": "--primitive-size-20",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 20
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.spacing-0",
+      "layer": "primitive",
+      "name": "--primitive-spacing-0",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 0
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.spacing-12",
+      "layer": "primitive",
+      "name": "--primitive-spacing-12",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 12
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.spacing-16",
+      "layer": "primitive",
+      "name": "--primitive-spacing-16",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 16
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.spacing-4",
+      "layer": "primitive",
+      "name": "--primitive-spacing-4",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 4
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.spacing-8",
+      "layer": "primitive",
+      "name": "--primitive-spacing-8",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 8
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.stroke-1",
+      "layer": "primitive",
+      "name": "--primitive-stroke-1",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 1
+      }
+    },
+    {
+      "collection": "primitive",
+      "id": "primitive.stroke-2",
+      "layer": "primitive",
+      "name": "--primitive-stroke-2",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": 2
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.brand-personas-accent",
+      "layer": "semantic",
+      "name": "--brand-personas-accent",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.purple-200"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.brand-personas-default",
+      "layer": "semantic",
+      "name": "--brand-personas-default",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.purple-500"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.brand-personas-strong",
+      "layer": "semantic",
+      "name": "--brand-personas-strong",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.purple-600"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.brand-personas-subtle",
+      "layer": "semantic",
+      "name": "--brand-personas-subtle",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.purple-100"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.brand-strong",
+      "layer": "semantic",
+      "name": "--brand-strong",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.blue-500"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.danger-default",
+      "layer": "semantic",
+      "name": "--danger-default",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.red-600"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-family-base",
+      "layer": "semantic",
+      "name": "--font-family-base",
+      "scopes": [],
+      "type": "string",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-family-manrope"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-letter-spacing-normal",
+      "layer": "semantic",
+      "name": "--font-letter-spacing-normal",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-letter-spacing-normal"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-line-height-sm",
+      "layer": "semantic",
+      "name": "--font-line-height-sm",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-line-height-20"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-line-height-xs",
+      "layer": "semantic",
+      "name": "--font-line-height-xs",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-line-height-16"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-size-1xs",
+      "layer": "semantic",
+      "name": "--font-size-1xs",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-size-10"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-size-sm",
+      "layer": "semantic",
+      "name": "--font-size-sm",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-size-14"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-weight-bold",
+      "layer": "semantic",
+      "name": "--font-weight-bold",
+      "scopes": [],
+      "type": "string",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-weight-bold"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-weight-regular",
+      "layer": "semantic",
+      "name": "--font-weight-regular",
+      "scopes": [],
+      "type": "string",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-weight-regular"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.font-weight-semibold",
+      "layer": "semantic",
+      "name": "--font-weight-semibold",
+      "scopes": [],
+      "type": "string",
+      "values": {
+        "Value": {
+          "alias": "primitive.font-weight-semibold"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.neutral-base",
+      "layer": "semantic",
+      "name": "--neutral-base",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.neutral-100"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.neutral-maximum",
+      "layer": "semantic",
+      "name": "--neutral-maximum",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.neutral-900"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.neutral-medium",
+      "layer": "semantic",
+      "name": "--neutral-medium",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.neutral-500"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.neutral-muted",
+      "layer": "semantic",
+      "name": "--neutral-muted",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.neutral-300"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.neutral-soft",
+      "layer": "semantic",
+      "name": "--neutral-soft",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.neutral-400"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.neutral-strong",
+      "layer": "semantic",
+      "name": "--neutral-strong",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.neutral-600"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.neutral-subtle",
+      "layer": "semantic",
+      "name": "--neutral-subtle",
+      "scopes": [],
+      "type": "color",
+      "values": {
+        "Value": {
+          "alias": "primitive.neutral-200"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.radius-full",
+      "layer": "semantic",
+      "name": "--radius-full",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.radius-9999"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.radius-lg",
+      "layer": "semantic",
+      "name": "--radius-lg",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.radius-12"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.radius-md",
+      "layer": "semantic",
+      "name": "--radius-md",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.radius-8"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.radius-sm",
+      "layer": "semantic",
+      "name": "--radius-sm",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.radius-4"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.size-lg",
+      "layer": "semantic",
+      "name": "--size-lg",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.size-16"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.size-xl",
+      "layer": "semantic",
+      "name": "--size-xl",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.size-20"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.spacing-lg",
+      "layer": "semantic",
+      "name": "--spacing-lg",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.spacing-16"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.spacing-md",
+      "layer": "semantic",
+      "name": "--spacing-md",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.spacing-12"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.spacing-none",
+      "layer": "semantic",
+      "name": "--spacing-none",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.spacing-0"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.spacing-sm",
+      "layer": "semantic",
+      "name": "--spacing-sm",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.spacing-8"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.spacing-xs",
+      "layer": "semantic",
+      "name": "--spacing-xs",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.spacing-4"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.stroke-md",
+      "layer": "semantic",
+      "name": "--stroke-md",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.stroke-2"
+        }
+      }
+    },
+    {
+      "collection": "semantic",
+      "id": "semantic.stroke-xs",
+      "layer": "semantic",
+      "name": "--stroke-xs",
+      "scopes": [],
+      "type": "number",
+      "values": {
+        "Value": {
+          "alias": "primitive.stroke-1"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.border-tab-width-emphasis",
+      "layer": "component",
+      "name": "--border-tab-width-emphasis",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.stroke-md"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.border-tab-width-regular",
+      "layer": "component",
+      "name": "--border-tab-width-regular",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.stroke-xs"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-bg-brand-accent",
+      "layer": "component",
+      "name": "--color-tab-bg-brand-accent",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.brand-personas-accent"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-bg-brand-subtle",
+      "layer": "component",
+      "name": "--color-tab-bg-brand-subtle",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.brand-personas-subtle"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-bg-count",
+      "layer": "component",
+      "name": "--color-tab-bg-count",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-bg-muted",
+      "layer": "component",
+      "name": "--color-tab-bg-muted",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-muted"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-bg-subtle",
+      "layer": "component",
+      "name": "--color-tab-bg-subtle",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-subtle"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-bg-surface",
+      "layer": "component",
+      "name": "--color-tab-bg-surface",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-icon-brand",
+      "layer": "component",
+      "name": "--color-tab-icon-brand",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-icon-disabled",
+      "layer": "component",
+      "name": "--color-tab-icon-disabled",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-icon-primary",
+      "layer": "component",
+      "name": "--color-tab-icon-primary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-icon-secondary",
+      "layer": "component",
+      "name": "--color-tab-icon-secondary",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-stroke-brand",
+      "layer": "component",
+      "name": "--color-tab-stroke-brand",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-stroke-brand-hover",
+      "layer": "component",
+      "name": "--color-tab-stroke-brand-hover",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-stroke-focus",
+      "layer": "component",
+      "name": "--color-tab-stroke-focus",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.brand-strong"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-stroke-neutral",
+      "layer": "component",
+      "name": "--color-tab-stroke-neutral",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-stroke-surface",
+      "layer": "component",
+      "name": "--color-tab-stroke-surface",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-text-brand",
+      "layer": "component",
+      "name": "--color-tab-text-brand",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-text-brand-hover",
+      "layer": "component",
+      "name": "--color-tab-text-brand-hover",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-text-disabled",
+      "layer": "component",
+      "name": "--color-tab-text-disabled",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-text-inverse",
+      "layer": "component",
+      "name": "--color-tab-text-inverse",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-text-primary",
+      "layer": "component",
+      "name": "--color-tab-text-primary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.color-tab-text-secondary",
+      "layer": "component",
+      "name": "--color-tab-text-secondary",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "color",
+      "values": {
+        "Personas": {
+          "alias": "semantic.neutral-strong"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-count-style",
+      "layer": "component",
+      "name": "--font-tab-count-style",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "type": "string",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-weight-bold"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-family",
+      "layer": "component",
+      "name": "--font-tab-family",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "type": "string",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-family-base"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-label-style",
+      "layer": "component",
+      "name": "--font-tab-label-style",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "type": "string",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-weight-regular"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-letter-spacing",
+      "layer": "component",
+      "name": "--font-tab-letter-spacing",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-normal"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-line-height-count",
+      "layer": "component",
+      "name": "--font-tab-line-height-count",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-line-height-xs"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-line-height-label",
+      "layer": "component",
+      "name": "--font-tab-line-height-label",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-line-height-sm"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-selected-style",
+      "layer": "component",
+      "name": "--font-tab-selected-style",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "type": "string",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-weight-semibold"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-size-count",
+      "layer": "component",
+      "name": "--font-tab-size-count",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-size-1xs"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.font-tab-size-label",
+      "layer": "component",
+      "name": "--font-tab-size-label",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.font-size-sm"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.radius-tab-full",
+      "layer": "component",
+      "name": "--radius-tab-full",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.radius-full"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.radius-tab-lg",
+      "layer": "component",
+      "name": "--radius-tab-lg",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.radius-lg"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.radius-tab-md",
+      "layer": "component",
+      "name": "--radius-tab-md",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.radius-md"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.radius-tab-sm",
+      "layer": "component",
+      "name": "--radius-tab-sm",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.radius-sm"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.size-tab-count",
+      "layer": "component",
+      "name": "--size-tab-count",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.size-tab-icon",
+      "layer": "component",
+      "name": "--size-tab-icon",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.size-xl"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.spacing-tab-lg",
+      "layer": "component",
+      "name": "--spacing-tab-lg",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.spacing-lg"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.spacing-tab-md",
+      "layer": "component",
+      "name": "--spacing-tab-md",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.spacing-md"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.spacing-tab-none",
+      "layer": "component",
+      "name": "--spacing-tab-none",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.spacing-tab-sm",
+      "layer": "component",
+      "name": "--spacing-tab-sm",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      }
+    },
+    {
+      "collection": "tab",
+      "id": "tab.spacing-tab-xs",
+      "layer": "component",
+      "name": "--spacing-tab-xs",
+      "scopes": [
+        "GAP"
+      ],
+      "type": "number",
+      "values": {
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      }
+    }
+  ]
+}

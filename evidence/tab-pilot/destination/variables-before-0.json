@@ -1,0 +1,1250 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:6:3",
+      "key": "33985a7579051cc10aaa7bb51d173425e29d79ad",
+      "name": "spacing-0",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 0
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-spacing-0)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:4",
+      "key": "d37a9e1bde0bf6d885f3d275308d76694adadc17",
+      "name": "font-weight-semibold",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": "Semibold"
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-weight-semibold)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:5",
+      "key": "dfdcc3872f2ad3bf5f0d8b6ef6f88ea6f13adc89",
+      "name": "neutral-300",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.886274516582489,
+          "g": 0.9098039269447327,
+          "b": 0.9411764740943909,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-neutral-300)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:6",
+      "key": "999a8dd4b3212916a7bb3eae1d46a0b196a17a63",
+      "name": "emerald-400",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.3137255012989044,
+          "g": 0.7254902124404907,
+          "b": 0.21960784494876862,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-emerald-400)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:7",
+      "key": "a9cefb3ebc410e8fc404da25b3f9b19a781b0508",
+      "name": "amber-500",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.9450980424880981,
+          "g": 0.6196078658103943,
+          "b": 0.05882352963089943,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-amber-500)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:8",
+      "key": "7731d85ff1d077f1da7d0982397fad0b868bd72b",
+      "name": "red-500",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.9882352948188782,
+          "g": 0.09803921729326248,
+          "b": 0.18431372940540314,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-red-500)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:9",
+      "key": "78f9de661a786d630b760ff20de65d0c63b5048a",
+      "name": "cyan-500",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0,
+          "g": 0.49803921580314636,
+          "b": 0.7843137383460999,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-cyan-500)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:10",
+      "key": "c930bf93e86950d4eb6537f6ae8bd0893055f774",
+      "name": "green-100",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.9254902005195618,
+          "g": 0.9921568632125854,
+          "b": 0.9607843160629272,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-green-100)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:11",
+      "key": "ad9e3d4ac04f90e043faef78f4dbacbbcf7dcf74",
+      "name": "green-200",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.5764706134796143,
+          "g": 0.8274509906768799,
+          "b": 0.7490196228027344,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-green-200)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:12",
+      "key": "c78a4d984b4bf21ab4e17169cd9c6b19a698adb0",
+      "name": "green-300",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.364705890417099,
+          "g": 0.686274528503418,
+          "b": 0.5843137502670288,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-green-300)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:13",
+      "key": "5070e730338c0ba93b087d42d383420b91005d2d",
+      "name": "green-400",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.18431372940540314,
+          "g": 0.5607843399047852,
+          "b": 0.4470588266849518,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-green-400)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:14",
+      "key": "0d03c69c283ae241149edef6254f2f0d8f971634",
+      "name": "green-500",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.0117647061124444,
+          "g": 0.4470588266849518,
+          "b": 0.3333333432674408,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-green-500)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:15",
+      "key": "1082f4d044a524d82763b7485f580cb9a1d32fd2",
+      "name": "orange-100",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 1,
+          "g": 0.9686274528503418,
+          "b": 0.9254902005195618,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-orange-100)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:16",
+      "key": "b3807158ba2a1f6e518ccae240da1be6a3edce88",
+      "name": "orange-200",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 1,
+          "g": 0.8470588326454163,
+          "b": 0.7843137383460999,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-orange-200)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:17",
+      "key": "b35a9d3620f9dcb898c5d806bfbb0c26b321c096",
+      "name": "orange-300",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.9882352948188782,
+          "g": 0.729411780834198,
+          "b": 0.572549045085907,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-orange-300)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:18",
+      "key": "4ee7689f138bf4da975580bdf7a3c593df5496fe",
+      "name": "orange-400",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.9921568632125854,
+          "g": 0.5490196347236633,
+          "b": 0.30588236451148987,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-orange-400)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:19",
+      "key": "b25da927b74a46e0c272d6dff5e58254364f3959",
+      "name": "orange-500",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 1,
+          "g": 0.32549020648002625,
+          "b": 0,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-orange-500)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:20",
+      "key": "71fae2aa4c1e90ca43ad2b3c12bb98d39f6b964b",
+      "name": "purple-100",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.9607843160629272,
+          "g": 0.9411764740943909,
+          "b": 1,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-purple-100)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:21",
+      "key": "5ab00b211bddf3c3f106519698d7960b3035f206",
+      "name": "purple-200",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.8784313797950745,
+          "g": 0.7921568751335144,
+          "b": 0.9882352948188782,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-purple-200)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:22",
+      "key": "c9ca5424f823f116adaaac90546bccc3a77f48e0",
+      "name": "purple-300",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.7764706015586853,
+          "g": 0.5960784554481506,
+          "b": 0.9843137264251709,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-purple-300)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:23",
+      "key": "1f58170a1ef68132bc10dd0d9c07c43ddd9936f3",
+      "name": "purple-400",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.6313725709915161,
+          "g": 0.27450981736183167,
+          "b": 0.9843137264251709,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-purple-400)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:24",
+      "key": "bfd988a5f998bf9925d350166c59571fc023f611",
+      "name": "purple-500",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.5137255191802979,
+          "g": 0,
+          "b": 0.9725490212440491,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-purple-500)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:25",
+      "key": "b42308d7038d7cc1ded6618576a4da32a48919a7",
+      "name": "spacing-56",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 56
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-spacing-56)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:26",
+      "key": "f776d217056cd4eac4229bf0d9ff7d6f066e05ed",
+      "name": "spacing-64",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 64
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-spacing-64)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:27",
+      "key": "5b0ce3004d0585f5c3a8896a76343fabd630876b",
+      "name": "neutral-600",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.27843138575553894,
+          "g": 0.3333333432674408,
+          "b": 0.4117647111415863,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-neutral-600)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:28",
+      "key": "12726140de70b660a15795ce915a5022df5bfc36",
+      "name": "neutral-700",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.20000000298023224,
+          "g": 0.2549019753932953,
+          "b": 0.3333333432674408,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-neutral-700)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:29",
+      "key": "0de1a80ba070ff9dc748efa137ce49227d6655ff",
+      "name": "neutral-800",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.11764705926179886,
+          "g": 0.16078431904315948,
+          "b": 0.23137255012989044,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-neutral-800)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:30",
+      "key": "456153c7403c241414830ff81e5e21d9e60dfe5f",
+      "name": "neutral-900",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": {
+          "r": 0.05882352963089943,
+          "g": 0.09019608050584793,
+          "b": 0.16470588743686676,
+          "a": 1
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-neutral-900)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:31",
+      "key": "5ef485789c94d33dbde8defdb655d80a32a8a8bf",
+      "name": "radius-0",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 0
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-radius-0)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:32",
+      "key": "dc268df07bfd6cd67f037ddb61e56b9b543b5f56",
+      "name": "radius-32",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 32
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-radius-32)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:33",
+      "key": "50d2b11f1a6cb29a78386d1dea8a0efc8c32963c",
+      "name": "stroke-0",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 0
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-stroke-0)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:34",
+      "key": "8ba648670f9ce414c18df7d110c27444bb147d18",
+      "name": "stroke-1",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 1
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-stroke-1)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:35",
+      "key": "ceeeec3b6cc7fd95ecba2511cb969f7fd01f2790",
+      "name": "stroke-2",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 2
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-stroke-2)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:36",
+      "key": "f4628249af66816b77d568aa5bb05ce3d974ad8f",
+      "name": "stroke-1-5",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 1.5
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-stroke-1-5)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:37",
+      "key": "614150a5bde525d73b0e60d5201defba59e1ab12",
+      "name": "font-family-manrope",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": "Manrope"
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-family-manrope)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:38",
+      "key": "7498f52749d5726b8cfd94b85875d69fb5f0db37",
+      "name": "font-weight-regular",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": "Regular"
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-weight-regular)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:39",
+      "key": "3176cbda13962d3637b0652873e6733df2500128",
+      "name": "font-weight-medium",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": "Medium"
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-weight-medium)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:40",
+      "key": "95e23b1439f38125ef70924a3f937a21e780a5ba",
+      "name": "font-weight-bold",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": "bold"
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-weight-bold)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:41",
+      "key": "fe1d47e3bfd53b0918be4492849a90bf70aca186",
+      "name": "font-size-12",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 12
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-12)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:42",
+      "key": "1edb7765b992c0e0c822cb571267fc57fd4ebd8d",
+      "name": "font-size-14",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 14
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-14)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:43",
+      "key": "a8f71774fd80795dedaa8e2b53955140634f63d0",
+      "name": "font-size-16",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 16
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-16)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:44",
+      "key": "c2a8e26145076a5652f8830c1d4c2d62d9f025eb",
+      "name": "font-size-20",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 20
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-20)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:45",
+      "key": "9b3d7688682309e647651414f8ced5d457354555",
+      "name": "font-size-24",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 24
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-24)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:46",
+      "key": "7738eee5fa63248be5158eb70234560a85a6009a",
+      "name": "font-size-32",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 32
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-32)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:47",
+      "key": "956ac71b197649919c28855b2dcc0623a2666017",
+      "name": "font-size-40",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 40
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-40)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:48",
+      "key": "3403567537e48a15576f624ee8d8860337e79f8f",
+      "name": "font-size-48",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 48
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-48)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:49",
+      "key": "9d6c6c5422d6d981eb2693e20379c597d6b1e734",
+      "name": "font-size-56",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 56
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-56)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:50",
+      "key": "f55865e5ff1b1a68f897b32267bf06900d2e1a56",
+      "name": "font-line-height-16",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 16
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-line-height-16)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:51",
+      "key": "f8d994ba629ddfe3c26713ece705cd979b474faf",
+      "name": "font-line-height-20",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 20
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-line-height-20)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:52",
+      "key": "a34fc268a2ba21db2f0a7186ebe2f88e7c3fb60a",
+      "name": "font-line-height-24",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 24
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-line-height-24)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:53",
+      "key": "1ad1bb2c11be0901dac82aa0ae92439e0efbb954",
+      "name": "font-line-height-32",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 32
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-line-height-32)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:54",
+      "key": "9a1aa6778d59474607010c0489766e814cf92357",
+      "name": "font-line-height-40",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 40
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-line-height-40)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:55",
+      "key": "990bc7a1b04b007bb9ed92f438dc96d32b84d91e",
+      "name": "font-line-height-48",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 48
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-line-height-48)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:56",
+      "key": "a7ae89c416f2fe1d684b863291dc8dedeb2d0d59",
+      "name": "font-line-height-56",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 56
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-line-height-56)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:57",
+      "key": "716c3c3994a19da3286c90a2393a020d48cff772",
+      "name": "font-line-height-28",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 28
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-line-height-28)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:58",
+      "key": "3efc8a8d44072a62cec27178aacaf3568fd8098a",
+      "name": "font-letter-spacing-tight",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": -0.009999999776482582
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-letter-spacing-tight)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:59",
+      "key": "92039d6e55e0f625e48eeb192defa5100607ba1a",
+      "name": "font-letter-spacing-normal",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 0
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-letter-spacing-normal)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:60",
+      "key": "bef618f50123c47836d6682f94f41200d8bc961f",
+      "name": "font-letter-spacing-wide",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 0.019999999552965164
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-letter-spacing-wide)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:61",
+      "key": "898b8f087b9138b10aa9059be35dbe0e7eddcea2",
+      "name": "font-size-10",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 10
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-font-size-10)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:62",
+      "key": "d1caa9e71c3d72a59a7c321fc686dbc7abfc6c85",
+      "name": "size-12",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 12
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-12)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:63",
+      "key": "b4642ff843092441e26c8d220392bab018af11d8",
+      "name": "spacing-12",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 12
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-spacing-12)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:64",
+      "key": "4f1095f7614e1d534926f26e6cd7f20605398a2d",
+      "name": "size-8",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 8
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-8)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:65",
+      "key": "84a5492e1e640fcf8a3547305b4f0c769edc256b",
+      "name": "size-16",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 16
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-16)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:66",
+      "key": "9fae52d1c139bfb525ec3d10d3cf23c8742e11a6",
+      "name": "size-24",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 24
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-24)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:67",
+      "key": "5d0729a45b2b3d752474db2dea0d2306a4cdcb39",
+      "name": "size-32",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 32
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-32)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:68",
+      "key": "0a0ad61268660578544fddcc623e090b75337afc",
+      "name": "size-40",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 40
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-40)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:69",
+      "key": "f9851d089aac3924dfdf47d305359b3ea9f6e6e4",
+      "name": "size-48",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 48
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-48)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:70",
+      "key": "4999df7dfaa09d74dc8991c5ff86a1829022b9f9",
+      "name": "size-56",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 56
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-56)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:71",
+      "key": "accb5cde7f45b46d073848adfb7197cbbdd48d61",
+      "name": "size-64",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 64
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-64)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:72",
+      "key": "11833c7fb013b3a8f9c106d8f1b373be5b965547",
+      "name": "size-4",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 4
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-size-4)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:73",
+      "key": "62ce622cece3ab9b0e053ca31497a337299add7b",
+      "name": "radius-2",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 2
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-radius-2)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:74",
+      "key": "0b5f07e8ffe46750d80c14ea278afd5be9a697bd",
+      "name": "radius-4",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 4
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-radius-4)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:75",
+      "key": "d76af0fadb9e7e991b52abb9062c6afdab7dc41f",
+      "name": "radius-8",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 8
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-radius-8)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:76",
+      "key": "821f9f5f3addb93f16f7359d35bfd394cc3c97eb",
+      "name": "radius-12",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 12
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-radius-12)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    },
+    {
+      "id": "VariableID:6:77",
+      "key": "f861a1106901407623428a3c8252c6e4263d07d9",
+      "name": "radius-16",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:2",
+      "scopes": [],
+      "valuesByMode": {
+        "6:0": 16
+      },
+      "codeSyntax": {
+        "WEB": "var(--primitive-radius-16)"
+      },
+      "description": "Primitiva normalizada; valor y tipo preservados del inventario de origen."
+    }
+  ],
+  "readOnly": true
+}
