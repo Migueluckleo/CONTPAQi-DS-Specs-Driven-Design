@@ -24,3 +24,5 @@ Las fuentes normativas anteriores quedan congeladas en [history](history/); las 
 Los dos iconos con INSTANCE_SWAP requerían regenerar el intercambio desde su componente por defecto para actualizar los overrides de tamaño. Se verificó el binding final, el vínculo Phosphor y la conservación de apariencia. Los archivos created/migrated/icon-* describen pasos intermedios; el estado entregado es after y el comprobante de QA, no un intento aislado.
 
 Continúan los límites de contraste aceptados (Tab 4.39:1/2.26:1 y Avatar warning 3.32:1), sin afirmación AA. No se ejecutó React, ARIA, teclado ni nueva reproducción de prototipos: se preservaron las reacciones registradas y los principales. No se publicaron biblioteca ni releases oficiales.
+
+Los estados actuales se regeneran con `python3 -B consumption/project-native-ledgers.py` desde el mapa de migración. Excluyen listas históricas de creación/modificación; el bootstrap original queda enlazado por hash como procedencia. La prueba de consumo verifica hashes y que todas las identidades operativas sigan vivas.

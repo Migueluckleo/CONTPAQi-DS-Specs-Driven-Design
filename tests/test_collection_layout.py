@@ -61,6 +61,10 @@ class CollectionLayoutTests(unittest.TestCase):
             self.assertEqual(current[old['id']], expected)
 
     def test_current_component_manifests_and_recipes_select_registered_cut(self):
+        mapping = json.loads((ROOT/'evidence/collection-consolidation/migration-map.json').read_text())
+        live = {v['nativeId'] for v in mapping['variables']}
+        live.update(v['destination_id'] for v in json.loads(
+            (ROOT/'evidence/figma-application/application-map.json').read_text())['variables'])
         def verify_references(value):
             if isinstance(value, dict):
                 if 'path' in value and 'sha256' in value:
@@ -74,6 +78,12 @@ class CollectionLayoutTests(unittest.TestCase):
         for family in ('button', 'tab', 'tabs', 'avatar', 'avatar-group'):
             m = json.loads((ROOT/'consumption'/family/'manifest.json').read_text())
             verify_references(m)
+            if 'nativeLedger' in m:
+                ledger = json.loads((ROOT/m['nativeLedger']['path']).read_text())
+                self.assertTrue(set(ledger['variableIds'].values()) <= live)
+                self.assertEqual(ledger['role'], 'DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES')
+                self.assertFalse(any(k.startswith(('created', 'mutated')) for k in ledger))
+                self.assertEqual(len(ledger['variableIds']), 45 if family == 'tab' else 32)
             self.assertEqual(m['contract'], self.workspace.entries[self.workspace.current[m['contract']['id']]])
             collection = m.get('collection', m.get('native_collection'))
             self.assertEqual(collection['id'], 'VariableCollectionId:11:2')
