@@ -1,0 +1,2240 @@
+{
+  "button": [
+    {
+      "id": "14:110",
+      "name": "Button/primary",
+      "description": "Button primary. Contrato MD BUTTON-001 v2.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 47 tokens compartidos por propiedad y aliases completos; estados seleccionados por receta.",
+      "properties": {
+        "Label#14:0": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "Show left icon#14:19": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show right icon#14:38": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left icon#14:57": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Right icon#14:76": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "pressed",
+            "focus",
+            "loading",
+            "disabled"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "14:2",
+          "name": "size=large, state=default",
+          "width": 85,
+          "height": 48,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "14:20",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "14:20",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "large",
+            "state": "default"
+          }
+        },
+        {
+          "id": "14:8",
+          "name": "size=medium, state=default",
+          "width": 79,
+          "height": 40,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "14:26",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "14:26",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "medium",
+            "state": "default"
+          }
+        },
+        {
+          "id": "14:14",
+          "name": "size=small, state=default",
+          "width": 71,
+          "height": 32,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "14:32",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "14:32",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "small",
+            "state": "default"
+          }
+        },
+        {
+          "id": "14:20",
+          "name": "size=large, state=hover",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "14:26",
+          "name": "size=medium, state=hover",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "14:32",
+          "name": "size=small, state=hover",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "14:38",
+          "name": "size=large, state=pressed",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "14:44",
+          "name": "size=medium, state=pressed",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "14:50",
+          "name": "size=small, state=pressed",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "14:56",
+          "name": "size=large, state=focus",
+          "width": 85,
+          "height": 48,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "14:20",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "14:20",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "large",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "14:63",
+          "name": "size=medium, state=focus",
+          "width": 79,
+          "height": 40,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "14:26",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "14:26",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "medium",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "14:70",
+          "name": "size=small, state=focus",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "14:77",
+          "name": "size=large, state=loading",
+          "width": 117,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "14:82",
+          "name": "size=medium, state=loading",
+          "width": 107,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "14:87",
+          "name": "size=small, state=loading",
+          "width": 91,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "14:92",
+          "name": "size=large, state=disabled",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "14:98",
+          "name": "size=medium, state=disabled",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "14:104",
+          "name": "size=small, state=disabled",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "disabled"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:116",
+      "name": "Button/secondary",
+      "description": "Button secondary. Contrato MD BUTTON-001 v2.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 47 tokens compartidos por propiedad y aliases completos; estados seleccionados por receta.",
+      "properties": {
+        "Label#15:0": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "Show left icon#15:19": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show right icon#15:38": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left icon#15:57": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Right icon#15:76": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "pressed",
+            "focus",
+            "loading",
+            "disabled"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "15:8",
+          "name": "size=large, state=default",
+          "width": 85,
+          "height": 48,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:26",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:26",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "large",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:14",
+          "name": "size=medium, state=default",
+          "width": 79,
+          "height": 40,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:32",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:32",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "medium",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:20",
+          "name": "size=small, state=default",
+          "width": 71,
+          "height": 32,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:38",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:38",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "small",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:26",
+          "name": "size=large, state=hover",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:32",
+          "name": "size=medium, state=hover",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:38",
+          "name": "size=small, state=hover",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:44",
+          "name": "size=large, state=pressed",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:50",
+          "name": "size=medium, state=pressed",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:56",
+          "name": "size=small, state=pressed",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:62",
+          "name": "size=large, state=focus",
+          "width": 85,
+          "height": 48,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:26",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:26",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "large",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:69",
+          "name": "size=medium, state=focus",
+          "width": 79,
+          "height": 40,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:32",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:32",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "medium",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:76",
+          "name": "size=small, state=focus",
+          "width": 71,
+          "height": 32,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:38",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:38",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "small",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:83",
+          "name": "size=large, state=loading",
+          "width": 117,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:88",
+          "name": "size=medium, state=loading",
+          "width": 107,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:93",
+          "name": "size=small, state=loading",
+          "width": 91,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:98",
+          "name": "size=large, state=disabled",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "15:104",
+          "name": "size=medium, state=disabled",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "15:110",
+          "name": "size=small, state=disabled",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "disabled"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:231",
+      "name": "Button/text",
+      "description": "Button text. Contrato MD BUTTON-001 v2.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 47 tokens compartidos por propiedad y aliases completos; estados seleccionados por receta.",
+      "properties": {
+        "Label#15:95": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "Show left icon#15:114": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show right icon#15:133": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left icon#15:152": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Right icon#15:171": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "pressed",
+            "focus",
+            "loading",
+            "disabled"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "15:123",
+          "name": "size=large, state=default",
+          "width": 67,
+          "height": 48,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:141",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:141",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "large",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:129",
+          "name": "size=medium, state=default",
+          "width": 60,
+          "height": 40,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:147",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:147",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "medium",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:135",
+          "name": "size=small, state=default",
+          "width": 52,
+          "height": 32,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:153",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:153",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "small",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:141",
+          "name": "size=large, state=hover",
+          "width": 67,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:147",
+          "name": "size=medium, state=hover",
+          "width": 60,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:153",
+          "name": "size=small, state=hover",
+          "width": 52,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:159",
+          "name": "size=large, state=pressed",
+          "width": 67,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:165",
+          "name": "size=medium, state=pressed",
+          "width": 60,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:171",
+          "name": "size=small, state=pressed",
+          "width": 52,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:177",
+          "name": "size=large, state=focus",
+          "width": 67,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:184",
+          "name": "size=medium, state=focus",
+          "width": 60,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:191",
+          "name": "size=small, state=focus",
+          "width": 52,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:198",
+          "name": "size=large, state=loading",
+          "width": 99,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:203",
+          "name": "size=medium, state=loading",
+          "width": 88,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:208",
+          "name": "size=small, state=loading",
+          "width": 72,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:213",
+          "name": "size=large, state=disabled",
+          "width": 67,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "15:219",
+          "name": "size=medium, state=disabled",
+          "width": 60,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "15:225",
+          "name": "size=small, state=disabled",
+          "width": 52,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "disabled"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:343",
+      "name": "Button/link",
+      "description": "Button link. Contrato MD BUTTON-001 v2.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 47 tokens compartidos por propiedad y aliases completos; estados seleccionados por receta.",
+      "properties": {
+        "Label#15:190": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "Show left icon#15:209": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show right icon#15:228": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left icon#15:247": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Right icon#15:266": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "pressed",
+            "focus",
+            "loading",
+            "disabled"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "15:235",
+          "name": "size=large, state=default",
+          "width": 61,
+          "height": 48,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:253",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:253",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "large",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:241",
+          "name": "size=medium, state=default",
+          "width": 55,
+          "height": 40,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:259",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:259",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "medium",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:247",
+          "name": "size=small, state=default",
+          "width": 55,
+          "height": 32,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:265",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:265",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "small",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:253",
+          "name": "size=large, state=hover",
+          "width": 61,
+          "height": 48,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:271",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:271",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_PRESS"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "large",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:259",
+          "name": "size=medium, state=hover",
+          "width": 55,
+          "height": 40,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:277",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:277",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_PRESS"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "medium",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:265",
+          "name": "size=small, state=hover",
+          "width": 55,
+          "height": 32,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:283",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:283",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_PRESS"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "small",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:271",
+          "name": "size=large, state=pressed",
+          "width": 61,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:277",
+          "name": "size=medium, state=pressed",
+          "width": 55,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:283",
+          "name": "size=small, state=pressed",
+          "width": 55,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:289",
+          "name": "size=large, state=focus",
+          "width": 61,
+          "height": 48,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:253",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:253",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "large",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:296",
+          "name": "size=medium, state=focus",
+          "width": 55,
+          "height": 40,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:259",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:259",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "medium",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:303",
+          "name": "size=small, state=focus",
+          "width": 55,
+          "height": 32,
+          "reactions": [
+            {
+              "action": {
+                "type": "NODE",
+                "destinationId": "15:265",
+                "navigation": "CHANGE_TO",
+                "transition": null,
+                "resetVideoPosition": false
+              },
+              "actions": [
+                {
+                  "type": "NODE",
+                  "destinationId": "15:265",
+                  "navigation": "CHANGE_TO",
+                  "transition": null,
+                  "resetVideoPosition": false
+                }
+              ],
+              "trigger": {
+                "type": "ON_HOVER"
+              }
+            }
+          ],
+          "variantProperties": {
+            "size": "small",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:310",
+          "name": "size=large, state=loading",
+          "width": 93,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:315",
+          "name": "size=medium, state=loading",
+          "width": 83,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:320",
+          "name": "size=small, state=loading",
+          "width": 75,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:325",
+          "name": "size=large, state=disabled",
+          "width": 61,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "15:331",
+          "name": "size=medium, state=disabled",
+          "width": 55,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "15:337",
+          "name": "size=small, state=disabled",
+          "width": 55,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "disabled"
+          }
+        }
+      ]
+    },
+    {
+      "id": "15:461",
+      "name": "Button/danger",
+      "description": "Button danger. Contrato MD BUTTON-001 v2.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 47 tokens compartidos por propiedad y aliases completos; estados seleccionados por receta.",
+      "properties": {
+        "Label#15:285": {
+          "type": "TEXT",
+          "defaultValue": "Button"
+        },
+        "Show left icon#15:304": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show right icon#15:323": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Left icon#15:342": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "Right icon#15:361": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "28:501",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "46d251bb4099700c5852180f2370d265e5166432"
+            }
+          ]
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large",
+          "variantOptions": [
+            "large",
+            "medium",
+            "small"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "pressed",
+            "focus",
+            "loading",
+            "disabled"
+          ]
+        }
+      },
+      "variants": [
+        {
+          "id": "15:353",
+          "name": "size=large, state=default",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:359",
+          "name": "size=medium, state=default",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:365",
+          "name": "size=small, state=default",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "default"
+          }
+        },
+        {
+          "id": "15:371",
+          "name": "size=large, state=hover",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:377",
+          "name": "size=medium, state=hover",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:383",
+          "name": "size=small, state=hover",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "hover"
+          }
+        },
+        {
+          "id": "15:389",
+          "name": "size=large, state=pressed",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:395",
+          "name": "size=medium, state=pressed",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:401",
+          "name": "size=small, state=pressed",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "pressed"
+          }
+        },
+        {
+          "id": "15:407",
+          "name": "size=large, state=focus",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:414",
+          "name": "size=medium, state=focus",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:421",
+          "name": "size=small, state=focus",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "focus"
+          }
+        },
+        {
+          "id": "15:428",
+          "name": "size=large, state=loading",
+          "width": 117,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:433",
+          "name": "size=medium, state=loading",
+          "width": 107,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:438",
+          "name": "size=small, state=loading",
+          "width": 91,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "loading"
+          }
+        },
+        {
+          "id": "15:443",
+          "name": "size=large, state=disabled",
+          "width": 85,
+          "height": 48,
+          "reactions": [],
+          "variantProperties": {
+            "size": "large",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "15:449",
+          "name": "size=medium, state=disabled",
+          "width": 79,
+          "height": 40,
+          "reactions": [],
+          "variantProperties": {
+            "size": "medium",
+            "state": "disabled"
+          }
+        },
+        {
+          "id": "15:455",
+          "name": "size=small, state=disabled",
+          "width": 71,
+          "height": 32,
+          "reactions": [],
+          "variantProperties": {
+            "size": "small",
+            "state": "disabled"
+          }
+        }
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Page 1"
+    },
+    {
+      "id": "11:128",
+      "name": "Buttons"
+    },
+    {
+      "id": "78:97",
+      "name": "Tabs"
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:0"
+        }
+      ],
+      "variableIds": [
+        "VariableID:6:3",
+        "VariableID:6:4",
+        "VariableID:6:5",
+        "VariableID:6:6",
+        "VariableID:6:7",
+        "VariableID:6:8",
+        "VariableID:6:9",
+        "VariableID:6:10",
+        "VariableID:6:11",
+        "VariableID:6:12",
+        "VariableID:6:13",
+        "VariableID:6:14",
+        "VariableID:6:15",
+        "VariableID:6:16",
+        "VariableID:6:17",
+        "VariableID:6:18",
+        "VariableID:6:19",
+        "VariableID:6:20",
+        "VariableID:6:21",
+        "VariableID:6:22",
+        "VariableID:6:23",
+        "VariableID:6:24",
+        "VariableID:6:25",
+        "VariableID:6:26",
+        "VariableID:6:27",
+        "VariableID:6:28",
+        "VariableID:6:29",
+        "VariableID:6:30",
+        "VariableID:6:31",
+        "VariableID:6:32",
+        "VariableID:6:33",
+        "VariableID:6:34",
+        "VariableID:6:35",
+        "VariableID:6:36",
+        "VariableID:6:37",
+        "VariableID:6:38",
+        "VariableID:6:39",
+        "VariableID:6:40",
+        "VariableID:6:41",
+        "VariableID:6:42",
+        "VariableID:6:43",
+        "VariableID:6:44",
+        "VariableID:6:45",
+        "VariableID:6:46",
+        "VariableID:6:47",
+        "VariableID:6:48",
+        "VariableID:6:49",
+        "VariableID:6:50",
+        "VariableID:6:51",
+        "VariableID:6:52",
+        "VariableID:6:53",
+        "VariableID:6:54",
+        "VariableID:6:55",
+        "VariableID:6:56",
+        "VariableID:6:57",
+        "VariableID:6:58",
+        "VariableID:6:59",
+        "VariableID:6:60",
+        "VariableID:6:61",
+        "VariableID:6:62",
+        "VariableID:6:63",
+        "VariableID:6:64",
+        "VariableID:6:65",
+        "VariableID:6:66",
+        "VariableID:6:67",
+        "VariableID:6:68",
+        "VariableID:6:69",
+        "VariableID:6:70",
+        "VariableID:6:71",
+        "VariableID:6:72",
+        "VariableID:6:73",
+        "VariableID:6:74",
+        "VariableID:6:75",
+        "VariableID:6:76",
+        "VariableID:6:77",
+        "VariableID:6:78",
+        "VariableID:6:79",
+        "VariableID:6:80",
+        "VariableID:6:81",
+        "VariableID:6:82",
+        "VariableID:6:83",
+        "VariableID:6:84",
+        "VariableID:6:85",
+        "VariableID:6:86",
+        "VariableID:6:87",
+        "VariableID:6:88",
+        "VariableID:6:89",
+        "VariableID:6:90",
+        "VariableID:6:91",
+        "VariableID:6:92",
+        "VariableID:6:93",
+        "VariableID:6:94",
+        "VariableID:6:95",
+        "VariableID:6:96",
+        "VariableID:6:97",
+        "VariableID:6:98",
+        "VariableID:6:99",
+        "VariableID:6:100",
+        "VariableID:6:101",
+        "VariableID:6:102",
+        "VariableID:6:103",
+        "VariableID:6:104",
+        "VariableID:6:105",
+        "VariableID:6:106",
+        "VariableID:6:107",
+        "VariableID:6:108",
+        "VariableID:6:109",
+        "VariableID:6:110",
+        "VariableID:6:111",
+        "VariableID:6:112",
+        "VariableID:6:113",
+        "VariableID:6:114",
+        "VariableID:6:115",
+        "VariableID:6:116",
+        "VariableID:6:117",
+        "VariableID:6:118",
+        "VariableID:6:119",
+        "VariableID:6:120",
+        "VariableID:6:121",
+        "VariableID:6:122",
+        "VariableID:6:123",
+        "VariableID:6:124",
+        "VariableID:6:125",
+        "VariableID:6:126",
+        "VariableID:6:127",
+        "VariableID:6:128",
+        "VariableID:6:129",
+        "VariableID:6:130",
+        "VariableID:6:131",
+        "VariableID:6:132",
+        "VariableID:6:133",
+        "VariableID:6:134",
+        "VariableID:6:135",
+        "VariableID:6:136",
+        "VariableID:6:137",
+        "VariableID:6:138",
+        "VariableID:6:139",
+        "VariableID:6:140",
+        "VariableID:6:141",
+        "VariableID:6:142",
+        "VariableID:6:143",
+        "VariableID:6:144",
+        "VariableID:6:145",
+        "VariableID:6:146",
+        "VariableID:6:147"
+      ]
+    },
+    {
+      "id": "VariableCollectionId:6:148",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:1"
+        }
+      ],
+      "variableIds": [
+        "VariableID:6:149",
+        "VariableID:6:150",
+        "VariableID:6:151",
+        "VariableID:6:152",
+        "VariableID:6:153",
+        "VariableID:6:154",
+        "VariableID:6:155",
+        "VariableID:6:156",
+        "VariableID:6:157",
+        "VariableID:6:158",
+        "VariableID:6:159",
+        "VariableID:6:160",
+        "VariableID:6:161",
+        "VariableID:6:162",
+        "VariableID:6:163",
+        "VariableID:6:164",
+        "VariableID:6:165",
+        "VariableID:6:166",
+        "VariableID:6:167",
+        "VariableID:6:168",
+        "VariableID:6:169",
+        "VariableID:6:170",
+        "VariableID:6:171",
+        "VariableID:6:172",
+        "VariableID:6:173",
+        "VariableID:6:174",
+        "VariableID:6:175",
+        "VariableID:6:176",
+        "VariableID:6:177",
+        "VariableID:6:178",
+        "VariableID:6:179",
+        "VariableID:6:180",
+        "VariableID:6:181",
+        "VariableID:6:182",
+        "VariableID:6:183",
+        "VariableID:6:184",
+        "VariableID:6:185",
+        "VariableID:6:186",
+        "VariableID:6:187",
+        "VariableID:6:188",
+        "VariableID:6:189",
+        "VariableID:6:190",
+        "VariableID:6:191",
+        "VariableID:6:192",
+        "VariableID:6:193",
+        "VariableID:6:194",
+        "VariableID:6:195",
+        "VariableID:6:196",
+        "VariableID:6:197",
+        "VariableID:6:198",
+        "VariableID:6:199",
+        "VariableID:6:200",
+        "VariableID:6:201",
+        "VariableID:6:202",
+        "VariableID:6:203",
+        "VariableID:6:204",
+        "VariableID:6:205",
+        "VariableID:6:206",
+        "VariableID:6:207",
+        "VariableID:6:208",
+        "VariableID:6:209",
+        "VariableID:6:210",
+        "VariableID:6:211",
+        "VariableID:6:212",
+        "VariableID:6:213",
+        "VariableID:6:214",
+        "VariableID:6:215",
+        "VariableID:6:216",
+        "VariableID:6:217",
+        "VariableID:6:218",
+        "VariableID:6:219",
+        "VariableID:6:220",
+        "VariableID:6:221",
+        "VariableID:6:222",
+        "VariableID:6:223",
+        "VariableID:6:224",
+        "VariableID:6:225",
+        "VariableID:6:226",
+        "VariableID:6:227",
+        "VariableID:6:228",
+        "VariableID:6:229",
+        "VariableID:6:230",
+        "VariableID:6:231",
+        "VariableID:6:232",
+        "VariableID:6:233",
+        "VariableID:6:234",
+        "VariableID:6:235",
+        "VariableID:6:236",
+        "VariableID:6:237",
+        "VariableID:6:238",
+        "VariableID:6:239",
+        "VariableID:6:240",
+        "VariableID:6:241",
+        "VariableID:6:242",
+        "VariableID:6:243",
+        "VariableID:6:244",
+        "VariableID:6:245",
+        "VariableID:6:246",
+        "VariableID:6:247",
+        "VariableID:6:248",
+        "VariableID:6:249",
+        "VariableID:6:250",
+        "VariableID:6:251",
+        "VariableID:6:252",
+        "VariableID:6:253",
+        "VariableID:6:254"
+      ]
+    },
+    {
+      "id": "VariableCollectionId:11:2",
+      "name": "component",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "11:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "11:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "11:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "11:3"
+        }
+      ],
+      "variableIds": [
+        "VariableID:11:3",
+        "VariableID:11:6",
+        "VariableID:11:8",
+        "VariableID:11:41",
+        "VariableID:11:42",
+        "VariableID:11:59",
+        "VariableID:11:62",
+        "VariableID:11:79",
+        "VariableID:11:21",
+        "VariableID:11:35",
+        "VariableID:11:38",
+        "VariableID:11:40",
+        "VariableID:11:36",
+        "VariableID:11:46",
+        "VariableID:11:47",
+        "VariableID:11:48",
+        "VariableID:11:53",
+        "VariableID:11:56",
+        "VariableID:11:58",
+        "VariableID:11:65",
+        "VariableID:11:66",
+        "VariableID:11:68",
+        "VariableID:11:71",
+        "VariableID:11:74",
+        "VariableID:11:84",
+        "VariableID:11:85",
+        "VariableID:11:91",
+        "VariableID:11:92",
+        "VariableID:11:93",
+        "VariableID:11:94",
+        "VariableID:11:95",
+        "VariableID:11:96",
+        "VariableID:11:98",
+        "VariableID:11:99",
+        "VariableID:11:100",
+        "VariableID:11:101",
+        "VariableID:11:102",
+        "VariableID:11:104",
+        "VariableID:11:105",
+        "VariableID:11:107",
+        "VariableID:11:108",
+        "VariableID:11:110",
+        "VariableID:11:112",
+        "VariableID:11:119",
+        "VariableID:11:121",
+        "VariableID:11:125",
+        "VariableID:11:126"
+      ]
+    },
+    {
+      "id": "VariableCollectionId:78:53",
+      "name": "tab",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "78:4"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "78:5"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "78:6"
+        },
+        {
+          "name": "Personas",
+          "modeId": "78:7"
+        }
+      ],
+      "variableIds": [
+        "VariableID:78:54",
+        "VariableID:78:55",
+        "VariableID:78:56",
+        "VariableID:78:57",
+        "VariableID:78:58",
+        "VariableID:78:59",
+        "VariableID:78:60",
+        "VariableID:78:61",
+        "VariableID:78:62",
+        "VariableID:78:63",
+        "VariableID:78:64",
+        "VariableID:78:65",
+        "VariableID:78:66",
+        "VariableID:78:67",
+        "VariableID:78:68",
+        "VariableID:78:69",
+        "VariableID:78:70",
+        "VariableID:78:71",
+        "VariableID:78:72",
+        "VariableID:78:73",
+        "VariableID:78:74",
+        "VariableID:78:75",
+        "VariableID:78:76",
+        "VariableID:78:77",
+        "VariableID:78:78",
+        "VariableID:78:79",
+        "VariableID:78:80",
+        "VariableID:78:81",
+        "VariableID:78:82",
+        "VariableID:78:83",
+        "VariableID:78:84",
+        "VariableID:78:85",
+        "VariableID:78:86",
+        "VariableID:78:87",
+        "VariableID:78:88",
+        "VariableID:78:89",
+        "VariableID:78:90",
+        "VariableID:78:91",
+        "VariableID:78:92",
+        "VariableID:78:93",
+        "VariableID:78:94",
+        "VariableID:78:95",
+        "VariableID:78:96"
+      ]
+    }
+  ],
+  "readOnly": true
+}

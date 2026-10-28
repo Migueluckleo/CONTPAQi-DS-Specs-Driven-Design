@@ -1,0 +1,53 @@
+{
+  "viewport": {
+    "width": 865,
+    "height": 565
+  },
+  "frameId": "82:400",
+  "cases": [
+    {
+      "name": "underline-normal",
+      "point": [
+        68,
+        246
+      ],
+      "action": "pointer-enter via click then pointer-exit to blank canvas",
+      "hoverScreenshot": "underline-normal-hover.jpg",
+      "returnScreenshot": "underline-normal-return.jpg",
+      "ax": "Browser tab: 3, Title: \"Blue Heart DS - Tabs\", URL: \"https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400\".\n0 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400\n\t1 container react-page\n\t\t2 container\n\t\t\t3 container Prototype controls\n\t\t\t21 container\n\t\t\t\t22 text Screenreader support is currently disabled. To enable it, use the Accessibility settings from the Options menu.\n\t\t\t\t23 container Pages\n\t\t\t\t\t24 button Restart\n\t\t\t\t\t\t25 image\n\t\t\t\t\t\t26 text Restart\n\nThe focused UI element is 0 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400"
+    },
+    {
+      "name": "underline-selected",
+      "point": [
+        276,
+        246
+      ],
+      "action": "pointer-enter via click then pointer-exit to blank canvas",
+      "hoverScreenshot": "underline-selected-hover.jpg",
+      "returnScreenshot": "underline-selected-return.jpg",
+      "ax": "Browser tab: 3, Title: \"Blue Heart DS - Tabs\", URL: \"https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400\".\n0 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400\n\t1 container react-page\n\t\t2 container\n\t\t\t3 container Prototype controls\n\t\t\t21 container\n\t\t\t\t22 text Screenreader support is currently disabled. To enable it, use the Accessibility settings from the Options menu.\n\t\t\t\t23 container Pages\n\t\t\t\t\t24 button Restart\n\t\t\t\t\t\t25 image\n\t\t\t\t\t\t26 text Restart\n\nThe focused UI element is 0 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400"
+    },
+    {
+      "name": "pill-normal",
+      "point": [
+        484,
+        242
+      ],
+      "action": "pointer-enter via click then pointer-exit to blank canvas",
+      "hoverScreenshot": "pill-normal-hover.jpg",
+      "returnScreenshot": "pill-normal-return.jpg",
+      "ax": "Browser tab: 3, Title: \"Blue Heart DS - Tabs\", URL: \"https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400\".\n0 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400\n\t1 container react-page\n\t\t2 container\n\t\t\t3 container Prototype controls\n\t\t\t21 container\n\t\t\t\t22 text Screenreader support is currently disabled. To enable it, use the Accessibility settings from the Options menu.\n\t\t\t\t23 container Pages\n\t\t\t\t\t24 button Restart\n\t\t\t\t\t\t25 image\n\t\t\t\t\t\t26 text Restart\n\nThe focused UI element is 0 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400"
+    },
+    {
+      "name": "pill-selected",
+      "point": [
+        692,
+        242
+      ],
+      "action": "pointer-enter via click then pointer-exit to blank canvas",
+      "hoverScreenshot": "pill-selected-hover.jpg",
+      "returnScreenshot": "pill-selected-return.jpg",
+      "ax": "Browser tab: 3, Title: \"Blue Heart DS - Tabs\", URL: \"https://www.figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400\".\n0 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400\n\t1 container react-page\n\t\t2 container\n\t\t\t3 container Prototype controls\n\t\t\t21 container\n\t\t\t\t22 text Screenreader support is currently disabled. To enable it, use the Accessibility settings from the Options menu.\n\t\t\t\t23 container Pages\n\t\t\t\t\t24 button Restart\n\t\t\t\t\t\t25 image\n\t\t\t\t\t\t26 text Restart\n\nThe focused UI element is 0 AXWebArea Blue Heart DS - Tabs, URL: figma.com/proto/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=82-400&starting-point-node-id=82%3A400"
+    }
+  ]
+}

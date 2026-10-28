@@ -1,0 +1,2042 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:6:229",
+      "key": "8dca44f7e6fc3bd6117b5b3c22470ca8be02f249",
+      "name": "spacing-lg",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:82"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-lg)"
+      },
+      "description": "Alias semántico normalizado a spacing-16. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:230",
+      "key": "98427675b88b2cf9027243209ca968aae3ed18c4",
+      "name": "spacing-xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:83"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-xl)"
+      },
+      "description": "Alias semántico normalizado a spacing-24. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:231",
+      "key": "812b7cd672712b16f32bd6185b752b477e67967c",
+      "name": "spacing-2xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:84"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-2xl)"
+      },
+      "description": "Alias semántico normalizado a spacing-32. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:232",
+      "key": "0c47598792e164cd9b369f3aa52b0efefaa0c860",
+      "name": "spacing-3xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:85"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-3xl)"
+      },
+      "description": "Alias semántico normalizado a spacing-40. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:233",
+      "key": "912ce9ea9e369a0d28d49c8f4a09a5b96c5d0079",
+      "name": "spacing-4xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:86"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-4xl)"
+      },
+      "description": "Alias semántico normalizado a spacing-48. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:234",
+      "key": "fde1c8baa4d5ff0dc6450f63102feaac619ad4fc",
+      "name": "size-xs",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:72"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-xs)"
+      },
+      "description": "Alias semántico normalizado a size-4. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:235",
+      "key": "d04fdac3a7ee7cf087c1e2a166be38e55666dec3",
+      "name": "size-sm",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:64"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-sm)"
+      },
+      "description": "Alias semántico normalizado a size-8. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:236",
+      "key": "86d4b58016877253298c7e6dff8ef6404508fd3b",
+      "name": "size-lg",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:65"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-lg)"
+      },
+      "description": "Alias semántico normalizado a size-16. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:237",
+      "key": "a6d0dc8624fe4edf9347b5a563e0abb447c1a2f4",
+      "name": "radius-xs",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:73"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-xs)"
+      },
+      "description": "Alias semántico normalizado a radius-2. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:238",
+      "key": "d70727cb9f48c7db642741237c7e10ce3751785a",
+      "name": "size-2xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:66"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-2xl)"
+      },
+      "description": "Alias semántico normalizado a size-24. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:239",
+      "key": "5055c89d0affb25aaf238dfec27fc4502aea2729",
+      "name": "size-3xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:67"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-3xl)"
+      },
+      "description": "Alias semántico normalizado a size-32. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:240",
+      "key": "45f0a049e2338fb8f7d0f3a96bdc9f8e99090123",
+      "name": "size-4xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:68"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-4xl)"
+      },
+      "description": "Alias semántico normalizado a size-40. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:241",
+      "key": "2ad94f3f85bbdd4f511a378f4c2d3526afccd042",
+      "name": "size-5xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:69"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-5xl)"
+      },
+      "description": "Alias semántico normalizado a size-48. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:242",
+      "key": "548b450b1f8fdca7e4a804ceafea7297268aa7d9",
+      "name": "size-6xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:70"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-6xl)"
+      },
+      "description": "Alias semántico normalizado a size-56. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:243",
+      "key": "7ace9a35bc1a0bd09b6713aff54a85dbad932172",
+      "name": "size-7xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:71"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-7xl)"
+      },
+      "description": "Alias semántico normalizado a size-64. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:244",
+      "key": "ec87c9b5601df4c2e66a9221ea507aecdbdcee2f",
+      "name": "radius-sm",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:74"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-sm)"
+      },
+      "description": "Alias semántico normalizado a radius-4. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:245",
+      "key": "8c11e0abd1c5dbcbd9b7704f5fa9235b58ca43bb",
+      "name": "radius-md",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:75"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-md)"
+      },
+      "description": "Alias semántico normalizado a radius-8. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:246",
+      "key": "d63b28dfc244d1d518b1737b422bc45cf364c806",
+      "name": "radius-lg",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:76"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-lg)"
+      },
+      "description": "Alias semántico normalizado a radius-12. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:247",
+      "key": "3ef8146b1d4e615047bfdc4d6cabc8b01082588a",
+      "name": "radius-xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:77"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-xl)"
+      },
+      "description": "Alias semántico normalizado a radius-16. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:248",
+      "key": "8f810c81c6c1bf6dc7f21cd902e45e7db7ecd5c9",
+      "name": "radius-2xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:78"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-2xl)"
+      },
+      "description": "Alias semántico normalizado a radius-24. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:249",
+      "key": "18fecb861c0152ee7b963c6a45ca09b082d108a9",
+      "name": "radius-3xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:32"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-3xl)"
+      },
+      "description": "Alias semántico normalizado a radius-32. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:250",
+      "key": "d517a07efee1785dcb9184435708aedcb084ec32",
+      "name": "radius-full",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:79"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-full)"
+      },
+      "description": "Alias semántico normalizado a radius-9999. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:251",
+      "key": "42faa8d88fa1d2ddb36a01690a60954bb2a7dae8",
+      "name": "size-xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:129"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-xl)"
+      },
+      "description": "Alias semántico normalizado a size-20. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:252",
+      "key": "20911965b3331e0511d55111215fae0408ca8498",
+      "name": "stroke-lg",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:130"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--stroke-lg)"
+      },
+      "description": "Alias semántico normalizado a stroke-4. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:253",
+      "key": "039b6ba6cba29037c321d01a6be798aa40b6e0ea",
+      "name": "stroke-xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:131"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--stroke-xl)"
+      },
+      "description": "Alias semántico normalizado a stroke-6. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:6:254",
+      "key": "960414c4c72c25d7bf64c478b7ff08f21eacd2a6",
+      "name": "stroke-2xl",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:6:148",
+      "scopes": [],
+      "valuesByMode": {
+        "6:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:132"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--stroke-2xl)"
+      },
+      "description": "Alias semántico normalizado a stroke-8. Sin scopes de aplicación."
+    },
+    {
+      "id": "VariableID:11:3",
+      "key": "5f07b3d3f87f13c99ae98f1fcaeef74047caac0c",
+      "name": "button/color/bg/danger-default",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-danger-bg)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:6",
+      "key": "2fc1b29d62a71df803cb6fc86beab82bf243f3b8",
+      "name": "button/color/bg/danger-hover",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:189"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:189"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:189"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:189"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-danger-bg-hover)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:8",
+      "key": "3de62bdf3a29b942170e54d83b6447b8842f9645",
+      "name": "button/color/bg/danger-pressed",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:190"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:190"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:190"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:190"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-danger-bg-pressed)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:21",
+      "key": "d502c73c55be4f9d37b79c26bdf5075c7d24651b",
+      "name": "button/color/stroke/focus",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-focus-stroke)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:35",
+      "key": "9a40eae7191dd5ec4562aa29647147ab5e7fb854",
+      "name": "button/color/bg/primary-default",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-primary-bg)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:36",
+      "key": "f3b57c7933291db5bc39615910ec434315eb5cbf",
+      "name": "button/color/bg/disabled",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-bg-disabled)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:38",
+      "key": "6546007a5fa4b11c295f415e9a45ec8a925c4bae",
+      "name": "button/color/bg/primary-hover",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-primary-bg-hover)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:40",
+      "key": "e525a24fb517e461f99fec11b836f18586352eff",
+      "name": "button/color/bg/primary-pressed",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:156"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:165"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:179"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:186"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-primary-bg-pressed)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:41",
+      "key": "65bc2192007999a700faafe6e8eff544309fc398",
+      "name": "button/color/icon/inverse",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-icon-inverse)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:42",
+      "key": "2bb743df5618c34f28157f5abc7d5ac280e1b05c",
+      "name": "button/color/icon/disabled",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-icon-disabled)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:46",
+      "key": "8db3d7332b8c42c8111ad133f19c87d4808ed81f",
+      "name": "button/color/loader (temporal)/inverse",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-loader-inverse)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:47",
+      "key": "ef851fb0ae44c4c50739170f215fa0f9462e0d1e",
+      "name": "button/color/text/inverse",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-text-inverse)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:48",
+      "key": "75ba006f067907d35a8c068f7270941018434c1b",
+      "name": "button/color/text/disabled",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-text-disabled)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:53",
+      "key": "a14a084ea364256e522a3264fd54f464e55e49cb",
+      "name": "button/color/bg/secondary-default",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-bg-surface)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:56",
+      "key": "58c307fa5402b50474d2f440c46b1fac3b0bb0cd",
+      "name": "button/color/bg/secondary-hover",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:151"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:161"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:175"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:180"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-bg-soft)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:58",
+      "key": "313528f32ed58a9bdda3b0d58f17b37432cb5f51",
+      "name": "button/color/bg/secondary-pressed",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:152"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:162"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:176"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:181"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-bg-accent)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:59",
+      "key": "3c6538bd610ade83612c6571fbbd98e36dc1e9b0",
+      "name": "button/color/icon/brand",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-icon-brand)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:62",
+      "key": "07c3d68fbcab8a611da716626cd7e12781440be4",
+      "name": "button/color/icon/brand-hover",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:165"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-icon-brand-hover)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:65",
+      "key": "36a47c4328a6e7e4e976661bd3075a1befc35ef7",
+      "name": "button/color/stroke/brand",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-stroke-brand)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:66",
+      "key": "6027579ca210e0f073c6b443a1f60668ae27fe49",
+      "name": "button/color/stroke/disabled",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-stroke-disabled)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:68",
+      "key": "c5c8ab4cf85b8500c46685fb8159719a828c986b",
+      "name": "button/color/stroke/brand-hover",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-stroke-brand-emphasis)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:71",
+      "key": "f0b0e62f40fbe233ca6ce2ce9eaaaddfb18e0b13",
+      "name": "button/color/text/brand",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-text-brand)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:74",
+      "key": "46e38be765adbcf5a15c2a1d045d6228cd1eebf9",
+      "name": "button/color/text/brand-hover",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-text-brand-emphasis)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:79",
+      "key": "f32e85631a522427d22474ce1fffb040e44e9323",
+      "name": "button/color/icon/neutral",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-icon-neutral)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:84",
+      "key": "c262e1e810aab529de7457240805aa112bf4baa3",
+      "name": "button/color/loader (temporal)/neutral",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-loader-neutral)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:85",
+      "key": "0ab640592aeb45cd49317b32009b4fce95040910",
+      "name": "button/color/text/neutral",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-button-text-neutral)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:91",
+      "key": "bd79c13e4e51b0cf48505cb173d8ac40d193a529",
+      "name": "button/font/family",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-button-label-family)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:92",
+      "key": "08156ec6e64aac76379b002b05e69c0c2ed273db",
+      "name": "button/font/letter-spacing",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-button-label-letter-spacing)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:93",
+      "key": "5391877a46046d300be3ffa67d7e750dd3de2473",
+      "name": "button/font/line-hight",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-button-label-line-height)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:94",
+      "key": "2e34d58868a518d5485c4eaf902e6994da67c0b4",
+      "name": "button/font/label-style",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-button-label-style)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:95",
+      "key": "c7f5afa6c38a84e1b3cb52bb08f34146d42a74bc",
+      "name": "button/font/size-regular",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:201"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:201"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:201"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:201"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-button-large-label-size)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:96",
+      "key": "d7e8b888d6bfa8bcfa98b35f8778975e6076b137",
+      "name": "button/font/size-compact",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-button-compact-label-size)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:98",
+      "key": "57d5a59e9e13f4a0c1cee85b2c6d5217812bc982",
+      "name": "button/font/weight",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-button-text-label-style)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:99",
+      "key": "55d90a3bc846c389e178991a59c34fe43b278f0b",
+      "name": "button/radius/container",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-button-container)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:100",
+      "key": "834928a9ede34a619df82bcbef4f6b262d04bc49",
+      "name": "button/radius/focus",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-button-focus)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:101",
+      "key": "db17b70e682ad15469cfea8d27598aad57b592d4",
+      "name": "button/size/height-large",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:241"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:241"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:241"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:241"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-button-large-height)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:102",
+      "key": "8d8d83f61fc3c27b583d7c9b9eadec582f2fa226",
+      "name": "button/size/content-large",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-button-large-content)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:104",
+      "key": "6fb9e78c5f83780ada34b13d2becffc98ce51d4b",
+      "name": "button/size/height-medium",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:240"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:240"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:240"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:240"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-button-medium-height)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:105",
+      "key": "3e8dc8bd1caca5fc846f6c9c2472d6812d1520fe",
+      "name": "button/size/content-medium",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-button-medium-content)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:107",
+      "key": "0136dcef48f5476ca92f4587a9518f8b1fbfd540",
+      "name": "button/size/height-small",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:239"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:239"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:239"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:239"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-button-small-height)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:108",
+      "key": "3e2d41ca3ac9e901e26f59ab84c5d69c9e0de920",
+      "name": "button/size/content-small",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-button-small-content)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:110",
+      "key": "784fb836b882a3e64c3c1e92d7d849957b1525f1",
+      "name": "button/spacing/sm",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-button-sm)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:112",
+      "key": "d1493f392f45ff7096d11486868c8bf4ce4830b1",
+      "name": "button/spacing/xs",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-button-xs)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:119",
+      "key": "fcfad7832af4b2177f94a10a964297ad5a43686a",
+      "name": "button/spacing/lg",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-button-lg)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:121",
+      "key": "82626017f5ae884d373f874c463bdda5bc466401",
+      "name": "button/spacing/md",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-button-md)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:125",
+      "key": "0630bfb8e4ac4de7396291c4a1fe06a76b38537a",
+      "name": "button/border/width-regular",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--stroke-button-border-width)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:11:126",
+      "key": "49a6b3277e8ded372384d9c3217decf573b96338",
+      "name": "button/border/width-emphasis",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:11:2",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "valuesByMode": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--stroke-button-emphasis-width)"
+      },
+      "description": "Button: token compartido por propiedad y aliases idénticos en los cuatro temas. Estados y variantes se resuelven en la receta, sin duplicar variables."
+    },
+    {
+      "id": "VariableID:78:54",
+      "key": "88f2ab98682ccd4762bb2ee6c870f03391605871",
+      "name": "tab/border/width-emphasis",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--border-tab-width-emphasis)"
+      },
+      "description": "Tab: border / width-emphasis; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:55",
+      "key": "48c8b2810f0c13a3951f35be9ef3c5f7d811e0a8",
+      "name": "tab/border/width-regular",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--border-tab-width-regular)"
+      },
+      "description": "Tab: border / width-regular; firma consolidada conforme a BH-P07."
+    }
+  ],
+  "total": 341,
+  "readOnly": true
+}

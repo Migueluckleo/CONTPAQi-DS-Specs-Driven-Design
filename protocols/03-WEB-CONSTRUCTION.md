@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "BH-P03",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
@@ -31,7 +31,7 @@
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "relation": "uses"
     },
     {

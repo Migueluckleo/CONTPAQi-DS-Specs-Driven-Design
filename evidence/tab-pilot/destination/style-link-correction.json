@@ -1,0 +1,1616 @@
+{
+  "mutatedNodeIds": [
+    "79:117",
+    "79:123",
+    "79:128",
+    "79:134",
+    "81:4",
+    "81:10",
+    "81:15",
+    "81:21",
+    "81:26",
+    "81:32",
+    "81:37",
+    "81:43",
+    "81:48",
+    "81:54",
+    "81:59",
+    "81:65",
+    "81:70",
+    "81:75",
+    "81:80",
+    "81:86",
+    "81:91",
+    "81:96",
+    "81:101",
+    "81:107",
+    "78:103"
+  ],
+  "mutatedStyleIds": [
+    "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+    "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+    "S:6e1759078c3460888c0b7572ea9c09275e70de08,"
+  ],
+  "nodes": [
+    {
+      "id": "79:117",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "79:123",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:75"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "79:128",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "79:134",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:4",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:71"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:10",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:71"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:15",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:71"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:21",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:26",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:32",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:75"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:37",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:43",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:48",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:71"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:54",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:72"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:59",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:71"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:65",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:70",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:75",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:75"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:80",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:76"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:86",
+      "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:79"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:91",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:75"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:96",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:75"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:101",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:75"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "81:107",
+      "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:73"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:85"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:83"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:82"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 24,
+      "height": 20
+    },
+    {
+      "id": "78:103",
+      "textStyleId": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "boundVariables": {
+        "fills": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:74"
+          }
+        ],
+        "letterSpacing": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:80"
+          }
+        ],
+        "fontSize": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:84"
+          }
+        ],
+        "fontStyle": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:77"
+          }
+        ],
+        "fontFamily": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:78"
+          }
+        ],
+        "lineHeight": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:78:81"
+          }
+        ]
+      },
+      "fontName": {
+        "family": "Manrope",
+        "style": "Bold",
+        "variationSettings": {
+          "wght": 700
+        }
+      },
+      "fontSize": 10,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 16
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "width": 5,
+      "height": 16
+    }
+  ],
+  "styles": [
+    {
+      "id": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+      "name": "tab/label/regular",
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:80"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:85"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:79"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:78"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:82"
+        }
+      }
+    },
+    {
+      "id": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+      "name": "tab/label/selected",
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:80"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:85"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:83"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:78"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:82"
+        }
+      }
+    },
+    {
+      "id": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+      "name": "tab/count",
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:80"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:84"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:77"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:78"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:78:81"
+        }
+      }
+    }
+  ]
+}

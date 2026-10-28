@@ -1,0 +1,1318 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:78:56",
+      "key": "42053b97ab2f8b09bb8b70c14345b7eb3d3b2b34",
+      "name": "tab/color/bg/brand-accent",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:152"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:162"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:176"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:181"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-brand-accent)"
+      },
+      "description": "Tab: color / bg / brand-accent; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:57",
+      "key": "3ff781b9e0ced5cd883707a13a6532ee93717aba",
+      "name": "tab/color/bg/brand-subtle",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:151"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:161"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:175"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:180"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-brand-subtle)"
+      },
+      "description": "Tab: color / bg / brand-subtle; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:58",
+      "key": "6665b77009b0cd0e8771514d3a06c182e90acbad",
+      "name": "tab/color/bg/count",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-count)"
+      },
+      "description": "Tab: color / bg / count; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:59",
+      "key": "36e26eb47b31e7a2bf2bd390c277b742ef713349",
+      "name": "tab/color/bg/muted",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-muted)"
+      },
+      "description": "Tab: color / bg / muted; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:60",
+      "key": "921450f4824611c46a080e35468d6ac24d967295",
+      "name": "tab/color/bg/subtle",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-subtle)"
+      },
+      "description": "Tab: color / bg / subtle; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:61",
+      "key": "f271ebb723008234a5f6942049ed7c4912825c44",
+      "name": "tab/color/bg/surface",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-surface)"
+      },
+      "description": "Tab: color / bg / surface; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:62",
+      "key": "7cb5ca300223d7d0c03ae57d8688481152ae234b",
+      "name": "tab/color/icon/brand",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-icon-brand)"
+      },
+      "description": "Tab: color / icon / brand; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:63",
+      "key": "9659a240f39e59221a317c73d510ecd5b728b1e5",
+      "name": "tab/color/icon/disabled",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-icon-disabled)"
+      },
+      "description": "Tab: color / icon / disabled; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:64",
+      "key": "958377a3c98ea0520081eee4b1bad51095b8cdf2",
+      "name": "tab/color/icon/primary",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-icon-primary)"
+      },
+      "description": "Tab: color / icon / primary; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:65",
+      "key": "ce7d1b15669edc4f513ab307a02f0c242f5380e1",
+      "name": "tab/color/icon/secondary",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-icon-secondary)"
+      },
+      "description": "Tab: color / icon / secondary; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:66",
+      "key": "3ca3af3e537b863d086bd347eb705d998e142f29",
+      "name": "tab/color/stroke/brand",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-brand)"
+      },
+      "description": "Tab: color / stroke / brand; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:67",
+      "key": "2685f7c5ac9ca276ad44e9610131c835fea79707",
+      "name": "tab/color/stroke/brand-hover",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-brand-hover)"
+      },
+      "description": "Tab: color / stroke / brand-hover; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:68",
+      "key": "9659c9c1d8961c47827b3b62865a015c6bd8bd27",
+      "name": "tab/color/stroke/focus",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-focus)"
+      },
+      "description": "Tab: color / stroke / focus; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:69",
+      "key": "8b89acd5ec6683717949404f763d08e622609b22",
+      "name": "tab/color/stroke/neutral",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-neutral)"
+      },
+      "description": "Tab: color / stroke / neutral; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:70",
+      "key": "3212ad1730f4a5ebbefee2c88454465a076b16aa",
+      "name": "tab/color/stroke/surface",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-surface)"
+      },
+      "description": "Tab: color / stroke / surface; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:71",
+      "key": "88366c6b1e895fa33196f365cfcd54101a68aa55",
+      "name": "tab/color/text/brand",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-brand)"
+      },
+      "description": "Tab: color / text / brand; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:72",
+      "key": "3a28c09290ddf19b787d78952722367bf0e879b7",
+      "name": "tab/color/text/brand-hover",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-brand-hover)"
+      },
+      "description": "Tab: color / text / brand-hover; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:73",
+      "key": "9880851d226e3adfdb286b7dfdd4cd82e3c611d8",
+      "name": "tab/color/text/disabled",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-disabled)"
+      },
+      "description": "Tab: color / text / disabled; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:74",
+      "key": "f18ac84e1ce17882e16363ca4c844d855be4ce8d",
+      "name": "tab/color/text/inverse",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-inverse)"
+      },
+      "description": "Tab: color / text / inverse; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:75",
+      "key": "61b9cd201bae592f1a1bc5af601f8aaa0d8992d3",
+      "name": "tab/color/text/primary",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-primary)"
+      },
+      "description": "Tab: color / text / primary; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:76",
+      "key": "6bbd071d778d1b3dea7fc4acb6f8cc330f1727cb",
+      "name": "tab/color/text/secondary",
+      "type": "COLOR",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-secondary)"
+      },
+      "description": "Tab: color / text / secondary; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:77",
+      "key": "c997ff04cc56f0714630a4e6946afc2277fc82d5",
+      "name": "tab/font/count-style",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-count-style)"
+      },
+      "description": "Tab: font / count-style; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:78",
+      "key": "03404a2ad78dd080622856b12e1123df8a4012e2",
+      "name": "tab/font/family",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-family)"
+      },
+      "description": "Tab: font / family; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:79",
+      "key": "0b9c11efafa4642c70d0229de43b9aa6b18967cc",
+      "name": "tab/font/label-style",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-label-style)"
+      },
+      "description": "Tab: font / label-style; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:80",
+      "key": "6674a9ecb7ed74fbc4e141a4786c5317fccd5784",
+      "name": "tab/font/letter-spacing",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-letter-spacing)"
+      },
+      "description": "Tab: font / letter-spacing; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:81",
+      "key": "f09ab9b72da44994f0b60a12fb232dd8cc8b17d5",
+      "name": "tab/font/line-height-count",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-line-height-count)"
+      },
+      "description": "Tab: font / line-height-count; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:82",
+      "key": "91642ba7344c49e7b2110c83742720e71ed567ca",
+      "name": "tab/font/line-height-label",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-line-height-label)"
+      },
+      "description": "Tab: font / line-height-label; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:83",
+      "key": "3436876781598bc4363f19579fd867227fd1d7e5",
+      "name": "tab/font/selected-style",
+      "type": "STRING",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-selected-style)"
+      },
+      "description": "Tab: font / selected-style; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:84",
+      "key": "7afb0deaca5786ab06f9fd51e0070a1883881dce",
+      "name": "tab/font/size-count",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-size-count)"
+      },
+      "description": "Tab: font / size-count; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:85",
+      "key": "0f05223f11687865a5150e52d4d86100bb7f83f9",
+      "name": "tab/font/size-label",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--font-tab-size-label)"
+      },
+      "description": "Tab: font / size-label; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:86",
+      "key": "5605bb9674f0c8140418c8bf9213586a9c9afd93",
+      "name": "tab/radius/full",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-tab-full)"
+      },
+      "description": "Tab: radius / full; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:87",
+      "key": "d85da439feb207234fa27b8f4938a0ff6b761a4f",
+      "name": "tab/radius/lg",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-tab-lg)"
+      },
+      "description": "Tab: radius / lg; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:88",
+      "key": "4f4d5a3e13af9c4d466cf5828f9291d7b1e32dd5",
+      "name": "tab/radius/md",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-tab-md)"
+      },
+      "description": "Tab: radius / md; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:89",
+      "key": "cb02d8a691e5eb742a483c1e01a02e538401ef2c",
+      "name": "tab/radius/sm",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--radius-tab-sm)"
+      },
+      "description": "Tab: radius / sm; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:90",
+      "key": "a46f9e7cbe3a83fc8bb1bcab26b5a8dd74103eea",
+      "name": "tab/size/count",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-tab-count)"
+      },
+      "description": "Tab: size / count; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:91",
+      "key": "ebeea9157128ea3535a13045872a2fa04c38f5ab",
+      "name": "tab/size/icon",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--size-tab-icon)"
+      },
+      "description": "Tab: size / icon; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:92",
+      "key": "7061aea2b11dc954c8675e7a6f36b451fd37662d",
+      "name": "tab/spacing/lg",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-tab-lg)"
+      },
+      "description": "Tab: spacing / lg; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:93",
+      "key": "1da740854bb0305d2c6392140664426f4798b671",
+      "name": "tab/spacing/md",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-tab-md)"
+      },
+      "description": "Tab: spacing / md; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:94",
+      "key": "6846c844f25a1b11dc3ae28f6329cc0ef6e6121d",
+      "name": "tab/spacing/none",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-tab-none)"
+      },
+      "description": "Tab: spacing / none; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:95",
+      "key": "c78e58e0de5804a8bb1be02c1d65377c07b2a778",
+      "name": "tab/spacing/sm",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-tab-sm)"
+      },
+      "description": "Tab: spacing / sm; firma consolidada conforme a BH-P07."
+    },
+    {
+      "id": "VariableID:78:96",
+      "key": "926d4ce62f57364ee53868333df2f4dd60b02dc9",
+      "name": "tab/spacing/xs",
+      "type": "FLOAT",
+      "collectionId": "VariableCollectionId:78:53",
+      "scopes": [
+        "GAP"
+      ],
+      "valuesByMode": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--spacing-tab-xs)"
+      },
+      "description": "Tab: spacing / xs; firma consolidada conforme a BH-P07."
+    }
+  ],
+  "total": 341,
+  "readOnly": true
+}

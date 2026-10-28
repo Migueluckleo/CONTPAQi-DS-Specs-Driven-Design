@@ -1,0 +1,10 @@
+{
+  "geometry_absolute_tolerance": 0.0001,
+  "color_absolute_tolerance": 1e-06,
+  "identity_alias_scope_comparison": "exact",
+  "derived_width": "HUG from measured text, padding, visible children and gaps; not fixed source sample width",
+  "contrast": "sRGB relative luminance; enabled normal text >=4.5:1; disabled excluded; background explicit",
+  "independent_review": "NOT_RUN; single implementing/verifying agent; no independent gate claim",
+  "rendered_srgb_channel_tolerance": 1,
+  "pixel_sampling": "Flat background at local x=4, y=height/2; 8-bit sRGB rounding; no antialiased text pixels"
+}

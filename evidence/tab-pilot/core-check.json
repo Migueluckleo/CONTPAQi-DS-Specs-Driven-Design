@@ -1,0 +1,41 @@
+{
+  "collections": 4,
+  "component_token_minimum": {
+    "BUTTON-001@2.0.0": {
+      "component_tokens": 47,
+      "distinct_signatures": 47,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "BUTTON-001@2.0.1": {
+      "component_tokens": 47,
+      "distinct_signatures": 47,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "TAB-001@1.0.0": {
+      "component_tokens": 43,
+      "distinct_signatures": 43,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    }
+  },
+  "contracts": 11,
+  "deferred": [
+    "figma-write-adapter",
+    "react-library",
+    "graphify-adapter",
+    "persistent-agent-office",
+    "release-publication"
+  ],
+  "graphify_required": false,
+  "mode_contexts": 16,
+  "scope": "Infrastructure and registered normative content; not design or implementation QA",
+  "snapshot": "4122120998d5e71aa98e60a0abeab68036d752e04e50ae2df0719b71f5156eda",
+  "status": "PASS",
+  "token_sets": 2,
+  "tokens": 341
+}

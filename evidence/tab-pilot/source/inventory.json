@@ -1,0 +1,1039 @@
+{
+  "identity": {
+    "id": "1183:1146",
+    "name": "tab",
+    "type": "COMPONENT_SET",
+    "key": "3fbabad3e0521532b6055ea2e5de2f74de4b2693",
+    "parent": {
+      "id": "9059:29341",
+      "type": "FRAME",
+      "name": "Tab component"
+    },
+    "page": {
+      "id": "268:20245",
+      "name": "❖ Tabs"
+    },
+    "width": 416,
+    "height": 424
+  },
+  "description": "Tab es la pestaña individual que permite cambiar entre vistas o secciones relacionadas dentro de un mismo contexto, sin salir de la página.\n\n\nCuándo usarlo\nPara organizar contenido relacionado en secciones del mismo nivel.\nNormalmente se usa dentro de tabs; úsalo suelto solo para armar grupos personalizados.\n\n\nTipos\nunderline: navegación principal entre secciones de una página. Indicador inferior de 2 px.\npill: filtros o subsecciones dentro de un contenido. Fondo color/surface/brand al seleccionarse.\nsegmented: alternar entre 2–5 vistas de un mismo dato (p. ej. lista / tarjetas). Tab seleccionado en blanco con elevation/shadow/sm.\n\n\nEstados: default, hover, focus (anillo color/focus/ring) y disabled.\nTipografía: SemiBold cuando selected=true, Regular cuando selected=false.\n\n\nPropiedades\nLabel: texto de la pestaña. Corto (1–2 palabras).\nShow icon / Icon: icono Phosphor opcional antes del texto (apagado por defecto).\nShow badge: contador opcional (apagado por defecto).\n\n\nAccesibilidad\nrole=\"tab\" con aria-selected; el contenedor usa role=\"tablist\".\nNavegación con flechas ← → entre pestañas; Tab mueve el foco al panel.\nNo uses solo color para indicar la selección: el peso de fuente y el indicador/fondo la refuerzan.",
+  "properties": {
+    "Label#9058:0": {
+      "type": "TEXT",
+      "defaultValue": "Tab"
+    },
+    "Show icon#9058:25": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Icon#9058:50": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "4334:1074",
+      "preferredValues": []
+    },
+    "Show badge#9058:75": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "type": {
+      "type": "VARIANT",
+      "defaultValue": "underline",
+      "variantOptions": [
+        "underline",
+        "segmented",
+        "pill"
+      ]
+    },
+    "selected": {
+      "type": "VARIANT",
+      "defaultValue": "false",
+      "variantOptions": [
+        "true",
+        "false"
+      ]
+    },
+    "state": {
+      "type": "VARIANT",
+      "defaultValue": "default",
+      "variantOptions": [
+        "default",
+        "disabled",
+        "hover",
+        "focus"
+      ]
+    }
+  },
+  "coverage": {
+    "discovered": 151,
+    "inspected": 151,
+    "pending": 0,
+    "invisible": 48,
+    "byType": {
+      "COMPONENT_SET": 1,
+      "COMPONENT": 24,
+      "INSTANCE": 48,
+      "VECTOR": 24,
+      "TEXT": 48,
+      "FRAME": 6
+    }
+  },
+  "nodeIds": [
+    "1183:1146",
+    "1183:1147",
+    "9058:299",
+    "I9058:299;8899:16466",
+    "9058:301",
+    "9058:302",
+    "I9058:302;1133:31555",
+    "1183:1151",
+    "9058:304",
+    "I9058:304;8899:16466",
+    "9058:306",
+    "9058:307",
+    "I9058:307;1133:31555",
+    "1183:1159",
+    "9058:309",
+    "I9058:309;8899:16466",
+    "9058:311",
+    "9058:312",
+    "I9058:312;1133:31555",
+    "9058:314",
+    "1183:1163",
+    "9058:315",
+    "I9058:315;8899:16466",
+    "9058:317",
+    "9058:318",
+    "I9058:318;1133:31555",
+    "1183:1155",
+    "9058:278",
+    "I9058:278;8899:16466",
+    "9058:280",
+    "9058:281",
+    "I9058:281;1133:31555",
+    "1334:8323",
+    "9058:283",
+    "I9058:283;8899:16466",
+    "9058:285",
+    "9058:286",
+    "I9058:286;1133:31555",
+    "1334:8329",
+    "9058:288",
+    "I9058:288;8899:16466",
+    "9058:290",
+    "9058:291",
+    "I9058:291;1133:31555",
+    "9058:293",
+    "1334:8365",
+    "9058:294",
+    "I9058:294;8899:16466",
+    "9058:296",
+    "9058:297",
+    "I9058:297;1133:31555",
+    "1308:5394",
+    "9058:362",
+    "I9058:362;8899:16466",
+    "9058:364",
+    "9058:365",
+    "I9058:365;1133:31555",
+    "1308:5498",
+    "9058:341",
+    "I9058:341;8899:16466",
+    "9058:343",
+    "9058:344",
+    "I9058:344;1133:31555",
+    "1339:8387",
+    "9058:346",
+    "I9058:346;8899:16466",
+    "9058:348",
+    "9058:349",
+    "I9058:349;1133:31555",
+    "9058:351",
+    "1308:5519",
+    "9058:352",
+    "I9058:352;8899:16466",
+    "9058:354",
+    "9058:355",
+    "I9058:355;1133:31555",
+    "1339:8406",
+    "9058:325",
+    "I9058:325;8899:16466",
+    "9058:327",
+    "9058:328",
+    "I9058:328;1133:31555",
+    "1334:8380",
+    "9058:330",
+    "I9058:330;8899:16466",
+    "9058:332",
+    "9058:333",
+    "I9058:333;1133:31555",
+    "1308:5512",
+    "9058:335",
+    "I9058:335;8899:16466",
+    "9058:337",
+    "9058:338",
+    "I9058:338;1133:31555",
+    "9058:340",
+    "1339:8413",
+    "9058:357",
+    "I9058:357;8899:16466",
+    "9058:359",
+    "9058:360",
+    "I9058:360;1133:31555",
+    "1308:5505",
+    "9058:320",
+    "I9058:320;8899:16466",
+    "9058:322",
+    "9058:323",
+    "I9058:323;1133:31555",
+    "9058:229",
+    "9058:367",
+    "I9058:367;8899:16466",
+    "9058:369",
+    "9058:370",
+    "I9058:370;1133:31555",
+    "9058:234",
+    "9058:372",
+    "I9058:372;8899:16466",
+    "9058:374",
+    "9058:375",
+    "I9058:375;1133:31555",
+    "9058:377",
+    "9058:239",
+    "9058:378",
+    "I9058:378;8899:16466",
+    "9058:380",
+    "9058:381",
+    "I9058:381;1133:31555",
+    "9058:244",
+    "9058:383",
+    "I9058:383;8899:16466",
+    "9058:385",
+    "9058:386",
+    "I9058:386;1133:31555",
+    "9058:249",
+    "9058:388",
+    "I9058:388;8899:16466",
+    "9058:390",
+    "9058:391",
+    "I9058:391;1133:31555",
+    "9058:254",
+    "9058:393",
+    "I9058:393;8899:16466",
+    "9058:395",
+    "9058:396",
+    "I9058:396;1133:31555",
+    "9058:398",
+    "9058:259",
+    "9058:399",
+    "I9058:399;8899:16466",
+    "9058:401",
+    "9058:402",
+    "I9058:402;1133:31555"
+  ],
+  "variantIds": [
+    "1183:1147",
+    "1183:1151",
+    "1183:1159",
+    "1183:1163",
+    "1183:1155",
+    "1334:8323",
+    "1334:8329",
+    "1334:8365",
+    "1308:5394",
+    "1308:5498",
+    "1339:8387",
+    "1308:5519",
+    "1339:8406",
+    "1334:8380",
+    "1308:5512",
+    "1339:8413",
+    "1308:5505",
+    "9058:229",
+    "9058:234",
+    "9058:239",
+    "9058:244",
+    "9058:249",
+    "9058:254",
+    "9058:259"
+  ],
+  "instances": [
+    {
+      "id": "9058:299",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:302",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:304",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:307",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:309",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:312",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:315",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:318",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:278",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:281",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:283",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:286",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:288",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:291",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:294",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:297",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:362",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:365",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:341",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:344",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:346",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:349",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:352",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:355",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:325",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:328",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:330",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:333",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:335",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:338",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:357",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:360",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:320",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:323",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:367",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:370",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:372",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:375",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:378",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:381",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:383",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:386",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:388",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:391",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:393",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:396",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    },
+    {
+      "id": "9058:399",
+      "name": "Icon",
+      "main": {
+        "id": "4334:1074",
+        "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+        "name": "Format=Outline, Weight=Light",
+        "remote": true,
+        "parent": {
+          "id": "4334:1071",
+          "type": "COMPONENT_SET",
+          "name": "ImageSquare"
+        }
+      }
+    },
+    {
+      "id": "9058:402",
+      "name": "Badge",
+      "main": {
+        "id": "1133:31554",
+        "key": "06df8e9033e095bd1ca776691d73501daf5fdda9",
+        "name": "type=count, size=medium",
+        "remote": false,
+        "parent": {
+          "id": "1133:31549",
+          "type": "COMPONENT_SET",
+          "name": "dot"
+        }
+      }
+    }
+  ],
+  "variableIds": [
+    "VariableID:562:13",
+    "VariableID:562:11",
+    "VariableID:562:12",
+    "VariableID:5401:76",
+    "VariableID:8871:11",
+    "VariableID:2849:196139",
+    "VariableID:2849:196117",
+    "VariableID:2845:160910",
+    "VariableID:2845:160893",
+    "VariableID:2845:160888",
+    "VariableID:2845:160887",
+    "VariableID:2845:160902",
+    "VariableID:1098:28491",
+    "VariableID:562:19",
+    "VariableID:562:9",
+    "VariableID:559:7",
+    "VariableID:2849:196145",
+    "VariableID:8917:10",
+    "VariableID:2849:196123",
+    "VariableID:5401:77",
+    "VariableID:2845:160891",
+    "VariableID:2845:160901",
+    "VariableID:559:9",
+    "VariableID:2849:196128",
+    "VariableID:2849:196138",
+    "VariableID:2849:196116",
+    "VariableID:562:3",
+    "VariableID:2849:196132",
+    "VariableID:2849:196147",
+    "VariableID:2849:196119",
+    "VariableID:2849:197279",
+    "VariableID:2849:196141",
+    "VariableID:2849:196121",
+    "VariableID:2845:160890",
+    "VariableID:2988:9",
+    "VariableID:9021:2090",
+    "VariableID:562:4",
+    "VariableID:2849:196105",
+    "VariableID:562:5",
+    "VariableID:2849:196107",
+    "VariableID:2849:196108",
+    "VariableID:2988:16",
+    "VariableID:562:10",
+    "VariableID:2849:196106",
+    "VariableID:3069:15806",
+    "VariableID:3069:15807",
+    "VariableID:2849:196104"
+  ],
+  "styleIds": [
+    "S:25ef67cc8ec9e717aac7e608c7eb71b126ebdac6,"
+  ],
+  "explicitVariableModes": {},
+  "resolvedVariableModes": {
+    "VariableCollectionId:52:690": "52:0",
+    "VariableCollectionId:52:726": "52:2"
+  },
+  "readOnly": true
+}

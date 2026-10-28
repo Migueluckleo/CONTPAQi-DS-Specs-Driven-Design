@@ -208,6 +208,27 @@
         "path": "evidence/authorization/secondary-focus-size-request.txt",
         "sha256": "008dc71c861dc7696d54809e7d70b4b46472919fbef04b1e7e909f06ac09a1c9"
       }
+    },
+    {
+      "id": "ADR-015",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El usuario encarga la familia Tab del nodo 1183:1146 en Blue Heart DS con los criterios existentes de contratos MD y tokens mínimos por scope. Autoriza selected segmented blanco con texto oscuro en default/hover/focus conservando sombra/anillo, y texto de marca más oscuro en pill selected/hover para corregir contraste. Se adopta TAB-001 1.0.0, una colección tab con los cuatro temas y TAB-TOKENS 1.0.0 sin duplicar foundations. Solo Tab individual y su dependencia Count activa privada; no la familia contenedora Tabs ni React. Se retiran las referencias operativas que fijaban el piloto Button como identidad/versión global y se actualizan sus dependencias exactas, conservando un archivo por protocolo. Button y el origen permanecen intactos.",
+      "scope": [
+        "TAB-001",
+        "TAB-TOKENS",
+        "tab-family-figma-pilot",
+        "BH-P01",
+        "BH-P02",
+        "BH-P03",
+        "BH-P04",
+        "BH-P05",
+        "BH-P08"
+      ],
+      "source": {
+        "path": "evidence/authorization/tab-pilot-request.txt",
+        "sha256": "a01ef90b7236d87a5cf1c1fa1dcc872b5924b206515a3e306aae0ae6b2d6a586"
+      }
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/phosphor-icons/react",
+  "source_url": "https://github.com/phosphor-icons/react/blob/master/src/csr/ImageSquare.tsx",
+  "blob_sha": "d0e11c56125881a30c54c74754b31344de6e7b5b",
+  "export": "ImageSquareIcon",
+  "package": "@phosphor-icons/react",
+  "ssr_package": "@phosphor-icons/react/ssr",
+  "weight": "light",
+  "verification": "Official source exports ImageSquareIcon; rendering remains delegated to the official package. No icon paths copied.",
+  "matching_export_lines": [
+    "I.displayName = \"ImageSquareIcon\";",
+    "/** @deprecated Use ImageSquareIcon */",
+    "export const ImageSquare = I;",
+    "export { I as ImageSquareIcon };"
+  ]
+}

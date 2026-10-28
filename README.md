@@ -1,6 +1,6 @@
 # Blue Heart DS
 
-Núcleo modular y piloto Button. Python 3.9+ y biblioteca estándar; no requiere instalación, Figma, React ni Graphify para verificar su núcleo. El flujo de envíos y sus pruebas usan también Git.
+Núcleo modular y familias Button y Tab. Python 3.9+ y biblioteca estándar; no requiere instalación, Figma, React ni Graphify para verificar su núcleo. El flujo de envíos y sus pruebas usan también Git.
 
 ```sh
 python3 -B -m blueheart check
@@ -16,17 +16,17 @@ Los comandos del núcleo son de lectura; la CLI separada de BH-P08 escribe notas
 
 `governance/policy.json` es el propietario de políticas de fase, capas, QA y roles; `governance/decisions.json` conserva decisiones con actor, alcance y fuente verificable. `norms/catalog.json` es la única selección explícita de contenido normativo por identidad, versión y SHA-256. `schemas/` define la estructura; `blueheart/` implementa invariantes y consulta; `evidence/` conserva observaciones/comprobantes; `tests/` contiene casos sintéticos aislados. `auditoria/` conserva el análisis previo, sin incorporarlo al catálogo de normas.
 
-El objetivo es consumir contratos MD trazables desde Skills para construir PoCs y prototipos Figma. Hay nueve contratos vigentes: `BUTTON-001@2.0.1` y ocho contratos operativos; el catálogo conserva también Button 2.0.0 como versión histórica. También hay un conjunto de 298 tokens: 145 primitivas, 106 semánticos y 47 tokens Button. La [guía de consumo](consumption/button/README.md) reúne la consulta mínima y el mapa real de Figma. Las responsabilidades y módulos diferidos se consultan con `describe`; React y Graphify siguen diferidos.
+El objetivo es consumir contratos MD trazables desde Skills para construir PoCs y prototipos Figma. Hay diez contratos vigentes: `BUTTON-001@2.0.1`, `TAB-001@1.0.0` y ocho contratos operativos; el catálogo conserva también Button 2.0.0 como versión histórica. Hay dos conjuntos con 341 tokens: 145 primitivas, 106 semánticos, 47 tokens Button y 43 tokens Tab; las foundations y Button se conservan. Las guías de consumo de [Button](consumption/button/README.md) y [Tab](consumption/tab/README.md) reúnen la consulta mínima y sus mapas reales de Figma. Las responsabilidades y módulos diferidos se consultan con `describe`; React y Graphify siguen diferidos.
 
 ## Protocolos de construcción
 
 El [índice de protocolos](protocols/README.md) dirige a ocho contratos operativos registrados: contrato y fuentes, Figma, React/TypeScript/Tailwind/Next.js, QA, mantenimiento, iconografía Phosphor, minimización de tokens por componente y gobierno de GitHub/releases. Son adaptaciones locales de los protocolos recuperados; las [copias exactas y procedencia](evidence/protocol-recovery/manifest.json) quedan separadas como evidencia.
 
-Los protocolos se probaron y ajustaron con Button, autorizado por ADR-006 para documentación y Figma. El [contrato MD](norms/components/button.2.0.1.md) gobierna diseño y función; los snapshots observacionales y mapas son derivados con procedencia. No se importaron contratos ni permisos históricos.
+Los protocolos se probaron y ajustaron con Button (ADR-006) y Tab (ADR-015), autorizados para documentación y Figma. El [contrato MD](norms/components/button.2.0.1.md) gobierna diseño y función; los snapshots observacionales y mapas son derivados con procedencia. No se importaron contratos ni permisos históricos.
 
 ## Contratos y perfiles
 
-El formato soportado es Markdown con frontmatter **JSON entre delimitadores `---`**. JSON es un subconjunto de YAML 1.2; esta implementación acepta únicamente ese subconjunto explícito, sin parser YAML propio. Los esquemas comunes y por perfil (`foundation`, `component`, `pattern`, `operational`) son la autoridad estructural. La fase habilita Foundations y el componente Button; no autoriza otras familias o implementaciones web.
+El formato soportado es Markdown con frontmatter **JSON entre delimitadores `---`**. JSON es un subconjunto de YAML 1.2; esta implementación acepta únicamente ese subconjunto explícito, sin parser YAML propio. Los esquemas comunes y por perfil (`foundation`, `component`, `pattern`, `operational`) son la autoridad estructural. La fase habilita Foundations, Button y Tab individual por sus decisiones explícitas; no autoriza otras familias o implementaciones web.
 
 Cada requisito se declara una vez en el cuerpo bajo `### REQ-ID`; sus metadatos contienen fuerza, procedencia, fuentes y aceptación. Identidad y requisitos deben coincidir exactamente. Un contrato elegible necesita decisión adoptada con alcance a su ID y fuentes íntegras; `APPROVED` exige actor humano. Los requisitos inferidos necesitan adopción específica. Los estados documental, autoridad, preparación y QA permanecen distintos. La herramienta no interpreta intención de producto ni valida semánticamente todos los requisitos.
 
@@ -52,7 +52,7 @@ El validador implementa solo el vocabulario JSON Schema utilizado aquí: tipos, 
 
 `check` acredita estructura, identidad, autoridad declarada, integridad, resolución y límites de fase de los datos registrados. No demuestra accesibilidad, comportamiento, fidelidad visual, acceso Figma ni QA de una implementación. Las reglas de revisión humana y QA proporcional se consultan en la política; los planes de QA incluyen controles manuales cuando son necesarios.
 
-La auditoría Figma guarda observaciones fuera de `norms/`; ni un inventario ni una propuesta de normalización activan contenido normativo. El archivo origen y el proyecto anterior permanecen en solo lectura. ADR-004 permitió aplicar 145 primitivas y 106 semánticos. ADR-006 amplía el alcance exclusivamente al piloto Button: página Buttons, 5 sets, 90 variantes y 47 tokens de componente. El [comprobante del piloto](evidence/qa/button-pilot-check.json) separa QA Figma de responsabilidades del consumidor y de las pruebas del núcleo.
+La auditoría Figma guarda observaciones fuera de `norms/`; ni un inventario ni una propuesta de normalización activan contenido normativo. El archivo origen y el proyecto anterior permanecen en solo lectura. ADR-004 permitió aplicar 145 primitivas y 106 semánticos. ADR-006 autorizó el piloto Button: página Buttons, 5 sets, 90 variantes y 47 tokens de componente. El [comprobante del piloto](evidence/qa/button-pilot-check.json) separa QA Figma de responsabilidades del consumidor y de las pruebas del núcleo.
 
 ## Reproducir la auditoría observada
 
@@ -67,3 +67,5 @@ La [nomenclatura obligatoria de variables de componente](protocols/07-COMPONENT-
 ## Envíos y versiones de componentes
 
 [BH-P08](protocols/08-GITHUB-RELEASE-DOCUMENTATION.md) es el propietario del flujo de registros previos al envío y control de compatibilidad de componentes. [docs/releases/](docs/releases/README.md) contiene comandos y configuración. El repositorio de publicación autorizado es [CONTPAQi-DS-Specs-Driven-Design](https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design). Actions valida cada envío y exporta su PDF condensado junto al receipt; el resumen de ejecución enlaza la descarga. La protección efectiva se consulta en los rulesets de GitHub. ADR-012 autoriza publicación del repositorio y sus controles; las releases oficiales requieren autorización específica.
+
+La [guía de consumo de Tab](consumption/tab/README.md) enlaza su [contrato operativo](norms/components/tab.1.0.0.md), la proyección mínima y su QA. ADR-015 amplía el encargo a esta familia; las referencias a Button en ejemplos históricos no seleccionan identidad o versión de Tab. Los seis protocolos afectados actualizan sus revisiones/pines exactos sin duplicar archivos ni reglas.

@@ -1,0 +1,318 @@
+{
+  "records": [
+    {
+      "mode": "Contable",
+      "type": "pill",
+      "id": "82:262",
+      "before": {
+        "mainId": "79:14",
+        "properties": {
+          "Show badge#79:175": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "Icon#79:150": {
+            "type": "INSTANCE_SWAP",
+            "value": "79:75",
+            "preferredValues": []
+          },
+          "Show icon#79:125": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "Label#79:100": {
+            "type": "TEXT",
+            "value": "Ventas"
+          },
+          "type": {
+            "value": "pill",
+            "type": "VARIANT",
+            "boundVariables": {}
+          },
+          "selected": {
+            "value": "true",
+            "type": "VARIANT",
+            "boundVariables": {}
+          },
+          "state": {
+            "value": "default",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        }
+      },
+      "mainId": "79:15",
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Ventas"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "hover",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Administrativo",
+      "type": "pill",
+      "id": "82:288",
+      "before": {
+        "mainId": "79:14",
+        "properties": {
+          "Show badge#79:175": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "Icon#79:150": {
+            "type": "INSTANCE_SWAP",
+            "value": "79:75",
+            "preferredValues": []
+          },
+          "Show icon#79:125": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "Label#79:100": {
+            "type": "TEXT",
+            "value": "Ventas"
+          },
+          "type": {
+            "value": "pill",
+            "type": "VARIANT",
+            "boundVariables": {}
+          },
+          "selected": {
+            "value": "true",
+            "type": "VARIANT",
+            "boundVariables": {}
+          },
+          "state": {
+            "value": "default",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        }
+      },
+      "mainId": "79:15",
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Ventas"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "hover",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Servicios",
+      "type": "pill",
+      "id": "82:314",
+      "before": {
+        "mainId": "79:14",
+        "properties": {
+          "Show badge#79:175": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "Icon#79:150": {
+            "type": "INSTANCE_SWAP",
+            "value": "79:75",
+            "preferredValues": []
+          },
+          "Show icon#79:125": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "Label#79:100": {
+            "type": "TEXT",
+            "value": "Ventas"
+          },
+          "type": {
+            "value": "pill",
+            "type": "VARIANT",
+            "boundVariables": {}
+          },
+          "selected": {
+            "value": "true",
+            "type": "VARIANT",
+            "boundVariables": {}
+          },
+          "state": {
+            "value": "default",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        }
+      },
+      "mainId": "79:15",
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Ventas"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "hover",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Personas",
+      "type": "pill",
+      "id": "82:340",
+      "before": {
+        "mainId": "79:14",
+        "properties": {
+          "Show badge#79:175": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "Icon#79:150": {
+            "type": "INSTANCE_SWAP",
+            "value": "79:75",
+            "preferredValues": []
+          },
+          "Show icon#79:125": {
+            "type": "BOOLEAN",
+            "value": false
+          },
+          "Label#79:100": {
+            "type": "TEXT",
+            "value": "Ventas"
+          },
+          "type": {
+            "value": "pill",
+            "type": "VARIANT",
+            "boundVariables": {}
+          },
+          "selected": {
+            "value": "true",
+            "type": "VARIANT",
+            "boundVariables": {}
+          },
+          "state": {
+            "value": "default",
+            "type": "VARIANT",
+            "boundVariables": {}
+          }
+        }
+      },
+      "mainId": "79:15",
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Ventas"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "hover",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    }
+  ],
+  "mutatedNodeIds": [
+    "82:262",
+    "82:288",
+    "82:314",
+    "82:340"
+  ]
+}

@@ -11,7 +11,7 @@ Para preparar contratos o construir componentes, consultar el índice `protocols
 
 Los perfiles de agentes están definidos en la política. Se activan por encargo, con entradas, alcance y aceptación explícitos. No representan procesos persistentes ni autorizan delegación por sí mismos.
 
-El alcance vigente es el piloto Button autorizado por ADR-006: contrato MD de diseño y comportamiento, tokens de componente con scope y construcción/QA en su propia página del destino. El Figma origen y el proyecto anterior siguen en solo lectura. No importar contratos históricos ni implementar React por este encargo. Graphify y los adaptadores generales continúan diferidos.
+El alcance vigente comprende Button (ADR-006) y Tab individual (ADR-015): contratos MD de diseño y comportamiento, tokens de componente con scope y construcción/QA en sus propias páginas del destino. El Figma origen y el proyecto anterior siguen en solo lectura. No importar contratos históricos ni implementar React por este encargo. Graphify y los adaptadores generales continúan diferidos.
 
 La selección de iconografía está en ADR-007 y `protocols/06-PHOSPHOR-ICONS.md`: Phosphor del equipo en Figma y paquete oficial en desarrollo, sin copias vectoriales locales.
 
@@ -26,3 +26,5 @@ ADR-011 registra ocho contratos operativos con propietario MD único. Consultar 
 ADR-013 elimina las aprobaciones obligatorias para integrar en main; las condiciones de PR, CI y notas siguen en REQ-P08-05. Las revisiones voluntarias no son un requisito de GitHub.
 
 ADR-014 adopta Button 2.0.1 y la corrección de Secondary focus en REQ-PROTOTYPE. La guía de consumo enlaza la proyección vigente de recetas y el comprobante de esa corrección; el baseline y la prueba 2.0.0 se conservan como historia.
+
+ADR-015 incorpora TAB-001 1.0.0 y TAB-TOKENS 1.0.0: 24 variantes, 43 firmas mínimas y cuatro temas. Sus dos correcciones autorizadas están en REQ-SEGMENTED y REQ-CONTRAST. La dependencia Count es privada de Tab; no se habilita la familia contenedora Tabs ni React.

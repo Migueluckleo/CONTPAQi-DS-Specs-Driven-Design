@@ -17,37 +17,37 @@
     },
     {
       "id": "BH-P01",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "path": "protocols/01-COMPONENT-CONTRACT.md",
-      "sha256": "7ea07daefa454d659b3912de48192df7eb9bc1edccae3502bfde494ef3433daf",
+      "sha256": "52f7321a885179f328883b5ab7e56932bf756f0180b14985815f9c340107d961",
       "current": true
     },
     {
       "id": "BH-P02",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "path": "protocols/02-FIGMA-CONSTRUCTION.md",
-      "sha256": "3803d3c1a6a0e27bbc70cb9194238a03ff42a9421c3290e50c70b15c334e4e63",
+      "sha256": "3e8a01d621388fe0bada1af4489765da440da26414b68869406dfe89d46a9173",
       "current": true
     },
     {
       "id": "BH-P03",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "path": "protocols/03-WEB-CONSTRUCTION.md",
-      "sha256": "85963c24ed44c6f84db8f9ebcf7819ee8afd1dae3e39ec55a926c87c5e64675b",
+      "sha256": "6bed93e553f20451958b868ee390bd4a441b3c9d82c468d2cec5bee875e58a4a",
       "current": true
     },
     {
       "id": "BH-P04",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "path": "protocols/04-QA-AND-DELIVERY.md",
-      "sha256": "5319c313cce55463e9bd8aad4386a577fc5b247e3417fe9c7d2b3c8149b362eb",
+      "sha256": "48b02732a6d11fc5e920bc46a8616b9c3d3b05831eb766e2c50317af0a1dc2ce",
       "current": true
     },
     {
       "id": "BH-P05",
-      "version": "2.0.0",
+      "version": "2.0.1",
       "path": "protocols/05-MAINTENANCE-AND-RELEASES.md",
-      "sha256": "c5f4619fac2912fe9251dd7a9483c2fc93cc071a762c70fbd43122552c46525d",
+      "sha256": "336e071b9b1d05aac2c059c093ebc60fdd3cfb73be39c572768d92766510142b",
       "current": true
     },
     {
@@ -66,9 +66,16 @@
     },
     {
       "id": "BH-P08",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "path": "protocols/08-GITHUB-RELEASE-DOCUMENTATION.md",
-      "sha256": "5209851fd35c1c1b3f8783483985814e4d134e0b4f7a95eefd735673981f08b6",
+      "sha256": "dfe88e9bfe159acb353685f335aa3cf0be9886dcaad94de272ce813fe9a23850",
+      "current": true
+    },
+    {
+      "id": "TAB-001",
+      "version": "1.0.0",
+      "path": "norms/components/tab.1.0.0.md",
+      "sha256": "1148c2a12aff33eb3d526f32633c68f6cab20a0fcaf75fb7fb9bac3bfa33f2ce",
       "current": true
     }
   ],
@@ -78,6 +85,13 @@
       "version": "2.0.0",
       "path": "norms/tokens/blueheart.2.0.0.json",
       "sha256": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29",
+      "current": true
+    },
+    {
+      "id": "TAB-TOKENS",
+      "version": "1.0.0",
+      "path": "norms/tokens/tab.1.0.0.json",
+      "sha256": "140c5c062a65a9b4ec28b171b6b1d67e69264f38535320d274e5f82198cbccab",
       "current": true
     }
   ]

@@ -1,0 +1,13 @@
+2026-10-27 | Solicitud directa del usuario
+
+Fuente Figma: https://www.figma.com/design/9zs5RMR8LB5wHjW9Bd59BA/Libreria-v1.1.0?node-id=1183-1146&t=uOnMZmjRKQ1mvCPz-11
+
+Ahora haremos estos elementos, sigue los mismos criterios para creación de Tokens de Componente y documentación que hemos venido usando, por favor garantiza que todo quede correcto.
+
+Aclaración del usuario: Ojo no es un botón, es una tab.
+
+Decisión explícita del usuario ante la discrepancia de segmented: Normalizar selected a fondo blanco y texto oscuro en default/hover/focus, conservando sombra y anillo (recomendado).
+
+Alcance: familia Tab en Blue Heart DS; fuente y proyecto original solo lectura. Se mantienen los criterios operativos existentes de contratos, tokens mínimos, Phosphor, QA y publicación autorizada. No se solicita una biblioteca React ni la familia contenedora Tabs.
+
+Segunda decisión explícita del usuario ante los contrastes inferiores a 4.5:1 de pill selected/hover: Color de marca más oscuro para ese texto; conserva el color de marca y requiere 43 tokens en total (recomendado).

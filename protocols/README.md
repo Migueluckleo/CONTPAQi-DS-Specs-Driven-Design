@@ -4,14 +4,14 @@ Ocho propietarios Markdown, registrados por ID, versión y hash en [norms/catalo
 
 | ID | Propietario único | Versión |
 |---|---|---|
-| BH-P01 | [01-COMPONENT-CONTRACT](01-COMPONENT-CONTRACT.md) | 2.0.0 |
-| BH-P02 | [02-FIGMA-CONSTRUCTION](02-FIGMA-CONSTRUCTION.md) | 2.0.0 |
-| BH-P03 | [03-WEB-CONSTRUCTION](03-WEB-CONSTRUCTION.md) | 2.0.0 |
-| BH-P04 | [04-QA-AND-DELIVERY](04-QA-AND-DELIVERY.md) | 2.0.0 |
-| BH-P05 | [05-MAINTENANCE-AND-RELEASES](05-MAINTENANCE-AND-RELEASES.md) | 2.0.0 |
+| BH-P01 | [01-COMPONENT-CONTRACT](01-COMPONENT-CONTRACT.md) | 2.0.1 |
+| BH-P02 | [02-FIGMA-CONSTRUCTION](02-FIGMA-CONSTRUCTION.md) | 2.0.1 |
+| BH-P03 | [03-WEB-CONSTRUCTION](03-WEB-CONSTRUCTION.md) | 2.0.1 |
+| BH-P04 | [04-QA-AND-DELIVERY](04-QA-AND-DELIVERY.md) | 2.0.1 |
+| BH-P05 | [05-MAINTENANCE-AND-RELEASES](05-MAINTENANCE-AND-RELEASES.md) | 2.0.1 |
 | BH-P06 | [06-PHOSPHOR-ICONS](06-PHOSPHOR-ICONS.md) | 2.0.0 |
 | BH-P07 | [07-COMPONENT-TOKENS](07-COMPONENT-TOKENS.md) | 2.0.0 |
-| BH-P08 | [08-GITHUB-RELEASE-DOCUMENTATION](08-GITHUB-RELEASE-DOCUMENTATION.md) | 1.2.0 |
+| BH-P08 | [08-GITHUB-RELEASE-DOCUMENTATION](08-GITHUB-RELEASE-DOCUMENTATION.md) | 1.2.1 |
 
 Consultar solo el contrato del encargo y sus dependencias: `python3 -B -m blueheart context BH-P02`. `check` verifica estructura, autoridad, fuentes, hashes y cierre; no ejecuta Figma ni acredita QA de destinos. Los protocolos se consultan por tarea, sin añadir los ocho al contexto de cada componente. El contrato Button conserva diseño y función; los protocolos gobiernan el trabajo. Los valores permanecen en su conjunto de tokens.
 
@@ -38,3 +38,5 @@ Se elimina el acoplamiento entre un cambio local y reconstruir grafo, catálogo,
 ADR-009 hace obligatorio BH-P07 para cada componente nuevo o modificado. La regla se aplica por familia; 47 es el resultado de Button, no un cupo global. `check` y `context` bloquean la ingesta de firmas redundantes declaradas.
 
 ADR-010 fija la nomenclatura Figma con componente primero: `button/color/bg/primary-default`, `button/font/family` y `button/size/height-medium`. BH-P07 es el propietario de la regla; nombres CSS, rutas Figma e identidades se mantienen separados.
+
+ADR-015 amplía el encargo a Tab individual. Las revisiones 2.0.1 de BH-P01/P02 y sus consumidores retiran la selección fija del piloto y actualizan dependencias exactas; BH-P08 1.2.1 conserva sus controles. Las reglas de minimización y nomenclatura de BH-P07 no cambian.

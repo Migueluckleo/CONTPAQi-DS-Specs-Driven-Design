@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "id": "TAB-PILOT-QA-20261027",
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decision": "ADR-015",
+  "request": "evidence/authorization/tab-pilot-request.txt",
+  "contract": {
+    "id": "TAB-001",
+    "version": "1.0.0",
+    "path": "norms/components/tab.1.0.0.md",
+    "sha256": "1148c2a12aff33eb3d526f32633c68f6cab20a0fcaf75fb7fb9bac3bfa33f2ce"
+  },
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "nodeId": "1183:1146",
+    "access": "READ_ONLY",
+    "original_project": "READ_ONLY; no writes performed"
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "78:97",
+    "componentSetId": "79:26",
+    "reviewFrameId": "82:2",
+    "nativePlaybackFrameId": "82:400"
+  },
+  "results": {
+    "figma_structure_tokens_consumers": "PASS",
+    "native_playback": "PASS",
+    "rendered_theme_backgrounds": "PASS",
+    "core_registered_content": "PASS",
+    "independent_review": "NOT_RUN",
+    "web_implementation": "NOT_APPLICABLE"
+  },
+  "controls": [
+    {
+      "requirement": "REQ-IDENTITY",
+      "expected": [
+        "Un set Tab en su página Tabs, 24 variantes y ausencia de ejes o estados de Button."
+      ],
+      "result": "PASS",
+      "observed": "Tab individual en Tabs; Button preservado",
+      "evidence": "evidence/tab-pilot/destination/final-identity.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-API",
+      "expected": [
+        "Label TEXT, Show icon BOOLEAN, Icon INSTANCE_SWAP y Show badge BOOLEAN; todos operan desde instancias sin editar principales."
+      ],
+      "result": "PASS",
+      "observed": "Siete propiedades; Label, opcionales y swap probados; Count expuesto en 24 variantes",
+      "evidence": "evidence/tab-pilot/destination/final-identity.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-VARIANTS",
+      "expected": [
+        "Producto observado 3 tipos × 2 selecciones × 4 estados = 24; cada combinación es única."
+      ],
+      "result": "PASS",
+      "observed": "24 combinaciones únicas 3×2×4",
+      "evidence": "evidence/tab-pilot/destination/comparison.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-ANATOMY",
+      "expected": [
+        "Orden Icon–Label–Count y Focus ring absoluto en las seis variantes focus."
+      ],
+      "result": "PASS",
+      "observed": "150 nodos mapeados; orden Icon/Label/Badge y seis Focus ring",
+      "evidence": "evidence/tab-pilot/destination/comparison.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-TYPOGRAPHY",
+      "expected": [
+        "Manrope Regular/SemiBold 14/20 en Label y Bold 10/16 en Count; bindings tipográficos completos y fuentes disponibles."
+      ],
+      "result": "PASS",
+      "observed": "48 textos con estilos y variables; Manrope 14/20 y 10/16, pesos 400/600/700",
+      "evidence": "evidence/tab-pilot/destination/style-link-correction.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-TOKENS",
+      "expected": [
+        "43 dependencias directas, 43 firmas únicas, cero redundancias y 1.026 bindings fuente cubiertos por el mapa.",
+        "Todos los tokens aliasan semánticos existentes en cuatro modos, con un solo scope y nombres tab/categoría/propiedad."
+      ],
+      "result": "PASS",
+      "observed": "43 firmas/variables, 1026 bindings, 172 resoluciones; scopes y aliases exactos",
+      "evidence": "evidence/tab-pilot/destination/comparison.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-SELECTION",
+      "expected": [
+        "El ejemplo consumidor mantiene exactamente una Tab seleccionada y muestra su panel correspondiente."
+      ],
+      "result": "PASS",
+      "observed": "Tres transiciones nativas, una selección y un panel correspondiente",
+      "evidence": "evidence/tab-pilot/native/selection-trace.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-INTERACTIONS",
+      "expected": [
+        "Las cuatro reacciones fuente default→hover mantienen type y selected y retornan al salir en el reproductor nativo.",
+        "Las acciones de selección del ejemplo se distinguen de las reacciones del principal."
+      ],
+      "result": "PASS",
+      "observed": "Cuatro hover/retorno nativos; selección solamente en wrappers consumidores",
+      "evidence": "evidence/tab-pilot/native/comparison.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-FOCUS",
+      "expected": [
+        "Seis anillos visibles; ancho/alto siguen al contenedor con margen de 4 px y sobreviven a Label, icono, Count y temas."
+      ],
+      "result": "PASS",
+      "observed": "Seis variantes × cuatro temas con Label largo, icono y Count; margen/crecimiento exactos",
+      "evidence": "evidence/tab-pilot/destination/focus-consumer-stress.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-DISABLED",
+      "expected": [
+        "Seis variantes disabled sin activación ni hover; selected se conserva como estado visual independiente."
+      ],
+      "result": "PASS",
+      "observed": "Seis clics sin cambio; selección disabled conserva panel",
+      "evidence": "evidence/tab-pilot/native/comparison.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-ICONS",
+      "expected": [
+        "Icon es una instancia remota de Phosphor del equipo; swap real mantiene tamaño y color desde tokens, sin copias SVG."
+      ],
+      "result": "PASS",
+      "observed": "Phosphor remoto; swap a PlusCircle conserva 20 px y token de color",
+      "evidence": "evidence/tab-pilot/destination/comparison.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-COUNT",
+      "expected": [
+        "Show badge y Count se modifican desde instancias; 1, 12 y 99+ conservan layout, vínculo y legibilidad."
+      ],
+      "result": "PASS",
+      "observed": "1, 12 y 99+ desde instancia; HUG conserva vínculo, mínimo 16 y legibilidad",
+      "evidence": "evidence/tab-pilot/destination/after-consumers-2.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-LAYOUT",
+      "expected": [
+        "Auto Layout horizontal HUG, gap 8, paddings por tipo, stroke fuera de layout y ausencia de recortes con contenido largo/opcionales."
+      ],
+      "result": "PASS",
+      "observed": "Auto Layout/HUG y geometría; ancho reducido no impone falso shrink; overflow del consumidor",
+      "evidence": "evidence/tab-pilot/destination/focus-consumer-stress.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-ELEVATION",
+      "expected": [
+        "Un único estilo local de efecto compartido en los tres selected segmented activos, con valores iguales a la fuente."
+      ],
+      "result": "PASS",
+      "observed": "Un estilo de efecto en tres selected segmented; disabled sin sombra",
+      "evidence": "evidence/tab-pilot/destination/comparison.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-SEGMENTED",
+      "expected": [
+        "selected segmented default/hover/focus resuelve blanco y Label/icono oscuros en los cuatro temas; sombra, anillo y geometría se conservan."
+      ],
+      "result": "PASS",
+      "observed": "Blanco/oscuro en selected default/hover/focus; siete diferencias autorizadas totales",
+      "evidence": "evidence/tab-pilot/build-plan.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-CONTRAST",
+      "expected": [
+        "Pill selected/hover usa el vector de marca más oscuro en TEXT_FILL; comprobación puntual de Label habilitado ≥4.5:1 sobre los fondos demostrados en cada tema."
+      ],
+      "result": "PASS",
+      "observed": "72 contextos de Label y Count; paints reales de pill hover 5.46–6.68:1",
+      "evidence": "evidence/tab-pilot/destination/comparison.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-CONTENT",
+      "expected": [
+        "Label conserva contenido y HUG al cambiarlo; los valores de prueba no se convierten en límites de producto."
+      ],
+      "result": "PASS",
+      "observed": "Label no vacío y largo; Count como texto sin lógica de negocio",
+      "evidence": "evidence/tab-pilot/destination/focus-consumer-stress.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-ACCESSIBILITY",
+      "expected": [
+        "El contrato registra role=tab, aria-selected, tablist y responsabilidad de teclado/paneles, sin atribuir pruebas DOM a Figma."
+      ],
+      "result": "PASS",
+      "observed": "Cobertura documental y señales visuales verificadas; HTML/ARIA/teclado web fuera de destino",
+      "evidence": "norms/components/tab.1.0.0.md",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    },
+    {
+      "requirement": "REQ-CONSUMPTION",
+      "expected": [
+        "context TAB-001 compacto conserva todos los requisitos y 43 tokens en los cuatro temas; manifiesto enlaza hashes/IDs/keys/properties/QA."
+      ],
+      "result": "PASS",
+      "observed": "Manifiesto por hashes; cuatro contextos completos bajo presupuesto",
+      "evidence": "consumption/tab/manifest.json",
+      "scope": "Figma/documentation; web responsibilities are specified, not implemented"
+    }
+  ],
+  "counts": {
+    "existing_variables_preserved": 298,
+    "total_variables": 341,
+    "component_tokens": 43,
+    "variants": 24,
+    "mapped_nodes": 150,
+    "binding_uses": 1026,
+    "mode_resolutions": 172,
+    "text_style_nodes": 48,
+    "shared_text_styles": 3,
+    "shared_effect_styles": 1
+  },
+  "focus_stress_cases": 24,
+  "contexts": {
+    "contable": {
+      "status": "PASS",
+      "canonical_bytes": 40828,
+      "evidence": "evidence/tab-pilot/context-contable.json"
+    },
+    "administrativo": {
+      "status": "PASS",
+      "canonical_bytes": 41851,
+      "evidence": "evidence/tab-pilot/context-administrativo.json"
+    },
+    "servicios": {
+      "status": "PASS",
+      "canonical_bytes": 41500,
+      "evidence": "evidence/tab-pilot/context-servicios.json"
+    },
+    "personas": {
+      "status": "PASS",
+      "canonical_bytes": 41454,
+      "evidence": "evidence/tab-pilot/context-personas.json"
+    }
+  },
+  "corrections": [
+    {
+      "type": "authorized-source-normalization",
+      "evidence": "evidence/tab-pilot/build-plan.json"
+    },
+    {
+      "type": "shared-text-style-link",
+      "evidence": "evidence/tab-pilot/destination/style-link-correction.json",
+      "protocol": "BH-P02 REQ-P02-03"
+    },
+    {
+      "type": "unpainted-icon-frame-stroke-metadata",
+      "evidence": "evidence/tab-pilot/destination/icon-frame-metadata-correction.json",
+      "geometry": "unchanged"
+    },
+    {
+      "type": "final-themed-instance-state",
+      "evidence": "evidence/tab-pilot/destination/theme-state-reconciliation.json"
+    }
+  ],
+  "preservation": {
+    "existing_variables": 298,
+    "button_sets": 5,
+    "button_variants": 90,
+    "result": "PASS",
+    "evidence": "evidence/tab-pilot/destination/after-preservation.json",
+    "scope": "Full captured variable records; Button metadata, axes, dimensions and reactions. No Button nodes modified."
+  },
+  "evidence_hashes": {
+    "norms/components/tab.1.0.0.md": "1148c2a12aff33eb3d526f32633c68f6cab20a0fcaf75fb7fb9bac3bfa33f2ce",
+    "norms/tokens/tab.1.0.0.json": "140c5c062a65a9b4ec28b171b6b1d67e69264f38535320d274e5f82198cbccab",
+    "norms/tokens/blueheart.2.0.0.json": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29",
+    "consumption/tab/manifest.json": "69362c7e52c15dcb1624ddc5382cf0388c198e4c28e6a54f28eef2bb38f67cd0",
+    "evidence/authorization/tab-pilot-request.txt": "a01ef90b7236d87a5cf1c1fa1dcc872b5924b206515a3e306aae0ae6b2d6a586",
+    "evidence/tab-pilot/build-plan.json": "58e0fb3257ffb02b0397e29a32858c029995082d45eb54ec7bf756b417f1200e",
+    "evidence/tab-pilot/destination/comparison.json": "24af1cfb81476139edf1f075f064eb677de032838830ac33d4ff82a64c325c7d",
+    "evidence/tab-pilot/destination/focus-consumer-stress.json": "ae3a690fa5d0dfb038ac89e54408447ca474ff236dc463b0e83ef17e26766e92",
+    "evidence/tab-pilot/native/comparison.json": "b9e0a3f300da0b5deeeae407f293e54418f5be23cdd4fb7d498db4830dbcc76a",
+    "evidence/tab-pilot/destination/review.png": "c4606ca0cbab7c8f788e0fb1fe871d16966770d8dde75ea36123af254e76a1f5"
+  },
+  "manual_visual_review": {
+    "result": "PASS",
+    "evidence": "evidence/tab-pilot/destination/review.png",
+    "native_cases": "Four hover images plus three selection/panel screenshots visually reviewed"
+  },
+  "limits": [
+    {
+      "status": "NOT_RUN",
+      "gate": "independent-review",
+      "reason": "Single implementing/verifying agent; no independent reviewer used. This gate is not claimed complete."
+    },
+    {
+      "status": "NOT_APPLICABLE",
+      "scope": "React/Next.js, HTML/ARIA, web keyboard, general WCAG certification, business services and public Tabs container",
+      "reason": "Outside authorized destination; consumer duties remain in the MD."
+    },
+    {
+      "status": "NOT_APPLICABLE",
+      "scope": "Figma library publication or official GitHub release",
+      "reason": "Not authorized by this component work."
+    },
+    {
+      "status": "NOT_APPLICABLE",
+      "scope": "Empty Label",
+      "reason": "REQ-CONTENT requires a nonempty accessible label; no icon-only mode is formalized."
+    }
+  ],
+  "distribution_checks": "Local suite, notes coverage and GitHub CI are recorded by BH-P08 notes and per-push CI receipts, not inferred from this Figma QA.",
+  "tools": [
+    {
+      "path": "implementations/figma/tab-builder.js",
+      "sha256": "ec5e39b4c0bfa5c42c1ba6fdbe4cfcfd4526972fa66f48f4e3002bec1be4378e"
+    },
+    {
+      "path": "implementations/figma/tab-consumer-stress.js",
+      "sha256": "2631740c6720ccbec295226571580283b95c81d16da596c09a96d00fa8ee5db9"
+    },
+    {
+      "path": "implementations/figma/tab-inspect.js",
+      "sha256": "4e3e298704910dda7558f5520172f1880268e959a9f4b1bd1a366a22971fcb1b"
+    },
+    {
+      "path": "implementations/figma/tab-materialize.mjs",
+      "sha256": "7c8b77a57bef8ec692e1190a18f9af609792a5d0a7b46f5f4377d27ddf5a5312"
+    },
+    {
+      "path": "implementations/figma/tab-native-verify.py",
+      "sha256": "8f40e1daa84c5d2745832c7b3eae6bb698861f55cc6342369fa90d0919f49804"
+    },
+    {
+      "path": "implementations/figma/tab-plan.py",
+      "sha256": "a6dee43d7870dd84e4873d18efb719679c5aa2446c4d4cc6d2e2a2c767181d52"
+    },
+    {
+      "path": "implementations/figma/tab-showcase.js",
+      "sha256": "a863ffa682bdcf806380872708b8112a13e661746df921281f43b21170ebb0ef"
+    },
+    {
+      "path": "implementations/figma/tab-source-contract.py",
+      "sha256": "428267439198757c285d96b08be22fd351900dae08e80ca0ac23f0d633ae98ff"
+    },
+    {
+      "path": "implementations/figma/tab-verify.py",
+      "sha256": "cbece634a0625f095c25aea3d59a396db2f5f1222ba3e9076a4c76e6bf2499eb"
+    }
+  ]
+}

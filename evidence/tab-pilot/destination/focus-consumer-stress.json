@@ -1,0 +1,3086 @@
+{
+  "records": [
+    {
+      "mode": "Contable",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:216",
+      "mainId": "79:4",
+      "width": 288,
+      "height": 44,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 52,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "underline",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Contable",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:225",
+      "mainId": "79:8",
+      "width": 296,
+      "height": 44,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 304,
+        "height": 52,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "underline",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Contable",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:235",
+      "mainId": "79:12",
+      "width": 288,
+      "height": 36,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 44,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Contable",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:245",
+      "mainId": "79:16",
+      "width": 296,
+      "height": 36,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 304,
+        "height": 44,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Contable",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:254",
+      "mainId": "79:20",
+      "width": 280,
+      "height": 28,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 288,
+        "height": 36,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "segmented",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Contable",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:264",
+      "mainId": "79:24",
+      "width": 288,
+      "height": 28,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 36,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "segmented",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Administrativo",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:273",
+      "mainId": "79:4",
+      "width": 288,
+      "height": 44,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 52,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "underline",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Administrativo",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:281",
+      "mainId": "79:8",
+      "width": 296,
+      "height": 44,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 304,
+        "height": 52,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "underline",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Administrativo",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:289",
+      "mainId": "79:12",
+      "width": 288,
+      "height": 36,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 44,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Administrativo",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:297",
+      "mainId": "79:16",
+      "width": 296,
+      "height": 36,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 304,
+        "height": 44,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Administrativo",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:305",
+      "mainId": "79:20",
+      "width": 280,
+      "height": 28,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 288,
+        "height": 36,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "segmented",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Administrativo",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:313",
+      "mainId": "79:24",
+      "width": 288,
+      "height": 28,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 36,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "segmented",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Servicios",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:321",
+      "mainId": "79:4",
+      "width": 288,
+      "height": 44,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 52,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "underline",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Servicios",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:329",
+      "mainId": "79:8",
+      "width": 296,
+      "height": 44,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 304,
+        "height": 52,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "underline",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Servicios",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:337",
+      "mainId": "79:12",
+      "width": 288,
+      "height": 36,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 44,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Servicios",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:345",
+      "mainId": "79:16",
+      "width": 296,
+      "height": 36,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 304,
+        "height": 44,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Servicios",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:353",
+      "mainId": "79:20",
+      "width": 280,
+      "height": 28,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 288,
+        "height": 36,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "segmented",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Servicios",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:361",
+      "mainId": "79:24",
+      "width": 288,
+      "height": 28,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 36,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "segmented",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Personas",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:369",
+      "mainId": "79:4",
+      "width": 288,
+      "height": 44,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 52,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "underline",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Personas",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:377",
+      "mainId": "79:8",
+      "width": 296,
+      "height": 44,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 304,
+        "height": 52,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "underline",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Personas",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:385",
+      "mainId": "79:12",
+      "width": 288,
+      "height": 36,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 44,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Personas",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:393",
+      "mainId": "79:16",
+      "width": 296,
+      "height": 36,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 304,
+        "height": 44,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "pill",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Personas",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "focus"
+      },
+      "id": "97:401",
+      "mainId": "79:20",
+      "width": 280,
+      "height": 28,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 201,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "Regular",
+          "variationSettings": {
+            "wght": 400
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 288,
+        "height": 36,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "segmented",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "false",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    },
+    {
+      "mode": "Personas",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "focus"
+      },
+      "id": "97:409",
+      "mainId": "79:24",
+      "width": 288,
+      "height": 28,
+      "containerWidth": 160,
+      "containerClips": false,
+      "label": {
+        "characters": "Movimientos del periodo actual",
+        "width": 209,
+        "height": 20,
+        "fontName": {
+          "family": "Manrope",
+          "style": "SemiBold",
+          "variationSettings": {
+            "wght": 600
+          }
+        },
+        "fontSize": 14,
+        "lineHeight": {
+          "unit": "PIXELS",
+          "value": 20
+        },
+        "textStyleId": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,"
+      },
+      "icon": {
+        "width": 20,
+        "height": 20,
+        "remote": true
+      },
+      "count": {
+        "width": 19,
+        "height": 16,
+        "text": "99+",
+        "mainId": "78:102"
+      },
+      "ring": {
+        "x": -4,
+        "y": -4,
+        "width": 296,
+        "height": 36,
+        "stroke": {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.15294118225574493,
+            "g": 0.18431372940540314,
+            "b": 0.8352941274642944
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:78:68"
+            }
+          }
+        },
+        "constraints": {
+          "horizontal": "STRETCH",
+          "vertical": "STRETCH"
+        }
+      },
+      "properties": {
+        "Show badge#79:175": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show icon#79:125": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Icon#79:150": {
+          "type": "INSTANCE_SWAP",
+          "value": "79:75",
+          "preferredValues": []
+        },
+        "Label#79:100": {
+          "type": "TEXT",
+          "value": "Movimientos del periodo actual"
+        },
+        "type": {
+          "value": "segmented",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "selected": {
+          "value": "true",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "state": {
+          "value": "focus",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      }
+    }
+  ],
+  "createdNodeIds": [
+    "97:214",
+    "97:215",
+    "97:216",
+    "I97:216;79:126",
+    "I97:216;79:126;8899:16466",
+    "I97:216;79:128",
+    "I97:216;79:129",
+    "I97:216;79:129;78:103",
+    "I97:216;79:131",
+    "97:224",
+    "97:225",
+    "I97:225;81:13",
+    "I97:225;81:13;8899:16466",
+    "I97:225;81:15",
+    "I97:225;81:16",
+    "I97:225;81:16;78:103",
+    "I97:225;81:18",
+    "97:234",
+    "97:235",
+    "I97:235;81:35",
+    "I97:235;81:35;8899:16466",
+    "I97:235;81:37",
+    "I97:235;81:38",
+    "I97:235;81:38;78:103",
+    "I97:235;81:40",
+    "97:244",
+    "97:245",
+    "I97:245;81:57",
+    "I97:245;81:57;8899:16466",
+    "I97:245;81:59",
+    "I97:245;81:60",
+    "I97:245;81:60;78:103",
+    "I97:245;81:62",
+    "97:253",
+    "97:254",
+    "I97:254;81:78",
+    "I97:254;81:78;8899:16466",
+    "I97:254;81:80",
+    "I97:254;81:81",
+    "I97:254;81:81;78:103",
+    "I97:254;81:83",
+    "97:263",
+    "97:264",
+    "I97:264;81:99",
+    "I97:264;81:99;8899:16466",
+    "I97:264;81:101",
+    "I97:264;81:102",
+    "I97:264;81:102;78:103",
+    "I97:264;81:104",
+    "97:272",
+    "97:273",
+    "I97:273;79:126",
+    "I97:273;79:126;8899:16466",
+    "I97:273;79:128",
+    "I97:273;79:129",
+    "I97:273;79:129;78:103",
+    "I97:273;79:131",
+    "97:280",
+    "97:281",
+    "I97:281;81:13",
+    "I97:281;81:13;8899:16466",
+    "I97:281;81:15",
+    "I97:281;81:16",
+    "I97:281;81:16;78:103",
+    "I97:281;81:18",
+    "97:288",
+    "97:289",
+    "I97:289;81:35",
+    "I97:289;81:35;8899:16466",
+    "I97:289;81:37",
+    "I97:289;81:38",
+    "I97:289;81:38;78:103",
+    "I97:289;81:40",
+    "97:296",
+    "97:297",
+    "I97:297;81:57",
+    "I97:297;81:57;8899:16466",
+    "I97:297;81:59",
+    "I97:297;81:60",
+    "I97:297;81:60;78:103",
+    "I97:297;81:62",
+    "97:304",
+    "97:305",
+    "I97:305;81:78",
+    "I97:305;81:78;8899:16466",
+    "I97:305;81:80",
+    "I97:305;81:81",
+    "I97:305;81:81;78:103",
+    "I97:305;81:83",
+    "97:312",
+    "97:313",
+    "I97:313;81:99",
+    "I97:313;81:99;8899:16466",
+    "I97:313;81:101",
+    "I97:313;81:102",
+    "I97:313;81:102;78:103",
+    "I97:313;81:104",
+    "97:320",
+    "97:321",
+    "I97:321;79:126",
+    "I97:321;79:126;8899:16466",
+    "I97:321;79:128",
+    "I97:321;79:129",
+    "I97:321;79:129;78:103",
+    "I97:321;79:131",
+    "97:328",
+    "97:329",
+    "I97:329;81:13",
+    "I97:329;81:13;8899:16466",
+    "I97:329;81:15",
+    "I97:329;81:16",
+    "I97:329;81:16;78:103",
+    "I97:329;81:18",
+    "97:336",
+    "97:337",
+    "I97:337;81:35",
+    "I97:337;81:35;8899:16466",
+    "I97:337;81:37",
+    "I97:337;81:38",
+    "I97:337;81:38;78:103",
+    "I97:337;81:40",
+    "97:344",
+    "97:345",
+    "I97:345;81:57",
+    "I97:345;81:57;8899:16466",
+    "I97:345;81:59",
+    "I97:345;81:60",
+    "I97:345;81:60;78:103",
+    "I97:345;81:62",
+    "97:352",
+    "97:353",
+    "I97:353;81:78",
+    "I97:353;81:78;8899:16466",
+    "I97:353;81:80",
+    "I97:353;81:81",
+    "I97:353;81:81;78:103",
+    "I97:353;81:83",
+    "97:360",
+    "97:361",
+    "I97:361;81:99",
+    "I97:361;81:99;8899:16466",
+    "I97:361;81:101",
+    "I97:361;81:102",
+    "I97:361;81:102;78:103",
+    "I97:361;81:104",
+    "97:368",
+    "97:369",
+    "I97:369;79:126",
+    "I97:369;79:126;8899:16466",
+    "I97:369;79:128",
+    "I97:369;79:129",
+    "I97:369;79:129;78:103",
+    "I97:369;79:131",
+    "97:376",
+    "97:377",
+    "I97:377;81:13",
+    "I97:377;81:13;8899:16466",
+    "I97:377;81:15",
+    "I97:377;81:16",
+    "I97:377;81:16;78:103",
+    "I97:377;81:18",
+    "97:384",
+    "97:385",
+    "I97:385;81:35",
+    "I97:385;81:35;8899:16466",
+    "I97:385;81:37",
+    "I97:385;81:38",
+    "I97:385;81:38;78:103",
+    "I97:385;81:40",
+    "97:392",
+    "97:393",
+    "I97:393;81:57",
+    "I97:393;81:57;8899:16466",
+    "I97:393;81:59",
+    "I97:393;81:60",
+    "I97:393;81:60;78:103",
+    "I97:393;81:62",
+    "97:400",
+    "97:401",
+    "I97:401;81:78",
+    "I97:401;81:78;8899:16466",
+    "I97:401;81:80",
+    "I97:401;81:81",
+    "I97:401;81:81;78:103",
+    "I97:401;81:83",
+    "97:408",
+    "97:409",
+    "I97:409;81:99",
+    "I97:409;81:99;8899:16466",
+    "I97:409;81:101",
+    "I97:409;81:102",
+    "I97:409;81:102;78:103",
+    "I97:409;81:104"
+  ],
+  "removedNodeIds": [
+    "97:214",
+    "97:215",
+    "97:216",
+    "I97:216;79:126",
+    "I97:216;79:126;8899:16466",
+    "I97:216;79:128",
+    "I97:216;79:129",
+    "I97:216;79:129;78:103",
+    "I97:216;79:131",
+    "97:224",
+    "97:225",
+    "I97:225;81:13",
+    "I97:225;81:13;8899:16466",
+    "I97:225;81:15",
+    "I97:225;81:16",
+    "I97:225;81:16;78:103",
+    "I97:225;81:18",
+    "97:234",
+    "97:235",
+    "I97:235;81:35",
+    "I97:235;81:35;8899:16466",
+    "I97:235;81:37",
+    "I97:235;81:38",
+    "I97:235;81:38;78:103",
+    "I97:235;81:40",
+    "97:244",
+    "97:245",
+    "I97:245;81:57",
+    "I97:245;81:57;8899:16466",
+    "I97:245;81:59",
+    "I97:245;81:60",
+    "I97:245;81:60;78:103",
+    "I97:245;81:62",
+    "97:253",
+    "97:254",
+    "I97:254;81:78",
+    "I97:254;81:78;8899:16466",
+    "I97:254;81:80",
+    "I97:254;81:81",
+    "I97:254;81:81;78:103",
+    "I97:254;81:83",
+    "97:263",
+    "97:264",
+    "I97:264;81:99",
+    "I97:264;81:99;8899:16466",
+    "I97:264;81:101",
+    "I97:264;81:102",
+    "I97:264;81:102;78:103",
+    "I97:264;81:104",
+    "97:272",
+    "97:273",
+    "I97:273;79:126",
+    "I97:273;79:126;8899:16466",
+    "I97:273;79:128",
+    "I97:273;79:129",
+    "I97:273;79:129;78:103",
+    "I97:273;79:131",
+    "97:280",
+    "97:281",
+    "I97:281;81:13",
+    "I97:281;81:13;8899:16466",
+    "I97:281;81:15",
+    "I97:281;81:16",
+    "I97:281;81:16;78:103",
+    "I97:281;81:18",
+    "97:288",
+    "97:289",
+    "I97:289;81:35",
+    "I97:289;81:35;8899:16466",
+    "I97:289;81:37",
+    "I97:289;81:38",
+    "I97:289;81:38;78:103",
+    "I97:289;81:40",
+    "97:296",
+    "97:297",
+    "I97:297;81:57",
+    "I97:297;81:57;8899:16466",
+    "I97:297;81:59",
+    "I97:297;81:60",
+    "I97:297;81:60;78:103",
+    "I97:297;81:62",
+    "97:304",
+    "97:305",
+    "I97:305;81:78",
+    "I97:305;81:78;8899:16466",
+    "I97:305;81:80",
+    "I97:305;81:81",
+    "I97:305;81:81;78:103",
+    "I97:305;81:83",
+    "97:312",
+    "97:313",
+    "I97:313;81:99",
+    "I97:313;81:99;8899:16466",
+    "I97:313;81:101",
+    "I97:313;81:102",
+    "I97:313;81:102;78:103",
+    "I97:313;81:104",
+    "97:320",
+    "97:321",
+    "I97:321;79:126",
+    "I97:321;79:126;8899:16466",
+    "I97:321;79:128",
+    "I97:321;79:129",
+    "I97:321;79:129;78:103",
+    "I97:321;79:131",
+    "97:328",
+    "97:329",
+    "I97:329;81:13",
+    "I97:329;81:13;8899:16466",
+    "I97:329;81:15",
+    "I97:329;81:16",
+    "I97:329;81:16;78:103",
+    "I97:329;81:18",
+    "97:336",
+    "97:337",
+    "I97:337;81:35",
+    "I97:337;81:35;8899:16466",
+    "I97:337;81:37",
+    "I97:337;81:38",
+    "I97:337;81:38;78:103",
+    "I97:337;81:40",
+    "97:344",
+    "97:345",
+    "I97:345;81:57",
+    "I97:345;81:57;8899:16466",
+    "I97:345;81:59",
+    "I97:345;81:60",
+    "I97:345;81:60;78:103",
+    "I97:345;81:62",
+    "97:352",
+    "97:353",
+    "I97:353;81:78",
+    "I97:353;81:78;8899:16466",
+    "I97:353;81:80",
+    "I97:353;81:81",
+    "I97:353;81:81;78:103",
+    "I97:353;81:83",
+    "97:360",
+    "97:361",
+    "I97:361;81:99",
+    "I97:361;81:99;8899:16466",
+    "I97:361;81:101",
+    "I97:361;81:102",
+    "I97:361;81:102;78:103",
+    "I97:361;81:104",
+    "97:368",
+    "97:369",
+    "I97:369;79:126",
+    "I97:369;79:126;8899:16466",
+    "I97:369;79:128",
+    "I97:369;79:129",
+    "I97:369;79:129;78:103",
+    "I97:369;79:131",
+    "97:376",
+    "97:377",
+    "I97:377;81:13",
+    "I97:377;81:13;8899:16466",
+    "I97:377;81:15",
+    "I97:377;81:16",
+    "I97:377;81:16;78:103",
+    "I97:377;81:18",
+    "97:384",
+    "97:385",
+    "I97:385;81:35",
+    "I97:385;81:35;8899:16466",
+    "I97:385;81:37",
+    "I97:385;81:38",
+    "I97:385;81:38;78:103",
+    "I97:385;81:40",
+    "97:392",
+    "97:393",
+    "I97:393;81:57",
+    "I97:393;81:57;8899:16466",
+    "I97:393;81:59",
+    "I97:393;81:60",
+    "I97:393;81:60;78:103",
+    "I97:393;81:62",
+    "97:400",
+    "97:401",
+    "I97:401;81:78",
+    "I97:401;81:78;8899:16466",
+    "I97:401;81:80",
+    "I97:401;81:81",
+    "I97:401;81:81;78:103",
+    "I97:401;81:83",
+    "97:408",
+    "97:409",
+    "I97:409;81:99",
+    "I97:409;81:99;8899:16466",
+    "I97:409;81:101",
+    "I97:409;81:102",
+    "I97:409;81:102;78:103",
+    "I97:409;81:104"
+  ],
+  "mutatedNodeIds": [
+    "97:214",
+    "97:215",
+    "97:216",
+    "I97:216;79:126",
+    "I97:216;79:126;8899:16466",
+    "I97:216;79:128",
+    "I97:216;79:129",
+    "I97:216;79:129;78:103",
+    "I97:216;79:131",
+    "97:224",
+    "97:225",
+    "I97:225;81:13",
+    "I97:225;81:13;8899:16466",
+    "I97:225;81:15",
+    "I97:225;81:16",
+    "I97:225;81:16;78:103",
+    "I97:225;81:18",
+    "97:234",
+    "97:235",
+    "I97:235;81:35",
+    "I97:235;81:35;8899:16466",
+    "I97:235;81:37",
+    "I97:235;81:38",
+    "I97:235;81:38;78:103",
+    "I97:235;81:40",
+    "97:244",
+    "97:245",
+    "I97:245;81:57",
+    "I97:245;81:57;8899:16466",
+    "I97:245;81:59",
+    "I97:245;81:60",
+    "I97:245;81:60;78:103",
+    "I97:245;81:62",
+    "97:253",
+    "97:254",
+    "I97:254;81:78",
+    "I97:254;81:78;8899:16466",
+    "I97:254;81:80",
+    "I97:254;81:81",
+    "I97:254;81:81;78:103",
+    "I97:254;81:83",
+    "97:263",
+    "97:264",
+    "I97:264;81:99",
+    "I97:264;81:99;8899:16466",
+    "I97:264;81:101",
+    "I97:264;81:102",
+    "I97:264;81:102;78:103",
+    "I97:264;81:104",
+    "97:272",
+    "97:273",
+    "I97:273;79:126",
+    "I97:273;79:126;8899:16466",
+    "I97:273;79:128",
+    "I97:273;79:129",
+    "I97:273;79:129;78:103",
+    "I97:273;79:131",
+    "97:280",
+    "97:281",
+    "I97:281;81:13",
+    "I97:281;81:13;8899:16466",
+    "I97:281;81:15",
+    "I97:281;81:16",
+    "I97:281;81:16;78:103",
+    "I97:281;81:18",
+    "97:288",
+    "97:289",
+    "I97:289;81:35",
+    "I97:289;81:35;8899:16466",
+    "I97:289;81:37",
+    "I97:289;81:38",
+    "I97:289;81:38;78:103",
+    "I97:289;81:40",
+    "97:296",
+    "97:297",
+    "I97:297;81:57",
+    "I97:297;81:57;8899:16466",
+    "I97:297;81:59",
+    "I97:297;81:60",
+    "I97:297;81:60;78:103",
+    "I97:297;81:62",
+    "97:304",
+    "97:305",
+    "I97:305;81:78",
+    "I97:305;81:78;8899:16466",
+    "I97:305;81:80",
+    "I97:305;81:81",
+    "I97:305;81:81;78:103",
+    "I97:305;81:83",
+    "97:312",
+    "97:313",
+    "I97:313;81:99",
+    "I97:313;81:99;8899:16466",
+    "I97:313;81:101",
+    "I97:313;81:102",
+    "I97:313;81:102;78:103",
+    "I97:313;81:104",
+    "97:320",
+    "97:321",
+    "I97:321;79:126",
+    "I97:321;79:126;8899:16466",
+    "I97:321;79:128",
+    "I97:321;79:129",
+    "I97:321;79:129;78:103",
+    "I97:321;79:131",
+    "97:328",
+    "97:329",
+    "I97:329;81:13",
+    "I97:329;81:13;8899:16466",
+    "I97:329;81:15",
+    "I97:329;81:16",
+    "I97:329;81:16;78:103",
+    "I97:329;81:18",
+    "97:336",
+    "97:337",
+    "I97:337;81:35",
+    "I97:337;81:35;8899:16466",
+    "I97:337;81:37",
+    "I97:337;81:38",
+    "I97:337;81:38;78:103",
+    "I97:337;81:40",
+    "97:344",
+    "97:345",
+    "I97:345;81:57",
+    "I97:345;81:57;8899:16466",
+    "I97:345;81:59",
+    "I97:345;81:60",
+    "I97:345;81:60;78:103",
+    "I97:345;81:62",
+    "97:352",
+    "97:353",
+    "I97:353;81:78",
+    "I97:353;81:78;8899:16466",
+    "I97:353;81:80",
+    "I97:353;81:81",
+    "I97:353;81:81;78:103",
+    "I97:353;81:83",
+    "97:360",
+    "97:361",
+    "I97:361;81:99",
+    "I97:361;81:99;8899:16466",
+    "I97:361;81:101",
+    "I97:361;81:102",
+    "I97:361;81:102;78:103",
+    "I97:361;81:104",
+    "97:368",
+    "97:369",
+    "I97:369;79:126",
+    "I97:369;79:126;8899:16466",
+    "I97:369;79:128",
+    "I97:369;79:129",
+    "I97:369;79:129;78:103",
+    "I97:369;79:131",
+    "97:376",
+    "97:377",
+    "I97:377;81:13",
+    "I97:377;81:13;8899:16466",
+    "I97:377;81:15",
+    "I97:377;81:16",
+    "I97:377;81:16;78:103",
+    "I97:377;81:18",
+    "97:384",
+    "97:385",
+    "I97:385;81:35",
+    "I97:385;81:35;8899:16466",
+    "I97:385;81:37",
+    "I97:385;81:38",
+    "I97:385;81:38;78:103",
+    "I97:385;81:40",
+    "97:392",
+    "97:393",
+    "I97:393;81:57",
+    "I97:393;81:57;8899:16466",
+    "I97:393;81:59",
+    "I97:393;81:60",
+    "I97:393;81:60;78:103",
+    "I97:393;81:62",
+    "97:400",
+    "97:401",
+    "I97:401;81:78",
+    "I97:401;81:78;8899:16466",
+    "I97:401;81:80",
+    "I97:401;81:81",
+    "I97:401;81:81;78:103",
+    "I97:401;81:83",
+    "97:408",
+    "97:409",
+    "I97:409;81:99",
+    "I97:409;81:99;8899:16466",
+    "I97:409;81:101",
+    "I97:409;81:102",
+    "I97:409;81:102;78:103",
+    "I97:409;81:104"
+  ],
+  "retainedQaNodes": 0
+}

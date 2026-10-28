@@ -2,7 +2,7 @@
 {
   "schema_version": 1,
   "id": "BH-P01",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
@@ -25,6 +25,11 @@
       "id": "SRC-RECOVERY",
       "path": "evidence/protocol-recovery/manifest.json",
       "sha256": "d7c7ae3dca2ee7d76102f591803b1426b9300030454523467f74c7801fc33d5c"
+    },
+    {
+      "id": "SRC-TAB-AUTH",
+      "path": "evidence/authorization/tab-pilot-request.txt",
+      "sha256": "a01ef90b7236d87a5cf1c1fa1dcc872b5924b206515a3e306aae0ae6b2d6a586"
     }
   ],
   "dependencies": [
@@ -42,7 +47,8 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-TAB-AUTH"
       ],
       "acceptance": [
         "Encargo identifica familia, operación y targets; fuentes guardan bytes/hash, selector e identidad y distinguen procedencia."
@@ -54,7 +60,8 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-TAB-AUTH"
       ],
       "acceptance": [
         "Esquema de componente válido; catálogo y decisión seleccionan identidad/versión/hash; requisitos y cuerpo coinciden."
@@ -138,7 +145,7 @@
 
 **1. Encargo y fuentes**
 
-Propietario del flujo común. Se aplica cuando se solicite analizar, especificar o construir una familia. Los límites vigentes están en la [política](../governance/policy.json); ADR-006 habilita el piloto Button y sus tokens, sin extender el permiso a otras familias.
+Propietario del flujo común. Se aplica cuando se solicite analizar, especificar o construir una familia. Los límites vigentes están en la [política](../governance/policy.json); Las familias habilitadas y sus destinos se resuelven en la política y las decisiones adoptadas del encargo; una referencia a Button no selecciona otra familia ni amplía permisos.
 
 Identificar familia, resultado pedido y destinos: `figma`, `react` y/o `documentation`. Registrar qué existe y qué se modificará. Elegir CREATE, UPDATE, MIGRATE o VALIDATE_ONLY con alcance concreto; una tarea documental no inicia implementación.
 
@@ -156,7 +163,7 @@ El perfil componente exige anatomía, composición y accesibilidad. Añadir API,
 
 Conservar los estados realmente implementados: DRAFT, ELIGIBLE, SUPERSEDED; autoridad PROPOSED, DELEGATED o APPROVED, y readiness por destino. ELIGIBLE requiere una decisión adoptada con alcance al ID del contrato; APPROVED exige actor humano. La delegación técnica se registra como tal y puede basarse en un encargo que ya autorice construir. No importar DELEGATED_FOR_BUILD ni permisos antiguos como autoridad de Blue Heart. Las inferencias adoptadas requieren la decisión específica que comprueba el núcleo.
 
-Un contrato actual se selecciona explícitamente por ID, versión y hash en [norms/catalog.json](../norms/catalog.json). No seleccionar por fecha, nombre final ni versión más alta. No publicar una revisión cambiando silenciosamente el archivo seleccionado. El piloto seleccionado es `BUTTON-001@2.0.0`; el MD es la fuente normativa de diseño y función. Un YAML de inspección describe hechos fuente y no se edita como otra norma. La Skill consumidora debe fijar ID, versión y hash al inicio, recuperar requisitos y tokens por contexto, y ampliar evidencia solo para resolver una duda concreta.
+Un contrato actual se selecciona explícitamente por ID, versión y hash en [norms/catalog.json](../norms/catalog.json). No seleccionar por fecha, nombre final ni versión más alta. No publicar una revisión cambiando silenciosamente el archivo seleccionado. Consultar en el catálogo la identidad y versión vigente de la familia del encargo; el MD es la fuente normativa de diseño y función. Un YAML de inspección describe hechos fuente y no se edita como otra norma. La Skill consumidora debe fijar ID, versión y hash al inicio, recuperar requisitos y tokens por contexto, y ampliar evidencia solo para resolver una duda concreta.
 
 ### REQ-P01-03
 
