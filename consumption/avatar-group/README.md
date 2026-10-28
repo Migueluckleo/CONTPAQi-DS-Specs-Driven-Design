@@ -1,15 +1,22 @@
-# Avatar group · consumo
+# AVATAR-GROUP-001 · consumo vigente
 
-Fuente normativa única: [AVATAR-GROUP-001@2.0.0](../../norms/components/avatar-group.2.0.0.md), dependiente de [Avatar](../avatar/README.md). Consultar `python3 -B -m blueheart context AVATAR-GROUP-001 --compact`; la [selección derivada](manifest.json) fija versiones, hashes y destino.
+Fuente normativa única: [AVATAR-GROUP-001@3.0.0](../../norms/components/avatar-group.3.0.0.md). Fijar identidad, versión, hash y snapshot desde [manifest.json](manifest.json); no reconstruir reglas desde capturas.
 
-- [Variables propias](variable-map.csv): siete firmas únicas, todas invariantes.
-- [Bindings propios reales](binding-map.csv); los bindings heredados pertenecen al mapa de Avatar.
-- [Receta seleccionada](../avatar/current-build-plan.json), [mínimo](../avatar/token-minimum.json) y [QA del encargo](../../evidence/qa/avatar-pilot-check.json).
+```sh
+python3 -B -m blueheart check
+python3 -B -m blueheart context AVATAR-GROUP-001 --compact --modes '{"component":"Contable"}'
+```
 
-El contrato gobierna el slot, el traslape, el contador y la coordinación de tamaños. La edición del slot no calcula automáticamente el contador ni normaliza el tamaño de un hijo insertado. La fila de QA muestra una reordenación técnica deliberada; los ejemplos de uso mantienen el contador al final.
+Cuatro tamaños, siete tokens propios y slot nativo de 2–4 Avatar. Consume Avatar 3.0.0; Dot es transitivo y Show status permanece false en los hijos del grupo.
 
-La decisión del responsable conserva el anillo observado de 1 px. El alterno warning conserva el binding fuente y presenta **3.32:1** de contraste con iniciales blancas, inferior a 4.5:1 para texto normal. La [medición](../../evidence/avatar-pilot/contrast.json) conserva el método y los demás resultados; este caso no se declara AA.
+[Abrir la página de Figma](https://www.figma.com/design/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=145-42). Las muestras usan instancias vinculadas. Los cuatro temas se seleccionan en component; los roles Dot conservan los mismos aliases. La organización de colecciones se define únicamente en [BH-P07](../../protocols/07-COMPONENT-TOKENS.md).
 
-Los tres espaciados negativos requeridos se incorporaron en BLUEHEART-TOKENS 2.1.0. El [mapa de Foundations](../../evidence/figma-application/application-map.json) mantiene las 251 correspondencias previas y registra seis identidades nuevas mediante ADR-019; no duplica colores semánticos.
+El [mapa de variables](variable-map.csv) distingue identidad lógica, ruta Figma, WEB y scope. La [receta vigente](../avatar/current-build-plan.json) y el ledger enlazado en el manifiesto identifican los principales y propiedades generadas.
 
-La migración ADR-020 deja tres colecciones y se gobierna por [BH-P07 REQ-P07-07](../../protocols/07-COMPONENT-TOKENS.md#req-p07-07). El [mapa actual](../../evidence/collection-consolidation/migration-map.json) conserva identidades lógicas/WEB y enlaza IDs, rutas y modos nuevos; el [QA de la migración](../../evidence/qa/component-collection-check.json) complementa las pruebas históricas enlazadas arriba. Consultar `component` para el tema; las colecciones anteriores ya no existen en el destino.
+El [mapa de migración ADR-021](../../evidence/dot-pilot/migration-map.json) registra nueve bajas y sus sustituciones compartidas. [Dot](../dot/manifest.json) es el propietario del indicador; no recrear helpers o tokens privados. [La historia exacta](../../evidence/dot-pilot/history/manifest.json) conserva contratos y token set anteriores junto al commit fuente.
+
+[QA actual](../../evidence/qa/dot-pilot-check.json): instancias, temas, geometría, estilos, aliases y preservación de consumidores. Las pruebas nativas anteriores siguen en evidence y Git; no equivalen a una reproducción nueva del prototipo. Las cuatro reacciones Tab se conservaron estructuralmente. Dot no contiene reacciones.
+
+[Contraste histórico conservado](../../evidence/avatar-pilot/contrast.json): el alterno warning del grupo mantiene su limitación explícita; no se declara AA general.
+
+La biblioteca permanece local. Phosphor se consume desde la biblioteca del equipo, conforme a [BH-P06](../../protocols/06-PHOSPHOR-ICONS.md); no hay copias vectoriales. React/Next.js, teclado/ARIA web y publicación oficial continúan diferidos. [BH-P08](../../protocols/08-GITHUB-RELEASE-DOCUMENTATION.md) gobierna los envíos y sus PDFs.

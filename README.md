@@ -1,6 +1,6 @@
 # Blue Heart DS
 
-Núcleo modular y familias Button, Tab, Tabs, Avatar y Avatar group. Python 3.9+ y biblioteca estándar; no requiere instalación, Figma, React ni Graphify para verificar su núcleo. El flujo de envíos y sus pruebas usan también Git.
+Núcleo modular y familias Button, Tab, Tabs, Avatar, Avatar group y Dot. Python 3.9+ y biblioteca estándar; no requiere instalación, Figma, React ni Graphify para verificar su núcleo. El flujo de envíos y sus pruebas usan también Git.
 
 ```sh
 python3 -B -m blueheart check
@@ -16,7 +16,7 @@ Los comandos del núcleo son de lectura; la CLI separada de BH-P08 escribe notas
 
 `governance/policy.json` es el propietario de políticas de fase, capas, QA y roles; `governance/decisions.json` conserva decisiones con actor, alcance y fuente verificable. `norms/catalog.json` es la única selección explícita de contenido normativo por identidad, versión y SHA-256. `schemas/` define la estructura; `blueheart/` implementa invariantes y consulta; `evidence/` conserva observaciones/comprobantes; `tests/` contiene casos sintéticos aislados. `auditoria/` conserva el análisis previo, sin incorporarlo al catálogo de normas.
 
-El objetivo es consumir contratos MD trazables desde Skills para construir PoCs y prototipos Figma. Hay trece contratos vigentes: `BUTTON-001@3.0.0`, `TAB-001@2.0.0`, `TABS-001@2.0.0`, `AVATAR-001@2.0.0`, `AVATAR-GROUP-001@2.0.0` y ocho contratos operativos. El catálogo conserva versiones históricas de contratos. BLUEHEART-TOKENS@3.0.0 reúne 386 tokens en tres colecciones: 148 primitivas, 109 semánticos y 129 de componente. Dentro de component, button contiene 47, tab contiene 45 Tab + 5 Tabs y avatar contiene 25 Avatar + 7 Avatar group. Todas las identidades lógicas, nombres WEB y valores anteriores se conservan; el mapa ADR-020 registra las variables nativas reubicadas y el nuevo contexto component. Las guías de [Button](consumption/button/README.md), [Tab](consumption/tab/README.md), [Tabs](consumption/tabs/README.md), [Avatar](consumption/avatar/README.md) y [Avatar group](consumption/avatar-group/README.md) reúnen la consulta mínima y los mapas actuales. React y Graphify siguen diferidos.
+El objetivo es consumir contratos MD trazables desde Skills para construir PoCs y prototipos Figma. Hay catorce contratos vigentes: `BUTTON-001@3.0.0`, `TAB-001@3.0.0`, `TABS-001@3.0.0`, `AVATAR-001@3.0.0`, `AVATAR-GROUP-001@3.0.0`, `DOT-001@1.0.0` y ocho contratos operativos. El catálogo conserva versiones históricas de contratos. BLUEHEART-TOKENS@4.0.0 reúne 396 tokens en tres colecciones: 148 primitivas, 109 semánticos y 139 de componente. Component contiene button 47, tab 39+5, avatar 22+7 y dot 19. ADR-021 retira nueve tokens privados sustituidos por Dot; el mapa y la historia conservan equivalencias y cortes anteriores. Las guías de [Button](consumption/button/README.md), [Tab](consumption/tab/README.md), [Tabs](consumption/tabs/README.md), [Avatar](consumption/avatar/README.md) y [Avatar group](consumption/avatar-group/README.md) reúnen la consulta mínima y los mapas actuales. React y Graphify siguen diferidos.
 
 ## Protocolos de construcción
 
@@ -26,11 +26,11 @@ Los protocolos se probaron y ajustaron con Button (ADR-006) y Tab/Tabs (ADR-015/
 
 ## Contratos y perfiles
 
-El formato soportado es Markdown con frontmatter **JSON entre delimitadores `---`**. JSON es un subconjunto de YAML 1.2; esta implementación acepta únicamente ese subconjunto explícito, sin parser YAML propio. Los esquemas comunes y por perfil (`foundation`, `component`, `pattern`, `operational`) son la autoridad estructural. La fase habilita Foundations, Button, Tab, Tabs, Avatar y Avatar group por sus decisiones explícitas; no autoriza otras familias o implementaciones web.
+El formato soportado es Markdown con frontmatter **JSON entre delimitadores `---`**. JSON es un subconjunto de YAML 1.2; esta implementación acepta únicamente ese subconjunto explícito, sin parser YAML propio. Los esquemas comunes y por perfil (`foundation`, `component`, `pattern`, `operational`) son la autoridad estructural. La fase habilita Foundations, Button, Tab, Tabs, Avatar, Avatar group y Dot por sus decisiones explícitas; no autoriza otras familias o implementaciones web.
 
 Cada requisito se declara una vez en el cuerpo bajo `### REQ-ID`; sus metadatos contienen fuerza, procedencia, fuentes y aceptación. Identidad y requisitos deben coincidir exactamente. Un contrato elegible necesita decisión adoptada con alcance a su ID y fuentes íntegras; `APPROVED` exige actor humano. Los requisitos inferidos necesitan adopción específica. Los estados documental, autoridad, preparación y QA permanecen distintos. La herramienta no interpreta intención de producto ni valida semánticamente todos los requisitos.
 
-El catálogo selecciona `current` explícitamente. No se elige por mayor versión. Las dependencias contractuales usan versiones exactas y los ciclos/faltantes bloquean. La consulta `context ID --intent rules|dependencies|evidence` calcula cierre transitivo y cita archivo/hash. `--compact --modes '{"button":"Contable"}'` proyecta solo los modos necesarios, mantiene todos los requisitos y remite la procedencia al token set identificado por hash. Conserva overrides explícitos de modo en aliases. Sin `--compact`, se incluyen todos los modos y metadatos. `--max-bytes` limita la salida; un exceso produce BLOCKED sin contexto parcial. Las evidencias completas se abren por referencia.
+El catálogo selecciona `current` explícitamente. No se elige por mayor versión. Las dependencias contractuales usan versiones exactas y los ciclos/faltantes bloquean. La consulta `context ID --intent rules|dependencies|evidence` calcula cierre transitivo y cita archivo/hash. `--compact --modes '{"component":"Contable"}'` proyecta solo los modos necesarios, mantiene todos los requisitos y remite la procedencia al token set identificado por hash. Conserva overrides explícitos de modo en aliases. Sin `--compact`, se incluyen todos los modos y metadatos. `--max-bytes` limita la salida; un exceso produce BLOCKED sin contexto parcial. Las evidencias completas se abren por referencia.
 
 ## Tokens
 
@@ -44,7 +44,7 @@ Los modos se resuelven por ID: contexto explícito por colección, modo explíci
 python3 -B -m blueheart resolve-token ID --modes '{"collection-id":"mode-id"}'
 ```
 
-Ejemplo real: `python3 -B -m blueheart resolve-token button.color-button-primary-bg-hover --modes '{"button":"Contable"}'`. Los fixtures sintéticos se generan en directorios temporales y no forman parte del catálogo.
+Ejemplo real: `python3 -B -m blueheart resolve-token button.color-button-primary-bg-hover --modes '{"component":"Contable"}'`. Los fixtures sintéticos se generan en directorios temporales y no forman parte del catálogo.
 
 ## Esquemas y límites de implementación
 
@@ -68,10 +68,10 @@ La [nomenclatura obligatoria de variables de componente](protocols/07-COMPONENT-
 
 [BH-P08](protocols/08-GITHUB-RELEASE-DOCUMENTATION.md) es el propietario del flujo de registros previos al envío y control de compatibilidad de componentes. [docs/releases/](docs/releases/README.md) contiene comandos y configuración. El repositorio de publicación autorizado es [CONTPAQi-DS-Specs-Driven-Design](https://github.com/Migueluckleo/CONTPAQi-DS-Specs-Driven-Design). Actions valida cada envío y exporta su PDF condensado junto al receipt; el resumen de ejecución enlaza la descarga. La protección efectiva se consulta en los rulesets de GitHub. ADR-012 autoriza publicación del repositorio y sus controles; las releases oficiales requieren autorización específica.
 
-La [guía de consumo de Tab](consumption/tab/README.md) enlaza su [contrato operativo](norms/components/tab.2.0.0.md), la proyección mínima y su QA. ADR-015 amplía el encargo a esta familia; las referencias a Button en ejemplos históricos no seleccionan identidad o versión de Tab. Los seis protocolos afectados actualizan sus revisiones/pines exactos sin duplicar archivos ni reglas.
+La [guía de consumo de Tab](consumption/tab/README.md) enlaza su [contrato operativo](norms/components/tab.3.0.0.md), la proyección mínima y su QA. ADR-015 amplía el encargo a esta familia; las referencias a Button en ejemplos históricos no seleccionan identidad o versión de Tab. Los seis protocolos afectados actualizan sus revisiones/pines exactos sin duplicar archivos ni reglas.
 
 ADR-018 integra los criterios para próximas familias en [BH-P07](protocols/07-COMPONENT-TOKENS.md): su consumo obligatorio pasa por BH-P01/P02/P03 y su aceptación por BH-P04. El catálogo fija las revisiones exactas y la política incorpora el gate de comportamiento temático.
 
 ADR-019 incorpora la [página Avatar](consumption/avatar/README.md) y [Avatar group](consumption/avatar-group/README.md), sus contratos y tokens mínimos. El responsable conserva bindings/geometría reales y corrige la descripción fuente contradictoria. El [comprobante](evidence/qa/avatar-pilot-check.json) distingue QA Figma, la limitación de contraste del alterno warning y los destinos diferidos.
 
-ADR-020 organiza las variables en exactamente `primitive`, `semantic` y `component`. Component contiene los grupos `button` (47), `avatar` (32, incluido Avatar group) y `tab` (50, incluido Tabs), con cuatro temas compartidos. [BH-P07 REQ-P07-07](protocols/07-COMPONENT-TOKENS.md#req-p07-07) conserva la regla única; [el mapa y comprobante de migración](evidence/collection-consolidation/README.md) acreditan aliases, scopes, bindings y preservación. El registro BLUEHEART-TOKENS@3.0.0 reúne las 386 identidades; el contexto de modo portable es `component`, antes button/tab/avatar. Contratos vigentes: Button 3.0.0 y Tab, Tabs, Avatar y Avatar group 2.0.0. La versión mayor registra esa migración de consumo, sin añadir comportamiento ni variantes.
+ADR-020 consolidó las tres colecciones; su [mapa histórico](evidence/collection-consolidation/README.md) acredita aquel corte. ADR-021 añade [Dot](consumption/dot/README.md), migra Avatar y Tab con sus grupos y hace obligatoria la auditoría inversa en [BH-P01 REQ-P01-07](protocols/01-COMPONENT-CONTRACT.md#req-p01-07). [Mapa y QA actuales](evidence/dot-pilot/README.md) conservan la trazabilidad sin reconstruir helpers privados.

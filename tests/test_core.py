@@ -100,15 +100,15 @@ class CoreTests(unittest.TestCase):
 
     def test_registered_families_keep_unrequested_destinations_deferred(self):
         w = Workspace(ROOT)
-        self.assertEqual(set(w.current), {"BUTTON-001", "TAB-001", "TABS-001", "BLUEHEART-TOKENS", "AVATAR-001", "AVATAR-GROUP-001"} | {"BH-P%02d" % i for i in range(1, 9)})
+        self.assertEqual(set(w.current), {"BUTTON-001", "TAB-001", "TABS-001", "BLUEHEART-TOKENS", "AVATAR-001", "AVATAR-GROUP-001", "DOT-001"} | {"BH-P%02d" % i for i in range(1, 9)})
         report = w.check()["component_token_minimum"]["BUTTON-001@2.0.0"]
         self.assertEqual(report["component_tokens"], 47)
         self.assertEqual(report["redundancies"], 0)
-        self.assertEqual(w.check()["component_token_minimum"]["TAB-001@1.0.0"]["component_tokens"], 43)
-        self.assertEqual(w.check()["component_token_minimum"]["TAB-001@1.0.0"]["redundancies"], 0)
-        self.assertTrue(all(t["id"].startswith(("button.", "tab.", "tabs.", "avatar.", "avatar-group.")) for t in w.tokens.tokens.values() if t["layer"] == "component"))
-        self.assertEqual(w.check()["component_token_minimum"]["TAB-001@1.1.0"]["component_tokens"], 45)
-        self.assertEqual(w.check()["component_token_minimum"]["TABS-001@1.0.0"]["component_tokens"], 5)
+        self.assertEqual(w.check()["component_token_minimum"]["TAB-001@3.0.0"]["component_tokens"], 39)
+        self.assertEqual(w.check()["component_token_minimum"]["TAB-001@3.0.0"]["redundancies"], 0)
+        self.assertTrue(all(t["id"].startswith(("button.", "tab.", "tabs.", "avatar.", "avatar-group.", "dot.")) for t in w.tokens.tokens.values() if t["layer"] == "component"))
+        self.assertEqual(w.check()["component_token_minimum"]["TAB-001@3.0.0"]["component_tokens"], 39)
+        self.assertEqual(w.check()["component_token_minimum"]["TABS-001@3.0.0"]["component_tokens"], 5)
         self.assertFalse((ROOT / "implementations/react").exists())
         self.assertFalse((ROOT / "implementations/web").exists())
         self.assertFalse((ROOT / "graphify-out").exists())

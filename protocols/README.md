@@ -4,14 +4,14 @@ Ocho propietarios Markdown, registrados por ID, versión y hash en [norms/catalo
 
 | ID | Propietario único | Versión |
 |---|---|---|
-| BH-P01 | [01-COMPONENT-CONTRACT](01-COMPONENT-CONTRACT.md) | 2.2.0 |
-| BH-P02 | [02-FIGMA-CONSTRUCTION](02-FIGMA-CONSTRUCTION.md) | 2.2.0 |
-| BH-P03 | [03-WEB-CONSTRUCTION](03-WEB-CONSTRUCTION.md) | 2.2.0 |
-| BH-P04 | [04-QA-AND-DELIVERY](04-QA-AND-DELIVERY.md) | 2.2.0 |
-| BH-P05 | [05-MAINTENANCE-AND-RELEASES](05-MAINTENANCE-AND-RELEASES.md) | 2.0.3 |
+| BH-P01 | [01-COMPONENT-CONTRACT](01-COMPONENT-CONTRACT.md) | 2.3.0 |
+| BH-P02 | [02-FIGMA-CONSTRUCTION](02-FIGMA-CONSTRUCTION.md) | 2.3.0 |
+| BH-P03 | [03-WEB-CONSTRUCTION](03-WEB-CONSTRUCTION.md) | 2.3.0 |
+| BH-P04 | [04-QA-AND-DELIVERY](04-QA-AND-DELIVERY.md) | 2.3.0 |
+| BH-P05 | [05-MAINTENANCE-AND-RELEASES](05-MAINTENANCE-AND-RELEASES.md) | 2.0.4 |
 | BH-P06 | [06-PHOSPHOR-ICONS](06-PHOSPHOR-ICONS.md) | 2.0.0 |
 | BH-P07 | [07-COMPONENT-TOKENS](07-COMPONENT-TOKENS.md) | 2.2.0 |
-| BH-P08 | [08-GITHUB-RELEASE-DOCUMENTATION](08-GITHUB-RELEASE-DOCUMENTATION.md) | 1.2.3 |
+| BH-P08 | [08-GITHUB-RELEASE-DOCUMENTATION](08-GITHUB-RELEASE-DOCUMENTATION.md) | 1.2.4 |
 
 Consultar solo el contrato del encargo y sus dependencias: `python3 -B -m blueheart context BH-P02`. `check` verifica estructura, autoridad, fuentes, hashes y cierre; no ejecuta Figma ni acredita QA de destinos. Los protocolos se consultan por tarea, sin añadir los ocho al contexto de cada componente. El contrato Button conserva diseño y función; los protocolos gobiernan el trabajo. Los valores permanecen en su conjunto de tokens.
 
@@ -46,3 +46,5 @@ ADR-016/017 incorporan la página completa y TABS-001, con dependencia exacta de
 ADR-018 integra los criterios generales en BH-P07 (nombres por función/estado, mínimo por firma y comportamiento temático). BH-P01/P02/P03/P04 consumen sus requisitos; BH-P05/P08 mantienen el cierre con dependencias exactas. El gate `component-theme-behavior` se consulta con qa-plan; no certifica el destino por sí mismo.
 
 ADR-020: la regla de colecciones pertenece a BH-P07 REQ-P07-07 y se consume por BH-P01/02/03/04/05/08. El catálogo fija las revisiones actuales; no recuperar reglas de colecciones por familia desde evidencia histórica.
+
+ADR-021 incorpora la auditoría inversa obligatoria en [BH-P01 REQ-P01-07](01-COMPONENT-CONTRACT.md#req-p01-07). BH-P02/03/04/05/08 la consumen por referencia; qa-plan expone el gate `component-reverse-dependency-reuse`. El QA nativo y la migración siguen perteneciendo al comprobante de cada encargo.

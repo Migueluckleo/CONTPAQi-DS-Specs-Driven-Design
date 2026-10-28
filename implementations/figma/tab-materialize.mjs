@@ -4,7 +4,8 @@ import path from 'node:path';
 const root=process.cwd(), operation=process.argv[2], batch=Number(process.argv[3]||0);
 if(!['foundation','family','populate'].includes(operation))throw new Error('Expected foundation, family or populate');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
-const plan=read('consumption/tab/build-plan.2.0.0.json');
+const manifest=read('consumption/tab/manifest.json');
+const plan=read('consumption/tab/'+manifest.recipes);
 const scripts=process.env.BLUEHEART_FIGMA_HELPERS;
 if(!scripts)throw new Error('Set BLUEHEART_FIGMA_HELPERS to the scripts directory of the loaded official figma-generate-library skill');
 const helper=name=>fs.readFileSync(path.join(scripts,name+'.js'),'utf8');
@@ -16,7 +17,7 @@ if(operation==='foundation') {
   const fp=value=>{let h=2166136261;for(let i=0;i<value.length;i++)h=Math.imul(h^value.charCodeAt(i),16777619);return h>>>0;};
   const baseline=fs.readdirSync(path.join(root,'evidence/tab-pilot/destination')).filter(f=>/^variables-before-\d+\.json$/.test(f)).flatMap(f=>read('evidence/tab-pilot/destination/'+f).variables);
   const mapping=read('evidence/figma-application/application-map.json');const r=plan.variants[0].roles;
-  data={...data,modes:plan.modes,tokens:plan.tokens.map(({source,...t})=>t),semanticIds:Object.fromEntries(mapping.variables.filter(v=>v.layer==='semantic').map(v=>['semantic.'+v.name,v.destination_id])),baseline:Object.fromEntries(baseline.map(v=>[v.id,fp(JSON.stringify({name:v.name,type:v.type,collectionId:v.collectionId,scopes:v.scopes,valuesByMode:v.valuesByMode,codeSyntax:v.codeSyntax,description:v.description}))])),shadowStyle:plan.shadowStyle,count:plan.nodes[r.count],countText:plan.nodes[r.countLabel]};
+  data={...data,dot:read('consumption/dot/current-native-ledger.json'),modes:plan.modes,tokens:plan.tokens.map(({source,...t})=>t),semanticIds:Object.fromEntries(mapping.variables.filter(v=>v.layer==='semantic').map(v=>['semantic.'+v.name,v.destination_id])),baseline:Object.fromEntries(baseline.map(v=>[v.id,fp(JSON.stringify({name:v.name,type:v.type,collectionId:v.collectionId,scopes:v.scopes,valuesByMode:v.valuesByMode,codeSyntax:v.codeSyntax,description:v.description}))])),shadowStyle:plan.shadowStyle};
 } else {
   const foundation=read('consumption/tab/current-native-ledger.json');
   data={...data,pageId:foundation.pageId};

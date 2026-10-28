@@ -11,10 +11,10 @@
     "semantic",
     "component"
   ],
-  "figma_access": "SOURCE_READ_ONLY_DESTINATION_BUTTON_TAB_TABS_AVATAR_AND_AVATAR_GROUP_SCOPED_WRITE",
+  "figma_access": "SOURCE_READ_ONLY_DESTINATION_REGISTERED_FAMILIES_AND_DOT_SCOPED_WRITE",
   "historical_project_access": "READ_ONLY",
   "normative_import": "EXPLICIT_CATALOG_AND_HASH_ONLY",
-  "component_content": "BUTTON_TAB_TABS_AVATAR_AND_AVATAR_GROUP_SCOPED_PILOTS_ONLY",
+  "component_content": "BUTTON_TAB_TABS_AVATAR_AVATAR_GROUP_DOT_SCOPED_PILOTS_ONLY",
   "graphify": "OPTIONAL_NOT_IMPLEMENTED",
   "layer_edges": {
     "primitive": [],
@@ -51,7 +51,8 @@
       "component-token-minimization",
       "component-variable-naming",
       "operational-contracts",
-      "component-theme-behavior"
+      "component-theme-behavior",
+      "component-reverse-dependency-reuse"
     ],
     "token": [
       "structure",
@@ -61,7 +62,8 @@
       "affected-target-qa",
       "component-token-minimization",
       "component-variable-naming",
-      "component-theme-behavior"
+      "component-theme-behavior",
+      "component-reverse-dependency-reuse"
     ],
     "adapter": [
       "capabilities",
@@ -70,7 +72,8 @@
       "affected-target-qa",
       "component-token-minimization",
       "component-variable-naming",
-      "component-theme-behavior"
+      "component-theme-behavior",
+      "component-reverse-dependency-reuse"
     ],
     "tooling": [
       "unit-tests",

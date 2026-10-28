@@ -26,9 +26,6 @@
     "avatar.color-stroke-separator": "VariableID:171:53",
     "avatar.color-text-inverse": "VariableID:171:54",
     "avatar.color-icon-inverse": "VariableID:171:55",
-    "avatar.color-bg-status-active": "VariableID:171:56",
-    "avatar.color-bg-status-busy": "VariableID:171:57",
-    "avatar.color-bg-status-inactive": "VariableID:171:58",
     "avatar.border-width-regular": "VariableID:171:59",
     "avatar.radius-container": "VariableID:171:60",
     "avatar.spacing-none": "VariableID:171:61",
@@ -60,82 +57,95 @@
     "large": "S:12d1b7a9b9130ccdbffd119df5cc0e5a9ec47b92,",
     "compact": "S:6f557314a65d03965216875f7a32151b42b5821c,"
   },
-  "presenceSetId": "145:55",
+  "presenceSetId": "201:1556",
   "presence": [
     {
-      "id": "145:46",
-      "key": "f5ca6285b3d30cc3ba467f852a7f09048f6d94e2",
+      "id": "201:1544",
+      "key": "b1f443d0e4ba77c533d0ea29d5718410252fd874",
       "axes": {
         "type": "active",
         "size": "large"
-      }
+      },
+      "sourceId": "1241:39842"
     },
     {
-      "id": "145:47",
-      "key": "ef25742b05739b3d1c650c7acd3ac120bc5d9c3b",
+      "id": "201:1545",
+      "key": "a79815975e65c52c71a08a2d86fa62255b89deba",
       "axes": {
         "type": "active",
         "size": "medium"
-      }
+      },
+      "sourceId": "1133:31551"
     },
     {
-      "id": "145:48",
-      "key": "05540b0a8faea5fd927c0512287662fd11f01e05",
+      "id": "201:1546",
+      "key": "be39c9e677151fb0d8e10c0c88cf3a0bd64d0d5e",
       "axes": {
         "type": "active",
         "size": "small"
-      }
+      },
+      "sourceId": "1133:31550"
     },
     {
-      "id": "145:49",
-      "key": "3a2632f871a1684d3960b4357378703cd3c80ff3",
+      "id": "201:1547",
+      "key": "aaa34b7e7865d78fba6c23b91301cd544d36ea96",
       "axes": {
         "type": "busy",
         "size": "large"
-      }
+      },
+      "sourceId": "1241:39854"
     },
     {
-      "id": "145:50",
-      "key": "7d82c3a82b71a3ec6226ef81582344c0254105a3",
+      "id": "201:1548",
+      "key": "131176a0264f636c8d0578839f24974a16b6c1b4",
       "axes": {
         "type": "busy",
         "size": "medium"
-      }
+      },
+      "sourceId": "1133:31563"
     },
     {
-      "id": "145:51",
-      "key": "9d2cb114394c761b205b8d978ee98baf4d8441b3",
+      "id": "201:1549",
+      "key": "1c97b2c3659bd15a4b0790cb359a2647170696ce",
       "axes": {
         "type": "busy",
         "size": "small"
-      }
+      },
+      "sourceId": "1133:31562"
     },
     {
-      "id": "145:52",
-      "key": "d8a46afb75ec529b3178f8a80bc68961e7316a8c",
+      "id": "201:1550",
+      "key": "2d0ce750053ec446a71f6f8f21a69e591ac694c6",
       "axes": {
         "type": "inactive",
         "size": "large"
-      }
+      },
+      "sourceId": "1241:39856"
     },
     {
-      "id": "145:53",
-      "key": "7874f01c86b6c9dbe81c2a6f0d4d53050d1a5ae5",
+      "id": "201:1551",
+      "key": "96e0065059c9756e98eab5af8203ebe667a56870",
       "axes": {
         "type": "inactive",
         "size": "medium"
-      }
+      },
+      "sourceId": "1133:31561"
     },
     {
-      "id": "145:54",
-      "key": "be7d1b99beb0a40dc77bde8fd21c31ae26c819a9",
+      "id": "201:1552",
+      "key": "9362d07c56bc582ff6eefcd0056d3d161fe9b0a7",
       "axes": {
         "type": "inactive",
         "size": "small"
-      }
+      },
+      "sourceId": "1133:31560"
     }
   ],
   "role": "DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES",
+  "dotDependency": {
+    "path": "consumption/dot/manifest.json",
+    "sha256": "459c1c577d552acc1a939ba1c16adc1d40442c43933364fbc4054aae66c55634"
+  },
   "historicalBootstrap": {
     "path": "evidence/avatar-pilot/destination/foundation.json",
     "sha256": "3409f46fbd626c5631fe2aac34e6f7a41dbf6630ddc88a0d5de4d82ce42a3bb8"

@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P05",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-020"
+    "decision_id": "ADR-021"
   },
   "targets": [
     "documentation"
@@ -35,19 +35,24 @@
       "id": "SRC-COLLECTION",
       "path": "evidence/authorization/component-collection-request.txt",
       "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
+    },
+    {
+      "id": "SRC-USER-DOT",
+      "path": "evidence/authorization/dot-dependency-request.txt",
+      "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "relation": "uses"
     },
     {
       "kind": "contract",
       "id": "BH-P04",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "relation": "uses"
     }
   ],
@@ -58,7 +63,8 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-USER-DOT"
       ],
       "acceptance": [
         "Una revisión vigente por identidad/hash y antecedentes trazables; sin segundo propietario de reglas o valores."
@@ -146,6 +152,8 @@ Aplicar cuando cambien fuentes vigentes, artefactos derivados o un entregable de
 La política y decisiones conservan permisos; `norms/catalog.json` selecciona contratos y tokens por identidad, versión y hash. `evidence/` conserva observaciones, copias históricas y comprobantes. `protocols/` contiene los contratos operativos seleccionados en ese mismo catálogo, sin duplicarlos en `norms/`. No duplicar valores de tokens en instrucciones, CSS editable y contratos.
 
 Registrar una revisión y su alcance cuando cambie una norma. Conservar versiones anteriores como evidencia y seleccionar una sola vigente; no sobrescribir el contenido aprobado de una revisión. Las aprobaciones y QA pertenecen al corte que identifican, no a toda revisión futura.
+
+La recuperación de versiones previas de un componente no debe resolver tokens retirados contra el registro actual. Si un retiro impide ese cierre, trasladar íntegramente las revisiones dependientes y su catálogo/token set anterior a evidence, con hashes, commit fuente y mapa de migración. Excluirlas del catálogo operativo; no alterar sus bytes ni retener variables sin usos actuales solo para hacer pasar contratos históricos. La consulta del catálogo selecciona el corte actual; la historia se recupera desde su índice inmutable o Git.
 
 ### REQ-P05-02
 

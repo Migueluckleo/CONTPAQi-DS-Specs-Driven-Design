@@ -1,0 +1,28 @@
+{
+  "role": "DERIVED_MINIMUM_NOT_RULES",
+  "tokens": 19,
+  "distinctSignatures": 19,
+  "redundancies": 0,
+  "candidatePropertyBindings": 250,
+  "nativeUsesByToken": {
+    "dot.color-bg-active": 3,
+    "dot.color-bg-alert": 10,
+    "dot.color-bg-inactive": 3,
+    "dot.color-stroke-separator": 16,
+    "dot.color-text-inverse": 4,
+    "dot.size-presence-small": 8,
+    "dot.size-presence-medium": 8,
+    "dot.size-regular": 13,
+    "dot.size-count-large": 5,
+    "dot.radius-container": 64,
+    "dot.border-width-regular": 64,
+    "dot.spacing-none": 16,
+    "dot.spacing-counter-inline": 6,
+    "dot.font-family": 6,
+    "dot.font-count-style": 6,
+    "dot.font-size-large": 3,
+    "dot.font-size-medium": 3,
+    "dot.font-line-height": 6,
+    "dot.font-letter-spacing": 6
+  }
+}

@@ -2,17 +2,14 @@
   "role": "DERIVED_MINIMUM_NOT_RULES",
   "families": {
     "avatar": {
-      "tokens": 25,
-      "distinctSignatures": 25,
+      "tokens": 22,
+      "distinctSignatures": 22,
       "redundancies": 0,
       "themeRoles": {
         "avatar/color/bg/primary-default": "THEMED",
         "avatar/color/stroke/separator": "INVARIANT",
         "avatar/color/text/inverse": "INVARIANT",
         "avatar/color/icon/inverse": "INVARIANT",
-        "avatar/color/bg/status-active": "INVARIANT",
-        "avatar/color/bg/status-busy": "INVARIANT",
-        "avatar/color/bg/status-inactive": "INVARIANT",
         "avatar/border/width-regular": "INVARIANT",
         "avatar/radius/container": "INVARIANT",
         "avatar/spacing/none": "INVARIANT",
@@ -32,9 +29,9 @@
         "avatar/font/line-height-compact": "INVARIANT",
         "avatar/font/letter-spacing": "INVARIANT"
       },
-      "candidatePropertyBindings": 1357,
+      "candidatePropertyBindings": 728,
       "candidateMethod": "Mapa de bindings por identidad lógica del contrato; sin producto cartesiano.",
-      "uniqueSelectedSignatures": 25
+      "uniqueSelectedSignatures": 22
     },
     "avatar-group": {
       "tokens": 7,

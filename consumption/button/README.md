@@ -38,7 +38,7 @@ Consultar el [comprobante del piloto](../../evidence/qa/button-pilot-check.json)
 
 La revisión 2.0.0 consolida 125 tokens en 47: un token por tipo, scope y vector de aliases en los cuatro temas. Varios estados pueden compartirlo. Para migrar nombres, consultar [variable-map.csv](../../evidence/button-reduction/variable-map.csv); las 90 variantes y sus propiedades no cambian. No usar la coincidencia en RGB o en un único tema como criterio de fusión.
 
-Antes de construir o modificar cualquier componente, la Skill debe aplicar [BH-P07](../../protocols/07-COMPONENT-TOKENS.md). El campo `token_minimum` de cada documento de componente en `context` confirma el control de sus dependencias declaradas; no sustituye comparar las variables y bindings reales. Button usa el contrato 2.0.1 y conserva sus 47 tokens del conjunto 2.0.0.
+Antes de construir o modificar cualquier componente, la Skill debe aplicar [BH-P07](../../protocols/07-COMPONENT-TOKENS.md). El campo `token_minimum` de cada documento de componente en `context` confirma el control de sus dependencias declaradas; no sustituye comparar las variables y bindings reales. Button usa el contrato vigente 3.0.0 y conserva sus 47 tokens; el registro seleccionado por el manifiesto es BLUEHEART-TOKENS@4.0.0.
 
 La nomenclatura Figma observada usa `button/color/bg/primary-default`, `button/font/family` y la estructura completa de [BH-P07](../../protocols/07-COMPONENT-TOKENS.md#req-p07-02). El manifiesto conserva `name` lógico, `figmaName` nativo y `web`; resolver por ID/key y no buscar la variable nativa con el nombre CSS. Los adaptadores y QA reciben `figmaName` o el ID nativo. Las 47 rutas reales están en [observed-names.json](../../evidence/component-naming/observed-names.json).
 

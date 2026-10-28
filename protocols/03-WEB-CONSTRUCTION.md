@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P03",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-020"
+    "decision_id": "ADR-021"
   },
   "targets": [
     "documentation"
@@ -35,13 +35,18 @@
       "id": "SRC-COLLECTION",
       "path": "evidence/authorization/component-collection-request.txt",
       "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
+    },
+    {
+      "id": "SRC-USER-DOT",
+      "path": "evidence/authorization/dot-dependency-request.txt",
+      "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "relation": "uses"
     },
     {
@@ -58,7 +63,8 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-RECOVERY"
+        "SRC-RECOVERY",
+        "SRC-USER-DOT"
       ],
       "acceptance": [
         "Responsabilidades y versiones del entorno están declaradas sin dependencias de aplicación dentro de la biblioteca."
@@ -179,6 +185,8 @@ Prerequisito: [BH-P01](01-COMPONENT-CONTRACT.md). Define el stack solicitado sin
 La biblioteca React no importa el catálogo, rutas de la aplicación, Graphify, contratos en runtime ni herramientas Figma. Los tipos y exports no se extraen con regex de un componente histórico. Mantener metadatos explícitos o información del compilador cuando haga falta generar documentación. Next.js no es dependencia conceptual de cada componente: una integración específica se mantiene en su adaptador.
 
 Cuando se autorice el primer entorno web, inspeccionar herramientas disponibles y compatibilidad de versiones; fijar dependencias y lockfile en el proyecto. El package.json copiado es evidencia del sistema anterior, no la selección de versiones de Blue Heart. No instalar herramientas globales, backend, Storybook ni un segundo framework por este protocolo. Definir rutas reales al crear módulos; no crear paquetes o carpetas vacías para anticiparlos.
+
+El impacto sobre consumidores se evalúa con [BH-P01 REQ-P01-07](01-COMPONENT-CONTRACT.md#req-p01-07); su mapa y prueba pertenecen al comprobante del encargo.
 
 ### REQ-P03-02
 

@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P01",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-020"
+    "decision_id": "ADR-021"
   },
   "targets": [
     "documentation"
@@ -40,6 +40,11 @@
       "id": "SRC-COLLECTION",
       "path": "evidence/authorization/component-collection-request.txt",
       "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
+    },
+    {
+      "id": "SRC-USER-DOT",
+      "path": "evidence/authorization/dot-dependency-request.txt",
+      "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
     }
   ],
   "dependencies": [
@@ -137,6 +142,17 @@
       "acceptance": [
         "Consumir y verificar la organización de colecciones declarada únicamente en BH-P07 REQ-P07-07; no crear colecciones por familia."
       ]
+    },
+    {
+      "id": "REQ-P01-07",
+      "force": "MUST",
+      "provenance": "EXPLICIT",
+      "sources": [
+        "SRC-USER-DOT"
+      ],
+      "acceptance": [
+        "Toda familia nueva o modificada declara consumidores directos y transitivos, evidencia de la inspección nativa y sustituciones de helpers; los contratos/recetas/QA actuales no conservan referencias a dependencias retiradas."
+      ]
     }
   ],
   "profile_data": {
@@ -229,3 +245,13 @@ El pase de REQ-P01-05 exige los artefactos de [REQ-P07-02](07-COMPONENT-TOKENS.m
 ### REQ-COLLECTION
 
 Para la ubicación de variables, consumir [BH-P07 REQ-P07-07](07-COMPONENT-TOKENS.md#req-p07-07). El pase y QA del destino deben acreditar esa organización con su inventario nativo. El registro y la migración pertenecen a ADR-020 y al contrato vigente; no copiar aquí otra definición de la estructura.
+
+### REQ-P01-07
+
+**Dependencias inversas y reutilización obligatoria**
+
+Antes de construir o actualizar cualquier componente, inspeccionar el catálogo y los principales/instancias del destino para identificar consumidores directos, transitivos y helpers privados que representen esa familia. No deducir una dependencia de un nombre o una recomendación: registrar ID/key de origen/destino, contrato, versión, uso y evidencia; documentar también el resultado sin consumidores.
+
+Construir primero la dependencia compartida y sustituir los helpers equivalentes en los consumidores afectados. Conservar propiedades, contenido, bindings, tamaños, estado y overrides legítimos. Actualizar contratos, pines transitivos, mapas y recetas actuales; comprobar desde instancias, incluidos slots, documentación y ejemplos ocultos. No mantener una segunda implementación privada de la misma dependencia. Retirar helpers, estilos o variables solo después de demostrar cero referencias activas y conservar el mapa/historia conforme a BH-P05. El cambio no habilita familias no encargadas ni modifica el origen.
+
+BH-P02 consume este pase y BH-P04 acredita su cumplimiento. El núcleo comprueba dependencias declaradas; no descubre por sí solo relaciones nativas o implícitas en Figma.

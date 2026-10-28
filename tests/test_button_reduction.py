@@ -51,7 +51,7 @@ class ButtonReductionTests(unittest.TestCase):
 
     def test_foundations_are_unchanged_and_retained_ids_still_exist(self):
         before = read('evidence/button-reduction/before/blueheart.1.0.0.json')
-        after = read('norms/tokens/blueheart.3.0.0.json')
+        after = read('norms/tokens/blueheart.4.0.0.json')
         historical = read('evidence/avatar-pilot/history/blueheart.2.0.0.json')
         previous_ids = {t['id'] for t in historical['tokens']}
         expected = copy.deepcopy(historical['tokens'])

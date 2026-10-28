@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P08",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-020"
+    "decision_id": "ADR-021"
   },
   "targets": [
     "documentation"
@@ -65,13 +65,18 @@
       "id": "SRC-COLLECTION",
       "path": "evidence/authorization/component-collection-request.txt",
       "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
+    },
+    {
+      "id": "SRC-USER-DOT",
+      "path": "evidence/authorization/dot-dependency-request.txt",
+      "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P05",
-      "version": "2.0.3",
+      "version": "2.0.4",
       "relation": "uses"
     }
   ],
@@ -105,7 +110,8 @@
       "provenance": "DERIVED",
       "sources": [
         "SRC-AUTH",
-        "SRC-ENGINE"
+        "SRC-ENGINE",
+        "SRC-USER-DOT"
       ],
       "acceptance": [
         "Verificar compatibilidad y versiones de componentes con los casos de tests/test_release_docs.py y la evidencia del alcance; la protección remota requiere prueba en GitHub."
@@ -238,6 +244,8 @@ La versión del componente es independiente de la versión de los protocolos, de
 Todo cambio detectado sobre un componente existente exige una nueva versión SemVer estable x.y.z, declaración patch/minor/major y justificación/migración (`--component-change ID:impacto:justificación`). Patch corrige sin cambiar el contrato público, minor añade comportamiento compatible y major rompe consumidores; incluso en 0.x se exige major para roturas para evitar ambigüedad. CI comprueba el incremento mínimo declarado y bloquea reutilizar una versión modificada. La clasificación semántica se revisa con BH-P04: CI no puede deducir compatibilidad de un diff. Un retiro requiere major y estrategia de sustitución/migración; un alta inicial conserva la versión registrada.
 
 Un cambio en tokens compartidos puede afectar familias sin editar su MD: la detección sigue aliases en todos los modos y dependencias transitivas. Una familia afectada exige evidencia de QA existente o pendientes explícitos. No reconstruir otras familias para justificar el registro. La cobertura actual es contratos y tokens registrados; cuando exista una biblioteca React, extender la detección a sus archivos/API públicos antes de afirmar que sus versiones están gobernadas automáticamente. No hay biblioteca web implementada por este contrato.
+
+El impacto sobre consumidores se evalúa con [BH-P01 REQ-P01-07](01-COMPONENT-CONTRACT.md#req-p01-07); su mapa y prueba pertenecen al comprobante del encargo.
 
 ### REQ-P08-04
 
