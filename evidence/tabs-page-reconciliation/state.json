@@ -1,0 +1,21 @@
+{
+  "runId": "tabs-page-reconciliation-20261027",
+  "sessionId": "c61df69c-ad2c-4f85-ad12-ec154c4a5f9b",
+  "sourceFileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+  "sourcePageId": "268:20245",
+  "destinationFileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "destinationPageId": "78:97",
+  "base": "76df417261e6d453e7fcbd59085c77db3badda0b",
+  "branch": "codex/tabs-page-parity",
+  "step": "VERIFIED_LOCAL_DELIVERY",
+  "pending": [],
+  "entities": {
+    "Tab": "79:26",
+    "Tabs": "105:223",
+    "overview": "111:461",
+    "variants": "113:298",
+    "masters": "111:442",
+    "slotQA": "121:409"
+  },
+  "publication_evidence_owner": "BH-P08: docs/releases/pushes and GitHub Actions receipts; publication is reported separately from this local verification"
+}

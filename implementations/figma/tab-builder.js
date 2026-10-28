@@ -97,7 +97,7 @@ async function foundation() {
   const countText=mark(figma.createText());count.appendChild(countText);
   await apply(countText,DATA.countText,styleIds.count);await apply(count,DATA.count);
   count.name='__Tab/Count';count.visible=true;count.x=1600;count.y=900;
-  count.description='Dependencia privada de TAB-001@1.0.0. Solo Count textual observado; no representa la familia Dot. Conserva HUG, mínimo 16 y las recetas registradas.';
+  count.description='Dependencia privada de TAB-001@1.1.0. Solo Count textual observado; no representa la familia Dot. Conserva HUG, mínimo 16 y las recetas registradas.';
   const countProperty=count.addComponentProperty('Count','TEXT','1');countText.componentPropertyReferences={characters:countProperty};
   return {pageId:page.id,collectionId:collection.id,modeIds,variableIds,styleIds,countId:count.id,countTextId:countText.id,countProperty,createdNodeIds:created,mutatedNodeIds:mutated,createdVariableIds:Object.values(variableIds),createdStyleIds:Object.values(styleIds)};
 }
@@ -105,7 +105,7 @@ async function foundation() {
 async function family() {
   const page=await figma.getNodeByIdAsync(DATA.pageId);
   if(page.children.some(n=>n.name==='Tab'))throw new Error('Tab family already exists');
-  const result=await createComponentWithVariants({name:'Tab',description:'TAB-001@1.0.0 · 24 variantes · 43 tokens. type × selected × state. Selección y paneles pertenecen al consumidor; ver contrato MD.',variantAxes:{type:['underline','pill','segmented'],selected:['false','true'],state:['default','hover','focus','disabled']},baseProps:{width:100,height:52,fills:[]},page});
+  const result=await createComponentWithVariants({name:'Tab',description:'TAB-001@1.1.0 · 24 variantes · 45 tokens. type × selected × state. Selección y paneles pertenecen al consumidor; ver contrato MD.',variantAxes:{type:['underline','pill','segmented'],selected:['false','true'],state:['default','hover','focus','disabled']},baseProps:{width:100,height:52,fills:[]},page});
   result.componentSet.x=1600;result.componentSet.y=80;result.componentSet.resize(640,640);
   for(const [i,n] of result.variants.entries()){n.x=40+(i%4)*144;n.y=40+Math.floor(i/4)*92;created.push(n.id);}
   created.push(result.componentSet.id);

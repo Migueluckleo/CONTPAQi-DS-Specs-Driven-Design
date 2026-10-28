@@ -1,0 +1,976 @@
+{
+  "variables": [
+    {
+      "id": "VariableID:78:56",
+      "logicalId": "tab.color-tab-bg-brand-accent",
+      "beforeName": "tab/color/bg/brand-accent",
+      "name": "tab/color/bg/primary-hover",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:152"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:162"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:176"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:181"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-bg-brand-accent)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:152"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:162"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:176"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:181"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-brand-accent)"
+      }
+    },
+    {
+      "id": "VariableID:78:57",
+      "logicalId": "tab.color-tab-bg-brand-subtle",
+      "beforeName": "tab/color/bg/brand-subtle",
+      "name": "tab/color/bg/primary-default",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:151"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:161"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:175"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:180"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-bg-brand-subtle)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:151"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:161"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:175"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:180"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-brand-subtle)"
+      }
+    },
+    {
+      "id": "VariableID:78:58",
+      "logicalId": "tab.color-tab-bg-count",
+      "beforeName": "tab/color/bg/count",
+      "name": "tab/color/bg/count-default",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:188"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:188"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:188"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:188"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-bg-count)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-count)"
+      }
+    },
+    {
+      "id": "VariableID:78:59",
+      "logicalId": "tab.color-tab-bg-muted",
+      "beforeName": "tab/color/bg/muted",
+      "name": "tab/color/bg/segmented-hover",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:168"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:168"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:168"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:168"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-bg-muted)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-muted)"
+      }
+    },
+    {
+      "id": "VariableID:78:60",
+      "logicalId": "tab.color-tab-bg-subtle",
+      "beforeName": "tab/color/bg/subtle",
+      "name": "tab/color/bg/secondary-hover",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:167"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:167"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:167"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:167"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-bg-subtle)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-subtle)"
+      }
+    },
+    {
+      "id": "VariableID:78:61",
+      "logicalId": "tab.color-tab-bg-surface",
+      "beforeName": "tab/color/bg/surface",
+      "name": "tab/color/bg/segmented-focus",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:166"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:166"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:166"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:166"
+          }
+        },
+        "scopes": [
+          "FRAME_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-bg-surface)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-bg-surface)"
+      }
+    },
+    {
+      "id": "VariableID:78:62",
+      "logicalId": "tab.color-tab-icon-brand",
+      "beforeName": "tab/color/icon/brand",
+      "name": "tab/color/icon/primary-default",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:154"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:163"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:177"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:184"
+          }
+        },
+        "scopes": [
+          "SHAPE_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-icon-brand)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-icon-brand)"
+      }
+    },
+    {
+      "id": "VariableID:78:64",
+      "logicalId": "tab.color-tab-icon-primary",
+      "beforeName": "tab/color/icon/primary",
+      "name": "tab/color/icon/secondary-hover",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:174"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:174"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:174"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:174"
+          }
+        },
+        "scopes": [
+          "SHAPE_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-icon-primary)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-icon-primary)"
+      }
+    },
+    {
+      "id": "VariableID:78:65",
+      "logicalId": "tab.color-tab-icon-secondary",
+      "beforeName": "tab/color/icon/secondary",
+      "name": "tab/color/icon/secondary-default",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:170"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:170"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:170"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:170"
+          }
+        },
+        "scopes": [
+          "SHAPE_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-icon-secondary)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-icon-secondary)"
+      }
+    },
+    {
+      "id": "VariableID:78:66",
+      "logicalId": "tab.color-tab-stroke-brand",
+      "beforeName": "tab/color/stroke/brand",
+      "name": "tab/color/stroke/primary-default",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:154"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:163"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:177"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:184"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-stroke-brand)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-brand)"
+      }
+    },
+    {
+      "id": "VariableID:78:67",
+      "logicalId": "tab.color-tab-stroke-brand-hover",
+      "beforeName": "tab/color/stroke/brand-hover",
+      "name": "tab/color/stroke/primary-hover",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:155"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:164"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:178"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:185"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-stroke-brand-hover)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-brand-hover)"
+      }
+    },
+    {
+      "id": "VariableID:78:69",
+      "logicalId": "tab.color-tab-stroke-neutral",
+      "beforeName": "tab/color/stroke/neutral",
+      "name": "tab/color/stroke/secondary-hover",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:169"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:169"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:169"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:169"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-stroke-neutral)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-neutral)"
+      }
+    },
+    {
+      "id": "VariableID:78:70",
+      "logicalId": "tab.color-tab-stroke-surface",
+      "beforeName": "tab/color/stroke/surface",
+      "name": "tab/color/stroke/count-default",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:166"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:166"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:166"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:166"
+          }
+        },
+        "scopes": [
+          "STROKE_COLOR"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-stroke-surface)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-stroke-surface)"
+      }
+    },
+    {
+      "id": "VariableID:78:71",
+      "logicalId": "tab.color-tab-text-brand",
+      "beforeName": "tab/color/text/brand",
+      "name": "tab/color/text/primary-default",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:154"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:163"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:178"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:184"
+          }
+        },
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-text-brand)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-brand)"
+      }
+    },
+    {
+      "id": "VariableID:78:72",
+      "logicalId": "tab.color-tab-text-brand-hover",
+      "beforeName": "tab/color/text/brand-hover",
+      "name": "tab/color/text/primary-hover",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:155"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:164"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:178"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:185"
+          }
+        },
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-text-brand-hover)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-brand-hover)"
+      }
+    },
+    {
+      "id": "VariableID:78:75",
+      "logicalId": "tab.color-tab-text-primary",
+      "beforeName": "tab/color/text/primary",
+      "name": "tab/color/text/secondary-hover",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:174"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:174"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:174"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:174"
+          }
+        },
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-text-primary)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-primary)"
+      }
+    },
+    {
+      "id": "VariableID:78:76",
+      "logicalId": "tab.color-tab-text-secondary",
+      "beforeName": "tab/color/text/secondary",
+      "name": "tab/color/text/secondary-default",
+      "before": {
+        "values": {
+          "78:4": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:171"
+          },
+          "78:5": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:171"
+          },
+          "78:6": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:171"
+          },
+          "78:7": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:6:171"
+          }
+        },
+        "scopes": [
+          "TEXT_FILL"
+        ],
+        "codeSyntax": {
+          "WEB": "var(--color-tab-text-secondary)"
+        }
+      },
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "codeSyntax": {
+        "WEB": "var(--color-tab-text-secondary)"
+      }
+    }
+  ],
+  "mutatedVariableIds": [
+    "VariableID:78:56",
+    "VariableID:78:57",
+    "VariableID:78:58",
+    "VariableID:78:59",
+    "VariableID:78:60",
+    "VariableID:78:61",
+    "VariableID:78:62",
+    "VariableID:78:64",
+    "VariableID:78:65",
+    "VariableID:78:66",
+    "VariableID:78:67",
+    "VariableID:78:69",
+    "VariableID:78:70",
+    "VariableID:78:71",
+    "VariableID:78:72",
+    "VariableID:78:75",
+    "VariableID:78:76"
+  ],
+  "mutatedNodeIds": []
+}

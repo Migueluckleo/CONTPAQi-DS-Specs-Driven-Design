@@ -1,0 +1,55 @@
+{
+  "collections": 5,
+  "component_token_minimum": {
+    "BUTTON-001@2.0.0": {
+      "component_tokens": 47,
+      "distinct_signatures": 47,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "BUTTON-001@2.0.1": {
+      "component_tokens": 47,
+      "distinct_signatures": 47,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "TAB-001@1.0.0": {
+      "component_tokens": 43,
+      "distinct_signatures": 43,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "TAB-001@1.1.0": {
+      "component_tokens": 45,
+      "distinct_signatures": 45,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "TABS-001@1.0.0": {
+      "component_tokens": 5,
+      "distinct_signatures": 5,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    }
+  },
+  "contracts": 13,
+  "deferred": [
+    "figma-write-adapter",
+    "react-library",
+    "graphify-adapter",
+    "persistent-agent-office",
+    "release-publication"
+  ],
+  "graphify_required": false,
+  "mode_contexts": 16,
+  "scope": "Infrastructure and registered normative content; not design or implementation QA",
+  "snapshot": "5476f92115362e5578f0aa348c249b0cf42e315b50fdd1af43662ecf5377afd6",
+  "status": "PASS",
+  "token_sets": 3,
+  "tokens": 348
+}

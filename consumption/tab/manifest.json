@@ -3,9 +3,9 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "TAB-001",
-    "version": "1.0.0",
-    "path": "norms/components/tab.1.0.0.md",
-    "sha256": "1148c2a12aff33eb3d526f32633c68f6cab20a0fcaf75fb7fb9bac3bfa33f2ce"
+    "version": "1.1.0",
+    "path": "norms/components/tab.1.1.0.md",
+    "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f"
   },
   "token_sets": [
     {
@@ -16,9 +16,9 @@
     },
     {
       "id": "TAB-TOKENS",
-      "version": "1.0.0",
-      "path": "norms/tokens/tab.1.0.0.json",
-      "sha256": "140c5c062a65a9b4ec28b171b6b1d67e69264f38535320d274e5f82198cbccab"
+      "version": "1.1.0",
+      "path": "norms/tokens/tab.1.1.0.json",
+      "sha256": "00dab9bfdb202a689461f609a288afb01dcec41e41d006043df1a852969a35b4"
     }
   ],
   "fileKey": "98xEw6sK8FRVNEhopM5SSz",
@@ -116,7 +116,7 @@
     "id": "79:26",
     "key": "1848649f934b1fd6f1cfae986c474b1012693f6f",
     "name": "Tab",
-    "description": "TAB-001@1.0.0 · 24 variantes · 43 tokens. type × selected × state. Selección y paneles pertenecen al consumidor; ver contrato MD.",
+    "description": "TAB-001@1.1.0 · 24 variantes · 45 tokens; segmented morado fijo, ADR-016/017.",
     "properties": {
       "Label#79:100": {
         "type": "TEXT",
@@ -520,7 +520,7 @@
     {
       "id": "tab.color-tab-bg-brand-accent",
       "name": "--color-tab-bg-brand-accent",
-      "figmaName": "tab/color/bg/brand-accent",
+      "figmaName": "tab/color/bg/primary-hover",
       "web": "var(--color-tab-bg-brand-accent)",
       "scope": "FRAME_FILL",
       "nativeId": "VariableID:78:56",
@@ -543,7 +543,7 @@
     {
       "id": "tab.color-tab-bg-brand-subtle",
       "name": "--color-tab-bg-brand-subtle",
-      "figmaName": "tab/color/bg/brand-subtle",
+      "figmaName": "tab/color/bg/primary-default",
       "web": "var(--color-tab-bg-brand-subtle)",
       "scope": "FRAME_FILL",
       "nativeId": "VariableID:78:57",
@@ -566,7 +566,7 @@
     {
       "id": "tab.color-tab-bg-count",
       "name": "--color-tab-bg-count",
-      "figmaName": "tab/color/bg/count",
+      "figmaName": "tab/color/bg/count-default",
       "web": "var(--color-tab-bg-count)",
       "scope": "FRAME_FILL",
       "nativeId": "VariableID:78:58",
@@ -589,7 +589,7 @@
     {
       "id": "tab.color-tab-bg-muted",
       "name": "--color-tab-bg-muted",
-      "figmaName": "tab/color/bg/muted",
+      "figmaName": "tab/color/bg/segmented-hover",
       "web": "var(--color-tab-bg-muted)",
       "scope": "FRAME_FILL",
       "nativeId": "VariableID:78:59",
@@ -612,7 +612,7 @@
     {
       "id": "tab.color-tab-bg-subtle",
       "name": "--color-tab-bg-subtle",
-      "figmaName": "tab/color/bg/subtle",
+      "figmaName": "tab/color/bg/secondary-hover",
       "web": "var(--color-tab-bg-subtle)",
       "scope": "FRAME_FILL",
       "nativeId": "VariableID:78:60",
@@ -635,7 +635,7 @@
     {
       "id": "tab.color-tab-bg-surface",
       "name": "--color-tab-bg-surface",
-      "figmaName": "tab/color/bg/surface",
+      "figmaName": "tab/color/bg/segmented-focus",
       "web": "var(--color-tab-bg-surface)",
       "scope": "FRAME_FILL",
       "nativeId": "VariableID:78:61",
@@ -658,7 +658,7 @@
     {
       "id": "tab.color-tab-icon-brand",
       "name": "--color-tab-icon-brand",
-      "figmaName": "tab/color/icon/brand",
+      "figmaName": "tab/color/icon/primary-default",
       "web": "var(--color-tab-icon-brand)",
       "scope": "SHAPE_FILL",
       "nativeId": "VariableID:78:62",
@@ -704,7 +704,7 @@
     {
       "id": "tab.color-tab-icon-primary",
       "name": "--color-tab-icon-primary",
-      "figmaName": "tab/color/icon/primary",
+      "figmaName": "tab/color/icon/secondary-hover",
       "web": "var(--color-tab-icon-primary)",
       "scope": "SHAPE_FILL",
       "nativeId": "VariableID:78:64",
@@ -727,7 +727,7 @@
     {
       "id": "tab.color-tab-icon-secondary",
       "name": "--color-tab-icon-secondary",
-      "figmaName": "tab/color/icon/secondary",
+      "figmaName": "tab/color/icon/secondary-default",
       "web": "var(--color-tab-icon-secondary)",
       "scope": "SHAPE_FILL",
       "nativeId": "VariableID:78:65",
@@ -750,7 +750,7 @@
     {
       "id": "tab.color-tab-stroke-brand",
       "name": "--color-tab-stroke-brand",
-      "figmaName": "tab/color/stroke/brand",
+      "figmaName": "tab/color/stroke/primary-default",
       "web": "var(--color-tab-stroke-brand)",
       "scope": "STROKE_COLOR",
       "nativeId": "VariableID:78:66",
@@ -773,7 +773,7 @@
     {
       "id": "tab.color-tab-stroke-brand-hover",
       "name": "--color-tab-stroke-brand-hover",
-      "figmaName": "tab/color/stroke/brand-hover",
+      "figmaName": "tab/color/stroke/primary-hover",
       "web": "var(--color-tab-stroke-brand-hover)",
       "scope": "STROKE_COLOR",
       "nativeId": "VariableID:78:67",
@@ -819,7 +819,7 @@
     {
       "id": "tab.color-tab-stroke-neutral",
       "name": "--color-tab-stroke-neutral",
-      "figmaName": "tab/color/stroke/neutral",
+      "figmaName": "tab/color/stroke/secondary-hover",
       "web": "var(--color-tab-stroke-neutral)",
       "scope": "STROKE_COLOR",
       "nativeId": "VariableID:78:69",
@@ -842,7 +842,7 @@
     {
       "id": "tab.color-tab-stroke-surface",
       "name": "--color-tab-stroke-surface",
-      "figmaName": "tab/color/stroke/surface",
+      "figmaName": "tab/color/stroke/count-default",
       "web": "var(--color-tab-stroke-surface)",
       "scope": "STROKE_COLOR",
       "nativeId": "VariableID:78:70",
@@ -865,7 +865,7 @@
     {
       "id": "tab.color-tab-text-brand",
       "name": "--color-tab-text-brand",
-      "figmaName": "tab/color/text/brand",
+      "figmaName": "tab/color/text/primary-default",
       "web": "var(--color-tab-text-brand)",
       "scope": "TEXT_FILL",
       "nativeId": "VariableID:78:71",
@@ -888,7 +888,7 @@
     {
       "id": "tab.color-tab-text-brand-hover",
       "name": "--color-tab-text-brand-hover",
-      "figmaName": "tab/color/text/brand-hover",
+      "figmaName": "tab/color/text/primary-hover",
       "web": "var(--color-tab-text-brand-hover)",
       "scope": "TEXT_FILL",
       "nativeId": "VariableID:78:72",
@@ -957,7 +957,7 @@
     {
       "id": "tab.color-tab-text-primary",
       "name": "--color-tab-text-primary",
-      "figmaName": "tab/color/text/primary",
+      "figmaName": "tab/color/text/secondary-hover",
       "web": "var(--color-tab-text-primary)",
       "scope": "TEXT_FILL",
       "nativeId": "VariableID:78:75",
@@ -980,7 +980,7 @@
     {
       "id": "tab.color-tab-text-secondary",
       "name": "--color-tab-text-secondary",
-      "figmaName": "tab/color/text/secondary",
+      "figmaName": "tab/color/text/secondary-default",
       "web": "var(--color-tab-text-secondary)",
       "scope": "TEXT_FILL",
       "nativeId": "VariableID:78:76",
@@ -1459,24 +1459,80 @@
           "alias": "semantic.spacing-xs"
         }
       }
+    },
+    {
+      "id": "tab.color-tab-bg-segmented-selected-default",
+      "name": "--color-tab-bg-segmented-selected-default",
+      "figmaName": "tab/color/bg/segmented-selected-default",
+      "web": "var(--color-tab-bg-segmented-selected-default)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:107:250",
+      "nativeKey": "818ffe9b16788be432ffe0a63f9b2aa3b8f33688",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-personas-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-personas-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-personas-medium"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-medium"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-segmented-selected-hover",
+      "name": "--color-tab-bg-segmented-selected-hover",
+      "figmaName": "tab/color/bg/segmented-selected-hover",
+      "web": "var(--color-tab-bg-segmented-selected-hover)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:107:251",
+      "nativeKey": "f3bdbe1fcd0d397adfcc22a8c8bbbe33c3a44d8e",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-personas-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-personas-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-personas-soft"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-soft"
+        }
+      }
     }
   ],
   "recipes": {
-    "path": "evidence/tab-pilot/build-plan.json",
-    "sha256": "58e0fb3257ffb02b0397e29a32858c029995082d45eb54ec7bf756b417f1200e",
-    "generator": "implementations/figma/tab-plan.py"
+    "path": "consumption/tab/current-build-plan.json",
+    "sha256": "0335a0b29170030689623f322bb2fd534df3e054e41e31592bc2c0a3bf2e75c8",
+    "generator": "consumption/tab/materialize-plan.py"
   },
   "binding_map": {
-    "path": "evidence/tab-pilot/destination/binding-map.csv",
-    "sha256": "8fc3942f34d19ad889a3245a7ca80cb73c82eddb6e806658bbe03b73030c8dd7"
+    "path": "consumption/tab/binding-map.csv",
+    "sha256": "4413f65f91e04ee268958ff6fcb17f4cc0410cb123f832e7e81042bcdd9dcd56"
   },
   "qa": {
-    "path": "evidence/qa/tab-pilot-check.json"
+    "path": "evidence/tabs-page-reconciliation/slot-qa.json",
+    "sha256": "23bb883f0563217ee41ec63bee7acc0248066b6e89fdcf0bf36ea74741ca6ba4",
+    "current_summary": "evidence/qa/tabs-page-reconciliation-check.json",
+    "historical_baseline": "evidence/qa/tab-pilot-check.json"
   },
   "source_observation": {
     "path": "evidence/tab-pilot/source/component-contract.md",
     "sha256": "72e8215a2c41601bcc2ec65714430d8f1a08f0bee8b5ac8ddc245e462fea615b"
   },
   "distribution": "Local components in Blue Heart DS; no library publication or cross-file import assertion",
-  "web_implementation": "NOT_IMPLEMENTED"
+  "web_implementation": "NOT_IMPLEMENTED",
+  "documentation": {
+    "overviewId": "111:461",
+    "variantsAndStatesId": "113:298",
+    "mastersId": "111:442",
+    "groupContract": "TABS-001@1.0.0",
+    "slotQaFrameId": "121:409"
+  }
 }

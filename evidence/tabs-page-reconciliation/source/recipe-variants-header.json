@@ -1,0 +1,543 @@
+{
+  "id": "9059:29367",
+  "name": "Documentation tool kit",
+  "t": "INSTANCE",
+  "x": 0,
+  "y": 0,
+  "w": 1920,
+  "h": 160,
+  "visible": true,
+  "opacity": 1,
+  "layoutMode": "HORIZONTAL",
+  "primaryAxisSizingMode": "FIXED",
+  "counterAxisSizingMode": "AUTO",
+  "primaryAxisAlignItems": "MIN",
+  "counterAxisAlignItems": "CENTER",
+  "layoutSizingHorizontal": "FIXED",
+  "layoutSizingVertical": "HUG",
+  "itemSpacing": 0,
+  "paddingTop": 56,
+  "paddingRight": 80,
+  "paddingBottom": 56,
+  "paddingLeft": 80,
+  "clipsContent": false,
+  "cornerRadius": 0,
+  "strokeAlign": "INSIDE",
+  "strokesIncludedInLayout": false,
+  "constraints": {
+    "horizontal": "MIN",
+    "vertical": "MIN"
+  },
+  "layoutPositioning": "AUTO",
+  "rotation": 0,
+  "effects": [],
+  "fills": [],
+  "strokes": [
+    {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2849:196116"
+        }
+      }
+    }
+  ],
+  "boundVariables": {
+    "strokes": [
+      {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:2849:196116"
+      }
+    ]
+  },
+  "kids": [
+    {
+      "id": "I9059:29367;7371:26764",
+      "name": "Title",
+      "t": "FRAME",
+      "x": 80,
+      "y": 60,
+      "w": 1640.6041259765625,
+      "h": 40,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "VERTICAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "MIN",
+      "layoutSizingHorizontal": "FILL",
+      "layoutSizingVertical": "HUG",
+      "itemSpacing": 16,
+      "paddingTop": 0,
+      "paddingRight": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "clipsContent": false,
+      "cornerRadius": 0,
+      "strokeWeight": 1,
+      "strokeAlign": "INSIDE",
+      "strokesIncludedInLayout": false,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "rotation": 0,
+      "effects": [],
+      "fills": [],
+      "strokes": [],
+      "boundVariables": {},
+      "kids": [
+        {
+          "id": "I9059:29367;7371:26765",
+          "name": "Title",
+          "t": "TEXT",
+          "x": 0,
+          "y": 0,
+          "w": 328,
+          "h": 40,
+          "visible": true,
+          "opacity": 1,
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "strokeWeight": 5.744145393371582,
+          "strokeAlign": "OUTSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutPositioning": "AUTO",
+          "rotation": 0,
+          "textAutoResize": "WIDTH_AND_HEIGHT",
+          "textAlignHorizontal": "LEFT",
+          "textAlignVertical": "TOP",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Bold",
+            "variationSettings": {
+              "wght": 700
+            }
+          },
+          "fontSize": 40,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 100
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "characters": "Variants & states",
+          "effects": [],
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196116"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196116"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160891"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ]
+          }
+        },
+        {
+          "id": "I9059:29367;7371:26766",
+          "name": "Description",
+          "t": "FRAME",
+          "x": 0,
+          "y": 56,
+          "w": 1640.6041259765625,
+          "h": 60,
+          "visible": false,
+          "opacity": 1,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "FIXED",
+          "counterAxisSizingMode": "AUTO",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "HUG",
+          "itemSpacing": 24,
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "clipsContent": false,
+          "cornerRadius": 0,
+          "strokeWeight": 1,
+          "strokeAlign": "INSIDE",
+          "strokesIncludedInLayout": false,
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutPositioning": "AUTO",
+          "rotation": 0,
+          "effects": [],
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {},
+          "kids": [
+            {
+              "id": "I9059:29367;7371:26767",
+              "name": "A modal comes in three sizes: small, medium, and large, defined in percentages relative to the screen. See responsive behavior",
+              "t": "TEXT",
+              "x": 0,
+              "y": 0,
+              "w": 800,
+              "h": 60,
+              "visible": true,
+              "opacity": 1,
+              "layoutSizingHorizontal": "FILL",
+              "layoutSizingVertical": "HUG",
+              "strokeWeight": 1.1236019134521484,
+              "strokeAlign": "OUTSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutPositioning": "AUTO",
+              "rotation": 0,
+              "textAutoResize": "HEIGHT",
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "fontName": {
+                "family": "Manrope",
+                "style": "Regular",
+                "variationSettings": {
+                  "wght": 400
+                }
+              },
+              "fontSize": 20,
+              "lineHeight": {
+                "unit": "PERCENT",
+                "value": 150
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 2
+              },
+              "characters": "A modal comes in three sizes: small, medium, and large, defined in percentages relative to the screen. See responsive behavior",
+              "effects": [],
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:2849:196116"
+                    }
+                  }
+                }
+              ],
+              "strokes": [],
+              "boundVariables": {
+                "fills": [
+                  {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:2849:196116"
+                  }
+                ],
+                "fontStyle": [
+                  {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:2845:160888"
+                  }
+                ],
+                "fontFamily": [
+                  {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:2845:160887"
+                  }
+                ]
+              }
+            },
+            {
+              "id": "I9059:29367;7371:26768",
+              "name": "A modal comes in th",
+              "t": "TEXT",
+              "x": 824,
+              "y": 15,
+              "w": 816.6041259765625,
+              "h": 30,
+              "visible": true,
+              "opacity": 0,
+              "layoutSizingHorizontal": "FILL",
+              "layoutSizingVertical": "HUG",
+              "strokeWeight": 1.1236019134521484,
+              "strokeAlign": "OUTSIDE",
+              "constraints": {
+                "horizontal": "MIN",
+                "vertical": "MIN"
+              },
+              "layoutPositioning": "AUTO",
+              "rotation": 0,
+              "textAutoResize": "HEIGHT",
+              "textAlignHorizontal": "LEFT",
+              "textAlignVertical": "TOP",
+              "fontName": {
+                "family": "Figtree",
+                "style": "SemiBold",
+                "variationSettings": {
+                  "wght": 600
+                }
+              },
+              "fontSize": 20,
+              "lineHeight": {
+                "unit": "PERCENT",
+                "value": 150
+              },
+              "letterSpacing": {
+                "unit": "PERCENT",
+                "value": 2
+              },
+              "characters": "A modal comes in th",
+              "effects": [],
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "visible": true,
+                  "opacity": 1,
+                  "blendMode": "NORMAL",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "boundVariables": {
+                    "color": {
+                      "type": "VARIABLE_ALIAS",
+                      "id": "VariableID:2849:196116"
+                    }
+                  }
+                }
+              ],
+              "strokes": [],
+              "boundVariables": {
+                "fills": [
+                  {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:2849:196116"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "I9059:29367;7371:26769",
+      "name": "Status",
+      "t": "INSTANCE",
+      "x": 1720.6041259765625,
+      "y": 56,
+      "w": 119.39583587646484,
+      "h": 48,
+      "visible": true,
+      "opacity": 1,
+      "layoutMode": "HORIZONTAL",
+      "primaryAxisSizingMode": "AUTO",
+      "counterAxisSizingMode": "FIXED",
+      "primaryAxisAlignItems": "CENTER",
+      "counterAxisAlignItems": "CENTER",
+      "layoutSizingHorizontal": "HUG",
+      "layoutSizingVertical": "FIXED",
+      "itemSpacing": 4,
+      "paddingTop": 0,
+      "paddingRight": 19,
+      "paddingBottom": 0,
+      "paddingLeft": 10,
+      "clipsContent": false,
+      "cornerRadius": 24.869462966918945,
+      "strokeWeight": 2,
+      "strokeAlign": "INSIDE",
+      "strokesIncludedInLayout": false,
+      "constraints": {
+        "horizontal": "MIN",
+        "vertical": "MIN"
+      },
+      "layoutPositioning": "AUTO",
+      "rotation": 0,
+      "effects": [],
+      "fills": [],
+      "strokes": [
+        {
+          "type": "SOLID",
+          "visible": true,
+          "opacity": 1,
+          "blendMode": "NORMAL",
+          "color": {
+            "r": 0.05882352963089943,
+            "g": 0.09019608050584793,
+            "b": 0.16470588743686676
+          },
+          "boundVariables": {
+            "color": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:2849:196116"
+            }
+          }
+        }
+      ],
+      "boundVariables": {
+        "strokes": [
+          {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:2849:196116"
+          }
+        ]
+      },
+      "kids": [
+        {
+          "id": "I9059:29367;7371:26769;7371:26933",
+          "name": "Bullet",
+          "t": "INSTANCE",
+          "x": 10,
+          "y": 10.302082061767578,
+          "w": 27.395835876464844,
+          "h": 27.395835876464844,
+          "visible": true,
+          "opacity": 1,
+          "kind": "bullet"
+        },
+        {
+          "id": "I9059:29367;7371:26769;7371:26934",
+          "name": "Done",
+          "t": "TEXT",
+          "x": 41.395835876464844,
+          "y": 12,
+          "w": 59,
+          "h": 24,
+          "visible": true,
+          "opacity": 1,
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "strokeWeight": 3.3196725845336914,
+          "strokeAlign": "OUTSIDE",
+          "constraints": {
+            "horizontal": "MIN",
+            "vertical": "MIN"
+          },
+          "layoutPositioning": "AUTO",
+          "rotation": 0,
+          "textAutoResize": "WIDTH_AND_HEIGHT",
+          "textAlignHorizontal": "LEFT",
+          "textAlignVertical": "TOP",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 24,
+          "lineHeight": {
+            "unit": "PERCENT",
+            "value": 100
+          },
+          "letterSpacing": {
+            "unit": "PERCENT",
+            "value": 0
+          },
+          "characters": "Done",
+          "effects": [],
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196116"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196116"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160896"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

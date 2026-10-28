@@ -1,0 +1,215 @@
+{
+  "schema_version": "1",
+  "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
+  "contract": {
+    "id": "TABS-001",
+    "version": "1.0.0",
+    "path": "norms/components/tabs.1.0.0.md",
+    "sha256": "65a0b03038e73cf0fc43a9d197cd80b60154be3445b879e00b0d6a68a9f90ab2"
+  },
+  "dependency": {
+    "id": "TAB-001",
+    "version": "1.1.0",
+    "path": "norms/components/tab.1.1.0.md",
+    "sha256": "a162f637cce5ddf03375307bd9203d700814abd1fa569014930718779348843f"
+  },
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "2.0.0",
+      "path": "norms/tokens/blueheart.2.0.0.json",
+      "sha256": "583d2764e002adf140dac6f34e16f84ecf159a298bf3f7b6213034a33a51ed29"
+    },
+    {
+      "id": "TAB-TOKENS",
+      "version": "1.1.0",
+      "path": "norms/tokens/tab.1.1.0.json",
+      "sha256": "00dab9bfdb202a689461f609a288afb01dcec41e41d006043df1a852969a35b4"
+    },
+    {
+      "id": "TABS-TOKENS",
+      "version": "1.0.0",
+      "path": "norms/tokens/tabs.1.0.0.json",
+      "sha256": "4abd890dfa3ec2faf8598f015084a4ef12dcee97c5c20809a266c42e9e3bd08d"
+    }
+  ],
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "page": {
+    "id": "78:97",
+    "name": "Tabs"
+  },
+  "family": {
+    "id": "105:223",
+    "key": "ff82dcaeabe82f9acfa899194e49c16f40cbf931",
+    "name": "Tabs",
+    "properties": {
+      "Tabs#105:0": {
+        "type": "SLOT",
+        "description": "Agrega, quita o reordena Tab del mismo type; conserva una selección.",
+        "slotSettings": {
+          "stretchChildOnInsert": false,
+          "displayEmptyByDefault": false,
+          "minChildren": 2,
+          "maxChildren": null,
+          "allowPreferredValuesOnly": false
+        },
+        "preferredValues": [
+          {
+            "type": "COMPONENT_SET",
+            "key": "1848649f934b1fd6f1cfae986c474b1012693f6f"
+          }
+        ]
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "underline",
+        "variantOptions": [
+          "underline",
+          "pill",
+          "segmented"
+        ]
+      }
+    }
+  },
+  "variants": [
+    {
+      "id": "105:220",
+      "key": "69bb0e1028a2fa74e92ab260da71feea771f4b10",
+      "type": "underline",
+      "width": 265,
+      "height": 44,
+      "slotId": "105:224",
+      "slotType": "SLOT",
+      "limitViolations": [],
+      "children": [
+        "105:225",
+        "105:233",
+        "105:241",
+        "105:247"
+      ],
+      "dividerId": "105:253"
+    },
+    {
+      "id": "105:221",
+      "key": "7f6c21db185178b5518beea1b9ec52e0a983feda",
+      "type": "pill",
+      "width": 277,
+      "height": 36,
+      "slotId": "105:254",
+      "slotType": "SLOT",
+      "limitViolations": [],
+      "children": [
+        "105:255",
+        "105:263",
+        "105:270",
+        "105:276"
+      ]
+    },
+    {
+      "id": "105:222",
+      "key": "fa7173147a3d0b858e33784063d1d973727db157",
+      "type": "segmented",
+      "width": 253,
+      "height": 36,
+      "slotId": "105:282",
+      "slotType": "SLOT",
+      "limitViolations": [],
+      "children": [
+        "105:283",
+        "105:291",
+        "105:299",
+        "105:305"
+      ]
+    }
+  ],
+  "slotKey": "Tabs#105:0",
+  "collection": {
+    "id": "VariableCollectionId:105:2",
+    "name": "tabs",
+    "modeIds": {
+      "Value": "105:0"
+    }
+  },
+  "variables": [
+    {
+      "id": "tabs.color-tabs-divider-default",
+      "figmaName": "tabs/color/divider/default",
+      "web": "var(--color-tabs-divider-default)",
+      "scope": "SHAPE_FILL",
+      "nativeId": "VariableID:105:3",
+      "nativeKey": "fb52006653ba308e93e423e3da9b87ad87fa6b78",
+      "aliases": {
+        "Value": {
+          "alias": "semantic.neutral-soft"
+        }
+      }
+    },
+    {
+      "id": "tabs.size-tabs-divider",
+      "figmaName": "tabs/size/divider",
+      "web": "var(--size-tabs-divider)",
+      "scope": "WIDTH_HEIGHT",
+      "nativeId": "VariableID:105:4",
+      "nativeKey": "dbd93ff9feb292df087f994567d3a5c409ecd81c",
+      "aliases": {
+        "Value": {
+          "alias": "semantic.stroke-xs"
+        }
+      }
+    },
+    {
+      "id": "tabs.spacing-tabs-container",
+      "figmaName": "tabs/spacing/container",
+      "web": "var(--spacing-tabs-container)",
+      "scope": "GAP",
+      "nativeId": "VariableID:105:5",
+      "nativeKey": "26255cc9d767ad3bfd5651fa5d23b7914261515a",
+      "aliases": {
+        "Value": {
+          "alias": "semantic.spacing-xs"
+        }
+      }
+    },
+    {
+      "id": "tabs.radius-tabs-container",
+      "figmaName": "tabs/radius/container",
+      "web": "var(--radius-tabs-container)",
+      "scope": "CORNER_RADIUS",
+      "nativeId": "VariableID:105:6",
+      "nativeKey": "a62e4005dc5ee0dba03f2a0a86c85a57abcc5aaa",
+      "aliases": {
+        "Value": {
+          "alias": "semantic.radius-md"
+        }
+      }
+    },
+    {
+      "id": "tabs.color-tabs-bg-segmented-default",
+      "figmaName": "tabs/color/bg/segmented-default",
+      "web": "var(--color-tabs-bg-segmented-default)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:105:7",
+      "nativeKey": "b944d0fa33bf3b2b8861c0f9188a53aca473e49c",
+      "aliases": {
+        "Value": {
+          "alias": "semantic.neutral-subtle"
+        }
+      }
+    }
+  ],
+  "documentation": {
+    "overviewId": "111:461",
+    "variantsAndStatesId": "113:298",
+    "mastersId": "111:442",
+    "groupContract": "TABS-001@1.0.0",
+    "slotQaFrameId": "121:409"
+  },
+  "qa": {
+    "path": "evidence/tabs-page-reconciliation/slot-qa.json",
+    "sha256": "23bb883f0563217ee41ec63bee7acc0248066b6e89fdcf0bf36ea74741ca6ba4",
+    "current_summary": "evidence/qa/tabs-page-reconciliation-check.json",
+    "historical_baseline": "evidence/qa/tab-pilot-check.json"
+  },
+  "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
+  "web_implementation": "NOT_IMPLEMENTED"
+}

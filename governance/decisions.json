@@ -229,6 +229,39 @@
         "path": "evidence/authorization/tab-pilot-request.txt",
         "sha256": "a01ef90b7236d87a5cf1c1fa1dcc872b5924b206515a3e306aae0ae6b2d6a586"
       }
+    },
+    {
+      "id": "ADR-016",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita igualar la página raíz completa de Tabs: Tab individual, grupo Tabs con slot y documentación; alinear nombres nativos por función/estado con Button, manteniendo IDs y WEB compatibles; segmented usa morado fijo independiente de los temas. La solicitud sustituye la normalización blanca anterior para los estados morados observados. El contraste está pendiente de decisión separada. No autoriza modificar las fuentes ni implementar React o publicar releases oficiales.",
+      "scope": [
+        "TAB-001",
+        "TABS-001",
+        "TAB-TOKENS",
+        "TABS-TOKENS",
+        "tabs-page-parity",
+        "component-variable-naming"
+      ],
+      "source": {
+        "path": "evidence/authorization/tabs-page-reconciliation-request.txt",
+        "sha256": "9bcf56c28470c2aa1fce3b3ad24a82207b58ab67af5f066a336dfe709a37843d"
+      }
+    },
+    {
+      "id": "ADR-017",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable prioriza fidelidad a los morados exactos de la raíz sobre la corrección de contraste del texto blanco de segmented selected default/hover; se documentan 4.39:1 y 2.26:1 como limitación explícita. Los dos colores son constantes entre temas. Se preserva el tratamiento de contraste previamente adoptado para pill.",
+      "scope": [
+        "TAB-001",
+        "TABS-001",
+        "tabs-segmented-color-exception"
+      ],
+      "source": {
+        "path": "evidence/authorization/tabs-purple-contrast-choice.txt",
+        "sha256": "b891d1ceaf4dc510893900f42731341a9e4cbcc8a8c1dfa2179e6faa3cf8b497"
+      }
     }
   ]
 }

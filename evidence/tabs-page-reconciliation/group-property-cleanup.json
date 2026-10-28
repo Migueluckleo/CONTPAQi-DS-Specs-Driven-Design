@@ -1,0 +1,53 @@
+{
+  "mutatedNodeIds": [
+    "105:223"
+  ],
+  "properties": {
+    "Tabs#105:0": {
+      "type": "SLOT",
+      "description": "Agrega, quita o reordena Tab del mismo type; conserva una selección.",
+      "slotSettings": {
+        "stretchChildOnInsert": false,
+        "displayEmptyByDefault": false,
+        "minChildren": 2,
+        "maxChildren": null,
+        "allowPreferredValuesOnly": false
+      },
+      "preferredValues": [
+        {
+          "type": "COMPONENT_SET",
+          "key": "1848649f934b1fd6f1cfae986c474b1012693f6f"
+        }
+      ]
+    },
+    "type": {
+      "type": "VARIANT",
+      "defaultValue": "underline",
+      "variantOptions": [
+        "underline",
+        "pill",
+        "segmented"
+      ]
+    }
+  },
+  "slots": [
+    {
+      "id": "105:224",
+      "type": "SLOT",
+      "ref": "Tabs#105:0",
+      "count": 4
+    },
+    {
+      "id": "105:254",
+      "type": "SLOT",
+      "ref": "Tabs#105:0",
+      "count": 4
+    },
+    {
+      "id": "105:282",
+      "type": "SLOT",
+      "ref": "Tabs#105:0",
+      "count": 4
+    }
+  ]
+}

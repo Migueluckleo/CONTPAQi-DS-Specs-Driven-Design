@@ -1,0 +1,371 @@
+{
+  "checked": 277,
+  "nodes": 40,
+  "errors": [
+    {
+      "id": "I81:49;78:103",
+      "error": "MISSING_NODE"
+    },
+    {
+      "id": "81:54",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "81:54",
+      "field": "fontSize",
+      "expected": "VariableID:78:85",
+      "actual": null
+    },
+    {
+      "id": "81:54",
+      "field": "fontStyle",
+      "expected": "VariableID:78:83",
+      "actual": null
+    },
+    {
+      "id": "81:54",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "81:54",
+      "field": "lineHeight",
+      "expected": "VariableID:78:82",
+      "actual": null
+    },
+    {
+      "id": "I81:55;78:103",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "I81:55;78:103",
+      "field": "fontSize",
+      "expected": "VariableID:78:84",
+      "actual": null
+    },
+    {
+      "id": "I81:55;78:103",
+      "field": "fontStyle",
+      "expected": "VariableID:78:77",
+      "actual": null
+    },
+    {
+      "id": "I81:55;78:103",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "I81:55;78:103",
+      "field": "lineHeight",
+      "expected": "VariableID:78:81",
+      "actual": null
+    },
+    {
+      "id": "81:59",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "81:59",
+      "field": "fontSize",
+      "expected": "VariableID:78:85",
+      "actual": null
+    },
+    {
+      "id": "81:59",
+      "field": "fontStyle",
+      "expected": "VariableID:78:83",
+      "actual": null
+    },
+    {
+      "id": "81:59",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "81:59",
+      "field": "lineHeight",
+      "expected": "VariableID:78:82",
+      "actual": null
+    },
+    {
+      "id": "I81:60;78:103",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "I81:60;78:103",
+      "field": "fontSize",
+      "expected": "VariableID:78:84",
+      "actual": null
+    },
+    {
+      "id": "I81:60;78:103",
+      "field": "fontStyle",
+      "expected": "VariableID:78:77",
+      "actual": null
+    },
+    {
+      "id": "I81:60;78:103",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "I81:60;78:103",
+      "field": "lineHeight",
+      "expected": "VariableID:78:81",
+      "actual": null
+    },
+    {
+      "id": "81:65",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "81:65",
+      "field": "fontSize",
+      "expected": "VariableID:78:85",
+      "actual": null
+    },
+    {
+      "id": "81:65",
+      "field": "fontStyle",
+      "expected": "VariableID:78:83",
+      "actual": null
+    },
+    {
+      "id": "81:65",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "81:65",
+      "field": "lineHeight",
+      "expected": "VariableID:78:82",
+      "actual": null
+    },
+    {
+      "id": "I81:66;78:103",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "I81:66;78:103",
+      "field": "fontSize",
+      "expected": "VariableID:78:84",
+      "actual": null
+    },
+    {
+      "id": "I81:66;78:103",
+      "field": "fontStyle",
+      "expected": "VariableID:78:77",
+      "actual": null
+    },
+    {
+      "id": "I81:66;78:103",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "I81:66;78:103",
+      "field": "lineHeight",
+      "expected": "VariableID:78:81",
+      "actual": null
+    },
+    {
+      "id": "81:70",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "81:70",
+      "field": "fontSize",
+      "expected": "VariableID:78:85",
+      "actual": null
+    },
+    {
+      "id": "81:70",
+      "field": "fontStyle",
+      "expected": "VariableID:78:79",
+      "actual": null
+    },
+    {
+      "id": "81:70",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "81:70",
+      "field": "lineHeight",
+      "expected": "VariableID:78:82",
+      "actual": null
+    },
+    {
+      "id": "I81:71;78:103",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "I81:71;78:103",
+      "field": "fontSize",
+      "expected": "VariableID:78:84",
+      "actual": null
+    },
+    {
+      "id": "I81:71;78:103",
+      "field": "fontStyle",
+      "expected": "VariableID:78:77",
+      "actual": null
+    },
+    {
+      "id": "I81:71;78:103",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "I81:71;78:103",
+      "field": "lineHeight",
+      "expected": "VariableID:78:81",
+      "actual": null
+    },
+    {
+      "id": "81:75",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "81:75",
+      "field": "fontSize",
+      "expected": "VariableID:78:85",
+      "actual": null
+    },
+    {
+      "id": "81:75",
+      "field": "fontStyle",
+      "expected": "VariableID:78:79",
+      "actual": null
+    },
+    {
+      "id": "81:75",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "81:75",
+      "field": "lineHeight",
+      "expected": "VariableID:78:82",
+      "actual": null
+    },
+    {
+      "id": "I81:76;78:103",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "I81:76;78:103",
+      "field": "fontSize",
+      "expected": "VariableID:78:84",
+      "actual": null
+    },
+    {
+      "id": "I81:76;78:103",
+      "field": "fontStyle",
+      "expected": "VariableID:78:77",
+      "actual": null
+    },
+    {
+      "id": "I81:76;78:103",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "I81:76;78:103",
+      "field": "lineHeight",
+      "expected": "VariableID:78:81",
+      "actual": null
+    },
+    {
+      "id": "81:80",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "81:80",
+      "field": "fontSize",
+      "expected": "VariableID:78:85",
+      "actual": null
+    },
+    {
+      "id": "81:80",
+      "field": "fontStyle",
+      "expected": "VariableID:78:79",
+      "actual": null
+    },
+    {
+      "id": "81:80",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "81:80",
+      "field": "lineHeight",
+      "expected": "VariableID:78:82",
+      "actual": null
+    },
+    {
+      "id": "I81:81;78:103",
+      "field": "letterSpacing",
+      "expected": "VariableID:78:80",
+      "actual": null
+    },
+    {
+      "id": "I81:81;78:103",
+      "field": "fontSize",
+      "expected": "VariableID:78:84",
+      "actual": null
+    },
+    {
+      "id": "I81:81;78:103",
+      "field": "fontStyle",
+      "expected": "VariableID:78:77",
+      "actual": null
+    },
+    {
+      "id": "I81:81;78:103",
+      "field": "fontFamily",
+      "expected": "VariableID:78:78",
+      "actual": null
+    },
+    {
+      "id": "I81:81;78:103",
+      "field": "lineHeight",
+      "expected": "VariableID:78:81",
+      "actual": null
+    }
+  ],
+  "status": "FAIL"
+}

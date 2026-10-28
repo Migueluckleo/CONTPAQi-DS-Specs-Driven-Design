@@ -11,10 +11,10 @@
     "semantic",
     "component"
   ],
-  "figma_access": "SOURCE_READ_ONLY_DESTINATION_BUTTON_AND_TAB_SCOPED_WRITE",
+  "figma_access": "SOURCE_READ_ONLY_DESTINATION_BUTTON_TAB_AND_TABS_SCOPED_WRITE",
   "historical_project_access": "READ_ONLY",
   "normative_import": "EXPLICIT_CATALOG_AND_HASH_ONLY",
-  "component_content": "BUTTON_AND_TAB_SCOPED_PILOTS_ONLY",
+  "component_content": "BUTTON_TAB_AND_TABS_SCOPED_PILOTS_ONLY",
   "graphify": "OPTIONAL_NOT_IMPLEMENTED",
   "layer_edges": {
     "primitive": [],

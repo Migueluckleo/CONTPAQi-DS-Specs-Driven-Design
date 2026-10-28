@@ -1,0 +1,61 @@
+{
+  "createdNodeIds": [
+    "120:441"
+  ],
+  "mutatedNodeIds": [
+    "114:509",
+    "111:543",
+    "82:2",
+    "82:400",
+    "82:487",
+    "82:523",
+    "82:559",
+    "78:102",
+    "82:5",
+    "82:398"
+  ],
+  "edits": [
+    {
+      "id": "82:5",
+      "before": "3 tipos · 24 variantes · 4 temas · 43 tokens",
+      "after": "3 tipos · 24 variantes · 4 temas · 45 tokens"
+    },
+    {
+      "id": "82:398",
+      "before": "Selected segmented usa blanco y texto oscuro. Pill selected/hover conserva marca con mayor contraste.",
+      "after": "Segmented seleccionado: morados fijos en default/hover; focus y disabled blancos. Contraste aceptado: 4.39:1 / 2.26:1 (ADR-017)."
+    }
+  ],
+  "moves": [
+    [
+      "82:2",
+      80,
+      2800
+    ],
+    [
+      "82:400",
+      1280,
+      2800
+    ],
+    [
+      "82:487",
+      2240,
+      2800
+    ],
+    [
+      "82:523",
+      3200,
+      2800
+    ],
+    [
+      "82:559",
+      4160,
+      2800
+    ],
+    [
+      "78:102",
+      4800,
+      1800
+    ]
+  ]
+}

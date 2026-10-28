@@ -4,7 +4,7 @@ import path from 'node:path';
 const root=process.cwd(), operation=process.argv[2], batch=Number(process.argv[3]||0);
 if(!['foundation','family','populate'].includes(operation))throw new Error('Expected foundation, family or populate');
 const read=p=>JSON.parse(fs.readFileSync(path.join(root,p),'utf8'));
-const plan=read('evidence/tab-pilot/build-plan.json');
+const plan=read('consumption/tab/current-build-plan.json');
 const scripts=process.env.BLUEHEART_FIGMA_HELPERS;
 if(!scripts)throw new Error('Set BLUEHEART_FIGMA_HELPERS to the scripts directory of the loaded official figma-generate-library skill');
 const helper=name=>fs.readFileSync(path.join(scripts,name+'.js'),'utf8');
@@ -19,6 +19,7 @@ if(operation==='foundation') {
   data={...data,modes:plan.modes,tokens:plan.tokens.map(({source,...t})=>t),semanticIds:Object.fromEntries(mapping.variables.filter(v=>v.layer==='semantic').map(v=>['semantic.'+v.name,v.destination_id])),baseline:Object.fromEntries(baseline.map(v=>[v.id,fp(JSON.stringify({name:v.name,type:v.type,collectionId:v.collectionId,scopes:v.scopes,valuesByMode:v.valuesByMode,codeSyntax:v.codeSyntax,description:v.description}))])),shadowStyle:plan.shadowStyle,count:plan.nodes[r.count],countText:plan.nodes[r.countLabel]};
 } else {
   const foundation=read('evidence/tab-pilot/destination/foundation.json');
+  Object.assign(foundation.variableIds,read('evidence/tabs-page-reconciliation/purple-applied.json').variableIds);
   data={...data,pageId:foundation.pageId};
   if(operation==='populate') {
     const family=read('evidence/tab-pilot/destination/family.json');
