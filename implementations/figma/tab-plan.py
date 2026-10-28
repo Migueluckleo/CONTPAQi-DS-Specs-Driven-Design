@@ -241,5 +241,5 @@ def prepare():
 if __name__ == '__main__':
     plan, tokens = prepare()
     (ROOT / 'evidence/tab-pilot/build-plan.json').write_text(json.dumps(plan, ensure_ascii=False, indent=2) + '\n')
-    (ROOT / 'norms/tokens/tab.1.0.0.json').write_text(json.dumps(tokens, ensure_ascii=False, indent=2) + '\n')
+    (ROOT / 'output/collection-consolidation/historical-tab-tokens.json').write_text(json.dumps(tokens, ensure_ascii=False, indent=2) + '\n')
     print(json.dumps(plan['statistics'], indent=2))

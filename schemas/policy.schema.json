@@ -247,6 +247,29 @@
         "type": "string",
         "minLength": 1
       }
+    },
+    "token_collections": {
+      "type": "object",
+      "required": [
+        "primitive",
+        "semantic",
+        "component"
+      ],
+      "properties": {
+        "primitive": {
+          "type": "string",
+          "minLength": 1
+        },
+        "semantic": {
+          "type": "string",
+          "minLength": 1
+        },
+        "component": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

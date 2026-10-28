@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P07",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-018"
+    "decision_id": "ADR-020"
   },
   "targets": [
     "documentation"
@@ -30,6 +30,11 @@
       "id": "SRC-CRITERIA",
       "path": "evidence/authorization/token-protocol-criteria-request.txt",
       "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
+    },
+    {
+      "id": "SRC-COLLECTION",
+      "path": "evidence/authorization/component-collection-request.txt",
+      "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
     }
   ],
   "dependencies": [],
@@ -108,6 +113,17 @@
       ],
       "acceptance": [
         "Cada rol declara dependencia temática o invariancia; excepciones delimitan parte/estado, decisión y diferencias. Verificar todos los modos sin duplicar semánticos ni crear modos artificiales."
+      ]
+    },
+    {
+      "id": "REQ-P07-07",
+      "force": "MUST",
+      "provenance": "EXPLICIT",
+      "sources": [
+        "SRC-COLLECTION"
+      ],
+      "acceptance": [
+        "Inventario nativo y registro portable contienen exactamente primitive, semantic y component; cada token pertenece a la colección de su capa; las familias se organizan por rutas y no por colecciones. Modos, scopes y bindings se verifican antes de retirar cualquier colección anterior."
       ]
     }
   ],
@@ -236,10 +252,24 @@ Antes de crear o modificar variables, el contrato y su receta deben clasificar l
 
 No asumir que todo color de componente es de marca o que todos sus estados cambian con Contable, Administrativo, Servicios o Personas. No deducir dependencia temática del nombre del semántico, del RGB observado ni del modo activo. Un rol fijo conserva el mismo destino semántico y cualquier override explícito en todos sus modos aplicables; comprobar también el valor resuelto en el consumidor. Un rol temático sigue únicamente el vector adoptado. Estado, selección y tema son dimensiones distintas.
 
-Reutilizar semánticos existentes y mantener las reglas de capa/scope de REQ-P07-01. Una excepción fija no justifica duplicar semánticos, añadir literals, ampliar scopes o crear modos para codificar estados. Dentro de una familia que combina roles temáticos y fijos, los fijos pueden repetir su alias en los modos existentes. Si toda una familia nueva es invariante, preferir una colección con un modo de valor cuando preserve los contextos de resolución; no crear copias idénticas por tema. No fusionar colecciones distintas por coincidencia visual.
+Reutilizar semánticos existentes y mantener las reglas de capa/scope de REQ-P07-01. Una excepción fija no justifica duplicar semánticos, añadir literals, ampliar scopes o crear modos para codificar estados. Los roles fijos, incluso cuando toda la familia sea invariante, repiten su alias en los cuatro modos existentes de component conforme a REQ-P07-07. Repetir valores de un token dentro de sus modos no crea nuevas variables; no separar una familia en otra colección para ahorrar esas celdas.
 
 Toda excepción documenta motivo, alcance exacto, fuente/decisión adoptada, aliases y aceptación. Si afecta contraste u otro criterio de calidad, conservar la medición y la limitación; la autorización no convierte un incumplimiento en AA ni certifica accesibilidad. Resolver únicamente la decisión necesaria para el requisito afectado dentro de la autoridad vigente; no recolorear ni extender una excepción por intuición.
 
 En Tab, la decisión de morado fijo se limita a las partes/estados definidos por su contrato vigente y ADR-016/017. No obliga a usar morado, fondo blanco, temas o estados de Tab en otra familia. El constructor y el verificador consultan ese contrato para el caso concreto, sin copiar sus colores a este protocolo.
 
 El pase a construcción queda BLOCKED para roles necesarios sin clasificación o decisión suficiente. Una implementación que cambia un rol fijo con el tema, omite una diferencia temática requerida o extiende una excepción a otros estados falla la aceptación. Verificar, desde instancias reales o navegador del destino autorizado, cada modo afectado y sus partes/estados: los fijos permanecen invariantes y los temáticos siguen su receta. Guardar resultado por caso en el comprobante de BH-P04, con excepción y límite visibles cuando existan.
+
+### REQ-P07-07
+
+**Tres colecciones y un grupo por familia**
+
+ADR-020 fija exactamente tres colecciones, con el mismo ID lógico y nombre nativo: `primitive`, `semantic` y `component`. La proyección verificable `token_collections` de la política enlaza cada capa con su colección homónima. No crear colecciones por componente, composición, categoría, estado, tema o excepción. Un solo propietario registrado define cada colección; varios contratos pueden consumirla.
+
+Todas las variables de componente viven en `component`. La ruta Figma organiza un grupo principal por familia: `button/…`, `avatar/…` y `tab/…` en el inventario vigente. Dentro de cada grupo se usan únicamente las categorías requeridas de REQ-P07-02: color, font, radius, size, spacing o border. Los tokens propios de Avatar group y Tabs se alojan en el grupo de su familia (`avatar` o `tab`), con el calificador `group-` cuando evita colisiones; sus contratos y responsabilidades siguen siendo independientes. El nombre lógico y WEB no se derivan de la ruta ni cambian por esa agrupación.
+
+Primitive y semantic conservan su modo Value y scopes vacíos. Component conserva una sola definición de Contable, Administrativo, Servicios y Personas, con Contable predeterminado. El consumidor selecciona el tema sobre component en su contenedor; todos los componentes descendientes lo heredan. Un hijo puede declarar un override explícito de component cuando necesite otro tema. Los roles invariantes apuntan al mismo alias en los cuatro modos; no crear otra colección Value ni copias de variables para ellos. La minimización por contrato y los límites de fusión entre responsabilidades de REQ-P07-01 siguen vigentes: agrupar no agrega ni fusiona tokens por coincidencia visual.
+
+Antes de construir, comprobar colección, grupo y nombre únicos, alias por cada modo, scope y WEB. En una migración, conservar inventario y correspondencia antigua/nueva de colección, ID/key, ruta y contexto. Migrar referencias en estilos, paints, rangos de texto, propiedades, prototipos y overrides explícitos de modo, incluyendo instancias con iconos intercambiados. No retirar una colección hasta verificar ausencia de referencias antiguas en todas las páginas del destino y estilos/aliases globales. Los IDs de componentes e instancias y sus propiedades se conservan; si la API exige recrear variables, conservar el mapa verificable de sus IDs nuevos.
+
+El check valida el registro; el inventario nativo, los bindings, la herencia y la apariencia requieren lectura del destino y QA conforme BH-P04. Un pase falla por colecciones adicionales, capa mal ubicada, grupos duplicados o referencias retiradas todavía activas. La excepción de tema sigue en el contrato del componente, nunca en una colección adicional.

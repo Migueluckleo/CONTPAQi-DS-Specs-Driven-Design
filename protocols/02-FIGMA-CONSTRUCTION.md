@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P02",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-018"
+    "decision_id": "ADR-020"
   },
   "targets": [
     "documentation"
@@ -40,13 +40,18 @@
       "id": "SRC-CRITERIA",
       "path": "evidence/authorization/token-protocol-criteria-request.txt",
       "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
+    },
+    {
+      "id": "SRC-COLLECTION",
+      "path": "evidence/authorization/component-collection-request.txt",
+      "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "relation": "uses"
     },
     {
@@ -132,6 +137,17 @@
       "acceptance": [
         "Variables observadas, recetas y dependencias corresponden al mínimo y nombres de BH-P07; retiros no conservan referencias.",
         "Lectura posterior contrasta función/estado y comportamiento temático de REQ-P07-02/06 contra variables e instancias reales."
+      ]
+    },
+    {
+      "id": "REQ-COLLECTION",
+      "force": "MUST",
+      "provenance": "EXPLICIT",
+      "sources": [
+        "SRC-COLLECTION"
+      ],
+      "acceptance": [
+        "Consumir y verificar la organización de colecciones declarada únicamente en BH-P07 REQ-P07-07; no crear colecciones por familia."
       ]
     }
   ],
@@ -223,3 +239,7 @@ Aplicar [BH-P06 · Phosphor](06-PHOSPHOR-ICONS.md): Figma consume la biblioteca 
 Aplicar obligatoriamente [BH-P07](07-COMPONENT-TOKENS.md) antes de crear variables. Nombrarlas con componente primero y grupos separados por `/`, como `button/color/bg/primary-default`; usar el campo `figmaName` seleccionado por el contrato/mapa. Contrastar los tokens seleccionados con el inventario real del destino para detectar variables no declaradas. Migrar bindings antes de retirar IDs y comprobar referencias en maestros, helpers e instancias consumidoras.
 
 El mapa de REQ-P02-02 consume también [REQ-P07-06](07-COMPONENT-TOKENS.md#req-p07-06). Antes de escribir, verificar ese pase; después, leer nombres, aliases y paints de los consumidores en los modos afectados según BH-P04. Crear variables o configurar sus scopes sin esa lectura no cierra la aceptación.
+
+### REQ-COLLECTION
+
+Para la ubicación de variables, consumir [BH-P07 REQ-P07-07](07-COMPONENT-TOKENS.md#req-p07-07). El pase y QA del destino deben acreditar esa organización con su inventario nativo. El registro y la migración pertenecen a ADR-020 y al contrato vigente; no copiar aquí otra definición de la estructura.

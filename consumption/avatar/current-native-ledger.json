@@ -1,0 +1,150 @@
+{
+  "pageId": "145:42",
+  "collections": {
+    "component": {
+      "id": "VariableCollectionId:11:2",
+      "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+      "name": "component",
+      "modeIds": {
+        "Contable": "11:0",
+        "Administrativo": "11:1",
+        "Servicios": "11:2",
+        "Personas": "11:3"
+      }
+    }
+  },
+  "foundationIds": {
+    "primitive.spacing-negative-4": "VariableID:145:2",
+    "semantic.spacing-overlap-xs": "VariableID:145:3",
+    "primitive.spacing-negative-6": "VariableID:145:4",
+    "semantic.spacing-overlap-sm": "VariableID:145:5",
+    "primitive.spacing-negative-8": "VariableID:145:6",
+    "semantic.spacing-overlap-md": "VariableID:145:7"
+  },
+  "variableIds": {
+    "avatar.color-bg-primary-default": "VariableID:171:52",
+    "avatar.color-stroke-separator": "VariableID:171:53",
+    "avatar.color-text-inverse": "VariableID:171:54",
+    "avatar.color-icon-inverse": "VariableID:171:55",
+    "avatar.color-bg-status-active": "VariableID:171:56",
+    "avatar.color-bg-status-busy": "VariableID:171:57",
+    "avatar.color-bg-status-inactive": "VariableID:171:58",
+    "avatar.border-width-regular": "VariableID:171:59",
+    "avatar.radius-container": "VariableID:171:60",
+    "avatar.spacing-none": "VariableID:171:61",
+    "avatar.size-extra-large": "VariableID:171:62",
+    "avatar.size-large": "VariableID:171:63",
+    "avatar.size-medium": "VariableID:171:64",
+    "avatar.size-small": "VariableID:171:65",
+    "avatar.size-content-regular": "VariableID:171:66",
+    "avatar.size-content-compact": "VariableID:171:67",
+    "avatar.size-content-small": "VariableID:171:68",
+    "avatar.font-family": "VariableID:171:69",
+    "avatar.font-initials-style": "VariableID:171:70",
+    "avatar.font-size-extra-large": "VariableID:171:71",
+    "avatar.font-size-large": "VariableID:171:72",
+    "avatar.font-size-compact": "VariableID:171:73",
+    "avatar.font-line-height-extra-large": "VariableID:171:74",
+    "avatar.font-line-height-compact": "VariableID:171:75",
+    "avatar.font-letter-spacing": "VariableID:171:76",
+    "avatar-group.color-bg-alternate-warning": "VariableID:171:77",
+    "avatar-group.color-bg-alternate-positive": "VariableID:171:78",
+    "avatar-group.color-bg-overflow-default": "VariableID:171:79",
+    "avatar-group.color-text-overflow-default": "VariableID:171:80",
+    "avatar-group.spacing-overlap-extra-large": "VariableID:171:81",
+    "avatar-group.spacing-overlap-large": "VariableID:171:82",
+    "avatar-group.spacing-overlap-compact": "VariableID:171:83"
+  },
+  "styleIds": {
+    "extra-large": "S:15d42af54904b6bcdfd19ef667ff076d3b7cd160,",
+    "large": "S:12d1b7a9b9130ccdbffd119df5cc0e5a9ec47b92,",
+    "compact": "S:6f557314a65d03965216875f7a32151b42b5821c,"
+  },
+  "presenceSetId": "145:55",
+  "presence": [
+    {
+      "id": "145:46",
+      "key": "f5ca6285b3d30cc3ba467f852a7f09048f6d94e2",
+      "axes": {
+        "type": "active",
+        "size": "large"
+      }
+    },
+    {
+      "id": "145:47",
+      "key": "ef25742b05739b3d1c650c7acd3ac120bc5d9c3b",
+      "axes": {
+        "type": "active",
+        "size": "medium"
+      }
+    },
+    {
+      "id": "145:48",
+      "key": "05540b0a8faea5fd927c0512287662fd11f01e05",
+      "axes": {
+        "type": "active",
+        "size": "small"
+      }
+    },
+    {
+      "id": "145:49",
+      "key": "3a2632f871a1684d3960b4357378703cd3c80ff3",
+      "axes": {
+        "type": "busy",
+        "size": "large"
+      }
+    },
+    {
+      "id": "145:50",
+      "key": "7d82c3a82b71a3ec6226ef81582344c0254105a3",
+      "axes": {
+        "type": "busy",
+        "size": "medium"
+      }
+    },
+    {
+      "id": "145:51",
+      "key": "9d2cb114394c761b205b8d978ee98baf4d8441b3",
+      "axes": {
+        "type": "busy",
+        "size": "small"
+      }
+    },
+    {
+      "id": "145:52",
+      "key": "d8a46afb75ec529b3178f8a80bc68961e7316a8c",
+      "axes": {
+        "type": "inactive",
+        "size": "large"
+      }
+    },
+    {
+      "id": "145:53",
+      "key": "7874f01c86b6c9dbe81c2a6f0d4d53050d1a5ae5",
+      "axes": {
+        "type": "inactive",
+        "size": "medium"
+      }
+    },
+    {
+      "id": "145:54",
+      "key": "be7d1b99beb0a40dc77bde8fd21c31ae26c819a9",
+      "axes": {
+        "type": "inactive",
+        "size": "small"
+      }
+    }
+  ],
+  "role": "DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES",
+  "historicalBootstrap": {
+    "path": "evidence/avatar-pilot/destination/foundation.json",
+    "sha256": "3409f46fbd626c5631fe2aac34e6f7a41dbf6630ddc88a0d5de4d82ce42a3bb8"
+  },
+  "collectionId": "VariableCollectionId:11:2",
+  "modeIds": {
+    "Contable": "11:0",
+    "Administrativo": "11:1",
+    "Servicios": "11:2",
+    "Personas": "11:3"
+  }
+}

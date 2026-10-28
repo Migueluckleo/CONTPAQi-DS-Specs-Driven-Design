@@ -1,0 +1,2515 @@
+{
+  "decision": "ADR-020",
+  "sourceSets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "2.1.0",
+      "path": "norms/tokens/blueheart.2.1.0.json",
+      "sha256": "aefb82a057f9cce158b30412bab31dbff5757731f7af93ed8620a49a9fb63608",
+      "current": true
+    },
+    {
+      "id": "TAB-TOKENS",
+      "version": "1.1.0",
+      "path": "norms/tokens/tab.1.1.0.json",
+      "sha256": "00dab9bfdb202a689461f609a288afb01dcec41e41d006043df1a852969a35b4",
+      "current": true
+    },
+    {
+      "id": "TABS-TOKENS",
+      "version": "1.0.0",
+      "path": "norms/tokens/tabs.1.0.0.json",
+      "sha256": "4abd890dfa3ec2faf8598f015084a4ef12dcee97c5c20809a266c42e9e3bd08d",
+      "current": true
+    },
+    {
+      "id": "AVATAR-TOKENS",
+      "version": "1.0.0",
+      "current": true,
+      "path": "norms/tokens/avatar.1.0.0.json",
+      "sha256": "42ce25df36664a6db3c8a960cf0113e67272df456c643c17274c9cebc5ed8b57"
+    }
+  ],
+  "destinationCollection": "VariableCollectionId:11:2",
+  "destinationName": "component",
+  "collectionModes": {
+    "VariableCollectionId:6:2": [
+      {
+        "name": "Value",
+        "modeId": "6:0"
+      }
+    ],
+    "VariableCollectionId:6:148": [
+      {
+        "name": "Value",
+        "modeId": "6:1"
+      }
+    ],
+    "VariableCollectionId:11:2": [
+      {
+        "name": "Contable",
+        "modeId": "11:0"
+      },
+      {
+        "name": "Administrativo",
+        "modeId": "11:1"
+      },
+      {
+        "name": "Servicios",
+        "modeId": "11:2"
+      },
+      {
+        "name": "Personas",
+        "modeId": "11:3"
+      }
+    ],
+    "VariableCollectionId:78:53": [
+      {
+        "name": "Contable",
+        "modeId": "78:4"
+      },
+      {
+        "name": "Administrativo",
+        "modeId": "78:5"
+      },
+      {
+        "name": "Servicios",
+        "modeId": "78:6"
+      },
+      {
+        "name": "Personas",
+        "modeId": "78:7"
+      }
+    ],
+    "VariableCollectionId:105:2": [
+      {
+        "name": "Value",
+        "modeId": "105:0"
+      }
+    ],
+    "VariableCollectionId:145:8": [
+      {
+        "name": "Contable",
+        "modeId": "145:0"
+      },
+      {
+        "name": "Administrativo",
+        "modeId": "145:1"
+      },
+      {
+        "name": "Servicios",
+        "modeId": "145:2"
+      },
+      {
+        "name": "Personas",
+        "modeId": "145:3"
+      }
+    ],
+    "VariableCollectionId:145:34": [
+      {
+        "name": "Value",
+        "modeId": "145:4"
+      }
+    ]
+  },
+  "variables": [
+    {
+      "oldId": "VariableID:78:54",
+      "oldKey": "88f2ab98682ccd4762bb2ee6c870f03391605871",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/border/width-emphasis",
+      "newName": "tab/border/width-emphasis",
+      "web": "var(--border-tab-width-emphasis)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        }
+      },
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: border / width-emphasis; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:55",
+      "oldKey": "48c8b2810f0c13a3951f35be9ef3c5f7d811e0a8",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/border/width-regular",
+      "newName": "tab/border/width-regular",
+      "web": "var(--border-tab-width-regular)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        }
+      },
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: border / width-regular; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:56",
+      "oldKey": "42053b97ab2f8b09bb8b70c14345b7eb3d3b2b34",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/bg/primary-hover",
+      "newName": "tab/color/bg/primary-hover",
+      "web": "var(--color-tab-bg-brand-accent)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:152"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:162"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:176"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:181"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: bg / primary-hover. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:57",
+      "oldKey": "3ff781b9e0ced5cd883707a13a6532ee93717aba",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/bg/primary-default",
+      "newName": "tab/color/bg/primary-default",
+      "web": "var(--color-tab-bg-brand-subtle)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:151"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:161"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:175"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:180"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: bg / primary-default. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:58",
+      "oldKey": "6665b77009b0cd0e8771514d3a06c182e90acbad",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/bg/count-default",
+      "newName": "tab/color/bg/count-default",
+      "web": "var(--color-tab-bg-count)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: bg / count-default. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:59",
+      "oldKey": "36e26eb47b31e7a2bf2bd390c277b742ef713349",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/bg/segmented-hover",
+      "newName": "tab/color/bg/segmented-hover",
+      "web": "var(--color-tab-bg-muted)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: bg / segmented-hover. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:60",
+      "oldKey": "921450f4824611c46a080e35468d6ac24d967295",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/bg/secondary-hover",
+      "newName": "tab/color/bg/secondary-hover",
+      "web": "var(--color-tab-bg-subtle)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: bg / secondary-hover. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:61",
+      "oldKey": "f271ebb723008234a5f6942049ed7c4912825c44",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/bg/segmented-focus",
+      "newName": "tab/color/bg/segmented-focus",
+      "web": "var(--color-tab-bg-surface)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: bg / segmented-focus. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:62",
+      "oldKey": "7cb5ca300223d7d0c03ae57d8688481152ae234b",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/icon/primary-default",
+      "newName": "tab/color/icon/primary-default",
+      "web": "var(--color-tab-icon-brand)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: icon / primary-default. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:63",
+      "oldKey": "9659a240f39e59221a317c73d510ecd5b728b1e5",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/icon/disabled",
+      "newName": "tab/color/icon/disabled",
+      "web": "var(--color-tab-icon-disabled)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: color / icon / disabled; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:64",
+      "oldKey": "958377a3c98ea0520081eee4b1bad51095b8cdf2",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/icon/secondary-hover",
+      "newName": "tab/color/icon/secondary-hover",
+      "web": "var(--color-tab-icon-primary)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: icon / secondary-hover. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:65",
+      "oldKey": "ce7d1b15669edc4f513ab307a02f0c242f5380e1",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/icon/secondary-default",
+      "newName": "tab/color/icon/secondary-default",
+      "web": "var(--color-tab-icon-secondary)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: icon / secondary-default. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:66",
+      "oldKey": "3ca3af3e537b863d086bd347eb705d998e142f29",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/stroke/primary-default",
+      "newName": "tab/color/stroke/primary-default",
+      "web": "var(--color-tab-stroke-brand)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "COLOR",
+      "description": "Tab: stroke / primary-default. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:67",
+      "oldKey": "2685f7c5ac9ca276ad44e9610131c835fea79707",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/stroke/primary-hover",
+      "newName": "tab/color/stroke/primary-hover",
+      "web": "var(--color-tab-stroke-brand-hover)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "COLOR",
+      "description": "Tab: stroke / primary-hover. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:68",
+      "oldKey": "9659c9c1d8961c47827b3b62865a015c6bd8bd27",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/stroke/focus",
+      "newName": "tab/color/stroke/focus",
+      "web": "var(--color-tab-stroke-focus)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "COLOR",
+      "description": "Tab: color / stroke / focus; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:69",
+      "oldKey": "8b89acd5ec6683717949404f763d08e622609b22",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/stroke/secondary-hover",
+      "newName": "tab/color/stroke/secondary-hover",
+      "web": "var(--color-tab-stroke-neutral)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "COLOR",
+      "description": "Tab: stroke / secondary-hover. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:70",
+      "oldKey": "3212ad1730f4a5ebbefee2c88454465a076b16aa",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/stroke/count-default",
+      "newName": "tab/color/stroke/count-default",
+      "web": "var(--color-tab-stroke-surface)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "COLOR",
+      "description": "Tab: stroke / count-default. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:71",
+      "oldKey": "88366c6b1e895fa33196f365cfcd54101a68aa55",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/text/primary-default",
+      "newName": "tab/color/text/primary-default",
+      "web": "var(--color-tab-text-brand)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: text / primary-default. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:72",
+      "oldKey": "3a28c09290ddf19b787d78952722367bf0e879b7",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/text/primary-hover",
+      "newName": "tab/color/text/primary-hover",
+      "web": "var(--color-tab-text-brand-hover)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:164"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:185"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: text / primary-hover. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:73",
+      "oldKey": "9880851d226e3adfdb286b7dfdd4cd82e3c611d8",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/text/disabled",
+      "newName": "tab/color/text/disabled",
+      "web": "var(--color-tab-text-disabled)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: color / text / disabled; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:74",
+      "oldKey": "f18ac84e1ce17882e16363ca4c844d855be4ce8d",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/text/inverse",
+      "newName": "tab/color/text/inverse",
+      "web": "var(--color-tab-text-inverse)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: color / text / inverse; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:75",
+      "oldKey": "61b9cd201bae592f1a1bc5af601f8aaa0d8992d3",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/text/secondary-hover",
+      "newName": "tab/color/text/secondary-hover",
+      "web": "var(--color-tab-text-primary)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: text / secondary-hover. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:76",
+      "oldKey": "6bbd071d778d1b3dea7fc4acb6f8cc330f1727cb",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/text/secondary-default",
+      "newName": "tab/color/text/secondary-default",
+      "web": "var(--color-tab-text-secondary)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tab: text / secondary-default. Identidad lógica y WEB conservados; usos compartidos definidos en las recetas del contrato."
+    },
+    {
+      "oldId": "VariableID:78:77",
+      "oldKey": "c997ff04cc56f0714630a4e6946afc2277fc82d5",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/count-style",
+      "newName": "tab/font/count-style",
+      "web": "var(--font-tab-count-style)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:198"
+        }
+      },
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "type": "STRING",
+      "description": "Tab: font / count-style; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:78",
+      "oldKey": "03404a2ad78dd080622856b12e1123df8a4012e2",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/family",
+      "newName": "tab/font/family",
+      "web": "var(--font-tab-family)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        }
+      },
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "type": "STRING",
+      "description": "Tab: font / family; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:79",
+      "oldKey": "0b9c11efafa4642c70d0229de43b9aa6b18967cc",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/label-style",
+      "newName": "tab/font/label-style",
+      "web": "var(--font-tab-label-style)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        }
+      },
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "type": "STRING",
+      "description": "Tab: font / label-style; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:80",
+      "oldKey": "6674a9ecb7ed74fbc4e141a4786c5317fccd5784",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/letter-spacing",
+      "newName": "tab/font/letter-spacing",
+      "web": "var(--font-tab-letter-spacing)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        }
+      },
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: font / letter-spacing; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:81",
+      "oldKey": "f09ab9b72da44994f0b60a12fb232dd8cc8b17d5",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/line-height-count",
+      "newName": "tab/font/line-height-count",
+      "web": "var(--font-tab-line-height-count)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        }
+      },
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: font / line-height-count; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:82",
+      "oldKey": "91642ba7344c49e7b2110c83742720e71ed567ca",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/line-height-label",
+      "newName": "tab/font/line-height-label",
+      "web": "var(--font-tab-line-height-label)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        }
+      },
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: font / line-height-label; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:83",
+      "oldKey": "3436876781598bc4363f19579fd867227fd1d7e5",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/selected-style",
+      "newName": "tab/font/selected-style",
+      "web": "var(--font-tab-selected-style)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        }
+      },
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "type": "STRING",
+      "description": "Tab: font / selected-style; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:84",
+      "oldKey": "7afb0deaca5786ab06f9fd51e0070a1883881dce",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/size-count",
+      "newName": "tab/font/size-count",
+      "web": "var(--font-tab-size-count)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        }
+      },
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: font / size-count; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:85",
+      "oldKey": "0f05223f11687865a5150e52d4d86100bb7f83f9",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/font/size-label",
+      "newName": "tab/font/size-label",
+      "web": "var(--font-tab-size-label)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        }
+      },
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: font / size-label; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:86",
+      "oldKey": "5605bb9674f0c8140418c8bf9213586a9c9afd93",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/radius/full",
+      "newName": "tab/radius/full",
+      "web": "var(--radius-tab-full)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: radius / full; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:87",
+      "oldKey": "d85da439feb207234fa27b8f4938a0ff6b761a4f",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/radius/lg",
+      "newName": "tab/radius/lg",
+      "web": "var(--radius-tab-lg)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:246"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: radius / lg; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:88",
+      "oldKey": "4f4d5a3e13af9c4d466cf5828f9291d7b1e32dd5",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/radius/md",
+      "newName": "tab/radius/md",
+      "web": "var(--radius-tab-md)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: radius / md; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:89",
+      "oldKey": "cb02d8a691e5eb742a483c1e01a02e538401ef2c",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/radius/sm",
+      "newName": "tab/radius/sm",
+      "web": "var(--radius-tab-sm)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: radius / sm; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:90",
+      "oldKey": "a46f9e7cbe3a83fc8bb1bcab26b5a8dd74103eea",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/size/count",
+      "newName": "tab/size/count",
+      "web": "var(--size-tab-count)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: size / count; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:91",
+      "oldKey": "ebeea9157128ea3535a13045872a2fa04c38f5ab",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/size/icon",
+      "newName": "tab/size/icon",
+      "web": "var(--size-tab-icon)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: size / icon; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:92",
+      "oldKey": "7061aea2b11dc954c8675e7a6f36b451fd37662d",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/spacing/lg",
+      "newName": "tab/spacing/lg",
+      "web": "var(--spacing-tab-lg)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:229"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: spacing / lg; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:93",
+      "oldKey": "1da740854bb0305d2c6392140664426f4798b671",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/spacing/md",
+      "newName": "tab/spacing/md",
+      "web": "var(--spacing-tab-md)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:220"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: spacing / md; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:94",
+      "oldKey": "6846c844f25a1b11dc3ae28f6329cc0ef6e6121d",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/spacing/none",
+      "newName": "tab/spacing/none",
+      "web": "var(--spacing-tab-none)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: spacing / none; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:95",
+      "oldKey": "c78e58e0de5804a8bb1be02c1d65377c07b2a778",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/spacing/sm",
+      "newName": "tab/spacing/sm",
+      "web": "var(--spacing-tab-sm)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: spacing / sm; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:78:96",
+      "oldKey": "926d4ce62f57364ee53868333df2f4dd60b02dc9",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/spacing/xs",
+      "newName": "tab/spacing/xs",
+      "web": "var(--spacing-tab-xs)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "Tab: spacing / xs; firma consolidada conforme a BH-P07."
+    },
+    {
+      "oldId": "VariableID:105:3",
+      "oldKey": "fb52006653ba308e93e423e3da9b87ad87fa6b78",
+      "oldCollection": "VariableCollectionId:105:2",
+      "oldName": "tabs/color/divider/default",
+      "newName": "tab/color/divider/default",
+      "web": "var(--color-tabs-divider-default)",
+      "values": {
+        "105:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tabs: color/divider/default; uso compartido conforme BH-P07."
+    },
+    {
+      "oldId": "VariableID:105:4",
+      "oldKey": "dbd93ff9feb292df087f994567d3a5c409ecd81c",
+      "oldCollection": "VariableCollectionId:105:2",
+      "oldName": "tabs/size/divider",
+      "newName": "tab/size/group-divider",
+      "web": "var(--size-tabs-divider)",
+      "values": {
+        "105:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "Tabs: size/divider; uso compartido conforme BH-P07."
+    },
+    {
+      "oldId": "VariableID:105:5",
+      "oldKey": "26255cc9d767ad3bfd5651fa5d23b7914261515a",
+      "oldCollection": "VariableCollectionId:105:2",
+      "oldName": "tabs/spacing/container",
+      "newName": "tab/spacing/group-container",
+      "web": "var(--spacing-tabs-container)",
+      "values": {
+        "105:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "Tabs: spacing/container; uso compartido conforme BH-P07."
+    },
+    {
+      "oldId": "VariableID:105:6",
+      "oldKey": "a62e4005dc5ee0dba03f2a0a86c85a57abcc5aaa",
+      "oldCollection": "VariableCollectionId:105:2",
+      "oldName": "tabs/radius/container",
+      "newName": "tab/radius/group-container",
+      "web": "var(--radius-tabs-container)",
+      "values": {
+        "105:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:245"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "description": "Tabs: radius/container; uso compartido conforme BH-P07."
+    },
+    {
+      "oldId": "VariableID:105:7",
+      "oldKey": "b944d0fa33bf3b2b8861c0f9188a53aca473e49c",
+      "oldCollection": "VariableCollectionId:105:2",
+      "oldName": "tabs/color/bg/segmented-default",
+      "newName": "tab/color/bg/group-segmented-default",
+      "web": "var(--color-tabs-bg-segmented-default)",
+      "values": {
+        "105:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:167"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Tabs: color/bg/segmented-default; uso compartido conforme BH-P07."
+    },
+    {
+      "oldId": "VariableID:107:250",
+      "oldKey": "818ffe9b16788be432ffe0a63f9b2aa3b8f33688",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/bg/segmented-selected-default",
+      "newName": "tab/color/bg/segmented-selected-default",
+      "web": "var(--color-tab-bg-segmented-selected-default)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:183"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:183"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:183"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:183"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Segmented seleccionado default: morado fijo independiente del tema, ADR-016/017."
+    },
+    {
+      "oldId": "VariableID:107:251",
+      "oldKey": "f3bdbe1fcd0d397adfcc22a8c8bbbe33c3a44d8e",
+      "oldCollection": "VariableCollectionId:78:53",
+      "oldName": "tab/color/bg/segmented-selected-hover",
+      "newName": "tab/color/bg/segmented-selected-hover",
+      "web": "var(--color-tab-bg-segmented-selected-hover)",
+      "values": {
+        "78:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:182"
+        },
+        "78:5": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:182"
+        },
+        "78:6": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:182"
+        },
+        "78:7": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:182"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "Segmented seleccionado hover: morado fijo independiente del tema, ADR-016/017."
+    },
+    {
+      "oldId": "VariableID:145:9",
+      "oldKey": "ad91f439400e8b6ed7306c83415aef358d0034ff",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/color/bg/primary-default",
+      "newName": "avatar/color/bg/primary-default",
+      "web": "var(--avatar-color-bg-primary-default)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:177"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar: color/bg/primary-default; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:10",
+      "oldKey": "cd7e9ce45a369fe90f9408e61ea5e27d5c55e12b",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/color/stroke/separator",
+      "newName": "avatar/color/stroke/separator",
+      "web": "var(--avatar-color-stroke-separator)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "type": "COLOR",
+      "description": "avatar: color/stroke/separator; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:11",
+      "oldKey": "0bd03396190ea13577ff21d0e6812f05c7e4bc29",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/color/text/inverse",
+      "newName": "avatar/color/text/inverse",
+      "web": "var(--avatar-color-text-inverse)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar: color/text/inverse; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:12",
+      "oldKey": "f1cf11d58a4f51fbf3be86f14e7dcd559595916e",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/color/icon/inverse",
+      "newName": "avatar/color/icon/inverse",
+      "web": "var(--avatar-color-icon-inverse)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:166"
+        }
+      },
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar: color/icon/inverse; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:13",
+      "oldKey": "649401e156276a2401c0067d435b0c6b943a6756",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/color/bg/status-active",
+      "newName": "avatar/color/bg/status-active",
+      "web": "var(--avatar-color-bg-status-active)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:160"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:160"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:160"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:160"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar: color/bg/status-active; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:14",
+      "oldKey": "63226d1690567e76a3759356ee1419ba9e6c1038",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/color/bg/status-busy",
+      "newName": "avatar/color/bg/status-busy",
+      "web": "var(--avatar-color-bg-status-busy)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:188"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar: color/bg/status-busy; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:15",
+      "oldKey": "24690445ca4ee31937fae2b95968b2d672c4a13a",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/color/bg/status-inactive",
+      "newName": "avatar/color/bg/status-inactive",
+      "web": "var(--avatar-color-bg-status-inactive)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar: color/bg/status-inactive; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:16",
+      "oldKey": "53970c71b359e5fc1ab8925121adc70ea80eefef",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/border/width-regular",
+      "newName": "avatar/border/width-regular",
+      "web": "var(--avatar-border-width-regular)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:224"
+        }
+      },
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: border/width-regular; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:17",
+      "oldKey": "f535ae245c5c5255db532f6ea8f1f57beda0b98d",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/radius/container",
+      "newName": "avatar/radius/container",
+      "web": "var(--avatar-radius-container)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:250"
+        }
+      },
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: radius/container; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:18",
+      "oldKey": "42c0077825ac7a0a218094420365c25f8b5ecdcb",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/spacing/none",
+      "newName": "avatar/spacing/none",
+      "web": "var(--avatar-spacing-none)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: spacing/none; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:19",
+      "oldKey": "683ad3baf859b1dd94f9b6fd44455b61b195f054",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/size/extra-large",
+      "newName": "avatar/size/extra-large",
+      "web": "var(--avatar-size-extra-large)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:241"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:241"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:241"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:241"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: size/extra-large; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:20",
+      "oldKey": "5ad20857c6035d176da8930b238dc898d2360363",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/size/large",
+      "newName": "avatar/size/large",
+      "web": "var(--avatar-size-large)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:239"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:239"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:239"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:239"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: size/large; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:21",
+      "oldKey": "ece10870a6e2046521b2696a60e460b1196bc9c6",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/size/medium",
+      "newName": "avatar/size/medium",
+      "web": "var(--avatar-size-medium)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:238"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: size/medium; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:22",
+      "oldKey": "1a8f943b2ee43ed66375699f188cc1be62e571e1",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/size/small",
+      "newName": "avatar/size/small",
+      "web": "var(--avatar-size-small)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:251"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: size/small; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:23",
+      "oldKey": "02ffc941ceaef488d423561d969d55122c50a90a",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/size/content-regular",
+      "newName": "avatar/size/content-regular",
+      "web": "var(--avatar-size-content-regular)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: size/content-regular; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:24",
+      "oldKey": "53b4d3d0c7fb8eb1333c6c139ab5b6e1d2a9ecd4",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/size/content-compact",
+      "newName": "avatar/size/content-compact",
+      "web": "var(--avatar-size-content-compact)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:219"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:219"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:219"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:219"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: size/content-compact; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:25",
+      "oldKey": "3f6af611e3d40f8a873810220634f6acaeac743a",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/size/content-small",
+      "newName": "avatar/size/content-small",
+      "web": "var(--avatar-size-content-small)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:235"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:235"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:235"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:235"
+        }
+      },
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: size/content-small; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:26",
+      "oldKey": "6d2e6ac21b3899b136ef99caec0498f7f88b6039",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/font/family",
+      "newName": "avatar/font/family",
+      "web": "var(--avatar-font-family)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        }
+      },
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "type": "STRING",
+      "description": "avatar: font/family; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:27",
+      "oldKey": "d4e350fcc8096ae118469ed0b048cce5872c8615",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/font/initials-style",
+      "newName": "avatar/font/initials-style",
+      "web": "var(--avatar-font-initials-style)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        }
+      },
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "type": "STRING",
+      "description": "avatar: font/initials-style; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:28",
+      "oldKey": "bd69a286dafb03c273c6424c1552910a2f044e7d",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/font/size-extra-large",
+      "newName": "avatar/font/size-extra-large",
+      "web": "var(--avatar-font-size-extra-large)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:202"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:202"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:202"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:202"
+        }
+      },
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: font/size-extra-large; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:29",
+      "oldKey": "3c772ce2c0aef3f9e391f088be9913d7009eb2d1",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/font/size-large",
+      "newName": "avatar/font/size-large",
+      "web": "var(--avatar-font-size-large)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        }
+      },
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: font/size-large; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:30",
+      "oldKey": "cbdd3873e6ae0e5d812efae79931e1e9f46a844b",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/font/size-compact",
+      "newName": "avatar/font/size-compact",
+      "web": "var(--avatar-font-size-compact)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:221"
+        }
+      },
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: font/size-compact; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:31",
+      "oldKey": "a1733427a599bfa79342540914d987891855c316",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/font/line-height-extra-large",
+      "newName": "avatar/font/line-height-extra-large",
+      "web": "var(--avatar-font-line-height-extra-large)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        }
+      },
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: font/line-height-extra-large; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:32",
+      "oldKey": "884e024840ae624887101ad5fff4028ba777d4f7",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/font/line-height-compact",
+      "newName": "avatar/font/line-height-compact",
+      "web": "var(--avatar-font-line-height-compact)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:208"
+        }
+      },
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: font/line-height-compact; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:33",
+      "oldKey": "a39d81116b062f336ee0db7bc6425312bbd60732",
+      "oldCollection": "VariableCollectionId:145:8",
+      "oldName": "avatar/font/letter-spacing",
+      "newName": "avatar/font/letter-spacing",
+      "web": "var(--avatar-font-letter-spacing)",
+      "values": {
+        "145:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "145:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "145:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "145:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        }
+      },
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "type": "FLOAT",
+      "description": "avatar: font/letter-spacing; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:35",
+      "oldKey": "c44d0538cb14408cf2a25a75923e8d22d9ca7692",
+      "oldCollection": "VariableCollectionId:145:34",
+      "oldName": "avatar-group/color/bg/alternate-warning",
+      "newName": "avatar/color/bg/group-alternate-warning",
+      "web": "var(--avatar-group-color-bg-alternate-warning)",
+      "values": {
+        "145:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:150"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar-group: color/bg/alternate-warning; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:36",
+      "oldKey": "f7b5758a0f2b3a44d8a2355ab8a09cebbb0ad863",
+      "oldCollection": "VariableCollectionId:145:34",
+      "oldName": "avatar-group/color/bg/alternate-positive",
+      "newName": "avatar/color/bg/group-alternate-positive",
+      "web": "var(--avatar-group-color-bg-alternate-positive)",
+      "values": {
+        "145:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:160"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar-group: color/bg/alternate-positive; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:37",
+      "oldKey": "eaee63cc444ae86bb7abdb4aed757256343b3aec",
+      "oldCollection": "VariableCollectionId:145:34",
+      "oldName": "avatar-group/color/bg/overflow-default",
+      "newName": "avatar/color/bg/group-overflow-default",
+      "web": "var(--avatar-group-color-bg-overflow-default)",
+      "values": {
+        "145:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:168"
+        }
+      },
+      "scopes": [
+        "FRAME_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar-group: color/bg/overflow-default; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:38",
+      "oldKey": "326d9bff9e80d4707ee6be6f9d4ca506980a541a",
+      "oldCollection": "VariableCollectionId:145:34",
+      "oldName": "avatar-group/color/text/overflow-default",
+      "newName": "avatar/color/text/group-overflow-default",
+      "web": "var(--avatar-group-color-text-overflow-default)",
+      "values": {
+        "145:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        }
+      },
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "type": "COLOR",
+      "description": "avatar-group: color/text/overflow-default; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:39",
+      "oldKey": "5b40b897871eacb7c3c309f2d0dedeed64178654",
+      "oldCollection": "VariableCollectionId:145:34",
+      "oldName": "avatar-group/spacing/overlap-extra-large",
+      "newName": "avatar/spacing/group-overlap-extra-large",
+      "web": "var(--avatar-group-spacing-overlap-extra-large)",
+      "values": {
+        "145:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:145:7"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "avatar-group: spacing/overlap-extra-large; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:40",
+      "oldKey": "4553a81c33a39b1a2ed278c14f2392aff84b49ef",
+      "oldCollection": "VariableCollectionId:145:34",
+      "oldName": "avatar-group/spacing/overlap-large",
+      "newName": "avatar/spacing/group-overlap-large",
+      "web": "var(--avatar-group-spacing-overlap-large)",
+      "values": {
+        "145:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:145:5"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "avatar-group: spacing/overlap-large; uso compartido según BH-P07."
+    },
+    {
+      "oldId": "VariableID:145:41",
+      "oldKey": "5c2de0a677327cc3aa72f3c7c37005613d98ef4f",
+      "oldCollection": "VariableCollectionId:145:34",
+      "oldName": "avatar-group/spacing/overlap-compact",
+      "newName": "avatar/spacing/group-overlap-compact",
+      "web": "var(--avatar-group-spacing-overlap-compact)",
+      "values": {
+        "145:4": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:145:3"
+        }
+      },
+      "scopes": [
+        "GAP"
+      ],
+      "type": "FLOAT",
+      "description": "avatar-group: spacing/overlap-compact; uso compartido según BH-P07."
+    }
+  ]
+}

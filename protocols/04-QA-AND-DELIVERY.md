@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P04",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-018"
+    "decision_id": "ADR-020"
   },
   "targets": [
     "documentation"
@@ -30,13 +30,18 @@
       "id": "SRC-CRITERIA",
       "path": "evidence/authorization/token-protocol-criteria-request.txt",
       "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
+    },
+    {
+      "id": "SRC-COLLECTION",
+      "path": "evidence/authorization/component-collection-request.txt",
+      "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
     }
   ],
   "dependencies": [
     {
       "kind": "contract",
       "id": "BH-P01",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "relation": "uses"
     }
   ],
@@ -89,6 +94,17 @@
       "acceptance": [
         "Resultado de minimización y contraste de inventario/bindings/nombres satisfacen BH-P07 sin atribuir QA remoto al check.",
         "La matriz comprueba REQ-P07-02/03/06: función/estado, mínimo y roles fijos/temáticos en todos los modos afectados; excepciones conservan límites."
+      ]
+    },
+    {
+      "id": "REQ-COLLECTION",
+      "force": "MUST",
+      "provenance": "EXPLICIT",
+      "sources": [
+        "SRC-COLLECTION"
+      ],
+      "acceptance": [
+        "Consumir y verificar la organización de colecciones declarada únicamente en BH-P07 REQ-P07-07; no crear colecciones por familia."
       ]
     }
   ],
@@ -167,3 +183,7 @@ Aplicar [BH-P07](07-COMPONENT-TOKENS.md) a contratos, tokens y adaptadores de co
 Para nomenclatura, inspeccionar las rutas nativas y su correspondencia por ID/key con el mapa de construcción: componente primero, grupos `/` y calificadores con guiones conforme a BH-P07. Registrar erratas o marcas temporales observadas sin generalizarlas. El check local no demuestra el nombre actual de una variable remota.
 
 Añadir al comprobante los controles de [REQ-P07-02/03/06](07-COMPONENT-TOKENS.md#req-p07-06), enlazando su expectativa al contrato de familia y su resultado al destino. No basta un conteo bajo ni la coincidencia en el tema predeterminado. `check` valida firmas y aliases declarados; la clasificación funcional, las excepciones y el comportamiento remoto exigen revisión y evidencia del alcance. Para una modificación solo de protocolos, validar su consumo y referencias sin reconstruir Figma ni atribuir una nueva inspección remota.
+
+### REQ-COLLECTION
+
+Para la ubicación de variables, consumir [BH-P07 REQ-P07-07](07-COMPONENT-TOKENS.md#req-p07-07). El pase y QA del destino deben acreditar esa organización con su inventario nativo. El registro y la migración pertenecen a ADR-020 y al contrato vigente; no copiar aquí otra definición de la estructura.

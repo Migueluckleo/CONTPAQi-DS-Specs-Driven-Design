@@ -80,8 +80,18 @@ class Tokens:
         if not valid: raise Invalid("Invalid literal for token type " + kind)
 
     def validate(self):
+        layout = self.policy.get("token_collections")
+        if layout is not None:
+            expected = set(layout.values())
+            if len(expected) != len(layout) or set(self.collections) != expected:
+                raise Invalid("BH-P07 collection layout requires exactly: " + ", ".join(sorted(expected)))
+            for identity, collection in self.collections.items():
+                if collection.get("name") != identity:
+                    raise Invalid("BH-P07 logical/native collection names must match: " + identity)
         color_targets = {}
         for identity, token in self.tokens.items():
+            if layout is not None and token["collection"] != layout[token["layer"]]:
+                raise Invalid("BH-P07 token is in the wrong layer collection: " + identity)
             scopes = token.get("scopes", [])
             if token["layer"] in {"primitive", "semantic"} and scopes:
                 raise Invalid("Primitives and semantics require empty scopes: " + identity)

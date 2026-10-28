@@ -7,7 +7,7 @@ const created=[f.id],cases=[],themes=[];const gs=await figma.getNodeByIdAsync('1
 const label=(text,x,y)=>{const t=figma.createText();f.appendChild(t);t.fontName={family:'Manrope',style:'Regular'};t.fontSize=16;t.characters=text;t.x=x;t.y=y;created.push(t.id);return t;};
 label('Slots nativos · 2 y 6 hijos · contenido, orden y foco desde instancias',32,24);
 for(const [r,type]of ['underline','pill','segmented'].entries())for(const [c,count]of [2,6].entries()){
- const master=gs.children.find(n=>n.variantProperties.type===type);const n=master.createInstance();f.appendChild(n);created.push(n.id);n.x=32+c*760;n.y=112+r*136;n.setExplicitVariableModeForCollection('VariableCollectionId:78:53','78:4');
+ const master=gs.children.find(n=>n.variantProperties.type===type);const n=master.createInstance();f.appendChild(n);created.push(n.id);n.x=32+c*760;n.y=112+r*136;n.setExplicitVariableModeForCollection('VariableCollectionId:11:2','11:0');
  let slot=()=>n.findOne(x=>x.type==='SLOT');while(slot().children.length>count)slot().children.at(-1).remove();
  while(slot().children.length<count){const child=ts.children.find(v=>v.variantProperties.type===type&&v.variantProperties.selected==='false'&&v.variantProperties.state==='default').createInstance();slot().appendChild(child);created.push(child.id);child.setProperties({[P.Label]:'Tab '+slot().children.length});}
  const selected=slot().children.find(x=>x.componentProperties.selected.value==='true');selected.setProperties({state:'focus',[P.Label]:count===6?'Vista de comprobación ampliada':'Vista',[P.ShowIcon]:true,[P.ShowBadge]:true});
@@ -20,7 +20,7 @@ for(const [r,type]of ['underline','pill','segmented'].entries())for(const [c,cou
 label('Segmented seleccionado · morado fijo en default/hover · blanco en focus/disabled',32,550);
 for(const [r,[name,mode]]of DATA.modes.entries()){
  label(name,32,610+r*120);for(const [c,state]of ['default','hover','focus','disabled'].entries()){
-  const n=ts.children.find(v=>v.variantProperties.type==='segmented'&&v.variantProperties.selected==='true'&&v.variantProperties.state===state).createInstance();f.appendChild(n);created.push(n.id);n.x=300+c*260;n.y=610+r*120;n.setExplicitVariableModeForCollection('VariableCollectionId:78:53',mode);n.setProperties({[P.Label]:state});const text=n.children.find(x=>x.type==='TEXT');themes.push({mode:name,state,id:n.id,background:n.fills[0].color,foreground:text.fills[0].color,fillVariableId:n.fills[0].boundVariables?.color?.id,textVariableId:text.fills[0].boundVariables?.color?.id});
+  const n=ts.children.find(v=>v.variantProperties.type==='segmented'&&v.variantProperties.selected==='true'&&v.variantProperties.state===state).createInstance();f.appendChild(n);created.push(n.id);n.x=300+c*260;n.y=610+r*120;n.setExplicitVariableModeForCollection('VariableCollectionId:11:2',mode);n.setProperties({[P.Label]:state});const text=n.children.find(x=>x.type==='TEXT');themes.push({mode:name,state,id:n.id,background:n.fills[0].color,foreground:text.fills[0].color,fillVariableId:n.fills[0].boundVariables?.color?.id,textVariableId:text.fills[0].boundVariables?.color?.id});
  }
 }
 const definitions=gs.componentPropertyDefinitions;return{status:cases.every(x=>x.pass)?'PASS':'FAIL',frameId:f.id,cases,themes,publicProperties:definitions,createdNodeIds:created};

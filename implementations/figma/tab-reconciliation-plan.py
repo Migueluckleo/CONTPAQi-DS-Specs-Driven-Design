@@ -1,4 +1,4 @@
-"""Proyección TAB-001 1.1.0; decisiones en MD/ADR, evidencia fuente inmutable."""
+"""Proyección TAB-001 vigente; decisiones en MD/ADR, evidencia fuente inmutable."""
 from pathlib import Path
 import json,copy,hashlib
 root=Path.cwd()
@@ -19,4 +19,4 @@ for n in plan['normalizations'][:6]:
  node['bindings']['fills.0']=tid
  for u in plan['uses']:
   if u['sourceNodeId']==n['sourceId'] and u['field']=='fills.0':u['tokenId']=tid
-plan['normalizations']=plan['normalizations'][6:];plan['authority']=['ADR-016','ADR-017'];plan['statistics'].update(unique_signatures=45,component_variables=45,source_fields_normalized=1);save('consumption/tab/current-build-plan.json',plan)
+plan['normalizations']=plan['normalizations'][6:];plan['authority']=['ADR-016','ADR-017'];plan['statistics'].update(unique_signatures=45,component_variables=45,source_fields_normalized=1);catalog=load('norms/catalog.json');token_set=next(e for e in catalog['token_sets'] if e['current'] and e['id']=='BLUEHEART-TOKENS');registered={t['id']:t for t in load(token_set['path'])['tokens']};paths={v['logicalId']:v['figmaName'] for v in load('evidence/collection-consolidation/migration-map.json')['variables']};plan['tokens']=[dict(registered[t['id']],figmaName=paths[t['id']],web=t['web']) for t in plan['tokens']];plan['version']=next(e['version'] for e in catalog['contracts'] if e['current'] and e['id']=='TAB-001');plan['authority'].append('ADR-020');save('consumption/tab/build-plan.2.0.0.json',plan)

@@ -3,11 +3,11 @@ if(figma.fileKey!=='98xEw6sK8FRVNEhopM5SSz')throw new Error('Wrong destination')
 figma.skipInvisibleInstanceChildren=false;
 for(const style of ['Regular','SemiBold','Bold'])await figma.loadFontAsync({family:'Manrope',style});
 const page=await figma.getNodeByIdAsync('78:97');await page.loadAsync();
-if(page.children.some(n=>n.type==='COMPONENT_SET'&&n.name==='Tabs'))throw new Error('Tabs group already exists; inspect ledger');
-if((await figma.variables.getLocalVariableCollectionsAsync()).some(c=>c.name==='tabs'))throw new Error('Tabs collection exists; inspect ledger');
-const {collection,modeIds}=await createVariableCollection('tabs',['Value']);
+if(page.findAllWithCriteria({types:['COMPONENT_SET']}).some(n=>n.name==='Tabs'))throw new Error('Tabs group already exists; inspect ledger');
+const collection=(await figma.variables.getLocalVariableCollectionsAsync()).find(c=>c.name==='component');if(!collection||collection.modes.length!==4)throw new Error('BH-P07: missing shared component collection/modes');const modeIds=Object.fromEntries(collection.modes.map(m=>[m.name,m.modeId]));
+const routes=DATA.tokens.map(t=>t.figmaName);const existingVariables=await figma.variables.getLocalVariablesAsync();if(new Set(routes).size!==routes.length||existingVariables.some(v=>v.variableCollectionId===collection.id&&routes.includes(v.name)))throw new Error('BH-P07: duplicate component route; reconcile the manifest');
 const variables={},variableIds={};
-for(const t of DATA.tokens){const v=figma.variables.createVariable(t.figmaName,collection,t.type==='color'?'COLOR':'FLOAT');v.description=t.description;v.scopes=t.scopes;v.setVariableCodeSyntax('WEB',t.web);const semantic=await figma.variables.getVariableByIdAsync(DATA.semanticIds[t.values.Value.alias]);v.setValueForMode(modeIds.Value,figma.variables.createVariableAlias(semantic));variables[t.id]=v;variableIds[t.id]=v.id;}
+for(const t of DATA.tokens){const v=figma.variables.createVariable(t.figmaName,collection,t.type==='color'?'COLOR':'FLOAT');v.description=t.description;v.scopes=t.scopes;v.setVariableCodeSyntax('WEB',t.web);for(const mode of collection.modes){const semantic=await figma.variables.getVariableByIdAsync(DATA.semanticIds[t.values[mode.name].alias]);v.setValueForMode(mode.modeId,figma.variables.createVariableAlias(semantic));}variables[t.id]=v;variableIds[t.id]=v.id;}
 const {componentSet,variants}=await createComponentWithVariants({name:'Tabs',description:'TABS-001@1.0.0 · Grupo con slot editable. Cuatro tabs por defecto, mínimo dos, máximo no impuesto. Ver contrato MD; el consumidor coordina tipo, selección y panel.',variantAxes:{type:['underline','pill','segmented']},baseProps:{width:277,height:44,fills:[],layoutMode:'HORIZONTAL'},page});
 componentSet.x=2350;componentSet.y=80;componentSet.resize(365,252);
 const tabSet=await figma.getNodeByIdAsync('79:26');

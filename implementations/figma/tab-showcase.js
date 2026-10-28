@@ -17,8 +17,8 @@ const P=DATA.properties;
 const review=box(page,'Tab · Especificación y consumo','VERTICAL',1120,undefined,'tab.color-tab-bg-surface');review.x=80;review.y=80;review.paddingTop=review.paddingBottom=review.paddingLeft=review.paddingRight=40;review.itemSpacing=24;
 text(review,'BLUE HEART DS  /  COMPONENTE 02',11,'SemiBold',true);
 text(review,'Tabs',40,'Bold');
-text(review,'3 tipos · 24 variantes · 4 temas · 43 tokens',16,'Regular',true);
-text(review,'TAB-001@1.0.0  ·  Selección en el consumidor  ·  Phosphor del equipo',12,'Regular',true);
+text(review,'3 tipos · 24 variantes · 4 temas · 45 tokens · component/tab',16,'Regular',true);
+text(review,'TAB-001@2.0.0  ·  Selección en el consumidor  ·  Phosphor del equipo',12,'Regular',true);
 const table=box(review,'Matriz de variantes','VERTICAL',1040);table.itemSpacing=12;
 const header=box(table,'Estados','HORIZONTAL',1040,28);header.itemSpacing=16;text(header,'Tipo / selección',12,'SemiBold',true,176);
 for(const state of ['Default','Hover','Focus','Disabled'])text(header,state,12,'SemiBold',true,200);
@@ -40,8 +40,8 @@ const counters=box(props,'Count 1 · 12 · 99+','HORIZONTAL',1040,52);counters.i
 for(const value of ['1','12','99+']){const n=await instance(counters,{type:'pill',selected:'false',state:'default'},'Consumer/Count/'+value,{[P.Label]:'Tab',[P.ShowBadge]:true});const badge=n.findOne(c=>c.type==='INSTANCE'&&c.name==='Badge');badge.setProperties({[DATA.countProperty]:value});countExamples.push({value,id:n.id,badgeId:badge.id});}
 const focusRow=box(props,'Focus creciendo','HORIZONTAL',1040,64);focusRow.itemSpacing=40;focusRow.counterAxisAlignItems='CENTER';
 for(const type of ['pill','segmented']){const n=await instance(focusRow,{type,selected:'true',state:'focus'},'Consumer/Focus/'+type,{[P.Label]:'Contenido más extenso',[P.ShowIcon]:true});focusExamples.push({type,id:n.id});}
-text(review,'Selected segmented usa blanco y texto oscuro. Pill selected/hover conserva marca con mayor contraste.',12,'Regular',true,1040);
-text(review,'Contrato MD: norms/components/tab.1.0.0.md  ·  Recetas y comprobante: consumption/tab/',11,'Regular',true,1040);
+text(review,'Segmented selected: morado fijo en default/hover; blanco en focus/disabled. Contraste 4.39:1 y 2.26:1 autorizado por fidelidad. Pill conserva su corrección.',12,'Regular',true,1040);
+text(review,'Contrato MD: norms/components/tab.2.0.0.md  ·  Recetas y comprobante: consumption/tab/',11,'Regular',true,1040);
 
 const playback=box(page,'Tab · Reproducción interactiva','VERTICAL',880,440,'tab.color-tab-bg-surface');playback.x=80;playback.y=review.y+review.height+140;playback.paddingTop=playback.paddingBottom=playback.paddingLeft=playback.paddingRight=32;playback.itemSpacing=20;
 text(playback,'Tab · reproducción interactiva',24,'SemiBold');

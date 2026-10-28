@@ -1,5 +1,5 @@
 // Scoped materializer for AVATAR-001 / AVATAR-GROUP-001. DATA is a derived recipe.
-// Helpers createVariableCollection/createComponentWithVariants are loaded verbatim
+// Helper createComponentWithVariants are loaded verbatim
 // from figma-generate-library; this script never executes against the source file.
 if(figma.fileKey!=='98xEw6sK8FRVNEhopM5SSz')throw new Error('Wrong destination');
 figma.skipInvisibleInstanceChildren=false;
@@ -21,19 +21,19 @@ function zero(n){for(const f of ['paddingTop','paddingRight','paddingBottom','pa
 async function foundation(){
  const collections=await figma.variables.getLocalVariableCollectionsAsync();
  if(figma.root.children.some(p=>p.name==='Avatars')||collections.some(c=>['avatar','avatar-group'].includes(c.name)))throw new Error('Avatar assets exist: inspect ledger before retry');
- const before=await figma.variables.getLocalVariablesAsync();if(before.length!==348)throw new Error('Unexpected baseline');
+ const before=await figma.variables.getLocalVariablesAsync();
  const foundationIds={};
- for(const t of DATA.foundationTokens){
+ for(const t of DATA.foundationTokens||[]){
   const c=collections.find(c=>c.name===t.collection);if(!c)throw new Error('Missing base collection');
-  if(before.some(v=>v.name===t.name&&v.variableCollectionId===c.id))throw new Error('Foundation name already exists');
+  const existing=before.find(v=>v.name===t.name&&v.variableCollectionId===c.id);if(existing){foundationIds[t.id]=existing.id;continue;}
   const v=figma.variables.createVariable(t.name,c,'FLOAT');v.scopes=[];v.description=t.description;v.setVariableCodeSyntax('WEB','var(--'+t.name+')');
   const value=t.values.Value;v.setValueForMode(c.modes[0].modeId,typeof value==='number'?value:figma.variables.createVariableAlias(await figma.variables.getVariableByIdAsync(foundationIds[value.alias])));
   foundationIds[t.id]=v.id;
  }
  const semanticIds={...DATA.semanticIds,...foundationIds}, variableIds={}, nativeCollections={};
- for(const [family,modes]of [['avatar',DATA.modes],['avatar-group',['Value']]]){
-  const {collection,modeIds}=await createVariableCollection(family,modes);nativeCollections[family]={id:collection.id,modeIds};
-  for(const t of DATA.tokens.filter(t=>t.collection===family)){
+ for(const family of ['component']){
+  const collection=collections.find(c=>c.name===family);if(!collection||collection.modes.length!==4)throw new Error('BH-P07: shared component collection required');const modes=collection.modes.map(m=>m.name),modeIds=Object.fromEntries(collection.modes.map(m=>[m.name,m.modeId]));nativeCollections.component={id:collection.id,modeIds};const routes=DATA.tokens.map(t=>t.figmaName);const existingVariables=await figma.variables.getLocalVariablesAsync();if(new Set(routes).size!==routes.length||existingVariables.some(v=>v.variableCollectionId===collection.id&&routes.includes(v.name)))throw new Error('BH-P07: duplicate component route; reconcile the manifest');
+  for(const t of DATA.tokens.filter(t=>t.collection==='component')){
    const v=figma.variables.createVariable(t.figmaName,collection,({number:'FLOAT',color:'COLOR',string:'STRING'})[t.type]);v.scopes=t.scopes;v.description=t.description;v.setVariableCodeSyntax('WEB',t.web);
    for(const mode of modes){const alias=await figma.variables.getVariableByIdAsync(semanticIds[t.values[mode].alias]);if(!alias)throw new Error('Unresolved semantic '+t.values[mode].alias);v.setValueForMode(modeIds[mode],figma.variables.createVariableAlias(alias));}
    vars[t.id]=v;variableIds[t.id]=v.id;
@@ -47,7 +47,7 @@ async function foundation(){
   styles[role]=s.id;
  }
  // This helper sets page context once. Nine variants are the observed presence subset.
- const r=await createComponentWithVariants({name:'__Avatar/Presence',description:'Dependencia privada de AVATAR-001@1.0.0: presencia active/busy/inactive, no familia Dot completa. Color acompañado de texto en el consumidor.',variantAxes:{type:['active','busy','inactive'],size:['large','medium','small']},baseProps:{width:16,height:16,fills:[],layoutMode:'HORIZONTAL'},page});
+ const r=await createComponentWithVariants({name:'__Avatar/Presence',description:'Dependencia privada de AVATAR-001@2.0.0: presencia active/busy/inactive, no familia Dot completa. Color acompañado de texto en el consumidor.',variantAxes:{type:['active','busy','inactive'],size:['large','medium','small']},baseProps:{width:16,height:16,fills:[],layoutMode:'HORIZONTAL'},page});
  created.push(r.componentSet.id,...r.variants.map(n=>n.id));r.componentSet.x=4200;r.componentSet.y=1600;r.componentSet.resize(340,260);
  const presence=[];
  for(const [i,c]of r.variants.entries()){

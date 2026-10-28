@@ -21,8 +21,8 @@ AUTH = 'evidence/authorization/avatar-pilot-request.txt'
 MODES = ['Contable', 'Administrativo', 'Servicios', 'Personas']
 
 def plan():
-    ts=read('norms/tokens/avatar.1.0.0.json'); names=read('evidence/avatar-pilot/token-names.json'); ns=read(SOURCE)['nodes']; ix={n['id']:n for n in ns}
-    sem={t['id']:t for t in read('norms/tokens/blueheart.2.1.0.json')['tokens']}
+    catalog=read('norms/catalog.json'); entry=next(e for e in catalog['token_sets'] if e['id']=='BLUEHEART-TOKENS' and e['current']); ts=read(entry['path']); ts['tokens']=[t for t in ts['tokens'] if t['id'].startswith(('avatar.','avatar-group.'))]; names={v['logicalId']:v['figmaName'] for v in read('evidence/collection-consolidation/migration-map.json')['variables']}; ns=read(SOURCE)['nodes']; ix={n['id']:n for n in ns}
+    sem={t['id']:t for t in read(entry['path'])['tokens']}
     native={v['layer']+'.'+v['name']:v['destination_id'] for v in read('evidence/figma-application/application-map.json')['variables']}
     recipes=[]
     for n in ns:
@@ -33,18 +33,16 @@ def plan():
     write('consumption/avatar/current-build-plan.json',data)
     summary={'role':'DERIVED_MINIMUM_NOT_RULES','families':{}}
     for family in ['avatar','avatar-group']:
-        selected=[t for t in data['tokens'] if t['collection']==family]
+        selected=[t for t in data['tokens'] if t['id'].startswith(family+'.')]
         signatures={json.dumps({k:t.get(k) for k in ['type','unit','collection','scopes','values']},sort_keys=True) for t in selected}
         assert len(signatures)==len(selected)
         summary['families'][family]=dict(tokens=len(selected),distinctSignatures=len(signatures),redundancies=0,themeRoles={t['figmaName']:t['themeBehavior'] for t in selected})
-    binding_path=ROOT/'evidence/avatar-pilot/destination/binding-index.json'
-    if binding_path.exists():
-        observed=json.loads(binding_path.read_text())
-        native_to_logical={v:k for k,v in read('evidence/avatar-pilot/destination/foundation.json')['variableIds'].items()}
-        for family in ['avatar','avatar-group']:
-            uses=sum(native_to_logical[observed['tokens'][r[2]]['id']].startswith(family+'.') for r in observed['rows'])
-            summary['families'][family].update(candidatePropertyBindings=uses,candidateMethod='Bindings reales por propiedad en maestros y dependencias privadas, incluyendo herencia en grupos; sin producto cartesiano de estados.',uniqueSelectedSignatures=summary['families'][family]['tokens'])
-    write('evidence/avatar-pilot/token-minimum.json',summary)
+    import csv
+    for family in ['avatar','avatar-group']:
+        with (ROOT/'consumption'/family/'binding-map.csv').open(newline='') as f:
+            uses=sum(row['logicalTokenId'].startswith(family+'.') for row in csv.DictReader(f))
+        summary['families'][family].update(candidatePropertyBindings=uses,candidateMethod='Mapa de bindings por identidad lógica del contrato; sin producto cartesiano.',uniqueSelectedSignatures=summary['families'][family]['tokens'])
+    write('consumption/avatar/token-minimum.json',summary)
     print(json.dumps(summary,ensure_ascii=False,indent=2))
 
 if __name__=='__main__':

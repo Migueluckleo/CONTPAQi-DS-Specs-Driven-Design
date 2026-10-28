@@ -73,8 +73,9 @@ async function foundation() {
     if(!v || v.scopes.length)throw new Error('Semantic unavailable or scoped: '+logical);
     semantic[logical]=v;
   }
-  const {collection,modeIds}=await createVariableCollection('tab',DATA.modes);
-  const variableIds={};
+  const collection=(await figma.variables.getLocalVariableCollectionsAsync()).find(c=>c.name==='component');if(!collection||DATA.modes.some(m=>!collection.modes.some(v=>v.name===m)))throw new Error('BH-P07: missing shared component collection/modes');const modeIds=Object.fromEntries(collection.modes.map(m=>[m.name,m.modeId]));
+  const routes=DATA.tokens.map(t=>t.figmaName);const existingVariables=await figma.variables.getLocalVariablesAsync();if(new Set(routes).size!==routes.length||existingVariables.some(v=>v.variableCollectionId===collection.id&&routes.includes(v.name)))throw new Error('BH-P07: duplicate component route; reconcile the manifest');
+const variableIds={};
   for(const token of DATA.tokens) {
     const variable=figma.variables.createVariable(token.figmaName,collection,({number:'FLOAT',color:'COLOR',string:'STRING'})[token.type]);
     variable.scopes=token.scopes; variable.description=token.description;

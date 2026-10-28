@@ -3,16 +3,16 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "BUTTON-001",
-    "version": "2.0.1",
-    "path": "norms/components/button.2.0.1.md",
-    "sha256": "33fd628444b5e40ce747aaca9ab98e31cc18b5306681c46883713f12c73a16a4",
+    "version": "3.0.0",
+    "path": "norms/components/button.3.0.0.md",
+    "sha256": "898621e9b341519892b513b14bf230855791e77e5f7438cf1cd6ce1975772b36",
     "current": true
   },
   "token_set": {
     "id": "BLUEHEART-TOKENS",
-    "version": "2.1.0",
-    "path": "norms/tokens/blueheart.2.1.0.json",
-    "sha256": "aefb82a057f9cce158b30412bab31dbff5757731f7af93ed8620a49a9fb63608",
+    "version": "3.0.0",
+    "path": "norms/tokens/blueheart.3.0.0.json",
+    "sha256": "20b950e77ee80bb1c01d2415400a57845286e89ee8560368b5cd6a5f743f6932",
     "current": true
   },
   "fileKey": "98xEw6sK8FRVNEhopM5SSz",
@@ -1837,7 +1837,10 @@
       "8948:487": "13:219"
     }
   },
-  "qa": "evidence/qa/button-pilot-check.json",
+  "qa": {
+    "path": "evidence/qa/component-collection-check.json",
+    "sha256": "c2f042b6eb240a1fae7337b641f833a79e1781728a54bebad441b1ead044bc62"
+  },
   "libraryPublished": false,
   "assets": {
     "phosphor": {
@@ -1888,6 +1891,15 @@
     "path": "consumption/button/prototype-corrections.2.0.1.json",
     "sha256": "4a0aa5eb9d3e13fb504f9712dd6707560993cf3f25c672ff8240a4fdba5490cb",
     "materialize": "python3 -B consumption/button/materialize-plan.py",
-    "evidence": "evidence/qa/button-focus-size-check.json"
-  }
+    "evidence": "evidence/qa/button-focus-size-check.json",
+    "selectedContract": {
+      "id": "BUTTON-001",
+      "version": "3.0.0"
+    }
+  },
+  "collectionMigration": {
+    "path": "evidence/collection-consolidation/migration-map.json",
+    "sha256": "e5586f4a6c044234353daf7eeb97e630a2b1105888b9bcd6e827ad442e7b2e8c"
+  },
+  "historicalQA": "evidence/qa/button-pilot-check.json"
 }

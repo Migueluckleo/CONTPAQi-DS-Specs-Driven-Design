@@ -1,0 +1,84 @@
+{
+  "pageId": "78:97",
+  "collectionId": "VariableCollectionId:11:2",
+  "modeIds": {
+    "Contable": "11:0",
+    "Administrativo": "11:1",
+    "Servicios": "11:2",
+    "Personas": "11:3"
+  },
+  "variableIds": {
+    "tab.border-tab-width-emphasis": "VariableID:171:2",
+    "tab.border-tab-width-regular": "VariableID:171:3",
+    "tab.color-tab-bg-brand-accent": "VariableID:171:4",
+    "tab.color-tab-bg-brand-subtle": "VariableID:171:5",
+    "tab.color-tab-bg-count": "VariableID:171:6",
+    "tab.color-tab-bg-muted": "VariableID:171:7",
+    "tab.color-tab-bg-subtle": "VariableID:171:8",
+    "tab.color-tab-bg-surface": "VariableID:171:9",
+    "tab.color-tab-icon-brand": "VariableID:171:10",
+    "tab.color-tab-icon-disabled": "VariableID:171:11",
+    "tab.color-tab-icon-primary": "VariableID:171:12",
+    "tab.color-tab-icon-secondary": "VariableID:171:13",
+    "tab.color-tab-stroke-brand": "VariableID:171:14",
+    "tab.color-tab-stroke-brand-hover": "VariableID:171:15",
+    "tab.color-tab-stroke-focus": "VariableID:171:16",
+    "tab.color-tab-stroke-neutral": "VariableID:171:17",
+    "tab.color-tab-stroke-surface": "VariableID:171:18",
+    "tab.color-tab-text-brand": "VariableID:171:19",
+    "tab.color-tab-text-brand-hover": "VariableID:171:20",
+    "tab.color-tab-text-disabled": "VariableID:171:21",
+    "tab.color-tab-text-inverse": "VariableID:171:22",
+    "tab.color-tab-text-primary": "VariableID:171:23",
+    "tab.color-tab-text-secondary": "VariableID:171:24",
+    "tab.font-tab-count-style": "VariableID:171:25",
+    "tab.font-tab-family": "VariableID:171:26",
+    "tab.font-tab-label-style": "VariableID:171:27",
+    "tab.font-tab-letter-spacing": "VariableID:171:28",
+    "tab.font-tab-line-height-count": "VariableID:171:29",
+    "tab.font-tab-line-height-label": "VariableID:171:30",
+    "tab.font-tab-selected-style": "VariableID:171:31",
+    "tab.font-tab-size-count": "VariableID:171:32",
+    "tab.font-tab-size-label": "VariableID:171:33",
+    "tab.radius-tab-full": "VariableID:171:34",
+    "tab.radius-tab-lg": "VariableID:171:35",
+    "tab.radius-tab-md": "VariableID:171:36",
+    "tab.radius-tab-sm": "VariableID:171:37",
+    "tab.size-tab-count": "VariableID:171:38",
+    "tab.size-tab-icon": "VariableID:171:39",
+    "tab.spacing-tab-lg": "VariableID:171:40",
+    "tab.spacing-tab-md": "VariableID:171:41",
+    "tab.spacing-tab-none": "VariableID:171:42",
+    "tab.spacing-tab-sm": "VariableID:171:43",
+    "tab.spacing-tab-xs": "VariableID:171:44",
+    "tab.color-tab-bg-segmented-selected-default": "VariableID:171:50",
+    "tab.color-tab-bg-segmented-selected-hover": "VariableID:171:51"
+  },
+  "styleIds": {
+    "regular": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+    "selected": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+    "count": "S:6e1759078c3460888c0b7572ea9c09275e70de08,",
+    "shadow": "S:a8fe8b4a1196deafc96e54af7b47767fcae17c4d,"
+  },
+  "countId": "78:102",
+  "countTextId": "78:103",
+  "countProperty": "Count#78:0",
+  "role": "DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES",
+  "historicalBootstrap": {
+    "path": "evidence/tab-pilot/destination/foundation.json",
+    "sha256": "fa84167e30825b1c4419fe5f0ee0f93c7073fdd78a8e9f011a15097445e601b2"
+  },
+  "collections": {
+    "component": {
+      "id": "VariableCollectionId:11:2",
+      "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+      "name": "component",
+      "modeIds": {
+        "Contable": "11:0",
+        "Administrativo": "11:1",
+        "Servicios": "11:2",
+        "Personas": "11:3"
+      }
+    }
+  }
+}
