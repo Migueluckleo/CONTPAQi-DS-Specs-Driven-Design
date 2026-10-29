@@ -2,12 +2,12 @@
 {
   "schema_version": 1,
   "id": "BH-P02",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "profile": "operational",
   "status": "ELIGIBLE",
   "authority": {
     "kind": "DELEGATED",
-    "decision_id": "ADR-021"
+    "decision_id": "ADR-024"
   },
   "targets": [
     "documentation"
@@ -50,6 +50,11 @@
       "id": "SRC-USER-DOT",
       "path": "evidence/authorization/dot-dependency-request.txt",
       "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
+    },
+    {
+      "id": "SRC-ICON-ALIGNMENT",
+      "path": "evidence/authorization/icon-color-alignment-request.txt",
+      "sha256": "35568ec00f70dd642e02b342c165506315874951b932afd9c6c298fbae93a59f"
     }
   ],
   "dependencies": [
@@ -62,7 +67,7 @@
     {
       "kind": "contract",
       "id": "BH-P06",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "relation": "uses"
     }
   ],
@@ -251,3 +256,5 @@ El mapa de REQ-P02-02 consume también [REQ-P07-06](07-COMPONENT-TOKENS.md#req-p
 ### REQ-COLLECTION
 
 Para la ubicación de variables, consumir [BH-P07 REQ-P07-07](07-COMPONENT-TOKENS.md#req-p07-07). El pase y QA del destino deben acreditar esa organización con su inventario nativo. El registro y la migración pertenecen a ADR-020 y al contrato vigente; no copiar aquí otra definición de la estructura.
+
+La correspondencia cromática de icono y texto y su aceptación pertenecen a [BH-P06 REQ-P06-03/04](06-PHOSPHOR-ICONS.md#req-p06-03); consumir su versión seleccionada, sin copiar otra regla de color.

@@ -1,0 +1,1732 @@
+{
+  "rows": [
+    {
+      "id": "79:2",
+      "name": "type=underline, selected=false, state=default",
+      "set": "79:26",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "79:117",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:24"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "79:115",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I79:115;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3921568691730499,
+                    "g": 0.45490196347236633,
+                    "b": 0.545098066329956
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:13"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "79:118",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:3",
+      "name": "type=underline, selected=false, state=hover",
+      "set": "79:26",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "79:123",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:23"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "79:121",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I79:121;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:12"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "79:124",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:4",
+      "name": "type=underline, selected=false, state=focus",
+      "set": "79:26",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "79:128",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:24"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "79:126",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I79:126;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3921568691730499,
+                    "g": 0.45490196347236633,
+                    "b": 0.545098066329956
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:13"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "79:129",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:5",
+      "name": "type=underline, selected=false, state=disabled",
+      "set": "79:26",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "79:134",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:21"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "79:132",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I79:132;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:11"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "79:135",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:6",
+      "name": "type=underline, selected=true, state=default",
+      "set": "79:26",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "81:4",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:19"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:2",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:2;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:10"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:5",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:7",
+      "name": "type=underline, selected=true, state=hover",
+      "set": "79:26",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "81:10",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:19"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:8",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:8;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:10"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:11",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:8",
+      "name": "type=underline, selected=true, state=focus",
+      "set": "79:26",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "81:15",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:19"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:13",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:13;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:10"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:16",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:9",
+      "name": "type=underline, selected=true, state=disabled",
+      "set": "79:26",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "81:21",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:21"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:19",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:19;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:11"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:22",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:10",
+      "name": "type=pill, selected=false, state=default",
+      "set": "79:26",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "81:26",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:24"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:24",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:24;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3921568691730499,
+                    "g": 0.45490196347236633,
+                    "b": 0.545098066329956
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:13"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:27",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:11",
+      "name": "type=pill, selected=false, state=hover",
+      "set": "79:26",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "81:32",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:23"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:30",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:30;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:12"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:33",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:12",
+      "name": "type=pill, selected=false, state=focus",
+      "set": "79:26",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "81:37",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:24"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:35",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:35;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3921568691730499,
+                    "g": 0.45490196347236633,
+                    "b": 0.545098066329956
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:13"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:38",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:13",
+      "name": "type=pill, selected=false, state=disabled",
+      "set": "79:26",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "81:43",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:21"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:41",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:41;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:11"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:44",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:14",
+      "name": "type=pill, selected=true, state=default",
+      "set": "79:26",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "81:48",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:19"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:46",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:46;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:10"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:49",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:15",
+      "name": "type=pill, selected=true, state=hover",
+      "set": "79:26",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "81:54",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.15294118225574493,
+                "g": 0.18431372940540314,
+                "b": 0.8352941274642944
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:20"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:52",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:52;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:10"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:55",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:16",
+      "name": "type=pill, selected=true, state=focus",
+      "set": "79:26",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "81:59",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:19"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:57",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:57;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:10"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:60",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:17",
+      "name": "type=pill, selected=true, state=disabled",
+      "set": "79:26",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "81:65",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:21"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:63",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:63;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:11"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:66",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:18",
+      "name": "type=segmented, selected=false, state=default",
+      "set": "79:26",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "81:70",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:24"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:68",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:68;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3921568691730499,
+                    "g": 0.45490196347236633,
+                    "b": 0.545098066329956
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:13"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:71",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:19",
+      "name": "type=segmented, selected=false, state=hover",
+      "set": "79:26",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "81:75",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:23"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:73",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:73;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:12"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:76",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:20",
+      "name": "type=segmented, selected=false, state=focus",
+      "set": "79:26",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "81:80",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:24"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:78",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:78;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.3921568691730499,
+                    "g": 0.45490196347236633,
+                    "b": 0.545098066329956
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:13"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:81",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:21",
+      "name": "type=segmented, selected=false, state=disabled",
+      "set": "79:26",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "81:86",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:21"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:84",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:84;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:11"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:87",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:22",
+      "name": "type=segmented, selected=true, state=default",
+      "set": "79:26",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "81:91",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:22"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:89",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:89;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:12"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:92",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:23",
+      "name": "type=segmented, selected=true, state=hover",
+      "set": "79:26",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "81:96",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:22"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:94",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:94;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:12"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:97",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:24",
+      "name": "type=segmented, selected=true, state=focus",
+      "set": "79:26",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "81:101",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:23"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:99",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:99;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:12"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:102",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    },
+    {
+      "id": "79:25",
+      "name": "type=segmented, selected=true, state=disabled",
+      "set": "79:26",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "81:107",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#79:100"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:21"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "81:105",
+          "name": "Icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show icon#79:125",
+            "mainComponent": "Icon#79:150"
+          },
+          "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+          "vectors": [
+            {
+              "id": "I81:105;8899:16466",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:11"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "81:108",
+          "name": "Badge",
+          "main": "201:1558"
+        }
+      ]
+    }
+  ]
+}

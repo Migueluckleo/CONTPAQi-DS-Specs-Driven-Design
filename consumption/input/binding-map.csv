@@ -28,7 +28,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14462,186:14467,282:5,282:106,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14462,186:14464,282:5,282:107,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14462,186:14464,282:5,282:107,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14462,I186:14464;40:142859,282:5,282:107,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14462,I186:14464;40:142859,282:5,282:107,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14462,186:14468,282:5,282:109,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14462,186:14468,282:5,282:109,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14462,186:14468,282:5,282:109,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -54,7 +54,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14462,186:14470,282:5,282:111,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14462,1110:6760,282:5,282:114,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14462,1110:6760,282:5,282:114,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14462,I1110:6760;355:77927,282:5,282:114,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14462,I1110:6760;355:77927,282:5,282:114,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14462,186:14472,282:5,282:116,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14462,186:14472,282:5,282:116,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14462,186:14472,282:5,282:116,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -93,7 +93,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14474,186:14479,282:12,282:158,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14474,186:14476,282:12,282:159,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14474,186:14476,282:12,282:159,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14474,I186:14476;40:142859,282:12,282:159,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14474,I186:14476;40:142859,282:12,282:159,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14474,186:14480,282:12,282:161,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14474,186:14480,282:12,282:161,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14474,186:14480,282:12,282:161,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -119,7 +119,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14474,186:14482,282:12,282:163,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14474,1110:6771,282:12,282:166,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14474,1110:6771,282:12,282:166,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14474,I1110:6771;355:77927,282:12,282:166,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14474,I1110:6771;355:77927,282:12,282:166,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14474,186:14484,282:12,282:168,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14474,186:14484,282:12,282:168,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14474,186:14484,282:12,282:168,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -158,7 +158,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14486,186:14491,282:19,282:173,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14486,186:14488,282:19,282:174,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14486,186:14488,282:19,282:174,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14486,I186:14488;40:142859,282:19,282:174,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14486,I186:14488;40:142859,282:19,282:174,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14486,186:14492,282:19,282:176,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14486,186:14492,282:19,282:176,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14486,186:14492,282:19,282:176,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -184,7 +184,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14486,186:14494,282:19,282:178,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14486,1110:6780,282:19,282:181,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14486,1110:6780,282:19,282:181,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14486,I1110:6780;355:77927,282:19,282:181,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14486,I1110:6780;355:77927,282:19,282:181,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14486,186:14496,282:19,282:183,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14486,186:14496,282:19,282:183,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14486,186:14496,282:19,282:183,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -223,7 +223,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29578,9179:29582,282:6,282:188,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9179:29578,9179:29583,282:6,282:189,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9179:29578,9179:29583,282:6,282:189,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9179:29578,I9179:29583;40:142859,282:6,282:189,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9179:29578,I9179:29583;40:142859,282:6,282:189,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9179:29578,9179:29584,282:6,282:191,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9179:29578,9179:29584,282:6,282:191,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9179:29578,9179:29584,282:6,282:191,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -249,7 +249,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29578,9179:29586,282:6,282:193,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 9179:29578,9179:29589,282:6,282:196,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 9179:29578,9179:29589,282:6,282:196,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-9179:29578,I9179:29589;355:77927,282:6,282:196,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+9179:29578,I9179:29589;355:77927,282:6,282:196,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 9179:29578,9179:29590,282:6,282:198,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 9179:29578,9179:29590,282:6,282:198,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 9179:29578,9179:29590,282:6,282:198,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -288,7 +288,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29593,9179:29597,282:13,282:203,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9179:29593,9179:29598,282:13,282:204,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9179:29593,9179:29598,282:13,282:204,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9179:29593,I9179:29598;40:142859,282:13,282:204,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9179:29593,I9179:29598;40:142859,282:13,282:204,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9179:29593,9179:29599,282:13,282:206,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9179:29593,9179:29599,282:13,282:206,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9179:29593,9179:29599,282:13,282:206,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -314,7 +314,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29593,9179:29601,282:13,282:208,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 9179:29593,9179:29604,282:13,282:211,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 9179:29593,9179:29604,282:13,282:211,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-9179:29593,I9179:29604;355:77927,282:13,282:211,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+9179:29593,I9179:29604;355:77927,282:13,282:211,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 9179:29593,9179:29605,282:13,282:213,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 9179:29593,9179:29605,282:13,282:213,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 9179:29593,9179:29605,282:13,282:213,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -353,7 +353,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29608,9179:29612,282:20,282:218,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9179:29608,9179:29613,282:20,282:219,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9179:29608,9179:29613,282:20,282:219,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9179:29608,I9179:29613;40:142859,282:20,282:219,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9179:29608,I9179:29613;40:142859,282:20,282:219,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9179:29608,9179:29614,282:20,282:221,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9179:29608,9179:29614,282:20,282:221,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9179:29608,9179:29614,282:20,282:221,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -379,7 +379,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29608,9179:29616,282:20,282:223,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 9179:29608,9179:29619,282:20,282:226,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 9179:29608,9179:29619,282:20,282:226,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-9179:29608,I9179:29619;355:77927,282:20,282:226,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+9179:29608,I9179:29619;355:77927,282:20,282:226,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 9179:29608,9179:29620,282:20,282:228,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 9179:29608,9179:29620,282:20,282:228,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 9179:29608,9179:29620,282:20,282:228,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -418,7 +418,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14498,186:14503,282:7,282:233,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14498,186:14500,282:7,282:234,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14498,186:14500,282:7,282:234,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14498,I186:14500;40:142859,282:7,282:234,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14498,I186:14500;40:142859,282:7,282:234,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14498,186:14504,282:7,282:236,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14498,186:14504,282:7,282:236,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14498,186:14504,282:7,282:236,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -469,7 +469,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14498,186:14506,282:7,282:240,root/1/0/1/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14498,1110:6766,282:7,282:243,root/1/0/1/2,width,input.size-icon,VariableID:281:16,direct
 186:14498,1110:6766,282:7,282:243,root/1/0/1/2,height,input.size-icon,VariableID:281:16,direct
-186:14498,I1110:6766;355:77927,282:7,282:243,root/1/0/1/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14498,I1110:6766;355:77927,282:7,282:243,root/1/0/1/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14498,186:14508,282:7,282:245,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14498,186:14508,282:7,282:245,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14498,186:14508,282:7,282:245,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -508,7 +508,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14510,186:14515,282:14,282:250,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14510,186:14512,282:14,282:251,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14510,186:14512,282:14,282:251,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14510,I186:14512;40:142859,282:14,282:251,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14510,I186:14512;40:142859,282:14,282:251,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14510,186:14516,282:14,282:253,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14510,186:14516,282:14,282:253,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14510,186:14516,282:14,282:253,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -562,7 +562,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14510,186:14518,282:14,282:257,root/1/0/1/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14510,1110:6787,282:14,282:260,root/1/0/1/2,width,input.size-icon,VariableID:281:16,direct
 186:14510,1110:6787,282:14,282:260,root/1/0/1/2,height,input.size-icon,VariableID:281:16,direct
-186:14510,I1110:6787;355:77927,282:14,282:260,root/1/0/1/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14510,I1110:6787;355:77927,282:14,282:260,root/1/0/1/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14510,186:14520,282:14,282:262,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14510,186:14520,282:14,282:262,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14510,186:14520,282:14,282:262,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -601,7 +601,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14522,186:14527,282:21,282:267,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14522,186:14524,282:21,282:268,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14522,186:14524,282:21,282:268,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14522,I186:14524;40:142859,282:21,282:268,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14522,I186:14524;40:142859,282:21,282:268,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14522,186:14528,282:21,282:270,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14522,186:14528,282:21,282:270,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14522,186:14528,282:21,282:270,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -655,7 +655,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14522,186:14530,282:21,282:274,root/1/0/1/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14522,1110:6782,282:21,282:277,root/1/0/1/2,width,input.size-icon,VariableID:281:16,direct
 186:14522,1110:6782,282:21,282:277,root/1/0/1/2,height,input.size-icon,VariableID:281:16,direct
-186:14522,I1110:6782;355:77927,282:21,282:277,root/1/0/1/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14522,I1110:6782;355:77927,282:21,282:277,root/1/0/1/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14522,186:14532,282:21,282:279,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14522,186:14532,282:21,282:279,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14522,186:14532,282:21,282:279,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -694,7 +694,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14534,186:14539,282:8,282:284,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14534,186:14536,282:8,282:285,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14534,186:14536,282:8,282:285,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14534,I186:14536;40:142859,282:8,282:285,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14534,I186:14536;40:142859,282:8,282:285,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14534,186:14540,282:8,282:287,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14534,186:14540,282:8,282:287,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14534,186:14540,282:8,282:287,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -720,7 +720,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14534,186:14542,282:8,282:289,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14534,1110:6784,282:8,282:292,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14534,1110:6784,282:8,282:292,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14534,I1110:6784;355:77927,282:8,282:292,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14534,I1110:6784;355:77927,282:8,282:292,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14534,186:14544,282:8,282:294,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14534,186:14544,282:8,282:294,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14534,186:14544,282:8,282:294,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -759,7 +759,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14546,186:14551,282:15,282:299,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14546,186:14548,282:15,282:300,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14546,186:14548,282:15,282:300,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14546,I186:14548;40:142859,282:15,282:300,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14546,I186:14548;40:142859,282:15,282:300,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14546,186:14552,282:15,282:302,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14546,186:14552,282:15,282:302,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14546,186:14552,282:15,282:302,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -785,7 +785,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14546,186:14554,282:15,282:304,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14546,1110:6781,282:15,282:307,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14546,1110:6781,282:15,282:307,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14546,I1110:6781;355:77927,282:15,282:307,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14546,I1110:6781;355:77927,282:15,282:307,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14546,186:14556,282:15,282:309,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14546,186:14556,282:15,282:309,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14546,186:14556,282:15,282:309,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -824,7 +824,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14558,186:14563,282:22,282:314,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14558,186:14560,282:22,282:315,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14558,186:14560,282:22,282:315,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14558,I186:14560;40:142859,282:22,282:315,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14558,I186:14560;40:142859,282:22,282:315,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14558,186:14564,282:22,282:317,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14558,186:14564,282:22,282:317,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14558,186:14564,282:22,282:317,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -850,7 +850,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14558,186:14566,282:22,282:319,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14558,1110:6783,282:22,282:322,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14558,1110:6783,282:22,282:322,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14558,I1110:6783;355:77927,282:22,282:322,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14558,I1110:6783;355:77927,282:22,282:322,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14558,186:14568,282:22,282:324,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14558,186:14568,282:22,282:324,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14558,186:14568,282:22,282:324,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -889,7 +889,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14570,186:14575,282:9,282:329,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14570,186:14572,282:9,282:330,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14570,186:14572,282:9,282:330,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14570,I186:14572;40:142859,282:9,282:330,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14570,I186:14572;40:142859,282:9,282:330,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14570,186:14576,282:9,282:332,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14570,186:14576,282:9,282:332,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14570,186:14576,282:9,282:332,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -915,7 +915,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14570,186:14578,282:9,282:334,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14570,1110:6786,282:9,282:337,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14570,1110:6786,282:9,282:337,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14570,I1110:6786;355:77927,282:9,282:337,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14570,I1110:6786;355:77927,282:9,282:337,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14570,186:14580,282:9,282:339,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14570,186:14580,282:9,282:339,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14570,186:14580,282:9,282:339,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -954,7 +954,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14582,186:14587,282:16,282:344,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14582,186:14584,282:16,282:345,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14582,186:14584,282:16,282:345,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14582,I186:14584;40:142859,282:16,282:345,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14582,I186:14584;40:142859,282:16,282:345,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14582,186:14588,282:16,282:347,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14582,186:14588,282:16,282:347,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14582,186:14588,282:16,282:347,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -980,7 +980,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14582,186:14590,282:16,282:349,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14582,1110:6785,282:16,282:352,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14582,1110:6785,282:16,282:352,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14582,I1110:6785;355:77927,282:16,282:352,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14582,I1110:6785;355:77927,282:16,282:352,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14582,186:14592,282:16,282:354,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14582,186:14592,282:16,282:354,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14582,186:14592,282:16,282:354,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -1019,7 +1019,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14594,186:14599,282:23,282:359,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14594,186:14596,282:23,282:360,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14594,186:14596,282:23,282:360,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14594,I186:14596;40:142859,282:23,282:360,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14594,I186:14596;40:142859,282:23,282:360,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14594,186:14600,282:23,282:362,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14594,186:14600,282:23,282:362,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14594,186:14600,282:23,282:362,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1045,7 +1045,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14594,186:14602,282:23,282:364,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14594,1110:6788,282:23,282:367,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14594,1110:6788,282:23,282:367,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14594,I1110:6788;355:77927,282:23,282:367,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+186:14594,I1110:6788;355:77927,282:23,282:367,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 186:14594,186:14604,282:23,282:369,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14594,186:14604,282:23,282:369,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14594,186:14604,282:23,282:369,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -1084,7 +1084,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:71,9165:75,282:10,282:374,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9165:71,9165:76,282:10,282:375,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9165:71,9165:76,282:10,282:375,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9165:71,I9165:76;40:142859,282:10,282:375,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9165:71,I9165:76;40:142859,282:10,282:375,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9165:71,9165:77,282:10,282:377,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9165:71,9165:77,282:10,282:377,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9165:71,9165:77,282:10,282:377,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1110,7 +1110,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:71,9165:79,282:10,282:379,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 9165:71,9165:82,282:10,282:382,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 9165:71,9165:82,282:10,282:382,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-9165:71,I9165:82;355:77927,282:10,282:382,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+9165:71,I9165:82;355:77927,282:10,282:382,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 9165:71,9165:83,282:10,282:384,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 9165:71,9165:83,282:10,282:384,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 9165:71,9165:83,282:10,282:384,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -1149,7 +1149,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:99,9165:103,282:17,282:389,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9165:99,9165:104,282:17,282:390,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9165:99,9165:104,282:17,282:390,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9165:99,I9165:104;40:142859,282:17,282:390,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9165:99,I9165:104;40:142859,282:17,282:390,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9165:99,9165:105,282:17,282:392,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9165:99,9165:105,282:17,282:392,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9165:99,9165:105,282:17,282:392,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1175,7 +1175,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:99,9165:107,282:17,282:394,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 9165:99,9165:110,282:17,282:397,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 9165:99,9165:110,282:17,282:397,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-9165:99,I9165:110;355:77927,282:17,282:397,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+9165:99,I9165:110;355:77927,282:17,282:397,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 9165:99,9165:111,282:17,282:399,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 9165:99,9165:111,282:17,282:399,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 9165:99,9165:111,282:17,282:399,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -1214,7 +1214,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:127,9165:131,282:24,282:404,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9165:127,9165:132,282:24,282:405,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9165:127,9165:132,282:24,282:405,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9165:127,I9165:132;40:142859,282:24,282:405,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9165:127,I9165:132;40:142859,282:24,282:405,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9165:127,9165:133,282:24,282:407,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9165:127,9165:133,282:24,282:407,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9165:127,9165:133,282:24,282:407,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1240,7 +1240,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:127,9165:135,282:24,282:409,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 9165:127,9165:138,282:24,282:412,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 9165:127,9165:138,282:24,282:412,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-9165:127,I9165:138;355:77927,282:24,282:412,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
+9165:127,I9165:138;355:77927,282:24,282:412,root/1/0/2/VECTOR,fills,input.color-icon-secondary,VariableID:281:17,nested-Phosphor-vectors
 9165:127,9165:139,282:24,282:414,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 9165:127,9165:139,282:24,282:414,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 9165:127,9165:139,282:24,282:414,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -1279,7 +1279,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14606,186:14611,282:11,282:419,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14606,186:14608,282:11,282:420,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14606,186:14608,282:11,282:420,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14606,I186:14608;40:142859,282:11,282:420,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14606,I186:14608;40:142859,282:11,282:420,root/0/1/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
 186:14606,186:14612,282:11,282:422,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14606,186:14612,282:11,282:422,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14606,186:14612,282:11,282:422,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1344,7 +1344,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14618,186:14623,282:18,282:434,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14618,186:14620,282:18,282:435,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14618,186:14620,282:18,282:435,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14618,I186:14620;40:142859,282:18,282:435,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14618,I186:14620;40:142859,282:18,282:435,root/0/1/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
 186:14618,186:14624,282:18,282:437,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14618,186:14624,282:18,282:437,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14618,186:14624,282:18,282:437,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1409,7 +1409,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14630,186:14635,282:25,282:449,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14630,186:14632,282:25,282:450,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14630,186:14632,282:25,282:450,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14630,I186:14632;40:142859,282:25,282:450,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14630,I186:14632;40:142859,282:25,282:450,root/0/1/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
 186:14630,186:14636,282:25,282:452,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14630,186:14636,282:25,282:452,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14630,186:14636,282:25,282:452,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1474,7 +1474,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14642,186:14647,282:118,282:143,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14642,186:14644,282:118,282:144,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14642,186:14644,282:118,282:144,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14642,I186:14644;40:142859,282:118,282:144,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14642,I186:14644;40:142859,282:118,282:144,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14642,186:14648,282:118,282:146,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14642,186:14648,282:118,282:146,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14642,186:14648,282:118,282:146,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1539,7 +1539,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14654,186:14659,282:125,282:464,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14654,186:14656,282:125,282:465,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14654,186:14656,282:125,282:465,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14654,I186:14656;40:142859,282:125,282:465,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14654,I186:14656;40:142859,282:125,282:465,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14654,186:14660,282:125,282:467,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14654,186:14660,282:125,282:467,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14654,186:14660,282:125,282:467,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1604,7 +1604,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14666,186:14671,282:132,282:479,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14666,186:14668,282:132,282:480,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14666,186:14668,282:132,282:480,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14666,I186:14668;40:142859,282:132,282:480,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14666,I186:14668;40:142859,282:132,282:480,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14666,186:14672,282:132,282:482,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14666,186:14672,282:132,282:482,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14666,186:14672,282:132,282:482,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1669,7 +1669,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29623,9179:29627,282:119,282:494,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9179:29623,9179:29628,282:119,282:495,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9179:29623,9179:29628,282:119,282:495,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9179:29623,I9179:29628;40:142859,282:119,282:495,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9179:29623,I9179:29628;40:142859,282:119,282:495,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9179:29623,9179:29629,282:119,282:497,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9179:29623,9179:29629,282:119,282:497,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9179:29623,9179:29629,282:119,282:497,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1734,7 +1734,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29638,9179:29642,282:126,282:509,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9179:29638,9179:29643,282:126,282:510,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9179:29638,9179:29643,282:126,282:510,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9179:29638,I9179:29643;40:142859,282:126,282:510,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9179:29638,I9179:29643;40:142859,282:126,282:510,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9179:29638,9179:29644,282:126,282:512,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9179:29638,9179:29644,282:126,282:512,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9179:29638,9179:29644,282:126,282:512,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1799,7 +1799,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9179:29653,9179:29657,282:133,282:524,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9179:29653,9179:29658,282:133,282:525,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9179:29653,9179:29658,282:133,282:525,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9179:29653,I9179:29658;40:142859,282:133,282:525,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9179:29653,I9179:29658;40:142859,282:133,282:525,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9179:29653,9179:29659,282:133,282:527,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9179:29653,9179:29659,282:133,282:527,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9179:29653,9179:29659,282:133,282:527,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1864,7 +1864,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14678,186:14683,282:120,282:539,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14678,186:14680,282:120,282:540,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14678,186:14680,282:120,282:540,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14678,I186:14680;40:142859,282:120,282:540,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14678,I186:14680;40:142859,282:120,282:540,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14678,186:14684,282:120,282:542,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14678,186:14684,282:120,282:542,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14678,186:14684,282:120,282:542,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -1947,7 +1947,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14690,186:14695,282:127,282:556,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14690,186:14692,282:127,282:557,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14690,186:14692,282:127,282:557,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14690,I186:14692;40:142859,282:127,282:557,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14690,I186:14692;40:142859,282:127,282:557,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14690,186:14696,282:127,282:559,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14690,186:14696,282:127,282:559,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14690,186:14696,282:127,282:559,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2030,7 +2030,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14702,186:14707,282:134,282:573,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14702,186:14704,282:134,282:574,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14702,186:14704,282:134,282:574,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14702,I186:14704;40:142859,282:134,282:574,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14702,I186:14704;40:142859,282:134,282:574,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14702,186:14708,282:134,282:576,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14702,186:14708,282:134,282:576,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14702,186:14708,282:134,282:576,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2113,7 +2113,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14714,186:14719,282:121,282:590,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14714,186:14716,282:121,282:591,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14714,186:14716,282:121,282:591,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14714,I186:14716;40:142859,282:121,282:591,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14714,I186:14716;40:142859,282:121,282:591,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14714,186:14720,282:121,282:593,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14714,186:14720,282:121,282:593,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14714,186:14720,282:121,282:593,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2178,7 +2178,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14726,186:14731,282:128,282:605,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14726,186:14728,282:128,282:606,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14726,186:14728,282:128,282:606,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14726,I186:14728;40:142859,282:128,282:606,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14726,I186:14728;40:142859,282:128,282:606,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14726,186:14732,282:128,282:608,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14726,186:14732,282:128,282:608,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14726,186:14732,282:128,282:608,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2243,7 +2243,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14738,186:14743,282:135,282:620,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14738,186:14740,282:135,282:621,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14738,186:14740,282:135,282:621,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14738,I186:14740;40:142859,282:135,282:621,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14738,I186:14740;40:142859,282:135,282:621,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14738,186:14744,282:135,282:623,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14738,186:14744,282:135,282:623,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14738,186:14744,282:135,282:623,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2308,7 +2308,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14750,186:14755,282:122,282:635,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14750,186:14752,282:122,282:636,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14750,186:14752,282:122,282:636,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14750,I186:14752;40:142859,282:122,282:636,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14750,I186:14752;40:142859,282:122,282:636,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14750,186:14756,282:122,282:638,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14750,186:14756,282:122,282:638,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14750,186:14756,282:122,282:638,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2373,7 +2373,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14762,186:14767,282:129,282:650,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14762,186:14764,282:129,282:651,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14762,186:14764,282:129,282:651,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14762,I186:14764;40:142859,282:129,282:651,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14762,I186:14764;40:142859,282:129,282:651,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14762,186:14768,282:129,282:653,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14762,186:14768,282:129,282:653,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14762,186:14768,282:129,282:653,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2438,7 +2438,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14774,186:14779,282:136,282:665,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14774,186:14776,282:136,282:666,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14774,186:14776,282:136,282:666,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14774,I186:14776;40:142859,282:136,282:666,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14774,I186:14776;40:142859,282:136,282:666,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14774,186:14780,282:136,282:668,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14774,186:14780,282:136,282:668,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14774,186:14780,282:136,282:668,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2503,7 +2503,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:85,9165:89,282:123,282:680,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9165:85,9165:90,282:123,282:681,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9165:85,9165:90,282:123,282:681,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9165:85,I9165:90;40:142859,282:123,282:681,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9165:85,I9165:90;40:142859,282:123,282:681,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9165:85,9165:91,282:123,282:683,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9165:85,9165:91,282:123,282:683,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9165:85,9165:91,282:123,282:683,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2568,7 +2568,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:113,9165:117,282:130,282:695,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9165:113,9165:118,282:130,282:696,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9165:113,9165:118,282:130,282:696,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9165:113,I9165:118;40:142859,282:130,282:696,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9165:113,I9165:118;40:142859,282:130,282:696,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9165:113,9165:119,282:130,282:698,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9165:113,9165:119,282:130,282:698,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9165:113,9165:119,282:130,282:698,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2633,7 +2633,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 9165:141,9165:145,282:137,282:710,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 9165:141,9165:146,282:137,282:711,root/0/1,width,input.size-icon,VariableID:281:16,direct
 9165:141,9165:146,282:137,282:711,root/0/1,height,input.size-icon,VariableID:281:16,direct
-9165:141,I9165:146;40:142859,282:137,282:711,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+9165:141,I9165:146;40:142859,282:137,282:711,root/0/1/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 9165:141,9165:147,282:137,282:713,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 9165:141,9165:147,282:137,282:713,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 9165:141,9165:147,282:137,282:713,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2698,7 +2698,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14786,186:14791,282:124,282:725,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14786,186:14788,282:124,282:726,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14786,186:14788,282:124,282:726,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14786,I186:14788;40:142859,282:124,282:726,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14786,I186:14788;40:142859,282:124,282:726,root/0/1/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
 186:14786,186:14792,282:124,282:728,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14786,186:14792,282:124,282:728,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14786,186:14792,282:124,282:728,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2724,7 +2724,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14786,186:14794,282:124,282:730,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14786,1110:6764,282:124,282:733,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14786,1110:6764,282:124,282:733,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14786,I1110:6764;355:77927,282:124,282:733,root/1/0/2/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
+186:14786,I1110:6764;355:77927,282:124,282:733,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14786,186:14796,282:124,282:735,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14786,186:14796,282:124,282:735,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14786,186:14796,282:124,282:735,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -2763,7 +2763,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14798,186:14803,282:131,282:740,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14798,186:14800,282:131,282:741,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14798,186:14800,282:131,282:741,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14798,I186:14800;40:142859,282:131,282:741,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14798,I186:14800;40:142859,282:131,282:741,root/0/1/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
 186:14798,186:14804,282:131,282:743,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14798,186:14804,282:131,282:743,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14798,186:14804,282:131,282:743,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2789,7 +2789,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14798,186:14806,282:131,282:745,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14798,1110:6761,282:131,282:748,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14798,1110:6761,282:131,282:748,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14798,I1110:6761;355:77927,282:131,282:748,root/1/0/2/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
+186:14798,I1110:6761;355:77927,282:131,282:748,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14798,186:14808,282:131,282:750,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14798,186:14808,282:131,282:750,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14798,186:14808,282:131,282:750,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct
@@ -2828,7 +2828,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14810,186:14815,282:138,282:755,root/0/0/1,letterSpacing,input.font-letter-spacing-label,VariableID:281:14,shared-style
 186:14810,186:14812,282:138,282:756,root/0/1,width,input.size-icon,VariableID:281:16,direct
 186:14810,186:14812,282:138,282:756,root/0/1,height,input.size-icon,VariableID:281:16,direct
-186:14810,I186:14812;40:142859,282:138,282:756,root/0/1/VECTOR,fills,input.color-icon-tooltip,VariableID:281:17,nested-Phosphor-vectors
+186:14810,I186:14812;40:142859,282:138,282:756,root/0/1/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
 186:14810,186:14816,282:138,282:758,root/1,itemSpacing,input.spacing-none,VariableID:281:7,direct
 186:14810,186:14816,282:138,282:758,root/1,paddingTop,input.spacing-none,VariableID:281:7,direct
 186:14810,186:14816,282:138,282:758,root/1,paddingRight,input.spacing-none,VariableID:281:7,direct
@@ -2854,7 +2854,7 @@ sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalI
 186:14810,186:14818,282:138,282:760,root/1/0/0,letterSpacing,input.font-letter-spacing-normal,VariableID:281:27,shared-style
 186:14810,1110:6773,282:138,282:763,root/1/0/2,width,input.size-icon,VariableID:281:16,direct
 186:14810,1110:6773,282:138,282:763,root/1/0/2,height,input.size-icon,VariableID:281:16,direct
-186:14810,I1110:6773;355:77927,282:138,282:763,root/1/0/2/VECTOR,fills,input.color-icon-disabled,VariableID:281:43,nested-Phosphor-vectors
+186:14810,I1110:6773;355:77927,282:138,282:763,root/1/0/2/VECTOR,fills,input.color-icon-default,VariableID:281:28,nested-Phosphor-vectors
 186:14810,186:14820,282:138,282:765,root/1/1,paddingTop,input.spacing-xs,VariableID:281:8,direct
 186:14810,186:14820,282:138,282:765,root/1/1,paddingRight,input.spacing-none,VariableID:281:7,direct
 186:14810,186:14820,282:138,282:765,root/1/1,paddingBottom,input.spacing-none,VariableID:281:7,direct

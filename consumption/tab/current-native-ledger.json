@@ -46,7 +46,9 @@
     "tab.spacing-tab-sm": "VariableID:171:43",
     "tab.spacing-tab-xs": "VariableID:171:44",
     "tab.color-tab-bg-segmented-selected-default": "VariableID:171:50",
-    "tab.color-tab-bg-segmented-selected-hover": "VariableID:171:51"
+    "tab.color-tab-bg-segmented-selected-hover": "VariableID:171:51",
+    "tab.color-tab-icon-inverse": "VariableID:303:2",
+    "tab.color-tab-icon-brand-hover": "VariableID:303:3"
   },
   "styleIds": {
     "regular": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
@@ -60,7 +62,7 @@
   "role": "DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES",
   "dotDependency": {
     "path": "consumption/dot/manifest.json",
-    "sha256": "459c1c577d552acc1a939ba1c16adc1d40442c43933364fbc4054aae66c55634"
+    "sha256": "f903606b7f2ef99b930fc4d17923216147eafeee777e66c66039b00acf386a09"
   },
   "historicalBootstrap": {
     "path": "evidence/tab-pilot/destination/foundation.json",
@@ -78,5 +80,9 @@
         "Personas": "11:3"
       }
     }
+  },
+  "iconColorAlignment": {
+    "path": "evidence/icon-color-audit/pairing-plan.json",
+    "sha256": "a5d1bf46b571032a4fe2616622601bf32785c1cfbea9a631ff540f3979fc4a54"
   }
 }

@@ -25,4 +25,9 @@ countIds={v['roles'][r]for v in plan['variants']for r in ['count','countLabel']}
 for k in countIds:plan['nodes'].pop(k,None)
 plan['sharedCount']={'manifest':'../dot/manifest.json','contract':'DOT-001@1.0.0','type':'count','size':'medium'}
 plan['version']=selected['version'];plan['authority']=['ADR-016','ADR-017','ADR-020','ADR-021'];plan['statistics'].update(unique_signatures=len(plan['tokens']),component_variables=len(plan['tokens']),own_property_bindings=len(plan['uses']))
+if 'REQ-ICON-COLOR'in (root/selected['path']).read_text():
+ import runpy
+ helpers=runpy.run_path(str(root/'implementations/figma/icon-color-plan.py'))
+ plan=helpers['apply_tab'](plan)
+ plan=helpers['materialize_tab_maps'](plan)
 save('consumption/tab/build-plan.'+selected['version']+'.json',plan)

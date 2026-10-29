@@ -31,7 +31,7 @@ def refresh_manifests():
             for item in value.values(): references(item)
         elif isinstance(value,list):
             for item in value: references(item)
-    for family in ('dot','button','tab','tabs','avatar','avatar-group','loader'):
+    for family in ('dot','loader','avatar','avatar-group','tab','tabs','button'):
         path='consumption/'+family+'/manifest.json'
         manifest=read(path)
         manifest['contract']=current[manifest['contract']['id']]
@@ -40,6 +40,11 @@ def refresh_manifests():
             dependency['contract']=current[dependency['contract']['id']]
         if 'sharedCount' in manifest: manifest['sharedCount']['contract']=current['DOT-001']
         if family not in ('button','loader'): manifest['qa']=qa
+        if manifest['contract']['id'] in ('BUTTON-001','TAB-001','TABS-001') and 'REQ-ICON-COLOR'in(ROOT/manifest['contract']['path']).read_text():
+            manifest['qa']=ref('evidence/qa/icon-color-audit-check.json')
+            manifest['iconColorAlignment']=ref('evidence/icon-color-audit/pairing-plan.json')
+            if family=='tab':manifest['recipes']='build-plan.'+manifest['contract']['version']+'.json'
+            if family=='button':manifest['prototypeCorrections']['selectedContract']={k:manifest['contract'][k]for k in ('id','version')}
         selected_sets=[e for e in catalog['token_sets'] if e['current']]
         if 'token_set' in manifest: manifest['token_set']=selected_sets[0]
         if 'token_sets' in manifest: manifest['token_sets']=selected_sets
@@ -76,6 +81,9 @@ def project():
         state['modeIds'] = collection['modeIds']
         if 'collection' in state:
             state['collection'] = copy.deepcopy(collection)
+        if family=='tab' and 'iconColorAlignment'in read('consumption/tab/manifest.json'):
+            import runpy
+            state=runpy.run_path(str(ROOT/'implementations/figma/icon-color-plan.py'))['apply_tab_ledger'](state)
         path = 'consumption/'+family+'/current-native-ledger.json'
         write(path, state)
         manifest = read('consumption/'+family+'/manifest.json')

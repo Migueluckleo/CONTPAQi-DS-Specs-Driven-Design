@@ -24,7 +24,6 @@
     "input.font-letter-spacing-label": "VariableID:281:14",
     "input.color-text-error": "VariableID:281:15",
     "input.size-icon": "VariableID:281:16",
-    "input.color-icon-tooltip": "VariableID:281:17",
     "input.spacing-lg": "VariableID:281:18",
     "input.radius-container": "VariableID:281:19",
     "input.border-width-regular": "VariableID:281:20",
@@ -53,7 +52,8 @@
     "input.color-icon-disabled": "VariableID:281:43",
     "input.color-stroke-value": "VariableID:281:44",
     "input.size-focus-outer-spread": "VariableID:285:4",
-    "input.color-effect-separation": "VariableID:285:5"
+    "input.color-effect-separation": "VariableID:285:5",
+    "input.color-icon-secondary": "VariableID:281:17"
   },
   "variableKeys": {
     "input.spacing-sm": "849d2e364656cb81352da6bb8f09ecba45c3b2cb",
@@ -67,7 +67,6 @@
     "input.font-letter-spacing-label": "d51bd438afb85d13765ed44cfd49cbd91d240b13",
     "input.color-text-error": "199a3b8bf02680462ffb13ac2801a1a37f292935",
     "input.size-icon": "27359eebadff4af930a67cc16f7a41127d4e9348",
-    "input.color-icon-tooltip": "aa998280b5e9a9e52e168011ffef3b984a4b5bda",
     "input.spacing-lg": "57a41b66ea41f02cc1dd6ac337b7a2ad2e3193fc",
     "input.radius-container": "0b6c54163723263ced590abed49dcf5a05a45e75",
     "input.border-width-regular": "a26391ec4274afe4f696b666bd7b149fadbb5329",
@@ -96,7 +95,8 @@
     "input.color-icon-disabled": "febe98c7e665ed4739da7e235f79458ff1eadacd",
     "input.color-stroke-value": "a4be997b02375df7cc2d19a6e568d1c1736b188b",
     "input.size-focus-outer-spread": "2b38fe4799c73e12270a99d2780e659376b582b2",
-    "input.color-effect-separation": "2a608cbff48278434f0903a132892a3321c18dcd"
+    "input.color-effect-separation": "2a608cbff48278434f0903a132892a3321c18dcd",
+    "input.color-icon-secondary": "aa998280b5e9a9e52e168011ffef3b984a4b5bda"
   },
   "styles": {
     "input/label": "S:bf1b1ea2f7aee4c859f67bbbbb8da95c930c999b,",

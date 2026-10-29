@@ -1,0 +1,40 @@
+{
+  "change": "contract",
+  "impact": {
+    "affected": [
+      "contract:BH-P02@2.3.1",
+      "contract:BH-P03@2.3.1",
+      "contract:BH-P06@2.1.0",
+      "contract:BUTTON-001@4.0.1",
+      "contract:INPUT-001@2.0.0",
+      "contract:TAB-001@3.1.0",
+      "contract:TABS-001@3.1.0"
+    ],
+    "changed": [
+      "norms/components/button.4.0.1.md",
+      "norms/components/input.2.0.0.md",
+      "norms/components/tab.3.1.0.md",
+      "norms/components/tabs.3.1.0.md",
+      "protocols/06-PHOSPHOR-ICONS.md"
+    ],
+    "scope": "Current declared dependencies; removed/unmapped paths require review against the previous snapshot",
+    "status": "PASS",
+    "unmapped_paths": []
+  },
+  "independent_review": true,
+  "required_gates": [
+    "structure",
+    "references",
+    "authority",
+    "dependencies",
+    "requirements-review",
+    "affected-target-qa",
+    "component-token-minimization",
+    "component-variable-naming",
+    "operational-contracts",
+    "component-theme-behavior",
+    "component-reverse-dependency-reuse"
+  ],
+  "status": "PLAN_ONLY",
+  "tests_executed": false
+}

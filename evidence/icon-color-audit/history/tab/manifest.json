@@ -1,0 +1,1429 @@
+{
+  "schema_version": 1,
+  "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
+  "contract": {
+    "id": "TAB-001",
+    "version": "3.0.0",
+    "path": "norms/components/tab.3.0.0.md",
+    "sha256": "b35627e9edf01c2110f534ad124eeefa38a70ce995c5f0c8addedb47b019caa4",
+    "current": true
+  },
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "5.1.0",
+      "path": "norms/tokens/blueheart.5.1.0.json",
+      "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+      "current": true
+    }
+  ],
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "page": {
+    "id": "78:97",
+    "name": "Tabs"
+  },
+  "reviewFrameId": "82:2",
+  "playbackFrameId": "82:400",
+  "consumerViews": [
+    {
+      "index": 0,
+      "label": "Resumen",
+      "id": "82:487",
+      "panelId": "82:519",
+      "links": [
+        {
+          "hitId": "82:491",
+          "instanceId": "82:492",
+          "index": 0
+        },
+        {
+          "hitId": "82:498",
+          "instanceId": "82:499",
+          "index": 1
+        },
+        {
+          "hitId": "82:505",
+          "instanceId": "82:506",
+          "index": 2
+        }
+      ],
+      "disabledHitId": "82:512"
+    },
+    {
+      "index": 1,
+      "label": "Movimientos",
+      "id": "82:523",
+      "panelId": "82:555",
+      "links": [
+        {
+          "hitId": "82:527",
+          "instanceId": "82:528",
+          "index": 0
+        },
+        {
+          "hitId": "82:534",
+          "instanceId": "82:535",
+          "index": 1
+        },
+        {
+          "hitId": "82:541",
+          "instanceId": "82:542",
+          "index": 2
+        }
+      ],
+      "disabledHitId": "82:548"
+    },
+    {
+      "index": 2,
+      "label": "Documentos",
+      "id": "82:559",
+      "panelId": "82:591",
+      "links": [
+        {
+          "hitId": "82:563",
+          "instanceId": "82:564",
+          "index": 0
+        },
+        {
+          "hitId": "82:570",
+          "instanceId": "82:571",
+          "index": 1
+        },
+        {
+          "hitId": "82:577",
+          "instanceId": "82:578",
+          "index": 2
+        }
+      ],
+      "disabledHitId": "82:584"
+    }
+  ],
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "family": {
+    "id": "79:26",
+    "key": "1848649f934b1fd6f1cfae986c474b1012693f6f",
+    "name": "Tab",
+    "description": "TAB-001@3.0.0 · 24 variantes · 39 tokens propios + Dot count/medium.",
+    "properties": {
+      "Label#79:100": {
+        "type": "TEXT",
+        "defaultValue": "Tab"
+      },
+      "Show icon#79:125": {
+        "type": "BOOLEAN",
+        "defaultValue": false
+      },
+      "Icon#79:150": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "79:75",
+        "preferredValues": []
+      },
+      "Show badge#79:175": {
+        "type": "BOOLEAN",
+        "defaultValue": false
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "underline",
+        "variantOptions": [
+          "underline",
+          "pill",
+          "segmented"
+        ]
+      },
+      "selected": {
+        "type": "VARIANT",
+        "defaultValue": "false",
+        "variantOptions": [
+          "false",
+          "true"
+        ]
+      },
+      "state": {
+        "type": "VARIANT",
+        "defaultValue": "default",
+        "variantOptions": [
+          "default",
+          "hover",
+          "focus",
+          "disabled"
+        ]
+      }
+    }
+  },
+  "variants": [
+    {
+      "id": "79:2",
+      "key": "a58869fbb4f60bc19c74aa8af79a1992e0744f08",
+      "name": "type=underline, selected=false, state=default",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "default"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:3",
+      "key": "dcf3ed6fe0cc766540aef1b20a726075de48bb69",
+      "name": "type=underline, selected=false, state=hover",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "hover"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:4",
+      "key": "c3ad4e0cd0396005f00ccd7bba5d99bdaf4927fe",
+      "name": "type=underline, selected=false, state=focus",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "focus"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:5",
+      "key": "026d996c6ffe4fde6546eccd6804c50a58beb6a3",
+      "name": "type=underline, selected=false, state=disabled",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:6",
+      "key": "19bcd21ee7761e93a42488956874675ae5c338b8",
+      "name": "type=underline, selected=true, state=default",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "default"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:7",
+      "key": "10619a48c6a31e0fcb4603fa92d0b0218a5753a8",
+      "name": "type=underline, selected=true, state=hover",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "hover"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:8",
+      "key": "a334960d2fcfafca6431fbaa2b64bdf9b090ebe9",
+      "name": "type=underline, selected=true, state=focus",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "focus"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:9",
+      "key": "3d258b28522838132259bf69cf18cbc610a97f3a",
+      "name": "type=underline, selected=true, state=disabled",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:10",
+      "key": "ba943c2f57670a0ad5f5cce6b81878d9f77edf39",
+      "name": "type=pill, selected=false, state=default",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "default"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:11",
+      "key": "8d6a60535305fd791515467fe2752bc59b9837b8",
+      "name": "type=pill, selected=false, state=hover",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "hover"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:12",
+      "key": "e7bca2bc5a15a687cd483f6c1076755d79f1fc38",
+      "name": "type=pill, selected=false, state=focus",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "focus"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:13",
+      "key": "39c3ab3aca1a9116eabadda9281c685c24e02389",
+      "name": "type=pill, selected=false, state=disabled",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:14",
+      "key": "66e7ab889d710c764172920b345831b10e25f3bc",
+      "name": "type=pill, selected=true, state=default",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "default"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:15",
+      "key": "fe52dff26309cf7145118e3aefd79cdc9dc678b1",
+      "name": "type=pill, selected=true, state=hover",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "hover"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:16",
+      "key": "130aafaee284ad3501f6811880c5af5aae7bbbc5",
+      "name": "type=pill, selected=true, state=focus",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "focus"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:17",
+      "key": "78e2dd5ea28c6a56c68cec8c8746416fa544ab0a",
+      "name": "type=pill, selected=true, state=disabled",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:18",
+      "key": "961d62ca5080cc342534cf83d93d0832a3d3cdc0",
+      "name": "type=segmented, selected=false, state=default",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "default"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:19",
+      "key": "096224547b0750b761c870d2eccb8cec04824b1f",
+      "name": "type=segmented, selected=false, state=hover",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "hover"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:20",
+      "key": "1dcb4d66429ba265b1940f60fc76b4344ce8ec21",
+      "name": "type=segmented, selected=false, state=focus",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "focus"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:21",
+      "key": "eb9c66b91cbea62ef47484edb209c17f5057fba1",
+      "name": "type=segmented, selected=false, state=disabled",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:22",
+      "key": "b147d1eaf96f2133207b7faa8576f8ce4bc55ca7",
+      "name": "type=segmented, selected=true, state=default",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "default"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:23",
+      "key": "c41a195ef6c69ff0cf8b0548177f615eeaca98ca",
+      "name": "type=segmented, selected=true, state=hover",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "hover"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:24",
+      "key": "812ef99835713ca39eb03013d48b73aa25d9f207",
+      "name": "type=segmented, selected=true, state=focus",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "focus"
+      },
+      "countExposed": true
+    },
+    {
+      "id": "79:25",
+      "key": "50b78086abe48fbddefedf03ff798cde7893093e",
+      "name": "type=segmented, selected=true, state=disabled",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "countExposed": true
+    }
+  ],
+  "propertyKeys": {
+    "Label": "Label#79:100",
+    "ShowIcon": "Show icon#79:125",
+    "Icon": "Icon#79:150",
+    "ShowBadge": "Show badge#79:175"
+  },
+  "styles": {
+    "regular": "S:c2bd3b81d6955f52b4402d1f221f36883f74c48c,",
+    "selected": "S:f7823e9a2e6d42b3bbd2034109c553271fc61093,",
+    "count": "S:69e9b2d42eeae84931453a60f63d937351f3d86d,",
+    "shadow": "S:a8fe8b4a1196deafc96e54af7b47767fcae17c4d,"
+  },
+  "icons": {
+    "source": "Team Phosphor library",
+    "fileKey": "xZSksKpcQTp5H3C4dZApBL",
+    "ImageSquare": {
+      "key": "f273018f11d7d4e938078bd0b21b0b3a9e7f2634",
+      "react_package": "@phosphor-icons/react",
+      "react_export": "ImageSquareIcon",
+      "weight": "light"
+    },
+    "swap_qa": {
+      "id": "28:501",
+      "key": "46d251bb4099700c5852180f2370d265e5166432",
+      "remote": true
+    }
+  },
+  "variables": [
+    {
+      "id": "tab.border-tab-width-emphasis",
+      "name": "--border-tab-width-emphasis",
+      "figmaName": "tab/border/width-emphasis",
+      "web": "var(--border-tab-width-emphasis)",
+      "scope": "STROKE_FLOAT",
+      "nativeId": "VariableID:171:2",
+      "nativeKey": "2ed81db8ba7d561f4a04ec0261b8bbd77ee9e612",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-md"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-md"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-md"
+        }
+      }
+    },
+    {
+      "id": "tab.border-tab-width-regular",
+      "name": "--border-tab-width-regular",
+      "figmaName": "tab/border/width-regular",
+      "web": "var(--border-tab-width-regular)",
+      "scope": "STROKE_FLOAT",
+      "nativeId": "VariableID:171:3",
+      "nativeKey": "f5665d751fb98e861dab8889f5b7b953153e820a",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-xs"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-brand-accent",
+      "name": "--color-tab-bg-brand-accent",
+      "figmaName": "tab/color/bg/primary-hover",
+      "web": "var(--color-tab-bg-brand-accent)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:171:4",
+      "nativeKey": "7868bdd93414cd2194b23769dcc7e53fa0bb18a5",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-accent"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-accent"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-accent"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-accent"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-brand-subtle",
+      "name": "--color-tab-bg-brand-subtle",
+      "figmaName": "tab/color/bg/primary-default",
+      "web": "var(--color-tab-bg-brand-subtle)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:171:5",
+      "nativeKey": "4b23ebb6ea1cbafd80820e83b9149b73bbe13ef5",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-subtle"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-muted",
+      "name": "--color-tab-bg-muted",
+      "figmaName": "tab/color/bg/segmented-hover",
+      "web": "var(--color-tab-bg-muted)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:171:7",
+      "nativeKey": "9d0306bccba432714ce154e6043a7999617dd05a",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-muted"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-subtle",
+      "name": "--color-tab-bg-subtle",
+      "figmaName": "tab/color/bg/secondary-hover",
+      "web": "var(--color-tab-bg-subtle)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:171:8",
+      "nativeKey": "8ed5a98264511b34c93e50c04b05e60f530cf05f",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-subtle"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-surface",
+      "name": "--color-tab-bg-surface",
+      "figmaName": "tab/color/bg/segmented-focus",
+      "web": "var(--color-tab-bg-surface)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:171:9",
+      "nativeKey": "013bb5bed8c0737b2060cc5ef7a039bc7bf5c30b",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-brand",
+      "name": "--color-tab-icon-brand",
+      "figmaName": "tab/color/icon/primary-default",
+      "web": "var(--color-tab-icon-brand)",
+      "scope": "SHAPE_FILL",
+      "nativeId": "VariableID:171:10",
+      "nativeKey": "a4b0f5b9e6b271f790de1f6e6c31cb0df451b8a1",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-default"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-disabled",
+      "name": "--color-tab-icon-disabled",
+      "figmaName": "tab/color/icon/disabled",
+      "web": "var(--color-tab-icon-disabled)",
+      "scope": "SHAPE_FILL",
+      "nativeId": "VariableID:171:11",
+      "nativeKey": "9df0130a84fd502e6ec573c1b633fb6fd27f1418",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-primary",
+      "name": "--color-tab-icon-primary",
+      "figmaName": "tab/color/icon/secondary-hover",
+      "web": "var(--color-tab-icon-primary)",
+      "scope": "SHAPE_FILL",
+      "nativeId": "VariableID:171:12",
+      "nativeKey": "c96f94238ba8ca3c06732324f88725e564477472",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-secondary",
+      "name": "--color-tab-icon-secondary",
+      "figmaName": "tab/color/icon/secondary-default",
+      "web": "var(--color-tab-icon-secondary)",
+      "scope": "SHAPE_FILL",
+      "nativeId": "VariableID:171:13",
+      "nativeKey": "4729594a6e9951df01f20ed5c2fc0a6d518f6595",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-brand",
+      "name": "--color-tab-stroke-brand",
+      "figmaName": "tab/color/stroke/primary-default",
+      "web": "var(--color-tab-stroke-brand)",
+      "scope": "STROKE_COLOR",
+      "nativeId": "VariableID:171:14",
+      "nativeKey": "433a559a8a14dd49b040748babc7be5c25d9bc0e",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-default"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-brand-hover",
+      "name": "--color-tab-stroke-brand-hover",
+      "figmaName": "tab/color/stroke/primary-hover",
+      "web": "var(--color-tab-stroke-brand-hover)",
+      "scope": "STROKE_COLOR",
+      "nativeId": "VariableID:171:15",
+      "nativeKey": "62980914decc73c76a8f5ac127201d5e8184addc",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-focus",
+      "name": "--color-tab-stroke-focus",
+      "figmaName": "tab/color/stroke/focus",
+      "web": "var(--color-tab-stroke-focus)",
+      "scope": "STROKE_COLOR",
+      "nativeId": "VariableID:171:16",
+      "nativeKey": "18915c1394eaa88fe14ac46768407728f2a3ce04",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-strong"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-stroke-neutral",
+      "name": "--color-tab-stroke-neutral",
+      "figmaName": "tab/color/stroke/secondary-hover",
+      "web": "var(--color-tab-stroke-neutral)",
+      "scope": "STROKE_COLOR",
+      "nativeId": "VariableID:171:17",
+      "nativeKey": "659089c4be38b869fef3ce002f7865b12ec03db9",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-text-brand",
+      "name": "--color-tab-text-brand",
+      "figmaName": "tab/color/text/primary-default",
+      "web": "var(--color-tab-text-brand)",
+      "scope": "TEXT_FILL",
+      "nativeId": "VariableID:171:19",
+      "nativeKey": "1713ad58d89c7221914be6369e3144bd157ae201",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-text-brand-hover",
+      "name": "--color-tab-text-brand-hover",
+      "figmaName": "tab/color/text/primary-hover",
+      "web": "var(--color-tab-text-brand-hover)",
+      "scope": "TEXT_FILL",
+      "nativeId": "VariableID:171:20",
+      "nativeKey": "3942ee1d88bc053f1507b80dfbd4c5469175a997",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-text-disabled",
+      "name": "--color-tab-text-disabled",
+      "figmaName": "tab/color/text/disabled",
+      "web": "var(--color-tab-text-disabled)",
+      "scope": "TEXT_FILL",
+      "nativeId": "VariableID:171:21",
+      "nativeKey": "c43d30a1da5adf7cececd6cd5cb13215996bf338",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-text-inverse",
+      "name": "--color-tab-text-inverse",
+      "figmaName": "tab/color/text/inverse",
+      "web": "var(--color-tab-text-inverse)",
+      "scope": "TEXT_FILL",
+      "nativeId": "VariableID:171:22",
+      "nativeKey": "b3c252a35799f8e00263766005514d2fc0fc3a83",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-text-primary",
+      "name": "--color-tab-text-primary",
+      "figmaName": "tab/color/text/secondary-hover",
+      "web": "var(--color-tab-text-primary)",
+      "scope": "TEXT_FILL",
+      "nativeId": "VariableID:171:23",
+      "nativeKey": "bcbd1743790190227a584a52abe384698072cfe9",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-text-secondary",
+      "name": "--color-tab-text-secondary",
+      "figmaName": "tab/color/text/secondary-default",
+      "web": "var(--color-tab-text-secondary)",
+      "scope": "TEXT_FILL",
+      "nativeId": "VariableID:171:24",
+      "nativeKey": "b4ce56ab086a7a766980645ddf839829cb503879",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-strong"
+        }
+      }
+    },
+    {
+      "id": "tab.font-tab-family",
+      "name": "--font-tab-family",
+      "figmaName": "tab/font/family",
+      "web": "var(--font-tab-family)",
+      "scope": "FONT_FAMILY",
+      "nativeId": "VariableID:171:26",
+      "nativeKey": "507bcf9888ec47efba145fe379705e793f233663",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-family-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-family-base"
+        },
+        "Servicios": {
+          "alias": "semantic.font-family-base"
+        },
+        "Personas": {
+          "alias": "semantic.font-family-base"
+        }
+      }
+    },
+    {
+      "id": "tab.font-tab-label-style",
+      "name": "--font-tab-label-style",
+      "figmaName": "tab/font/label-style",
+      "web": "var(--font-tab-label-style)",
+      "scope": "FONT_STYLE",
+      "nativeId": "VariableID:171:27",
+      "nativeKey": "8bef34452e81339852093d694e47857bc46969c6",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-regular"
+        }
+      }
+    },
+    {
+      "id": "tab.font-tab-letter-spacing",
+      "name": "--font-tab-letter-spacing",
+      "figmaName": "tab/font/letter-spacing",
+      "web": "var(--font-tab-letter-spacing)",
+      "scope": "LETTER_SPACING",
+      "nativeId": "VariableID:171:28",
+      "nativeKey": "47ad43d2950283636706d9e86518bd9471f8d3bd",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Servicios": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-normal"
+        }
+      }
+    },
+    {
+      "id": "tab.font-tab-line-height-label",
+      "name": "--font-tab-line-height-label",
+      "figmaName": "tab/font/line-height-label",
+      "web": "var(--font-tab-line-height-label)",
+      "scope": "LINE_HEIGHT",
+      "nativeId": "VariableID:171:30",
+      "nativeKey": "731d7ba62040d226e3aac9621b9974e1c9acc16c",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-sm"
+        }
+      }
+    },
+    {
+      "id": "tab.font-tab-selected-style",
+      "name": "--font-tab-selected-style",
+      "figmaName": "tab/font/selected-style",
+      "web": "var(--font-tab-selected-style)",
+      "scope": "FONT_STYLE",
+      "nativeId": "VariableID:171:31",
+      "nativeKey": "df42215818c0f8a9279ba50b51f0d8b9242fc004",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-semibold"
+        }
+      }
+    },
+    {
+      "id": "tab.font-tab-size-label",
+      "name": "--font-tab-size-label",
+      "figmaName": "tab/font/size-label",
+      "web": "var(--font-tab-size-label)",
+      "scope": "FONT_SIZE",
+      "nativeId": "VariableID:171:33",
+      "nativeKey": "e17d6c2360881ec3d81b7ae75ddc0839f578285c",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-sm"
+        }
+      }
+    },
+    {
+      "id": "tab.radius-tab-full",
+      "name": "--radius-tab-full",
+      "figmaName": "tab/radius/full",
+      "web": "var(--radius-tab-full)",
+      "scope": "CORNER_RADIUS",
+      "nativeId": "VariableID:171:34",
+      "nativeKey": "1069689fbbb6d2f6d88c899ddbc6ca50306530f6",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.radius-full"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-full"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-full"
+        },
+        "Personas": {
+          "alias": "semantic.radius-full"
+        }
+      }
+    },
+    {
+      "id": "tab.radius-tab-lg",
+      "name": "--radius-tab-lg",
+      "figmaName": "tab/radius/lg",
+      "web": "var(--radius-tab-lg)",
+      "scope": "CORNER_RADIUS",
+      "nativeId": "VariableID:171:35",
+      "nativeKey": "8d047bde67a90d490212f4f5b5c44c13d408dc53",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.radius-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-lg"
+        },
+        "Personas": {
+          "alias": "semantic.radius-lg"
+        }
+      }
+    },
+    {
+      "id": "tab.radius-tab-md",
+      "name": "--radius-tab-md",
+      "figmaName": "tab/radius/md",
+      "web": "var(--radius-tab-md)",
+      "scope": "CORNER_RADIUS",
+      "nativeId": "VariableID:171:36",
+      "nativeKey": "2180083f6a34de2a47f747dd1bf4e4423fd438e7",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.radius-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-md"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-md"
+        },
+        "Personas": {
+          "alias": "semantic.radius-md"
+        }
+      }
+    },
+    {
+      "id": "tab.radius-tab-sm",
+      "name": "--radius-tab-sm",
+      "figmaName": "tab/radius/sm",
+      "web": "var(--radius-tab-sm)",
+      "scope": "CORNER_RADIUS",
+      "nativeId": "VariableID:171:37",
+      "nativeKey": "7c8b0b671e47b437671ef1d75ac28fab202379bf",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.radius-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-sm"
+        },
+        "Personas": {
+          "alias": "semantic.radius-sm"
+        }
+      }
+    },
+    {
+      "id": "tab.size-tab-icon",
+      "name": "--size-tab-icon",
+      "figmaName": "tab/size/icon",
+      "web": "var(--size-tab-icon)",
+      "scope": "WIDTH_HEIGHT",
+      "nativeId": "VariableID:171:39",
+      "nativeKey": "74a06460723e59d6b8d4fdee448ef0b1fd353970",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-xl"
+        }
+      }
+    },
+    {
+      "id": "tab.spacing-tab-lg",
+      "name": "--spacing-tab-lg",
+      "figmaName": "tab/spacing/lg",
+      "web": "var(--spacing-tab-lg)",
+      "scope": "GAP",
+      "nativeId": "VariableID:171:40",
+      "nativeKey": "29ba9dad7a492c962acc2e1b4f4d0cff78f8687b",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-lg"
+        }
+      }
+    },
+    {
+      "id": "tab.spacing-tab-md",
+      "name": "--spacing-tab-md",
+      "figmaName": "tab/spacing/md",
+      "web": "var(--spacing-tab-md)",
+      "scope": "GAP",
+      "nativeId": "VariableID:171:41",
+      "nativeKey": "a1b0d4490e5a868b6901c7661c3faaf6b3e1f550",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-md"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-md"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-md"
+        }
+      }
+    },
+    {
+      "id": "tab.spacing-tab-none",
+      "name": "--spacing-tab-none",
+      "figmaName": "tab/spacing/none",
+      "web": "var(--spacing-tab-none)",
+      "scope": "GAP",
+      "nativeId": "VariableID:171:42",
+      "nativeKey": "ade8b6787d1958e79ff21c6fd6044b1f26ab8242",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      }
+    },
+    {
+      "id": "tab.spacing-tab-sm",
+      "name": "--spacing-tab-sm",
+      "figmaName": "tab/spacing/sm",
+      "web": "var(--spacing-tab-sm)",
+      "scope": "GAP",
+      "nativeId": "VariableID:171:43",
+      "nativeKey": "1efd977b7b6503058ffc1499c71d554dfc9d3142",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      }
+    },
+    {
+      "id": "tab.spacing-tab-xs",
+      "name": "--spacing-tab-xs",
+      "figmaName": "tab/spacing/xs",
+      "web": "var(--spacing-tab-xs)",
+      "scope": "GAP",
+      "nativeId": "VariableID:171:44",
+      "nativeKey": "21ac3cbf1a496919b836948e119ff6f324a78fd4",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-segmented-selected-default",
+      "name": "--color-tab-bg-segmented-selected-default",
+      "figmaName": "tab/color/bg/segmented-selected-default",
+      "web": "var(--color-tab-bg-segmented-selected-default)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:171:50",
+      "nativeKey": "36b5bfbc7adc65d3efe57b88ca0d510055a82a21",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-personas-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-personas-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-personas-medium"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-medium"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-bg-segmented-selected-hover",
+      "name": "--color-tab-bg-segmented-selected-hover",
+      "figmaName": "tab/color/bg/segmented-selected-hover",
+      "web": "var(--color-tab-bg-segmented-selected-hover)",
+      "scope": "FRAME_FILL",
+      "nativeId": "VariableID:171:51",
+      "nativeKey": "3dd129ae2c5870da3fdca3ed434d7bfc4f4ec17f",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-personas-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-personas-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-personas-soft"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-soft"
+        }
+      }
+    }
+  ],
+  "recipes": "build-plan.3.0.0.json",
+  "binding_map": {
+    "path": "consumption/tab/binding-map.csv",
+    "sha256": "f8b32620698e022788e42327ea9b657a4d303eabb534024803d65ef8e5b02778"
+  },
+  "qa": {
+    "path": "evidence/qa/dot-pilot-check.json",
+    "sha256": "68c6435c8bc4654781a4e2f65644ae0cac75b458788f5bc3955968dec5718aa0"
+  },
+  "source_observation": {
+    "path": "evidence/tab-pilot/source/component-contract.md",
+    "sha256": "72e8215a2c41601bcc2ec65714430d8f1a08f0bee8b5ac8ddc245e462fea615b"
+  },
+  "distribution": "Local components in Blue Heart DS; no library publication or cross-file import assertion",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "documentation": {
+    "overviewId": "111:461",
+    "variantsAndStatesId": "113:298",
+    "mastersId": "111:442",
+    "groupContract": "TABS-001@1.0.0",
+    "slotQaFrameId": "121:409"
+  },
+  "collectionMigration": {
+    "path": "evidence/collection-consolidation/migration-map.json",
+    "sha256": "e5586f4a6c044234353daf7eeb97e630a2b1105888b9bcd6e827ad442e7b2e8c"
+  },
+  "nativeLedger": {
+    "path": "consumption/tab/current-native-ledger.json",
+    "sha256": "b67e93dc2f531abfa894d5a7f17c1b72fa298733e642a0e25e2b87a848af28f1"
+  },
+  "historicalQA": {
+    "path": "evidence/tabs-page-reconciliation/slot-qa.json",
+    "sha256": "23bb883f0563217ee41ec63bee7acc0248066b6e89fdcf0bf36ea74741ca6ba4",
+    "current_summary": "evidence/qa/tabs-page-reconciliation-check.json",
+    "historical_baseline": "evidence/qa/tab-pilot-check.json"
+  },
+  "sharedCount": {
+    "contract": {
+      "id": "DOT-001",
+      "version": "1.0.0",
+      "path": "norms/components/dot.1.0.0.md",
+      "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+      "current": true
+    },
+    "manifest": "../dot/manifest.json",
+    "id": "201:1558",
+    "key": "ecacbec7ef3e08c731a4ae523a4e629176121391",
+    "axes": {
+      "type": "count",
+      "size": "medium"
+    },
+    "textId": "201:1564",
+    "sourceId": "1133:31554",
+    "propertyKey": "Count#201:34",
+    "textStyleId": "S:69e9b2d42eeae84931453a60f63d937351f3d86d,"
+  },
+  "dependencies": [
+    {
+      "contract": {
+        "id": "DOT-001",
+        "version": "1.0.0",
+        "path": "norms/components/dot.1.0.0.md",
+        "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+        "current": true
+      },
+      "manifest": "../dot/manifest.json",
+      "usage": "count/medium"
+    }
+  ],
+  "dependencyMigration": {
+    "path": "evidence/dot-pilot/migration-map.json",
+    "sha256": "431f093ed83986f5353d865dc94332f2d16c7856d7b7b3260991e78a35fa6ab9"
+  }
+}

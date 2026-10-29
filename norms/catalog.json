@@ -10,16 +10,16 @@
     },
     {
       "id": "BH-P02",
-      "version": "2.3.0",
+      "version": "2.3.1",
       "path": "protocols/02-FIGMA-CONSTRUCTION.md",
-      "sha256": "443de649300095529a5ca6c2210faf28db7e3f6fd768e1a0714b67355e580996",
+      "sha256": "df635fcca42d30a87098d824d75ae55378190889cc4bee9fbe1e65e226e85bf2",
       "current": true
     },
     {
       "id": "BH-P03",
-      "version": "2.3.0",
+      "version": "2.3.1",
       "path": "protocols/03-WEB-CONSTRUCTION.md",
-      "sha256": "d0300432c32b80b8498b00c4c50a0207609d9cc9a9c103d6886d268f0c472daf",
+      "sha256": "6e2edf57ab00497833e3954227783c63dcba3db0a884d8e49fa1899163c04077",
       "current": true
     },
     {
@@ -38,9 +38,9 @@
     },
     {
       "id": "BH-P06",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "path": "protocols/06-PHOSPHOR-ICONS.md",
-      "sha256": "1c4dbe87f3d86a2c81b09d3a1df585efe7a5a76140ae167ddba254dc0845c625",
+      "sha256": "aad27541d6cb8b9deadeac6ad966a0fe77d2203ce0989525b6c8c2028d5c0f68",
       "current": true
     },
     {
@@ -66,16 +66,16 @@
     },
     {
       "id": "TABS-001",
-      "version": "3.0.0",
-      "path": "norms/components/tabs.3.0.0.md",
-      "sha256": "66f2fe9913bf17830805ba1cb57909122b00a8adce4c36002fbaafb60ca002f2",
+      "version": "3.1.0",
+      "path": "norms/components/tabs.3.1.0.md",
+      "sha256": "dd6eec55ce41d83139a0b8e7811a7392aab7f90ac5f0ded4fc123591a9b7ac63",
       "current": true
     },
     {
       "id": "TAB-001",
-      "version": "3.0.0",
-      "path": "norms/components/tab.3.0.0.md",
-      "sha256": "b35627e9edf01c2110f534ad124eeefa38a70ce995c5f0c8addedb47b019caa4",
+      "version": "3.1.0",
+      "path": "norms/components/tab.3.1.0.md",
+      "sha256": "18dafd7d827c2ff4bc7bbd696645c19d0b505b2aa4383a7f6f1d0ee0e7cf3eb1",
       "current": true
     },
     {
@@ -94,9 +94,9 @@
     },
     {
       "id": "BUTTON-001",
-      "version": "4.0.0",
-      "path": "norms/components/button.4.0.0.md",
-      "sha256": "16fd8defb22e923246a30a42306471ab9184c43b8d928defb65e653b83c7a7df",
+      "version": "4.0.1",
+      "path": "norms/components/button.4.0.1.md",
+      "sha256": "445766feebfedbee7ed153f1f4da6d738804bfcf3be6be4d454339c03e451f15",
       "current": true
     },
     {
@@ -115,18 +115,18 @@
     },
     {
       "id": "INPUT-001",
-      "version": "1.0.0",
-      "path": "norms/components/input.1.0.0.md",
-      "sha256": "63bec3610aac91499a71c86b005744344126ae3544b7a6784f7e4486d41ba128",
+      "version": "2.0.0",
+      "path": "norms/components/input.2.0.0.md",
+      "sha256": "89f3c426efd1be2cf345c5f31a3254f9c10b03f92d81402b869c266032f187a2",
       "current": true
     }
   ],
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "5.1.0",
-      "path": "norms/tokens/blueheart.5.1.0.json",
-      "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+      "version": "6.0.0",
+      "path": "norms/tokens/blueheart.6.0.0.json",
+      "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
       "current": true
     }
   ]

@@ -1,0 +1,3448 @@
+{
+  "rows": [
+    {
+      "id": "282:5",
+      "name": "size=large, status=default",
+      "set": "282:26",
+      "axes": {
+        "size": "large",
+        "status": "default"
+      },
+      "texts": [
+        {
+          "id": "282:105",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:106",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:111",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:117",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:107",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:107;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:114",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:114;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:112",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:6",
+      "name": "size=large, status=hover",
+      "set": "282:26",
+      "axes": {
+        "size": "large",
+        "status": "hover"
+      },
+      "texts": [
+        {
+          "id": "282:187",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:188",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:193",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:199",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:189",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:189;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:196",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:196;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:194",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:7",
+      "name": "size=large, status=focus",
+      "set": "282:26",
+      "axes": {
+        "size": "large",
+        "status": "focus"
+      },
+      "texts": [
+        {
+          "id": "282:232",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:233",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:240",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:246",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:234",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:234;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:243",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:243;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:241",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:8",
+      "name": "size=large, status=success",
+      "set": "282:26",
+      "axes": {
+        "size": "large",
+        "status": "success"
+      },
+      "texts": [
+        {
+          "id": "282:283",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:284",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:289",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:295",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.03529411926865578,
+                "g": 0.5137255191802979,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:38"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:285",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:285;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:292",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:292;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:290",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:9",
+      "name": "size=large, status=error",
+      "set": "282:26",
+      "axes": {
+        "size": "large",
+        "status": "error"
+      },
+      "texts": [
+        {
+          "id": "282:328",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:329",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:334",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:340",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:330",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:330;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:337",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:337;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:335",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:10",
+      "name": "size=large, status=read-only",
+      "set": "282:26",
+      "axes": {
+        "size": "large",
+        "status": "read-only"
+      },
+      "texts": [
+        {
+          "id": "282:373",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:374",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:379",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:385",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:375",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:375;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:382",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:382;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:380",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:11",
+      "name": "size=large, status=disabled",
+      "set": "282:26",
+      "axes": {
+        "size": "large",
+        "status": "disabled"
+      },
+      "texts": [
+        {
+          "id": "282:418",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:419",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:424",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:430",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:420",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:420;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:427",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:427;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:43"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:425",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:12",
+      "name": "size=medium, status=default",
+      "set": "282:26",
+      "axes": {
+        "size": "medium",
+        "status": "default"
+      },
+      "texts": [
+        {
+          "id": "282:157",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:158",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:163",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:169",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:159",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:159;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:166",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:166;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:164",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:13",
+      "name": "size=medium, status=hover",
+      "set": "282:26",
+      "axes": {
+        "size": "medium",
+        "status": "hover"
+      },
+      "texts": [
+        {
+          "id": "282:202",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:203",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:208",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:214",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:204",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:204;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:211",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:211;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:209",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:14",
+      "name": "size=medium, status=focus",
+      "set": "282:26",
+      "axes": {
+        "size": "medium",
+        "status": "focus"
+      },
+      "texts": [
+        {
+          "id": "282:249",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:250",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:257",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:263",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:251",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:251;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:260",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:260;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:258",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:15",
+      "name": "size=medium, status=success",
+      "set": "282:26",
+      "axes": {
+        "size": "medium",
+        "status": "success"
+      },
+      "texts": [
+        {
+          "id": "282:298",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:299",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:304",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:310",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.03529411926865578,
+                "g": 0.5137255191802979,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:38"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:300",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:300;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:307",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:307;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:305",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:16",
+      "name": "size=medium, status=error",
+      "set": "282:26",
+      "axes": {
+        "size": "medium",
+        "status": "error"
+      },
+      "texts": [
+        {
+          "id": "282:343",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:344",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:349",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:355",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:345",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:345;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:352",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:352;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:350",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:17",
+      "name": "size=medium, status=read-only",
+      "set": "282:26",
+      "axes": {
+        "size": "medium",
+        "status": "read-only"
+      },
+      "texts": [
+        {
+          "id": "282:388",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:389",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:394",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:400",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:390",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:390;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:397",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:397;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:395",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:18",
+      "name": "size=medium, status=disabled",
+      "set": "282:26",
+      "axes": {
+        "size": "medium",
+        "status": "disabled"
+      },
+      "texts": [
+        {
+          "id": "282:433",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:434",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:439",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:445",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:435",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:435;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:442",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:442;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:43"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:440",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:19",
+      "name": "size=small, status=default",
+      "set": "282:26",
+      "axes": {
+        "size": "small",
+        "status": "default"
+      },
+      "texts": [
+        {
+          "id": "282:172",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:173",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:178",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:184",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:174",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:174;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:181",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:181;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:179",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:20",
+      "name": "size=small, status=hover",
+      "set": "282:26",
+      "axes": {
+        "size": "small",
+        "status": "hover"
+      },
+      "texts": [
+        {
+          "id": "282:217",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:218",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:223",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:229",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:219",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:219;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:226",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:226;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:224",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:21",
+      "name": "size=small, status=focus",
+      "set": "282:26",
+      "axes": {
+        "size": "small",
+        "status": "focus"
+      },
+      "texts": [
+        {
+          "id": "282:266",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:267",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:274",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:280",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:268",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:268;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:277",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:277;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:275",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:22",
+      "name": "size=small, status=success",
+      "set": "282:26",
+      "axes": {
+        "size": "small",
+        "status": "success"
+      },
+      "texts": [
+        {
+          "id": "282:313",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:314",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:319",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:325",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.03529411926865578,
+                "g": 0.5137255191802979,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:38"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:315",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:315;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:322",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:322;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:320",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:23",
+      "name": "size=small, status=error",
+      "set": "282:26",
+      "axes": {
+        "size": "small",
+        "status": "error"
+      },
+      "texts": [
+        {
+          "id": "282:358",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:359",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:364",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:370",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:360",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:360;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:367",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:367;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:365",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:24",
+      "name": "size=small, status=read-only",
+      "set": "282:26",
+      "axes": {
+        "size": "small",
+        "status": "read-only"
+      },
+      "texts": [
+        {
+          "id": "282:403",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:9"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:404",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:409",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:415",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:25"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:405",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:405;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:412",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:412;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:28"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:410",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    },
+    {
+      "id": "282:25",
+      "name": "size=small, status=disabled",
+      "set": "282:26",
+      "axes": {
+        "size": "small",
+        "status": "disabled"
+      },
+      "texts": [
+        {
+          "id": "282:448",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#282:2"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:449",
+          "name": "textbox",
+          "visible": true,
+          "refs": {
+            "visible": "Required#282:112"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.8313725590705872,
+                "g": 0,
+                "b": 0
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:15"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:454",
+          "name": "Placeholder text",
+          "visible": true,
+          "refs": {
+            "visible": "Show placeholder#282:178",
+            "characters": "Placeholder#282:24"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        },
+        {
+          "id": "282:460",
+          "name": "supporting-text",
+          "visible": true,
+          "refs": {
+            "characters": "Helper text#282:46"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:281:42"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "282:450",
+          "name": "Question",
+          "visible": false,
+          "refs": {
+            "visible": "Show tooltip#282:90"
+          },
+          "key": "8ebba51c41e3b39511663395803390b9d2e3d3f7",
+          "vectors": [
+            {
+              "id": "I282:450;8899:87495",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:17"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "282:457",
+          "name": "CaretDown",
+          "visible": true,
+          "refs": {
+            "visible": "Show icon#282:134",
+            "mainComponent": "Icon#282:222"
+          },
+          "key": "bc84188a38d95b6865a7c6a57820ee2330e43f34",
+          "vectors": [
+            {
+              "id": "I282:457;8899:79551",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:281:43"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "282:455",
+          "name": "Badge",
+          "main": "282:2"
+        }
+      ]
+    }
+  ]
+}

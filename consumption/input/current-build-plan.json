@@ -2,16 +2,16 @@
   "role": "DERIVED_RECIPE_NOT_RULES",
   "contract": {
     "id": "INPUT-001",
-    "version": "1.0.0",
-    "path": "norms/components/input.1.0.0.md",
-    "sha256": "63bec3610aac91499a71c86b005744344126ae3544b7a6784f7e4486d41ba128",
+    "version": "2.0.0",
+    "path": "norms/components/input.2.0.0.md",
+    "sha256": "89f3c426efd1be2cf345c5f31a3254f9c10b03f92d81402b869c266032f187a2",
     "current": true
   },
   "token_set": {
     "id": "BLUEHEART-TOKENS",
-    "version": "5.1.0",
-    "path": "norms/tokens/blueheart.5.1.0.json",
-    "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+    "version": "6.0.0",
+    "path": "norms/tokens/blueheart.6.0.0.json",
+    "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
     "current": true
   },
   "tokens": [
@@ -400,41 +400,6 @@
       "figmaName": "input/size/icon",
       "web": "var(--input-size-icon)",
       "themeBehavior": "INVARIANT"
-    },
-    {
-      "id": "input.color-icon-tooltip",
-      "name": "--input-color-icon-tooltip",
-      "layer": "component",
-      "type": "color",
-      "collection": "component",
-      "scopes": [
-        "SHAPE_FILL"
-      ],
-      "description": "Input: color/icon/tooltip",
-      "values": {
-        "Contable": {
-          "alias": "semantic.brand-default"
-        },
-        "Administrativo": {
-          "alias": "semantic.brand-administrativo-default"
-        },
-        "Servicios": {
-          "alias": "semantic.brand-servicios-default"
-        },
-        "Personas": {
-          "alias": "semantic.brand-personas-default"
-        }
-      },
-      "source": {
-        "path": "evidence/input-pilot/source/default-false.json",
-        "sha256": "983270c53add66d4fddb74a6855dbce04c6d2fb5ddbd8f495494b2fceb87873a",
-        "original_id": "186:14462",
-        "selector": "JSON:/0",
-        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
-      },
-      "figmaName": "input/color/icon/tooltip",
-      "web": "var(--input-color-icon-tooltip)",
-      "themeBehavior": "THEMED"
     },
     {
       "id": "input.spacing-lg",
@@ -1450,6 +1415,40 @@
       "figmaName": "input/color/effect/separation",
       "web": "var(--input-color-effect-separation)",
       "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "input.color-icon-secondary",
+      "name": "--input-color-icon-secondary",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Input: icono junto al placeholder secundario; mismo vector que el texto.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "source": {
+        "path": "evidence/icon-color-audit/authority.json",
+        "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+        "original_id": "USER-ICON-COLOR-ALIGNMENT",
+        "selector": "JSON:/instruction"
+      },
+      "figmaName": "input/color/icon/secondary",
+      "web": "var(--input-color-icon-secondary)",
+      "themeBehavior": "INVARIANT"
     }
   ],
   "semanticIds": {
@@ -1464,10 +1463,6 @@
     "semantic.font-letter-spacing-label-px": "VariableID:281:5",
     "semantic.danger-default": "VariableID:6:188",
     "semantic.size-xl": "VariableID:6:251",
-    "semantic.brand-administrativo-default": "VariableID:6:163",
-    "semantic.brand-default": "VariableID:6:154",
-    "semantic.brand-personas-default": "VariableID:6:184",
-    "semantic.brand-servicios-default": "VariableID:6:177",
     "semantic.spacing-lg": "VariableID:6:229",
     "semantic.radius-md": "VariableID:6:245",
     "semantic.stroke-xs": "VariableID:6:224",
@@ -1951,7 +1946,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=default, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -2477,7 +2472,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=large, status=default, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -3106,7 +3101,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=default, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -3640,7 +3635,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=medium, status=default, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -4275,7 +4270,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=default, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -4809,7 +4804,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=small, status=default, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -5444,7 +5439,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=hover, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -5970,7 +5965,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=large, status=hover, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -6599,7 +6594,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=hover, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -7133,7 +7128,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=medium, status=hover, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -7768,7 +7763,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=hover, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -8302,7 +8297,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=small, status=hover, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -8937,7 +8932,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=focus, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -9686,7 +9681,7 @@
               "path": "root/1/0/1/2/vector",
               "variant": "size=large, status=focus, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -10321,7 +10316,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=focus, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -11076,7 +11071,7 @@
               "path": "root/1/0/1/2/vector",
               "variant": "size=medium, status=focus, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -11711,7 +11706,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=focus, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -12466,7 +12461,7 @@
               "path": "root/1/0/1/2/vector",
               "variant": "size=small, status=focus, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -13101,7 +13096,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=success, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -13627,7 +13622,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=large, status=success, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -14262,7 +14257,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=success, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -14796,7 +14791,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=medium, status=success, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -15431,7 +15426,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=success, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -15965,7 +15960,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=small, status=success, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -16600,7 +16595,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=error, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -17126,7 +17121,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=large, status=error, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -17761,7 +17756,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=error, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -18295,7 +18290,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=medium, status=error, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -18930,7 +18925,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=error, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -19464,7 +19459,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=small, status=error, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -20099,7 +20094,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=read-only, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -20625,7 +20620,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=large, status=read-only, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -21254,7 +21249,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=read-only, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -21788,7 +21783,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=medium, status=read-only, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -22423,7 +22418,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=read-only, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -22957,7 +22952,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=small, status=read-only, value=false",
               "bindings": {
-                "fills": "input.color-icon-default"
+                "fills": "input.color-icon-secondary"
               }
             }
           ],
@@ -23592,7 +23587,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=disabled, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-disabled"
               }
             }
           ],
@@ -24753,7 +24748,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=disabled, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-disabled"
               }
             }
           ],
@@ -25922,7 +25917,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=disabled, value=false",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-disabled"
               }
             }
           ],
@@ -27081,7 +27076,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=default, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -28271,7 +28266,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=default, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -29469,7 +29464,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=default, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -30667,7 +30662,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=hover, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -31857,7 +31852,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=hover, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -33055,7 +33050,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=hover, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -34253,7 +34248,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=focus, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -35615,7 +35610,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=focus, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -36985,7 +36980,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=focus, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -38355,7 +38350,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=success, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -39545,7 +39540,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=success, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -40743,7 +40738,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=success, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -41941,7 +41936,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=error, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -43131,7 +43126,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=error, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -44329,7 +44324,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=error, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -45527,7 +45522,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=read-only, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -46717,7 +46712,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=read-only, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -47915,7 +47910,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=read-only, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -49113,7 +49108,7 @@
               "path": "root/0/1/vector",
               "variant": "size=large, status=disabled, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-disabled"
               }
             }
           ],
@@ -49678,7 +49673,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=large, status=disabled, value=true",
               "bindings": {
-                "fills": "input.color-icon-disabled"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -50303,7 +50298,7 @@
               "path": "root/0/1/vector",
               "variant": "size=medium, status=disabled, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-disabled"
               }
             }
           ],
@@ -50876,7 +50871,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=medium, status=disabled, value=true",
               "bindings": {
-                "fills": "input.color-icon-disabled"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -51501,7 +51496,7 @@
               "path": "root/0/1/vector",
               "variant": "size=small, status=disabled, value=true",
               "bindings": {
-                "fills": "input.color-icon-tooltip"
+                "fills": "input.color-icon-disabled"
               }
             }
           ],
@@ -52074,7 +52069,7 @@
               "path": "root/1/0/2/vector",
               "variant": "size=small, status=disabled, value=true",
               "bindings": {
-                "fills": "input.color-icon-disabled"
+                "fills": "input.color-icon-default"
               }
             }
           ],
@@ -52285,5 +52280,9 @@
         }
       ]
     }
-  ]
+  ],
+  "iconColorAlignment": {
+    "path": "evidence/icon-color-audit/pairing-plan.json",
+    "sha256": "a5d1bf46b571032a4fe2616622601bf32785c1cfbea9a631ff540f3979fc4a54"
+  }
 }

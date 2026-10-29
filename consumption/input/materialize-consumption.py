@@ -8,6 +8,8 @@ def write(p,v):(ROOT/p).write_text(json.dumps(v,ensure_ascii=False,indent=2)+'\n
 def materialize():
  runpy.run_path(str(ROOT/'implementations/figma/input-plan.py'))['materialize']()
  s=read('evidence/input-pilot/state.json');show=read('evidence/input-pilot/destination/showcase-and-properties.json')
+ selected=next(e for e in read('norms/catalog.json')['contracts']if e['current']and e['id']=='INPUT-001');metadata=json.loads((ROOT/selected['path']).read_text()[4:].split('\n---\n',1)[0]);alignment=any(d['id']=='input.color-icon-secondary'for d in metadata['dependencies'])
+ if alignment:s=runpy.run_path(str(ROOT/'implementations/figma/icon-color-plan.py'))['apply_input_state'](s)
  c=read('norms/catalog.json');contracts={e['id']:e for e in c['contracts']if e['current']};ts=next(e for e in c['token_sets']if e['current'])
  build=s['empty']['built']+s['filled']['built']
  for path in s['batches']:build+=read('evidence/input-pilot/'+path)['built']
@@ -32,9 +34,11 @@ def materialize():
   write(prefix+'current-native-ledger.json',ledger)
   for name,rows in [('variable-map.csv',variables),('binding-map.csv',bindings)]:
    with (ROOT/prefix/name).open('w')as stream:
-    writer=csv.DictWriter(stream,fieldnames=list(rows[0]));writer.writeheader();writer.writerows({k:json.dumps(v,ensure_ascii=False,sort_keys=True)if isinstance(v,(dict,list))else v for k,v in row.items()}for row in rows)
+    writer=csv.DictWriter(stream,fieldnames=list(rows[0]),lineterminator='\n');writer.writeheader();writer.writerows({k:json.dumps(v,ensure_ascii=False,sort_keys=True)if isinstance(v,(dict,list))else v for k,v in row.items()}for row in rows)
   manifest=dict(schema_version=1,role='DERIVED_CONSUMPTION_INDEX_NOT_RULES',contract=contracts[identity],token_sets=[ts],fileKey='98xEw6sK8FRVNEhopM5SSz',page={'id':s['pages'][family],'name':family.capitalize()},collection=s['collection'],variables=variables,nativeLedger=ref(prefix+'current-native-ledger.json'),build_plan='current-build-plan.json',minimum='token-minimum.json',variable_map='variable-map.csv',binding_map='binding-map.csv',qa=ref('evidence/qa/input-pilot-check.json'),distribution='LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY',web_implementation='NOT_IMPLEMENTED')
-  if family=='input':manifest['dependencies']=[{'contract':contracts['BADGE-001'],'manifest':ref('consumption/badge/manifest.json')}]if(ROOT/'consumption/badge/manifest.json').exists()else[]
+  if family=='input':
+   manifest['dependencies']=[{'contract':contracts['BADGE-001'],'manifest':ref('consumption/badge/manifest.json')}]if(ROOT/'consumption/badge/manifest.json').exists()else[]
+   if alignment:manifest.update(qa=ref('evidence/qa/icon-color-audit-check.json'),iconColorAlignment=ref('evidence/icon-color-audit/pairing-plan.json'),iconColorQaFrameId='307:4372')
   write(prefix+'manifest.json',manifest)
  # Refresh Input dependency after Badge's manifest has been projected.
  m=read('consumption/input/manifest.json');m['dependencies']=[{'contract':contracts['BADGE-001'],'manifest':ref('consumption/badge/manifest.json')}];write('consumption/input/manifest.json',m)

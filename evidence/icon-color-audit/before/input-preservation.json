@@ -1,0 +1,540 @@
+{
+  "rows": [
+    {
+      "set": "282:26",
+      "id": "282:5",
+      "name": "size=large, status=default",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3242:41695427:1220550677",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:6",
+      "name": "size=large, status=hover",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3243:517870765:2459222599",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:7",
+      "name": "size=large, status=focus",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3468:3428080675:1516353109",
+      "nodes": 18,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:8",
+      "name": "size=large, status=success",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3243:2175495908:483409822",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:9",
+      "name": "size=large, status=error",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3243:2105769466:1583753176",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:10",
+      "name": "size=large, status=read-only",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3244:142742390:179101528",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:11",
+      "name": "size=large, status=disabled",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3244:3859057698:3719501612",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:12",
+      "name": "size=medium, status=default",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3242:2572105366:644089784",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:13",
+      "name": "size=medium, status=hover",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3243:642499363:2316885225",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:14",
+      "name": "size=medium, status=focus",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3468:1490193861:2058145811",
+      "nodes": 18,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:15",
+      "name": "size=medium, status=success",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3243:1431205398:2680405084",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:16",
+      "name": "size=medium, status=error",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3243:1098629936:946609690",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:17",
+      "name": "size=medium, status=read-only",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3243:382468617:771231003",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:18",
+      "name": "size=medium, status=disabled",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3243:2612656359:3548827589",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:19",
+      "name": "size=small, status=default",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3240:843334164:1363885354",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:20",
+      "name": "size=small, status=hover",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3241:3569720261:141533567",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:21",
+      "name": "size=small, status=focus",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3466:1273631467:3178689533",
+      "nodes": 18,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:22",
+      "name": "size=small, status=success",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3241:602844050:2514467528",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:23",
+      "name": "size=small, status=error",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3241:172349387:2247887497",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:24",
+      "name": "size=small, status=read-only",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3241:346883129:3307904475",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:26",
+      "id": "282:25",
+      "name": "size=small, status=disabled",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3241:1155418520:758991890",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:118",
+      "name": "size=large, status=default",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3244:848505193:1751074391",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:119",
+      "name": "size=large, status=hover",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3245:2009218533:2806394215",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:120",
+      "name": "size=large, status=focus",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3470:64492312:2496362654",
+      "nodes": 18,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:121",
+      "name": "size=large, status=success",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3245:1732685505:159585739",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:122",
+      "name": "size=large, status=error",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3245:339303789:848456999",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:123",
+      "name": "size=large, status=read-only",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3245:4183038392:3524757290",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:124",
+      "name": "size=large, status=disabled",
+      "w": 464,
+      "h": 96,
+      "geometryDigest": "3245:3632660140:3489363814",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:125",
+      "name": "size=medium, status=default",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3243:1342616472:3345337378",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:126",
+      "name": "size=medium, status=hover",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3244:2671943825:291179951",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:127",
+      "name": "size=medium, status=focus",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3469:325136056:925531402",
+      "nodes": 18,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:128",
+      "name": "size=medium, status=success",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3244:2112561694:471818808",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:129",
+      "name": "size=medium, status=error",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3244:862238812:3572322450",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:130",
+      "name": "size=medium, status=read-only",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3244:1174777058:3149574068",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:131",
+      "name": "size=medium, status=disabled",
+      "w": 464,
+      "h": 88,
+      "geometryDigest": "3244:2732710964:2219435618",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:132",
+      "name": "size=small, status=default",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3241:3339693907:1014252713",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:133",
+      "name": "size=small, status=hover",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3242:356529347:532285925",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:134",
+      "name": "size=small, status=focus",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3467:2611849533:155449599",
+      "nodes": 18,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:135",
+      "name": "size=small, status=success",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3242:1149410638:2619758776",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:136",
+      "name": "size=small, status=error",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3242:1236967775:2005376873",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:137",
+      "name": "size=small, status=read-only",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3242:3123842539:4059590037",
+      "nodes": 16,
+      "reactions": []
+    },
+    {
+      "set": "282:139",
+      "id": "282:138",
+      "name": "size=small, status=disabled",
+      "w": 464,
+      "h": 80,
+      "geometryDigest": "3242:84562298:1055365556",
+      "nodes": 16,
+      "reactions": []
+    }
+  ],
+  "sets": [
+    {
+      "id": "282:26",
+      "props": {
+        "Label#282:2": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "Placeholder#282:24": {
+          "type": "TEXT",
+          "defaultValue": "Placeholder text"
+        },
+        "Helper text#282:46": {
+          "type": "TEXT",
+          "defaultValue": "Helper text"
+        },
+        "Show helper#282:68": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show tooltip#282:90": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Required#282:112": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show icon#282:134": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show label#282:156": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show placeholder#282:178": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show badge#282:200": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Icon#282:222": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "282:30"
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large"
+        },
+        "status": {
+          "type": "VARIANT",
+          "defaultValue": "default"
+        }
+      }
+    },
+    {
+      "id": "282:139",
+      "props": {
+        "Label#282:244": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "Placeholder#282:266": {
+          "type": "TEXT",
+          "defaultValue": "Placeholder text"
+        },
+        "Helper text#282:288": {
+          "type": "TEXT",
+          "defaultValue": "Helper text"
+        },
+        "Show helper#282:310": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show tooltip#282:332": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Required#282:354": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show icon#282:376": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show label#282:398": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show placeholder#282:420": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Show badge#282:442": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Icon#282:464": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "282:30"
+        },
+        "size": {
+          "type": "VARIANT",
+          "defaultValue": "large"
+        },
+        "status": {
+          "type": "VARIANT",
+          "defaultValue": "default"
+        }
+      }
+    }
+  ]
+}

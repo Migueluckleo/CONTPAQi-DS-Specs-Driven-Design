@@ -386,6 +386,28 @@
         "path": "evidence/authorization/input-pilot-request.txt",
         "sha256": "1cf0d2f9edea79434932186fe0eaa7fc7556fc012999eca0bc14e7afbca855f3"
       }
+    },
+    {
+      "id": "ADR-024",
+      "status": "ADOPTED",
+      "actor": "implementing_agent",
+      "statement": "La solicitud humana exige igualar iconos con la tipografía correspondiente exclusivamente en Blue Heart DS, sin nueva lectura del Figma origen. Se adopta BH-P06 como propietario de la paridad por aliases completos en cuatro temas, con tokens SHAPE_FILL separados de TEXT_FILL. Se corrigen Button (45 firmas), Tab (41) e Input (41); Avatar ya coincide. Question sigue Label y CaretDown sigue contenido/placeholder; Required y helper conservan su función. Tab añade solo inverse y brand-hover. Input retira el ID lógico/CSS tooltip y reutiliza su ID/key Figma como secondary, sin borrar variables nativas ni crear semánticos. Esto exige Input 2.0.0 y token set 6.0.0; Tab/Tabs 3.1.0 añaden cobertura compatible, Button 4.0.1 corrige colores sin cambiar su API. Las identidades, geometría, tipografía, interacciones y composición se preservan; se verifican instancias, swaps, cuatro temas y consumidores inversos. Loader es un indicador de progreso distinto de Phosphor; no se inventa un texto a familias sin iconos. No acredita revisión humana independiente, accesibilidad web ni publica releases oficiales.",
+      "scope": [
+        "BUTTON-001",
+        "TAB-001",
+        "TABS-001",
+        "INPUT-001",
+        "BH-P06",
+        "BH-P02",
+        "BH-P03",
+        "BLUEHEART-TOKENS",
+        "icon-text-color-alignment",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/icon-color-alignment-request.txt",
+        "sha256": "35568ec00f70dd642e02b342c165506315874951b932afd9c6c298fbae93a59f"
+      }
     }
   ]
 }

@@ -1,0 +1,300 @@
+{
+  "schema_version": 1,
+  "id": "ICON-TEXT-COLOR-ALIGNMENT-ADR024",
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decision": "ADR-024",
+  "source": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "scope": "Blue Heart only; no source Figma or historical project access"
+  },
+  "contracts": [
+    {
+      "id": "BUTTON-001",
+      "version": "4.0.1",
+      "path": "norms/components/button.4.0.1.md",
+      "sha256": "445766feebfedbee7ed153f1f4da6d738804bfcf3be6be4d454339c03e451f15",
+      "current": true
+    },
+    {
+      "id": "TAB-001",
+      "version": "3.1.0",
+      "path": "norms/components/tab.3.1.0.md",
+      "sha256": "18dafd7d827c2ff4bc7bbd696645c19d0b505b2aa4383a7f6f1d0ee0e7cf3eb1",
+      "current": true
+    },
+    {
+      "id": "TABS-001",
+      "version": "3.1.0",
+      "path": "norms/components/tabs.3.1.0.md",
+      "sha256": "dd6eec55ce41d83139a0b8e7811a7392aab7f90ac5f0ded4fc123591a9b7ac63",
+      "current": true
+    },
+    {
+      "id": "INPUT-001",
+      "version": "2.0.0",
+      "path": "norms/components/input.2.0.0.md",
+      "sha256": "89f3c426efd1be2cf345c5f31a3254f9c10b03f92d81402b869c266032f187a2",
+      "current": true
+    }
+  ],
+  "token_set": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "6.0.0",
+    "path": "norms/tokens/blueheart.6.0.0.json",
+    "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
+    "current": true
+  },
+  "counts": {
+    "auditedMasterPairs": 262,
+    "mismatchedPairsBefore": 131,
+    "nativeVariantModeCases": 624,
+    "nativeColorPairCases": 1032,
+    "swapCases": 32,
+    "sizingAndAssetSwapCases": 148,
+    "preservedPrincipals": 159,
+    "existingControlsChecked": 294,
+    "existingPairsChecked": 435,
+    "instanceOverrideRepairs": 15,
+    "newNativeVariables": 2,
+    "deletedNativeVariables": 0,
+    "variables": 470,
+    "collections": 3
+  },
+  "reviews": {
+    "button": {
+      "id": "306:399",
+      "w": 1080,
+      "h": 925
+    },
+    "tab": {
+      "id": "307:2832",
+      "w": 1080,
+      "h": 365
+    },
+    "input": {
+      "id": "307:4372",
+      "w": 2032,
+      "h": 574
+    }
+  },
+  "checks": [
+    {
+      "id": "262-full-mode-alias-pairings",
+      "status": "PASS"
+    },
+    {
+      "id": "1032-native-color-pairs",
+      "status": "PASS"
+    },
+    {
+      "id": "148-remote-phosphor-size-binding-swaps",
+      "status": "PASS"
+    },
+    {
+      "id": "159-preserved-geometry-typography-properties-reactions",
+      "status": "PASS"
+    },
+    {
+      "id": "existing-instance-overrides",
+      "status": "PASS"
+    },
+    {
+      "id": "exactly-three-collections",
+      "status": "PASS"
+    },
+    {
+      "id": "minimum-signatures-and-function-state-names",
+      "status": "PASS"
+    },
+    {
+      "id": "visual-button-tab-input",
+      "status": "PASS"
+    },
+    {
+      "id": "source-read-boundary",
+      "status": "PASS"
+    }
+  ],
+  "limits": [
+    "Avatar already matches the equivalent Initials role; no color changes.",
+    "Dot, Badge and Loader contain no Phosphor icon pairs; Loader is a separately contracted progress indicator.",
+    "Loading Button variants have no Phosphor icons; empty pair cases are NOT_APPLICABLE, not missing evidence.",
+    "Text colors and backgrounds remain unchanged; segmented white foreground preserves the existing contrast limitation (4.39:1 default, 2.26:1 hover).",
+    "No React implementation, web accessibility certification or independent review was executed."
+  ],
+  "independent_review": "NOT_RUN",
+  "evidence": [
+    {
+      "path": "evidence/icon-color-audit/before/avatar.json",
+      "sha256": "d0360ab30c31b2c4e426eae29d30339edd5eec516f06c3e2563a2bd9a4773094"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/button-danger.json",
+      "sha256": "ad57702d4f0fc8a54efee966bc2321dd52ff401e52ab9f00644f3ab67f439d31"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/button-link.json",
+      "sha256": "a7bb1d7434f89bc00365c79b29ec636c683791580a3da6e43faa69ba120336f1"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/button-preservation.json",
+      "sha256": "5e5db2e9b4178144d11de3a6f402a32c1341712dca698f29ec40406b98d20836"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/button-primary.json",
+      "sha256": "f7c5be63512d353b16f842e6fc0c72342d7057139752f2a9558673a761397d2e"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/button-secondary.json",
+      "sha256": "490d6426987a4f025ce701ed5bcd22fffd70da4ba3b5c0ab5f08cf6a6543ccf5"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/button-text.json",
+      "sha256": "cf043abfc16e3acf0b47a6b907fd0e63bbc9263a921ab10b8f86d6643eeb0e78"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/input-empty.json",
+      "sha256": "eb1f80ce2b61fcf64253b13d325db342e47194d092861fc0d976b21cfdfe747a"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/input-filled.json",
+      "sha256": "1e391e697c38982279435ed25bb70c2caaa7a09703fbd6cb120511cc19ed2868"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/input-preservation.json",
+      "sha256": "894894fee55a8ceb5a20c066af7e311ff141fe2f22204fce95a4fe0140b27c3e"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/tab-preservation.json",
+      "sha256": "4d98f36a096bc12e3010435e88a863ec859582cdf973673945fd2b7cc451ad0a"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/tab.json",
+      "sha256": "af96b0c59ac891de94d399f0976bf6853360b3aa8327bf9509d5aa3f388ba281"
+    },
+    {
+      "path": "evidence/icon-color-audit/before/variables.json",
+      "sha256": "e39c47afebcc7843cdcda01a5ce18dadad1041e159522620f0c1ed60d383f128"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/button-bindings.json",
+      "sha256": "aae24d60c0d1f4f56ea525f035d52a2d18746d643b5f166d9e8f2c83498a4d1a"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/button-consumers.json",
+      "sha256": "da2277186604eb1d6cb41005c40346dd4d69fd59af6ecc83be6e1d4f91679ce9"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/button-preservation.json",
+      "sha256": "3bbaa1e87d5c785f7f7147fcb66283b95a81be42ac36e0dcf88be7618cf73050"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/button-swap-sizing.json",
+      "sha256": "2e11089e1183527ec4a22b4181fa39b471a4eef0851ef107ed4df383584102fa"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/button.png",
+      "sha256": "d3a61bba9ae7f6144d2359ec237b569d53ff69d6aa14647ef39cef3d5b13ad90"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/documentation-final.json",
+      "sha256": "0660fc33ed3e502c9b1a850bd76bcb7bd3098e0b0f2ff412f7c3785ec4eefb5d"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/input-bindings.json",
+      "sha256": "98f6af3f5e9b4fa1b0420aca5e6baa94feeef95a595f19ac1994841889b71c55"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/input-consumers.json",
+      "sha256": "0db841428fea9481447181be69448c477007292e14f3f05c94e29ccc3eacac54"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/input-preservation.json",
+      "sha256": "115eb95f10265d3775ef4af3db7a1907bdbee948c326cdab0d4fddae2096b150"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/input-swap-sizing.json",
+      "sha256": "90a76ac331b1a9c12ac2a220e586339efaf3c81a609906dad7a75ed50f64a4a0"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/input.png",
+      "sha256": "1fb29f79c634c9dfb664a58a263f19c595949274a307f0a7691c480d58aee119"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/native-map.json",
+      "sha256": "33aed548d940e33409f061425bdc610ab3ffaa029a02ef36439798741b8a3b0a"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/qa-button-danger.json",
+      "sha256": "6261ccaf83544a69c83370bcf193c914bee8a344ceb93ca6679f83fc2be0477e"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/qa-button-link.json",
+      "sha256": "abe88abd695ede2f953586a28c70fb183b12e2889bf30e7dac552ab61fd16d5c"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/qa-button-primary.json",
+      "sha256": "6ae48898978f2fc9de964cb5722e2abb49ac85bae3cbdd91958020f4dcc9c248"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/qa-button-secondary.json",
+      "sha256": "901f9f31c6597a41fe510e51055e7dd9234f0a70dd2bb770837a3b8c783a8e5c"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/qa-button-text.json",
+      "sha256": "93f7b349c28f76d2bd9034b83bd0b9d20ae4a06f73447c71d78282e5b0dd90e6"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/qa-input-empty.json",
+      "sha256": "8b259772509f4dcfd4c7abd02d40e5574dcdd79fa25a740358962fefb70be6b2"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/qa-input-filled.json",
+      "sha256": "da266c8c461488c9ec92059cb516c60a0ede574e5e69e58cfb65df8e5302e0cb"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/qa-tab.json",
+      "sha256": "91626fc72d170fc36a38ca5a2fb1385188a9de7fc5e89d7d011a3a9ce18af3b2"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/reverse-audit.json",
+      "sha256": "e860034f6af25d2c0fc4a1b60a75f914fba6dbfeb6e768d2c203d8837f522fa5"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/tab-bindings.json",
+      "sha256": "bceab9c76c2c271818eb3896f140ce3925e5bdfb63a51f450d5586fea421c31e"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/tab-consumers.json",
+      "sha256": "c5f8b31e39079184a5a2b2ce7076a7c12ba2d4f4f9609e1af9fe5ef5443d81e9"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/tab-preservation.json",
+      "sha256": "7ff4a048fbd1e1d2f71049c6bae0b9bc575711dcae2601b72a7114771b904694"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/tab-swap-sizing.json",
+      "sha256": "210517a51ea1428b99b23e71a3c1afb6eb2a4930a655caeba9d579f979838e17"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/tab.png",
+      "sha256": "d029d5ee3edc0f7b468ae1f1491ca1be20e73eaefba4ae211f7681a3e2815ed0"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/variables-final.json",
+      "sha256": "93cdbb9e2fb3e078c7dc10596a31b94a7f169d06a0e1a391b0f5357544f7b689"
+    },
+    {
+      "path": "evidence/icon-color-audit/after/variables-write.json",
+      "sha256": "a2ab50cdadb21ddbfbc46c4367da841ff533fae64c697284b1e7768cc6ca3a85"
+    },
+    {
+      "path": "evidence/icon-color-audit/pairing-plan.json",
+      "sha256": "a5d1bf46b571032a4fe2616622601bf32785c1cfbea9a631ff540f3979fc4a54"
+    },
+    {
+      "path": "evidence/icon-color-audit/authority.json",
+      "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49"
+    }
+  ]
+}
