@@ -1,0 +1,592 @@
+{
+  "rows": [
+    {
+      "id": "8891:1416",
+      "name": "badge",
+      "w": 76,
+      "h": 24,
+      "properties": {
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Sin afectar"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "neutral"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1416;1234:65309",
+          "text": "Sin afectar"
+        }
+      ]
+    },
+    {
+      "id": "8891:1424",
+      "name": "badge",
+      "w": 39,
+      "h": 24,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "PUE"
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "subtle"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1424;1234:65313",
+          "text": "PUE"
+        }
+      ]
+    },
+    {
+      "id": "8891:1432",
+      "name": "badge",
+      "w": 78,
+      "h": 24,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "En proceso"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "info"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1432;1234:65331",
+          "text": "En proceso"
+        }
+      ]
+    },
+    {
+      "id": "8891:1440",
+      "name": "badge",
+      "w": 59,
+      "h": 24,
+      "properties": {
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Vigente"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "success"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1440;1234:65359",
+          "text": "Vigente"
+        }
+      ]
+    },
+    {
+      "id": "8891:1448",
+      "name": "badge",
+      "w": 75,
+      "h": 24,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Por vencer"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "warning"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1448;1234:65317",
+          "text": "Por vencer"
+        }
+      ]
+    },
+    {
+      "id": "8891:1456",
+      "name": "badge",
+      "w": 76,
+      "h": 24,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Cancelado"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "error"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1456;1234:65345",
+          "text": "Cancelado"
+        }
+      ]
+    },
+    {
+      "id": "8891:1505",
+      "name": "badge",
+      "w": 69,
+      "h": 20,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Timbrado"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "success"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "small"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1505;8851:26605",
+          "text": "Timbrado"
+        }
+      ]
+    },
+    {
+      "id": "8891:1513",
+      "name": "badge",
+      "w": 69,
+      "h": 24,
+      "properties": {
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Timbrado"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "success"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1513;1234:65359",
+          "text": "Timbrado"
+        }
+      ]
+    },
+    {
+      "id": "8891:1519",
+      "name": "badge",
+      "w": 85,
+      "h": 32,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Timbrado"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "success"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "large"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1519;8851:26610",
+          "text": "Timbrado"
+        }
+      ]
+    },
+    {
+      "id": "8891:1554",
+      "name": "badge",
+      "w": 89,
+      "h": 24,
+      "properties": {
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "3401:839"
+        },
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Timbrado"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "success"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1554;1234:65359",
+          "text": "Timbrado"
+        }
+      ]
+    },
+    {
+      "id": "8891:1561",
+      "name": "badge",
+      "w": 95,
+      "h": 24,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "8891:1336"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Por vencer"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "warning"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1561;1234:65317",
+          "text": "Por vencer"
+        }
+      ]
+    },
+    {
+      "id": "8891:1568",
+      "name": "badge",
+      "w": 132,
+      "h": 24,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "8891:1336"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Error de timbrado"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "error"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1568;1234:65345",
+          "text": "Error de timbrado"
+        }
+      ]
+    },
+    {
+      "id": "8891:1575",
+      "name": "badge",
+      "w": 116,
+      "h": 24,
+      "properties": {
+        "Right icon#2817:33": {
+          "type": "INSTANCE_SWAP",
+          "value": "2883:23475"
+        },
+        "Left icon#2817:26": {
+          "type": "INSTANCE_SWAP",
+          "value": "7419:39228"
+        },
+        "Label#1241:27": {
+          "type": "TEXT",
+          "value": "Enviado al SAT"
+        },
+        "Show left icon#1234:7": {
+          "type": "BOOLEAN",
+          "value": true
+        },
+        "Show right icon#1234:0": {
+          "type": "BOOLEAN",
+          "value": false
+        },
+        "type": {
+          "type": "VARIANT",
+          "value": "info"
+        },
+        "size": {
+          "type": "VARIANT",
+          "value": "medium"
+        }
+      },
+      "text": [
+        {
+          "id": "I8891:1575;1234:65331",
+          "text": "Enviado al SAT"
+        }
+      ]
+    }
+  ],
+  "iconDefinition": {
+    "id": "2883:23475",
+    "key": "3f0d7ae9a02577d4fb4e615737d09fa1b49ec230",
+    "name": "Format=Outline, Weight=Fill",
+    "remote": true,
+    "children": [
+      {
+        "id": "2883:23487",
+        "name": "Vector",
+        "type": "VECTOR"
+      }
+    ],
+    "owner": {
+      "id": "2883:23470",
+      "key": "c2f4b3486a9480fe117be9260523dbb9500066e4",
+      "name": "Presentation",
+      "properties": [
+        {
+          "name": "Format",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Outline",
+            "Stroke"
+          ],
+          "defaultValue": "Stroke"
+        },
+        {
+          "name": "Weight",
+          "type": "VARIANT",
+          "variantOptions": [
+            "Bold",
+            "Duotone",
+            "Fill",
+            "Light",
+            "Regular",
+            "Thin"
+          ],
+          "defaultValue": "Regular"
+        }
+      ]
+    }
+  }
+}

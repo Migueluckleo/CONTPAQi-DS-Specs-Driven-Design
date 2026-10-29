@@ -408,6 +408,23 @@
         "path": "evidence/authorization/icon-color-alignment-request.txt",
         "sha256": "35568ec00f70dd642e02b342c165506315874951b932afd9c6c298fbae93a59f"
       }
+    },
+    {
+      "id": "ADR-025",
+      "status": "ADOPTED",
+      "actor": "implementing_agent",
+      "statement": "El encargo humano sustituye el alcance temporal de Badge por las 18 combinaciones reales de seis tipos y tres tamaños en la página Badge de Blue Heart DS. La elección humana conserva warning y documenta su contraste insuficiente. Se amplía el único set compartido en su identidad existente: la variante subtle/small, Label, doce variables y sus keys se conservan; los consumidores de Input heredan el componente completo sin swaps destructivos. La receta observada requiere 35 firmas (23 adiciones), con colores invariantes, solo tres colecciones, aliases semánticos existentes y scopes de propiedad separados. Se adoptan Badge 1.1.0, Input 2.0.1 por pin compatible y BLUEHEART-TOKENS 6.1.0 aditivo. La anatomía usa iconos Phosphor vinculados y opcionales; icono y Label comparten semántico conforme BH-P06. Se conservan geometría, tipografía, contenido y ausencia de interacciones. La referencia y el proyecto original siguen en solo lectura; React/Graphify y releases oficiales no se habilitan. No acredita revisión humana independiente.",
+      "scope": [
+        "BADGE-001",
+        "INPUT-001",
+        "BLUEHEART-TOKENS",
+        "full-badge-figma",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/badge-full-request.txt",
+        "sha256": "e330c5190cc3518dc0f1085283ce58d206729c52cb5e17889159d463567a895e"
+      }
     }
   ]
 }

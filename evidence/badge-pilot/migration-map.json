@@ -1,0 +1,277 @@
+{
+  "role": "DERIVED_MIGRATION_NOT_RULES",
+  "decision": "ADR-025",
+  "contracts": [
+    {
+      "id": "BADGE-001",
+      "version": "1.1.0",
+      "path": "norms/components/badge.1.1.0.md",
+      "sha256": "3cd9ab5c4a45a084edfd14525d0ef4b0637c9fb6ea5a6784b8b80b94f2df3cce",
+      "current": true
+    },
+    {
+      "id": "INPUT-001",
+      "version": "2.0.1",
+      "path": "norms/components/input.2.0.1.md",
+      "sha256": "de7af614b979f0cfb93825440de691e352d8a18b73acfa572be2caf54c008366",
+      "current": true
+    }
+  ],
+  "sourceFile": "9zs5RMR8LB5wHjW9Bd59BA",
+  "sourceNode": "1234:65377",
+  "destinationFile": "98xEw6sK8FRVNEhopM5SSz",
+  "set": {
+    "before": "282:3",
+    "after": "282:3",
+    "key": "c6134de85c23e3c29f86337297a9ec6f51d0f27f",
+    "identityPreserved": true,
+    "previousVariants": 1,
+    "variants": 18
+  },
+  "retainedVariant": {
+    "id": "282:2",
+    "key": "971e75e9ad51ae6be71ce2cd5e145607df0dc6e1",
+    "labelId": "282:4",
+    "labelProperty": "Label#282:0"
+  },
+  "variables": [
+    {
+      "logicalId": "badge.color-bg-subtle",
+      "before": {
+        "id": "VariableID:281:45",
+        "key": "ab610bf915e38625a67888a241bfa34340583692"
+      },
+      "after": {
+        "id": "VariableID:281:45",
+        "key": "ab610bf915e38625a67888a241bfa34340583692"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.color-stroke-subtle",
+      "before": {
+        "id": "VariableID:281:46",
+        "key": "c2a7397a7d85d5c496b86c5a97212d85ce46d6bc"
+      },
+      "after": {
+        "id": "VariableID:281:46",
+        "key": "c2a7397a7d85d5c496b86c5a97212d85ce46d6bc"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.spacing-none",
+      "before": {
+        "id": "VariableID:281:47",
+        "key": "94f7c13a6fc6f9bfc384d97b64006ad75a12a86d"
+      },
+      "after": {
+        "id": "VariableID:281:47",
+        "key": "94f7c13a6fc6f9bfc384d97b64006ad75a12a86d"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.spacing-inline",
+      "before": {
+        "id": "VariableID:281:48",
+        "key": "c8297a9bc3b3cfb2df3b7d000343f603d461021e"
+      },
+      "after": {
+        "id": "VariableID:281:48",
+        "key": "c8297a9bc3b3cfb2df3b7d000343f603d461021e"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.radius-container",
+      "before": {
+        "id": "VariableID:281:49",
+        "key": "9503c07d8048dd507cf2dba9ee6de87ad4fb65f8"
+      },
+      "after": {
+        "id": "VariableID:281:49",
+        "key": "9503c07d8048dd507cf2dba9ee6de87ad4fb65f8"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.border-width-regular",
+      "before": {
+        "id": "VariableID:281:50",
+        "key": "80c5cbcf63ee01fabebc66ecb2bdb502947087f9"
+      },
+      "after": {
+        "id": "VariableID:281:50",
+        "key": "80c5cbcf63ee01fabebc66ecb2bdb502947087f9"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.color-text-primary",
+      "before": {
+        "id": "VariableID:281:51",
+        "key": "95dcbd2ae3727dd2f0312c9e27dac0f7b70cde82"
+      },
+      "after": {
+        "id": "VariableID:281:51",
+        "key": "95dcbd2ae3727dd2f0312c9e27dac0f7b70cde82"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.font-family",
+      "before": {
+        "id": "VariableID:281:52",
+        "key": "45129df91ba740dc8195e487d3581f9716966438"
+      },
+      "after": {
+        "id": "VariableID:281:52",
+        "key": "45129df91ba740dc8195e487d3581f9716966438"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.font-label-style",
+      "before": {
+        "id": "VariableID:281:53",
+        "key": "72253a5743f717fb6b04641f0f51933c1e8dcc6f"
+      },
+      "after": {
+        "id": "VariableID:281:53",
+        "key": "72253a5743f717fb6b04641f0f51933c1e8dcc6f"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.font-size",
+      "before": {
+        "id": "VariableID:281:54",
+        "key": "b6f039e646cefaf874347eff12a768c8d7d35899"
+      },
+      "after": {
+        "id": "VariableID:281:54",
+        "key": "b6f039e646cefaf874347eff12a768c8d7d35899"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.font-line-height",
+      "before": {
+        "id": "VariableID:281:55",
+        "key": "7a9db6b744cb8cb9ca3f355f13f4dd7c9f7ec596"
+      },
+      "after": {
+        "id": "VariableID:281:55",
+        "key": "7a9db6b744cb8cb9ca3f355f13f4dd7c9f7ec596"
+      },
+      "identityPreserved": true
+    },
+    {
+      "logicalId": "badge.font-letter-spacing",
+      "before": {
+        "id": "VariableID:281:56",
+        "key": "b66d7ef99a9adede16d22e027b7d0e2b31f691e3"
+      },
+      "after": {
+        "id": "VariableID:281:56",
+        "key": "b66d7ef99a9adede16d22e027b7d0e2b31f691e3"
+      },
+      "identityPreserved": true
+    }
+  ],
+  "addedVariables": [
+    "badge.color-bg-error",
+    "badge.spacing-compact",
+    "badge.color-text-error",
+    "badge.size-icon-small",
+    "badge.color-icon-error",
+    "badge.color-bg-warning",
+    "badge.color-text-warning",
+    "badge.color-icon-warning",
+    "badge.color-bg-success",
+    "badge.color-text-success",
+    "badge.color-icon-success",
+    "badge.color-bg-info",
+    "badge.color-text-info",
+    "badge.color-icon-info",
+    "badge.color-icon-subtle",
+    "badge.color-bg-neutral",
+    "badge.size-height-medium",
+    "badge.font-line-height-medium",
+    "badge.size-icon-regular",
+    "badge.spacing-large",
+    "badge.size-height-large",
+    "badge.font-size-large",
+    "badge.font-line-height-large"
+  ],
+  "retiredVariables": [],
+  "deletedNodes": [],
+  "retirementMethod": "EXPAND_SHARED_IDENTITY_AND_REMOVE_TEMPORARY_SCOPE",
+  "consumers": {
+    "direct": [
+      "INPUT-001"
+    ],
+    "transitive": [],
+    "previousInputInstances": 113,
+    "previousBadgeExamples": 3,
+    "currentBadgeExamples": 39,
+    "inputPreservation": {
+      "path": "evidence/badge-pilot/after/input-preservation.json",
+      "sha256": "675a9d4957c16ce572a388820f08226674f3234eca19c1a6d22079951ad25012"
+    },
+    "inputMatrix": [
+      {
+        "path": "evidence/badge-pilot/after/input-instances-1.json",
+        "sha256": "a277247cea2ed80cddafa9bcdef6b3f38120703e4ae1456df5e3953f2fd70e0e"
+      },
+      {
+        "path": "evidence/badge-pilot/after/input-instances-2.json",
+        "sha256": "9c63efcc92f4519300509178080af851d09d4a73514bb8b1ebd8a88783543ece"
+      },
+      {
+        "path": "evidence/badge-pilot/after/input-instances-3.json",
+        "sha256": "f08db2e6b1f8ed45a722dffd747575fdacb311b6fa994075ccf45c2713c4cead"
+      }
+    ],
+    "otherPagesUnchanged": [
+      {
+        "path": "evidence/badge-pilot/before/consumers-0-1.json",
+        "sha256": "6c8039ee74ff93cf2effd1c5c627f3e0973db1a15c10cf18dd1ab19350daaf7c"
+      },
+      {
+        "path": "evidence/badge-pilot/before/consumers-11-128.json",
+        "sha256": "4df5dc4aa8c8fb068487809b783bba124fbe4eb21c10216dc6dd5ddb9a333e54"
+      },
+      {
+        "path": "evidence/badge-pilot/before/consumers-145-42.json",
+        "sha256": "27d558453de0db7b8c932d2546d71dc6ee8910650feb9b9c26424ba6e9832930"
+      },
+      {
+        "path": "evidence/badge-pilot/before/consumers-149-639.json",
+        "sha256": "b9a0669d6a0bddfa725725d3d3a9cb784aee0d4438f2328048c3fe6facd33836"
+      },
+      {
+        "path": "evidence/badge-pilot/before/consumers-201-1543.json",
+        "sha256": "9848ffcb838d640b7e6a07ac50c468137377f9ac3d43d2676f228defe5a0d6e3"
+      },
+      {
+        "path": "evidence/badge-pilot/before/consumers-245-19.json",
+        "sha256": "d36b76e5a99117c26e62583f6c464c38cedca00602f0af550e164ec574f7a019"
+      },
+      {
+        "path": "evidence/badge-pilot/before/consumers-78-97.json",
+        "sha256": "6bb9ffc0c5b2f62f5884260b12f602593acbc671fe2035ddfd3947d052734ac8"
+      }
+    ]
+  },
+  "defaultCompatibility": {
+    "source": "neutral/large",
+    "destination": "subtle/small",
+    "reason": "Conservar el default existente mientras se amplía la API de forma compatible.",
+    "evidence": {
+      "path": "evidence/badge-pilot/after/reverse-after.json",
+      "sha256": "5c6cf58c6e52766b2c4c01a98d2b60d6c7ea09dbba9261a08814e12a8d0a44f4"
+    }
+  }
+}

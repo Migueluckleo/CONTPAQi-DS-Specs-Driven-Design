@@ -1,0 +1,139 @@
+{
+  "page": {
+    "id": "281:63",
+    "name": "Badge"
+  },
+  "rows": [
+    {
+      "id": "289:8",
+      "mainId": "282:2",
+      "key": "971e75e9ad51ae6be71ce2cd5e145607df0dc6e1",
+      "w": 46,
+      "h": 20,
+      "visible": true,
+      "props": {
+        "Label#282:0": {
+          "type": "TEXT",
+          "value": "Label"
+        },
+        "type": {
+          "value": "subtle",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "size": {
+          "value": "small",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "texts": [
+        {
+          "id": "I289:8;282:4",
+          "text": "Label"
+        }
+      ]
+    },
+    {
+      "id": "289:10",
+      "mainId": "282:2",
+      "key": "971e75e9ad51ae6be71ce2cd5e145607df0dc6e1",
+      "w": 42,
+      "h": 20,
+      "visible": true,
+      "props": {
+        "Label#282:0": {
+          "type": "TEXT",
+          "value": "MXN"
+        },
+        "type": {
+          "value": "subtle",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "size": {
+          "value": "small",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "texts": [
+        {
+          "id": "I289:10;282:4",
+          "text": "MXN"
+        }
+      ]
+    },
+    {
+      "id": "289:12",
+      "mainId": "282:2",
+      "key": "971e75e9ad51ae6be71ce2cd5e145607df0dc6e1",
+      "w": 40,
+      "h": 20,
+      "visible": true,
+      "props": {
+        "Label#282:0": {
+          "type": "TEXT",
+          "value": "USD"
+        },
+        "type": {
+          "value": "subtle",
+          "type": "VARIANT",
+          "boundVariables": {}
+        },
+        "size": {
+          "value": "small",
+          "type": "VARIANT",
+          "boundVariables": {}
+        }
+      },
+      "texts": [
+        {
+          "id": "I289:12;282:4",
+          "text": "USD"
+        }
+      ]
+    }
+  ],
+  "styles": [
+    {
+      "id": "S:e439d0e54383733d35898b17c875f29d643cf402,",
+      "key": "e439d0e54383733d35898b17c875f29d643cf402",
+      "name": "badge/subtle-small",
+      "font": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "size": 12,
+      "line": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "b": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:56"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:54"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:53"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:52"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:55"
+        }
+      }
+    }
+  ]
+}

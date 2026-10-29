@@ -22,7 +22,7 @@ class SharedInputTests(unittest.TestCase):
     if n.get('layoutSizingVertical')=='HUG':self.assertNotIn('height',n['bindings'])
     if n['type']=='TEXT':self.assertEqual(n['letterSpacing']['unit'],'PERCENT')
  def test_minimum_covers_real_consumers_and_one_shared_badge(self):
-  w=Workspace(ROOT);report=w.check()['component_token_minimum'];self.assertEqual(report['INPUT-001@2.0.0']['component_tokens'],41);self.assertEqual(report['BADGE-001@1.0.0']['component_tokens'],12)
+  w=Workspace(ROOT);report=w.check()['component_token_minimum'];self.assertEqual(report['INPUT-001@2.0.1']['component_tokens'],41);self.assertEqual(report['BADGE-001@1.1.0']['component_tokens'],35)
   p=read('consumption/input/current-build-plan.json');used=set()
   for v in p['variants']:
    for n in v['rows']:

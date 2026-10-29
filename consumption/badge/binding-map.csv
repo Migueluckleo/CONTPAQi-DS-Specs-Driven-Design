@@ -1,15 +1,361 @@
 sourceVariantId,sourceNodeId,nativeVariantId,nativeNodeId,part,property,logicalId,nativeVariableId,resolution
-8851:26563,8851:26563,282:2,282:2,root,fills,badge.color-bg-subtle,VariableID:281:45,direct
-8851:26563,8851:26563,282:2,282:2,root,strokes,badge.color-stroke-subtle,VariableID:281:46,direct
-8851:26563,8851:26563,282:2,282:2,root,paddingTop,badge.spacing-none,VariableID:281:47,direct
-8851:26563,8851:26563,282:2,282:2,root,paddingBottom,badge.spacing-none,VariableID:281:47,direct
-8851:26563,8851:26563,282:2,282:2,root,paddingLeft,badge.spacing-inline,VariableID:281:48,direct
-8851:26563,8851:26563,282:2,282:2,root,paddingRight,badge.spacing-inline,VariableID:281:48,direct
-8851:26563,8851:26563,282:2,282:2,root,cornerRadius,badge.radius-container,VariableID:281:49,direct
-8851:26563,8851:26563,282:2,282:2,root,strokeWeight,badge.border-width-regular,VariableID:281:50,direct
-8851:26563,8851:26565,282:2,282:4,label,fills,badge.color-text-primary,VariableID:281:51,direct
-8851:26563,8851:26565,282:2,282:4,label,fontFamily,badge.font-family,VariableID:281:52,shared-style
-8851:26563,8851:26565,282:2,282:4,label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
-8851:26563,8851:26565,282:2,282:4,label,fontSize,badge.font-size,VariableID:281:54,shared-style
-8851:26563,8851:26565,282:2,282:4,label,lineHeight,badge.font-line-height,VariableID:281:55,shared-style
-8851:26563,8851:26565,282:2,282:4,label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26593,8851:26593,326:210,326:210,"type=error, size=small",fills,badge.color-bg-error,VariableID:326:5,direct
+8851:26593,8851:26593,326:210,326:210,"type=error, size=small",paddingTop,badge.spacing-none,VariableID:281:47,direct
+8851:26593,8851:26593,326:210,326:210,"type=error, size=small",paddingBottom,badge.spacing-none,VariableID:281:47,direct
+8851:26593,8851:26593,326:210,326:210,"type=error, size=small",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+8851:26593,8851:26593,326:210,326:210,"type=error, size=small",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+8851:26593,8851:26593,326:210,326:210,"type=error, size=small",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26593,8851:26593,326:210,326:210,"type=error, size=small",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26593,8851:26594,326:210,326:212,Left icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26593,8851:26594,326:210,326:212,Left icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26593,I8851:26594;8899:60223,326:210,I326:212;8899:60223,icon,fills,badge.color-icon-error,VariableID:326:9,direct
+8851:26593,8851:26595,326:210,326:211,Label,fills,badge.color-text-error,VariableID:326:7,direct
+8851:26593,8851:26595,326:210,326:211,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26593,8851:26595,326:210,326:211,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26593,8851:26595,326:210,326:211,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+8851:26593,8851:26595,326:210,326:211,Label,lineHeight,badge.font-line-height,VariableID:281:55,shared-style
+8851:26593,8851:26595,326:210,326:211,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26593,8851:26596,326:210,326:214,Right icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26593,8851:26596,326:210,326:214,Right icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26593,I8851:26596;8899:60223,326:210,I326:214;8899:60223,icon,fills,badge.color-icon-error,VariableID:326:9,direct
+8851:26583,8851:26583,326:216,326:216,"type=warning, size=small",fills,badge.color-bg-warning,VariableID:326:10,direct
+8851:26583,8851:26583,326:216,326:216,"type=warning, size=small",paddingTop,badge.spacing-none,VariableID:281:47,direct
+8851:26583,8851:26583,326:216,326:216,"type=warning, size=small",paddingBottom,badge.spacing-none,VariableID:281:47,direct
+8851:26583,8851:26583,326:216,326:216,"type=warning, size=small",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+8851:26583,8851:26583,326:216,326:216,"type=warning, size=small",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+8851:26583,8851:26583,326:216,326:216,"type=warning, size=small",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26583,8851:26583,326:216,326:216,"type=warning, size=small",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26583,8851:26584,326:216,326:218,Left icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26583,8851:26584,326:216,326:218,Left icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26583,I8851:26584;8899:60223,326:216,I326:218;8899:60223,icon,fills,badge.color-icon-warning,VariableID:326:12,direct
+8851:26583,8851:26585,326:216,326:217,Label,fills,badge.color-text-warning,VariableID:326:11,direct
+8851:26583,8851:26585,326:216,326:217,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26583,8851:26585,326:216,326:217,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26583,8851:26585,326:216,326:217,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+8851:26583,8851:26585,326:216,326:217,Label,lineHeight,badge.font-line-height,VariableID:281:55,shared-style
+8851:26583,8851:26585,326:216,326:217,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26583,8851:26586,326:216,326:220,Right icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26583,8851:26586,326:216,326:220,Right icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26583,I8851:26586;8899:60223,326:216,I326:220;8899:60223,icon,fills,badge.color-icon-warning,VariableID:326:12,direct
+8851:26603,8851:26603,326:222,326:222,"type=success, size=small",fills,badge.color-bg-success,VariableID:326:13,direct
+8851:26603,8851:26603,326:222,326:222,"type=success, size=small",paddingTop,badge.spacing-none,VariableID:281:47,direct
+8851:26603,8851:26603,326:222,326:222,"type=success, size=small",paddingBottom,badge.spacing-none,VariableID:281:47,direct
+8851:26603,8851:26603,326:222,326:222,"type=success, size=small",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+8851:26603,8851:26603,326:222,326:222,"type=success, size=small",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+8851:26603,8851:26603,326:222,326:222,"type=success, size=small",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26603,8851:26603,326:222,326:222,"type=success, size=small",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26603,8851:26604,326:222,326:224,Left icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26603,8851:26604,326:222,326:224,Left icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26603,I8851:26604;8899:60223,326:222,I326:224;8899:60223,icon,fills,badge.color-icon-success,VariableID:326:15,direct
+8851:26603,8851:26605,326:222,326:223,Label,fills,badge.color-text-success,VariableID:326:14,direct
+8851:26603,8851:26605,326:222,326:223,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26603,8851:26605,326:222,326:223,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26603,8851:26605,326:222,326:223,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+8851:26603,8851:26605,326:222,326:223,Label,lineHeight,badge.font-line-height,VariableID:281:55,shared-style
+8851:26603,8851:26605,326:222,326:223,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26603,8851:26606,326:222,326:226,Right icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26603,8851:26606,326:222,326:226,Right icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26603,I8851:26606;8899:60223,326:222,I326:226;8899:60223,icon,fills,badge.color-icon-success,VariableID:326:15,direct
+8851:26573,8851:26573,326:228,326:228,"type=info, size=small",fills,badge.color-bg-info,VariableID:326:16,direct
+8851:26573,8851:26573,326:228,326:228,"type=info, size=small",paddingTop,badge.spacing-none,VariableID:281:47,direct
+8851:26573,8851:26573,326:228,326:228,"type=info, size=small",paddingBottom,badge.spacing-none,VariableID:281:47,direct
+8851:26573,8851:26573,326:228,326:228,"type=info, size=small",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+8851:26573,8851:26573,326:228,326:228,"type=info, size=small",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+8851:26573,8851:26573,326:228,326:228,"type=info, size=small",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26573,8851:26573,326:228,326:228,"type=info, size=small",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26573,8851:26574,326:228,326:230,Left icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26573,8851:26574,326:228,326:230,Left icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26573,I8851:26574;8899:60223,326:228,I326:230;8899:60223,icon,fills,badge.color-icon-info,VariableID:326:18,direct
+8851:26573,8851:26575,326:228,326:229,Label,fills,badge.color-text-info,VariableID:326:17,direct
+8851:26573,8851:26575,326:228,326:229,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26573,8851:26575,326:228,326:229,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26573,8851:26575,326:228,326:229,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+8851:26573,8851:26575,326:228,326:229,Label,lineHeight,badge.font-line-height,VariableID:281:55,shared-style
+8851:26573,8851:26575,326:228,326:229,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26573,8851:26576,326:228,326:232,Right icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26573,8851:26576,326:228,326:232,Right icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26573,I8851:26576;8899:60223,326:228,I326:232;8899:60223,icon,fills,badge.color-icon-info,VariableID:326:18,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",fills,badge.color-bg-subtle,VariableID:281:45,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",paddingTop,badge.spacing-none,VariableID:281:47,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",paddingBottom,badge.spacing-none,VariableID:281:47,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",strokes,badge.color-stroke-subtle,VariableID:281:46,direct
+8851:26563,8851:26563,282:2,282:2,"type=subtle, size=small",strokeWeight,badge.border-width-regular,VariableID:281:50,direct
+8851:26563,8851:26564,282:2,326:234,Left icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26563,8851:26564,282:2,326:234,Left icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26563,I8851:26564;8899:60223,282:2,I326:234;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+8851:26563,8851:26565,282:2,282:4,Label,fills,badge.color-text-primary,VariableID:281:51,direct
+8851:26563,8851:26565,282:2,282:4,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26563,8851:26565,282:2,282:4,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26563,8851:26565,282:2,282:4,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+8851:26563,8851:26565,282:2,282:4,Label,lineHeight,badge.font-line-height,VariableID:281:55,shared-style
+8851:26563,8851:26565,282:2,282:4,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26563,8851:26566,282:2,326:236,Right icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26563,8851:26566,282:2,326:236,Right icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26563,I8851:26566;8899:60223,282:2,I326:236;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+8851:26553,8851:26553,326:238,326:238,"type=neutral, size=small",fills,badge.color-bg-neutral,VariableID:326:20,direct
+8851:26553,8851:26553,326:238,326:238,"type=neutral, size=small",paddingTop,badge.spacing-none,VariableID:281:47,direct
+8851:26553,8851:26553,326:238,326:238,"type=neutral, size=small",paddingBottom,badge.spacing-none,VariableID:281:47,direct
+8851:26553,8851:26553,326:238,326:238,"type=neutral, size=small",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+8851:26553,8851:26553,326:238,326:238,"type=neutral, size=small",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+8851:26553,8851:26553,326:238,326:238,"type=neutral, size=small",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26553,8851:26553,326:238,326:238,"type=neutral, size=small",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26553,8851:26554,326:238,326:240,Left icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26553,8851:26554,326:238,326:240,Left icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26553,I8851:26554;8899:60223,326:238,I326:240;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+8851:26553,8851:26555,326:238,326:239,Label,fills,badge.color-text-primary,VariableID:281:51,direct
+8851:26553,8851:26555,326:238,326:239,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26553,8851:26555,326:238,326:239,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26553,8851:26555,326:238,326:239,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+8851:26553,8851:26555,326:238,326:239,Label,lineHeight,badge.font-line-height,VariableID:281:55,shared-style
+8851:26553,8851:26555,326:238,326:239,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26553,8851:26556,326:238,326:242,Right icon,width,badge.size-icon-small,VariableID:326:8,direct
+8851:26553,8851:26556,326:238,326:242,Right icon,height,badge.size-icon-small,VariableID:326:8,direct
+8851:26553,I8851:26556;8899:60223,326:238,I326:242;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+1234:65375,1234:65375,326:244,326:244,"type=error, size=medium",fills,badge.color-bg-error,VariableID:326:5,direct
+1234:65375,1234:65375,326:244,326:244,"type=error, size=medium",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+1234:65375,1234:65375,326:244,326:244,"type=error, size=medium",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+1234:65375,1234:65375,326:244,326:244,"type=error, size=medium",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+1234:65375,1234:65375,326:244,326:244,"type=error, size=medium",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+1234:65375,1234:65375,326:244,326:244,"type=error, size=medium",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+1234:65375,1234:65375,326:244,326:244,"type=error, size=medium",cornerRadius,badge.radius-container,VariableID:281:49,direct
+1234:65375,1234:65375,326:244,326:244,"type=error, size=medium",maxHeight,badge.size-height-medium,VariableID:326:21,direct
+1234:65375,1234:66892,326:244,326:246,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65375,1234:66892,326:244,326:246,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65375,I1234:66892;8899:60223,326:244,I326:246;8899:60223,icon,fills,badge.color-icon-error,VariableID:326:9,direct
+1234:65375,1234:65345,326:244,326:245,Label,fills,badge.color-text-error,VariableID:326:7,direct
+1234:65375,1234:65345,326:244,326:245,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+1234:65375,1234:65345,326:244,326:245,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+1234:65375,1234:65345,326:244,326:245,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+1234:65375,1234:65345,326:244,326:245,Label,lineHeight,badge.font-line-height-medium,VariableID:326:22,shared-style
+1234:65375,1234:65345,326:244,326:245,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+1234:65375,1234:66937,326:244,326:248,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65375,1234:66937,326:244,326:248,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65375,I1234:66937;8899:60223,326:244,I326:248;8899:60223,icon,fills,badge.color-icon-error,VariableID:326:9,direct
+1234:65372,1234:65372,326:250,326:250,"type=warning, size=medium",fills,badge.color-bg-warning,VariableID:326:10,direct
+1234:65372,1234:65372,326:250,326:250,"type=warning, size=medium",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+1234:65372,1234:65372,326:250,326:250,"type=warning, size=medium",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+1234:65372,1234:65372,326:250,326:250,"type=warning, size=medium",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+1234:65372,1234:65372,326:250,326:250,"type=warning, size=medium",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+1234:65372,1234:65372,326:250,326:250,"type=warning, size=medium",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+1234:65372,1234:65372,326:250,326:250,"type=warning, size=medium",cornerRadius,badge.radius-container,VariableID:281:49,direct
+1234:65372,1234:65372,326:250,326:250,"type=warning, size=medium",maxHeight,badge.size-height-medium,VariableID:326:21,direct
+1234:65372,1234:66885,326:250,326:252,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65372,1234:66885,326:250,326:252,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65372,I1234:66885;8899:60223,326:250,I326:252;8899:60223,icon,fills,badge.color-icon-warning,VariableID:326:12,direct
+1234:65372,1234:65317,326:250,326:251,Label,fills,badge.color-text-warning,VariableID:326:11,direct
+1234:65372,1234:65317,326:250,326:251,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+1234:65372,1234:65317,326:250,326:251,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+1234:65372,1234:65317,326:250,326:251,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+1234:65372,1234:65317,326:250,326:251,Label,lineHeight,badge.font-line-height-medium,VariableID:326:22,shared-style
+1234:65372,1234:65317,326:250,326:251,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+1234:65372,1234:66934,326:250,326:254,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65372,1234:66934,326:250,326:254,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65372,I1234:66934;8899:60223,326:250,I326:254;8899:60223,icon,fills,badge.color-icon-warning,VariableID:326:12,direct
+1234:65371,1234:65371,326:256,326:256,"type=success, size=medium",fills,badge.color-bg-success,VariableID:326:13,direct
+1234:65371,1234:65371,326:256,326:256,"type=success, size=medium",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+1234:65371,1234:65371,326:256,326:256,"type=success, size=medium",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+1234:65371,1234:65371,326:256,326:256,"type=success, size=medium",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+1234:65371,1234:65371,326:256,326:256,"type=success, size=medium",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+1234:65371,1234:65371,326:256,326:256,"type=success, size=medium",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+1234:65371,1234:65371,326:256,326:256,"type=success, size=medium",cornerRadius,badge.radius-container,VariableID:281:49,direct
+1234:65371,1234:65371,326:256,326:256,"type=success, size=medium",maxHeight,badge.size-height-medium,VariableID:326:21,direct
+1234:65371,1234:66895,326:256,326:258,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65371,1234:66895,326:256,326:258,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65371,I1234:66895;8899:60223,326:256,I326:258;8899:60223,icon,fills,badge.color-icon-success,VariableID:326:15,direct
+1234:65371,1234:65359,326:256,326:257,Label,fills,badge.color-text-success,VariableID:326:14,direct
+1234:65371,1234:65359,326:256,326:257,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+1234:65371,1234:65359,326:256,326:257,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+1234:65371,1234:65359,326:256,326:257,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+1234:65371,1234:65359,326:256,326:257,Label,lineHeight,badge.font-line-height-medium,VariableID:326:22,shared-style
+1234:65371,1234:65359,326:256,326:257,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+1234:65371,1234:66940,326:256,326:260,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65371,1234:66940,326:256,326:260,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65371,I1234:66940;8899:60223,326:256,I326:260;8899:60223,icon,fills,badge.color-icon-success,VariableID:326:15,direct
+1234:65373,1234:65373,326:262,326:262,"type=info, size=medium",fills,badge.color-bg-info,VariableID:326:16,direct
+1234:65373,1234:65373,326:262,326:262,"type=info, size=medium",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+1234:65373,1234:65373,326:262,326:262,"type=info, size=medium",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+1234:65373,1234:65373,326:262,326:262,"type=info, size=medium",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+1234:65373,1234:65373,326:262,326:262,"type=info, size=medium",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+1234:65373,1234:65373,326:262,326:262,"type=info, size=medium",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+1234:65373,1234:65373,326:262,326:262,"type=info, size=medium",cornerRadius,badge.radius-container,VariableID:281:49,direct
+1234:65373,1234:65373,326:262,326:262,"type=info, size=medium",maxHeight,badge.size-height-medium,VariableID:326:21,direct
+1234:65373,1234:66882,326:262,326:264,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65373,1234:66882,326:262,326:264,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65373,I1234:66882;8899:60223,326:262,I326:264;8899:60223,icon,fills,badge.color-icon-info,VariableID:326:18,direct
+1234:65373,1234:65331,326:262,326:263,Label,fills,badge.color-text-info,VariableID:326:17,direct
+1234:65373,1234:65331,326:262,326:263,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+1234:65373,1234:65331,326:262,326:263,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+1234:65373,1234:65331,326:262,326:263,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+1234:65373,1234:65331,326:262,326:263,Label,lineHeight,badge.font-line-height-medium,VariableID:326:22,shared-style
+1234:65373,1234:65331,326:262,326:263,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+1234:65373,1234:66931,326:262,326:266,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65373,1234:66931,326:262,326:266,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65373,I1234:66931;8899:60223,326:262,I326:266;8899:60223,icon,fills,badge.color-icon-info,VariableID:326:18,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",fills,badge.color-bg-subtle,VariableID:281:45,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",cornerRadius,badge.radius-container,VariableID:281:49,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",strokes,badge.color-stroke-subtle,VariableID:281:46,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",strokeWeight,badge.border-width-regular,VariableID:281:50,direct
+1234:65374,1234:65374,326:268,326:268,"type=subtle, size=medium",maxHeight,badge.size-height-medium,VariableID:326:21,direct
+1234:65374,1234:66879,326:268,326:270,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65374,1234:66879,326:268,326:270,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65374,I1234:66879;8899:60223,326:268,I326:270;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+1234:65374,1234:65313,326:268,326:269,Label,fills,badge.color-text-primary,VariableID:281:51,direct
+1234:65374,1234:65313,326:268,326:269,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+1234:65374,1234:65313,326:268,326:269,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+1234:65374,1234:65313,326:268,326:269,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+1234:65374,1234:65313,326:268,326:269,Label,lineHeight,badge.font-line-height-medium,VariableID:326:22,shared-style
+1234:65374,1234:65313,326:268,326:269,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+1234:65374,1234:66928,326:268,326:272,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65374,1234:66928,326:268,326:272,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65374,I1234:66928;8899:60223,326:268,I326:272;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+1234:65376,1234:65376,326:274,326:274,"type=neutral, size=medium",fills,badge.color-bg-neutral,VariableID:326:20,direct
+1234:65376,1234:65376,326:274,326:274,"type=neutral, size=medium",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+1234:65376,1234:65376,326:274,326:274,"type=neutral, size=medium",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+1234:65376,1234:65376,326:274,326:274,"type=neutral, size=medium",paddingLeft,badge.spacing-inline,VariableID:281:48,direct
+1234:65376,1234:65376,326:274,326:274,"type=neutral, size=medium",paddingRight,badge.spacing-inline,VariableID:281:48,direct
+1234:65376,1234:65376,326:274,326:274,"type=neutral, size=medium",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+1234:65376,1234:65376,326:274,326:274,"type=neutral, size=medium",cornerRadius,badge.radius-container,VariableID:281:49,direct
+1234:65376,1234:65376,326:274,326:274,"type=neutral, size=medium",maxHeight,badge.size-height-medium,VariableID:326:21,direct
+1234:65376,1234:66861,326:274,326:276,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65376,1234:66861,326:274,326:276,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65376,I1234:66861;8899:60223,326:274,I326:276;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+1234:65376,1234:65309,326:274,326:275,Label,fills,badge.color-text-primary,VariableID:281:51,direct
+1234:65376,1234:65309,326:274,326:275,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+1234:65376,1234:65309,326:274,326:275,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+1234:65376,1234:65309,326:274,326:275,Label,fontSize,badge.font-size,VariableID:281:54,shared-style
+1234:65376,1234:65309,326:274,326:275,Label,lineHeight,badge.font-line-height-medium,VariableID:326:22,shared-style
+1234:65376,1234:65309,326:274,326:275,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+1234:65376,1234:66925,326:274,326:278,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+1234:65376,1234:66925,326:274,326:278,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+1234:65376,I1234:66925;8899:60223,326:274,I326:278;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+8851:26598,8851:26598,326:280,326:280,"type=error, size=large",fills,badge.color-bg-error,VariableID:326:5,direct
+8851:26598,8851:26598,326:280,326:280,"type=error, size=large",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+8851:26598,8851:26598,326:280,326:280,"type=error, size=large",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+8851:26598,8851:26598,326:280,326:280,"type=error, size=large",paddingLeft,badge.spacing-large,VariableID:326:24,direct
+8851:26598,8851:26598,326:280,326:280,"type=error, size=large",paddingRight,badge.spacing-large,VariableID:326:24,direct
+8851:26598,8851:26598,326:280,326:280,"type=error, size=large",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26598,8851:26598,326:280,326:280,"type=error, size=large",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26598,8851:26598,326:280,326:280,"type=error, size=large",maxHeight,badge.size-height-large,VariableID:326:25,direct
+8851:26598,8851:26599,326:280,326:282,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26598,8851:26599,326:280,326:282,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26598,I8851:26599;8899:60223,326:280,I326:282;8899:60223,icon,fills,badge.color-icon-error,VariableID:326:9,direct
+8851:26598,8851:26600,326:280,326:281,Label,fills,badge.color-text-error,VariableID:326:7,direct
+8851:26598,8851:26600,326:280,326:281,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26598,8851:26600,326:280,326:281,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26598,8851:26600,326:280,326:281,Label,fontSize,badge.font-size-large,VariableID:326:26,shared-style
+8851:26598,8851:26600,326:280,326:281,Label,lineHeight,badge.font-line-height-large,VariableID:326:27,shared-style
+8851:26598,8851:26600,326:280,326:281,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26598,8851:26601,326:280,326:284,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26598,8851:26601,326:280,326:284,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26598,I8851:26601;8899:60223,326:280,I326:284;8899:60223,icon,fills,badge.color-icon-error,VariableID:326:9,direct
+8851:26588,8851:26588,326:286,326:286,"type=warning, size=large",fills,badge.color-bg-warning,VariableID:326:10,direct
+8851:26588,8851:26588,326:286,326:286,"type=warning, size=large",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+8851:26588,8851:26588,326:286,326:286,"type=warning, size=large",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+8851:26588,8851:26588,326:286,326:286,"type=warning, size=large",paddingLeft,badge.spacing-large,VariableID:326:24,direct
+8851:26588,8851:26588,326:286,326:286,"type=warning, size=large",paddingRight,badge.spacing-large,VariableID:326:24,direct
+8851:26588,8851:26588,326:286,326:286,"type=warning, size=large",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26588,8851:26588,326:286,326:286,"type=warning, size=large",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26588,8851:26588,326:286,326:286,"type=warning, size=large",maxHeight,badge.size-height-large,VariableID:326:25,direct
+8851:26588,8851:26589,326:286,326:288,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26588,8851:26589,326:286,326:288,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26588,I8851:26589;8899:60223,326:286,I326:288;8899:60223,icon,fills,badge.color-icon-warning,VariableID:326:12,direct
+8851:26588,8851:26590,326:286,326:287,Label,fills,badge.color-text-warning,VariableID:326:11,direct
+8851:26588,8851:26590,326:286,326:287,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26588,8851:26590,326:286,326:287,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26588,8851:26590,326:286,326:287,Label,fontSize,badge.font-size-large,VariableID:326:26,shared-style
+8851:26588,8851:26590,326:286,326:287,Label,lineHeight,badge.font-line-height-large,VariableID:326:27,shared-style
+8851:26588,8851:26590,326:286,326:287,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26588,8851:26591,326:286,326:290,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26588,8851:26591,326:286,326:290,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26588,I8851:26591;8899:60223,326:286,I326:290;8899:60223,icon,fills,badge.color-icon-warning,VariableID:326:12,direct
+8851:26608,8851:26608,326:292,326:292,"type=success, size=large",fills,badge.color-bg-success,VariableID:326:13,direct
+8851:26608,8851:26608,326:292,326:292,"type=success, size=large",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+8851:26608,8851:26608,326:292,326:292,"type=success, size=large",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+8851:26608,8851:26608,326:292,326:292,"type=success, size=large",paddingLeft,badge.spacing-large,VariableID:326:24,direct
+8851:26608,8851:26608,326:292,326:292,"type=success, size=large",paddingRight,badge.spacing-large,VariableID:326:24,direct
+8851:26608,8851:26608,326:292,326:292,"type=success, size=large",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26608,8851:26608,326:292,326:292,"type=success, size=large",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26608,8851:26608,326:292,326:292,"type=success, size=large",maxHeight,badge.size-height-large,VariableID:326:25,direct
+8851:26608,8851:26609,326:292,326:294,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26608,8851:26609,326:292,326:294,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26608,I8851:26609;8899:60223,326:292,I326:294;8899:60223,icon,fills,badge.color-icon-success,VariableID:326:15,direct
+8851:26608,8851:26610,326:292,326:293,Label,fills,badge.color-text-success,VariableID:326:14,direct
+8851:26608,8851:26610,326:292,326:293,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26608,8851:26610,326:292,326:293,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26608,8851:26610,326:292,326:293,Label,fontSize,badge.font-size-large,VariableID:326:26,shared-style
+8851:26608,8851:26610,326:292,326:293,Label,lineHeight,badge.font-line-height-large,VariableID:326:27,shared-style
+8851:26608,8851:26610,326:292,326:293,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26608,8851:26611,326:292,326:296,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26608,8851:26611,326:292,326:296,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26608,I8851:26611;8899:60223,326:292,I326:296;8899:60223,icon,fills,badge.color-icon-success,VariableID:326:15,direct
+8851:26578,8851:26578,326:298,326:298,"type=info, size=large",fills,badge.color-bg-info,VariableID:326:16,direct
+8851:26578,8851:26578,326:298,326:298,"type=info, size=large",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+8851:26578,8851:26578,326:298,326:298,"type=info, size=large",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+8851:26578,8851:26578,326:298,326:298,"type=info, size=large",paddingLeft,badge.spacing-large,VariableID:326:24,direct
+8851:26578,8851:26578,326:298,326:298,"type=info, size=large",paddingRight,badge.spacing-large,VariableID:326:24,direct
+8851:26578,8851:26578,326:298,326:298,"type=info, size=large",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26578,8851:26578,326:298,326:298,"type=info, size=large",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26578,8851:26578,326:298,326:298,"type=info, size=large",maxHeight,badge.size-height-large,VariableID:326:25,direct
+8851:26578,8851:26579,326:298,326:300,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26578,8851:26579,326:298,326:300,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26578,I8851:26579;8899:60223,326:298,I326:300;8899:60223,icon,fills,badge.color-icon-info,VariableID:326:18,direct
+8851:26578,8851:26580,326:298,326:299,Label,fills,badge.color-text-info,VariableID:326:17,direct
+8851:26578,8851:26580,326:298,326:299,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26578,8851:26580,326:298,326:299,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26578,8851:26580,326:298,326:299,Label,fontSize,badge.font-size-large,VariableID:326:26,shared-style
+8851:26578,8851:26580,326:298,326:299,Label,lineHeight,badge.font-line-height-large,VariableID:326:27,shared-style
+8851:26578,8851:26580,326:298,326:299,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26578,8851:26581,326:298,326:302,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26578,8851:26581,326:298,326:302,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26578,I8851:26581;8899:60223,326:298,I326:302;8899:60223,icon,fills,badge.color-icon-info,VariableID:326:18,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",fills,badge.color-bg-subtle,VariableID:281:45,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",paddingLeft,badge.spacing-large,VariableID:326:24,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",paddingRight,badge.spacing-large,VariableID:326:24,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",strokes,badge.color-stroke-subtle,VariableID:281:46,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",strokeWeight,badge.border-width-regular,VariableID:281:50,direct
+8851:26568,8851:26568,326:304,326:304,"type=subtle, size=large",maxHeight,badge.size-height-large,VariableID:326:25,direct
+8851:26568,8851:26569,326:304,326:306,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26568,8851:26569,326:304,326:306,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26568,I8851:26569;8899:60223,326:304,I326:306;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+8851:26568,8851:26570,326:304,326:305,Label,fills,badge.color-text-primary,VariableID:281:51,direct
+8851:26568,8851:26570,326:304,326:305,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26568,8851:26570,326:304,326:305,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26568,8851:26570,326:304,326:305,Label,fontSize,badge.font-size-large,VariableID:326:26,shared-style
+8851:26568,8851:26570,326:304,326:305,Label,lineHeight,badge.font-line-height-large,VariableID:326:27,shared-style
+8851:26568,8851:26570,326:304,326:305,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26568,8851:26571,326:304,326:308,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26568,8851:26571,326:304,326:308,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26568,I8851:26571;8899:60223,326:304,I326:308;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+8851:26558,8851:26558,326:310,326:310,"type=neutral, size=large",fills,badge.color-bg-neutral,VariableID:326:20,direct
+8851:26558,8851:26558,326:310,326:310,"type=neutral, size=large",paddingTop,badge.spacing-compact,VariableID:326:6,direct
+8851:26558,8851:26558,326:310,326:310,"type=neutral, size=large",paddingBottom,badge.spacing-compact,VariableID:326:6,direct
+8851:26558,8851:26558,326:310,326:310,"type=neutral, size=large",paddingLeft,badge.spacing-large,VariableID:326:24,direct
+8851:26558,8851:26558,326:310,326:310,"type=neutral, size=large",paddingRight,badge.spacing-large,VariableID:326:24,direct
+8851:26558,8851:26558,326:310,326:310,"type=neutral, size=large",itemSpacing,badge.spacing-compact,VariableID:326:6,direct
+8851:26558,8851:26558,326:310,326:310,"type=neutral, size=large",cornerRadius,badge.radius-container,VariableID:281:49,direct
+8851:26558,8851:26558,326:310,326:310,"type=neutral, size=large",maxHeight,badge.size-height-large,VariableID:326:25,direct
+8851:26558,8851:26559,326:310,326:312,Left icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26558,8851:26559,326:310,326:312,Left icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26558,I8851:26559;8899:60223,326:310,I326:312;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct
+8851:26558,8851:26560,326:310,326:311,Label,fills,badge.color-text-primary,VariableID:281:51,direct
+8851:26558,8851:26560,326:310,326:311,Label,fontFamily,badge.font-family,VariableID:281:52,shared-style
+8851:26558,8851:26560,326:310,326:311,Label,fontStyle,badge.font-label-style,VariableID:281:53,shared-style
+8851:26558,8851:26560,326:310,326:311,Label,fontSize,badge.font-size-large,VariableID:326:26,shared-style
+8851:26558,8851:26560,326:310,326:311,Label,lineHeight,badge.font-line-height-large,VariableID:326:27,shared-style
+8851:26558,8851:26560,326:310,326:311,Label,letterSpacing,badge.font-letter-spacing,VariableID:281:56,shared-style
+8851:26558,8851:26561,326:310,326:314,Right icon,width,badge.size-icon-regular,VariableID:326:23,direct
+8851:26558,8851:26561,326:310,326:314,Right icon,height,badge.size-icon-regular,VariableID:326:23,direct
+8851:26558,I8851:26561;8899:60223,326:310,I326:314;8899:60223,icon,fills,badge.color-icon-subtle,VariableID:326:19,direct

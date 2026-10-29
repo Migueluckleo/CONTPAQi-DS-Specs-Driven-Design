@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "budget": 65536,
+  "cases": [
+    {
+      "id": "BADGE-001",
+      "mode": "Contable",
+      "status": "PASS",
+      "bytes": 33143
+    },
+    {
+      "id": "INPUT-001",
+      "mode": "Contable",
+      "status": "PASS",
+      "bytes": 64206
+    },
+    {
+      "id": "BADGE-001",
+      "mode": "Administrativo",
+      "status": "PASS",
+      "bytes": 33359
+    },
+    {
+      "id": "INPUT-001",
+      "mode": "Administrativo",
+      "status": "PASS",
+      "bytes": 65174
+    },
+    {
+      "id": "BADGE-001",
+      "mode": "Servicios",
+      "status": "PASS",
+      "bytes": 33179
+    },
+    {
+      "id": "INPUT-001",
+      "mode": "Servicios",
+      "status": "PASS",
+      "bytes": 64772
+    },
+    {
+      "id": "BADGE-001",
+      "mode": "Personas",
+      "status": "PASS",
+      "bytes": 33143
+    },
+    {
+      "id": "INPUT-001",
+      "mode": "Personas",
+      "status": "PASS",
+      "bytes": 64691
+    }
+  ]
+}

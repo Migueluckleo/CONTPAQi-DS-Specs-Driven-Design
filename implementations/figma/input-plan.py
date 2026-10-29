@@ -102,6 +102,11 @@ def derive():
 def materialize():
  c=read('norms/catalog.json');ts=next(e for e in c['token_sets']if e['current']);selected=read(ts['path']);analysis=read('evidence/input-pilot/token-analysis.json');app=read('evidence/figma-application/application-map.json');native={v['layer']+'.'+v['name']:v['destination_id']for v in app['variables']}
  for family,identity in [('input','INPUT-001'),('badge','BADGE-001')]:
+  current=next(e for e in c['contracts']if e['current']and e['id']==identity)
+  if family=='badge'and current['version']!='1.0.0':
+   import runpy
+   runpy.run_path(str(ROOT/'consumption/badge/materialize-consumption.py'))['recipe']()
+   continue
   entry=next(e for e in c['contracts']if e['current']and e['id']==identity);text=(ROOT/entry['path']).read_text();meta=json.loads(text[4:].split('\n---\n',1)[0]);routes=dict(re.findall(r'^\| ('+family+r'\.[^ ]+) \| ([^ ]+) \|$',text,re.M));ids={d['id']for d in meta['dependencies']if d['kind']=='token'};tokens=[dict(t,figmaName=routes[t['id']],web='var('+t['name']+')',themeBehavior='THEMED'if len({v['alias']for v in t['values'].values()})>1 else'INVARIANT')for t in selected['tokens']if t['id']in ids]
   assert len(tokens)==analysis['groups'][family];plan=dict(role='DERIVED_RECIPE_NOT_RULES',contract=entry,token_set=ts,tokens=tokens,semanticIds={a:native[a]for t in tokens for a in sorted({v['alias']for v in t['values'].values()})if a in native},source=ref('evidence/input-pilot/token-analysis.json'))
   if family=='input':

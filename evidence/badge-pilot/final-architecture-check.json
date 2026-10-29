@@ -1,0 +1,83 @@
+{
+  "collections": 3,
+  "component_token_minimum": {
+    "AVATAR-001@3.0.0": {
+      "component_tokens": 22,
+      "distinct_signatures": 22,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "AVATAR-GROUP-001@3.0.0": {
+      "component_tokens": 7,
+      "distinct_signatures": 7,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "BADGE-001@1.1.0": {
+      "component_tokens": 35,
+      "distinct_signatures": 35,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "BUTTON-001@4.0.1": {
+      "component_tokens": 45,
+      "distinct_signatures": 45,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "DOT-001@1.0.0": {
+      "component_tokens": 19,
+      "distinct_signatures": 19,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "INPUT-001@2.0.1": {
+      "component_tokens": 41,
+      "distinct_signatures": 41,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "LOADER-001@1.0.0": {
+      "component_tokens": 15,
+      "distinct_signatures": 15,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "TAB-001@3.1.0": {
+      "component_tokens": 41,
+      "distinct_signatures": 41,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    },
+    "TABS-001@3.1.0": {
+      "component_tokens": 5,
+      "distinct_signatures": 5,
+      "protocol": "BH-P07",
+      "redundancies": 0,
+      "status": "PASS"
+    }
+  },
+  "contracts": 17,
+  "deferred": [
+    "figma-write-adapter",
+    "react-library",
+    "graphify-adapter",
+    "persistent-agent-office",
+    "release-publication"
+  ],
+  "graphify_required": false,
+  "mode_contexts": 4,
+  "scope": "Infrastructure and registered normative content; not design or implementation QA",
+  "snapshot": "05ee7a5409320a574bb18cb2d3005c98d2fdcc9fd30a9a7caa88beb5aa7cd66f",
+  "status": "PASS",
+  "token_sets": 1,
+  "tokens": 493
+}

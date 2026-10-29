@@ -3,17 +3,17 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "INPUT-001",
-    "version": "2.0.0",
-    "path": "norms/components/input.2.0.0.md",
-    "sha256": "89f3c426efd1be2cf345c5f31a3254f9c10b03f92d81402b869c266032f187a2",
+    "version": "2.0.1",
+    "path": "norms/components/input.2.0.1.md",
+    "sha256": "de7af614b979f0cfb93825440de691e352d8a18b73acfa572be2caf54c008366",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "6.0.0",
-      "path": "norms/tokens/blueheart.6.0.0.json",
-      "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
+      "version": "6.1.0",
+      "path": "norms/tokens/blueheart.6.1.0.json",
+      "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8",
       "current": true
     }
   ],
@@ -1028,8 +1028,8 @@
   "variable_map": "variable-map.csv",
   "binding_map": "binding-map.csv",
   "qa": {
-    "path": "evidence/qa/icon-color-audit-check.json",
-    "sha256": "c9102416ab1c24d514c7aba51c3a31b5a8a6e312db39d179988f35458c2e52ba"
+    "path": "evidence/qa/badge-pilot-check.json",
+    "sha256": "fc93af77801cba36edf870b80cadef3e9ea4250acfe50b64ec0aa39be0cb16fa"
   },
   "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
   "web_implementation": "NOT_IMPLEMENTED",
@@ -1037,14 +1037,14 @@
     {
       "contract": {
         "id": "BADGE-001",
-        "version": "1.0.0",
-        "path": "norms/components/badge.1.0.0.md",
-        "sha256": "8ce90583c08343028fc6cd42a5f16d0b23af2b921d34aca9c4f9fcd8caf27985",
+        "version": "1.1.0",
+        "path": "norms/components/badge.1.1.0.md",
+        "sha256": "3cd9ab5c4a45a084edfd14525d0ef4b0637c9fb6ea5a6784b8b80b94f2df3cce",
         "current": true
       },
       "manifest": {
         "path": "consumption/badge/manifest.json",
-        "sha256": "1989fcae057c84a082d9178744813cf5bf1c811350f58e3026afba0599030888"
+        "sha256": "a6c9a32c334f2ad772cf4ac9aeffdc58ac6e2b202e2f3c52985cdabbf596b6ca"
       }
     }
   ],
@@ -1052,5 +1052,9 @@
     "path": "evidence/icon-color-audit/pairing-plan.json",
     "sha256": "a5d1bf46b571032a4fe2616622601bf32785c1cfbea9a631ff540f3979fc4a54"
   },
-  "iconColorQaFrameId": "307:4372"
+  "iconColorQaFrameId": "307:4372",
+  "badgeMigration": {
+    "path": "evidence/badge-pilot/migration-map.json",
+    "sha256": "49a1657fa1a0a1f610edaa5bd2f5d2a58665a8adeb99d84a9eb50a20349c30f2"
+  }
 }

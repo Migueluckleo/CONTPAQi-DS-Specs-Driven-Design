@@ -1,0 +1,250 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "rows": [
+    {
+      "id": "326:210",
+      "axes": {
+        "type": "error",
+        "size": "small"
+      },
+      "bindingUses": 19
+    },
+    {
+      "id": "326:216",
+      "axes": {
+        "type": "warning",
+        "size": "small"
+      },
+      "bindingUses": 19
+    },
+    {
+      "id": "326:222",
+      "axes": {
+        "type": "success",
+        "size": "small"
+      },
+      "bindingUses": 19
+    },
+    {
+      "id": "326:228",
+      "axes": {
+        "type": "info",
+        "size": "small"
+      },
+      "bindingUses": 19
+    },
+    {
+      "id": "282:2",
+      "axes": {
+        "type": "subtle",
+        "size": "small"
+      },
+      "bindingUses": 21
+    },
+    {
+      "id": "326:238",
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "bindingUses": 19
+    },
+    {
+      "id": "326:244",
+      "axes": {
+        "type": "error",
+        "size": "medium"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:250",
+      "axes": {
+        "type": "warning",
+        "size": "medium"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:256",
+      "axes": {
+        "type": "success",
+        "size": "medium"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:262",
+      "axes": {
+        "type": "info",
+        "size": "medium"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:268",
+      "axes": {
+        "type": "subtle",
+        "size": "medium"
+      },
+      "bindingUses": 22
+    },
+    {
+      "id": "326:274",
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:280",
+      "axes": {
+        "type": "error",
+        "size": "large"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:286",
+      "axes": {
+        "type": "warning",
+        "size": "large"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:292",
+      "axes": {
+        "type": "success",
+        "size": "large"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:298",
+      "axes": {
+        "type": "info",
+        "size": "large"
+      },
+      "bindingUses": 20
+    },
+    {
+      "id": "326:304",
+      "axes": {
+        "type": "subtle",
+        "size": "large"
+      },
+      "bindingUses": 22
+    },
+    {
+      "id": "326:310",
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "bindingUses": 20
+    }
+  ],
+  "bindingUses": 360,
+  "properties": {
+    "Label#282:0": {
+      "type": "TEXT",
+      "defaultValue": "Label"
+    },
+    "Show left icon#326:0": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Show right icon#326:2": {
+      "type": "BOOLEAN",
+      "defaultValue": false
+    },
+    "Left icon#326:4": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "326:35",
+      "preferredValues": []
+    },
+    "Right icon#326:6": {
+      "type": "INSTANCE_SWAP",
+      "defaultValue": "326:35",
+      "preferredValues": []
+    },
+    "type": {
+      "type": "VARIANT",
+      "defaultValue": "neutral",
+      "variantOptions": [
+        "subtle",
+        "error",
+        "warning",
+        "success",
+        "info",
+        "neutral"
+      ]
+    },
+    "size": {
+      "type": "VARIANT",
+      "defaultValue": "large",
+      "variantOptions": [
+        "small",
+        "medium",
+        "large"
+      ]
+    }
+  },
+  "setsOnPage": [
+    {
+      "id": "282:3",
+      "name": "Badge",
+      "variants": 18
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "primitive",
+      "count": 151,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:0"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:6:148",
+      "name": "semantic",
+      "count": 112,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:1"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:11:2",
+      "name": "component",
+      "count": 230,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "11:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "11:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "11:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "11:3"
+        }
+      ]
+    }
+  ]
+}

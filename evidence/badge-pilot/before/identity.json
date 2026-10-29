@@ -1,0 +1,246 @@
+{
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Cover"
+    },
+    {
+      "id": "149:639",
+      "name": "---"
+    },
+    {
+      "id": "145:42",
+      "name": "Avatars"
+    },
+    {
+      "id": "11:128",
+      "name": "Buttons"
+    },
+    {
+      "id": "201:1543",
+      "name": "Dot"
+    },
+    {
+      "id": "245:19",
+      "name": "Loader"
+    },
+    {
+      "id": "78:97",
+      "name": "Tabs"
+    },
+    {
+      "id": "281:62",
+      "name": "Input"
+    },
+    {
+      "id": "281:63",
+      "name": "Badge"
+    }
+  ],
+  "pageChildren": [
+    {
+      "id": "282:3",
+      "name": "Badge",
+      "type": "COMPONENT_SET",
+      "x": 2200,
+      "y": 80,
+      "w": 240,
+      "h": 140
+    },
+    {
+      "id": "289:2",
+      "name": "Badge · documentación subtle/small",
+      "type": "FRAME",
+      "x": 80,
+      "y": 80,
+      "w": 840,
+      "h": 520
+    }
+  ],
+  "set": {
+    "id": "282:3",
+    "key": "c6134de85c23e3c29f86337297a9ec6f51d0f27f",
+    "name": "Badge",
+    "description": "BADGE-001@1.0.0 · Subconjunto autorizado subtle/small para metadatos en Input. Label editable; sin iconos ni interacción. No representa las otras variantes de la raíz.",
+    "properties": {
+      "Label#282:0": {
+        "type": "TEXT",
+        "defaultValue": "Label"
+      },
+      "type": {
+        "type": "VARIANT",
+        "defaultValue": "subtle",
+        "variantOptions": [
+          "subtle"
+        ]
+      },
+      "size": {
+        "type": "VARIANT",
+        "defaultValue": "small",
+        "variantOptions": [
+          "small"
+        ]
+      }
+    }
+  },
+  "variant": {
+    "id": "282:2",
+    "key": "971e75e9ad51ae6be71ce2cd5e145607df0dc6e1",
+    "name": "type=subtle, size=small",
+    "w": 46,
+    "h": 20,
+    "b": {
+      "paddingLeft": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:48"
+      },
+      "paddingTop": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:47"
+      },
+      "paddingRight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:48"
+      },
+      "paddingBottom": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:47"
+      },
+      "topLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:49"
+      },
+      "topRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:49"
+      },
+      "bottomLeftRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:49"
+      },
+      "bottomRightRadius": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:49"
+      },
+      "strokeTopWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:50"
+      },
+      "strokeBottomWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:50"
+      },
+      "strokeLeftWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:50"
+      },
+      "strokeRightWeight": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:50"
+      },
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:45"
+        }
+      ],
+      "strokes": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:46"
+        }
+      ]
+    }
+  },
+  "label": {
+    "id": "282:4",
+    "name": "Label",
+    "characters": "Label",
+    "style": "S:e439d0e54383733d35898b17c875f29d643cf402,",
+    "b": {
+      "fills": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:51"
+        }
+      ],
+      "letterSpacing": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:56"
+        }
+      ],
+      "fontSize": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:54"
+        }
+      ],
+      "fontStyle": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:53"
+        }
+      ],
+      "fontFamily": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:52"
+        }
+      ],
+      "lineHeight": [
+        {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:281:55"
+        }
+      ]
+    }
+  },
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "primitive",
+      "count": 151,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:0"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:6:148",
+      "name": "semantic",
+      "count": 112,
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "6:1"
+        }
+      ]
+    },
+    {
+      "id": "VariableCollectionId:11:2",
+      "name": "component",
+      "count": 207,
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "11:0"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "11:1"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "11:2"
+        },
+        {
+          "name": "Personas",
+          "modeId": "11:3"
+        }
+      ]
+    }
+  ]
+}

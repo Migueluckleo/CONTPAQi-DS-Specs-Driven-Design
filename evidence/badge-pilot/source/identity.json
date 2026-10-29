@@ -1,0 +1,486 @@
+{
+  "page": {
+    "id": "1234:53606",
+    "name": "❖ Badge"
+  },
+  "set": {
+    "id": "1234:65377",
+    "name": "badge",
+    "type": "COMPONENT_SET",
+    "key": "513e473ba6e072964f0d00a86e02a0e206070c8b",
+    "description": "BadgeEtiqueta breve y no interactiva que comunica el estado o una característica de un elemento (factura, póliza, recibo, empleado, cliente) sin interrumpir el flujo del usuario.\n\n\nPropiedades\ntype: neutral | subtle | info | success | warning | error.\nsize: small 20 px | medium 24 px | large 32 px.\nLabel: texto del estado.\nShow left icon / Left icon: ícono opcional a la izquierda; refuerza el significado (check, alerta, error, info).\nShow right icon / Right icon: ícono opcional a la derecha. Úsalo solo si aporta información (p. ej. candado = bloqueado); nunca como \"cerrar\".\n\n\nTipos y significado\nsuccess: proceso concluido correctamente — Vigente, Timbrado, Pagada, Cuadrada, Positiva.\nwarning: requiere atención pronto, sin bloquear — Por vencer, Pendiente de timbrar, Parcialmente pagada, En proceso de cancelación.\nerror: fallo, rechazo o estado negativo — Cancelado, Vencida, Descuadrada, Error de timbrado, Opinión negativa.\ninfo: estado en curso o informativo — En proceso, Enviado al SAT, Nuevo.\nsubtle: atributos y metadatos sin estado — PUE, PPD, MXN, Persona moral, Borrador. Funciona sobre cualquier fondo.\nneutral: igual que subtle pero sin borde; úsalo solo sobre superficies de color (subtle/muted). Sobre fondo blanco usa subtle.\nMantén el mismo significado en todos los productos: un mismo estado siempre usa el mismo tipo.\n\n\nTamaños recomendados\nsmall (20): celdas de tablas densas, listas compactas.\nmedium (24): tablas, tarjetas y listas. Tamaño estándar.\nlarge (32): encabezado de un detalle (factura, póliza, expediente del empleado).\nUsa un solo tamaño por tabla o lista.\n\n\nContenido para LATAM\nSentence case, sin mayúsculas sostenidas: \"Pendiente de timbrar\", no \"PENDIENTE DE TIMBRAR\".\n1 a 3 palabras, idealmente ≤ 20 caracteres. El español y el portugués ocupan ~30% más que el inglés: no diseñes el espacio pensando en textos en inglés.\nConcordancia de género y número con el objeto: Factura Pagada, Recibo Pagado, Pólizas Cuadradas.\nUsa la terminología oficial de cada autoridad fiscal: SAT (CFDI) en México, DIAN en Colombia, SII (DTE) en Chile, ARCA en Argentina, SEFAZ (NF-e) en Brasil.\nFechas en formato día-mes: \"Vence 15 oct\". Nunca MM/DD.\nMonedas con código ISO (MXN, USD, COP, CLP, ARS, BRL). No pongas montos dentro del badge.\nNo muestres datos personales o fiscales sensibles (RFC, CURP, NSS, CPF) dentro de un badge.\nNo truncar: si el texto no cabe, acórtalo o cambia a una Inline Notification.\n\n\nAccesibilidad\nEl color nunca es el único medio: el texto siempre describe el estado; el ícono es opcional y lo refuerza.\nContraste del texto (WCAG AA ≥ 4.5:1): neutral 17.9:1 · subtle 16.3:1 · info 5.2:1 · success 4.6:1 · warning 3.0:1 · error 4.6:1.\n⚠️ Excepción conocida: warning (color/feedback/warning/text = amber/600 sobre color/feedback/warning/bg) queda en 3.0:1 (2.96:1), por debajo de AA para texto (4.5:1). Acompaña siempre el badge warning con texto claro y, en estados críticos, con el ícono izquierdo.\nLos íconos son decorativos (aria-hidden); el lector de pantalla debe leer el Label en contexto, p. ej. \"Estado: Cancelado\".\nNo es enfocable ni interactivo. Si en una tabla el estado cambia en tiempo real, anúncialo con una región aria-live.\n\n\nDo / Don't\n✅ Un estado = un tipo, en todos los productos.\n✅ Usa el ícono izquierdo para reforzar estados críticos (error, warning).\n✅ Usa subtle para metadatos como PUE/PPD o moneda.\n❌ No uses neutral sobre fondo blanco.\n❌ No combines varios badges de estado en el mismo elemento; muestra el más relevante.\n❌ No lo uses como botón ni agregues un ícono de cerrar.\n❌ No cambies colores manualmente ni escales el componente; usa type y size.\n\n\nTokens\nFondo color/background/default · color/background/subtle · color/feedback/{information|positive|warning|danger}/bg · Texto color/text/primary · color/feedback//text · Ícono color/icon/primary · color/feedback//icon · Borde (subtle) color/border/strong + stroke/xs · Radio radius/sm · Padding spacing/none | xs | sm | md · Gap spacing/xs · Tipografía font/family/base Regular, font/size/xs | sm, font/line-height/xs | sm | md · Íconos size/md | size/lg · Alto máx. size/2xl | size/3xl.",
+    "properties": [
+      {
+        "name": "Show right icon#1234:0",
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredCount": 0
+      },
+      {
+        "name": "Show left icon#1234:7",
+        "type": "BOOLEAN",
+        "defaultValue": false,
+        "preferredCount": 0
+      },
+      {
+        "name": "Label#1241:27",
+        "type": "TEXT",
+        "defaultValue": "Label",
+        "preferredCount": 0
+      },
+      {
+        "name": "Left icon#2817:26",
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "2883:23475",
+        "preferredCount": 1512
+      },
+      {
+        "name": "Right icon#2817:33",
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "2883:23475",
+        "preferredCount": 1512
+      },
+      {
+        "name": "type",
+        "type": "VARIANT",
+        "defaultValue": "neutral",
+        "variantOptions": [
+          "error",
+          "info",
+          "subtle",
+          "success",
+          "warning",
+          "neutral"
+        ],
+        "preferredCount": 0
+      },
+      {
+        "name": "size",
+        "type": "VARIANT",
+        "defaultValue": "large",
+        "variantOptions": [
+          "large",
+          "medium",
+          "small"
+        ],
+        "preferredCount": 0
+      }
+    ],
+    "variants": [
+      {
+        "id": "8851:26598",
+        "name": "type=error, size=large",
+        "width": 59,
+        "height": 32,
+        "children": [
+          {
+            "id": "8851:26599",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26600",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26601",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "1234:65375",
+        "name": "type=error, size=medium",
+        "width": 46,
+        "height": 24,
+        "children": [
+          {
+            "id": "1234:66892",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "1234:65345",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "1234:66937",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26593",
+        "name": "type=error, size=small",
+        "width": 46,
+        "height": 20,
+        "children": [
+          {
+            "id": "8851:26594",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26595",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26596",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26588",
+        "name": "type=warning, size=large",
+        "width": 59,
+        "height": 32,
+        "children": [
+          {
+            "id": "8851:26589",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26590",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26591",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "1234:65372",
+        "name": "type=warning, size=medium",
+        "width": 46,
+        "height": 24,
+        "children": [
+          {
+            "id": "1234:66885",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "1234:65317",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "1234:66934",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26583",
+        "name": "type=warning, size=small",
+        "width": 46,
+        "height": 20,
+        "children": [
+          {
+            "id": "8851:26584",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26585",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26586",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26608",
+        "name": "type=success, size=large",
+        "width": 59,
+        "height": 32,
+        "children": [
+          {
+            "id": "8851:26609",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26610",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26611",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "1234:65371",
+        "name": "type=success, size=medium",
+        "width": 46,
+        "height": 24,
+        "children": [
+          {
+            "id": "1234:66895",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "1234:65359",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "1234:66940",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26603",
+        "name": "type=success, size=small",
+        "width": 46,
+        "height": 20,
+        "children": [
+          {
+            "id": "8851:26604",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26605",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26606",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26578",
+        "name": "type=info, size=large",
+        "width": 59,
+        "height": 32,
+        "children": [
+          {
+            "id": "8851:26579",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26580",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26581",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "1234:65373",
+        "name": "type=info, size=medium",
+        "width": 46,
+        "height": 24,
+        "children": [
+          {
+            "id": "1234:66882",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "1234:65331",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "1234:66931",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26573",
+        "name": "type=info, size=small",
+        "width": 46,
+        "height": 20,
+        "children": [
+          {
+            "id": "8851:26574",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26575",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26576",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26568",
+        "name": "type=subtle, size=large",
+        "width": 59,
+        "height": 32,
+        "children": [
+          {
+            "id": "8851:26569",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26570",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26571",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "1234:65374",
+        "name": "type=subtle, size=medium",
+        "width": 46,
+        "height": 24,
+        "children": [
+          {
+            "id": "1234:66879",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "1234:65313",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "1234:66928",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26563",
+        "name": "type=subtle, size=small",
+        "width": 46,
+        "height": 20,
+        "children": [
+          {
+            "id": "8851:26564",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26565",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26566",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26558",
+        "name": "type=neutral, size=large",
+        "width": 59,
+        "height": 32,
+        "children": [
+          {
+            "id": "8851:26559",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26560",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26561",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "8851:26553",
+        "name": "type=neutral, size=small",
+        "width": 46,
+        "height": 20,
+        "children": [
+          {
+            "id": "8851:26554",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "8851:26555",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "8851:26556",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      },
+      {
+        "id": "1234:65376",
+        "name": "type=neutral, size=medium",
+        "width": 46,
+        "height": 24,
+        "children": [
+          {
+            "id": "1234:66861",
+            "name": "Left icon",
+            "type": "INSTANCE"
+          },
+          {
+            "id": "1234:65309",
+            "name": "Label",
+            "type": "TEXT"
+          },
+          {
+            "id": "1234:66925",
+            "name": "Right icon",
+            "type": "INSTANCE"
+          }
+        ]
+      }
+    ]
+  }
+}

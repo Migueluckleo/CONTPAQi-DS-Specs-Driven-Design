@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "phase": "component-contract-and-figma-pilots",
+  "allowed_contract_profiles": [
+    "foundation",
+    "component",
+    "operational"
+  ],
+  "allowed_token_layers": [
+    "primitive",
+    "semantic",
+    "component"
+  ],
+  "figma_access": "SOURCE_READ_ONLY_DESTINATION_REGISTERED_FAMILIES_AND_INPUT_BADGE_SUBSET_SCOPED_WRITE",
+  "historical_project_access": "READ_ONLY",
+  "normative_import": "EXPLICIT_CATALOG_AND_HASH_ONLY",
+  "component_content": "REGISTERED_FAMILIES_PLUS_INPUT_AND_BADGE_SUBTLE_SMALL_ONLY",
+  "graphify": "OPTIONAL_NOT_IMPLEMENTED",
+  "layer_edges": {
+    "primitive": [],
+    "semantic": [
+      "primitive"
+    ],
+    "component": [
+      "semantic"
+    ]
+  },
+  "max_mode_combinations": 256,
+  "default_context_bytes": 65536,
+  "source_file": {
+    "key": "9zs5RMR8LB5wHjW9Bd59BA",
+    "node": "268:20245"
+  },
+  "destination_file": {
+    "key": "98xEw6sK8FRVNEhopM5SSz",
+    "node": "0:1"
+  },
+  "gates": {
+    "editorial": [
+      "structure",
+      "references",
+      "scope-review"
+    ],
+    "contract": [
+      "structure",
+      "references",
+      "authority",
+      "dependencies",
+      "requirements-review",
+      "affected-target-qa",
+      "component-token-minimization",
+      "component-variable-naming",
+      "operational-contracts",
+      "component-theme-behavior",
+      "component-reverse-dependency-reuse"
+    ],
+    "token": [
+      "structure",
+      "provenance",
+      "aliases-types-modes-cycles",
+      "consumer-impact",
+      "affected-target-qa",
+      "component-token-minimization",
+      "component-variable-naming",
+      "component-theme-behavior",
+      "component-reverse-dependency-reuse"
+    ],
+    "adapter": [
+      "capabilities",
+      "preservation",
+      "retry-readback",
+      "affected-target-qa",
+      "component-token-minimization",
+      "component-variable-naming",
+      "component-theme-behavior",
+      "component-reverse-dependency-reuse"
+    ],
+    "tooling": [
+      "unit-tests",
+      "negative-cases",
+      "determinism",
+      "phase-boundaries",
+      "operational-contracts"
+    ],
+    "evidence": [
+      "integrity",
+      "provenance",
+      "scope-review"
+    ]
+  },
+  "agent_roles": {
+    "coordinator": {
+      "purpose": "Alcance, integración y cierre",
+      "activation": "task",
+      "default_access": "read"
+    },
+    "analyst": {
+      "purpose": "Fuentes, requisitos y conflictos",
+      "activation": "domain-change",
+      "default_access": "read"
+    },
+    "builder": {
+      "purpose": "Construcción en un destino autorizado",
+      "activation": "authorized-build",
+      "default_access": "scoped-write"
+    },
+    "verifier": {
+      "purpose": "Revisión independiente para cambios de alto impacto",
+      "activation": "high-impact-or-flow-change",
+      "default_access": "read-and-test"
+    },
+    "optimizer": {
+      "purpose": "Experimentos comparables sobre un problema medido",
+      "activation": "measured-need",
+      "default_access": "read-and-benchmark"
+    }
+  },
+  "deferred": [
+    "figma-write-adapter",
+    "react-library",
+    "graphify-adapter",
+    "persistent-agent-office",
+    "release-publication"
+  ],
+  "module_ownership": {
+    "governance": "Política y decisiones; no contiene valores de diseño",
+    "norms": "Catálogo explícito de contratos y conjuntos de tokens vigentes",
+    "schemas": "Estructura automatizable por perfil y datos",
+    "blueheart": "Lectura segura, validación, resolución, impacto y contexto",
+    "evidence": "Fuentes observadas y comprobantes; no habilitan normas por sí solos",
+    "tests": "Casos sintéticos aislados; no contenido normativo del DS",
+    "auditoria": "Diagnóstico y antecedentes de decisión; no se ingieren como contratos",
+    "protocols": "Contratos operativos MD registrados en el catálogo; un propietario por protocolo, sin valores del DS ni permisos adicionales de construcción",
+    "docs/releases": "Registros derivados por envío, evidencias de pruebas y configuración CI de BH-P08; no constituye otro contrato normativo",
+    ".github": "CI de BH-P08 con permisos de lectura; notas, comprobante y PDF derivados sin autocommits"
+  },
+  "token_collections": {
+    "primitive": "primitive",
+    "semantic": "semantic",
+    "component": "component"
+  }
+}

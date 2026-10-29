@@ -9,9 +9,9 @@
   },
   "token_set": {
     "id": "BLUEHEART-TOKENS",
-    "version": "6.0.0",
-    "path": "norms/tokens/blueheart.6.0.0.json",
-    "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
+    "version": "6.1.0",
+    "path": "norms/tokens/blueheart.6.1.0.json",
+    "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8",
     "current": true
   },
   "tokens": [
@@ -542,10 +542,10 @@
     }
   ],
   "semanticIds": {
-    "semantic.brand-personas-default": "VariableID:6:184",
-    "semantic.brand-administrativo-default": "VariableID:6:163",
     "semantic.brand-servicios-default": "VariableID:6:177",
     "semantic.brand-default": "VariableID:6:154",
+    "semantic.brand-administrativo-default": "VariableID:6:163",
+    "semantic.brand-personas-default": "VariableID:6:184",
     "semantic.neutral-strong": "VariableID:6:171",
     "semantic.neutral-maximum": "VariableID:6:174",
     "semantic.neutral-base": "VariableID:6:166",
