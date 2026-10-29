@@ -3,17 +3,17 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "BADGE-001",
-    "version": "1.0.0",
-    "path": "norms/components/badge.1.0.0.md",
-    "sha256": "8ce90583c08343028fc6cd42a5f16d0b23af2b921d34aca9c4f9fcd8caf27985",
+    "version": "1.1.0",
+    "path": "norms/components/badge.1.1.0.md",
+    "sha256": "3cd9ab5c4a45a084edfd14525d0ef4b0637c9fb6ea5a6784b8b80b94f2df3cce",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "6.0.0",
-      "path": "norms/tokens/blueheart.6.0.0.json",
-      "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
+      "version": "6.1.0",
+      "path": "norms/tokens/blueheart.6.1.0.json",
+      "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8",
       "current": true
     }
   ],
@@ -321,19 +321,571 @@
         }
       },
       "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-bg-error",
+      "nativeId": "VariableID:326:5",
+      "nativeKey": "b5b464b2d666a6085eac250dcae8f9a59cd0683d",
+      "figmaName": "badge/color/bg/error",
+      "name": "--badge-color-bg-error",
+      "web": "var(--badge-color-bg-error)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.danger-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.danger-subtle"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.spacing-compact",
+      "nativeId": "VariableID:326:6",
+      "nativeKey": "db4727170d9f63b3e9e7a2a60956ab8662289726",
+      "figmaName": "badge/spacing/compact",
+      "name": "--badge-spacing-compact",
+      "web": "var(--badge-spacing-compact)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-text-error",
+      "nativeId": "VariableID:326:7",
+      "nativeKey": "e93a35f6abbec5ead53be5f7a9041be8b9483be7",
+      "figmaName": "badge/color/text/error",
+      "name": "--badge-color-text-error",
+      "web": "var(--badge-color-text-error)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.danger-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-default"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-default"
+        },
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.size-icon-small",
+      "nativeId": "VariableID:326:8",
+      "nativeKey": "05fd3175ada7a2fe7c9db7b0301705c2cad2da67",
+      "figmaName": "badge/size/icon-small",
+      "name": "--badge-size-icon-small",
+      "web": "var(--badge-size-icon-small)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-md"
+        },
+        "Servicios": {
+          "alias": "semantic.size-md"
+        },
+        "Personas": {
+          "alias": "semantic.size-md"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-icon-error",
+      "nativeId": "VariableID:326:9",
+      "nativeKey": "baf441c6ab0609ca1152ac8f6f2038b329c0d10a",
+      "figmaName": "badge/color/icon/error",
+      "name": "--badge-color-icon-error",
+      "web": "var(--badge-color-icon-error)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.danger-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-default"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-default"
+        },
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-bg-warning",
+      "nativeId": "VariableID:326:10",
+      "nativeKey": "de35f433597a5770bbedfda2ad56cf610871492f",
+      "figmaName": "badge/color/bg/warning",
+      "name": "--badge-color-bg-warning",
+      "web": "var(--badge-color-bg-warning)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.warning-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.warning-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.warning-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.warning-subtle"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-text-warning",
+      "nativeId": "VariableID:326:11",
+      "nativeKey": "87624ab63e80e9b7f62d16fdc4e0b1d382d01e95",
+      "figmaName": "badge/color/text/warning",
+      "name": "--badge-color-text-warning",
+      "web": "var(--badge-color-text-warning)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.warning-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.warning-default"
+        },
+        "Servicios": {
+          "alias": "semantic.warning-default"
+        },
+        "Personas": {
+          "alias": "semantic.warning-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-icon-warning",
+      "nativeId": "VariableID:326:12",
+      "nativeKey": "cf1a453ca87b993b739bea0f4ebdc8b0c5eae2b1",
+      "figmaName": "badge/color/icon/warning",
+      "name": "--badge-color-icon-warning",
+      "web": "var(--badge-color-icon-warning)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.warning-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.warning-default"
+        },
+        "Servicios": {
+          "alias": "semantic.warning-default"
+        },
+        "Personas": {
+          "alias": "semantic.warning-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-bg-success",
+      "nativeId": "VariableID:326:13",
+      "nativeKey": "7ee317861c1228368587da01901e6f7830c73cfe",
+      "figmaName": "badge/color/bg/success",
+      "name": "--badge-color-bg-success",
+      "web": "var(--badge-color-bg-success)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.positive-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.positive-subtle"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-text-success",
+      "nativeId": "VariableID:326:14",
+      "nativeKey": "24a136b8ea6192f024c3cfd06269477d308ab65f",
+      "figmaName": "badge/color/text/success",
+      "name": "--badge-color-text-success",
+      "web": "var(--badge-color-text-success)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.positive-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-default"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-default"
+        },
+        "Personas": {
+          "alias": "semantic.positive-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-icon-success",
+      "nativeId": "VariableID:326:15",
+      "nativeKey": "14eac21e11cbed4aea5004f6871c5506515add1a",
+      "figmaName": "badge/color/icon/success",
+      "name": "--badge-color-icon-success",
+      "web": "var(--badge-color-icon-success)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.positive-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-default"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-default"
+        },
+        "Personas": {
+          "alias": "semantic.positive-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-bg-info",
+      "nativeId": "VariableID:326:16",
+      "nativeKey": "e394e4047b8de613a23c35ed1c3bf946f4adbca4",
+      "figmaName": "badge/color/bg/info",
+      "name": "--badge-color-bg-info",
+      "web": "var(--badge-color-bg-info)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.information-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.information-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.information-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.information-subtle"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-text-info",
+      "nativeId": "VariableID:326:17",
+      "nativeKey": "bc08d66b7410d083866fa8d6598d04be4de8fedb",
+      "figmaName": "badge/color/text/info",
+      "name": "--badge-color-text-info",
+      "web": "var(--badge-color-text-info)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.information-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.information-default"
+        },
+        "Servicios": {
+          "alias": "semantic.information-default"
+        },
+        "Personas": {
+          "alias": "semantic.information-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-icon-info",
+      "nativeId": "VariableID:326:18",
+      "nativeKey": "975e7a3039963cbd1cedfc0f4cbb5f983562d84f",
+      "figmaName": "badge/color/icon/info",
+      "name": "--badge-color-icon-info",
+      "web": "var(--badge-color-icon-info)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.information-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.information-default"
+        },
+        "Servicios": {
+          "alias": "semantic.information-default"
+        },
+        "Personas": {
+          "alias": "semantic.information-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-icon-subtle",
+      "nativeId": "VariableID:326:19",
+      "nativeKey": "83f287681c84a8823c571df588bf22a5958d800b",
+      "figmaName": "badge/color/icon/subtle",
+      "name": "--badge-color-icon-subtle",
+      "web": "var(--badge-color-icon-subtle)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.color-bg-neutral",
+      "nativeId": "VariableID:326:20",
+      "nativeKey": "f25a3c678435bb9e936ff3cc0720d44ee05d20b5",
+      "figmaName": "badge/color/bg/neutral",
+      "name": "--badge-color-bg-neutral",
+      "web": "var(--badge-color-bg-neutral)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.size-height-medium",
+      "nativeId": "VariableID:326:21",
+      "nativeKey": "8a49bdc128b736ed40f9a24e5dd6ddfc4e8639a7",
+      "figmaName": "badge/size/height-medium",
+      "name": "--badge-size-height-medium",
+      "web": "var(--badge-size-height-medium)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-2xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-2xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-2xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-2xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.font-line-height-medium",
+      "nativeId": "VariableID:326:22",
+      "nativeKey": "f6607109632da95468d75f371f6ae6579f196efa",
+      "figmaName": "badge/font/line-height-medium",
+      "name": "--badge-font-line-height-medium",
+      "web": "var(--badge-font-line-height-medium)",
+      "scope": "LINE_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-xs"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.size-icon-regular",
+      "nativeId": "VariableID:326:23",
+      "nativeKey": "8f3971f3f77ad5373a267e943d1b1922c0257a21",
+      "figmaName": "badge/size/icon-regular",
+      "name": "--badge-size-icon-regular",
+      "web": "var(--badge-size-icon-regular)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.spacing-large",
+      "nativeId": "VariableID:326:24",
+      "nativeKey": "efb68c409a212852b80fabed6cc56a87d23c43a6",
+      "figmaName": "badge/spacing/large",
+      "name": "--badge-spacing-large",
+      "web": "var(--badge-spacing-large)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-md"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-md"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-md"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.size-height-large",
+      "nativeId": "VariableID:326:25",
+      "nativeKey": "fd2d222e0aed30c03c22545934419d50993c5b65",
+      "figmaName": "badge/size/height-large",
+      "name": "--badge-size-height-large",
+      "web": "var(--badge-size-height-large)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-3xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-3xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-3xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-3xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.font-size-large",
+      "nativeId": "VariableID:326:26",
+      "nativeKey": "755508550573a3eceb8253b009d2a02da128e760",
+      "figmaName": "badge/font/size-large",
+      "name": "--badge-font-size-large",
+      "web": "var(--badge-font-size-large)",
+      "scope": "FONT_SIZE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-sm"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "badge.font-line-height-large",
+      "nativeId": "VariableID:326:27",
+      "nativeKey": "0a404115ffadc71b26e0d38a9065e2f6cfe79e3f",
+      "figmaName": "badge/font/line-height-large",
+      "name": "--badge-font-line-height-large",
+      "web": "var(--badge-font-line-height-large)",
+      "scope": "LINE_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-line-height-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-md"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-md"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-md"
+        }
+      },
+      "themeBehavior": "INVARIANT"
     }
   ],
   "nativeLedger": {
     "path": "consumption/badge/current-native-ledger.json",
-    "sha256": "b3b916b8afd50bf3984d463d4b89d58f7e5ad1b26214b03880f9e510c5e6cb40"
+    "sha256": "80e24537e221d12d770ea3f9ec3ad19bd7915302be14774ae77f9e7814d885d6"
   },
   "build_plan": "current-build-plan.json",
   "minimum": "token-minimum.json",
   "variable_map": "variable-map.csv",
   "binding_map": "binding-map.csv",
   "qa": {
-    "path": "evidence/qa/input-pilot-check.json",
-    "sha256": "17856dc17ac3699cf62764d11243376f78531461c4daa42dacd223c99ae6a1f7"
+    "path": "evidence/qa/badge-pilot-check.json",
+    "sha256": "cec810224479d5a8f605313d8c5068cb6fcf0f83f32d58d4171ed31c8e7764b8"
   },
   "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
   "web_implementation": "NOT_IMPLEMENTED"

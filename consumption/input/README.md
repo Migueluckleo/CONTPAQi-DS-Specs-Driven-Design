@@ -1,6 +1,6 @@
 # Consumir Input
 
-Consultar `python3 -B -m blueheart check` y `python3 -B -m blueheart context INPUT-001 --compact --modes '{"component":"Contable"}'`. El [contrato MD](../../norms/components/input.2.0.0.md) gobierna diseño y comportamiento; el [manifiesto](manifest.json) fija sus hashes y dependencias.
+Consultar `python3 -B -m blueheart check` y `python3 -B -m blueheart context INPUT-001 --compact --modes '{"component":"Contable"}'`. El [contrato MD](../../norms/components/input.2.0.1.md) gobierna diseño y comportamiento; el [manifiesto](manifest.json) fija sus hashes y dependencias.
 
 La página [Input](https://www.figma.com/design/98xEw6sK8FRVNEhopM5SSz/Blue-Heart-DS?node-id=281-62) conserva 42 combinaciones. El [ledger](current-native-ledger.json) resuelve los sets Input/empty e Input/filled, sus propiedades nativas y la matriz size/status. La [receta](current-build-plan.json), el [mínimo](token-minimum.json), las [variables](variable-map.csv) y los [bindings](binding-map.csv) son proyecciones reproducibles del contrato y del registro.
 
@@ -10,4 +10,6 @@ El [QA baseline de geometría y API](../../evidence/qa/input-pilot-check.json) e
 
 `python3 -B consumption/input/materialize-consumption.py` reproduce los índices desde sus propietarios y la evidencia nativa; no escribe en Figma. El builder específico exige el destino y una bitácora por operación; no es un adaptador general ni puede ejecutarse para reconstruir automáticamente páginas existentes.
 
-La corrección [ADR-024](../../evidence/icon-color-audit/README.md) enlaza la paridad de iconos con su tipografía, el [QA vigente](../../evidence/qa/icon-color-audit-check.json) y la migración de tokens. El MD seleccionado conserva la regla; los snapshots anteriores son historia.
+La corrección [ADR-024](../../evidence/icon-color-audit/README.md) enlaza la paridad de iconos con su tipografía, el [QA cromático](../../evidence/qa/icon-color-audit-check.json) y la migración de tokens. El MD seleccionado conserva la regla; los snapshots anteriores son historia.
+
+El [QA de la dependencia actual](../../evidence/qa/badge-pilot-check.json) y el [mapa ADR-025](../../evidence/badge-pilot/migration-map.json) acreditan Badge 1.1.0, los 113 usos preservados y la prueba desde cada Input/tema.

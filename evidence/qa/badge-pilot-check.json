@@ -1,0 +1,353 @@
+{
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decision": "ADR-025",
+  "authority": {
+    "path": "evidence/authorization/badge-full-request.txt",
+    "sha256": "e330c5190cc3518dc0f1085283ce58d206729c52cb5e17889159d463567a895e"
+  },
+  "contracts": [
+    {
+      "id": "BADGE-001",
+      "version": "1.1.0",
+      "path": "norms/components/badge.1.1.0.md",
+      "sha256": "3cd9ab5c4a45a084edfd14525d0ef4b0637c9fb6ea5a6784b8b80b94f2df3cce",
+      "current": true
+    },
+    {
+      "id": "INPUT-001",
+      "version": "2.0.1",
+      "path": "norms/components/input.2.0.1.md",
+      "sha256": "de7af614b979f0cfb93825440de691e352d8a18b73acfa572be2caf54c008366",
+      "current": true
+    }
+  ],
+  "tokenSet": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "6.1.0",
+    "path": "norms/tokens/blueheart.6.1.0.json",
+    "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8",
+    "current": true
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "281:63",
+    "setId": "282:3",
+    "reviewFrameId": "332:234"
+  },
+  "counts": {
+    "variants": 18,
+    "tokens": 35,
+    "newNativeVariables": 23,
+    "retainedNativeVariables": 12,
+    "totalTokens": 493,
+    "collections": 3,
+    "bindingUses": 360,
+    "nativeCases": 288,
+    "swapCases": 216,
+    "colorPairs": 1008,
+    "inputCases": 168,
+    "inputLabelEdits": 504,
+    "previousInputInstances": 113,
+    "previousBadgeInstances": 3
+  },
+  "checks": [
+    {
+      "requirement": "REQ-QA",
+      "name": "variant-mode-visibility-content",
+      "status": "PASS",
+      "cases": 288,
+      "evidence": [
+        {
+          "path": "evidence/badge-pilot/after/qa-neutral.json",
+          "sha256": "4b2aa600971fac770acb5f6ed09689915949bd2be1414d9aada0950db56ce6c8"
+        },
+        {
+          "path": "evidence/badge-pilot/after/qa-subtle.json",
+          "sha256": "98208dda7b6a8c3b314c755ed633136149b66af3d9e9dc297a9e0be42ba39278"
+        },
+        {
+          "path": "evidence/badge-pilot/after/qa-info.json",
+          "sha256": "23faeb4b449b39fab14ed301be93dd64e898de37ff9252fa8623fae05822490f"
+        },
+        {
+          "path": "evidence/badge-pilot/after/qa-success.json",
+          "sha256": "5f05e3ff566a3c23917f71686cee456db5c5da0e6b3a2dbe53aa7f2286b9045b"
+        },
+        {
+          "path": "evidence/badge-pilot/after/qa-warning.json",
+          "sha256": "8883b9f6226ff72538107d8a4e5cc2813d52cbb37ec2a6ba7a968fe78548446d"
+        },
+        {
+          "path": "evidence/badge-pilot/after/qa-error.json",
+          "sha256": "7f1311a69f50627a221fec4de46f0c178ded59aa12a6b3b7b7ff2f1a5b1f4285"
+        }
+      ]
+    },
+    {
+      "requirement": "REQ-ICONS",
+      "name": "remote-swaps-size-and-parity",
+      "status": "PASS",
+      "cases": 216,
+      "colorPairs": 1008
+    },
+    {
+      "requirement": "REQ-TOKENS",
+      "name": "native-bindings-and-minimum",
+      "status": "PASS",
+      "bindings": 360,
+      "tokens": 35,
+      "added": 23,
+      "retained": 12
+    },
+    {
+      "requirement": "REQ-CONSUMERS",
+      "name": "previous-input-and-badge-preservation",
+      "status": "PASS",
+      "inputInstances": 113,
+      "badgeInstances": 3
+    },
+    {
+      "requirement": "REQ-CONSUMERS",
+      "name": "input-property-and-currency-exercise",
+      "status": "PASS",
+      "cases": 168,
+      "labelEdits": 504
+    },
+    {
+      "requirement": "REQ-QA",
+      "name": "visual-review",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/badge-pilot/after/badge.png",
+        "sha256": "7d4767ad0df246b276beafc95cb97001673be4731f8ed719598f8e9531e62ac8"
+      },
+      "notes": "Normal-scale review; targeted fix made documentation cells hug their contents and neutral examples use a colored surface. Last screenshot is final."
+    },
+    {
+      "requirement": "REQ-A11Y",
+      "name": "warning-contrast",
+      "status": "PASS_WITH_DOCUMENTED_EXCEPTION",
+      "ratio": 2.9622195277295913,
+      "threshold": 4.5,
+      "authority": {
+        "path": "evidence/authorization/badge-full-request.txt",
+        "sha256": "e330c5190cc3518dc0f1085283ce58d206729c52cb5e17889159d463567a895e"
+      }
+    },
+    {
+      "requirement": "REQ-API",
+      "name": "interactive-playback",
+      "status": "NOT_APPLICABLE",
+      "reason": "Badge is non-interactive; source and destination reactions are empty. Property editing was exercised natively. Text entry/ARIA/keyboard remain future host implementation."
+    }
+  ],
+  "independent_review": "NOT_RUN",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "infrastructure": {
+    "status": "PASS",
+    "tests": 124,
+    "evidence": {
+      "path": "evidence/badge-pilot/infrastructure-tests.txt",
+      "sha256": "68a29ab32ab833a9b9d1a0b47364c471304ad2d851f831c69c35ff4f914e4740"
+    }
+  },
+  "evidence": [
+    {
+      "path": "evidence/badge-pilot/after/components.json",
+      "sha256": "cbcf19d9c1115ba110f028f10a0df9b88ecdb4d5caadf77a86cdce6ba5230fe7"
+    },
+    {
+      "path": "evidence/badge-pilot/after/contrast.json",
+      "sha256": "0d562c380c2367e6e1a92b6d272d27cc9da51c774dc2a6f2255833097f88d676"
+    },
+    {
+      "path": "evidence/badge-pilot/after/foundations.json",
+      "sha256": "2ee7f2991f1a41c7e03c3a1f86c19d1519ae6cb4e34b0e8580d23f30a4d2d690"
+    },
+    {
+      "path": "evidence/badge-pilot/after/input-documentation.json",
+      "sha256": "bf00788e96055466b72a5295ee3b3d8d7735b4f9bb52f933c0d42d05cbe786ba"
+    },
+    {
+      "path": "evidence/badge-pilot/after/input-instances-1.json",
+      "sha256": "a277247cea2ed80cddafa9bcdef6b3f38120703e4ae1456df5e3953f2fd70e0e"
+    },
+    {
+      "path": "evidence/badge-pilot/after/input-instances-2.json",
+      "sha256": "9c63efcc92f4519300509178080af851d09d4a73514bb8b1ebd8a88783543ece"
+    },
+    {
+      "path": "evidence/badge-pilot/after/input-instances-3.json",
+      "sha256": "f08db2e6b1f8ed45a722dffd747575fdacb311b6fa994075ccf45c2713c4cead"
+    },
+    {
+      "path": "evidence/badge-pilot/after/input-preservation.json",
+      "sha256": "675a9d4957c16ce572a388820f08226674f3234eca19c1a6d22079951ad25012"
+    },
+    {
+      "path": "evidence/badge-pilot/after/master-bindings.json",
+      "sha256": "2a438028fa4d3a4eadecfa5c5b29c61af431429b4d0a4f052dda0e7ea6c8a1e4"
+    },
+    {
+      "path": "evidence/badge-pilot/after/qa-error.json",
+      "sha256": "7f1311a69f50627a221fec4de46f0c178ded59aa12a6b3b7b7ff2f1a5b1f4285"
+    },
+    {
+      "path": "evidence/badge-pilot/after/qa-info.json",
+      "sha256": "23faeb4b449b39fab14ed301be93dd64e898de37ff9252fa8623fae05822490f"
+    },
+    {
+      "path": "evidence/badge-pilot/after/qa-neutral.json",
+      "sha256": "4b2aa600971fac770acb5f6ed09689915949bd2be1414d9aada0950db56ce6c8"
+    },
+    {
+      "path": "evidence/badge-pilot/after/qa-subtle.json",
+      "sha256": "98208dda7b6a8c3b314c755ed633136149b66af3d9e9dc297a9e0be42ba39278"
+    },
+    {
+      "path": "evidence/badge-pilot/after/qa-success.json",
+      "sha256": "5f05e3ff566a3c23917f71686cee456db5c5da0e6b3a2dbe53aa7f2286b9045b"
+    },
+    {
+      "path": "evidence/badge-pilot/after/qa-warning.json",
+      "sha256": "8883b9f6226ff72538107d8a4e5cc2813d52cbb37ec2a6ba7a968fe78548446d"
+    },
+    {
+      "path": "evidence/badge-pilot/after/reverse-after.json",
+      "sha256": "5c6cf58c6e52766b2c4c01a98d2b60d6c7ea09dbba9261a08814e12a8d0a44f4"
+    },
+    {
+      "path": "evidence/badge-pilot/after/showcase-fix.json",
+      "sha256": "5da4da7fa68390180f39256f6542e2adefb2c51aed7661c9b4d47f2b2c883c60"
+    },
+    {
+      "path": "evidence/badge-pilot/after/showcase.json",
+      "sha256": "43039576d16521d69b5266eb12bd0b80c3a6cb30247f99556768927c7a4885d8"
+    },
+    {
+      "path": "evidence/badge-pilot/source/component-contract.md",
+      "sha256": "c48746d058b12d453d5b779464f3f9663d476174e4aaba7c420943ee88dc7835"
+    },
+    {
+      "path": "evidence/badge-pilot/source/component-contract.yaml",
+      "sha256": "ad880f2ab03168022bc131b73429ea33a87a779d81243d54dfd35d51c2e29d14"
+    },
+    {
+      "path": "evidence/badge-pilot/source/example-icons.json",
+      "sha256": "5b8dc83f7d5c215a4b304f81b13db43c2a64909c27e071cb1001c601163b2b63"
+    },
+    {
+      "path": "evidence/badge-pilot/source/examples.json",
+      "sha256": "5e2a504323e6986be30cf316adcb2fceb875e5d61e2ad28e3ee50ed933b6ccf2"
+    },
+    {
+      "path": "evidence/badge-pilot/source/identity-details.json",
+      "sha256": "e3b591c5896542a98b1ae89509aa7a167ac1f9eff5880c1a74a51d81547ce434"
+    },
+    {
+      "path": "evidence/badge-pilot/source/identity.json",
+      "sha256": "7f07f4e70ceb8ff4fc4dedc2ef7dd6db50d1fb5047f5498ace1d4897dd93e8e9"
+    },
+    {
+      "path": "evidence/badge-pilot/source/large.json",
+      "sha256": "db67a4d3c16affe23b6f2526e862df1a817392494063eeb3bc76e57bfc37e8a5"
+    },
+    {
+      "path": "evidence/badge-pilot/source/medium.json",
+      "sha256": "7ac82eb8114f0768101f516258a54c9defb0edfee91ff451d5deee99de085732"
+    },
+    {
+      "path": "evidence/badge-pilot/source/resolved-values.json",
+      "sha256": "36dc13d352788ab8edf5f580960de5ec527efdf97ab3082ea50c73a10edc6f75"
+    },
+    {
+      "path": "evidence/badge-pilot/source/small.json",
+      "sha256": "58b6b89453bf3ae2e01870c56442878a2c2a25068659c0f2eb934931b62f5236"
+    },
+    {
+      "path": "evidence/badge-pilot/source/variables-and-notes.json",
+      "sha256": "cc46e423fb350730e7941e6e234b00faf9f20ac649f9c2ab7650bb2afc51b170"
+    },
+    {
+      "path": "evidence/badge-pilot/source/variables-remaining.json",
+      "sha256": "0247f9939e908937a5f8174e80d7d74a2b2fd301d745971417f51cb3bd802bcc"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-0-1.json",
+      "sha256": "6c8039ee74ff93cf2effd1c5c627f3e0973db1a15c10cf18dd1ab19350daaf7c"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-11-128.json",
+      "sha256": "4df5dc4aa8c8fb068487809b783bba124fbe4eb21c10216dc6dd5ddb9a333e54"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-145-42.json",
+      "sha256": "27d558453de0db7b8c932d2546d71dc6ee8910650feb9b9c26424ba6e9832930"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-149-639.json",
+      "sha256": "b9a0669d6a0bddfa725725d3d3a9cb784aee0d4438f2328048c3fe6facd33836"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-201-1543.json",
+      "sha256": "9848ffcb838d640b7e6a07ac50c468137377f9ac3d43d2676f228defe5a0d6e3"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-245-19.json",
+      "sha256": "d36b76e5a99117c26e62583f6c464c38cedca00602f0af550e164ec574f7a019"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-281-62.json",
+      "sha256": "9d69ccefb99b3e42dab14c3a42cc361480f60666d319165c12b17b162f5a9cfc"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-281-63.json",
+      "sha256": "09c975239fc01e1b985485b29edfbff362950a3fb50f867f9a0c50c2622fdadd"
+    },
+    {
+      "path": "evidence/badge-pilot/before/consumers-78-97.json",
+      "sha256": "6bb9ffc0c5b2f62f5884260b12f602593acbc671fe2035ddfd3947d052734ac8"
+    },
+    {
+      "path": "evidence/badge-pilot/before/identity.json",
+      "sha256": "e845d0f74bba16a8c5efa8496a5839529b40da499285ad287cde4493942b05c9"
+    },
+    {
+      "path": "evidence/badge-pilot/migration-map.json",
+      "sha256": "49a1657fa1a0a1f610edaa5bd2f5d2a58665a8adeb99d84a9eb50a20349c30f2"
+    },
+    {
+      "path": "evidence/badge-pilot/history/manifest.json",
+      "sha256": "b003c454841d8dd91c0379d481be28c5f77c44328656fae240f8be534fbec49c"
+    },
+    {
+      "path": "evidence/badge-pilot/after/context-budget.json",
+      "sha256": "09c9ef05fbfc39070e452ee8c04ba438040d260db672a823626431d93f1fc6e7"
+    },
+    {
+      "path": "evidence/badge-pilot/final-architecture-check.json",
+      "sha256": "5ce949a9c36294e51b4ec01b08aae50b2573d6671dcdddeba0e6afaf3aedb9e4"
+    },
+    {
+      "path": "evidence/badge-pilot/infrastructure-tests.txt",
+      "sha256": "68a29ab32ab833a9b9d1a0b47364c471304ad2d851f831c69c35ff4f914e4740"
+    },
+    {
+      "path": "evidence/badge-pilot/after/input-documentation-final.json",
+      "sha256": "323c02af2c7669659fa9281c8ec55e297dc9ea60a5b6616205b12d4ddcc2325d"
+    }
+  ],
+  "limits": [
+    "Warning retains source colors by explicit user choice and fails 4.5:1.",
+    "Figma does not certify web accessibility or behavior.",
+    "Published library/npm version equivalence is not claimed."
+  ],
+  "qaReaderCorrection": {
+    "history": {
+      "path": "evidence/badge-pilot/history/qa-reader-visibility.json",
+      "sha256": "a3784bb5d3240287f22e5014ef901d52d9fc2f820a24a0e5b303081f53fdcf8b"
+    },
+    "cause": "Figma default reader hides invisible instance children; array indexes misidentified a right-only icon. Reader corrected to include invisible children and all cases rerun. No design expectation was changed."
+  },
+  "figma_session_id": "4ae5029c-8061-4d73-9516-cccb0c17d316"
+}

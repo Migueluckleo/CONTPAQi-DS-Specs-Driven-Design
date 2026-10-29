@@ -1,0 +1,32 @@
+{
+  "change": "contract",
+  "impact": {
+    "affected": [
+      "contract:BADGE-001@1.1.0",
+      "contract:INPUT-001@2.0.1"
+    ],
+    "changed": [
+      "norms/components/badge.1.1.0.md",
+      "norms/components/input.2.0.1.md"
+    ],
+    "scope": "Current declared dependencies; removed/unmapped paths require review against the previous snapshot",
+    "status": "PASS",
+    "unmapped_paths": []
+  },
+  "independent_review": true,
+  "required_gates": [
+    "structure",
+    "references",
+    "authority",
+    "dependencies",
+    "requirements-review",
+    "affected-target-qa",
+    "component-token-minimization",
+    "component-variable-naming",
+    "operational-contracts",
+    "component-theme-behavior",
+    "component-reverse-dependency-reuse"
+  ],
+  "status": "PLAN_ONLY",
+  "tests_executed": false
+}

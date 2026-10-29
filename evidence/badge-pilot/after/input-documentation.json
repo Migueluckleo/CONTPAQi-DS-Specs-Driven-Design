@@ -1,0 +1,23 @@
+{
+  "status": "PASS_DOCUMENTATION",
+  "rows": [
+    {
+      "id": "282:26",
+      "description": "INPUT-001@2.0.1 · value=false; size y status conservan la matriz raíz. CaretDown/Question Phosphor Light; Badge 1.1.0 compartido (subtle/small en Input) expuesto y oculto inicialmente. Sin captura o validación de datos en Figma.\nADR-024 · Question sigue Label y CaretDown sigue contenido/placeholder en cada variante. Solo stroke hover depende del tema. input/color/icon/secondary reutiliza el ID/key anterior de tooltip con API lógica/CSS nueva. INPUT-001@2.0.0."
+    },
+    {
+      "id": "282:139",
+      "description": "INPUT-001@2.0.1 · value=true; size y status conservan la matriz raíz. CaretDown/Question Phosphor Light; Badge 1.1.0 compartido (subtle/small en Input) expuesto y oculto inicialmente. Sin captura o validación de datos en Figma.\nADR-024 · Question sigue Label y CaretDown sigue contenido/placeholder en cada variante. Solo stroke hover depende del tema. input/color/icon/secondary reutiliza el ID/key anterior de tooltip con API lógica/CSS nueva. INPUT-001@2.0.0."
+    },
+    {
+      "id": "287:46",
+      "text": "INPUT-001 · 2.0.1   |   42 variantes   |   41 tokens propios + Badge compartido · Badge compartido 1.1.0"
+    }
+  ],
+  "createdNodeIds": [],
+  "mutatedNodeIds": [
+    "282:26",
+    "282:139",
+    "287:46"
+  ]
+}

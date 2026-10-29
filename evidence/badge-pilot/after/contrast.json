@@ -1,0 +1,47 @@
+{
+  "role": "COLOR_CONTRAST_ONLY_NOT_WEB_CERTIFICATION",
+  "rows": [
+    {
+      "type": "error",
+      "ratio": 4.590449618809103,
+      "text_threshold": 4.5,
+      "passes_text_threshold": true,
+      "exception": null
+    },
+    {
+      "type": "warning",
+      "ratio": 2.9622195277295913,
+      "text_threshold": 4.5,
+      "passes_text_threshold": false,
+      "exception": "USER_APPROVED_SOURCE_FIDELITY"
+    },
+    {
+      "type": "success",
+      "ratio": 4.641298102422163,
+      "text_threshold": 4.5,
+      "passes_text_threshold": true,
+      "exception": null
+    },
+    {
+      "type": "info",
+      "ratio": 5.205433688318994,
+      "text_threshold": 4.5,
+      "passes_text_threshold": true,
+      "exception": null
+    },
+    {
+      "type": "subtle",
+      "ratio": 16.295987904593165,
+      "text_threshold": 4.5,
+      "passes_text_threshold": true,
+      "exception": null
+    },
+    {
+      "type": "neutral",
+      "ratio": 17.85253486961142,
+      "text_threshold": 4.5,
+      "passes_text_threshold": true,
+      "exception": null
+    }
+  ]
+}

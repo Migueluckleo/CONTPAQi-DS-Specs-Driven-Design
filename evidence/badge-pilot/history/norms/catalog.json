@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "contracts": [
+    {
+      "id": "BH-P01",
+      "version": "2.3.0",
+      "path": "protocols/01-COMPONENT-CONTRACT.md",
+      "sha256": "28fd69ce2a58deee248bd57fb597b6bde28572b4bde3f6558df7e2f0a395bf4f",
+      "current": true
+    },
+    {
+      "id": "BH-P02",
+      "version": "2.3.1",
+      "path": "protocols/02-FIGMA-CONSTRUCTION.md",
+      "sha256": "df635fcca42d30a87098d824d75ae55378190889cc4bee9fbe1e65e226e85bf2",
+      "current": true
+    },
+    {
+      "id": "BH-P03",
+      "version": "2.3.1",
+      "path": "protocols/03-WEB-CONSTRUCTION.md",
+      "sha256": "6e2edf57ab00497833e3954227783c63dcba3db0a884d8e49fa1899163c04077",
+      "current": true
+    },
+    {
+      "id": "BH-P04",
+      "version": "2.3.0",
+      "path": "protocols/04-QA-AND-DELIVERY.md",
+      "sha256": "72698a0e596f26b9f3dd0babded9e716222bdcc6cd27bc3e36af0c3504883e9c",
+      "current": true
+    },
+    {
+      "id": "BH-P05",
+      "version": "2.0.4",
+      "path": "protocols/05-MAINTENANCE-AND-RELEASES.md",
+      "sha256": "8c4fa35fd6494dd2dd51585c5f3386eb6afdb9799b5ea4bbe25481f094f797f1",
+      "current": true
+    },
+    {
+      "id": "BH-P06",
+      "version": "2.1.0",
+      "path": "protocols/06-PHOSPHOR-ICONS.md",
+      "sha256": "aad27541d6cb8b9deadeac6ad966a0fe77d2203ce0989525b6c8c2028d5c0f68",
+      "current": true
+    },
+    {
+      "id": "BH-P07",
+      "version": "2.2.0",
+      "path": "protocols/07-COMPONENT-TOKENS.md",
+      "sha256": "ed99d54267572163a7c58274d5aa0a4517f8da8c21fd0eed1e9f4fc2b634cd1c",
+      "current": true
+    },
+    {
+      "id": "BH-P08",
+      "version": "1.2.4",
+      "path": "protocols/08-GITHUB-RELEASE-DOCUMENTATION.md",
+      "sha256": "493ca30c1544704a4e58a9181a2cf8242cc61cecfd60ebd578489310ebe340d4",
+      "current": true
+    },
+    {
+      "id": "DOT-001",
+      "version": "1.0.0",
+      "path": "norms/components/dot.1.0.0.md",
+      "sha256": "b1e2028efcda351ab27261680423306b5ba31dd5d5c383d40dcbc94a9c50fab7",
+      "current": true
+    },
+    {
+      "id": "TABS-001",
+      "version": "3.1.0",
+      "path": "norms/components/tabs.3.1.0.md",
+      "sha256": "dd6eec55ce41d83139a0b8e7811a7392aab7f90ac5f0ded4fc123591a9b7ac63",
+      "current": true
+    },
+    {
+      "id": "TAB-001",
+      "version": "3.1.0",
+      "path": "norms/components/tab.3.1.0.md",
+      "sha256": "18dafd7d827c2ff4bc7bbd696645c19d0b505b2aa4383a7f6f1d0ee0e7cf3eb1",
+      "current": true
+    },
+    {
+      "id": "AVATAR-001",
+      "version": "3.0.0",
+      "path": "norms/components/avatar.3.0.0.md",
+      "sha256": "bffda9be694eed0326285dba72486e0cd4b07f4ff7c6baef70820f7a2e592d17",
+      "current": true
+    },
+    {
+      "id": "AVATAR-GROUP-001",
+      "version": "3.0.0",
+      "path": "norms/components/avatar-group.3.0.0.md",
+      "sha256": "d5c6271d63b82f7366c774f9361eb98c42e05394d97444d5bd4402c9a6bfc5f0",
+      "current": true
+    },
+    {
+      "id": "BUTTON-001",
+      "version": "4.0.1",
+      "path": "norms/components/button.4.0.1.md",
+      "sha256": "445766feebfedbee7ed153f1f4da6d738804bfcf3be6be4d454339c03e451f15",
+      "current": true
+    },
+    {
+      "id": "LOADER-001",
+      "version": "1.0.0",
+      "path": "norms/components/loader.1.0.0.md",
+      "sha256": "d896097b70717e334a4c864ca254d395ce0b7a168c175dec2ff6556a5a26a088",
+      "current": true
+    },
+    {
+      "id": "BADGE-001",
+      "version": "1.0.0",
+      "path": "norms/components/badge.1.0.0.md",
+      "sha256": "8ce90583c08343028fc6cd42a5f16d0b23af2b921d34aca9c4f9fcd8caf27985",
+      "current": true
+    },
+    {
+      "id": "INPUT-001",
+      "version": "2.0.0",
+      "path": "norms/components/input.2.0.0.md",
+      "sha256": "89f3c426efd1be2cf345c5f31a3254f9c10b03f92d81402b869c266032f187a2",
+      "current": true
+    }
+  ],
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "6.0.0",
+      "path": "norms/tokens/blueheart.6.0.0.json",
+      "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
+      "current": true
+    }
+  ]
+}

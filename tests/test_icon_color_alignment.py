@@ -17,12 +17,12 @@ class IconColorAlignmentTests(unittest.TestCase):
   bad=copy.deepcopy(doc);next(t for t in bad['tokens']if t['id']=='input.color-icon-secondary')['scopes']=['TEXT_FILL']
   with self.assertRaisesRegex(ValueError,'Icon/text mismatch'):validate(bad)
  def test_only_needed_icon_tokens_change_and_all_texts_backgrounds_and_foundations_survive(self):
-  old={t['id']:t for t in read(BASE+'history/blueheart.5.1.0.json')['tokens']};new={t['id']:t for t in self.document()['tokens']};plan=read(BASE+'pairing-plan.json')
+  old={t['id']:t for t in read(BASE+'history/blueheart.5.1.0.json')['tokens']};new={t['id']:t for t in read('evidence/badge-pilot/history/blueheart.6.0.0.json')['tokens']};plan=read(BASE+'pairing-plan.json')
   self.assertEqual(len(new),470);self.assertEqual(set(old)-set(new),{'input.color-icon-tooltip'});self.assertEqual(set(new)-set(old),{t['id']for t in plan['newTokens']})
   changed={t['id']for t in plan['updatedTokens']}
   for id in set(old)&set(new):
    if id not in changed:self.assertEqual(old[id],new[id],id)
-  minimum=Workspace(ROOT).check()['component_token_minimum'];self.assertEqual(minimum['BUTTON-001@4.0.1']['component_tokens'],45);self.assertEqual(minimum['TAB-001@3.1.0']['component_tokens'],41);self.assertEqual(minimum['INPUT-001@2.0.0']['component_tokens'],41)
+  minimum=Workspace(ROOT).check()['component_token_minimum'];self.assertEqual(minimum['BUTTON-001@4.0.1']['component_tokens'],45);self.assertEqual(minimum['TAB-001@3.1.0']['component_tokens'],41);self.assertEqual(minimum['INPUT-001@2.0.1']['component_tokens'],41)
  def test_native_cases_swaps_overrides_and_preservation_are_complete(self):
   q=read('evidence/qa/icon-color-audit-check.json');self.assertEqual(q['status'],'PASS_FOR_EXECUTED_SCOPE');self.assertEqual(q['counts']['nativeColorPairCases'],1032);self.assertEqual(q['independent_review'],'NOT_RUN')
   for e in q['evidence']:self.assertEqual(hashlib.sha256((ROOT/e['path']).read_bytes()).hexdigest(),e['sha256'],e['path'])

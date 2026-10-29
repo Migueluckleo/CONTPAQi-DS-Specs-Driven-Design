@@ -15,6 +15,9 @@ def materialize():
  for path in s['batches']:build+=read('evidence/input-pilot/'+path)['built']
  by_source={v['sourceId']:v for v in build}
  for family,identity in [('input','INPUT-001'),('badge','BADGE-001')]:
+  if family=='badge'and contracts[identity]['version']!='1.0.0':
+   runpy.run_path(str(ROOT/'consumption/badge/materialize-consumption.py'))['materialize']()
+   continue
   p=read('consumption/'+family+'/current-build-plan.json');tokens=p['tokens'];variables=[dict(logicalId=t['id'],nativeId=s['variableIds'][t['id']],nativeKey=s['variableKeys'][t['id']],figmaName=t['figmaName'],name=t['name'],web=t['web'],scope=t['scopes'][0],aliases=t['values'],themeBehavior=t['themeBehavior'])for t in tokens]
   ledger=dict(role='DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES',pageId=s['pages'][family],collection=s['collection'],variableIds={v['logicalId']:v['nativeId']for v in variables},variableKeys={v['logicalId']:v['nativeKey']for v in variables},styles={k:v for k,v in s['styles'].items()if k.startswith(family+'/')})
   bindings=[]
@@ -39,8 +42,9 @@ def materialize():
   if family=='input':
    manifest['dependencies']=[{'contract':contracts['BADGE-001'],'manifest':ref('consumption/badge/manifest.json')}]if(ROOT/'consumption/badge/manifest.json').exists()else[]
    if alignment:manifest.update(qa=ref('evidence/qa/icon-color-audit-check.json'),iconColorAlignment=ref('evidence/icon-color-audit/pairing-plan.json'),iconColorQaFrameId='307:4372')
+   if contracts['BADGE-001']['version']!='1.0.0':manifest.update(qa=ref('evidence/qa/badge-pilot-check.json'),badgeMigration=ref('evidence/badge-pilot/migration-map.json'))
   write(prefix+'manifest.json',manifest)
  # Refresh Input dependency after Badge's manifest has been projected.
  m=read('consumption/input/manifest.json');m['dependencies']=[{'contract':contracts['BADGE-001'],'manifest':ref('consumption/badge/manifest.json')}];write('consumption/input/manifest.json',m)
- return {'input':len(by_source),'badge':1}
+ return {'input':len(by_source),'badge':len(read('consumption/badge/current-native-ledger.json').get('variants',[1]))}
 if __name__=='__main__':print(json.dumps(materialize()))

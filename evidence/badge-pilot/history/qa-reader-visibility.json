@@ -1,0 +1,1326 @@
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    },
+    {
+      "where": "visibility",
+      "actual": true,
+      "expected": false
+    }
+  ],
+  "cases": [
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Contable",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Contable",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Contable",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Contable",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Administrativo",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Administrativo",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Administrativo",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Administrativo",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Servicios",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Servicios",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Servicios",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Servicios",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Personas",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Personas",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Personas",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Personas",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Contable",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Contable",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Contable",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Contable",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Administrativo",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Administrativo",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Administrativo",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Administrativo",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Servicios",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Servicios",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Servicios",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Servicios",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Personas",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Personas",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Personas",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Personas",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Contable",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Contable",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Contable",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Contable",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Administrativo",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Administrativo",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Administrativo",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Administrativo",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Servicios",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Servicios",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Servicios",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Servicios",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Personas",
+      "left": false,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 0,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Personas",
+      "left": true,
+      "right": false,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Personas",
+      "left": false,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 2,
+      "pass": false
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Personas",
+      "left": true,
+      "right": true,
+      "labels": 2,
+      "iconPairs": 4,
+      "pass": true
+    }
+  ],
+  "swaps": [
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Contable",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Contable",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Contable",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Administrativo",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Administrativo",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Administrativo",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Servicios",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Servicios",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Servicios",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Personas",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Personas",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "small"
+      },
+      "mode": "Personas",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Contable",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Contable",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Contable",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Administrativo",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Administrativo",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Administrativo",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Servicios",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Servicios",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Servicios",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Personas",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Personas",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "medium"
+      },
+      "mode": "Personas",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Contable",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Contable",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Contable",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Administrativo",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Administrativo",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Administrativo",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Servicios",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Servicios",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Servicios",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Personas",
+      "key": "adf3c1f54d482e59d89c97d1732216caa6b9c753",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Personas",
+      "key": "74373083348792a899adc44bb9221b95ec156405",
+      "iconPairs": 2,
+      "pass": true
+    },
+    {
+      "axes": {
+        "type": "neutral",
+        "size": "large"
+      },
+      "mode": "Personas",
+      "key": "5b484ea1f942898d05062c61d765ed66c338f50a",
+      "iconPairs": 2,
+      "pass": true
+    }
+  ],
+  "counts": {
+    "cases": 48,
+    "swaps": 36,
+    "colorPairs": 168
+  },
+  "createdNodeIds": [
+    "327:135",
+    "I327:135;326:239",
+    "327:143",
+    "I327:143;326:239",
+    "327:149",
+    "I327:149;326:239",
+    "327:155",
+    "I327:155;326:239",
+    "327:161",
+    "I327:161;326:239",
+    "327:167",
+    "I327:167;326:239",
+    "327:173",
+    "I327:173;326:239",
+    "327:179",
+    "I327:179;326:239",
+    "327:185",
+    "I327:185;326:239",
+    "327:191",
+    "I327:191;326:239",
+    "327:197",
+    "I327:197;326:239",
+    "327:203",
+    "I327:203;326:239",
+    "327:209",
+    "I327:209;326:239",
+    "327:215",
+    "I327:215;326:239",
+    "327:221",
+    "I327:221;326:239",
+    "327:227",
+    "I327:227;326:239",
+    "327:233",
+    "I327:233;326:239",
+    "327:239",
+    "I327:239;326:239",
+    "327:245",
+    "I327:245;326:239",
+    "327:251",
+    "I327:251;326:239",
+    "327:257",
+    "I327:257;326:239",
+    "327:263",
+    "I327:263;326:239",
+    "327:269",
+    "I327:269;326:239",
+    "327:275",
+    "I327:275;326:239",
+    "327:281",
+    "I327:281;326:239",
+    "327:287",
+    "I327:287;326:239",
+    "327:293",
+    "I327:293;326:239",
+    "327:299",
+    "I327:299;326:239",
+    "327:305",
+    "I327:305;326:275",
+    "327:313",
+    "I327:313;326:275",
+    "327:319",
+    "I327:319;326:275",
+    "327:325",
+    "I327:325;326:275",
+    "327:331",
+    "I327:331;326:275",
+    "327:337",
+    "I327:337;326:275",
+    "327:343",
+    "I327:343;326:275",
+    "327:349",
+    "I327:349;326:275",
+    "327:355",
+    "I327:355;326:275",
+    "327:361",
+    "I327:361;326:275",
+    "327:367",
+    "I327:367;326:275",
+    "327:373",
+    "I327:373;326:275",
+    "327:379",
+    "I327:379;326:275",
+    "327:385",
+    "I327:385;326:275",
+    "327:391",
+    "I327:391;326:275",
+    "327:397",
+    "I327:397;326:275",
+    "327:403",
+    "I327:403;326:275",
+    "327:409",
+    "I327:409;326:275",
+    "327:415",
+    "I327:415;326:275",
+    "327:421",
+    "I327:421;326:275",
+    "327:427",
+    "I327:427;326:275",
+    "327:433",
+    "I327:433;326:275",
+    "327:439",
+    "I327:439;326:275",
+    "327:445",
+    "I327:445;326:275",
+    "327:451",
+    "I327:451;326:275",
+    "327:457",
+    "I327:457;326:275",
+    "327:463",
+    "I327:463;326:275",
+    "327:469",
+    "I327:469;326:275",
+    "327:475",
+    "I327:475;326:311",
+    "327:483",
+    "I327:483;326:311",
+    "327:489",
+    "I327:489;326:311",
+    "327:495",
+    "I327:495;326:311",
+    "327:501",
+    "I327:501;326:311",
+    "327:507",
+    "I327:507;326:311",
+    "327:513",
+    "I327:513;326:311",
+    "327:519",
+    "I327:519;326:311",
+    "327:525",
+    "I327:525;326:311",
+    "327:531",
+    "I327:531;326:311",
+    "327:537",
+    "I327:537;326:311",
+    "327:543",
+    "I327:543;326:311",
+    "327:549",
+    "I327:549;326:311",
+    "327:555",
+    "I327:555;326:311",
+    "327:561",
+    "I327:561;326:311",
+    "327:567",
+    "I327:567;326:311",
+    "327:573",
+    "I327:573;326:311",
+    "327:579",
+    "I327:579;326:311",
+    "327:585",
+    "I327:585;326:311",
+    "327:591",
+    "I327:591;326:311",
+    "327:597",
+    "I327:597;326:311",
+    "327:603",
+    "I327:603;326:311",
+    "327:609",
+    "I327:609;326:311",
+    "327:615",
+    "I327:615;326:311",
+    "327:621",
+    "I327:621;326:311",
+    "327:627",
+    "I327:627;326:311",
+    "327:633",
+    "I327:633;326:311",
+    "327:639",
+    "I327:639;326:311"
+  ],
+  "removedNodeIds": [
+    "327:135",
+    "327:143",
+    "327:149",
+    "327:155",
+    "327:161",
+    "327:167",
+    "327:173",
+    "327:179",
+    "327:185",
+    "327:191",
+    "327:197",
+    "327:203",
+    "327:209",
+    "327:215",
+    "327:221",
+    "327:227",
+    "327:233",
+    "327:239",
+    "327:245",
+    "327:251",
+    "327:257",
+    "327:263",
+    "327:269",
+    "327:275",
+    "327:281",
+    "327:287",
+    "327:293",
+    "327:299",
+    "327:305",
+    "327:313",
+    "327:319",
+    "327:325",
+    "327:331",
+    "327:337",
+    "327:343",
+    "327:349",
+    "327:355",
+    "327:361",
+    "327:367",
+    "327:373",
+    "327:379",
+    "327:385",
+    "327:391",
+    "327:397",
+    "327:403",
+    "327:409",
+    "327:415",
+    "327:421",
+    "327:427",
+    "327:433",
+    "327:439",
+    "327:445",
+    "327:451",
+    "327:457",
+    "327:463",
+    "327:469",
+    "327:475",
+    "327:483",
+    "327:489",
+    "327:495",
+    "327:501",
+    "327:507",
+    "327:513",
+    "327:519",
+    "327:525",
+    "327:531",
+    "327:537",
+    "327:543",
+    "327:549",
+    "327:555",
+    "327:561",
+    "327:567",
+    "327:573",
+    "327:579",
+    "327:585",
+    "327:591",
+    "327:597",
+    "327:603",
+    "327:609",
+    "327:615",
+    "327:621",
+    "327:627",
+    "327:633",
+    "327:639"
+  ]
+}

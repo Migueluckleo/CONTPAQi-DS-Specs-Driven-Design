@@ -11,9 +11,9 @@
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "6.0.0",
-      "path": "norms/tokens/blueheart.6.0.0.json",
-      "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
+      "version": "6.1.0",
+      "path": "norms/tokens/blueheart.6.1.0.json",
+      "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8",
       "current": true
     }
   ],
@@ -1427,7 +1427,7 @@
   },
   "nativeLedger": {
     "path": "consumption/tab/current-native-ledger.json",
-    "sha256": "fafe3aad9a3b4771552f839e2e99938e38d5671362662d0ee9cf7a99defa7849"
+    "sha256": "df47465b99bb9fbe993f586e525290f8855e584afb0d01ccd586b2fdd7c0acda"
   },
   "historicalQA": {
     "path": "evidence/tabs-page-reconciliation/slot-qa.json",
