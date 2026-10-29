@@ -1,0 +1,4 @@
+2026-10-29 · Elección humana de alcance
+Pregunta: Input contiene un Badge de moneda que todavía no existe en Blue Heart DS. ¿Qué alcance prefieres para esa dependencia?
+Respuesta: Crear solo Badge subtle/small necesario para Input (recomendado).
+La dependencia se registra como componente compartido con Label editable y composición trazable. No autoriza ampliar a las otras 17 variantes ni a iconos opcionales de Badge que Input no consume.

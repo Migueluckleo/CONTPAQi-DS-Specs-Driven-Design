@@ -1,0 +1,115 @@
+{
+  "role": "ADDITIVE_TRACE_NOT_RULES",
+  "decision": "ADR-023",
+  "previous": {
+    "path": "evidence/input-pilot/history/blueheart.5.0.0.json",
+    "sha256": "a8daf49a3eafddfbcbfd6420f9126fdd636999869ada399531888f7c12bcd6d8"
+  },
+  "current": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "5.1.0",
+    "path": "norms/tokens/blueheart.5.1.0.json",
+    "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+    "current": true
+  },
+  "preservedTokenCount": 411,
+  "added": [
+    "badge.border-width-regular",
+    "badge.color-bg-subtle",
+    "badge.color-stroke-subtle",
+    "badge.color-text-primary",
+    "badge.font-family",
+    "badge.font-label-style",
+    "badge.font-letter-spacing",
+    "badge.font-line-height",
+    "badge.font-size",
+    "badge.radius-container",
+    "badge.spacing-inline",
+    "badge.spacing-none",
+    "input.border-width-regular",
+    "input.color-bg-read-only-disabled",
+    "input.color-bg-surface",
+    "input.color-effect-focus",
+    "input.color-effect-separation",
+    "input.color-icon-default",
+    "input.color-icon-disabled",
+    "input.color-icon-tooltip",
+    "input.color-indicator-focus",
+    "input.color-stroke-default",
+    "input.color-stroke-error",
+    "input.color-stroke-hover",
+    "input.color-stroke-read-only",
+    "input.color-stroke-success",
+    "input.color-stroke-value",
+    "input.color-text-disabled",
+    "input.color-text-error",
+    "input.color-text-primary",
+    "input.color-text-secondary",
+    "input.color-text-success",
+    "input.font-content-style",
+    "input.font-family",
+    "input.font-helper-size",
+    "input.font-label-line-height",
+    "input.font-label-style",
+    "input.font-letter-spacing-label",
+    "input.font-letter-spacing-normal",
+    "input.font-size",
+    "input.radius-container",
+    "input.size-focus-outer-spread",
+    "input.size-focus-spread",
+    "input.size-height-large",
+    "input.size-height-medium",
+    "input.size-height-small",
+    "input.size-icon",
+    "input.spacing-effect-none",
+    "input.spacing-lg",
+    "input.spacing-md",
+    "input.spacing-none",
+    "input.spacing-sm",
+    "input.spacing-xs",
+    "primitive.font-letter-spacing-label-px",
+    "primitive.neutral-50",
+    "semantic.font-letter-spacing-label-px",
+    "semantic.neutral-minimum"
+  ],
+  "removed": [],
+  "existingConsumersReplaced": [],
+  "reason": "No prior Input/Badge consumers; 177 Tab counters remain linked to Dot",
+  "foundationExtensions": [
+    {
+      "logicalId": "primitive.font-letter-spacing-label-px",
+      "nativeId": "VariableID:281:3",
+      "nativeKey": "9a4959b49c7c935ad1886eab91b4c95b98945480",
+      "nativeName": "font-letter-spacing-label-px"
+    },
+    {
+      "logicalId": "semantic.font-letter-spacing-label-px",
+      "nativeId": "VariableID:281:5",
+      "nativeKey": "f28f9fedd2ea389b9a2930c3347ca30a991ccaa7",
+      "nativeName": "font-letter-spacing-label-px"
+    },
+    {
+      "logicalId": "primitive.neutral-50",
+      "nativeId": "VariableID:285:2",
+      "nativeKey": "90a20f392453cc1599e1ce9289329f39b8a98b7e",
+      "nativeName": "neutral-50"
+    },
+    {
+      "logicalId": "semantic.neutral-minimum",
+      "nativeId": "VariableID:285:3",
+      "nativeKey": "b024887066824c6ffa8639c3b131ffd5e34cee24",
+      "nativeName": "neutral-minimum"
+    }
+  ],
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  }
+}

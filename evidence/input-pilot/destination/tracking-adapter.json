@@ -1,0 +1,63 @@
+{
+  "status": "PASS_PIXEL_EQUIVALENCE",
+  "rows": [
+    {
+      "name": "input/label",
+      "id": "S:bf1b1ea2f7aee4c859f67bbbbb8da95c930c999b,",
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0.014000000432133675
+      },
+      "bound": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:14"
+      }
+    },
+    {
+      "name": "input/content",
+      "id": "S:705d9ab9e579d25f05deab8bb9cf18ecbb2ef6e3,",
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bound": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:27"
+      }
+    },
+    {
+      "name": "input/helper",
+      "id": "S:ad6290ae8722e3ddd59ff07077d0f69a31c1be75,",
+      "tracking": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "bound": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:27"
+      }
+    }
+  ],
+  "retired": [
+    {
+      "id": "VariableID:281:4",
+      "name": "font-letter-spacing-percent-normal"
+    },
+    {
+      "id": "VariableID:281:2",
+      "name": "font-letter-spacing-percent-normal"
+    }
+  ],
+  "mutatedVariableIds": [
+    "VariableID:281:3",
+    "VariableID:281:5",
+    "VariableID:281:27"
+  ],
+  "mutatedStyleIds": [
+    "S:bf1b1ea2f7aee4c859f67bbbbb8da95c930c999b,",
+    "S:705d9ab9e579d25f05deab8bb9cf18ecbb2ef6e3,",
+    "S:ad6290ae8722e3ddd59ff07077d0f69a31c1be75,"
+  ],
+  "createdNodeIds": [],
+  "mutatedNodeIds": []
+}

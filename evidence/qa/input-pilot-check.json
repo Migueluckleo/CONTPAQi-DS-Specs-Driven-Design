@@ -1,0 +1,287 @@
+{
+  "schema_version": 1,
+  "id": "INPUT-BADGE-PILOT-ADR023",
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decisions": [
+    "ADR-023"
+  ],
+  "source": {
+    "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+    "pageId": "20:3",
+    "access": "READ_ONLY",
+    "historicalProjectAccess": "READ_ONLY"
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "inputPage": "281:62",
+    "badgePage": "281:63",
+    "reviewFrame": "287:44"
+  },
+  "contracts": [
+    {
+      "id": "BADGE-001",
+      "version": "1.0.0",
+      "path": "norms/components/badge.1.0.0.md",
+      "sha256": "8ce90583c08343028fc6cd42a5f16d0b23af2b921d34aca9c4f9fcd8caf27985",
+      "current": true
+    },
+    {
+      "id": "INPUT-001",
+      "version": "1.0.0",
+      "path": "norms/components/input.1.0.0.md",
+      "sha256": "63bec3610aac91499a71c86b005744344126ae3544b7a6784f7e4486d41ba128",
+      "current": true
+    }
+  ],
+  "counts": {
+    "inputVariants": 42,
+    "inputSets": 2,
+    "badgeVariants": 1,
+    "inputTokens": 41,
+    "badgeTokens": 12,
+    "newFoundations": 4,
+    "totalVariables": 468,
+    "collections": 3,
+    "nativeOwnNodes": 558,
+    "nativeTextNodes": 168,
+    "sourceEffects": 11,
+    "propertyAndThemeChecks": 150,
+    "themeCases": 16,
+    "replacedExistingConsumers": 0
+  },
+  "checks": [
+    {
+      "requirement": "REQ-SCOPE",
+      "status": "PASS",
+      "evidence": "authorization + reverse-before/after + destination-only builder"
+    },
+    {
+      "requirement": "REQ-API",
+      "status": "PASS",
+      "evidence": "42 native variants and 11 nonvariant props per owner"
+    },
+    {
+      "requirement": "REQ-GEOMETRY",
+      "status": "PASS",
+      "evidence": "558 own nodes; long helper and one-line ellipsis at 280 px"
+    },
+    {
+      "requirement": "REQ-TYPOGRAPHY",
+      "status": "PASS",
+      "evidence": "168 text nodes + equivalent percentage-to-px tracking adapter"
+    },
+    {
+      "requirement": "REQ-TOKENS",
+      "status": "PASS",
+      "evidence": "41+12 distinct signatures; all 57 new native variables checked"
+    },
+    {
+      "requirement": "REQ-THEME",
+      "status": "PASS",
+      "evidence": "16 native mode/state cases; invariant focus and themed hover/tooltip"
+    },
+    {
+      "requirement": "REQ-FOCUS",
+      "status": "PASS",
+      "evidence": "all 11 effects including source 4/2 px composite"
+    },
+    {
+      "requirement": "REQ-BEHAVIOR",
+      "status": "PASS",
+      "evidence": "source has no reactions; documented host obligations"
+    },
+    {
+      "requirement": "REQ-CONTENT",
+      "status": "PASS",
+      "evidence": "Label/value/helper editing and MXN/USD/long Badge label"
+    },
+    {
+      "requirement": "REQ-DEPENDENCIES",
+      "status": "PASS",
+      "evidence": "42 exposed shared Badge references; Phosphor swap keeps bindings"
+    },
+    {
+      "requirement": "REQ-A11Y",
+      "status": "PASS",
+      "evidence": "inherited contrast measured and limitations documented"
+    },
+    {
+      "requirement": "REQ-QA",
+      "status": "PASS",
+      "evidence": "native matrix, properties, themes, visual and registry checks"
+    },
+    {
+      "requirement": "REQ-QA",
+      "status": "PASS",
+      "evidence": "Native presenter visible and scrollable; no text-entry claim"
+    }
+  ],
+  "independent_review": "NOT_RUN",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "presenter_interaction": "PASS_STATIC_PRESENTATION_NO_SOURCE_REACTIONS",
+  "limitations": [
+    "Figma visual states and property edits do not implement text entry, data validation, dropdown-menu, tooltip content, keyboard or HTML/ARIA.",
+    "No independent reviewer was invoked.",
+    "The inherited empty border is below 3:1; no AA certification.",
+    "Badge scope is only subtle/small; other combinations remain outside this version."
+  ],
+  "evidence": [
+    {
+      "path": "evidence/input-pilot/source/anatomy.json",
+      "sha256": "29c67de8b6a9596c00ce44a8e646d4194ed5d2233a7b981477f9903ed196f174"
+    },
+    {
+      "path": "evidence/input-pilot/source/api.json",
+      "sha256": "1656540b6bdc0989b57ca87f7f7016e58ce5801bda93fbb575f2fff21ad4b0fc"
+    },
+    {
+      "path": "evidence/input-pilot/source/badge-api.json",
+      "sha256": "375c71e01058b893cf80c8f925aea280b3843c4ff9a9a894957e4e69a25583e1"
+    },
+    {
+      "path": "evidence/input-pilot/source/default-false.json",
+      "sha256": "983270c53add66d4fddb74a6855dbce04c6d2fb5ddbd8f495494b2fceb87873a"
+    },
+    {
+      "path": "evidence/input-pilot/source/default-true.json",
+      "sha256": "16f9544705e9e94672064b9958303257d62a92e8314756c2017d0109d8dc1961"
+    },
+    {
+      "path": "evidence/input-pilot/source/disabled-false.json",
+      "sha256": "1383c00e9f4234daf40158e55ae0ac39c6c346d14e93bfb460a74376aa79b5de"
+    },
+    {
+      "path": "evidence/input-pilot/source/disabled-true.json",
+      "sha256": "05984d0d14ffa806a53b7bfb3a328648475f68e6fdb18c59937c4ef73b6cc681"
+    },
+    {
+      "path": "evidence/input-pilot/source/discovery.json",
+      "sha256": "096d0184b82ba249e6e14ec33f6309a9b66d496a644ed8a84ab23e079d85fe6d"
+    },
+    {
+      "path": "evidence/input-pilot/source/error-false.json",
+      "sha256": "6343da11f7c8c826833fd0dccfe6c62255ab30cb5377e815ad87f87b32ee80e4"
+    },
+    {
+      "path": "evidence/input-pilot/source/error-true.json",
+      "sha256": "be45f01a6f71c8371998d5ab3ccb452a1421e001851d0427a4c3ade07b192144"
+    },
+    {
+      "path": "evidence/input-pilot/source/focus-false.json",
+      "sha256": "26e5b20eea4aadc5cbf521a7fb105aab65cdcab9c1c98487ab286049e89c7541"
+    },
+    {
+      "path": "evidence/input-pilot/source/focus-true.json",
+      "sha256": "42cf1eb838c4e8eb078bb148b66af228c3da6a6fcda1cdc15eaef2aceab41e5f"
+    },
+    {
+      "path": "evidence/input-pilot/source/hover-false.json",
+      "sha256": "8fb60d8b8f1ec6d150bb369613f85fcb5fbda0c5dc4555e78727d64ad9cab4fd"
+    },
+    {
+      "path": "evidence/input-pilot/source/hover-true.json",
+      "sha256": "a8b12cf56fb51b18cac95396e523589bd20ce8ca4a54ad5a3755a43b15e4818b"
+    },
+    {
+      "path": "evidence/input-pilot/source/phosphor.json",
+      "sha256": "398f21e086e03bfaf9d08c69dbb084c3b810916aff6c6eca952bdc26fb2d628d"
+    },
+    {
+      "path": "evidence/input-pilot/source/read-only-false.json",
+      "sha256": "c3893aa81e314e3f44e7d5048639482d882d16ee1f65022ccf18126561ae742d"
+    },
+    {
+      "path": "evidence/input-pilot/source/read-only-true.json",
+      "sha256": "57affb8e3a5c94bc8fe376ef99976691f7e575c0e3fdc821a096a3560e870d29"
+    },
+    {
+      "path": "evidence/input-pilot/source/success-false.json",
+      "sha256": "a8222ec0bc1a5e6cac94253944e1161f4b68881e615200ed1a36c563d4eb155d"
+    },
+    {
+      "path": "evidence/input-pilot/source/success-true.json",
+      "sha256": "4ff3c110533ea379a8fc9efe5765de6f5ae18f836f4fc16e4f4ce8ee3b707416"
+    },
+    {
+      "path": "evidence/input-pilot/source/text-and-badge.json",
+      "sha256": "5a4e0fd6835b0d06dda782c659bc4dff62ae702c72c7d31f97b15e81f8292479"
+    },
+    {
+      "path": "evidence/input-pilot/source/text-limits.json",
+      "sha256": "6332d7c5a5e2a7a2176e94fe957e1b3d59a17c04c87183ab8df2c70e737832a3"
+    },
+    {
+      "path": "evidence/input-pilot/source/variables.json",
+      "sha256": "f9b7b0db34c69e855570d13876717239ad7111d9d0d94491a1b7a69d916f5750"
+    },
+    {
+      "path": "evidence/input-pilot/source/variants.png",
+      "sha256": "91c81ef88e6017108386d87b346e395f7cac4e8dce79e3bace96b0d0623b7ddb"
+    },
+    {
+      "path": "evidence/input-pilot/destination/native-matrix.json",
+      "sha256": "33cbd63ff48df5689928f25d31752b04026d0c5f8485e40b8f11fd38d0d0fed4"
+    },
+    {
+      "path": "evidence/input-pilot/destination/showcase-and-properties.json",
+      "sha256": "3e25cee547d68bcef64726398e60dd197425cfdc34494013d30cf9a71b0de198"
+    },
+    {
+      "path": "evidence/input-pilot/destination/icon-swap.json",
+      "sha256": "50b955776fd4b4203b7d3891f8f7f3134ee39b8698b433e70c9037ae42e4719a"
+    },
+    {
+      "path": "evidence/input-pilot/destination/tracking-adapter.json",
+      "sha256": "3e86f698f30139c2c0e7fd6c9a9245abeb2e0eb06d8d3b1fcaef8c72ab1dbf2a"
+    },
+    {
+      "path": "evidence/input-pilot/destination/focus-correction.json",
+      "sha256": "92fefc13456a20053092fd5343dfab11fa11ccfd3b5be80fd3a813b22ff87740"
+    },
+    {
+      "path": "evidence/input-pilot/destination/registry-qa.json",
+      "sha256": "4949a068d322c93a6b43dd3e107a0855870f9e11ac982692f64899e184004d29"
+    },
+    {
+      "path": "evidence/input-pilot/destination/reverse-before.json",
+      "sha256": "a3c32298a58f9936b6ac5a09bd0c25d7ca2b4fb0486f1338732ca783ea0b79da"
+    },
+    {
+      "path": "evidence/input-pilot/destination/reverse-after.json",
+      "sha256": "f92f59584f3e2e283dd00255443b5a564b0577a3f1f0e4c0e33812445a8c6f9a"
+    },
+    {
+      "path": "evidence/input-pilot/destination/contrast.json",
+      "sha256": "8e595466efcef2a66d7594c75296b6be060570ec89e8da822430cc0ed6dc9f34"
+    },
+    {
+      "path": "evidence/input-pilot/destination/badge-documentation.json",
+      "sha256": "46b1ad780653035b0b3b4387353c73ccfb1cfecfe758817f514fe80c474491b1"
+    },
+    {
+      "path": "evidence/input-pilot/destination/input-matrix.png",
+      "sha256": "5bf03dd7a97ff21a0f2c09efb46a151806471f39242a8a4120c24e81580b335e"
+    },
+    {
+      "path": "evidence/input-pilot/destination/input-qa.png",
+      "sha256": "0391646b59249fb898bd39ac0f5dbee1be13dc0ab38b48f50f12540377f81791"
+    },
+    {
+      "path": "evidence/input-pilot/destination/badge.png",
+      "sha256": "e5a8b091facef5545f332ad0c07eaccb2e5a4ddb99bd10ff3401109a43dacf3a"
+    },
+    {
+      "path": "evidence/input-pilot/destination/presenter.json",
+      "sha256": "9c2442dac527df27adc5b498490aca0d73a53b78bd6094a9fbbf577630eb51e6"
+    },
+    {
+      "path": "evidence/input-pilot/destination/presenter-input.png",
+      "sha256": "11f49e39e24e5a88a90c22f700a6529af7d655745dbe40d534370d5b1eac9f7d"
+    },
+    {
+      "path": "evidence/input-pilot/destination/presenter-input-bottom.png",
+      "sha256": "8b23a99faec0a7ea9b3a1518f8981f89ab4bd6189d62e6f3f689d9b062aa1aa4"
+    }
+  ],
+  "testScope": "Native/component evidence; infrastructure run is recorded independently by BH-P08 prepare and CI."
+}

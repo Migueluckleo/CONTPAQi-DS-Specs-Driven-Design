@@ -1,0 +1,2239 @@
+[
+  {
+    "id": "VariableID:562:11",
+    "name": "spacing/sm",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:43"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:43"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:43"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:43"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:55:43",
+    "name": "spacing/8",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 8
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:562:10",
+    "name": "spacing/xs",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:42"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:42"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:42"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:42"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:55:42",
+    "name": "spacing/4",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 4
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196116",
+    "name": "color/text/primary",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:268:21767"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:268:21767"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:268:21767"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:268:21767"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:268:21767",
+    "name": "color/neutral/900",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2845:160893",
+    "name": "font/size/sm",
+    "type": "FLOAT",
+    "scopes": [
+      "FONT_SIZE"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:707"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:707"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:707"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:707"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:52:707",
+    "name": "font/size/14",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 14
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2845:160891",
+    "name": "font/weight/bold",
+    "type": "STRING",
+    "scopes": [
+      "ALL_SCOPES"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:699"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:699"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:699"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:699"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:52:699",
+    "name": "font/weight/bold",
+    "type": "STRING",
+    "scopes": [],
+    "values": {
+      "52:0": "bold"
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2845:160887",
+    "name": "font/family/base",
+    "type": "STRING",
+    "scopes": [
+      "FONT_FAMILY"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:691"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:691"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:691"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:691"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:52:691",
+    "name": "font/family/manrope",
+    "type": "STRING",
+    "scopes": [],
+    "values": {
+      "52:0": "Manrope"
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196126",
+    "name": "color/feedback/danger/text",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:4634"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:4634"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:4634"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:4634"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:6075:4634",
+    "name": "color/red/600",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.8313725590705872,
+        "g": 0,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196104",
+    "name": "color/background/default",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:57:82"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:57:82"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:57:82"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:57:82"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:57:82",
+    "name": "color/neutral/100",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 1,
+        "g": 1,
+        "b": 1,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196141",
+    "name": "color/icon/brand",
+    "type": "COLOR",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:82:159"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:2496:177"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:5976:12000"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:2496:187"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:82:159",
+    "name": "color/blue/400",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.19607843458652496,
+        "g": 0.3333333432674408,
+        "b": 0.9686274528503418,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2496:177",
+    "name": "color/green/500",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.0117647061124444,
+        "g": 0.4470588266849518,
+        "b": 0.3333333432674408,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:5976:12000",
+    "name": "color/orange/600",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.8627451062202454,
+        "g": 0.18431372940540314,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2496:187",
+    "name": "color/purple/500",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.5137255191802979,
+        "g": 0,
+        "b": 0.9725490212440491,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:1098:28491",
+    "name": "spacing/none",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1098:28492"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1098:28492"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1098:28492"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:1098:28492"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:1098:28492",
+    "name": "spacing/0",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 0
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:562:12",
+    "name": "spacing/lg",
+    "type": "FLOAT",
+    "scopes": [
+      "GAP"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:44"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:44"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:44"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:44"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:55:44",
+    "name": "spacing/16",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 16
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:562:4",
+    "name": "radius/md",
+    "type": "FLOAT",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:35"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:35"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:35"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:35"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:55:35",
+    "name": "radius/8",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 8
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:559:7",
+    "name": "stroke/xs",
+    "type": "FLOAT",
+    "scopes": [
+      "STROKE_FLOAT"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:476:12576"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:476:12576"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:476:12576"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:476:12576"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:476:12576",
+    "name": "stroke/1",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 1
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196128",
+    "name": "color/border/default",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:90:719",
+    "name": "color/neutral/400",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196118",
+    "name": "color/text/tertiary",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:720"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:720"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:720"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:720"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:90:720",
+    "name": "color/neutral/500",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.3921568691730499,
+        "g": 0.45490196347236633,
+        "b": 0.545098066329956,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2845:160888",
+    "name": "font/weight/regular",
+    "type": "STRING",
+    "scopes": [
+      "ALL_SCOPES"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:696"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:696"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:696"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:696"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:52:696",
+    "name": "font/weight/regular",
+    "type": "STRING",
+    "scopes": [],
+    "values": {
+      "52:0": "Regular"
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:562:3",
+    "name": "radius/sm",
+    "type": "FLOAT",
+    "scopes": [
+      "CORNER_RADIUS"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:34"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:34"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:34"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:34"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:55:34",
+    "name": "radius/4",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 4
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196105",
+    "name": "color/background/subtle",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:709"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:709"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:709"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:709"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:90:709",
+    "name": "color/neutral/200",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.9450980424880981,
+        "g": 0.9607843160629272,
+        "b": 0.9764705896377563,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196130",
+    "name": "color/border/strong",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:193:43180"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:193:43180"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:193:43180"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:193:43180"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:193:43180",
+    "name": "color/neutral/300",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.886274516582489,
+        "g": 0.9098039269447327,
+        "b": 0.9411764740943909,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196138",
+    "name": "color/icon/primary",
+    "type": "COLOR",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:268:21767"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:268:21767"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:268:21767"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:268:21767"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2845:160892",
+    "name": "font/size/xs",
+    "type": "FLOAT",
+    "scopes": [
+      "FONT_SIZE"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:706"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:706"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:706"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:706"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:52:706",
+    "name": "font/size/12",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 12
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2992:2261",
+    "name": "color/border/hover",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:77"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:5976:15670"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:5976:12001"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:5976:9495"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:55:77",
+    "name": "color/blue/500",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.15294118225574493,
+        "g": 0.18431372940540314,
+        "b": 0.8352941274642944,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:5976:15670",
+    "name": "color/green/600",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0,
+        "g": 0.3137255012989044,
+        "b": 0.21960784494876862,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:5976:12001",
+    "name": "color/orange/700",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.686274528503418,
+        "g": 0.07450980693101883,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:5976:9495",
+    "name": "color/purple/600",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.3450980484485626,
+        "g": 0,
+        "b": 0.7176470756530762,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196132",
+    "name": "color/focus/ring",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:77"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:77"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:77"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:55:77"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196133",
+    "name": "color/feedback/positive/border",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:10446"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:10446"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:10446"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:10446"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:6075:10446",
+    "name": "color/emerald/600",
+    "type": "COLOR",
+    "scopes": [],
+    "values": {
+      "52:0": {
+        "r": 0.03529411926865578,
+        "g": 0.5137255191802979,
+        "b": 0,
+        "a": 1
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196124",
+    "name": "color/feedback/positive/text",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:10446"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:10446"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:10446"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:10446"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196135",
+    "name": "color/feedback/danger/border",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:4634"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:4634"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:4634"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6075:4634"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196119",
+    "name": "color/text/disabled",
+    "type": "COLOR",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2988:16",
+    "name": "color/interactive/disabled/bg",
+    "type": "COLOR",
+    "scopes": [
+      "FRAME_FILL",
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:709"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:709"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:709"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:709"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:9021:2090",
+    "name": "color/border/control-disabled",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2849:196147",
+    "name": "color/icon/disabled",
+    "type": "COLOR",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:719"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:8911:10",
+    "name": "color/border/control",
+    "type": "COLOR",
+    "scopes": [
+      "STROKE_COLOR"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:720"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:720"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:720"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:90:720"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2845:160910",
+    "name": "font/letter-spacing/normal",
+    "type": "FLOAT",
+    "scopes": [
+      "LETTER_SPACING"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:53:730"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:53:730"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:53:730"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:53:730"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:53:730",
+    "name": "font/letter-spacing/normal",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 0
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:2845:160902",
+    "name": "font/line-height/sm",
+    "type": "FLOAT",
+    "scopes": [
+      "LINE_HEIGHT"
+    ],
+    "values": {
+      "52:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:718"
+      },
+      "2849:0": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:718"
+      },
+      "2849:1": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:718"
+      },
+      "2849:2": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:52:718"
+      }
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:726",
+      "name": "semantic",
+      "modes": [
+        {
+          "name": "Contable",
+          "modeId": "52:2"
+        },
+        {
+          "name": "Administrativo",
+          "modeId": "2849:0"
+        },
+        {
+          "name": "Servicios",
+          "modeId": "2849:1"
+        },
+        {
+          "name": "Personas",
+          "modeId": "2849:2"
+        }
+      ]
+    }
+  },
+  {
+    "id": "VariableID:52:718",
+    "name": "font/line-height/20",
+    "type": "FLOAT",
+    "scopes": [],
+    "values": {
+      "52:0": 20
+    },
+    "collection": {
+      "id": "VariableCollectionId:52:690",
+      "name": "primitive",
+      "modes": [
+        {
+          "name": "Value",
+          "modeId": "52:0"
+        }
+      ]
+    }
+  }
+]

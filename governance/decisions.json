@@ -368,6 +368,24 @@
         "path": "evidence/authorization/loader-dependency-request.txt",
         "sha256": "def9511ea1100631f7cccceb26f7f6e69a4813792abe882f05aa27b5b6865d33"
       }
+    },
+    {
+      "id": "ADR-023",
+      "status": "ADOPTED",
+      "actor": "implementing_agent",
+      "statement": "El encargo humano selecciona Input 20:3; el responsable limita expresamente Badge a subtle/small. La ejecución delegada formaliza INPUT-001 y BADGE-001 como fuentes MD, 42 variantes Input en dos sets por value y una variante Badge con Label editable. Se adoptan 41 firmas Input y 12 Badge, con tres colecciones y cuatro modos; los únicos roles temáticos de Input son tooltip y stroke hover. Se preserva foco fijo azul y sus efectos como en la raíz, sin trasladar excepciones de Tab. La comprobación nativa muestra que Figma convierte el tracking enlazado a PIXELS; se documenta la equivalencia 0.1 % de 14 px a 0.014 px, con dos Foundations específicas y reutilización del tracking cero existente, conservando la unidad fuente en evidencia. La comparación por variante preserva además el halo compuesto 4/2 px de empty medium/small, con dos Foundations del neutral F8FAFC y dos firmas de componente adicionales ya incluidas en las 41. La ayuda puede crecer con mensajes largos conservando la geometría corta; el valor sigue limitado a una línea con elipsis. No hay reacciones en los principales fuente, ni consumidores Input existentes en el destino. Los contadores Dot llamados Badge no se sustituyen por el nombre. No representa aprobación humana del QA ni habilita otras variantes Badge, React, edición de las fuentes o releases oficiales.",
+      "scope": [
+        "INPUT-001",
+        "BADGE-001",
+        "BLUEHEART-TOKENS",
+        "input-figma-pilot",
+        "badge-subtle-small-dependency",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/input-pilot-request.txt",
+        "sha256": "1cf0d2f9edea79434932186fe0eaa7fc7556fc012999eca0bc14e7afbca855f3"
+      }
     }
   ]
 }

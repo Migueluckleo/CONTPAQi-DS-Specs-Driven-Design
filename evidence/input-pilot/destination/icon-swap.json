@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "inputId": "287:980",
+  "icon": {
+    "id": "I287:980;282:166",
+    "name": "PlusCircle",
+    "w": 20,
+    "h": 20,
+    "key": "46d251bb4099700c5852180f2370d265e5166432",
+    "b": {
+      "width": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:16"
+      },
+      "height": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:281:16"
+      }
+    },
+    "vectors": [
+      {
+        "id": "I287:980;282:166;8899:53829",
+        "b": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:28"
+          }
+        }
+      }
+    ]
+  },
+  "createdNodeIds": [],
+  "mutatedNodeIds": [
+    "287:980",
+    "I287:980;282:166",
+    "I287:980;282:166;8899:53829"
+  ]
+}
