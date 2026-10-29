@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "rows": [
+    {
+      "pageId": "0:1",
+      "name": "Cover",
+      "instances": 0,
+      "expected": 0,
+      "inputBadgeReferences": [],
+      "namedBadgeCount": 0,
+      "namedBadgeMains": []
+    },
+    {
+      "pageId": "149:639",
+      "name": "---",
+      "instances": 0,
+      "expected": 0,
+      "inputBadgeReferences": [],
+      "namedBadgeCount": 0,
+      "namedBadgeMains": []
+    },
+    {
+      "pageId": "145:42",
+      "name": "Avatars",
+      "instances": 534,
+      "expected": 534,
+      "inputBadgeReferences": [],
+      "namedBadgeCount": 0,
+      "namedBadgeMains": []
+    },
+    {
+      "pageId": "11:128",
+      "name": "Buttons",
+      "instances": 462,
+      "expected": 462,
+      "inputBadgeReferences": [],
+      "namedBadgeCount": 0,
+      "namedBadgeMains": []
+    },
+    {
+      "pageId": "78:97",
+      "name": "Tabs",
+      "instances": 529,
+      "expected": 529,
+      "inputBadgeReferences": [],
+      "namedBadgeCount": 177,
+      "namedBadgeMains": [
+        "201:1558"
+      ]
+    },
+    {
+      "pageId": "201:1543",
+      "name": "Dot",
+      "instances": 94,
+      "expected": 94,
+      "inputBadgeReferences": [],
+      "namedBadgeCount": 0,
+      "namedBadgeMains": []
+    },
+    {
+      "pageId": "245:19",
+      "name": "Loader",
+      "instances": 95,
+      "expected": 95,
+      "inputBadgeReferences": [],
+      "namedBadgeCount": 0,
+      "namedBadgeMains": []
+    }
+  ],
+  "substitutions": 0,
+  "reason": "No existing Input/Badge consumers; existing Tab badges are Dot"
+}

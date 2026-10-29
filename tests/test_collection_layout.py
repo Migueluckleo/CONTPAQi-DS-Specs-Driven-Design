@@ -18,15 +18,16 @@ class CollectionLayoutTests(unittest.TestCase):
     def setUpClass(cls):
         cls.workspace = Workspace(ROOT)
         cls.policy = cls.workspace.policy
-        cls.document = json.loads((ROOT/'norms/tokens/blueheart.5.0.0.json').read_text())
+        selected=next(e for e in cls.workspace.catalog['token_sets'] if e['current'])
+        cls.document = json.loads((ROOT/selected['path']).read_text())
 
     def validate(self, document):
         return Tokens([document], ROOT, self.policy).validate()
 
     def test_only_three_homonymous_collections_and_four_contexts(self):
-        self.assertEqual(self.validate(self.document), {'tokens': 411, 'collections': 3, 'mode_contexts': 4})
+        self.assertEqual(self.validate(self.document), {'tokens': 468, 'collections': 3, 'mode_contexts': 4})
         counts = {c: sum(t['collection'] == c for t in self.document['tokens']) for c in ('primitive', 'semantic', 'component')}
-        self.assertEqual(counts, {'primitive': 149, 'semantic': 110, 'component': 152})
+        self.assertEqual(counts, {'primitive': 151, 'semantic': 112, 'component': 205})
 
     def test_extra_unused_family_collection_is_rejected(self):
         doc = copy.deepcopy(self.document)

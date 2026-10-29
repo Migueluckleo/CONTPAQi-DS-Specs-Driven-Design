@@ -1,0 +1,1051 @@
+{
+  "schema_version": 1,
+  "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
+  "contract": {
+    "id": "INPUT-001",
+    "version": "1.0.0",
+    "path": "norms/components/input.1.0.0.md",
+    "sha256": "63bec3610aac91499a71c86b005744344126ae3544b7a6784f7e4486d41ba128",
+    "current": true
+  },
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "5.1.0",
+      "path": "norms/tokens/blueheart.5.1.0.json",
+      "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+      "current": true
+    }
+  ],
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "page": {
+    "id": "281:62",
+    "name": "Input"
+  },
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "variables": [
+    {
+      "logicalId": "input.spacing-sm",
+      "nativeId": "VariableID:281:6",
+      "nativeKey": "849d2e364656cb81352da6bb8f09ecba45c3b2cb",
+      "figmaName": "input/spacing/sm",
+      "name": "--input-spacing-sm",
+      "web": "var(--input-spacing-sm)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.spacing-none",
+      "nativeId": "VariableID:281:7",
+      "nativeKey": "b40c3ad48860d45f06dc6d55760eabefb54040ef",
+      "figmaName": "input/spacing/none",
+      "name": "--input-spacing-none",
+      "web": "var(--input-spacing-none)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.spacing-xs",
+      "nativeId": "VariableID:281:8",
+      "nativeKey": "ed164183b1e441e307d8e596914a8c5bf0e239c0",
+      "figmaName": "input/spacing/xs",
+      "name": "--input-spacing-xs",
+      "web": "var(--input-spacing-xs)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-text-primary",
+      "nativeId": "VariableID:281:9",
+      "nativeKey": "bb0949595a90955698b50a7728c579e007312538",
+      "figmaName": "input/color/text/primary",
+      "name": "--input-color-text-primary",
+      "web": "var(--input-color-text-primary)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.font-size",
+      "nativeId": "VariableID:281:10",
+      "nativeKey": "9f1b80c4680fd277744e29186e975ec9a60de0c4",
+      "figmaName": "input/font/size",
+      "name": "--input-font-size",
+      "web": "var(--input-font-size)",
+      "scope": "FONT_SIZE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-sm"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.font-label-style",
+      "nativeId": "VariableID:281:11",
+      "nativeKey": "6dffca5d39a15209dd8c1efd60187ccfa525904d",
+      "figmaName": "input/font/label-style",
+      "name": "--input-font-label-style",
+      "web": "var(--input-font-label-style)",
+      "scope": "FONT_STYLE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-bold"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-bold"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.font-family",
+      "nativeId": "VariableID:281:12",
+      "nativeKey": "0576f8c01b7533b0b84d881d1adc45122244ce67",
+      "figmaName": "input/font/family",
+      "name": "--input-font-family",
+      "web": "var(--input-font-family)",
+      "scope": "FONT_FAMILY",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-family-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-family-base"
+        },
+        "Servicios": {
+          "alias": "semantic.font-family-base"
+        },
+        "Personas": {
+          "alias": "semantic.font-family-base"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.font-label-line-height",
+      "nativeId": "VariableID:281:13",
+      "nativeKey": "0f6b7763fd8233f8bdebfddbda6bddac0069d898",
+      "figmaName": "input/font/label-line-height",
+      "name": "--input-font-label-line-height",
+      "web": "var(--input-font-label-line-height)",
+      "scope": "LINE_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-sm"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.font-letter-spacing-label",
+      "nativeId": "VariableID:281:14",
+      "nativeKey": "d51bd438afb85d13765ed44cfd49cbd91d240b13",
+      "figmaName": "input/font/letter-spacing-label",
+      "name": "--input-font-letter-spacing-label",
+      "web": "var(--input-font-letter-spacing-label)",
+      "scope": "LETTER_SPACING",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-letter-spacing-label-px"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-letter-spacing-label-px"
+        },
+        "Servicios": {
+          "alias": "semantic.font-letter-spacing-label-px"
+        },
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-label-px"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-text-error",
+      "nativeId": "VariableID:281:15",
+      "nativeKey": "199a3b8bf02680462ffb13ac2801a1a37f292935",
+      "figmaName": "input/color/text/error",
+      "name": "--input-color-text-error",
+      "web": "var(--input-color-text-error)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.danger-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-default"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-default"
+        },
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.size-icon",
+      "nativeId": "VariableID:281:16",
+      "nativeKey": "27359eebadff4af930a67cc16f7a41127d4e9348",
+      "figmaName": "input/size/icon",
+      "name": "--input-size-icon",
+      "web": "var(--input-size-icon)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-icon-tooltip",
+      "nativeId": "VariableID:281:17",
+      "nativeKey": "aa998280b5e9a9e52e168011ffef3b984a4b5bda",
+      "figmaName": "input/color/icon/tooltip",
+      "name": "--input-color-icon-tooltip",
+      "web": "var(--input-color-icon-tooltip)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-default"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "themeBehavior": "THEMED"
+    },
+    {
+      "logicalId": "input.spacing-lg",
+      "nativeId": "VariableID:281:18",
+      "nativeKey": "57a41b66ea41f02cc1dd6ac337b7a2ad2e3193fc",
+      "figmaName": "input/spacing/lg",
+      "name": "--input-spacing-lg",
+      "web": "var(--input-spacing-lg)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-lg"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-lg"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.radius-container",
+      "nativeId": "VariableID:281:19",
+      "nativeKey": "0b6c54163723263ced590abed49dcf5a05a45e75",
+      "figmaName": "input/radius/container",
+      "name": "--input-radius-container",
+      "web": "var(--input-radius-container)",
+      "scope": "CORNER_RADIUS",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.radius-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-md"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-md"
+        },
+        "Personas": {
+          "alias": "semantic.radius-md"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.border-width-regular",
+      "nativeId": "VariableID:281:20",
+      "nativeKey": "a26391ec4274afe4f696b666bd7b149fadbb5329",
+      "figmaName": "input/border/width-regular",
+      "name": "--input-border-width-regular",
+      "web": "var(--input-border-width-regular)",
+      "scope": "STROKE_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-xs"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-xs"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-bg-surface",
+      "nativeId": "VariableID:281:21",
+      "nativeKey": "31ce7c7617edbc64838aded950868ccb45d820cf",
+      "figmaName": "input/color/bg/surface",
+      "name": "--input-color-bg-surface",
+      "web": "var(--input-color-bg-surface)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-stroke-default",
+      "nativeId": "VariableID:281:22",
+      "nativeKey": "876f328659bfc296979399744d96136e4c53f659",
+      "figmaName": "input/color/stroke/default",
+      "name": "--input-color-stroke-default",
+      "web": "var(--input-color-stroke-default)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.spacing-md",
+      "nativeId": "VariableID:281:23",
+      "nativeKey": "233b7e11369075f1352b9054ba34f836d9d98ff7",
+      "figmaName": "input/spacing/md",
+      "name": "--input-spacing-md",
+      "web": "var(--input-spacing-md)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-md"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-md"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-md"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.size-height-large",
+      "nativeId": "VariableID:281:24",
+      "nativeKey": "7d340eb3a300b75259f2c5739731f7e110e9bffc",
+      "figmaName": "input/size/height-large",
+      "name": "--input-size-height-large",
+      "web": "var(--input-size-height-large)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-5xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-5xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-5xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-5xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-text-secondary",
+      "nativeId": "VariableID:281:25",
+      "nativeKey": "50c9216f9b9f4d4da9d8d34372259f5bc876fdab",
+      "figmaName": "input/color/text/secondary",
+      "name": "--input-color-text-secondary",
+      "web": "var(--input-color-text-secondary)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.font-content-style",
+      "nativeId": "VariableID:281:26",
+      "nativeKey": "5148d07c8812b6112beecca082bcfa8481dcb658",
+      "figmaName": "input/font/content-style",
+      "name": "--input-font-content-style",
+      "web": "var(--input-font-content-style)",
+      "scope": "FONT_STYLE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-regular"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.font-letter-spacing-normal",
+      "nativeId": "VariableID:281:27",
+      "nativeKey": "f42b0bc6a07ef9fac1ff232634d9c645846d6457",
+      "figmaName": "input/font/letter-spacing-normal",
+      "name": "--input-font-letter-spacing-normal",
+      "web": "var(--input-font-letter-spacing-normal)",
+      "scope": "LETTER_SPACING",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Servicios": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-normal"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-icon-default",
+      "nativeId": "VariableID:281:28",
+      "nativeKey": "83fbb51745feb60a31829473f76035d85fcc5ffa",
+      "figmaName": "input/color/icon/default",
+      "name": "--input-color-icon-default",
+      "web": "var(--input-color-icon-default)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.font-helper-size",
+      "nativeId": "VariableID:281:29",
+      "nativeKey": "7038a1d366d4a7ea44030f4348f1a9d747f0e8f1",
+      "figmaName": "input/font/helper-size",
+      "name": "--input-font-helper-size",
+      "web": "var(--input-font-helper-size)",
+      "scope": "FONT_SIZE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-xs"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-xs"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.size-height-medium",
+      "nativeId": "VariableID:281:30",
+      "nativeKey": "0ab8b8ea6c53c26838d4c05b9cb5dff9c973dc98",
+      "figmaName": "input/size/height-medium",
+      "name": "--input-size-height-medium",
+      "web": "var(--input-size-height-medium)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-4xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-4xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-4xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-4xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.size-height-small",
+      "nativeId": "VariableID:281:31",
+      "nativeKey": "60ccee9678e006e48453ae5445cadbccf0208400",
+      "figmaName": "input/size/height-small",
+      "name": "--input-size-height-small",
+      "web": "var(--input-size-height-small)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-3xl"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-3xl"
+        },
+        "Servicios": {
+          "alias": "semantic.size-3xl"
+        },
+        "Personas": {
+          "alias": "semantic.size-3xl"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-stroke-hover",
+      "nativeId": "VariableID:281:32",
+      "nativeKey": "4446c677a697cb8af81d518bc64b44eb08add898",
+      "figmaName": "input/color/stroke/hover",
+      "name": "--input-color-stroke-hover",
+      "web": "var(--input-color-stroke-hover)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      },
+      "themeBehavior": "THEMED"
+    },
+    {
+      "logicalId": "input.color-effect-focus",
+      "nativeId": "VariableID:281:33",
+      "nativeKey": "aaf4df998a572bed5d0bd6258f765bed0b84881c",
+      "figmaName": "input/color/effect/focus",
+      "name": "--input-color-effect-focus",
+      "web": "var(--input-color-effect-focus)",
+      "scope": "EFFECT_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-deep"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-deep"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-deep"
+        },
+        "Personas": {
+          "alias": "semantic.brand-deep"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.size-focus-spread",
+      "nativeId": "VariableID:281:34",
+      "nativeKey": "0abb6bdf1654192dd32e24f23dcb25f358959b3a",
+      "figmaName": "input/size/focus-spread",
+      "name": "--input-size-focus-spread",
+      "web": "var(--input-size-focus-spread)",
+      "scope": "EFFECT_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-md"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-md"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-md"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.spacing-effect-none",
+      "nativeId": "VariableID:281:35",
+      "nativeKey": "724a0aff535413a8430ba82b3df4f3e2e2b85e53",
+      "figmaName": "input/spacing/effect-none",
+      "name": "--input-spacing-effect-none",
+      "web": "var(--input-spacing-effect-none)",
+      "scope": "EFFECT_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-indicator-focus",
+      "nativeId": "VariableID:281:36",
+      "nativeKey": "363a91cc9b298fdb3f6346a9864507b518b2f8fd",
+      "figmaName": "input/color/indicator/focus",
+      "name": "--input-color-indicator-focus",
+      "web": "var(--input-color-indicator-focus)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-strong"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-stroke-success",
+      "nativeId": "VariableID:281:37",
+      "nativeKey": "29e508bad350a28254aa45b1567d8101c66c65bb",
+      "figmaName": "input/color/stroke/success",
+      "name": "--input-color-stroke-success",
+      "web": "var(--input-color-stroke-success)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.positive-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-default"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-default"
+        },
+        "Personas": {
+          "alias": "semantic.positive-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-text-success",
+      "nativeId": "VariableID:281:38",
+      "nativeKey": "84f1e61e4b5678f03164439a7e56164db06bbcc7",
+      "figmaName": "input/color/text/success",
+      "name": "--input-color-text-success",
+      "web": "var(--input-color-text-success)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.positive-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.positive-default"
+        },
+        "Servicios": {
+          "alias": "semantic.positive-default"
+        },
+        "Personas": {
+          "alias": "semantic.positive-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-stroke-error",
+      "nativeId": "VariableID:281:39",
+      "nativeKey": "f4797e4c3cfdec746bb42d08ae5b6688652ae375",
+      "figmaName": "input/color/stroke/error",
+      "name": "--input-color-stroke-error",
+      "web": "var(--input-color-stroke-error)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.danger-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.danger-default"
+        },
+        "Servicios": {
+          "alias": "semantic.danger-default"
+        },
+        "Personas": {
+          "alias": "semantic.danger-default"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-bg-read-only-disabled",
+      "nativeId": "VariableID:281:40",
+      "nativeKey": "4827f9138cb58fc50ffb47f6f085dd453ba914a1",
+      "figmaName": "input/color/bg/read-only-disabled",
+      "name": "--input-color-bg-read-only-disabled",
+      "web": "var(--input-color-bg-read-only-disabled)",
+      "scope": "FRAME_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-subtle"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-subtle"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-stroke-read-only",
+      "nativeId": "VariableID:281:41",
+      "nativeKey": "c5e167399cfbd2436fdf990a45559371a641da9e",
+      "figmaName": "input/color/stroke/read-only",
+      "name": "--input-color-stroke-read-only",
+      "web": "var(--input-color-stroke-read-only)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-muted"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-muted"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-text-disabled",
+      "nativeId": "VariableID:281:42",
+      "nativeKey": "b2e57865b7ed9e5865579fdb17cbab0a327392dc",
+      "figmaName": "input/color/text/disabled",
+      "name": "--input-color-text-disabled",
+      "web": "var(--input-color-text-disabled)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-icon-disabled",
+      "nativeId": "VariableID:281:43",
+      "nativeKey": "febe98c7e665ed4739da7e235f79458ff1eadacd",
+      "figmaName": "input/color/icon/disabled",
+      "name": "--input-color-icon-disabled",
+      "web": "var(--input-color-icon-disabled)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-stroke-value",
+      "nativeId": "VariableID:281:44",
+      "nativeKey": "a4be997b02375df7cc2d19a6e568d1c1736b188b",
+      "figmaName": "input/color/stroke/value",
+      "name": "--input-color-stroke-value",
+      "web": "var(--input-color-stroke-value)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.size-focus-outer-spread",
+      "nativeId": "VariableID:285:4",
+      "nativeKey": "2b38fe4799c73e12270a99d2780e659376b582b2",
+      "figmaName": "input/size/focus-outer-spread",
+      "name": "--input-size-focus-outer-spread",
+      "web": "var(--input-size-focus-outer-spread)",
+      "scope": "EFFECT_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-effect-separation",
+      "nativeId": "VariableID:285:5",
+      "nativeKey": "2a608cbff48278434f0903a132892a3321c18dcd",
+      "figmaName": "input/color/effect/separation",
+      "name": "--input-color-effect-separation",
+      "web": "var(--input-color-effect-separation)",
+      "scope": "EFFECT_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-minimum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-minimum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-minimum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-minimum"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    }
+  ],
+  "nativeLedger": {
+    "path": "consumption/input/current-native-ledger.json",
+    "sha256": "6756f75aec7ca068e0ed273a58797b9079ce3911b6c239fbb1a84c4b24951ec6"
+  },
+  "build_plan": "current-build-plan.json",
+  "minimum": "token-minimum.json",
+  "variable_map": "variable-map.csv",
+  "binding_map": "binding-map.csv",
+  "qa": {
+    "path": "evidence/qa/input-pilot-check.json",
+    "sha256": "17856dc17ac3699cf62764d11243376f78531461c4daa42dacd223c99ae6a1f7"
+  },
+  "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "dependencies": [
+    {
+      "contract": {
+        "id": "BADGE-001",
+        "version": "1.0.0",
+        "path": "norms/components/badge.1.0.0.md",
+        "sha256": "8ce90583c08343028fc6cd42a5f16d0b23af2b921d34aca9c4f9fcd8caf27985",
+        "current": true
+      },
+      "manifest": {
+        "path": "consumption/badge/manifest.json",
+        "sha256": "ff23f4a70e0536b13a064a20bdd1ba58acc26861ba4e50775beb0bc312a892c9"
+      }
+    }
+  ]
+}

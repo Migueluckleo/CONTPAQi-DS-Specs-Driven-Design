@@ -1,0 +1,492 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "tolerance": 0.00001,
+  "inventory": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "primitive",
+      "count": 151,
+      "modes": [
+        "Value"
+      ]
+    },
+    {
+      "id": "VariableCollectionId:6:148",
+      "name": "semantic",
+      "count": 112,
+      "modes": [
+        "Value"
+      ]
+    },
+    {
+      "id": "VariableCollectionId:11:2",
+      "name": "component",
+      "count": 205,
+      "modes": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ]
+    }
+  ],
+  "checked": 57,
+  "floatReadbacks": [
+    {
+      "id": "primitive.font-letter-spacing-label-px",
+      "actual": 0.014000000432133675,
+      "expected": 0.014000000208616257
+    }
+  ],
+  "rows": [
+    {
+      "id": "primitive.font-letter-spacing-label-px",
+      "nativeId": "VariableID:281:3",
+      "collection": "primitive",
+      "scopes": []
+    },
+    {
+      "id": "semantic.font-letter-spacing-label-px",
+      "nativeId": "VariableID:281:5",
+      "collection": "semantic",
+      "scopes": []
+    },
+    {
+      "id": "input.spacing-sm",
+      "nativeId": "VariableID:281:6",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "input.spacing-none",
+      "nativeId": "VariableID:281:7",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "input.spacing-xs",
+      "nativeId": "VariableID:281:8",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "input.color-text-primary",
+      "nativeId": "VariableID:281:9",
+      "collection": "component",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "input.font-size",
+      "nativeId": "VariableID:281:10",
+      "collection": "component",
+      "scopes": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "id": "input.font-label-style",
+      "nativeId": "VariableID:281:11",
+      "collection": "component",
+      "scopes": [
+        "FONT_STYLE"
+      ]
+    },
+    {
+      "id": "input.font-family",
+      "nativeId": "VariableID:281:12",
+      "collection": "component",
+      "scopes": [
+        "FONT_FAMILY"
+      ]
+    },
+    {
+      "id": "input.font-label-line-height",
+      "nativeId": "VariableID:281:13",
+      "collection": "component",
+      "scopes": [
+        "LINE_HEIGHT"
+      ]
+    },
+    {
+      "id": "input.font-letter-spacing-label",
+      "nativeId": "VariableID:281:14",
+      "collection": "component",
+      "scopes": [
+        "LETTER_SPACING"
+      ]
+    },
+    {
+      "id": "input.color-text-error",
+      "nativeId": "VariableID:281:15",
+      "collection": "component",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "input.size-icon",
+      "nativeId": "VariableID:281:16",
+      "collection": "component",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ]
+    },
+    {
+      "id": "input.color-icon-tooltip",
+      "nativeId": "VariableID:281:17",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "input.spacing-lg",
+      "nativeId": "VariableID:281:18",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "input.radius-container",
+      "nativeId": "VariableID:281:19",
+      "collection": "component",
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "input.border-width-regular",
+      "nativeId": "VariableID:281:20",
+      "collection": "component",
+      "scopes": [
+        "STROKE_FLOAT"
+      ]
+    },
+    {
+      "id": "input.color-bg-surface",
+      "nativeId": "VariableID:281:21",
+      "collection": "component",
+      "scopes": [
+        "FRAME_FILL"
+      ]
+    },
+    {
+      "id": "input.color-stroke-default",
+      "nativeId": "VariableID:281:22",
+      "collection": "component",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "input.spacing-md",
+      "nativeId": "VariableID:281:23",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "input.size-height-large",
+      "nativeId": "VariableID:281:24",
+      "collection": "component",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ]
+    },
+    {
+      "id": "input.color-text-secondary",
+      "nativeId": "VariableID:281:25",
+      "collection": "component",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "input.font-content-style",
+      "nativeId": "VariableID:281:26",
+      "collection": "component",
+      "scopes": [
+        "FONT_STYLE"
+      ]
+    },
+    {
+      "id": "input.font-letter-spacing-normal",
+      "nativeId": "VariableID:281:27",
+      "collection": "component",
+      "scopes": [
+        "LETTER_SPACING"
+      ]
+    },
+    {
+      "id": "input.color-icon-default",
+      "nativeId": "VariableID:281:28",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "input.font-helper-size",
+      "nativeId": "VariableID:281:29",
+      "collection": "component",
+      "scopes": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "id": "input.size-height-medium",
+      "nativeId": "VariableID:281:30",
+      "collection": "component",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ]
+    },
+    {
+      "id": "input.size-height-small",
+      "nativeId": "VariableID:281:31",
+      "collection": "component",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ]
+    },
+    {
+      "id": "input.color-stroke-hover",
+      "nativeId": "VariableID:281:32",
+      "collection": "component",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "input.color-effect-focus",
+      "nativeId": "VariableID:281:33",
+      "collection": "component",
+      "scopes": [
+        "EFFECT_COLOR"
+      ]
+    },
+    {
+      "id": "input.size-focus-spread",
+      "nativeId": "VariableID:281:34",
+      "collection": "component",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ]
+    },
+    {
+      "id": "input.spacing-effect-none",
+      "nativeId": "VariableID:281:35",
+      "collection": "component",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ]
+    },
+    {
+      "id": "input.color-indicator-focus",
+      "nativeId": "VariableID:281:36",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "input.color-stroke-success",
+      "nativeId": "VariableID:281:37",
+      "collection": "component",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "input.color-text-success",
+      "nativeId": "VariableID:281:38",
+      "collection": "component",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "input.color-stroke-error",
+      "nativeId": "VariableID:281:39",
+      "collection": "component",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "input.color-bg-read-only-disabled",
+      "nativeId": "VariableID:281:40",
+      "collection": "component",
+      "scopes": [
+        "FRAME_FILL"
+      ]
+    },
+    {
+      "id": "input.color-stroke-read-only",
+      "nativeId": "VariableID:281:41",
+      "collection": "component",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "input.color-text-disabled",
+      "nativeId": "VariableID:281:42",
+      "collection": "component",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "input.color-icon-disabled",
+      "nativeId": "VariableID:281:43",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ]
+    },
+    {
+      "id": "input.color-stroke-value",
+      "nativeId": "VariableID:281:44",
+      "collection": "component",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "badge.color-bg-subtle",
+      "nativeId": "VariableID:281:45",
+      "collection": "component",
+      "scopes": [
+        "FRAME_FILL"
+      ]
+    },
+    {
+      "id": "badge.color-stroke-subtle",
+      "nativeId": "VariableID:281:46",
+      "collection": "component",
+      "scopes": [
+        "STROKE_COLOR"
+      ]
+    },
+    {
+      "id": "badge.spacing-none",
+      "nativeId": "VariableID:281:47",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "badge.spacing-inline",
+      "nativeId": "VariableID:281:48",
+      "collection": "component",
+      "scopes": [
+        "GAP"
+      ]
+    },
+    {
+      "id": "badge.radius-container",
+      "nativeId": "VariableID:281:49",
+      "collection": "component",
+      "scopes": [
+        "CORNER_RADIUS"
+      ]
+    },
+    {
+      "id": "badge.border-width-regular",
+      "nativeId": "VariableID:281:50",
+      "collection": "component",
+      "scopes": [
+        "STROKE_FLOAT"
+      ]
+    },
+    {
+      "id": "badge.color-text-primary",
+      "nativeId": "VariableID:281:51",
+      "collection": "component",
+      "scopes": [
+        "TEXT_FILL"
+      ]
+    },
+    {
+      "id": "badge.font-family",
+      "nativeId": "VariableID:281:52",
+      "collection": "component",
+      "scopes": [
+        "FONT_FAMILY"
+      ]
+    },
+    {
+      "id": "badge.font-label-style",
+      "nativeId": "VariableID:281:53",
+      "collection": "component",
+      "scopes": [
+        "FONT_STYLE"
+      ]
+    },
+    {
+      "id": "badge.font-size",
+      "nativeId": "VariableID:281:54",
+      "collection": "component",
+      "scopes": [
+        "FONT_SIZE"
+      ]
+    },
+    {
+      "id": "badge.font-line-height",
+      "nativeId": "VariableID:281:55",
+      "collection": "component",
+      "scopes": [
+        "LINE_HEIGHT"
+      ]
+    },
+    {
+      "id": "badge.font-letter-spacing",
+      "nativeId": "VariableID:281:56",
+      "collection": "component",
+      "scopes": [
+        "LETTER_SPACING"
+      ]
+    },
+    {
+      "id": "primitive.neutral-50",
+      "nativeId": "VariableID:285:2",
+      "collection": "primitive",
+      "scopes": []
+    },
+    {
+      "id": "semantic.neutral-minimum",
+      "nativeId": "VariableID:285:3",
+      "collection": "semantic",
+      "scopes": []
+    },
+    {
+      "id": "input.size-focus-outer-spread",
+      "nativeId": "VariableID:285:4",
+      "collection": "component",
+      "scopes": [
+        "EFFECT_FLOAT"
+      ]
+    },
+    {
+      "id": "input.color-effect-separation",
+      "nativeId": "VariableID:285:5",
+      "collection": "component",
+      "scopes": [
+        "EFFECT_COLOR"
+      ]
+    }
+  ]
+}

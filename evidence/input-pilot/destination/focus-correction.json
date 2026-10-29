@@ -1,0 +1,128 @@
+{
+  "variableIds": {
+    "primitive.neutral-50": "VariableID:285:2",
+    "semantic.neutral-minimum": "VariableID:285:3",
+    "input.size-focus-outer-spread": "VariableID:285:4",
+    "input.color-effect-separation": "VariableID:285:5"
+  },
+  "variableKeys": {
+    "primitive.neutral-50": "90a20f392453cc1599e1ce9289329f39b8a98b7e",
+    "semantic.neutral-minimum": "b024887066824c6ffa8639c3b131ffd5e34cee24",
+    "input.size-focus-outer-spread": "2b38fe4799c73e12270a99d2780e659376b582b2",
+    "input.color-effect-separation": "2a608cbff48278434f0903a132892a3321c18dcd"
+  },
+  "extensions": [
+    {
+      "logicalId": "primitive.neutral-50",
+      "nativeId": "VariableID:285:2",
+      "nativeKey": "90a20f392453cc1599e1ce9289329f39b8a98b7e",
+      "nativeName": "neutral-50"
+    },
+    {
+      "logicalId": "semantic.neutral-minimum",
+      "nativeId": "VariableID:285:3",
+      "nativeKey": "b024887066824c6ffa8639c3b131ffd5e34cee24",
+      "nativeName": "neutral-minimum"
+    }
+  ],
+  "style": {
+    "id": "S:ffe96325a6bf0520d67c5d7d8bbc5009b450f7f1,",
+    "name": "input/focus-double",
+    "effects": [
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 0,
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:33"
+          },
+          "spread": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:285:4"
+          },
+          "radius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:35"
+          },
+          "offsetX": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:35"
+          },
+          "offsetY": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:35"
+          }
+        },
+        "color": {
+          "r": 0.11372549086809158,
+          "g": 0.12941177189350128,
+          "b": 0.6901960968971252,
+          "a": 1
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "spread": 4,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": false
+      },
+      {
+        "type": "DROP_SHADOW",
+        "visible": true,
+        "radius": 0,
+        "boundVariables": {
+          "color": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:285:5"
+          },
+          "spread": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:34"
+          },
+          "radius": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:35"
+          },
+          "offsetX": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:35"
+          },
+          "offsetY": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:281:35"
+          }
+        },
+        "color": {
+          "r": 0.9725490212440491,
+          "g": 0.9803921580314636,
+          "b": 0.9882352948188782,
+          "a": 1
+        },
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "spread": 2,
+        "blendMode": "NORMAL",
+        "showShadowBehindNode": false
+      }
+    ]
+  },
+  "createdVariableIds": [
+    "VariableID:285:2",
+    "VariableID:285:3",
+    "VariableID:285:4",
+    "VariableID:285:5"
+  ],
+  "createdStyleIds": [
+    "S:ffe96325a6bf0520d67c5d7d8bbc5009b450f7f1,"
+  ],
+  "createdNodeIds": [],
+  "mutatedNodeIds": [
+    "282:256",
+    "282:273"
+  ]
+}

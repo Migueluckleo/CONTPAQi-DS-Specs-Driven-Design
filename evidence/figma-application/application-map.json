@@ -2544,6 +2544,42 @@
       "source_ids": [],
       "extension": "ADR-022",
       "source_node": "7561:47158"
+    },
+    {
+      "layer": "primitive",
+      "name": "font-letter-spacing-label-px",
+      "destination_id": "VariableID:281:3",
+      "destination_key": "9a4959b49c7c935ad1886eab91b4c95b98945480",
+      "source_ids": [],
+      "extension": "ADR-023",
+      "source_node": "186:14466"
+    },
+    {
+      "layer": "semantic",
+      "name": "font-letter-spacing-label-px",
+      "destination_id": "VariableID:281:5",
+      "destination_key": "f28f9fedd2ea389b9a2930c3347ca30a991ccaa7",
+      "source_ids": [],
+      "extension": "ADR-023",
+      "source_node": "186:14466"
+    },
+    {
+      "layer": "primitive",
+      "name": "neutral-50",
+      "destination_id": "VariableID:285:2",
+      "destination_key": "90a20f392453cc1599e1ce9289329f39b8a98b7e",
+      "source_ids": [],
+      "extension": "ADR-023",
+      "source_node": "186:14510"
+    },
+    {
+      "layer": "semantic",
+      "name": "neutral-minimum",
+      "destination_id": "VariableID:285:3",
+      "destination_key": "b024887066824c6ffa8639c3b131ffd5e34cee24",
+      "source_ids": [],
+      "extension": "ADR-023",
+      "source_node": "186:14510"
     }
   ],
   "extensions": [
@@ -2562,6 +2598,14 @@
       "sha256": "023a3b588ad159bff47e97698582d372880df429353e37923bbff355cf10c8a0",
       "new_variables": 2,
       "previous_map": "evidence/loader-pilot/history/application-map.json"
+    },
+    {
+      "decision": "ADR-023",
+      "token_set": "BLUEHEART-TOKENS@5.1.0",
+      "evidence": "evidence/input-pilot/state.json",
+      "sha256": "29ee21202e9a15c5ca0a793896039043385f8e4fe34e86448a905e47332d4acc",
+      "new_variables": 4,
+      "previous_map": "evidence/input-pilot/history/application-map.json"
     }
   ]
 }

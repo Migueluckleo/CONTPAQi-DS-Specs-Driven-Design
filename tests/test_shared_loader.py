@@ -13,7 +13,7 @@ class SharedLoaderTests(unittest.TestCase):
   for g in p['animation'].values():
    self.assertEqual(len(g['phases']),24);self.assertEqual(g['phases'][-1]['to'],g['phases'][0]['id'])
  def test_retired_colors_have_exact_owned_alias_replacements_and_history(self):
-  old={t['id']:t for t in read('evidence/loader-pilot/history/blueheart.4.0.0.json')['tokens']};new={t['id']:t for t in read('norms/tokens/blueheart.5.0.0.json')['tokens']};mapping=read('evidence/loader-pilot/migration-map.json')
+  old={t['id']:t for t in read('evidence/loader-pilot/history/blueheart.4.0.0.json')['tokens']};new={t['id']:t for t in read('evidence/input-pilot/history/blueheart.5.0.0.json')['tokens']};mapping=read('evidence/loader-pilot/migration-map.json')
   self.assertEqual(set(old)-set(new),set(mapping['retired']))
   for tid,r in mapping['replacementTokens'].items():
    self.assertEqual(tuple(old[tid][k]for k in ['type','scopes','values']),tuple(new[r['logicalId']][k]for k in ['type','scopes','values']))

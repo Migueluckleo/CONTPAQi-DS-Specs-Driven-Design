@@ -1,0 +1,33 @@
+{
+  "scope": "Input plus only Badge subtle/small",
+  "decision": "ADR-023",
+  "sourceReadOnly": true,
+  "inventory": {
+    "inputVariants": 42,
+    "inputSets": 2,
+    "badgeVariants": 1,
+    "inputTokens": 41,
+    "badgeTokens": 12,
+    "additionalFoundations": 4,
+    "collections": 3
+  },
+  "acceptance": {
+    "names": "BH-P07 REQ-P07-02",
+    "minimum": "full type/unit/scope/all-mode-alias signatures",
+    "theme": "hover stroke and Question themed; all other roles invariant",
+    "geometryTolerance": 1e-05,
+    "typography": "source percentages retained in immutable snapshots; equivalent px binding adapter documented after native API readback",
+    "reverse": "zero existing Input uses; Dot aliases remain Dot",
+    "longHelper": "grow instead of clip",
+    "prototype": "no source reactions; no fabricated runtime validation",
+    "focus": "all eleven source effects preserved, including empty medium/small 4/2 px composite"
+  },
+  "source": {
+    "path": "evidence/input-pilot/source/api.json",
+    "sha256": "1656540b6bdc0989b57ca87f7f7016e58ce5801bda93fbb575f2fff21ad4b0fc"
+  },
+  "reverse": {
+    "path": "evidence/input-pilot/destination/reverse-before.json",
+    "sha256": "a3c32298a58f9936b6ac5a09bd0c25d7ca2b4fb0486f1338732ca783ea0b79da"
+  }
+}

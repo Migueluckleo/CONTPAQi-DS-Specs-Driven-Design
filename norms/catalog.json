@@ -105,14 +105,28 @@
       "path": "norms/components/loader.1.0.0.md",
       "sha256": "d896097b70717e334a4c864ca254d395ce0b7a168c175dec2ff6556a5a26a088",
       "current": true
+    },
+    {
+      "id": "BADGE-001",
+      "version": "1.0.0",
+      "path": "norms/components/badge.1.0.0.md",
+      "sha256": "8ce90583c08343028fc6cd42a5f16d0b23af2b921d34aca9c4f9fcd8caf27985",
+      "current": true
+    },
+    {
+      "id": "INPUT-001",
+      "version": "1.0.0",
+      "path": "norms/components/input.1.0.0.md",
+      "sha256": "63bec3610aac91499a71c86b005744344126ae3544b7a6784f7e4486d41ba128",
+      "current": true
     }
   ],
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "5.0.0",
-      "path": "norms/tokens/blueheart.5.0.0.json",
-      "sha256": "a8daf49a3eafddfbcbfd6420f9126fdd636999869ada399531888f7c12bcd6d8",
+      "version": "5.1.0",
+      "path": "norms/tokens/blueheart.5.1.0.json",
+      "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
       "current": true
     }
   ]

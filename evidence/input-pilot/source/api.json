@@ -1,0 +1,466 @@
+{
+  "set": {
+    "id": "186:14461",
+    "key": "814bb871551c71ccd763ba87c7707521e816a254",
+    "name": "input field",
+    "description": "Input fieldCampo para capturar un dato de una sola línea: razón social, RFC, correo, código postal, montos. Con el ícono CaretDown funciona como disparador de un dropdown-menu; con Show badge muestra la moneda o unidad del dato.\n\n\nPropiedades\nsize: large 48 · medium 40 · small 32.\nstatus: default · hover · focus · success · error · read-only · disabled.\nvalue: false (placeholder, borde color/border/default) · true (texto capturado, borde color/border/control).\nLabel / Show label · Required · Placeholder / Show placeholder · Helper text / Show helper · Show tooltip · Show icon / Icon (CaretDown por defecto) · Show badge (apagado por defecto).\nBadge: instancia expuesta de badge (type=subtle, size=small) para unidades o metadatos dentro del campo, p. ej. moneda MXN o USD; edita su Label desde la instancia.\n\n\nTamaños recomendados\nlarge en formularios principales (alta de cliente, emisión de CFDI); medium en filtros y paneles; small en tablas, paginación y barras.\nUsa un solo tamaño por formulario.\n\n\nContenido para LATAM\nLabel en sentence case y sustantivo: \"Razón social\", \"Código postal\", \"Correo electrónico\".\nPlaceholder como ejemplo, no como instrucción: \"Ej. CNO850101AB3\". Nunca reemplaza al label.\nRFC (MX), RUT (CL), CUIT (AR), NIT (CO), CPF/CNPJ (BR) en mayúsculas y sin espacios; razón social con régimen societario completo (S.A. de C.V., S.A.P.I., Ltda., S.A.S.).\nMontos con badge de moneda ISO (MXN, USD) y separadores según país; fechas día-mes-año. El badge usa type=subtle porque es un metadato sin estado.\n\n\nDatos personales\nCampos con RFC, CURP, NSS o CPF son datos personales (LFPDPPP, LGPD, Ley 1581, Ley 25.326): usa read-only cuando no deban editarse y no los muestres completos si no es necesario.\n\n\nComportamiento\nsuccess solo tras validar (p. ej. RFC verificado); error solo tras intentar enviar, siempre con mensaje en Helper text.\nread-only para datos informativos que se pueden copiar pero no editar (RFC registrado, folio fiscal).\ndisabled cuando el campo no aplica; explica el motivo cerca.\nComo dropdown: clic abre dropdown-menu debajo con spacing/xs de separación.\n\n\nAccesibilidad\nLabel asociado (for/id); Required con aria-required; error con aria-invalid y aria-describedby al mensaje.\nBorde con valor color/border/control 4.76:1; foco con anillo color/focus/ring (stroke/md).\n\n\nDo / Don't\n✅ Muestra siempre el label.\n✅ Valida al salir del campo, no mientras se escribe.\n❌ No uses el placeholder como label.\n❌ No deshabilites un campo para mostrar información: usa read-only.\n\n\nComponentes anidados\nbadge (subtle, small) para moneda o unidad · ícono Phosphor (CaretDown) · Question para el tooltip.\n\n\nTokens\nsize/3xl · size/4xl · size/5xl · spacing/ · radius/md · stroke/xs · stroke/md · font/size/xs · font/size/sm · color/background/default · color/background/subtle · color/interactive/disabled/bg · color/border/default · color/border/control · color/border/hover · color/border/strong · color/border/control-disabled · color/feedback/danger/ · color/feedback/positive/* · color/text/primary · color/text/tertiary · color/text/disabled · color/icon/secondary · color/focus/ring",
+    "properties": {
+      "Label#98:0": {
+        "type": "TEXT",
+        "defaultValue": "Label"
+      },
+      "Show helper#98:4": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Placeholder#98:8": {
+        "type": "TEXT",
+        "defaultValue": "Placeholder text"
+      },
+      "Helper text#98:12": {
+        "type": "TEXT",
+        "defaultValue": "Helper text"
+      },
+      "Show tooltip#98:16": {
+        "type": "BOOLEAN",
+        "defaultValue": false
+      },
+      "Required#98:20": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Show icon#98:28": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Show label#203:31": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Show placeholder#1126:0": {
+        "type": "BOOLEAN",
+        "defaultValue": true
+      },
+      "Icon#2829:254": {
+        "type": "INSTANCE_SWAP",
+        "defaultValue": "355:77926",
+        "preferredValues": [
+          {
+            "type": "COMPONENT_SET",
+            "key": "e63ccf6ddce54a0c7fc00c17247385f141f8804b"
+          },
+          {
+            "type": "COMPONENT_SET",
+            "key": "817dc060bd7a0456ea3cd62c3333046c720aac49"
+          },
+          {
+            "type": "COMPONENT_SET",
+            "key": "3501e37259778aa960dc8409cebc8ade3a70ff9b"
+          },
+          {
+            "type": "COMPONENT_SET",
+            "key": "7c15c4227ef9d7fd25274ca037ab1633dcd7412e"
+          },
+          {
+            "type": "COMPONENT_SET",
+            "key": "f76675ff75d76100814277d0c9d6c031bd15a635"
+          },
+          {
+            "type": "COMPONENT_SET",
+            "key": "e64ccab11b55e4aac1638ef0b7dbbab6800badd5"
+          },
+          {
+            "type": "COMPONENT_SET",
+            "key": "f6d0c03e3e3227f8605429d94962f2c32ef8b7ea"
+          }
+        ]
+      },
+      "Show badge#6951:0": {
+        "type": "BOOLEAN",
+        "defaultValue": false
+      },
+      "size": {
+        "type": "VARIANT",
+        "defaultValue": "large",
+        "variantOptions": [
+          "small",
+          "medium",
+          "large"
+        ]
+      },
+      "status": {
+        "type": "VARIANT",
+        "defaultValue": "default",
+        "variantOptions": [
+          "success",
+          "error",
+          "default",
+          "focus",
+          "disabled",
+          "read-only",
+          "hover"
+        ]
+      },
+      "value": {
+        "type": "VARIANT",
+        "defaultValue": "false",
+        "variantOptions": [
+          "false",
+          "true"
+        ]
+      }
+    }
+  },
+  "variants": [
+    {
+      "id": "186:14462",
+      "name": "size=large, status=default, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14474",
+      "name": "size=medium, status=default, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14486",
+      "name": "size=small, status=default, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "9179:29578",
+      "name": "size=large, status=hover, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "9179:29593",
+      "name": "size=medium, status=hover, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "9179:29608",
+      "name": "size=small, status=hover, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14498",
+      "name": "size=large, status=focus, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14510",
+      "name": "size=medium, status=focus, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14522",
+      "name": "size=small, status=focus, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14534",
+      "name": "size=large, status=success, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14546",
+      "name": "size=medium, status=success, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14558",
+      "name": "size=small, status=success, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14570",
+      "name": "size=large, status=error, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14582",
+      "name": "size=medium, status=error, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14594",
+      "name": "size=small, status=error, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "9165:71",
+      "name": "size=large, status=read-only, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "9165:99",
+      "name": "size=medium, status=read-only, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "9165:127",
+      "name": "size=small, status=read-only, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14606",
+      "name": "size=large, status=disabled, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14618",
+      "name": "size=medium, status=disabled, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14630",
+      "name": "size=small, status=disabled, value=false",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14642",
+      "name": "size=large, status=default, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14654",
+      "name": "size=medium, status=default, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14666",
+      "name": "size=small, status=default, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "9179:29623",
+      "name": "size=large, status=hover, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "9179:29638",
+      "name": "size=medium, status=hover, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "9179:29653",
+      "name": "size=small, status=hover, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14678",
+      "name": "size=large, status=focus, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14690",
+      "name": "size=medium, status=focus, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14702",
+      "name": "size=small, status=focus, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14714",
+      "name": "size=large, status=success, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14726",
+      "name": "size=medium, status=success, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14738",
+      "name": "size=small, status=success, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14750",
+      "name": "size=large, status=error, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14762",
+      "name": "size=medium, status=error, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14774",
+      "name": "size=small, status=error, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "9165:85",
+      "name": "size=large, status=read-only, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "9165:113",
+      "name": "size=medium, status=read-only, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "9165:141",
+      "name": "size=small, status=read-only, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    },
+    {
+      "id": "186:14786",
+      "name": "size=large, status=disabled, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 96,
+      "count": 2
+    },
+    {
+      "id": "186:14798",
+      "name": "size=medium, status=disabled, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 88,
+      "count": 2
+    },
+    {
+      "id": "186:14810",
+      "name": "size=small, status=disabled, value=true",
+      "type": "COMPONENT",
+      "w": 464,
+      "h": 80,
+      "count": 2
+    }
+  ],
+  "docs": [
+    {
+      "id": "9181:16619",
+      "text": "read-only para datos que no se editan (RFC registrado); disabled cuando no aplica."
+    },
+    {
+      "id": "9183:30481",
+      "text": "Show badge (apagado por defecto) muestra un badge subtle small, p. ej. MXN o USD."
+    },
+    {
+      "id": "9183:30487",
+      "text": "El badge es una instancia expuesta: cambia su Label desde el panel de propiedades."
+    }
+  ]
+}

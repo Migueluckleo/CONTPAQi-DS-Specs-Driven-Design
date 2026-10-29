@@ -1,0 +1,57 @@
+{
+  "role": "DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES",
+  "pageId": "281:63",
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "key": "2405a77706db6f52721681be4535b058e3d38fbd",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "variableIds": {
+    "badge.color-bg-subtle": "VariableID:281:45",
+    "badge.color-stroke-subtle": "VariableID:281:46",
+    "badge.spacing-none": "VariableID:281:47",
+    "badge.spacing-inline": "VariableID:281:48",
+    "badge.radius-container": "VariableID:281:49",
+    "badge.border-width-regular": "VariableID:281:50",
+    "badge.color-text-primary": "VariableID:281:51",
+    "badge.font-family": "VariableID:281:52",
+    "badge.font-label-style": "VariableID:281:53",
+    "badge.font-size": "VariableID:281:54",
+    "badge.font-line-height": "VariableID:281:55",
+    "badge.font-letter-spacing": "VariableID:281:56"
+  },
+  "variableKeys": {
+    "badge.color-bg-subtle": "ab610bf915e38625a67888a241bfa34340583692",
+    "badge.color-stroke-subtle": "c2a7397a7d85d5c496b86c5a97212d85ce46d6bc",
+    "badge.spacing-none": "94f7c13a6fc6f9bfc384d97b64006ad75a12a86d",
+    "badge.spacing-inline": "c8297a9bc3b3cfb2df3b7d000343f603d461021e",
+    "badge.radius-container": "9503c07d8048dd507cf2dba9ee6de87ad4fb65f8",
+    "badge.border-width-regular": "80c5cbcf63ee01fabebc66ecb2bdb502947087f9",
+    "badge.color-text-primary": "95dcbd2ae3727dd2f0312c9e27dac0f7b70cde82",
+    "badge.font-family": "45129df91ba740dc8195e487d3581f9716966438",
+    "badge.font-label-style": "72253a5743f717fb6b04641f0f51933c1e8dcc6f",
+    "badge.font-size": "b6f039e646cefaf874347eff12a768c8d7d35899",
+    "badge.font-line-height": "7a9db6b744cb8cb9ca3f355f13f4dd7c9f7ec596",
+    "badge.font-letter-spacing": "b66d7ef99a9adede16d22e027b7d0e2b31f691e3"
+  },
+  "styles": {
+    "badge/subtle-small": "S:e439d0e54383733d35898b17c875f29d643cf402,"
+  },
+  "setId": "282:3",
+  "setKey": "c6134de85c23e3c29f86337297a9ec6f51d0f27f",
+  "variantId": "282:2",
+  "variantKey": "971e75e9ad51ae6be71ce2cd5e145607df0dc6e1",
+  "labelId": "282:4",
+  "labelProperty": "Label#282:0",
+  "reviewFrame": {
+    "id": "289:2",
+    "w": 840,
+    "h": 520
+  }
+}

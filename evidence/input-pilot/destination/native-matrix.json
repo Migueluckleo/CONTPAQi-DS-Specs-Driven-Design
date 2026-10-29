@@ -1,0 +1,637 @@
+{
+  "status": "PASS",
+  "batches": [
+    {
+      "status": "PASS",
+      "issues": [],
+      "variants": [
+        {
+          "id": "282:5",
+          "axes": {
+            "size": "large",
+            "status": "default",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "186:14462"
+        },
+        {
+          "id": "282:12",
+          "axes": {
+            "size": "medium",
+            "status": "default",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "186:14474"
+        },
+        {
+          "id": "282:19",
+          "axes": {
+            "size": "small",
+            "status": "default",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "186:14486"
+        },
+        {
+          "id": "282:6",
+          "axes": {
+            "size": "large",
+            "status": "hover",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "9179:29578"
+        },
+        {
+          "id": "282:13",
+          "axes": {
+            "size": "medium",
+            "status": "hover",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "9179:29593"
+        },
+        {
+          "id": "282:20",
+          "axes": {
+            "size": "small",
+            "status": "hover",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "9179:29608"
+        }
+      ],
+      "counts": {
+        "nodes": 78,
+        "texts": 24,
+        "bindings": 378,
+        "icons": 12,
+        "badges": 6,
+        "effects": 0
+      },
+      "tolerance": 0.00001,
+      "sourceReadOnly": true,
+      "scope": "Native structure/typography/bindings; no HTML or keyboard certification"
+    },
+    {
+      "status": "PASS",
+      "issues": [],
+      "variants": [
+        {
+          "id": "282:7",
+          "axes": {
+            "size": "large",
+            "status": "focus",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 15,
+          "sourceId": "186:14498"
+        },
+        {
+          "id": "282:14",
+          "axes": {
+            "size": "medium",
+            "status": "focus",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 15,
+          "sourceId": "186:14510"
+        },
+        {
+          "id": "282:21",
+          "axes": {
+            "size": "small",
+            "status": "focus",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 15,
+          "sourceId": "186:14522"
+        },
+        {
+          "id": "282:8",
+          "axes": {
+            "size": "large",
+            "status": "success",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "186:14534"
+        },
+        {
+          "id": "282:15",
+          "axes": {
+            "size": "medium",
+            "status": "success",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "186:14546"
+        },
+        {
+          "id": "282:22",
+          "axes": {
+            "size": "small",
+            "status": "success",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "186:14558"
+        }
+      ],
+      "counts": {
+        "nodes": 84,
+        "texts": 24,
+        "bindings": 459,
+        "icons": 12,
+        "badges": 6,
+        "effects": 8
+      },
+      "tolerance": 0.00001,
+      "sourceReadOnly": true,
+      "scope": "Native structure/typography/bindings; no HTML or keyboard certification"
+    },
+    {
+      "status": "PASS",
+      "issues": [],
+      "variants": [
+        {
+          "id": "282:9",
+          "axes": {
+            "size": "large",
+            "status": "error",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "186:14570"
+        },
+        {
+          "id": "282:16",
+          "axes": {
+            "size": "medium",
+            "status": "error",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "186:14582"
+        },
+        {
+          "id": "282:23",
+          "axes": {
+            "size": "small",
+            "status": "error",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "186:14594"
+        },
+        {
+          "id": "282:10",
+          "axes": {
+            "size": "large",
+            "status": "read-only",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "9165:71"
+        },
+        {
+          "id": "282:17",
+          "axes": {
+            "size": "medium",
+            "status": "read-only",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "9165:99"
+        },
+        {
+          "id": "282:24",
+          "axes": {
+            "size": "small",
+            "status": "read-only",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "9165:127"
+        }
+      ],
+      "counts": {
+        "nodes": 78,
+        "texts": 24,
+        "bindings": 378,
+        "icons": 12,
+        "badges": 6,
+        "effects": 0
+      },
+      "tolerance": 0.00001,
+      "sourceReadOnly": true,
+      "scope": "Native structure/typography/bindings; no HTML or keyboard certification"
+    },
+    {
+      "status": "PASS",
+      "issues": [],
+      "variants": [
+        {
+          "id": "282:11",
+          "axes": {
+            "size": "large",
+            "status": "disabled",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "186:14606"
+        },
+        {
+          "id": "282:18",
+          "axes": {
+            "size": "medium",
+            "status": "disabled",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "186:14618"
+        },
+        {
+          "id": "282:25",
+          "axes": {
+            "size": "small",
+            "status": "disabled",
+            "value": "false"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "186:14630"
+        },
+        {
+          "id": "282:118",
+          "axes": {
+            "size": "large",
+            "status": "default",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "186:14642"
+        },
+        {
+          "id": "282:125",
+          "axes": {
+            "size": "medium",
+            "status": "default",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "186:14654"
+        },
+        {
+          "id": "282:132",
+          "axes": {
+            "size": "small",
+            "status": "default",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "186:14666"
+        }
+      ],
+      "counts": {
+        "nodes": 78,
+        "texts": 24,
+        "bindings": 378,
+        "icons": 12,
+        "badges": 6,
+        "effects": 0
+      },
+      "tolerance": 0.00001,
+      "sourceReadOnly": true,
+      "scope": "Native structure/typography/bindings; no HTML or keyboard certification"
+    },
+    {
+      "status": "PASS",
+      "issues": [],
+      "variants": [
+        {
+          "id": "282:119",
+          "axes": {
+            "size": "large",
+            "status": "hover",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "9179:29623"
+        },
+        {
+          "id": "282:126",
+          "axes": {
+            "size": "medium",
+            "status": "hover",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "9179:29638"
+        },
+        {
+          "id": "282:133",
+          "axes": {
+            "size": "small",
+            "status": "hover",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "9179:29653"
+        },
+        {
+          "id": "282:120",
+          "axes": {
+            "size": "large",
+            "status": "focus",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 15,
+          "sourceId": "186:14678"
+        },
+        {
+          "id": "282:127",
+          "axes": {
+            "size": "medium",
+            "status": "focus",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 15,
+          "sourceId": "186:14690"
+        },
+        {
+          "id": "282:134",
+          "axes": {
+            "size": "small",
+            "status": "focus",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 15,
+          "sourceId": "186:14702"
+        }
+      ],
+      "counts": {
+        "nodes": 84,
+        "texts": 24,
+        "bindings": 432,
+        "icons": 12,
+        "badges": 6,
+        "effects": 3
+      },
+      "tolerance": 0.00001,
+      "sourceReadOnly": true,
+      "scope": "Native structure/typography/bindings; no HTML or keyboard certification"
+    },
+    {
+      "status": "PASS",
+      "issues": [],
+      "variants": [
+        {
+          "id": "282:121",
+          "axes": {
+            "size": "large",
+            "status": "success",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "186:14714"
+        },
+        {
+          "id": "282:128",
+          "axes": {
+            "size": "medium",
+            "status": "success",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "186:14726"
+        },
+        {
+          "id": "282:135",
+          "axes": {
+            "size": "small",
+            "status": "success",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "186:14738"
+        },
+        {
+          "id": "282:122",
+          "axes": {
+            "size": "large",
+            "status": "error",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "186:14750"
+        },
+        {
+          "id": "282:129",
+          "axes": {
+            "size": "medium",
+            "status": "error",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "186:14762"
+        },
+        {
+          "id": "282:136",
+          "axes": {
+            "size": "small",
+            "status": "error",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "186:14774"
+        }
+      ],
+      "counts": {
+        "nodes": 78,
+        "texts": 24,
+        "bindings": 378,
+        "icons": 12,
+        "badges": 6,
+        "effects": 0
+      },
+      "tolerance": 0.00001,
+      "sourceReadOnly": true,
+      "scope": "Native structure/typography/bindings; no HTML or keyboard certification"
+    },
+    {
+      "status": "PASS",
+      "issues": [],
+      "variants": [
+        {
+          "id": "282:123",
+          "axes": {
+            "size": "large",
+            "status": "read-only",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "9165:85"
+        },
+        {
+          "id": "282:130",
+          "axes": {
+            "size": "medium",
+            "status": "read-only",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "9165:113"
+        },
+        {
+          "id": "282:137",
+          "axes": {
+            "size": "small",
+            "status": "read-only",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "9165:141"
+        },
+        {
+          "id": "282:124",
+          "axes": {
+            "size": "large",
+            "status": "disabled",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 96,
+          "nodes": 13,
+          "sourceId": "186:14786"
+        },
+        {
+          "id": "282:131",
+          "axes": {
+            "size": "medium",
+            "status": "disabled",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 88,
+          "nodes": 13,
+          "sourceId": "186:14798"
+        },
+        {
+          "id": "282:138",
+          "axes": {
+            "size": "small",
+            "status": "disabled",
+            "value": "true"
+          },
+          "w": 464,
+          "h": 80,
+          "nodes": 13,
+          "sourceId": "186:14810"
+        }
+      ],
+      "counts": {
+        "nodes": 78,
+        "texts": 24,
+        "bindings": 378,
+        "icons": 12,
+        "badges": 6,
+        "effects": 0
+      },
+      "tolerance": 0.00001,
+      "sourceReadOnly": true,
+      "scope": "Native structure/typography/bindings; no HTML or keyboard certification"
+    }
+  ],
+  "variantCount": 42,
+  "counts": {
+    "nodes": 558,
+    "texts": 168,
+    "bindings": 2781,
+    "icons": 84,
+    "badges": 42,
+    "effects": 11
+  }
+}
