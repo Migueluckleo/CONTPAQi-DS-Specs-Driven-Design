@@ -1,0 +1,6063 @@
+{
+  "role": "DERIVED_PAIRING_PLAN_NOT_RULES",
+  "decision": "ADR-024",
+  "source": {
+    "path": "evidence/icon-color-audit/authority.json",
+    "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+    "original_id": "USER-ICON-COLOR-ALIGNMENT",
+    "selector": "JSON:/instruction"
+  },
+  "baselineTokenSet": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "5.1.0",
+    "path": "norms/tokens/blueheart.5.1.0.json",
+    "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+    "current": true
+  },
+  "updatedTokens": [
+    {
+      "id": "button.color-button-icon-brand",
+      "name": "--color-button-icon-brand",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Token de Button para color button icon brand",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "source": {
+        "path": "evidence/icon-color-audit/authority.json",
+        "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+        "original_id": "USER-ICON-COLOR-ALIGNMENT",
+        "selector": "JSON:/instruction"
+      }
+    },
+    {
+      "id": "button.color-button-icon-brand-hover",
+      "name": "--color-button-icon-brand-hover",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Token de Button para color button icon brand hover",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      },
+      "source": {
+        "path": "evidence/icon-color-audit/authority.json",
+        "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+        "original_id": "USER-ICON-COLOR-ALIGNMENT",
+        "selector": "JSON:/instruction"
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-brand",
+      "name": "--color-tab-icon-brand",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tab: color / icon / brand; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "source": {
+        "path": "evidence/icon-color-audit/authority.json",
+        "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+        "original_id": "USER-ICON-COLOR-ALIGNMENT",
+        "selector": "JSON:/instruction"
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-secondary",
+      "name": "--color-tab-icon-secondary",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tab: color / icon / secondary; firma consolidada conforme a BH-P07.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-strong"
+        }
+      },
+      "source": {
+        "path": "evidence/icon-color-audit/authority.json",
+        "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+        "original_id": "USER-ICON-COLOR-ALIGNMENT",
+        "selector": "JSON:/instruction"
+      }
+    }
+  ],
+  "newTokens": [
+    {
+      "id": "tab.color-tab-icon-inverse",
+      "name": "--color-tab-icon-inverse",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tab: icono alineado con Label en todos los temas; tab/color/icon/inverse",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      },
+      "source": {
+        "path": "evidence/icon-color-audit/authority.json",
+        "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+        "original_id": "USER-ICON-COLOR-ALIGNMENT",
+        "selector": "JSON:/instruction"
+      },
+      "figmaName": "tab/color/icon/inverse",
+      "web": "var(--color-tab-icon-inverse)"
+    },
+    {
+      "id": "tab.color-tab-icon-brand-hover",
+      "name": "--color-tab-icon-brand-hover",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Tab: icono alineado con Label en todos los temas; tab/color/icon/brand-hover",
+      "values": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      },
+      "source": {
+        "path": "evidence/icon-color-audit/authority.json",
+        "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+        "original_id": "USER-ICON-COLOR-ALIGNMENT",
+        "selector": "JSON:/instruction"
+      },
+      "figmaName": "tab/color/icon/primary-hover",
+      "web": "var(--color-tab-icon-brand-hover)"
+    },
+    {
+      "id": "input.color-icon-secondary",
+      "name": "--input-color-icon-secondary",
+      "layer": "component",
+      "type": "color",
+      "collection": "component",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "description": "Input: icono junto al placeholder secundario; mismo vector que el texto.",
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "source": {
+        "path": "evidence/icon-color-audit/authority.json",
+        "sha256": "c71c59b15cbf7e3dd3653c0abe0c87b6d1dadc535a5577fc52695e5cdd2f1a49",
+        "original_id": "USER-ICON-COLOR-ALIGNMENT",
+        "selector": "JSON:/instruction"
+      },
+      "figmaName": "input/color/icon/secondary",
+      "web": "var(--input-color-icon-secondary)"
+    }
+  ],
+  "retiredLogicalTokens": [
+    "input.color-icon-tooltip"
+  ],
+  "reusedNativeIdentity": {
+    "input.color-icon-secondary": "VariableID:281:17"
+  },
+  "pairs": [
+    {
+      "family": "avatar",
+      "subfamily": "avatar",
+      "variantId": "145:98",
+      "axes": {
+        "type": "icon",
+        "size": "extra-large"
+      },
+      "iconId": "145:116",
+      "vectorId": "I145:116;8899:83020",
+      "field": "fills",
+      "textId": "145:132",
+      "textToken": "avatar.color-text-inverse",
+      "oldIconToken": "avatar.color-icon-inverse",
+      "oldNativeVariable": "VariableID:171:55",
+      "targetToken": "avatar.color-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "avatar",
+      "subfamily": "avatar",
+      "variantId": "145:99",
+      "axes": {
+        "type": "icon",
+        "size": "large"
+      },
+      "iconId": "145:120",
+      "vectorId": "I145:120;8899:83020",
+      "field": "fills",
+      "textId": "145:135",
+      "textToken": "avatar.color-text-inverse",
+      "oldIconToken": "avatar.color-icon-inverse",
+      "oldNativeVariable": "VariableID:171:55",
+      "targetToken": "avatar.color-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "avatar",
+      "subfamily": "avatar",
+      "variantId": "145:100",
+      "axes": {
+        "type": "icon",
+        "size": "medium"
+      },
+      "iconId": "145:124",
+      "vectorId": "I145:124;8899:83020",
+      "field": "fills",
+      "textId": "145:138",
+      "textToken": "avatar.color-text-inverse",
+      "oldIconToken": "avatar.color-icon-inverse",
+      "oldNativeVariable": "VariableID:171:55",
+      "targetToken": "avatar.color-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "avatar",
+      "subfamily": "avatar",
+      "variantId": "145:101",
+      "axes": {
+        "type": "icon",
+        "size": "small"
+      },
+      "iconId": "145:128",
+      "vectorId": "I145:128;8899:83020",
+      "field": "fills",
+      "textId": "145:141",
+      "textToken": "avatar.color-text-inverse",
+      "oldIconToken": "avatar.color-icon-inverse",
+      "oldNativeVariable": "VariableID:171:55",
+      "targetToken": "avatar.color-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:353",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "15:354",
+      "vectorId": "I15:354;8899:53829",
+      "field": "fills",
+      "textId": "15:356",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:353",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "15:357",
+      "vectorId": "I15:357;8899:53829",
+      "field": "fills",
+      "textId": "15:356",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:359",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "15:360",
+      "vectorId": "I15:360;8899:53829",
+      "field": "fills",
+      "textId": "15:362",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:359",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "15:363",
+      "vectorId": "I15:363;8899:53829",
+      "field": "fills",
+      "textId": "15:362",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:365",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "15:366",
+      "vectorId": "I15:366;8899:53829",
+      "field": "fills",
+      "textId": "15:368",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:365",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "15:369",
+      "vectorId": "I15:369;8899:53829",
+      "field": "fills",
+      "textId": "15:368",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:371",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "15:372",
+      "vectorId": "I15:372;8899:53829",
+      "field": "fills",
+      "textId": "15:374",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:371",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "15:375",
+      "vectorId": "I15:375;8899:53829",
+      "field": "fills",
+      "textId": "15:374",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:377",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "15:378",
+      "vectorId": "I15:378;8899:53829",
+      "field": "fills",
+      "textId": "15:380",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:377",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "15:381",
+      "vectorId": "I15:381;8899:53829",
+      "field": "fills",
+      "textId": "15:380",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:383",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "15:384",
+      "vectorId": "I15:384;8899:53829",
+      "field": "fills",
+      "textId": "15:386",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:383",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "15:387",
+      "vectorId": "I15:387;8899:53829",
+      "field": "fills",
+      "textId": "15:386",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:389",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "15:390",
+      "vectorId": "I15:390;8899:53829",
+      "field": "fills",
+      "textId": "15:392",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:389",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "15:393",
+      "vectorId": "I15:393;8899:53829",
+      "field": "fills",
+      "textId": "15:392",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:395",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "15:396",
+      "vectorId": "I15:396;8899:53829",
+      "field": "fills",
+      "textId": "15:398",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:395",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "15:399",
+      "vectorId": "I15:399;8899:53829",
+      "field": "fills",
+      "textId": "15:398",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:401",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "15:402",
+      "vectorId": "I15:402;8899:53829",
+      "field": "fills",
+      "textId": "15:404",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:401",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "15:405",
+      "vectorId": "I15:405;8899:53829",
+      "field": "fills",
+      "textId": "15:404",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:407",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "15:408",
+      "vectorId": "I15:408;8899:53829",
+      "field": "fills",
+      "textId": "15:410",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:407",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "15:411",
+      "vectorId": "I15:411;8899:53829",
+      "field": "fills",
+      "textId": "15:410",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:414",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "15:415",
+      "vectorId": "I15:415;8899:53829",
+      "field": "fills",
+      "textId": "15:417",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:414",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "15:418",
+      "vectorId": "I15:418;8899:53829",
+      "field": "fills",
+      "textId": "15:417",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:421",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "15:422",
+      "vectorId": "I15:422;8899:53829",
+      "field": "fills",
+      "textId": "15:424",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:421",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "15:425",
+      "vectorId": "I15:425;8899:53829",
+      "field": "fills",
+      "textId": "15:424",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:443",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "15:444",
+      "vectorId": "I15:444;8899:53829",
+      "field": "fills",
+      "textId": "15:446",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:443",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "15:447",
+      "vectorId": "I15:447;8899:53829",
+      "field": "fills",
+      "textId": "15:446",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:449",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "15:450",
+      "vectorId": "I15:450;8899:53829",
+      "field": "fills",
+      "textId": "15:452",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:449",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "15:453",
+      "vectorId": "I15:453;8899:53829",
+      "field": "fills",
+      "textId": "15:452",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:455",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "15:456",
+      "vectorId": "I15:456;8899:53829",
+      "field": "fills",
+      "textId": "15:458",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-danger",
+      "variantId": "15:455",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "15:459",
+      "vectorId": "I15:459;8899:53829",
+      "field": "fills",
+      "textId": "15:458",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:235",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "15:236",
+      "vectorId": "I15:236;8899:53829",
+      "field": "fills",
+      "textId": "15:238",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:235",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "15:239",
+      "vectorId": "I15:239;8899:53829",
+      "field": "fills",
+      "textId": "15:238",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:241",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "15:242",
+      "vectorId": "I15:242;8899:53829",
+      "field": "fills",
+      "textId": "15:244",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:241",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "15:245",
+      "vectorId": "I15:245;8899:53829",
+      "field": "fills",
+      "textId": "15:244",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:247",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "15:248",
+      "vectorId": "I15:248;8899:53829",
+      "field": "fills",
+      "textId": "15:250",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:247",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "15:251",
+      "vectorId": "I15:251;8899:53829",
+      "field": "fills",
+      "textId": "15:250",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:253",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "15:254",
+      "vectorId": "I15:254;8899:53829",
+      "field": "fills",
+      "textId": "15:256",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:253",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "15:257",
+      "vectorId": "I15:257;8899:53829",
+      "field": "fills",
+      "textId": "15:256",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:259",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "15:260",
+      "vectorId": "I15:260;8899:53829",
+      "field": "fills",
+      "textId": "15:262",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:259",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "15:263",
+      "vectorId": "I15:263;8899:53829",
+      "field": "fills",
+      "textId": "15:262",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:265",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "15:266",
+      "vectorId": "I15:266;8899:53829",
+      "field": "fills",
+      "textId": "15:268",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:265",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "15:269",
+      "vectorId": "I15:269;8899:53829",
+      "field": "fills",
+      "textId": "15:268",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:271",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "15:272",
+      "vectorId": "I15:272;8899:53829",
+      "field": "fills",
+      "textId": "15:274",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:271",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "15:275",
+      "vectorId": "I15:275;8899:53829",
+      "field": "fills",
+      "textId": "15:274",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:277",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "15:278",
+      "vectorId": "I15:278;8899:53829",
+      "field": "fills",
+      "textId": "15:280",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:277",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "15:281",
+      "vectorId": "I15:281;8899:53829",
+      "field": "fills",
+      "textId": "15:280",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:283",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "15:284",
+      "vectorId": "I15:284;8899:53829",
+      "field": "fills",
+      "textId": "15:286",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:283",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "15:287",
+      "vectorId": "I15:287;8899:53829",
+      "field": "fills",
+      "textId": "15:286",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:289",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "15:290",
+      "vectorId": "I15:290;8899:53829",
+      "field": "fills",
+      "textId": "15:292",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:289",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "15:293",
+      "vectorId": "I15:293;8899:53829",
+      "field": "fills",
+      "textId": "15:292",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:296",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "15:297",
+      "vectorId": "I15:297;8899:53829",
+      "field": "fills",
+      "textId": "15:299",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:296",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "15:300",
+      "vectorId": "I15:300;8899:53829",
+      "field": "fills",
+      "textId": "15:299",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:303",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "15:304",
+      "vectorId": "I15:304;8899:53829",
+      "field": "fills",
+      "textId": "15:306",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:303",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "15:307",
+      "vectorId": "I15:307;8899:53829",
+      "field": "fills",
+      "textId": "15:306",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:325",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "15:326",
+      "vectorId": "I15:326;8899:53829",
+      "field": "fills",
+      "textId": "15:328",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:325",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "15:329",
+      "vectorId": "I15:329;8899:53829",
+      "field": "fills",
+      "textId": "15:328",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:331",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "15:332",
+      "vectorId": "I15:332;8899:53829",
+      "field": "fills",
+      "textId": "15:334",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:331",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "15:335",
+      "vectorId": "I15:335;8899:53829",
+      "field": "fills",
+      "textId": "15:334",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:337",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "15:338",
+      "vectorId": "I15:338;8899:53829",
+      "field": "fills",
+      "textId": "15:340",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-link",
+      "variantId": "15:337",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "15:341",
+      "vectorId": "I15:341;8899:53829",
+      "field": "fills",
+      "textId": "15:340",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:2",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "14:3",
+      "vectorId": "I14:3;8899:53829",
+      "field": "fills",
+      "textId": "14:5",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:2",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "14:6",
+      "vectorId": "I14:6;8899:53829",
+      "field": "fills",
+      "textId": "14:5",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:8",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "14:9",
+      "vectorId": "I14:9;8899:53829",
+      "field": "fills",
+      "textId": "14:11",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:8",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "14:12",
+      "vectorId": "I14:12;8899:53829",
+      "field": "fills",
+      "textId": "14:11",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:14",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "14:15",
+      "vectorId": "I14:15;8899:53829",
+      "field": "fills",
+      "textId": "14:17",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:14",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "14:18",
+      "vectorId": "I14:18;8899:53829",
+      "field": "fills",
+      "textId": "14:17",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:20",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "14:21",
+      "vectorId": "I14:21;8899:53829",
+      "field": "fills",
+      "textId": "14:23",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:20",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "14:24",
+      "vectorId": "I14:24;8899:53829",
+      "field": "fills",
+      "textId": "14:23",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:26",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "14:27",
+      "vectorId": "I14:27;8899:53829",
+      "field": "fills",
+      "textId": "14:29",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:26",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "14:30",
+      "vectorId": "I14:30;8899:53829",
+      "field": "fills",
+      "textId": "14:29",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:32",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "14:33",
+      "vectorId": "I14:33;8899:53829",
+      "field": "fills",
+      "textId": "14:35",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:32",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "14:36",
+      "vectorId": "I14:36;8899:53829",
+      "field": "fills",
+      "textId": "14:35",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:38",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "14:39",
+      "vectorId": "I14:39;8899:53829",
+      "field": "fills",
+      "textId": "14:41",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:38",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "14:42",
+      "vectorId": "I14:42;8899:53829",
+      "field": "fills",
+      "textId": "14:41",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:44",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "14:45",
+      "vectorId": "I14:45;8899:53829",
+      "field": "fills",
+      "textId": "14:47",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:44",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "14:48",
+      "vectorId": "I14:48;8899:53829",
+      "field": "fills",
+      "textId": "14:47",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:50",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "14:51",
+      "vectorId": "I14:51;8899:53829",
+      "field": "fills",
+      "textId": "14:53",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:50",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "14:54",
+      "vectorId": "I14:54;8899:53829",
+      "field": "fills",
+      "textId": "14:53",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:56",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "14:57",
+      "vectorId": "I14:57;8899:53829",
+      "field": "fills",
+      "textId": "14:59",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:56",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "14:60",
+      "vectorId": "I14:60;8899:53829",
+      "field": "fills",
+      "textId": "14:59",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:63",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "14:64",
+      "vectorId": "I14:64;8899:53829",
+      "field": "fills",
+      "textId": "14:66",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:63",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "14:67",
+      "vectorId": "I14:67;8899:53829",
+      "field": "fills",
+      "textId": "14:66",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:70",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "14:71",
+      "vectorId": "I14:71;8899:53829",
+      "field": "fills",
+      "textId": "14:73",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:70",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "14:74",
+      "vectorId": "I14:74;8899:53829",
+      "field": "fills",
+      "textId": "14:73",
+      "textToken": "button.color-button-text-inverse",
+      "oldIconToken": "button.color-button-icon-inverse",
+      "oldNativeVariable": "VariableID:11:41",
+      "targetToken": "button.color-button-icon-inverse",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:92",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "14:93",
+      "vectorId": "I14:93;8899:53829",
+      "field": "fills",
+      "textId": "14:95",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:92",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "14:96",
+      "vectorId": "I14:96;8899:53829",
+      "field": "fills",
+      "textId": "14:95",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:98",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "14:99",
+      "vectorId": "I14:99;8899:53829",
+      "field": "fills",
+      "textId": "14:101",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:98",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "14:102",
+      "vectorId": "I14:102;8899:53829",
+      "field": "fills",
+      "textId": "14:101",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:104",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "14:105",
+      "vectorId": "I14:105;8899:53829",
+      "field": "fills",
+      "textId": "14:107",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-primary",
+      "variantId": "14:104",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "14:108",
+      "vectorId": "I14:108;8899:53829",
+      "field": "fills",
+      "textId": "14:107",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:8",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "15:9",
+      "vectorId": "I15:9;8899:53829",
+      "field": "fills",
+      "textId": "15:11",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:8",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "15:12",
+      "vectorId": "I15:12;8899:53829",
+      "field": "fills",
+      "textId": "15:11",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:14",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "15:15",
+      "vectorId": "I15:15;8899:53829",
+      "field": "fills",
+      "textId": "15:17",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:14",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "15:18",
+      "vectorId": "I15:18;8899:53829",
+      "field": "fills",
+      "textId": "15:17",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:20",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "15:21",
+      "vectorId": "I15:21;8899:53829",
+      "field": "fills",
+      "textId": "15:23",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:20",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "15:24",
+      "vectorId": "I15:24;8899:53829",
+      "field": "fills",
+      "textId": "15:23",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:26",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "15:27",
+      "vectorId": "I15:27;8899:53829",
+      "field": "fills",
+      "textId": "15:29",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:26",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "15:30",
+      "vectorId": "I15:30;8899:53829",
+      "field": "fills",
+      "textId": "15:29",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:32",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "15:33",
+      "vectorId": "I15:33;8899:53829",
+      "field": "fills",
+      "textId": "15:35",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:32",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "15:36",
+      "vectorId": "I15:36;8899:53829",
+      "field": "fills",
+      "textId": "15:35",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:38",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "15:39",
+      "vectorId": "I15:39;8899:53829",
+      "field": "fills",
+      "textId": "15:41",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:38",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "15:42",
+      "vectorId": "I15:42;8899:53829",
+      "field": "fills",
+      "textId": "15:41",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand-hover",
+      "oldNativeVariable": "VariableID:11:62",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Administrativo"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:44",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "15:45",
+      "vectorId": "I15:45;8899:53829",
+      "field": "fills",
+      "textId": "15:47",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:44",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "15:48",
+      "vectorId": "I15:48;8899:53829",
+      "field": "fills",
+      "textId": "15:47",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:50",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "15:51",
+      "vectorId": "I15:51;8899:53829",
+      "field": "fills",
+      "textId": "15:53",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:50",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "15:54",
+      "vectorId": "I15:54;8899:53829",
+      "field": "fills",
+      "textId": "15:53",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:56",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "15:57",
+      "vectorId": "I15:57;8899:53829",
+      "field": "fills",
+      "textId": "15:59",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:56",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "15:60",
+      "vectorId": "I15:60;8899:53829",
+      "field": "fills",
+      "textId": "15:59",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:62",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "15:63",
+      "vectorId": "I15:63;8899:53829",
+      "field": "fills",
+      "textId": "15:65",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:62",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "15:66",
+      "vectorId": "I15:66;8899:53829",
+      "field": "fills",
+      "textId": "15:65",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:69",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "15:70",
+      "vectorId": "I15:70;8899:53829",
+      "field": "fills",
+      "textId": "15:72",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:69",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "15:73",
+      "vectorId": "I15:73;8899:53829",
+      "field": "fills",
+      "textId": "15:72",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:76",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "15:77",
+      "vectorId": "I15:77;8899:53829",
+      "field": "fills",
+      "textId": "15:79",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:76",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "15:80",
+      "vectorId": "I15:80;8899:53829",
+      "field": "fills",
+      "textId": "15:79",
+      "textToken": "button.color-button-text-brand",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:98",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "15:99",
+      "vectorId": "I15:99;8899:53829",
+      "field": "fills",
+      "textId": "15:101",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:98",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "15:102",
+      "vectorId": "I15:102;8899:53829",
+      "field": "fills",
+      "textId": "15:101",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:104",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "15:105",
+      "vectorId": "I15:105;8899:53829",
+      "field": "fills",
+      "textId": "15:107",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:104",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "15:108",
+      "vectorId": "I15:108;8899:53829",
+      "field": "fills",
+      "textId": "15:107",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:110",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "15:111",
+      "vectorId": "I15:111;8899:53829",
+      "field": "fills",
+      "textId": "15:113",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-secondary",
+      "variantId": "15:110",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "15:114",
+      "vectorId": "I15:114;8899:53829",
+      "field": "fills",
+      "textId": "15:113",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:123",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "15:124",
+      "vectorId": "I15:124;8899:53829",
+      "field": "fills",
+      "textId": "15:126",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:123",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "iconId": "15:127",
+      "vectorId": "I15:127;8899:53829",
+      "field": "fills",
+      "textId": "15:126",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:129",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "15:130",
+      "vectorId": "I15:130;8899:53829",
+      "field": "fills",
+      "textId": "15:132",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:129",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "iconId": "15:133",
+      "vectorId": "I15:133;8899:53829",
+      "field": "fills",
+      "textId": "15:132",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:135",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "15:136",
+      "vectorId": "I15:136;8899:53829",
+      "field": "fills",
+      "textId": "15:138",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:135",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "iconId": "15:139",
+      "vectorId": "I15:139;8899:53829",
+      "field": "fills",
+      "textId": "15:138",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:141",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "15:142",
+      "vectorId": "I15:142;8899:53829",
+      "field": "fills",
+      "textId": "15:144",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:141",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "iconId": "15:145",
+      "vectorId": "I15:145;8899:53829",
+      "field": "fills",
+      "textId": "15:144",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:147",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "15:148",
+      "vectorId": "I15:148;8899:53829",
+      "field": "fills",
+      "textId": "15:150",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:147",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "iconId": "15:151",
+      "vectorId": "I15:151;8899:53829",
+      "field": "fills",
+      "textId": "15:150",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:153",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "15:154",
+      "vectorId": "I15:154;8899:53829",
+      "field": "fills",
+      "textId": "15:156",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:153",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "iconId": "15:157",
+      "vectorId": "I15:157;8899:53829",
+      "field": "fills",
+      "textId": "15:156",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:159",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "15:160",
+      "vectorId": "I15:160;8899:53829",
+      "field": "fills",
+      "textId": "15:162",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:159",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "iconId": "15:163",
+      "vectorId": "I15:163;8899:53829",
+      "field": "fills",
+      "textId": "15:162",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:165",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "15:166",
+      "vectorId": "I15:166;8899:53829",
+      "field": "fills",
+      "textId": "15:168",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:165",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "iconId": "15:169",
+      "vectorId": "I15:169;8899:53829",
+      "field": "fills",
+      "textId": "15:168",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:171",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "15:172",
+      "vectorId": "I15:172;8899:53829",
+      "field": "fills",
+      "textId": "15:174",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:171",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "iconId": "15:175",
+      "vectorId": "I15:175;8899:53829",
+      "field": "fills",
+      "textId": "15:174",
+      "textToken": "button.color-button-text-brand-emphasis",
+      "oldIconToken": "button.color-button-icon-brand",
+      "oldNativeVariable": "VariableID:11:59",
+      "targetToken": "button.color-button-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:177",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "15:178",
+      "vectorId": "I15:178;8899:53829",
+      "field": "fills",
+      "textId": "15:180",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:177",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "iconId": "15:181",
+      "vectorId": "I15:181;8899:53829",
+      "field": "fills",
+      "textId": "15:180",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:184",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "15:185",
+      "vectorId": "I15:185;8899:53829",
+      "field": "fills",
+      "textId": "15:187",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:184",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "iconId": "15:188",
+      "vectorId": "I15:188;8899:53829",
+      "field": "fills",
+      "textId": "15:187",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:191",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "15:192",
+      "vectorId": "I15:192;8899:53829",
+      "field": "fills",
+      "textId": "15:194",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:191",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "iconId": "15:195",
+      "vectorId": "I15:195;8899:53829",
+      "field": "fills",
+      "textId": "15:194",
+      "textToken": "button.color-button-text-neutral",
+      "oldIconToken": "button.color-button-icon-neutral",
+      "oldNativeVariable": "VariableID:11:79",
+      "targetToken": "button.color-button-icon-neutral",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:213",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "15:214",
+      "vectorId": "I15:214;8899:53829",
+      "field": "fills",
+      "textId": "15:216",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:213",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "iconId": "15:217",
+      "vectorId": "I15:217;8899:53829",
+      "field": "fills",
+      "textId": "15:216",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:219",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "15:220",
+      "vectorId": "I15:220;8899:53829",
+      "field": "fills",
+      "textId": "15:222",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:219",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "iconId": "15:223",
+      "vectorId": "I15:223;8899:53829",
+      "field": "fills",
+      "textId": "15:222",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:225",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "15:226",
+      "vectorId": "I15:226;8899:53829",
+      "field": "fills",
+      "textId": "15:228",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "button",
+      "subfamily": "button-text",
+      "variantId": "15:225",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "iconId": "15:229",
+      "vectorId": "I15:229;8899:53829",
+      "field": "fills",
+      "textId": "15:228",
+      "textToken": "button.color-button-text-disabled",
+      "oldIconToken": "button.color-button-icon-disabled",
+      "oldNativeVariable": "VariableID:11:42",
+      "targetToken": "button.color-button-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:5",
+      "axes": {
+        "size": "large",
+        "status": "default"
+      },
+      "iconId": "282:107",
+      "vectorId": "I282:107;8899:87495",
+      "field": "fills",
+      "textId": "282:105",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:5",
+      "axes": {
+        "size": "large",
+        "status": "default"
+      },
+      "iconId": "282:114",
+      "vectorId": "I282:114;8899:79551",
+      "field": "fills",
+      "textId": "282:111",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:6",
+      "axes": {
+        "size": "large",
+        "status": "hover"
+      },
+      "iconId": "282:189",
+      "vectorId": "I282:189;8899:87495",
+      "field": "fills",
+      "textId": "282:187",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:6",
+      "axes": {
+        "size": "large",
+        "status": "hover"
+      },
+      "iconId": "282:196",
+      "vectorId": "I282:196;8899:79551",
+      "field": "fills",
+      "textId": "282:193",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:7",
+      "axes": {
+        "size": "large",
+        "status": "focus"
+      },
+      "iconId": "282:234",
+      "vectorId": "I282:234;8899:87495",
+      "field": "fills",
+      "textId": "282:232",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:7",
+      "axes": {
+        "size": "large",
+        "status": "focus"
+      },
+      "iconId": "282:243",
+      "vectorId": "I282:243;8899:79551",
+      "field": "fills",
+      "textId": "282:240",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:8",
+      "axes": {
+        "size": "large",
+        "status": "success"
+      },
+      "iconId": "282:285",
+      "vectorId": "I282:285;8899:87495",
+      "field": "fills",
+      "textId": "282:283",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:8",
+      "axes": {
+        "size": "large",
+        "status": "success"
+      },
+      "iconId": "282:292",
+      "vectorId": "I282:292;8899:79551",
+      "field": "fills",
+      "textId": "282:289",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:9",
+      "axes": {
+        "size": "large",
+        "status": "error"
+      },
+      "iconId": "282:330",
+      "vectorId": "I282:330;8899:87495",
+      "field": "fills",
+      "textId": "282:328",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:9",
+      "axes": {
+        "size": "large",
+        "status": "error"
+      },
+      "iconId": "282:337",
+      "vectorId": "I282:337;8899:79551",
+      "field": "fills",
+      "textId": "282:334",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:10",
+      "axes": {
+        "size": "large",
+        "status": "read-only"
+      },
+      "iconId": "282:375",
+      "vectorId": "I282:375;8899:87495",
+      "field": "fills",
+      "textId": "282:373",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:10",
+      "axes": {
+        "size": "large",
+        "status": "read-only"
+      },
+      "iconId": "282:382",
+      "vectorId": "I282:382;8899:79551",
+      "field": "fills",
+      "textId": "282:379",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:11",
+      "axes": {
+        "size": "large",
+        "status": "disabled"
+      },
+      "iconId": "282:420",
+      "vectorId": "I282:420;8899:87495",
+      "field": "fills",
+      "textId": "282:418",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:11",
+      "axes": {
+        "size": "large",
+        "status": "disabled"
+      },
+      "iconId": "282:427",
+      "vectorId": "I282:427;8899:79551",
+      "field": "fills",
+      "textId": "282:424",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-disabled",
+      "oldNativeVariable": "VariableID:281:43",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:12",
+      "axes": {
+        "size": "medium",
+        "status": "default"
+      },
+      "iconId": "282:159",
+      "vectorId": "I282:159;8899:87495",
+      "field": "fills",
+      "textId": "282:157",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:12",
+      "axes": {
+        "size": "medium",
+        "status": "default"
+      },
+      "iconId": "282:166",
+      "vectorId": "I282:166;8899:79551",
+      "field": "fills",
+      "textId": "282:163",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:13",
+      "axes": {
+        "size": "medium",
+        "status": "hover"
+      },
+      "iconId": "282:204",
+      "vectorId": "I282:204;8899:87495",
+      "field": "fills",
+      "textId": "282:202",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:13",
+      "axes": {
+        "size": "medium",
+        "status": "hover"
+      },
+      "iconId": "282:211",
+      "vectorId": "I282:211;8899:79551",
+      "field": "fills",
+      "textId": "282:208",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:14",
+      "axes": {
+        "size": "medium",
+        "status": "focus"
+      },
+      "iconId": "282:251",
+      "vectorId": "I282:251;8899:87495",
+      "field": "fills",
+      "textId": "282:249",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:14",
+      "axes": {
+        "size": "medium",
+        "status": "focus"
+      },
+      "iconId": "282:260",
+      "vectorId": "I282:260;8899:79551",
+      "field": "fills",
+      "textId": "282:257",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:15",
+      "axes": {
+        "size": "medium",
+        "status": "success"
+      },
+      "iconId": "282:300",
+      "vectorId": "I282:300;8899:87495",
+      "field": "fills",
+      "textId": "282:298",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:15",
+      "axes": {
+        "size": "medium",
+        "status": "success"
+      },
+      "iconId": "282:307",
+      "vectorId": "I282:307;8899:79551",
+      "field": "fills",
+      "textId": "282:304",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:16",
+      "axes": {
+        "size": "medium",
+        "status": "error"
+      },
+      "iconId": "282:345",
+      "vectorId": "I282:345;8899:87495",
+      "field": "fills",
+      "textId": "282:343",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:16",
+      "axes": {
+        "size": "medium",
+        "status": "error"
+      },
+      "iconId": "282:352",
+      "vectorId": "I282:352;8899:79551",
+      "field": "fills",
+      "textId": "282:349",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:17",
+      "axes": {
+        "size": "medium",
+        "status": "read-only"
+      },
+      "iconId": "282:390",
+      "vectorId": "I282:390;8899:87495",
+      "field": "fills",
+      "textId": "282:388",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:17",
+      "axes": {
+        "size": "medium",
+        "status": "read-only"
+      },
+      "iconId": "282:397",
+      "vectorId": "I282:397;8899:79551",
+      "field": "fills",
+      "textId": "282:394",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:18",
+      "axes": {
+        "size": "medium",
+        "status": "disabled"
+      },
+      "iconId": "282:435",
+      "vectorId": "I282:435;8899:87495",
+      "field": "fills",
+      "textId": "282:433",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:18",
+      "axes": {
+        "size": "medium",
+        "status": "disabled"
+      },
+      "iconId": "282:442",
+      "vectorId": "I282:442;8899:79551",
+      "field": "fills",
+      "textId": "282:439",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-disabled",
+      "oldNativeVariable": "VariableID:281:43",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:19",
+      "axes": {
+        "size": "small",
+        "status": "default"
+      },
+      "iconId": "282:174",
+      "vectorId": "I282:174;8899:87495",
+      "field": "fills",
+      "textId": "282:172",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:19",
+      "axes": {
+        "size": "small",
+        "status": "default"
+      },
+      "iconId": "282:181",
+      "vectorId": "I282:181;8899:79551",
+      "field": "fills",
+      "textId": "282:178",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:20",
+      "axes": {
+        "size": "small",
+        "status": "hover"
+      },
+      "iconId": "282:219",
+      "vectorId": "I282:219;8899:87495",
+      "field": "fills",
+      "textId": "282:217",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:20",
+      "axes": {
+        "size": "small",
+        "status": "hover"
+      },
+      "iconId": "282:226",
+      "vectorId": "I282:226;8899:79551",
+      "field": "fills",
+      "textId": "282:223",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:21",
+      "axes": {
+        "size": "small",
+        "status": "focus"
+      },
+      "iconId": "282:268",
+      "vectorId": "I282:268;8899:87495",
+      "field": "fills",
+      "textId": "282:266",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:21",
+      "axes": {
+        "size": "small",
+        "status": "focus"
+      },
+      "iconId": "282:277",
+      "vectorId": "I282:277;8899:79551",
+      "field": "fills",
+      "textId": "282:274",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:22",
+      "axes": {
+        "size": "small",
+        "status": "success"
+      },
+      "iconId": "282:315",
+      "vectorId": "I282:315;8899:87495",
+      "field": "fills",
+      "textId": "282:313",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:22",
+      "axes": {
+        "size": "small",
+        "status": "success"
+      },
+      "iconId": "282:322",
+      "vectorId": "I282:322;8899:79551",
+      "field": "fills",
+      "textId": "282:319",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:23",
+      "axes": {
+        "size": "small",
+        "status": "error"
+      },
+      "iconId": "282:360",
+      "vectorId": "I282:360;8899:87495",
+      "field": "fills",
+      "textId": "282:358",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:23",
+      "axes": {
+        "size": "small",
+        "status": "error"
+      },
+      "iconId": "282:367",
+      "vectorId": "I282:367;8899:79551",
+      "field": "fills",
+      "textId": "282:364",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:24",
+      "axes": {
+        "size": "small",
+        "status": "read-only"
+      },
+      "iconId": "282:405",
+      "vectorId": "I282:405;8899:87495",
+      "field": "fills",
+      "textId": "282:403",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:24",
+      "axes": {
+        "size": "small",
+        "status": "read-only"
+      },
+      "iconId": "282:412",
+      "vectorId": "I282:412;8899:79551",
+      "field": "fills",
+      "textId": "282:409",
+      "textToken": "input.color-text-secondary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:25",
+      "axes": {
+        "size": "small",
+        "status": "disabled"
+      },
+      "iconId": "282:450",
+      "vectorId": "I282:450;8899:87495",
+      "field": "fills",
+      "textId": "282:448",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-empty",
+      "variantId": "282:25",
+      "axes": {
+        "size": "small",
+        "status": "disabled"
+      },
+      "iconId": "282:457",
+      "vectorId": "I282:457;8899:79551",
+      "field": "fills",
+      "textId": "282:454",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-disabled",
+      "oldNativeVariable": "VariableID:281:43",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:118",
+      "axes": {
+        "size": "large",
+        "status": "default"
+      },
+      "iconId": "282:144",
+      "vectorId": "I282:144;8899:87495",
+      "field": "fills",
+      "textId": "282:142",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:118",
+      "axes": {
+        "size": "large",
+        "status": "default"
+      },
+      "iconId": "282:151",
+      "vectorId": "I282:151;8899:79551",
+      "field": "fills",
+      "textId": "282:148",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:119",
+      "axes": {
+        "size": "large",
+        "status": "hover"
+      },
+      "iconId": "282:495",
+      "vectorId": "I282:495;8899:87495",
+      "field": "fills",
+      "textId": "282:493",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:119",
+      "axes": {
+        "size": "large",
+        "status": "hover"
+      },
+      "iconId": "282:502",
+      "vectorId": "I282:502;8899:79551",
+      "field": "fills",
+      "textId": "282:499",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:120",
+      "axes": {
+        "size": "large",
+        "status": "focus"
+      },
+      "iconId": "282:540",
+      "vectorId": "I282:540;8899:87495",
+      "field": "fills",
+      "textId": "282:538",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:120",
+      "axes": {
+        "size": "large",
+        "status": "focus"
+      },
+      "iconId": "282:549",
+      "vectorId": "I282:549;8899:79551",
+      "field": "fills",
+      "textId": "282:546",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:121",
+      "axes": {
+        "size": "large",
+        "status": "success"
+      },
+      "iconId": "282:591",
+      "vectorId": "I282:591;8899:87495",
+      "field": "fills",
+      "textId": "282:589",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:121",
+      "axes": {
+        "size": "large",
+        "status": "success"
+      },
+      "iconId": "282:598",
+      "vectorId": "I282:598;8899:79551",
+      "field": "fills",
+      "textId": "282:595",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:122",
+      "axes": {
+        "size": "large",
+        "status": "error"
+      },
+      "iconId": "282:636",
+      "vectorId": "I282:636;8899:87495",
+      "field": "fills",
+      "textId": "282:634",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:122",
+      "axes": {
+        "size": "large",
+        "status": "error"
+      },
+      "iconId": "282:643",
+      "vectorId": "I282:643;8899:79551",
+      "field": "fills",
+      "textId": "282:640",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:123",
+      "axes": {
+        "size": "large",
+        "status": "read-only"
+      },
+      "iconId": "282:681",
+      "vectorId": "I282:681;8899:87495",
+      "field": "fills",
+      "textId": "282:679",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:123",
+      "axes": {
+        "size": "large",
+        "status": "read-only"
+      },
+      "iconId": "282:688",
+      "vectorId": "I282:688;8899:79551",
+      "field": "fills",
+      "textId": "282:685",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:124",
+      "axes": {
+        "size": "large",
+        "status": "disabled"
+      },
+      "iconId": "282:726",
+      "vectorId": "I282:726;8899:87495",
+      "field": "fills",
+      "textId": "282:724",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:124",
+      "axes": {
+        "size": "large",
+        "status": "disabled"
+      },
+      "iconId": "282:733",
+      "vectorId": "I282:733;8899:79551",
+      "field": "fills",
+      "textId": "282:730",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-disabled",
+      "oldNativeVariable": "VariableID:281:43",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:125",
+      "axes": {
+        "size": "medium",
+        "status": "default"
+      },
+      "iconId": "282:465",
+      "vectorId": "I282:465;8899:87495",
+      "field": "fills",
+      "textId": "282:463",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:125",
+      "axes": {
+        "size": "medium",
+        "status": "default"
+      },
+      "iconId": "282:472",
+      "vectorId": "I282:472;8899:79551",
+      "field": "fills",
+      "textId": "282:469",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:126",
+      "axes": {
+        "size": "medium",
+        "status": "hover"
+      },
+      "iconId": "282:510",
+      "vectorId": "I282:510;8899:87495",
+      "field": "fills",
+      "textId": "282:508",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:126",
+      "axes": {
+        "size": "medium",
+        "status": "hover"
+      },
+      "iconId": "282:517",
+      "vectorId": "I282:517;8899:79551",
+      "field": "fills",
+      "textId": "282:514",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:127",
+      "axes": {
+        "size": "medium",
+        "status": "focus"
+      },
+      "iconId": "282:557",
+      "vectorId": "I282:557;8899:87495",
+      "field": "fills",
+      "textId": "282:555",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:127",
+      "axes": {
+        "size": "medium",
+        "status": "focus"
+      },
+      "iconId": "282:566",
+      "vectorId": "I282:566;8899:79551",
+      "field": "fills",
+      "textId": "282:563",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:128",
+      "axes": {
+        "size": "medium",
+        "status": "success"
+      },
+      "iconId": "282:606",
+      "vectorId": "I282:606;8899:87495",
+      "field": "fills",
+      "textId": "282:604",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:128",
+      "axes": {
+        "size": "medium",
+        "status": "success"
+      },
+      "iconId": "282:613",
+      "vectorId": "I282:613;8899:79551",
+      "field": "fills",
+      "textId": "282:610",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:129",
+      "axes": {
+        "size": "medium",
+        "status": "error"
+      },
+      "iconId": "282:651",
+      "vectorId": "I282:651;8899:87495",
+      "field": "fills",
+      "textId": "282:649",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:129",
+      "axes": {
+        "size": "medium",
+        "status": "error"
+      },
+      "iconId": "282:658",
+      "vectorId": "I282:658;8899:79551",
+      "field": "fills",
+      "textId": "282:655",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:130",
+      "axes": {
+        "size": "medium",
+        "status": "read-only"
+      },
+      "iconId": "282:696",
+      "vectorId": "I282:696;8899:87495",
+      "field": "fills",
+      "textId": "282:694",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:130",
+      "axes": {
+        "size": "medium",
+        "status": "read-only"
+      },
+      "iconId": "282:703",
+      "vectorId": "I282:703;8899:79551",
+      "field": "fills",
+      "textId": "282:700",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:131",
+      "axes": {
+        "size": "medium",
+        "status": "disabled"
+      },
+      "iconId": "282:741",
+      "vectorId": "I282:741;8899:87495",
+      "field": "fills",
+      "textId": "282:739",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:131",
+      "axes": {
+        "size": "medium",
+        "status": "disabled"
+      },
+      "iconId": "282:748",
+      "vectorId": "I282:748;8899:79551",
+      "field": "fills",
+      "textId": "282:745",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-disabled",
+      "oldNativeVariable": "VariableID:281:43",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:132",
+      "axes": {
+        "size": "small",
+        "status": "default"
+      },
+      "iconId": "282:480",
+      "vectorId": "I282:480;8899:87495",
+      "field": "fills",
+      "textId": "282:478",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:132",
+      "axes": {
+        "size": "small",
+        "status": "default"
+      },
+      "iconId": "282:487",
+      "vectorId": "I282:487;8899:79551",
+      "field": "fills",
+      "textId": "282:484",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:133",
+      "axes": {
+        "size": "small",
+        "status": "hover"
+      },
+      "iconId": "282:525",
+      "vectorId": "I282:525;8899:87495",
+      "field": "fills",
+      "textId": "282:523",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:133",
+      "axes": {
+        "size": "small",
+        "status": "hover"
+      },
+      "iconId": "282:532",
+      "vectorId": "I282:532;8899:79551",
+      "field": "fills",
+      "textId": "282:529",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:134",
+      "axes": {
+        "size": "small",
+        "status": "focus"
+      },
+      "iconId": "282:574",
+      "vectorId": "I282:574;8899:87495",
+      "field": "fills",
+      "textId": "282:572",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:134",
+      "axes": {
+        "size": "small",
+        "status": "focus"
+      },
+      "iconId": "282:583",
+      "vectorId": "I282:583;8899:79551",
+      "field": "fills",
+      "textId": "282:580",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:135",
+      "axes": {
+        "size": "small",
+        "status": "success"
+      },
+      "iconId": "282:621",
+      "vectorId": "I282:621;8899:87495",
+      "field": "fills",
+      "textId": "282:619",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:135",
+      "axes": {
+        "size": "small",
+        "status": "success"
+      },
+      "iconId": "282:628",
+      "vectorId": "I282:628;8899:79551",
+      "field": "fills",
+      "textId": "282:625",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:136",
+      "axes": {
+        "size": "small",
+        "status": "error"
+      },
+      "iconId": "282:666",
+      "vectorId": "I282:666;8899:87495",
+      "field": "fills",
+      "textId": "282:664",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:136",
+      "axes": {
+        "size": "small",
+        "status": "error"
+      },
+      "iconId": "282:673",
+      "vectorId": "I282:673;8899:79551",
+      "field": "fills",
+      "textId": "282:670",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:137",
+      "axes": {
+        "size": "small",
+        "status": "read-only"
+      },
+      "iconId": "282:711",
+      "vectorId": "I282:711;8899:87495",
+      "field": "fills",
+      "textId": "282:709",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:137",
+      "axes": {
+        "size": "small",
+        "status": "read-only"
+      },
+      "iconId": "282:718",
+      "vectorId": "I282:718;8899:79551",
+      "field": "fills",
+      "textId": "282:715",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-default",
+      "oldNativeVariable": "VariableID:281:28",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [],
+      "visibleBefore": true
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:138",
+      "axes": {
+        "size": "small",
+        "status": "disabled"
+      },
+      "iconId": "282:756",
+      "vectorId": "I282:756;8899:87495",
+      "field": "fills",
+      "textId": "282:754",
+      "textToken": "input.color-text-disabled",
+      "oldIconToken": "input.color-icon-tooltip",
+      "oldNativeVariable": "VariableID:281:17",
+      "targetToken": "input.color-icon-disabled",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "input",
+      "subfamily": "input-filled",
+      "variantId": "282:138",
+      "axes": {
+        "size": "small",
+        "status": "disabled"
+      },
+      "iconId": "282:763",
+      "vectorId": "I282:763;8899:79551",
+      "field": "fills",
+      "textId": "282:760",
+      "textToken": "input.color-text-primary",
+      "oldIconToken": "input.color-icon-disabled",
+      "oldNativeVariable": "VariableID:281:43",
+      "targetToken": "input.color-icon-default",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": true
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:2",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "default"
+      },
+      "iconId": "79:115",
+      "vectorId": "I79:115;8899:16466",
+      "field": "fills",
+      "textId": "79:117",
+      "textToken": "tab.color-tab-text-secondary",
+      "oldIconToken": "tab.color-tab-icon-secondary",
+      "oldNativeVariable": "VariableID:171:13",
+      "targetToken": "tab.color-tab-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:3",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "hover"
+      },
+      "iconId": "79:121",
+      "vectorId": "I79:121;8899:16466",
+      "field": "fills",
+      "textId": "79:123",
+      "textToken": "tab.color-tab-text-primary",
+      "oldIconToken": "tab.color-tab-icon-primary",
+      "oldNativeVariable": "VariableID:171:12",
+      "targetToken": "tab.color-tab-icon-primary",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:4",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "focus"
+      },
+      "iconId": "79:126",
+      "vectorId": "I79:126;8899:16466",
+      "field": "fills",
+      "textId": "79:128",
+      "textToken": "tab.color-tab-text-secondary",
+      "oldIconToken": "tab.color-tab-icon-secondary",
+      "oldNativeVariable": "VariableID:171:13",
+      "targetToken": "tab.color-tab-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:5",
+      "axes": {
+        "type": "underline",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "iconId": "79:132",
+      "vectorId": "I79:132;8899:16466",
+      "field": "fills",
+      "textId": "79:134",
+      "textToken": "tab.color-tab-text-disabled",
+      "oldIconToken": "tab.color-tab-icon-disabled",
+      "oldNativeVariable": "VariableID:171:11",
+      "targetToken": "tab.color-tab-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:6",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "default"
+      },
+      "iconId": "81:2",
+      "vectorId": "I81:2;8899:16466",
+      "field": "fills",
+      "textId": "81:4",
+      "textToken": "tab.color-tab-text-brand",
+      "oldIconToken": "tab.color-tab-icon-brand",
+      "oldNativeVariable": "VariableID:171:10",
+      "targetToken": "tab.color-tab-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:7",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "hover"
+      },
+      "iconId": "81:8",
+      "vectorId": "I81:8;8899:16466",
+      "field": "fills",
+      "textId": "81:10",
+      "textToken": "tab.color-tab-text-brand",
+      "oldIconToken": "tab.color-tab-icon-brand",
+      "oldNativeVariable": "VariableID:171:10",
+      "targetToken": "tab.color-tab-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:8",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "focus"
+      },
+      "iconId": "81:13",
+      "vectorId": "I81:13;8899:16466",
+      "field": "fills",
+      "textId": "81:15",
+      "textToken": "tab.color-tab-text-brand",
+      "oldIconToken": "tab.color-tab-icon-brand",
+      "oldNativeVariable": "VariableID:171:10",
+      "targetToken": "tab.color-tab-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:9",
+      "axes": {
+        "type": "underline",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "iconId": "81:19",
+      "vectorId": "I81:19;8899:16466",
+      "field": "fills",
+      "textId": "81:21",
+      "textToken": "tab.color-tab-text-disabled",
+      "oldIconToken": "tab.color-tab-icon-disabled",
+      "oldNativeVariable": "VariableID:171:11",
+      "targetToken": "tab.color-tab-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:10",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "default"
+      },
+      "iconId": "81:24",
+      "vectorId": "I81:24;8899:16466",
+      "field": "fills",
+      "textId": "81:26",
+      "textToken": "tab.color-tab-text-secondary",
+      "oldIconToken": "tab.color-tab-icon-secondary",
+      "oldNativeVariable": "VariableID:171:13",
+      "targetToken": "tab.color-tab-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:11",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "hover"
+      },
+      "iconId": "81:30",
+      "vectorId": "I81:30;8899:16466",
+      "field": "fills",
+      "textId": "81:32",
+      "textToken": "tab.color-tab-text-primary",
+      "oldIconToken": "tab.color-tab-icon-primary",
+      "oldNativeVariable": "VariableID:171:12",
+      "targetToken": "tab.color-tab-icon-primary",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:12",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "focus"
+      },
+      "iconId": "81:35",
+      "vectorId": "I81:35;8899:16466",
+      "field": "fills",
+      "textId": "81:37",
+      "textToken": "tab.color-tab-text-secondary",
+      "oldIconToken": "tab.color-tab-icon-secondary",
+      "oldNativeVariable": "VariableID:171:13",
+      "targetToken": "tab.color-tab-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:13",
+      "axes": {
+        "type": "pill",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "iconId": "81:41",
+      "vectorId": "I81:41;8899:16466",
+      "field": "fills",
+      "textId": "81:43",
+      "textToken": "tab.color-tab-text-disabled",
+      "oldIconToken": "tab.color-tab-icon-disabled",
+      "oldNativeVariable": "VariableID:171:11",
+      "targetToken": "tab.color-tab-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:14",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "default"
+      },
+      "iconId": "81:46",
+      "vectorId": "I81:46;8899:16466",
+      "field": "fills",
+      "textId": "81:48",
+      "textToken": "tab.color-tab-text-brand",
+      "oldIconToken": "tab.color-tab-icon-brand",
+      "oldNativeVariable": "VariableID:171:10",
+      "targetToken": "tab.color-tab-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:15",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "hover"
+      },
+      "iconId": "81:52",
+      "vectorId": "I81:52;8899:16466",
+      "field": "fills",
+      "textId": "81:54",
+      "textToken": "tab.color-tab-text-brand-hover",
+      "oldIconToken": "tab.color-tab-icon-brand",
+      "oldNativeVariable": "VariableID:171:10",
+      "targetToken": "tab.color-tab-icon-brand-hover",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:16",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "focus"
+      },
+      "iconId": "81:57",
+      "vectorId": "I81:57;8899:16466",
+      "field": "fills",
+      "textId": "81:59",
+      "textToken": "tab.color-tab-text-brand",
+      "oldIconToken": "tab.color-tab-icon-brand",
+      "oldNativeVariable": "VariableID:171:10",
+      "targetToken": "tab.color-tab-icon-brand",
+      "differentModesBefore": [
+        "Servicios"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:17",
+      "axes": {
+        "type": "pill",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "iconId": "81:63",
+      "vectorId": "I81:63;8899:16466",
+      "field": "fills",
+      "textId": "81:65",
+      "textToken": "tab.color-tab-text-disabled",
+      "oldIconToken": "tab.color-tab-icon-disabled",
+      "oldNativeVariable": "VariableID:171:11",
+      "targetToken": "tab.color-tab-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:18",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "default"
+      },
+      "iconId": "81:68",
+      "vectorId": "I81:68;8899:16466",
+      "field": "fills",
+      "textId": "81:70",
+      "textToken": "tab.color-tab-text-secondary",
+      "oldIconToken": "tab.color-tab-icon-secondary",
+      "oldNativeVariable": "VariableID:171:13",
+      "targetToken": "tab.color-tab-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:19",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "hover"
+      },
+      "iconId": "81:73",
+      "vectorId": "I81:73;8899:16466",
+      "field": "fills",
+      "textId": "81:75",
+      "textToken": "tab.color-tab-text-primary",
+      "oldIconToken": "tab.color-tab-icon-primary",
+      "oldNativeVariable": "VariableID:171:12",
+      "targetToken": "tab.color-tab-icon-primary",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:20",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "focus"
+      },
+      "iconId": "81:78",
+      "vectorId": "I81:78;8899:16466",
+      "field": "fills",
+      "textId": "81:80",
+      "textToken": "tab.color-tab-text-secondary",
+      "oldIconToken": "tab.color-tab-icon-secondary",
+      "oldNativeVariable": "VariableID:171:13",
+      "targetToken": "tab.color-tab-icon-secondary",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:21",
+      "axes": {
+        "type": "segmented",
+        "selected": "false",
+        "state": "disabled"
+      },
+      "iconId": "81:84",
+      "vectorId": "I81:84;8899:16466",
+      "field": "fills",
+      "textId": "81:86",
+      "textToken": "tab.color-tab-text-disabled",
+      "oldIconToken": "tab.color-tab-icon-disabled",
+      "oldNativeVariable": "VariableID:171:11",
+      "targetToken": "tab.color-tab-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:22",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "default"
+      },
+      "iconId": "81:89",
+      "vectorId": "I81:89;8899:16466",
+      "field": "fills",
+      "textId": "81:91",
+      "textToken": "tab.color-tab-text-inverse",
+      "oldIconToken": "tab.color-tab-icon-primary",
+      "oldNativeVariable": "VariableID:171:12",
+      "targetToken": "tab.color-tab-icon-inverse",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:23",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "hover"
+      },
+      "iconId": "81:94",
+      "vectorId": "I81:94;8899:16466",
+      "field": "fills",
+      "textId": "81:96",
+      "textToken": "tab.color-tab-text-inverse",
+      "oldIconToken": "tab.color-tab-icon-primary",
+      "oldNativeVariable": "VariableID:171:12",
+      "targetToken": "tab.color-tab-icon-inverse",
+      "differentModesBefore": [
+        "Contable",
+        "Administrativo",
+        "Servicios",
+        "Personas"
+      ],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:24",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "focus"
+      },
+      "iconId": "81:99",
+      "vectorId": "I81:99;8899:16466",
+      "field": "fills",
+      "textId": "81:101",
+      "textToken": "tab.color-tab-text-primary",
+      "oldIconToken": "tab.color-tab-icon-primary",
+      "oldNativeVariable": "VariableID:171:12",
+      "targetToken": "tab.color-tab-icon-primary",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    },
+    {
+      "family": "tab",
+      "subfamily": "tab",
+      "variantId": "79:25",
+      "axes": {
+        "type": "segmented",
+        "selected": "true",
+        "state": "disabled"
+      },
+      "iconId": "81:105",
+      "vectorId": "I81:105;8899:16466",
+      "field": "fills",
+      "textId": "81:107",
+      "textToken": "tab.color-tab-text-disabled",
+      "oldIconToken": "tab.color-tab-icon-disabled",
+      "oldNativeVariable": "VariableID:171:11",
+      "targetToken": "tab.color-tab-icon-disabled",
+      "differentModesBefore": [],
+      "visibleBefore": false
+    }
+  ],
+  "counts": {
+    "pairs": 262,
+    "mismatchedPairs": 131,
+    "addedNativeVariables": 2,
+    "retiredNativeVariables": 0
+  },
+  "expectedMinimum": {
+    "button": 45,
+    "tab": 41,
+    "input": 41,
+    "avatar": 22
+  },
+  "semanticIds": {
+    "primitive.spacing-0": "VariableID:6:3",
+    "primitive.font-weight-semibold": "VariableID:6:4",
+    "primitive.neutral-300": "VariableID:6:5",
+    "primitive.emerald-400": "VariableID:6:6",
+    "primitive.amber-500": "VariableID:6:7",
+    "primitive.red-500": "VariableID:6:8",
+    "primitive.cyan-500": "VariableID:6:9",
+    "primitive.green-100": "VariableID:6:10",
+    "primitive.green-200": "VariableID:6:11",
+    "primitive.green-300": "VariableID:6:12",
+    "primitive.green-400": "VariableID:6:13",
+    "primitive.green-500": "VariableID:6:14",
+    "primitive.orange-100": "VariableID:6:15",
+    "primitive.orange-200": "VariableID:6:16",
+    "primitive.orange-300": "VariableID:6:17",
+    "primitive.orange-400": "VariableID:6:18",
+    "primitive.orange-500": "VariableID:6:19",
+    "primitive.purple-100": "VariableID:6:20",
+    "primitive.purple-200": "VariableID:6:21",
+    "primitive.purple-300": "VariableID:6:22",
+    "primitive.purple-400": "VariableID:6:23",
+    "primitive.purple-500": "VariableID:6:24",
+    "primitive.spacing-56": "VariableID:6:25",
+    "primitive.spacing-64": "VariableID:6:26",
+    "primitive.neutral-600": "VariableID:6:27",
+    "primitive.neutral-700": "VariableID:6:28",
+    "primitive.neutral-800": "VariableID:6:29",
+    "primitive.neutral-900": "VariableID:6:30",
+    "primitive.radius-0": "VariableID:6:31",
+    "primitive.radius-32": "VariableID:6:32",
+    "primitive.stroke-0": "VariableID:6:33",
+    "primitive.stroke-1": "VariableID:6:34",
+    "primitive.stroke-2": "VariableID:6:35",
+    "primitive.stroke-1-5": "VariableID:6:36",
+    "primitive.font-family-manrope": "VariableID:6:37",
+    "primitive.font-weight-regular": "VariableID:6:38",
+    "primitive.font-weight-medium": "VariableID:6:39",
+    "primitive.font-weight-bold": "VariableID:6:40",
+    "primitive.font-size-12": "VariableID:6:41",
+    "primitive.font-size-14": "VariableID:6:42",
+    "primitive.font-size-16": "VariableID:6:43",
+    "primitive.font-size-20": "VariableID:6:44",
+    "primitive.font-size-24": "VariableID:6:45",
+    "primitive.font-size-32": "VariableID:6:46",
+    "primitive.font-size-40": "VariableID:6:47",
+    "primitive.font-size-48": "VariableID:6:48",
+    "primitive.font-size-56": "VariableID:6:49",
+    "primitive.font-line-height-16": "VariableID:6:50",
+    "primitive.font-line-height-20": "VariableID:6:51",
+    "primitive.font-line-height-24": "VariableID:6:52",
+    "primitive.font-line-height-32": "VariableID:6:53",
+    "primitive.font-line-height-40": "VariableID:6:54",
+    "primitive.font-line-height-48": "VariableID:6:55",
+    "primitive.font-line-height-56": "VariableID:6:56",
+    "primitive.font-line-height-28": "VariableID:6:57",
+    "primitive.font-letter-spacing-tight": "VariableID:6:58",
+    "primitive.font-letter-spacing-normal": "VariableID:6:59",
+    "primitive.font-letter-spacing-wide": "VariableID:6:60",
+    "primitive.font-size-10": "VariableID:6:61",
+    "primitive.size-12": "VariableID:6:62",
+    "primitive.spacing-12": "VariableID:6:63",
+    "primitive.size-8": "VariableID:6:64",
+    "primitive.size-16": "VariableID:6:65",
+    "primitive.size-24": "VariableID:6:66",
+    "primitive.size-32": "VariableID:6:67",
+    "primitive.size-40": "VariableID:6:68",
+    "primitive.size-48": "VariableID:6:69",
+    "primitive.size-56": "VariableID:6:70",
+    "primitive.size-64": "VariableID:6:71",
+    "primitive.size-4": "VariableID:6:72",
+    "primitive.radius-2": "VariableID:6:73",
+    "primitive.radius-4": "VariableID:6:74",
+    "primitive.radius-8": "VariableID:6:75",
+    "primitive.radius-12": "VariableID:6:76",
+    "primitive.radius-16": "VariableID:6:77",
+    "primitive.radius-24": "VariableID:6:78",
+    "primitive.radius-9999": "VariableID:6:79",
+    "primitive.spacing-4": "VariableID:6:80",
+    "primitive.spacing-8": "VariableID:6:81",
+    "primitive.spacing-16": "VariableID:6:82",
+    "primitive.spacing-24": "VariableID:6:83",
+    "primitive.spacing-32": "VariableID:6:84",
+    "primitive.spacing-40": "VariableID:6:85",
+    "primitive.spacing-48": "VariableID:6:86",
+    "primitive.blue-500": "VariableID:6:87",
+    "primitive.red-100": "VariableID:6:88",
+    "primitive.amber-100": "VariableID:6:89",
+    "primitive.emerald-100": "VariableID:6:90",
+    "primitive.cyan-100": "VariableID:6:91",
+    "primitive.neutral-100": "VariableID:6:92",
+    "primitive.orange-600": "VariableID:6:93",
+    "primitive.orange-700": "VariableID:6:94",
+    "primitive.orange-800": "VariableID:6:95",
+    "primitive.orange-900": "VariableID:6:96",
+    "primitive.blue-600": "VariableID:6:97",
+    "primitive.blue-700": "VariableID:6:98",
+    "primitive.blue-800": "VariableID:6:99",
+    "primitive.blue-900": "VariableID:6:100",
+    "primitive.green-600": "VariableID:6:101",
+    "primitive.green-700": "VariableID:6:102",
+    "primitive.green-800": "VariableID:6:103",
+    "primitive.green-900": "VariableID:6:104",
+    "primitive.purple-600": "VariableID:6:105",
+    "primitive.purple-700": "VariableID:6:106",
+    "primitive.purple-800": "VariableID:6:107",
+    "primitive.purple-900": "VariableID:6:108",
+    "primitive.emerald-600": "VariableID:6:109",
+    "primitive.emerald-700": "VariableID:6:110",
+    "primitive.emerald-800": "VariableID:6:111",
+    "primitive.emerald-900": "VariableID:6:112",
+    "primitive.red-600": "VariableID:6:113",
+    "primitive.red-700": "VariableID:6:114",
+    "primitive.red-800": "VariableID:6:115",
+    "primitive.red-900": "VariableID:6:116",
+    "primitive.amber-600": "VariableID:6:117",
+    "primitive.amber-700": "VariableID:6:118",
+    "primitive.amber-800": "VariableID:6:119",
+    "primitive.amber-900": "VariableID:6:120",
+    "primitive.cyan-600": "VariableID:6:121",
+    "primitive.cyan-700": "VariableID:6:122",
+    "primitive.cyan-800": "VariableID:6:123",
+    "primitive.cyan-900": "VariableID:6:124",
+    "primitive.blue-400": "VariableID:6:125",
+    "primitive.blue-300": "VariableID:6:126",
+    "primitive.blue-200": "VariableID:6:127",
+    "primitive.blue-100": "VariableID:6:128",
+    "primitive.size-20": "VariableID:6:129",
+    "primitive.stroke-4": "VariableID:6:130",
+    "primitive.stroke-6": "VariableID:6:131",
+    "primitive.stroke-8": "VariableID:6:132",
+    "primitive.emerald-200": "VariableID:6:133",
+    "primitive.emerald-300": "VariableID:6:134",
+    "primitive.emerald-500": "VariableID:6:135",
+    "primitive.neutral-200": "VariableID:6:136",
+    "primitive.red-200": "VariableID:6:137",
+    "primitive.red-300": "VariableID:6:138",
+    "primitive.red-400": "VariableID:6:139",
+    "primitive.amber-200": "VariableID:6:140",
+    "primitive.amber-300": "VariableID:6:141",
+    "primitive.amber-400": "VariableID:6:142",
+    "primitive.cyan-200": "VariableID:6:143",
+    "primitive.cyan-300": "VariableID:6:144",
+    "primitive.cyan-400": "VariableID:6:145",
+    "primitive.neutral-400": "VariableID:6:146",
+    "primitive.neutral-500": "VariableID:6:147",
+    "semantic.warning-subtle": "VariableID:6:149",
+    "semantic.warning-default": "VariableID:6:150",
+    "semantic.brand-subtle": "VariableID:6:151",
+    "semantic.brand-accent": "VariableID:6:152",
+    "semantic.brand-soft": "VariableID:6:153",
+    "semantic.brand-default": "VariableID:6:154",
+    "semantic.brand-strong": "VariableID:6:155",
+    "semantic.brand-deep": "VariableID:6:156",
+    "semantic.information-subtle": "VariableID:6:157",
+    "semantic.information-default": "VariableID:6:158",
+    "semantic.positive-subtle": "VariableID:6:159",
+    "semantic.positive-default": "VariableID:6:160",
+    "semantic.brand-administrativo-subtle": "VariableID:6:161",
+    "semantic.brand-administrativo-accent": "VariableID:6:162",
+    "semantic.brand-administrativo-default": "VariableID:6:163",
+    "semantic.brand-administrativo-strong": "VariableID:6:164",
+    "semantic.brand-administrativo-intense": "VariableID:6:165",
+    "semantic.neutral-base": "VariableID:6:166",
+    "semantic.neutral-subtle": "VariableID:6:167",
+    "semantic.neutral-muted": "VariableID:6:168",
+    "semantic.neutral-soft": "VariableID:6:169",
+    "semantic.neutral-medium": "VariableID:6:170",
+    "semantic.neutral-strong": "VariableID:6:171",
+    "semantic.neutral-intense": "VariableID:6:172",
+    "semantic.neutral-deep": "VariableID:6:173",
+    "semantic.neutral-maximum": "VariableID:6:174",
+    "semantic.brand-servicios-subtle": "VariableID:6:175",
+    "semantic.brand-servicios-accent": "VariableID:6:176",
+    "semantic.brand-servicios-default": "VariableID:6:177",
+    "semantic.brand-servicios-strong": "VariableID:6:178",
+    "semantic.brand-servicios-deep": "VariableID:6:179",
+    "semantic.brand-personas-subtle": "VariableID:6:180",
+    "semantic.brand-personas-accent": "VariableID:6:181",
+    "semantic.brand-personas-soft": "VariableID:6:182",
+    "semantic.brand-personas-medium": "VariableID:6:183",
+    "semantic.brand-personas-default": "VariableID:6:184",
+    "semantic.brand-personas-strong": "VariableID:6:185",
+    "semantic.brand-personas-intense": "VariableID:6:186",
+    "semantic.danger-subtle": "VariableID:6:187",
+    "semantic.danger-default": "VariableID:6:188",
+    "semantic.danger-strong": "VariableID:6:189",
+    "semantic.danger-deep": "VariableID:6:190",
+    "semantic.spacing-none": "VariableID:6:191",
+    "semantic.spacing-5xl": "VariableID:6:192",
+    "semantic.spacing-6xl": "VariableID:6:193",
+    "semantic.font-family-base": "VariableID:6:194",
+    "semantic.font-weight-regular": "VariableID:6:195",
+    "semantic.font-weight-medium": "VariableID:6:196",
+    "semantic.font-weight-semibold": "VariableID:6:197",
+    "semantic.font-weight-bold": "VariableID:6:198",
+    "semantic.font-size-xs": "VariableID:6:199",
+    "semantic.font-size-sm": "VariableID:6:200",
+    "semantic.font-size-md": "VariableID:6:201",
+    "semantic.font-size-lg": "VariableID:6:202",
+    "semantic.font-size-xl": "VariableID:6:203",
+    "semantic.font-size-2xl": "VariableID:6:204",
+    "semantic.font-size-3xl": "VariableID:6:205",
+    "semantic.font-size-4xl": "VariableID:6:206",
+    "semantic.font-size-5xl": "VariableID:6:207",
+    "semantic.font-line-height-xs": "VariableID:6:208",
+    "semantic.font-line-height-sm": "VariableID:6:209",
+    "semantic.font-line-height-md": "VariableID:6:210",
+    "semantic.font-line-height-lg": "VariableID:6:211",
+    "semantic.font-line-height-xl": "VariableID:6:212",
+    "semantic.font-line-height-2xl": "VariableID:6:213",
+    "semantic.font-line-height-3xl": "VariableID:6:214",
+    "semantic.font-line-height-4xl": "VariableID:6:215",
+    "semantic.font-letter-spacing-tight": "VariableID:6:216",
+    "semantic.font-letter-spacing-normal": "VariableID:6:217",
+    "semantic.font-letter-spacing-wide": "VariableID:6:218",
+    "semantic.size-md": "VariableID:6:219",
+    "semantic.spacing-md": "VariableID:6:220",
+    "semantic.font-size-1xs": "VariableID:6:221",
+    "semantic.radius-none": "VariableID:6:222",
+    "semantic.stroke-none": "VariableID:6:223",
+    "semantic.stroke-xs": "VariableID:6:224",
+    "semantic.stroke-sm": "VariableID:6:225",
+    "semantic.stroke-md": "VariableID:6:226",
+    "semantic.spacing-xs": "VariableID:6:227",
+    "semantic.spacing-sm": "VariableID:6:228",
+    "semantic.spacing-lg": "VariableID:6:229",
+    "semantic.spacing-xl": "VariableID:6:230",
+    "semantic.spacing-2xl": "VariableID:6:231",
+    "semantic.spacing-3xl": "VariableID:6:232",
+    "semantic.spacing-4xl": "VariableID:6:233",
+    "semantic.size-xs": "VariableID:6:234",
+    "semantic.size-sm": "VariableID:6:235",
+    "semantic.size-lg": "VariableID:6:236",
+    "semantic.radius-xs": "VariableID:6:237",
+    "semantic.size-2xl": "VariableID:6:238",
+    "semantic.size-3xl": "VariableID:6:239",
+    "semantic.size-4xl": "VariableID:6:240",
+    "semantic.size-5xl": "VariableID:6:241",
+    "semantic.size-6xl": "VariableID:6:242",
+    "semantic.size-7xl": "VariableID:6:243",
+    "semantic.radius-sm": "VariableID:6:244",
+    "semantic.radius-md": "VariableID:6:245",
+    "semantic.radius-lg": "VariableID:6:246",
+    "semantic.radius-xl": "VariableID:6:247",
+    "semantic.radius-2xl": "VariableID:6:248",
+    "semantic.radius-3xl": "VariableID:6:249",
+    "semantic.radius-full": "VariableID:6:250",
+    "semantic.size-xl": "VariableID:6:251",
+    "semantic.stroke-lg": "VariableID:6:252",
+    "semantic.stroke-xl": "VariableID:6:253",
+    "semantic.stroke-2xl": "VariableID:6:254",
+    "primitive.spacing-negative-4": "VariableID:145:2",
+    "semantic.spacing-overlap-xs": "VariableID:145:3",
+    "primitive.spacing-negative-6": "VariableID:145:4",
+    "semantic.spacing-overlap-sm": "VariableID:145:5",
+    "primitive.spacing-negative-8": "VariableID:145:6",
+    "semantic.spacing-overlap-md": "VariableID:145:7",
+    "primitive.size-88": "VariableID:245:2",
+    "semantic.size-8xl": "VariableID:245:3",
+    "primitive.font-letter-spacing-label-px": "VariableID:281:3",
+    "semantic.font-letter-spacing-label-px": "VariableID:281:5",
+    "primitive.neutral-50": "VariableID:285:2",
+    "semantic.neutral-minimum": "VariableID:285:3"
+  }
+}

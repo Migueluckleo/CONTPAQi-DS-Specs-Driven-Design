@@ -1,0 +1,428 @@
+{
+  "rows": [
+    {
+      "id": "145:94",
+      "name": "type=image, size=extra-large",
+      "set": "145:106",
+      "axes": {
+        "type": "image",
+        "size": "extra-large"
+      },
+      "texts": [],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "145:108",
+          "name": "Status",
+          "main": "201:1544"
+        }
+      ]
+    },
+    {
+      "id": "145:95",
+      "name": "type=image, size=large",
+      "set": "145:106",
+      "axes": {
+        "type": "image",
+        "size": "large"
+      },
+      "texts": [],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "145:110",
+          "name": "Status",
+          "main": "201:1545"
+        }
+      ]
+    },
+    {
+      "id": "145:96",
+      "name": "type=image, size=medium",
+      "set": "145:106",
+      "axes": {
+        "type": "image",
+        "size": "medium"
+      },
+      "texts": [],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "145:112",
+          "name": "Status",
+          "main": "201:1546"
+        }
+      ]
+    },
+    {
+      "id": "145:97",
+      "name": "type=image, size=small",
+      "set": "145:106",
+      "axes": {
+        "type": "image",
+        "size": "small"
+      },
+      "texts": [],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "145:114",
+          "name": "Status",
+          "main": "201:1546"
+        }
+      ]
+    },
+    {
+      "id": "145:98",
+      "name": "type=icon, size=extra-large",
+      "set": "145:106",
+      "axes": {
+        "type": "icon",
+        "size": "extra-large"
+      },
+      "texts": [],
+      "icons": [
+        {
+          "id": "145:116",
+          "name": "Icon",
+          "visible": true,
+          "refs": {
+            "mainComponent": "Icon#145:13"
+          },
+          "key": "77a821b72c03fcfbd0ca9b2910c3fb5c98ed210f",
+          "vectors": [
+            {
+              "id": "I145:116;8899:83020",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:55"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "145:118",
+          "name": "Status",
+          "main": "201:1544"
+        }
+      ]
+    },
+    {
+      "id": "145:99",
+      "name": "type=icon, size=large",
+      "set": "145:106",
+      "axes": {
+        "type": "icon",
+        "size": "large"
+      },
+      "texts": [],
+      "icons": [
+        {
+          "id": "145:120",
+          "name": "Icon",
+          "visible": true,
+          "refs": {
+            "mainComponent": "Icon#145:13"
+          },
+          "key": "77a821b72c03fcfbd0ca9b2910c3fb5c98ed210f",
+          "vectors": [
+            {
+              "id": "I145:120;8899:83020",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:55"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "145:122",
+          "name": "Status",
+          "main": "201:1545"
+        }
+      ]
+    },
+    {
+      "id": "145:100",
+      "name": "type=icon, size=medium",
+      "set": "145:106",
+      "axes": {
+        "type": "icon",
+        "size": "medium"
+      },
+      "texts": [],
+      "icons": [
+        {
+          "id": "145:124",
+          "name": "Icon",
+          "visible": true,
+          "refs": {
+            "mainComponent": "Icon#145:13"
+          },
+          "key": "77a821b72c03fcfbd0ca9b2910c3fb5c98ed210f",
+          "vectors": [
+            {
+              "id": "I145:124;8899:83020",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:55"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "145:126",
+          "name": "Status",
+          "main": "201:1546"
+        }
+      ]
+    },
+    {
+      "id": "145:101",
+      "name": "type=icon, size=small",
+      "set": "145:106",
+      "axes": {
+        "type": "icon",
+        "size": "small"
+      },
+      "texts": [],
+      "icons": [
+        {
+          "id": "145:128",
+          "name": "Icon",
+          "visible": true,
+          "refs": {
+            "mainComponent": "Icon#145:13"
+          },
+          "key": "77a821b72c03fcfbd0ca9b2910c3fb5c98ed210f",
+          "vectors": [
+            {
+              "id": "I145:128;8899:83020",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 1,
+                    "g": 1,
+                    "b": 1
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:171:55"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": [
+        {
+          "id": "145:130",
+          "name": "Status",
+          "main": "201:1546"
+        }
+      ]
+    },
+    {
+      "id": "145:102",
+      "name": "type=text, size=extra-large",
+      "set": "145:106",
+      "axes": {
+        "type": "text",
+        "size": "extra-large"
+      },
+      "texts": [
+        {
+          "id": "145:132",
+          "name": "Initials",
+          "visible": true,
+          "refs": {
+            "characters": "Initials#145:0"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:54"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "145:133",
+          "name": "Status",
+          "main": "201:1544"
+        }
+      ]
+    },
+    {
+      "id": "145:103",
+      "name": "type=text, size=large",
+      "set": "145:106",
+      "axes": {
+        "type": "text",
+        "size": "large"
+      },
+      "texts": [
+        {
+          "id": "145:135",
+          "name": "Initials",
+          "visible": true,
+          "refs": {
+            "characters": "Initials#145:0"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:54"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "145:136",
+          "name": "Status",
+          "main": "201:1545"
+        }
+      ]
+    },
+    {
+      "id": "145:104",
+      "name": "type=text, size=medium",
+      "set": "145:106",
+      "axes": {
+        "type": "text",
+        "size": "medium"
+      },
+      "texts": [
+        {
+          "id": "145:138",
+          "name": "Initials",
+          "visible": true,
+          "refs": {
+            "characters": "Initials#145:0"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:54"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "145:139",
+          "name": "Status",
+          "main": "201:1546"
+        }
+      ]
+    },
+    {
+      "id": "145:105",
+      "name": "type=text, size=small",
+      "set": "145:106",
+      "axes": {
+        "type": "text",
+        "size": "small"
+      },
+      "texts": [
+        {
+          "id": "145:141",
+          "name": "Initials",
+          "visible": true,
+          "refs": {
+            "characters": "Initials#145:0"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "opacity": 1,
+              "variable": "VariableID:171:54"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "145:142",
+          "name": "Status",
+          "main": "201:1546"
+        }
+      ]
+    }
+  ]
+}

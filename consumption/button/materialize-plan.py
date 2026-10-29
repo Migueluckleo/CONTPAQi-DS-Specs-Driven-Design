@@ -59,6 +59,9 @@ def materialize():
                 recipe['loader'] = {'contract': {'id': 'LOADER-001', 'version': dependency['contract']['version']},
                                     'variantId': target['id'], 'size': recipe['loader']['size'],
                                     'axes': target['axes']}
+    if 'iconColorAlignment' in manifest:
+        import runpy
+        plan=runpy.run_path(str(ROOT/'implementations/figma/icon-color-plan.py'))['apply_button'](plan)
     return plan
 
 

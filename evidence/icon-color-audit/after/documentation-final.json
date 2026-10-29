@@ -1,0 +1,63 @@
+{
+  "rows": [
+    {
+      "id": "14:110",
+      "name": "Button/primary",
+      "description": "Button primary. Contrato MD BUTTON-001 v4.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 45 tokens propios compartidos por propiedad y aliases completos; estados seleccionados por receta. Colección component; grupo button; tema heredado del contenedor. ADR-020. ADR-022: loading consume LOADER-001@1.0.0; sin ciclos privados ni colores temporales de Button.\nADR-024 · Iconos: mismo vector semántico que Label en cada estado y tema, incluido hover/focus/pressed. Contrato vigente BUTTON-001@4.0.1; sin cambio de geometría ni interacciones."
+    },
+    {
+      "id": "15:116",
+      "name": "Button/secondary",
+      "description": "Button secondary. Contrato MD BUTTON-001 v4.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 45 tokens propios compartidos por propiedad y aliases completos; estados seleccionados por receta. Colección component; grupo button; tema heredado del contenedor. ADR-020. ADR-022: loading consume LOADER-001@1.0.0; sin ciclos privados ni colores temporales de Button.\nADR-024 · Iconos: mismo vector semántico que Label en cada estado y tema, incluido hover/focus/pressed. Contrato vigente BUTTON-001@4.0.1; sin cambio de geometría ni interacciones."
+    },
+    {
+      "id": "15:231",
+      "name": "Button/text",
+      "description": "Button text. Contrato MD BUTTON-001 v4.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 45 tokens propios compartidos por propiedad y aliases completos; estados seleccionados por receta. Colección component; grupo button; tema heredado del contenedor. ADR-020. ADR-022: loading consume LOADER-001@1.0.0; sin ciclos privados ni colores temporales de Button.\nADR-024 · Iconos: mismo vector semántico que Label en cada estado y tema, incluido hover/focus/pressed. Contrato vigente BUTTON-001@4.0.1; sin cambio de geometría ni interacciones."
+    },
+    {
+      "id": "15:343",
+      "name": "Button/link",
+      "description": "Button link. Contrato MD BUTTON-001 v4.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 45 tokens propios compartidos por propiedad y aliases completos; estados seleccionados por receta. Colección component; grupo button; tema heredado del contenedor. ADR-020. ADR-022: loading consume LOADER-001@1.0.0; sin ciclos privados ni colores temporales de Button.\nADR-024 · Iconos: mismo vector semántico que Label en cada estado y tema, incluido hover/focus/pressed. Contrato vigente BUTTON-001@4.0.1; sin cambio de geometría ni interacciones."
+    },
+    {
+      "id": "15:461",
+      "name": "Button/danger",
+      "description": "Button danger. Contrato MD BUTTON-001 v4.0.1; propiedades editables Label e iconos opcionales apagados por defecto. Usa tokens de componente y cuatro temas; no implementa servicios ni certifica accesibilidad web. Iconos vinculados a Phosphor; desarrollo consume @phosphor-icons/react oficial. 45 tokens propios compartidos por propiedad y aliases completos; estados seleccionados por receta. Colección component; grupo button; tema heredado del contenedor. ADR-020. ADR-022: loading consume LOADER-001@1.0.0; sin ciclos privados ni colores temporales de Button.\nADR-024 · Iconos: mismo vector semántico que Label en cada estado y tema, incluido hover/focus/pressed. Contrato vigente BUTTON-001@4.0.1; sin cambio de geometría ni interacciones."
+    },
+    {
+      "id": "79:26",
+      "name": "Tab",
+      "description": "Tab@3.1.0 · ADR-024 · 41 tokens propios + DOT-001 count/medium. Icon sigue Label por type/selected/state y tema; blanco en segmented selected/default y hover. SHAPE_FILL. Contrato MD vigente TAB-001. Geometría, fondos e interacciones conservados."
+    },
+    {
+      "id": "105:223",
+      "name": "Tabs",
+      "description": "Tabs@3.1.0 · ADR-024 · 5 tokens propios. Dependencia Tab@3.1.0 y Dot@1.0.0 transitiva. Iconos de cada hijo siguen a su Label en todos los temas. Slots, identidad y composición conservados; contrato TABS-001."
+    },
+    {
+      "id": "282:26",
+      "name": "Input/empty",
+      "description": "INPUT-001@2.0.0 · value=false; size y status conservan la matriz raíz. CaretDown/Question Phosphor Light; Badge subtle/small expuesto y oculto inicialmente. Sin captura o validación de datos en Figma.\nADR-024 · Question sigue Label y CaretDown sigue contenido/placeholder en cada variante. Solo stroke hover depende del tema. input/color/icon/secondary reutiliza el ID/key anterior de tooltip con API lógica/CSS nueva. INPUT-001@2.0.0."
+    },
+    {
+      "id": "282:139",
+      "name": "Input/filled",
+      "description": "INPUT-001@2.0.0 · value=true; size y status conservan la matriz raíz. CaretDown/Question Phosphor Light; Badge subtle/small expuesto y oculto inicialmente. Sin captura o validación de datos en Figma.\nADR-024 · Question sigue Label y CaretDown sigue contenido/placeholder en cada variante. Solo stroke hover depende del tema. input/color/icon/secondary reutiliza el ID/key anterior de tooltip con API lógica/CSS nueva. INPUT-001@2.0.0."
+    }
+  ],
+  "texts": [
+    {
+      "id": "16:35",
+      "text": "Label y swaps editables. Loading y disabled no simulan servicios. Contrato MD: norms/components/button.4.0.1.md"
+    },
+    {
+      "id": "287:46",
+      "text": "INPUT-001 · 2.0.0   |   42 variantes   |   41 tokens propios + Badge compartido"
+    },
+    {
+      "id": "287:49",
+      "text": "Tema: solo stroke hover cambia. Question sigue Label; CaretDown, contenido o placeholder. El foco conserva los azules y los halos 4/2 px de la raíz. Badge mantiene Label editable y su dependencia compartida."
+    }
+  ]
+}

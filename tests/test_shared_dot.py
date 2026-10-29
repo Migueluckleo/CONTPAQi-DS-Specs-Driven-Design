@@ -7,7 +7,7 @@ def read(p):return json.loads((ROOT/p).read_text())
 class SharedDotTests(unittest.TestCase):
  def test_direct_and_transitive_dependencies_are_pinned(self):
   w=Workspace(ROOT)
-  for identity,child,version in [('AVATAR-001','DOT-001','1.0.0'),('TAB-001','DOT-001','1.0.0'),('AVATAR-GROUP-001','AVATAR-001','3.0.0'),('TABS-001','TAB-001','3.0.0')]:
+  for identity,child,version in [('AVATAR-001','DOT-001','1.0.0'),('TAB-001','DOT-001','1.0.0'),('AVATAR-GROUP-001','AVATAR-001','3.0.0'),('TABS-001','TAB-001','3.1.0')]:
    deps=w.contracts[w.current[identity]]['metadata']['dependencies'];self.assertTrue(any(d['kind']=='contract'and d['id']==child and d['version']==version for d in deps))
   self.assertFalse(any(d['id']=='DOT-001'for d in w.contracts[w.current['BUTTON-001']]['metadata']['dependencies']))
  def test_retired_tokens_have_equivalent_owned_replacements(self):

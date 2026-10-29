@@ -1,0 +1,27 @@
+{
+  "family": "tab",
+  "pairs": 24,
+  "changes": [
+    {
+      "id": "I81:52;8899:16466",
+      "before": "VariableID:171:10",
+      "after": "VariableID:303:3"
+    },
+    {
+      "id": "I81:89;8899:16466",
+      "before": "VariableID:171:12",
+      "after": "VariableID:303:2"
+    },
+    {
+      "id": "I81:94;8899:16466",
+      "before": "VariableID:171:12",
+      "after": "VariableID:303:2"
+    }
+  ],
+  "createdNodeIds": [],
+  "mutatedNodeIds": [
+    "I81:52;8899:16466",
+    "I81:89;8899:16466",
+    "I81:94;8899:16466"
+  ]
+}

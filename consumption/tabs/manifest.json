@@ -3,24 +3,24 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "TABS-001",
-    "version": "3.0.0",
-    "path": "norms/components/tabs.3.0.0.md",
-    "sha256": "66f2fe9913bf17830805ba1cb57909122b00a8adce4c36002fbaafb60ca002f2",
+    "version": "3.1.0",
+    "path": "norms/components/tabs.3.1.0.md",
+    "sha256": "dd6eec55ce41d83139a0b8e7811a7392aab7f90ac5f0ded4fc123591a9b7ac63",
     "current": true
   },
   "dependency": {
     "id": "TAB-001",
-    "version": "3.0.0",
-    "path": "norms/components/tab.3.0.0.md",
-    "sha256": "b35627e9edf01c2110f534ad124eeefa38a70ce995c5f0c8addedb47b019caa4",
+    "version": "3.1.0",
+    "path": "norms/components/tab.3.1.0.md",
+    "sha256": "18dafd7d827c2ff4bc7bbd696645c19d0b505b2aa4383a7f6f1d0ee0e7cf3eb1",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "5.1.0",
-      "path": "norms/tokens/blueheart.5.1.0.json",
-      "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+      "version": "6.0.0",
+      "path": "norms/tokens/blueheart.6.0.0.json",
+      "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
       "current": true
     }
   ],
@@ -245,8 +245,8 @@
     "slotQaFrameId": "121:409"
   },
   "qa": {
-    "path": "evidence/qa/dot-pilot-check.json",
-    "sha256": "68c6435c8bc4654781a4e2f65644ae0cac75b458788f5bc3955968dec5718aa0"
+    "path": "evidence/qa/icon-color-audit-check.json",
+    "sha256": "c9102416ab1c24d514c7aba51c3a31b5a8a6e312db39d179988f35458c2e52ba"
   },
   "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
   "web_implementation": "NOT_IMPLEMENTED",
@@ -263,5 +263,9 @@
   "dependencyMigration": {
     "path": "evidence/dot-pilot/migration-map.json",
     "sha256": "431f093ed83986f5353d865dc94332f2d16c7856d7b7b3260991e78a35fa6ab9"
+  },
+  "iconColorAlignment": {
+    "path": "evidence/icon-color-audit/pairing-plan.json",
+    "sha256": "a5d1bf46b571032a4fe2616622601bf32785c1cfbea9a631ff540f3979fc4a54"
   }
 }

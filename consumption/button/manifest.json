@@ -3,16 +3,16 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "BUTTON-001",
-    "version": "4.0.0",
-    "path": "norms/components/button.4.0.0.md",
-    "sha256": "16fd8defb22e923246a30a42306471ab9184c43b8d928defb65e653b83c7a7df",
+    "version": "4.0.1",
+    "path": "norms/components/button.4.0.1.md",
+    "sha256": "445766feebfedbee7ed153f1f4da6d738804bfcf3be6be4d454339c03e451f15",
     "current": true
   },
   "token_set": {
     "id": "BLUEHEART-TOKENS",
-    "version": "5.1.0",
-    "path": "norms/tokens/blueheart.5.1.0.json",
-    "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+    "version": "6.0.0",
+    "path": "norms/tokens/blueheart.6.0.0.json",
+    "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
     "current": true
   },
   "fileKey": "98xEw6sK8FRVNEhopM5SSz",
@@ -1732,8 +1732,8 @@
     }
   ],
   "qa": {
-    "path": "evidence/qa/loader-pilot-check.json",
-    "sha256": "f451d2ab54434b5abc244b9dd9bf7fec5a875864c8dfb971f5d520694f604b86"
+    "path": "evidence/qa/icon-color-audit-check.json",
+    "sha256": "c9102416ab1c24d514c7aba51c3a31b5a8a6e312db39d179988f35458c2e52ba"
   },
   "libraryPublished": false,
   "assets": {
@@ -1788,7 +1788,7 @@
     "evidence": "evidence/qa/button-focus-size-check.json",
     "selectedContract": {
       "id": "BUTTON-001",
-      "version": "4.0.0"
+      "version": "4.0.1"
     }
   },
   "collectionMigration": {
@@ -1806,11 +1806,16 @@
     },
     "manifest": {
       "path": "consumption/loader/manifest.json",
-      "sha256": "5d5d0974f288ade3e8b124fe507cd821bf4c18734b66a5cf71e8ffe70b62c0b3"
+      "sha256": "1a61fb034f7e2455b0c6b617cace7b46b82eea9886d4b7936ebea00688fe115b"
     },
     "mapping": {
       "path": "evidence/loader-pilot/migration-map.json",
       "sha256": "06ca1288f999854a01c56ffc7674539edfa2690d695d7dfbdfff6f0438295d84"
     }
-  }
+  },
+  "iconColorAlignment": {
+    "path": "evidence/icon-color-audit/pairing-plan.json",
+    "sha256": "a5d1bf46b571032a4fe2616622601bf32785c1cfbea9a631ff540f3979fc4a54"
+  },
+  "iconColorQaFrameId": "306:399"
 }

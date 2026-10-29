@@ -3,17 +3,17 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "TAB-001",
-    "version": "3.0.0",
-    "path": "norms/components/tab.3.0.0.md",
-    "sha256": "b35627e9edf01c2110f534ad124eeefa38a70ce995c5f0c8addedb47b019caa4",
+    "version": "3.1.0",
+    "path": "norms/components/tab.3.1.0.md",
+    "sha256": "18dafd7d827c2ff4bc7bbd696645c19d0b505b2aa4383a7f6f1d0ee0e7cf3eb1",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "5.1.0",
-      "path": "norms/tokens/blueheart.5.1.0.json",
-      "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+      "version": "6.0.0",
+      "path": "norms/tokens/blueheart.6.0.0.json",
+      "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
       "current": true
     }
   ],
@@ -632,7 +632,7 @@
           "alias": "semantic.brand-administrativo-default"
         },
         "Servicios": {
-          "alias": "semantic.brand-servicios-default"
+          "alias": "semantic.brand-servicios-strong"
         },
         "Personas": {
           "alias": "semantic.brand-personas-default"
@@ -695,16 +695,16 @@
       "nativeKey": "4729594a6e9951df01f20ed5c2fc0a6d518f6595",
       "aliases": {
         "Contable": {
-          "alias": "semantic.neutral-medium"
+          "alias": "semantic.neutral-strong"
         },
         "Administrativo": {
-          "alias": "semantic.neutral-medium"
+          "alias": "semantic.neutral-strong"
         },
         "Servicios": {
-          "alias": "semantic.neutral-medium"
+          "alias": "semantic.neutral-strong"
         },
         "Personas": {
-          "alias": "semantic.neutral-medium"
+          "alias": "semantic.neutral-strong"
         }
       }
     },
@@ -1351,16 +1351,62 @@
           "alias": "semantic.brand-personas-soft"
         }
       }
+    },
+    {
+      "id": "tab.color-tab-icon-inverse",
+      "name": "--color-tab-icon-inverse",
+      "figmaName": "tab/color/icon/inverse",
+      "web": "var(--color-tab-icon-inverse)",
+      "nativeId": "VariableID:303:2",
+      "nativeKey": "8c47e1094d4e7f4f05b9be5fb4c37694a7258172",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-base"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-base"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-base"
+        }
+      }
+    },
+    {
+      "id": "tab.color-tab-icon-brand-hover",
+      "name": "--color-tab-icon-brand-hover",
+      "figmaName": "tab/color/icon/primary-hover",
+      "web": "var(--color-tab-icon-brand-hover)",
+      "nativeId": "VariableID:303:3",
+      "nativeKey": "dfdaf9dc455fa8c5f1a6e81cf1ba7e5d2db3bbc4",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-strong"
+        }
+      }
     }
   ],
-  "recipes": "build-plan.3.0.0.json",
+  "recipes": "build-plan.3.1.0.json",
   "binding_map": {
     "path": "consumption/tab/binding-map.csv",
-    "sha256": "f8b32620698e022788e42327ea9b657a4d303eabb534024803d65ef8e5b02778"
+    "sha256": "ccab5f56abbdfa4c1be6e003f7634dc9b5027035da8e1476fd2af2ef740dd2e1"
   },
   "qa": {
-    "path": "evidence/qa/dot-pilot-check.json",
-    "sha256": "68c6435c8bc4654781a4e2f65644ae0cac75b458788f5bc3955968dec5718aa0"
+    "path": "evidence/qa/icon-color-audit-check.json",
+    "sha256": "c9102416ab1c24d514c7aba51c3a31b5a8a6e312db39d179988f35458c2e52ba"
   },
   "source_observation": {
     "path": "evidence/tab-pilot/source/component-contract.md",
@@ -1372,7 +1418,7 @@
     "overviewId": "111:461",
     "variantsAndStatesId": "113:298",
     "mastersId": "111:442",
-    "groupContract": "TABS-001@1.0.0",
+    "groupContract": "TABS-001@3.1.0",
     "slotQaFrameId": "121:409"
   },
   "collectionMigration": {
@@ -1381,7 +1427,7 @@
   },
   "nativeLedger": {
     "path": "consumption/tab/current-native-ledger.json",
-    "sha256": "b67e93dc2f531abfa894d5a7f17c1b72fa298733e642a0e25e2b87a848af28f1"
+    "sha256": "fafe3aad9a3b4771552f839e2e99938e38d5671362662d0ee9cf7a99defa7849"
   },
   "historicalQA": {
     "path": "evidence/tabs-page-reconciliation/slot-qa.json",
@@ -1425,5 +1471,10 @@
   "dependencyMigration": {
     "path": "evidence/dot-pilot/migration-map.json",
     "sha256": "431f093ed83986f5353d865dc94332f2d16c7856d7b7b3260991e78a35fa6ab9"
-  }
+  },
+  "iconColorAlignment": {
+    "path": "evidence/icon-color-audit/pairing-plan.json",
+    "sha256": "a5d1bf46b571032a4fe2616622601bf32785c1cfbea9a631ff540f3979fc4a54"
+  },
+  "iconColorQaFrameId": "307:2832"
 }

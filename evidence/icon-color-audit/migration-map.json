@@ -1,0 +1,543 @@
+{
+  "role": "DERIVED_MIGRATION_NOT_RULES",
+  "decision": "ADR-024",
+  "previous": {
+    "path": "evidence/icon-color-audit/history/blueheart.5.1.0.json",
+    "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089"
+  },
+  "current": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "6.0.0",
+    "path": "norms/tokens/blueheart.6.0.0.json",
+    "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
+    "current": true
+  },
+  "changedAliases": [
+    "button.color-button-icon-brand",
+    "button.color-button-icon-brand-hover",
+    "tab.color-tab-icon-brand",
+    "tab.color-tab-icon-secondary"
+  ],
+  "added": [
+    "tab.color-tab-icon-inverse",
+    "tab.color-tab-icon-brand-hover",
+    "input.color-icon-secondary"
+  ],
+  "retiredLogicalTokens": [
+    "input.color-icon-tooltip"
+  ],
+  "nativeIdentityRetained": {
+    "from": "input.color-icon-tooltip",
+    "to": "input.color-icon-secondary",
+    "id": "VariableID:281:17",
+    "key": "aa998280b5e9a9e52e168011ffef3b984a4b5bda"
+  },
+  "replacements": [
+    {
+      "icon": "15:272",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:275",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:278",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:281",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:284",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:287",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:45",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:48",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:51",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:54",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:57",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:60",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:160",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:163",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:166",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:169",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:172",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "15:175",
+      "fromToken": "button.color-button-icon-brand",
+      "toToken": "button.color-button-icon-brand-hover",
+      "text": "button.color-button-text-brand-emphasis"
+    },
+    {
+      "icon": "282:107",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:114",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:189",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:196",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:234",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:243",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:285",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:292",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:330",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:337",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:375",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:382",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:420",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-disabled",
+      "text": "input.color-text-disabled"
+    },
+    {
+      "icon": "282:159",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:166",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:204",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:211",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:251",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:260",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:300",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:307",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:345",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:352",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:390",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:397",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:435",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-disabled",
+      "text": "input.color-text-disabled"
+    },
+    {
+      "icon": "282:174",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:181",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:219",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:226",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:268",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:277",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:315",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:322",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:360",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:367",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:405",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:412",
+      "fromToken": "input.color-icon-default",
+      "toToken": "input.color-icon-secondary",
+      "text": "input.color-text-secondary"
+    },
+    {
+      "icon": "282:450",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-disabled",
+      "text": "input.color-text-disabled"
+    },
+    {
+      "icon": "282:144",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:495",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:540",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:591",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:636",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:681",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:726",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-disabled",
+      "text": "input.color-text-disabled"
+    },
+    {
+      "icon": "282:733",
+      "fromToken": "input.color-icon-disabled",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:465",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:510",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:557",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:606",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:651",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:696",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:741",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-disabled",
+      "text": "input.color-text-disabled"
+    },
+    {
+      "icon": "282:748",
+      "fromToken": "input.color-icon-disabled",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:480",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:525",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:574",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:621",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:666",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:711",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "282:756",
+      "fromToken": "input.color-icon-tooltip",
+      "toToken": "input.color-icon-disabled",
+      "text": "input.color-text-disabled"
+    },
+    {
+      "icon": "282:763",
+      "fromToken": "input.color-icon-disabled",
+      "toToken": "input.color-icon-default",
+      "text": "input.color-text-primary"
+    },
+    {
+      "icon": "81:52",
+      "fromToken": "tab.color-tab-icon-brand",
+      "toToken": "tab.color-tab-icon-brand-hover",
+      "text": "tab.color-tab-text-brand-hover"
+    },
+    {
+      "icon": "81:89",
+      "fromToken": "tab.color-tab-icon-primary",
+      "toToken": "tab.color-tab-icon-inverse",
+      "text": "tab.color-tab-text-inverse"
+    },
+    {
+      "icon": "81:94",
+      "fromToken": "tab.color-tab-icon-primary",
+      "toToken": "tab.color-tab-icon-inverse",
+      "text": "tab.color-tab-text-inverse"
+    }
+  ],
+  "newNativeVariables": 2,
+  "retiredNativeVariables": 0
+}

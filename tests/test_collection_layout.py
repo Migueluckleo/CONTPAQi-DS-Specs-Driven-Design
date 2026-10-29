@@ -25,9 +25,9 @@ class CollectionLayoutTests(unittest.TestCase):
         return Tokens([document], ROOT, self.policy).validate()
 
     def test_only_three_homonymous_collections_and_four_contexts(self):
-        self.assertEqual(self.validate(self.document), {'tokens': 468, 'collections': 3, 'mode_contexts': 4})
+        self.assertEqual(self.validate(self.document), {'tokens': 470, 'collections': 3, 'mode_contexts': 4})
         counts = {c: sum(t['collection'] == c for t in self.document['tokens']) for c in ('primitive', 'semantic', 'component')}
-        self.assertEqual(counts, {'primitive': 151, 'semantic': 112, 'component': 205})
+        self.assertEqual(counts, {'primitive': 151, 'semantic': 112, 'component': 207})
 
     def test_extra_unused_family_collection_is_rejected(self):
         doc = copy.deepcopy(self.document)
@@ -67,6 +67,7 @@ class CollectionLayoutTests(unittest.TestCase):
         live = {v['nativeId'] for v in mapping['variables']}
         live.update(v['destination_id'] for v in json.loads(
             (ROOT/'evidence/figma-application/application-map.json').read_text())['variables'])
+        live.update(json.loads((ROOT/'evidence/icon-color-audit/after/native-map.json').read_text()).values())
         def verify_references(value):
             if isinstance(value, dict):
                 if 'path' in value and 'sha256' in value:
@@ -85,15 +86,15 @@ class CollectionLayoutTests(unittest.TestCase):
                 self.assertTrue(set(ledger['variableIds'].values()) <= live)
                 self.assertEqual(ledger['role'], 'DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES')
                 self.assertFalse(any(k.startswith(('created', 'mutated')) for k in ledger))
-                self.assertEqual(len(ledger['variableIds']), {'tab':39,'avatar':29,'dot':19}[family])
+                self.assertEqual(len(ledger['variableIds']), {'tab':41,'avatar':29,'dot':19}[family])
             self.assertEqual(m['contract'], self.workspace.entries[self.workspace.current[m['contract']['id']]])
             collection = m.get('collection', m.get('native_collection'))
             self.assertEqual(collection['id'], 'VariableCollectionId:11:2')
             self.assertEqual(collection['name'], 'component')
             self.assertEqual(set(collection['modeIds']), {'Contable', 'Administrativo', 'Servicios', 'Personas'})
         module = runpy.run_path(str(ROOT/'consumption/button/materialize-plan.py'))
-        self.assertEqual(module['materialize']()['version'], '4.0.0')
-        plan = json.loads((ROOT/'consumption/tab/build-plan.3.0.0.json').read_text())
+        self.assertEqual(module['materialize']()['version'], '4.0.1')
+        plan = json.loads((ROOT/'consumption/tab/build-plan.3.1.0.json').read_text())
         self.assertTrue(all(t['collection'] == 'component' for t in plan['tokens']))
         avatar = json.loads((ROOT/'consumption/avatar/current-build-plan.json').read_text())
         self.assertTrue(all(t['collection'] == 'component' for t in avatar['tokens']))

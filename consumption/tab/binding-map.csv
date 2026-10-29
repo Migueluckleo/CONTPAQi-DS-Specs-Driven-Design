@@ -252,7 +252,7 @@ I9058:325;8899:16466,I81:46;8899:16466,fills.0,tab.color-tab-icon-brand,Variable
 1334:8380,79:15,fills.0,tab.color-tab-bg-brand-accent,VariableID:171:4
 9058:330,81:52,width,tab.size-tab-icon,VariableID:171:39
 9058:330,81:52,height,tab.size-tab-icon,VariableID:171:39
-I9058:330;8899:16466,I81:52;8899:16466,fills.0,tab.color-tab-icon-brand,VariableID:171:10
+I9058:330;8899:16466,I81:52;8899:16466,fills.0,tab.color-tab-icon-brand-hover,VariableID:303:3
 9058:332,81:54,letterSpacing,tab.font-tab-letter-spacing,VariableID:171:28
 9058:332,81:54,fontSize,tab.font-tab-size-label,VariableID:171:33
 9058:332,81:54,fontStyle,tab.font-tab-selected-style,VariableID:171:31
@@ -400,7 +400,7 @@ I9058:378;8899:16466,I81:84;8899:16466,fills.0,tab.color-tab-icon-disabled,Varia
 9058:244,79:22,fills.0,tab.color-tab-bg-segmented-selected-default,VariableID:171:50
 9058:383,81:89,width,tab.size-tab-icon,VariableID:171:39
 9058:383,81:89,height,tab.size-tab-icon,VariableID:171:39
-I9058:383;8899:16466,I81:89;8899:16466,fills.0,tab.color-tab-icon-primary,VariableID:171:12
+I9058:383;8899:16466,I81:89;8899:16466,fills.0,tab.color-tab-icon-inverse,VariableID:303:2
 9058:385,81:91,letterSpacing,tab.font-tab-letter-spacing,VariableID:171:28
 9058:385,81:91,fontSize,tab.font-tab-size-label,VariableID:171:33
 9058:385,81:91,fontStyle,tab.font-tab-selected-style,VariableID:171:31
@@ -419,7 +419,7 @@ I9058:383;8899:16466,I81:89;8899:16466,fills.0,tab.color-tab-icon-primary,Variab
 9058:249,79:23,fills.0,tab.color-tab-bg-segmented-selected-hover,VariableID:171:51
 9058:388,81:94,width,tab.size-tab-icon,VariableID:171:39
 9058:388,81:94,height,tab.size-tab-icon,VariableID:171:39
-I9058:388;8899:16466,I81:94;8899:16466,fills.0,tab.color-tab-icon-primary,VariableID:171:12
+I9058:388;8899:16466,I81:94;8899:16466,fills.0,tab.color-tab-icon-inverse,VariableID:303:2
 9058:390,81:96,letterSpacing,tab.font-tab-letter-spacing,VariableID:171:28
 9058:390,81:96,fontSize,tab.font-tab-size-label,VariableID:171:33
 9058:390,81:96,fontStyle,tab.font-tab-selected-style,VariableID:171:31

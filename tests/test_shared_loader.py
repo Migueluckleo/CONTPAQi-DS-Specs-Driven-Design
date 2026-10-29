@@ -8,7 +8,7 @@ class SharedLoaderTests(unittest.TestCase):
  def test_public_contract_and_owned_token_minimum(self):
   w=Workspace(ROOT);deps=w.contracts[w.current['BUTTON-001']]['metadata']['dependencies']
   self.assertIn(dict(kind='contract',id='LOADER-001',version='1.0.0',relation='uses'),deps)
-  report=w.check()['component_token_minimum'];self.assertEqual(report['BUTTON-001@4.0.0']['component_tokens'],45);self.assertEqual(report['LOADER-001@1.0.0']['component_tokens'],15)
+  report=w.check()['component_token_minimum'];self.assertEqual(report['BUTTON-001@4.0.1']['component_tokens'],45);self.assertEqual(report['LOADER-001@1.0.0']['component_tokens'],15)
   p=read('consumption/loader/current-build-plan.json');self.assertEqual(len(p['variants']),24);self.assertEqual(len(p['animation']),6)
   for g in p['animation'].values():
    self.assertEqual(len(g['phases']),24);self.assertEqual(g['phases'][-1]['to'],g['phases'][0]['id'])
@@ -21,7 +21,7 @@ class SharedLoaderTests(unittest.TestCase):
   self.assertEqual({t for t in set(new)-set(old)if not t.startswith('loader.')},{'primitive.size-88','semantic.size-8xl'})
   for e in read('evidence/loader-pilot/history/manifest.json')['contracts']:self.assertEqual(hashlib.sha256((ROOT/e['archive']).read_bytes()).hexdigest(),e['sha256'])
  def test_current_button_recipe_cannot_recreate_private_cycles(self):
-  p=runpy.run_path(str(ROOT/'consumption/button/materialize-plan.py'))['materialize']();self.assertEqual(p['version'],'4.0.0');self.assertEqual(len(p['tokens']),45);self.assertNotIn('spinnerFrames',p)
+  p=runpy.run_path(str(ROOT/'consumption/button/materialize-plan.py'))['materialize']();self.assertEqual(p['version'],'4.0.1');self.assertEqual(len(p['tokens']),45);self.assertNotIn('spinnerFrames',p)
   loading=[v for v in p['variants']if v.get('loader')];self.assertEqual(len(loading),15)
   for v in loading:self.assertEqual(v['loader']['axes']['size'],{'small':'extra-small','medium':'small','large':'medium'}[v['size']])
   script=(ROOT/'implementations/figma/button-builder.js').read_text();self.assertNotIn('DATA.spinnerFrames',script);self.assertIn('recipe.loader.variantId',script)

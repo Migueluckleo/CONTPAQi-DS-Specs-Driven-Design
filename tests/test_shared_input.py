@@ -6,7 +6,7 @@ ROOT=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((ROOT/p).read_text())
 class SharedInputTests(unittest.TestCase):
  def test_additive_cut_preserves_every_existing_token(self):
-  old={t['id']:t for t in read('evidence/input-pilot/history/blueheart.5.0.0.json')['tokens']};w=Workspace(ROOT);entry=next(e for e in w.catalog['token_sets']if e['current']);new={t['id']:t for t in read(entry['path'])['tokens']}
+  old={t['id']:t for t in read('evidence/input-pilot/history/blueheart.5.0.0.json')['tokens']};new={t['id']:t for t in read('evidence/icon-color-audit/history/blueheart.5.1.0.json')['tokens']}
   self.assertEqual(len(old),411);self.assertEqual(len(new),468)
   for id,t in old.items():self.assertEqual(new[id],t,id)
   extra=set(new)-set(old);self.assertEqual(len([id for id in extra if id.startswith('input.')]),41);self.assertEqual(len([id for id in extra if id.startswith('badge.')]),12)
@@ -15,14 +15,14 @@ class SharedInputTests(unittest.TestCase):
   p=read('consumption/input/current-build-plan.json');self.assertEqual(len(p['variants']),42);effects=[e for v in p['variants']for n in v['rows']for e in n.get('effects',[])];self.assertEqual(len(effects),11)
   double=[(v,n)for v in p['variants']for n in v['rows']if len(n.get('effects',[]))==2];self.assertEqual({(v['axes']['size'],v['axes']['value'])for v,n in double},{('medium','false'),('small','false')})
   for v,n in double:self.assertEqual(n['bindings']['effect.0.spread'],'input.size-focus-outer-spread');self.assertEqual(n['bindings']['effect.1.color'],'input.color-effect-separation')
-  registry={t['id']:t for t in read('norms/tokens/blueheart.5.1.0.json')['tokens']};value=registry['primitive.font-letter-spacing-label-px']['values']['Value'];self.assertAlmostEqual(value,.10000000149011612*14/100,places=12)
+  registry={t['id']:t for t in read('evidence/icon-color-audit/history/blueheart.5.1.0.json')['tokens']};value=registry['primitive.font-letter-spacing-label-px']['values']['Value'];self.assertAlmostEqual(value,.10000000149011612*14/100,places=12)
   self.assertEqual(registry['input.font-letter-spacing-normal']['values']['Contable']['alias'],'semantic.font-letter-spacing-normal')
   for v in p['variants']:
    for n in v['rows']:
     if n.get('layoutSizingVertical')=='HUG':self.assertNotIn('height',n['bindings'])
     if n['type']=='TEXT':self.assertEqual(n['letterSpacing']['unit'],'PERCENT')
  def test_minimum_covers_real_consumers_and_one_shared_badge(self):
-  w=Workspace(ROOT);report=w.check()['component_token_minimum'];self.assertEqual(report['INPUT-001@1.0.0']['component_tokens'],41);self.assertEqual(report['BADGE-001@1.0.0']['component_tokens'],12)
+  w=Workspace(ROOT);report=w.check()['component_token_minimum'];self.assertEqual(report['INPUT-001@2.0.0']['component_tokens'],41);self.assertEqual(report['BADGE-001@1.0.0']['component_tokens'],12)
   p=read('consumption/input/current-build-plan.json');used=set()
   for v in p['variants']:
    for n in v['rows']:

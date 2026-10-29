@@ -1,0 +1,812 @@
+[
+  {
+    "id": "VariableID:171:24",
+    "name": "tab/color/text/secondary-default",
+    "key": "b4ce56ab086a7a766980645ddf839829cb503879",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-tab-text-secondary)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:171"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:171"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:171"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:171"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:13",
+    "name": "tab/color/icon/secondary-default",
+    "key": "4729594a6e9951df01f20ed5c2fc0a6d518f6595",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-tab-icon-secondary)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:170"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:170"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:170"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:170"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:23",
+    "name": "tab/color/text/secondary-hover",
+    "key": "bcbd1743790190227a584a52abe384698072cfe9",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-tab-text-primary)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:12",
+    "name": "tab/color/icon/secondary-hover",
+    "key": "c96f94238ba8ca3c06732324f88725e564477472",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-tab-icon-primary)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:21",
+    "name": "tab/color/text/disabled",
+    "key": "c43d30a1da5adf7cececd6cd5cb13215996bf338",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-tab-text-disabled)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:11",
+    "name": "tab/color/icon/disabled",
+    "key": "9df0130a84fd502e6ec573c1b633fb6fd27f1418",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-tab-icon-disabled)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:19",
+    "name": "tab/color/text/primary-default",
+    "key": "1713ad58d89c7221914be6369e3144bd157ae201",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-tab-text-brand)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:154"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:163"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:178"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:184"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:10",
+    "name": "tab/color/icon/primary-default",
+    "key": "a4b0f5b9e6b271f790de1f6e6c31cb0df451b8a1",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-tab-icon-brand)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:154"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:163"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:177"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:184"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:20",
+    "name": "tab/color/text/primary-hover",
+    "key": "3942ee1d88bc053f1507b80dfbd4c5469175a997",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-tab-text-brand-hover)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:155"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:164"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:178"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:185"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:22",
+    "name": "tab/color/text/inverse",
+    "key": "b3c252a35799f8e00263766005514d2fc0fc3a83",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-tab-text-inverse)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:47",
+    "name": "button/color/text/inverse",
+    "key": "ef851fb0ae44c4c50739170f215fa0f9462e0d1e",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-button-text-inverse)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:41",
+    "name": "button/color/icon/inverse",
+    "key": "65bc2192007999a700faafe6e8eff544309fc398",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-button-icon-inverse)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:48",
+    "name": "button/color/text/disabled",
+    "key": "75ba006f067907d35a8c068f7270941018434c1b",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-button-text-disabled)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:42",
+    "name": "button/color/icon/disabled",
+    "key": "2bb743df5618c34f28157f5abc7d5ac280e1b05c",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-button-icon-disabled)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:71",
+    "name": "button/color/text/brand",
+    "key": "f0b0e62f40fbe233ca6ce2ce9eaaaddfb18e0b13",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-button-text-brand)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:154"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:163"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:178"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:184"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:59",
+    "name": "button/color/icon/brand",
+    "key": "3c6538bd610ade83612c6571fbbd98e36dc1e9b0",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-button-icon-brand)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:154"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:163"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:177"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:184"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:74",
+    "name": "button/color/text/brand-hover",
+    "key": "46e38be765adbcf5a15c2a1d045d6228cd1eebf9",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-button-text-brand-emphasis)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:155"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:164"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:178"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:185"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:62",
+    "name": "button/color/icon/brand-hover",
+    "key": "07c3d68fbcab8a611da716626cd7e12781440be4",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-button-icon-brand-hover)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:155"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:165"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:178"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:185"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:85",
+    "name": "button/color/text/neutral",
+    "key": "0ab640592aeb45cd49317b32009b4fce95040910",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--color-button-text-neutral)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      }
+    }
+  },
+  {
+    "id": "VariableID:11:79",
+    "name": "button/color/icon/neutral",
+    "key": "f32e85631a522427d22474ce1fffb040e44e9323",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--color-button-icon-neutral)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:55",
+    "name": "avatar/color/icon/inverse",
+    "key": "5b06158e0eff3688868268991c50b0f0f8aab619",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--avatar-color-icon-inverse)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      }
+    }
+  },
+  {
+    "id": "VariableID:171:54",
+    "name": "avatar/color/text/inverse",
+    "key": "eec6f62d56764dbd78d4d90695687b737a6011e5",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--avatar-color-text-inverse)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:166"
+      }
+    }
+  },
+  {
+    "id": "VariableID:281:9",
+    "name": "input/color/text/primary",
+    "key": "bb0949595a90955698b50a7728c579e007312538",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--input-color-text-primary)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      }
+    }
+  },
+  {
+    "id": "VariableID:281:15",
+    "name": "input/color/text/error",
+    "key": "199a3b8bf02680462ffb13ac2801a1a37f292935",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--input-color-text-error)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:188"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:188"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:188"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:188"
+      }
+    }
+  },
+  {
+    "id": "VariableID:281:25",
+    "name": "input/color/text/secondary",
+    "key": "50c9216f9b9f4d4da9d8d34372259f5bc876fdab",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--input-color-text-secondary)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:170"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:170"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:170"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:170"
+      }
+    }
+  },
+  {
+    "id": "VariableID:281:17",
+    "name": "input/color/icon/tooltip",
+    "key": "aa998280b5e9a9e52e168011ffef3b984a4b5bda",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--input-color-icon-tooltip)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:154"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:163"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:177"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:184"
+      }
+    }
+  },
+  {
+    "id": "VariableID:281:28",
+    "name": "input/color/icon/default",
+    "key": "83fbb51745feb60a31829473f76035d85fcc5ffa",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--input-color-icon-default)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:174"
+      }
+    }
+  },
+  {
+    "id": "VariableID:281:38",
+    "name": "input/color/text/success",
+    "key": "84f1e61e4b5678f03164439a7e56164db06bbcc7",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--input-color-text-success)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:160"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:160"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:160"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:160"
+      }
+    }
+  },
+  {
+    "id": "VariableID:281:42",
+    "name": "input/color/text/disabled",
+    "key": "b2e57865b7ed9e5865579fdb17cbab0a327392dc",
+    "scopes": [
+      "TEXT_FILL"
+    ],
+    "web": "var(--input-color-text-disabled)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      }
+    }
+  },
+  {
+    "id": "VariableID:281:43",
+    "name": "input/color/icon/disabled",
+    "key": "febe98c7e665ed4739da7e235f79458ff1eadacd",
+    "scopes": [
+      "SHAPE_FILL"
+    ],
+    "web": "var(--input-color-icon-disabled)",
+    "values": {
+      "Contable": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Administrativo": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Servicios": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      },
+      "Personas": {
+        "type": "VARIABLE_ALIAS",
+        "id": "VariableID:6:169"
+      }
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "role": "IMMUTABLE_HISTORY_NOT_CURRENT_RULES",
+  "baseCommit": "53206c4b19a827135fe174e9efee4e675bccffdb",
+  "entries": [
+    {
+      "id": "BH-P02",
+      "version": "2.3.0",
+      "path": "protocols/02-FIGMA-CONSTRUCTION.md",
+      "sha256": "443de649300095529a5ca6c2210faf28db7e3f6fd768e1a0714b67355e580996",
+      "current": true,
+      "archive": "evidence/icon-color-audit/history/02-FIGMA-CONSTRUCTION.md"
+    },
+    {
+      "id": "BH-P03",
+      "version": "2.3.0",
+      "path": "protocols/03-WEB-CONSTRUCTION.md",
+      "sha256": "d0300432c32b80b8498b00c4c50a0207609d9cc9a9c103d6886d268f0c472daf",
+      "current": true,
+      "archive": "evidence/icon-color-audit/history/03-WEB-CONSTRUCTION.md"
+    },
+    {
+      "id": "BH-P06",
+      "version": "2.0.0",
+      "path": "protocols/06-PHOSPHOR-ICONS.md",
+      "sha256": "1c4dbe87f3d86a2c81b09d3a1df585efe7a5a76140ae167ddba254dc0845c625",
+      "current": true,
+      "archive": "evidence/icon-color-audit/history/06-PHOSPHOR-ICONS.md"
+    },
+    {
+      "id": "TABS-001",
+      "version": "3.0.0",
+      "path": "norms/components/tabs.3.0.0.md",
+      "sha256": "66f2fe9913bf17830805ba1cb57909122b00a8adce4c36002fbaafb60ca002f2",
+      "current": true,
+      "archive": "evidence/icon-color-audit/history/tabs.3.0.0.md"
+    },
+    {
+      "id": "TAB-001",
+      "version": "3.0.0",
+      "path": "norms/components/tab.3.0.0.md",
+      "sha256": "b35627e9edf01c2110f534ad124eeefa38a70ce995c5f0c8addedb47b019caa4",
+      "current": true,
+      "archive": "evidence/icon-color-audit/history/tab.3.0.0.md"
+    },
+    {
+      "id": "BUTTON-001",
+      "version": "4.0.0",
+      "path": "norms/components/button.4.0.0.md",
+      "sha256": "16fd8defb22e923246a30a42306471ab9184c43b8d928defb65e653b83c7a7df",
+      "current": true,
+      "archive": "evidence/icon-color-audit/history/button.4.0.0.md"
+    },
+    {
+      "id": "INPUT-001",
+      "version": "1.0.0",
+      "path": "norms/components/input.1.0.0.md",
+      "sha256": "63bec3610aac91499a71c86b005744344126ae3544b7a6784f7e4486d41ba128",
+      "current": true,
+      "archive": "evidence/icon-color-audit/history/input.1.0.0.md"
+    },
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "5.1.0",
+      "path": "norms/tokens/blueheart.5.1.0.json",
+      "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+      "current": true,
+      "archive": "evidence/icon-color-audit/history/blueheart.5.1.0.json"
+    }
+  ]
+}

@@ -5,11 +5,11 @@ Ocho propietarios Markdown, registrados por ID, versión y hash en [norms/catalo
 | ID | Propietario único | Versión |
 |---|---|---|
 | BH-P01 | [01-COMPONENT-CONTRACT](01-COMPONENT-CONTRACT.md) | 2.3.0 |
-| BH-P02 | [02-FIGMA-CONSTRUCTION](02-FIGMA-CONSTRUCTION.md) | 2.3.0 |
-| BH-P03 | [03-WEB-CONSTRUCTION](03-WEB-CONSTRUCTION.md) | 2.3.0 |
+| BH-P02 | [02-FIGMA-CONSTRUCTION](02-FIGMA-CONSTRUCTION.md) | 2.3.1 |
+| BH-P03 | [03-WEB-CONSTRUCTION](03-WEB-CONSTRUCTION.md) | 2.3.1 |
 | BH-P04 | [04-QA-AND-DELIVERY](04-QA-AND-DELIVERY.md) | 2.3.0 |
 | BH-P05 | [05-MAINTENANCE-AND-RELEASES](05-MAINTENANCE-AND-RELEASES.md) | 2.0.4 |
-| BH-P06 | [06-PHOSPHOR-ICONS](06-PHOSPHOR-ICONS.md) | 2.0.0 |
+| BH-P06 | [06-PHOSPHOR-ICONS](06-PHOSPHOR-ICONS.md) | 2.1.0 |
 | BH-P07 | [07-COMPONENT-TOKENS](07-COMPONENT-TOKENS.md) | 2.2.0 |
 | BH-P08 | [08-GITHUB-RELEASE-DOCUMENTATION](08-GITHUB-RELEASE-DOCUMENTATION.md) | 1.2.4 |
 
@@ -48,3 +48,5 @@ ADR-018 integra los criterios generales en BH-P07 (nombres por función/estado, 
 ADR-020: la regla de colecciones pertenece a BH-P07 REQ-P07-07 y se consume por BH-P01/02/03/04/05/08. El catálogo fija las revisiones actuales; no recuperar reglas de colecciones por familia desde evidencia histórica.
 
 ADR-021 incorpora la auditoría inversa obligatoria en [BH-P01 REQ-P01-07](01-COMPONENT-CONTRACT.md#req-p01-07). BH-P02/03/04/05/08 la consumen por referencia; qa-plan expone el gate `component-reverse-dependency-reuse`. El QA nativo y la migración siguen perteneciendo al comprobante de cada encargo.
+
+ADR-024 incorpora la paridad icono/texto en BH-P06 REQ-P06-03/04; BH-P02 y BH-P03 consumen esa única definición. El QA del encargo conserva observaciones y resultados de Blue Heart, sin nueva lectura de la biblioteca origen.

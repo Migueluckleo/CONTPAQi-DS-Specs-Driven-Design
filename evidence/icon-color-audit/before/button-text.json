@@ -1,0 +1,1549 @@
+{
+  "rows": [
+    {
+      "id": "15:123",
+      "name": "size=large, state=default",
+      "set": "15:231",
+      "axes": {
+        "size": "large",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "15:126",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:124",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:124;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:127",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:127;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:129",
+      "name": "size=medium, state=default",
+      "set": "15:231",
+      "axes": {
+        "size": "medium",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "15:132",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:130",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:130;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:133",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:133;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:135",
+      "name": "size=small, state=default",
+      "set": "15:231",
+      "axes": {
+        "size": "small",
+        "state": "default"
+      },
+      "texts": [
+        {
+          "id": "15:138",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:136",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:136;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:139",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:139;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:141",
+      "name": "size=large, state=hover",
+      "set": "15:231",
+      "axes": {
+        "size": "large",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "15:144",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:142",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:142;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:145",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:145;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:147",
+      "name": "size=medium, state=hover",
+      "set": "15:231",
+      "axes": {
+        "size": "medium",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "15:150",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:148",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:148;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:151",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:151;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:153",
+      "name": "size=small, state=hover",
+      "set": "15:231",
+      "axes": {
+        "size": "small",
+        "state": "hover"
+      },
+      "texts": [
+        {
+          "id": "15:156",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:154",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:154;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:157",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:157;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:159",
+      "name": "size=large, state=pressed",
+      "set": "15:231",
+      "axes": {
+        "size": "large",
+        "state": "pressed"
+      },
+      "texts": [
+        {
+          "id": "15:162",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.15294118225574493,
+                "g": 0.18431372940540314,
+                "b": 0.8352941274642944
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:74"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:160",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:160;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:59"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:163",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:163;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:59"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:165",
+      "name": "size=medium, state=pressed",
+      "set": "15:231",
+      "axes": {
+        "size": "medium",
+        "state": "pressed"
+      },
+      "texts": [
+        {
+          "id": "15:168",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.15294118225574493,
+                "g": 0.18431372940540314,
+                "b": 0.8352941274642944
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:74"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:166",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:166;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:59"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:169",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:169;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:59"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:171",
+      "name": "size=small, state=pressed",
+      "set": "15:231",
+      "axes": {
+        "size": "small",
+        "state": "pressed"
+      },
+      "texts": [
+        {
+          "id": "15:174",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.15294118225574493,
+                "g": 0.18431372940540314,
+                "b": 0.8352941274642944
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:74"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:172",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:172;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:59"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:175",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:175;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.19607843458652496,
+                    "g": 0.3333333432674408,
+                    "b": 0.9686274528503418
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:59"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:177",
+      "name": "size=large, state=focus",
+      "set": "15:231",
+      "axes": {
+        "size": "large",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "15:180",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:178",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:178;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:181",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:181;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:184",
+      "name": "size=medium, state=focus",
+      "set": "15:231",
+      "axes": {
+        "size": "medium",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "15:187",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:185",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:185;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:188",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:188;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:191",
+      "name": "size=small, state=focus",
+      "set": "15:231",
+      "axes": {
+        "size": "small",
+        "state": "focus"
+      },
+      "texts": [
+        {
+          "id": "15:194",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:192",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:192;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:195",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:195;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.05882352963089943,
+                    "g": 0.09019608050584793,
+                    "b": 0.16470588743686676
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:79"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:198",
+      "name": "size=large, state=loading",
+      "set": "15:231",
+      "axes": {
+        "size": "large",
+        "state": "loading"
+      },
+      "texts": [
+        {
+          "id": "15:202",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "15:199",
+          "name": "Loader",
+          "main": "245:612"
+        }
+      ]
+    },
+    {
+      "id": "15:203",
+      "name": "size=medium, state=loading",
+      "set": "15:231",
+      "axes": {
+        "size": "medium",
+        "state": "loading"
+      },
+      "texts": [
+        {
+          "id": "15:207",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "15:204",
+          "name": "Loader",
+          "main": "245:608"
+        }
+      ]
+    },
+    {
+      "id": "15:208",
+      "name": "size=small, state=loading",
+      "set": "15:231",
+      "axes": {
+        "size": "small",
+        "state": "loading"
+      },
+      "texts": [
+        {
+          "id": "15:212",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:85"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [],
+      "dependencies": [
+        {
+          "id": "15:209",
+          "name": "Loader",
+          "main": "245:604"
+        }
+      ]
+    },
+    {
+      "id": "15:213",
+      "name": "size=large, state=disabled",
+      "set": "15:231",
+      "axes": {
+        "size": "large",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "15:216",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:48"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:214",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:214;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:42"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:217",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:217;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:42"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:219",
+      "name": "size=medium, state=disabled",
+      "set": "15:231",
+      "axes": {
+        "size": "medium",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "15:222",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:48"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:220",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:220;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:42"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:223",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:223;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:42"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    },
+    {
+      "id": "15:225",
+      "name": "size=small, state=disabled",
+      "set": "15:231",
+      "axes": {
+        "size": "small",
+        "state": "disabled"
+      },
+      "texts": [
+        {
+          "id": "15:228",
+          "name": "Label",
+          "visible": true,
+          "refs": {
+            "characters": "Label#15:95"
+          },
+          "fills": [
+            {
+              "type": "SOLID",
+              "color": {
+                "r": 0.5803921818733215,
+                "g": 0.6392157077789307,
+                "b": 0.7215686440467834
+              },
+              "opacity": 1,
+              "variable": "VariableID:11:48"
+            }
+          ],
+          "opacity": 1
+        }
+      ],
+      "icons": [
+        {
+          "id": "15:226",
+          "name": "Left icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show left icon#15:114",
+            "mainComponent": "Left icon#15:152"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:226;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:42"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        },
+        {
+          "id": "15:229",
+          "name": "Right icon",
+          "visible": false,
+          "refs": {
+            "visible": "Show right icon#15:133",
+            "mainComponent": "Right icon#15:171"
+          },
+          "key": "46d251bb4099700c5852180f2370d265e5166432",
+          "vectors": [
+            {
+              "id": "I15:229;8899:53829",
+              "name": "Vector",
+              "fills": [
+                {
+                  "type": "SOLID",
+                  "color": {
+                    "r": 0.5803921818733215,
+                    "g": 0.6392157077789307,
+                    "b": 0.7215686440467834
+                  },
+                  "opacity": 1,
+                  "variable": "VariableID:11:42"
+                }
+              ],
+              "strokes": [],
+              "opacity": 1
+            }
+          ]
+        }
+      ],
+      "dependencies": []
+    }
+  ]
+}

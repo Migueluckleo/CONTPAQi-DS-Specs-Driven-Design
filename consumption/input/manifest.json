@@ -3,17 +3,17 @@
   "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
   "contract": {
     "id": "INPUT-001",
-    "version": "1.0.0",
-    "path": "norms/components/input.1.0.0.md",
-    "sha256": "63bec3610aac91499a71c86b005744344126ae3544b7a6784f7e4486d41ba128",
+    "version": "2.0.0",
+    "path": "norms/components/input.2.0.0.md",
+    "sha256": "89f3c426efd1be2cf345c5f31a3254f9c10b03f92d81402b869c266032f187a2",
     "current": true
   },
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "5.1.0",
-      "path": "norms/tokens/blueheart.5.1.0.json",
-      "sha256": "b21eb8f12594629a20e16ab3d83e9bb27a57476030102b24bf7aff05837e7089",
+      "version": "6.0.0",
+      "path": "norms/tokens/blueheart.6.0.0.json",
+      "sha256": "f6872ff1bc0e0e5d50d7c1fcd421fd57fb993162b3457d48540753f08742e1a0",
       "current": true
     }
   ],
@@ -297,30 +297,6 @@
         }
       },
       "themeBehavior": "INVARIANT"
-    },
-    {
-      "logicalId": "input.color-icon-tooltip",
-      "nativeId": "VariableID:281:17",
-      "nativeKey": "aa998280b5e9a9e52e168011ffef3b984a4b5bda",
-      "figmaName": "input/color/icon/tooltip",
-      "name": "--input-color-icon-tooltip",
-      "web": "var(--input-color-icon-tooltip)",
-      "scope": "SHAPE_FILL",
-      "aliases": {
-        "Contable": {
-          "alias": "semantic.brand-default"
-        },
-        "Administrativo": {
-          "alias": "semantic.brand-administrativo-default"
-        },
-        "Servicios": {
-          "alias": "semantic.brand-servicios-default"
-        },
-        "Personas": {
-          "alias": "semantic.brand-personas-default"
-        }
-      },
-      "themeBehavior": "THEMED"
     },
     {
       "logicalId": "input.spacing-lg",
@@ -1017,19 +993,43 @@
         }
       },
       "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "input.color-icon-secondary",
+      "nativeId": "VariableID:281:17",
+      "nativeKey": "aa998280b5e9a9e52e168011ffef3b984a4b5bda",
+      "figmaName": "input/color/icon/secondary",
+      "name": "--input-color-icon-secondary",
+      "web": "var(--input-color-icon-secondary)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "themeBehavior": "INVARIANT"
     }
   ],
   "nativeLedger": {
     "path": "consumption/input/current-native-ledger.json",
-    "sha256": "6756f75aec7ca068e0ed273a58797b9079ce3911b6c239fbb1a84c4b24951ec6"
+    "sha256": "23c14c4eec5c89e2e20f9f74144ead0229b7cad63283b8c8100a6d518a4865f7"
   },
   "build_plan": "current-build-plan.json",
   "minimum": "token-minimum.json",
   "variable_map": "variable-map.csv",
   "binding_map": "binding-map.csv",
   "qa": {
-    "path": "evidence/qa/input-pilot-check.json",
-    "sha256": "17856dc17ac3699cf62764d11243376f78531461c4daa42dacd223c99ae6a1f7"
+    "path": "evidence/qa/icon-color-audit-check.json",
+    "sha256": "c9102416ab1c24d514c7aba51c3a31b5a8a6e312db39d179988f35458c2e52ba"
   },
   "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
   "web_implementation": "NOT_IMPLEMENTED",
@@ -1044,8 +1044,13 @@
       },
       "manifest": {
         "path": "consumption/badge/manifest.json",
-        "sha256": "ff23f4a70e0536b13a064a20bdd1ba58acc26861ba4e50775beb0bc312a892c9"
+        "sha256": "1989fcae057c84a082d9178744813cf5bf1c811350f58e3026afba0599030888"
       }
     }
-  ]
+  ],
+  "iconColorAlignment": {
+    "path": "evidence/icon-color-audit/pairing-plan.json",
+    "sha256": "a5d1bf46b571032a4fe2616622601bf32785c1cfbea9a631ff540f3979fc4a54"
+  },
+  "iconColorQaFrameId": "307:4372"
 }
