@@ -1,0 +1,658 @@
+{
+  "status": "PASS_FOR_ACTIVE_TEXT_ON_WHITE",
+  "formula": "WCAG sRGB relative luminance; (Lwhite+.05)/(Ltext+.05)",
+  "rows": [
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "default"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "default"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "default"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "default"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "hover"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-link-hover",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "background": "#FFFFFF",
+      "ratio": 17.85253486961142,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "hover"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-link-hover",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "background": "#FFFFFF",
+      "ratio": 17.85253486961142,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "hover"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-link-hover",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "background": "#FFFFFF",
+      "ratio": 17.85253486961142,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "hover"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-link-hover",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "background": "#FFFFFF",
+      "ratio": 17.85253486961142,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "focus"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "focus"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "focus"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "focus"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "disabled"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-disabled",
+      "color": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "background": "#FFFFFF",
+      "ratio": 2.5640412202116414,
+      "status": "INACTIVE_EXEMPT_NOT_AA_CLAIM",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "disabled"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-disabled",
+      "color": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "background": "#FFFFFF",
+      "ratio": 2.5640412202116414,
+      "status": "INACTIVE_EXEMPT_NOT_AA_CLAIM",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "disabled"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-disabled",
+      "color": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "background": "#FFFFFF",
+      "ratio": 2.5640412202116414,
+      "status": "INACTIVE_EXEMPT_NOT_AA_CLAIM",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "disabled"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-disabled",
+      "color": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "background": "#FFFFFF",
+      "ratio": 2.5640412202116414,
+      "status": "INACTIVE_EXEMPT_NOT_AA_CLAIM",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "true",
+        "state": "default"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-current-default",
+      "color": {
+        "r": 0.19607843458652496,
+        "g": 0.3333333432674408,
+        "b": 0.9686274528503418
+      },
+      "background": "#FFFFFF",
+      "ratio": 5.5583465826531215,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "true",
+        "state": "default"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-current-default",
+      "color": {
+        "r": 0.0117647061124444,
+        "g": 0.4470588266849518,
+        "b": 0.3333333432674408
+      },
+      "background": "#FFFFFF",
+      "ratio": 5.928899341680591,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "true",
+        "state": "default"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-current-default",
+      "color": {
+        "r": 0.686274528503418,
+        "g": 0.07450980693101883,
+        "b": 0
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.20179167279936,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "text",
+        "current": "true",
+        "state": "default"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-current-default",
+      "color": {
+        "r": 0.5137255191802979,
+        "g": 0,
+        "b": 0.9725490212440491
+      },
+      "background": "#FFFFFF",
+      "ratio": 6.324308346933874,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "default"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "default"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "default"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "default"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "hover"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-link-hover",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "background": "#FFFFFF",
+      "ratio": 17.85253486961142,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "hover"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-link-hover",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "background": "#FFFFFF",
+      "ratio": 17.85253486961142,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "hover"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-link-hover",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "background": "#FFFFFF",
+      "ratio": 17.85253486961142,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "hover"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-link-hover",
+      "color": {
+        "r": 0.05882352963089943,
+        "g": 0.09019608050584793,
+        "b": 0.16470588743686676
+      },
+      "background": "#FFFFFF",
+      "ratio": 17.85253486961142,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "focus"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "focus"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "focus"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "focus"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-link-default",
+      "color": {
+        "r": 0.27843138575553894,
+        "g": 0.3333333432674408,
+        "b": 0.4117647111415863
+      },
+      "background": "#FFFFFF",
+      "ratio": 7.577663650675143,
+      "status": "PASS_AA_TEXT_4_5",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "disabled"
+      },
+      "mode": "Contable",
+      "token": "breadcrumb-item.color-text-disabled",
+      "color": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "background": "#FFFFFF",
+      "ratio": 2.5640412202116414,
+      "status": "INACTIVE_EXEMPT_NOT_AA_CLAIM",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "disabled"
+      },
+      "mode": "Administrativo",
+      "token": "breadcrumb-item.color-text-disabled",
+      "color": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "background": "#FFFFFF",
+      "ratio": 2.5640412202116414,
+      "status": "INACTIVE_EXEMPT_NOT_AA_CLAIM",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "disabled"
+      },
+      "mode": "Servicios",
+      "token": "breadcrumb-item.color-text-disabled",
+      "color": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "background": "#FFFFFF",
+      "ratio": 2.5640412202116414,
+      "status": "INACTIVE_EXEMPT_NOT_AA_CLAIM",
+      "nativeMatchesSelectedTokens": true
+    },
+    {
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "disabled"
+      },
+      "mode": "Personas",
+      "token": "breadcrumb-item.color-text-disabled",
+      "color": {
+        "r": 0.5803921818733215,
+        "g": 0.6392157077789307,
+        "b": 0.7215686440467834
+      },
+      "background": "#FFFFFF",
+      "ratio": 2.5640412202116414,
+      "status": "INACTIVE_EXEMPT_NOT_AA_CLAIM",
+      "nativeMatchesSelectedTokens": true
+    }
+  ],
+  "limits": [
+    "Only observed white surface; not universal contrast certification.",
+    "Disabled remains inactive; no AA text claim."
+  ]
+}

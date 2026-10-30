@@ -1,0 +1,22 @@
+# Blue Heart DS · capacidades derivadas de configuración
+
+Fase: component-contract-and-figma-pilots
+
+- governance: Política y decisiones; no contiene valores de diseño
+- norms: Catálogo explícito de contratos y conjuntos de tokens vigentes
+- schemas: Estructura automatizable por perfil y datos
+- blueheart: Lectura segura, validación, resolución, impacto y contexto
+- evidence: Fuentes observadas y comprobantes; no habilitan normas por sí solos
+- tests: Casos sintéticos aislados; no contenido normativo del DS
+- auditoria: Diagnóstico y antecedentes de decisión; no se ingieren como contratos
+- protocols: Contratos operativos MD registrados en el catálogo; un propietario por protocolo, sin valores del DS ni permisos adicionales de construcción
+- docs/releases: Registros derivados por envío, evidencias de pruebas y configuración CI de BH-P08; no constituye otro contrato normativo
+- .github: CI de BH-P08 con permisos de lectura; notas, comprobante y PDF derivados sin autocommits
+
+Perfiles permitidos: foundation, component, operational
+
+Capas permitidas: primitive, semantic, component
+
+Diferido: figma-write-adapter, react-library, graphify-adapter, persistent-agent-office, release-publication
+
+Normas registradas: 19; tokens: 518

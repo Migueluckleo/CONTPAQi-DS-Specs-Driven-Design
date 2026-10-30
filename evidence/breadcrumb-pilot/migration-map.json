@@ -1,0 +1,425 @@
+{
+  "role": "DERIVED_MIGRATION_EVIDENCE_NOT_RULES",
+  "decision": "ADR-026",
+  "baseline": {
+    "path": "evidence/breadcrumb-pilot/history/norms/tokens/blueheart.6.1.0.json",
+    "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8"
+  },
+  "selected": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "6.2.0",
+    "path": "norms/tokens/blueheart.6.2.0.json",
+    "sha256": "86fd6041303f761ddd4fed815d24dca3a2923dcb7c031085273c2524baa7ffb0",
+    "current": true
+  },
+  "preservedExistingTokens": 493,
+  "addedTokens": [
+    {
+      "logicalId": "breadcrumb-item.spacing-item-none",
+      "nativeId": "VariableID:358:2",
+      "figmaName": "breadcrumb/spacing/item-none"
+    },
+    {
+      "logicalId": "breadcrumb-item.spacing-item-gap",
+      "nativeId": "VariableID:358:3",
+      "figmaName": "breadcrumb/spacing/item-gap"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-link-default",
+      "nativeId": "VariableID:358:4",
+      "figmaName": "breadcrumb/color/text/link-default"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-family",
+      "nativeId": "VariableID:358:5",
+      "figmaName": "breadcrumb/font/family"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-link-style",
+      "nativeId": "VariableID:358:6",
+      "figmaName": "breadcrumb/font/link-style"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-size",
+      "nativeId": "VariableID:358:7",
+      "figmaName": "breadcrumb/font/size"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-line-height",
+      "nativeId": "VariableID:358:8",
+      "figmaName": "breadcrumb/font/line-height"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-letter-spacing",
+      "nativeId": "VariableID:358:9",
+      "figmaName": "breadcrumb/font/letter-spacing"
+    },
+    {
+      "logicalId": "breadcrumb-item.size-icon",
+      "nativeId": "VariableID:358:10",
+      "figmaName": "breadcrumb/size/icon"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-separator-default",
+      "nativeId": "VariableID:358:11",
+      "figmaName": "breadcrumb/color/icon/separator-default"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-link-hover",
+      "nativeId": "VariableID:358:12",
+      "figmaName": "breadcrumb/color/text/link-hover"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-stroke-focus",
+      "nativeId": "VariableID:358:13",
+      "figmaName": "breadcrumb/color/stroke/focus"
+    },
+    {
+      "logicalId": "breadcrumb-item.border-focus-width",
+      "nativeId": "VariableID:358:14",
+      "figmaName": "breadcrumb/border/focus-width"
+    },
+    {
+      "logicalId": "breadcrumb-item.radius-focus",
+      "nativeId": "VariableID:358:15",
+      "figmaName": "breadcrumb/radius/focus"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-disabled",
+      "nativeId": "VariableID:358:16",
+      "figmaName": "breadcrumb/color/text/disabled"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-disabled",
+      "nativeId": "VariableID:358:17",
+      "figmaName": "breadcrumb/color/icon/disabled"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-current-default",
+      "nativeId": "VariableID:358:18",
+      "figmaName": "breadcrumb/color/text/current-default"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-current-style",
+      "nativeId": "VariableID:358:19",
+      "figmaName": "breadcrumb/font/current-style"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-link-default",
+      "nativeId": "VariableID:358:20",
+      "figmaName": "breadcrumb/color/icon/link-default"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-link-hover",
+      "nativeId": "VariableID:358:21",
+      "figmaName": "breadcrumb/color/icon/link-hover"
+    },
+    {
+      "logicalId": "breadcrumb.spacing-container-none",
+      "nativeId": "VariableID:358:22",
+      "figmaName": "breadcrumb/spacing/container-none"
+    },
+    {
+      "logicalId": "breadcrumb.spacing-back-gap",
+      "nativeId": "VariableID:358:23",
+      "figmaName": "breadcrumb/spacing/back-gap"
+    },
+    {
+      "logicalId": "breadcrumb.size-back",
+      "nativeId": "VariableID:358:24",
+      "figmaName": "breadcrumb/size/back"
+    },
+    {
+      "logicalId": "breadcrumb.spacing-container-gap",
+      "nativeId": "VariableID:358:25",
+      "figmaName": "breadcrumb/spacing/container-gap"
+    },
+    {
+      "logicalId": "breadcrumb.color-icon-back-default",
+      "nativeId": "VariableID:358:26",
+      "figmaName": "breadcrumb/color/icon/back-default"
+    }
+  ],
+  "retiredTokens": [],
+  "deletedExistingNodes": [],
+  "substitutions": [],
+  "reverseDependencyAudit": {
+    "pages": [
+      {
+        "page": {
+          "id": "0:1",
+          "name": "Cover"
+        },
+        "inspectedInstances": 0,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-0-1.json",
+          "sha256": "3652487615e47cc911131e29562a9837a82aed218747c62b7918062335a0bbe5"
+        }
+      },
+      {
+        "page": {
+          "id": "11:128",
+          "name": "Buttons"
+        },
+        "inspectedInstances": 522,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-11-128.json",
+          "sha256": "810621133074cf8ab4729b1e97e5bc39b78b39ed7f89bca771a0536d4e9f7afb"
+        }
+      },
+      {
+        "page": {
+          "id": "145:42",
+          "name": "Avatars"
+        },
+        "inspectedInstances": 534,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-145-42.json",
+          "sha256": "5036ae16f3d62b304b7a7052e5a47ddcdd6a231356cb7458b931cfd8318daa82"
+        }
+      },
+      {
+        "page": {
+          "id": "149:639",
+          "name": "---"
+        },
+        "inspectedInstances": 0,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-149-639.json",
+          "sha256": "bdaf4ec79f8b508a8c42b544a8af0b420b5ff2597d4aa92568e4e46c4256a48b"
+        }
+      },
+      {
+        "page": {
+          "id": "201:1543",
+          "name": "Dot"
+        },
+        "inspectedInstances": 94,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-201-1543.json",
+          "sha256": "e23808b6d2dcd1c78c921fcdde3952631507b496b29046acc43778222271d425"
+        }
+      },
+      {
+        "page": {
+          "id": "245:19",
+          "name": "Loader"
+        },
+        "inspectedInstances": 95,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-245-19.json",
+          "sha256": "59bc505e9a82d5409be8396edf2dce21862c3702b634425a730575c690087abc"
+        }
+      },
+      {
+        "page": {
+          "id": "281:62",
+          "name": "Input"
+        },
+        "inspectedInstances": 636,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-281-62.json",
+          "sha256": "f9f6b718f40f16c3c7d57a72d31c016816888bb378cd92b62050e66a7e036498"
+        }
+      },
+      {
+        "page": {
+          "id": "281:63",
+          "name": "Badge"
+        },
+        "inspectedInstances": 153,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-281-63.json",
+          "sha256": "2ea29b304f1ac836cdbde22b02d75e962bb11dd8b7a254beb874fb079804c4e0"
+        }
+      },
+      {
+        "page": {
+          "id": "78:97",
+          "name": "Tabs"
+        },
+        "inspectedInstances": 553,
+        "matches": 0,
+        "evidence": {
+          "path": "evidence/breadcrumb-pilot/before/reverse-78-97.json",
+          "sha256": "33ff53c30972090725d927942925701d5ebbdb986f113440fdc70a2f488787da"
+        }
+      }
+    ],
+    "totalInstances": 2587,
+    "previousConsumers": 0,
+    "transitiveConsumers": 0,
+    "reason": "No direct source-key/name/helper match on any of the nine existing pages; no prior consumer requires replacement."
+  },
+  "directDependencies": [
+    {
+      "owner": "BREADCRUMB-001",
+      "dependency": "BREADCRUMB-ITEM-001",
+      "instances": 18
+    },
+    {
+      "owner": "BREADCRUMB-ITEM-001",
+      "dependency": "PHOSPHOR-House/CaretRight",
+      "instances": 16
+    },
+    {
+      "owner": "BREADCRUMB-001",
+      "dependency": "PHOSPHOR-ArrowLeft",
+      "instances": 5
+    }
+  ],
+  "excludedInvisiblePaints": [
+    {
+      "sourceNodeId": "2833:585",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-text.json",
+        "sha256": "dd3ed66c3a5306145b156d851ea0fe62f70348d35bb6795dbabb3d698a4db167"
+      }
+    },
+    {
+      "sourceNodeId": "8903:60",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-text.json",
+        "sha256": "dd3ed66c3a5306145b156d851ea0fe62f70348d35bb6795dbabb3d698a4db167"
+      }
+    },
+    {
+      "sourceNodeId": "8903:64",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-text.json",
+        "sha256": "dd3ed66c3a5306145b156d851ea0fe62f70348d35bb6795dbabb3d698a4db167"
+      }
+    },
+    {
+      "sourceNodeId": "2425:35903",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-icon.json",
+        "sha256": "537be4d1445e798d192c82c71e01a323db1e958b67d91de108fb4baf79d7a11e"
+      }
+    },
+    {
+      "sourceNodeId": "8903:68",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-icon.json",
+        "sha256": "537be4d1445e798d192c82c71e01a323db1e958b67d91de108fb4baf79d7a11e"
+      }
+    },
+    {
+      "sourceNodeId": "8903:73",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-icon.json",
+        "sha256": "537be4d1445e798d192c82c71e01a323db1e958b67d91de108fb4baf79d7a11e"
+      }
+    },
+    {
+      "sourceNodeId": "8903:78",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-icon.json",
+        "sha256": "537be4d1445e798d192c82c71e01a323db1e958b67d91de108fb4baf79d7a11e"
+      }
+    },
+    {
+      "sourceNodeId": "2833:809",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-overflow.json",
+        "sha256": "11e08ca989e132be5638d3e4eb69005428af9967038ba93ac46586b0fa637884"
+      }
+    },
+    {
+      "sourceNodeId": "8903:83",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-overflow.json",
+        "sha256": "11e08ca989e132be5638d3e4eb69005428af9967038ba93ac46586b0fa637884"
+      }
+    },
+    {
+      "sourceNodeId": "8903:87",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-overflow.json",
+        "sha256": "11e08ca989e132be5638d3e4eb69005428af9967038ba93ac46586b0fa637884"
+      }
+    },
+    {
+      "sourceNodeId": "8903:91",
+      "field": "fills",
+      "reason": "Paint invisible del contenedor Phosphor, sin control público ni efecto renderizante; fills vacíos en el destino, sin token ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/item-overflow.json",
+        "sha256": "11e08ca989e132be5638d3e4eb69005428af9967038ba93ac46586b0fa637884"
+      }
+    },
+    {
+      "sourceNodeId": "3460:156",
+      "field": "fills",
+      "reason": "Paint visible=false: no renderiza y no forma parte de la API; el contenedor Phosphor conserva fills vacíos, sin literals ni token de fondo ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9"
+      }
+    },
+    {
+      "sourceNodeId": "3460:198",
+      "field": "fills",
+      "reason": "Paint visible=false: no renderiza y no forma parte de la API; el contenedor Phosphor conserva fills vacíos, sin literals ni token de fondo ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9"
+      }
+    },
+    {
+      "sourceNodeId": "3460:199",
+      "field": "fills",
+      "reason": "Paint visible=false: no renderiza y no forma parte de la API; el contenedor Phosphor conserva fills vacíos, sin literals ni token de fondo ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9"
+      }
+    },
+    {
+      "sourceNodeId": "3460:200",
+      "field": "fills",
+      "reason": "Paint visible=false: no renderiza y no forma parte de la API; el contenedor Phosphor conserva fills vacíos, sin literals ni token de fondo ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-2.json",
+        "sha256": "119cedd22d45abf2d54d04f6ccdfb869c9f791ae925731a6dbd91182da426f85"
+      }
+    },
+    {
+      "sourceNodeId": "8903:27368",
+      "field": "fills",
+      "reason": "Paint visible=false: no renderiza y no forma parte de la API; el contenedor Phosphor conserva fills vacíos, sin literals ni token de fondo ficticio.",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-2.json",
+        "sha256": "119cedd22d45abf2d54d04f6ccdfb869c9f791ae925731a6dbd91182da426f85"
+      }
+    }
+  ]
+}

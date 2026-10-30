@@ -1,0 +1,182 @@
+{
+  "schema_version": 1,
+  "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
+  "contract": {
+    "id": "BREADCRUMB-001",
+    "version": "1.0.0",
+    "path": "norms/components/breadcrumb.1.0.0.md",
+    "sha256": "2a7c495b4435a6ad71dd47688335ac91b7810d2767985e56cbfd4009e67e1338",
+    "current": true
+  },
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "6.2.0",
+      "path": "norms/tokens/blueheart.6.2.0.json",
+      "sha256": "86fd6041303f761ddd4fed815d24dca3a2923dcb7c031085273c2524baa7ffb0",
+      "current": true
+    }
+  ],
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "page": {
+    "id": "358:30",
+    "name": "Breadcrumbs"
+  },
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "variables": [
+    {
+      "logicalId": "breadcrumb.spacing-container-none",
+      "nativeId": "VariableID:358:22",
+      "nativeKey": "338cac9ca9d00aaf974a1d7b9798e70ae338419f",
+      "figmaName": "breadcrumb/spacing/container-none",
+      "name": "--breadcrumb-spacing-container-none",
+      "web": "var(--breadcrumb-spacing-container-none)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb.spacing-back-gap",
+      "nativeId": "VariableID:358:23",
+      "nativeKey": "a96455f3ccecd7f1a1ec5c68375c7067be48f147",
+      "figmaName": "breadcrumb/spacing/back-gap",
+      "name": "--breadcrumb-spacing-back-gap",
+      "web": "var(--breadcrumb-spacing-back-gap)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb.size-back",
+      "nativeId": "VariableID:358:24",
+      "nativeKey": "e25cb51fdac32dcd6bbec555348ee44fbc54439f",
+      "figmaName": "breadcrumb/size/back",
+      "name": "--breadcrumb-size-back",
+      "web": "var(--breadcrumb-size-back)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb.spacing-container-gap",
+      "nativeId": "VariableID:358:25",
+      "nativeKey": "cc9956a4003d19c7956326402917687a5da88324",
+      "figmaName": "breadcrumb/spacing/container-gap",
+      "name": "--breadcrumb-spacing-container-gap",
+      "web": "var(--breadcrumb-spacing-container-gap)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb.color-icon-back-default",
+      "nativeId": "VariableID:358:26",
+      "nativeKey": "0ca0bb1216a58db03e5f91fd0f6d9d053bcd728c",
+      "figmaName": "breadcrumb/color/icon/back-default",
+      "name": "--breadcrumb-color-icon-back-default",
+      "web": "var(--breadcrumb-color-icon-back-default)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    }
+  ],
+  "nativeLedger": {
+    "path": "consumption/breadcrumb/current-native-ledger.json",
+    "sha256": "3e65d0d4197a1e62033e2e3f0af16d810d384af2f5a1f516ac64f13f1dfd45c5"
+  },
+  "build_plan": "current-build-plan.json",
+  "minimum": "token-minimum.json",
+  "variable_map": "variable-map.csv",
+  "binding_map": "binding-map.csv",
+  "qa": {
+    "path": "evidence/qa/breadcrumb-pilot-check.json",
+    "sha256": "60c266c5917d5b7e3b39ac58b990144d268e793e7e4f0d0ff02f5210a7fa7da0"
+  },
+  "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "dependency": {
+    "id": "BREADCRUMB-ITEM-001",
+    "version": "1.0.0",
+    "path": "norms/components/breadcrumb-item.1.0.0.md",
+    "sha256": "69557362d5e6250fb17f59a2492ce74e61f86c12a374d4ecf36324a3627349ad",
+    "current": true
+  },
+  "dependencyManifest": {
+    "path": "consumption/breadcrumb-item/manifest.json",
+    "sha256": "d914ee84271a84130cea4b249f6ad678b778310598188419ee9bbb207e9313ac"
+  }
+}

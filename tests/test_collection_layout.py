@@ -25,9 +25,9 @@ class CollectionLayoutTests(unittest.TestCase):
         return Tokens([document], ROOT, self.policy).validate()
 
     def test_only_three_homonymous_collections_and_four_contexts(self):
-        self.assertEqual(self.validate(self.document), {'tokens': 493, 'collections': 3, 'mode_contexts': 4})
+        self.assertEqual(self.validate(self.document), {'tokens': 518, 'collections': 3, 'mode_contexts': 4})
         counts = {c: sum(t['collection'] == c for t in self.document['tokens']) for c in ('primitive', 'semantic', 'component')}
-        self.assertEqual(counts, {'primitive': 151, 'semantic': 112, 'component': 230})
+        self.assertEqual(counts, {'primitive': 151, 'semantic': 112, 'component': 255})
 
     def test_extra_unused_family_collection_is_rejected(self):
         doc = copy.deepcopy(self.document)

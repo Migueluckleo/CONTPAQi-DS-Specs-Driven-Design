@@ -1,0 +1,486 @@
+{
+  "fileKey": "9zs5RMR8LB5wHjW9Bd59BA",
+  "page": {
+    "id": "1098:28190"
+  },
+  "sets": [
+    {
+      "id": "2425:35897",
+      "name": "breadcrumb-item",
+      "type": "COMPONENT_SET",
+      "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+      "description": "Breadcrumb itemEslabón individual del Breadcrumb. Úsalo dentro del componente breadcrumb; su documentación completa (contenido LATAM, comportamiento, accesibilidad y tokens) está en breadcrumb.\n\n\nPropiedades\ntype: text | icon (Inicio) | overflow (\"…\").\ncurrent: false | true (solo en text). La página actual va en text/brand SemiBold, sin separador.\nstate: default | hover (text/primary y subrayado) | focus (anillo de 2 px) | disabled.\nLabel: texto del eslabón (solo en type=text).",
+      "x": 220,
+      "y": 60,
+      "width": 147,
+      "height": 580,
+      "visible": true,
+      "clipsContent": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "parent": {
+        "id": "2425:35869",
+        "name": "Breadcrumb component",
+        "type": "FRAME"
+      },
+      "properties": [
+        {
+          "name": "Label#2992:0",
+          "type": "TEXT",
+          "defaultValue": "Breadcrumb",
+          "preferredCount": 0
+        },
+        {
+          "name": "type",
+          "type": "VARIANT",
+          "defaultValue": "text",
+          "variantOptions": [
+            "text",
+            "icon",
+            "overflow"
+          ],
+          "preferredCount": 0
+        },
+        {
+          "name": "current",
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ],
+          "preferredCount": 0
+        },
+        {
+          "name": "state",
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "disabled",
+            "hover",
+            "focus"
+          ],
+          "preferredCount": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "2425:35898",
+          "name": "type=text, current=false, state=default",
+          "width": 99,
+          "height": 20,
+          "children": [
+            {
+              "id": "2425:35899",
+              "name": "Label",
+              "type": "TEXT",
+              "visible": true
+            },
+            {
+              "id": "2833:585",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "2425:35912",
+          "name": "type=text, current=false, state=hover",
+          "width": 99,
+          "height": 20,
+          "children": [
+            {
+              "id": "2425:35913",
+              "name": "Label",
+              "type": "TEXT",
+              "visible": true
+            },
+            {
+              "id": "8903:60",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "8903:62",
+          "name": "type=text, current=false, state=focus",
+          "width": 99,
+          "height": 20,
+          "children": [
+            {
+              "id": "8903:63",
+              "name": "Label",
+              "type": "TEXT",
+              "visible": true
+            },
+            {
+              "id": "8903:64",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "8903:14395",
+              "name": "Focus ring",
+              "type": "FRAME",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "2425:35907",
+          "name": "type=text, current=false, state=disabled",
+          "width": 99,
+          "height": 20,
+          "children": [
+            {
+              "id": "2425:35908",
+              "name": "Label",
+              "type": "TEXT",
+              "visible": true
+            },
+            {
+              "id": "2425:35909",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "2425:35910",
+          "name": "type=text, current=true, state=default",
+          "width": 82,
+          "height": 20,
+          "children": [
+            {
+              "id": "2425:35911",
+              "name": "Label",
+              "type": "TEXT",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "2425:35901",
+          "name": "type=icon, current=false, state=default",
+          "width": 36,
+          "height": 16,
+          "children": [
+            {
+              "id": "2425:35902",
+              "name": "Icon",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "2425:35903",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "8903:66",
+          "name": "type=icon, current=false, state=hover",
+          "width": 36,
+          "height": 16,
+          "children": [
+            {
+              "id": "8903:67",
+              "name": "Icon",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "8903:68",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "8903:71",
+          "name": "type=icon, current=false, state=focus",
+          "width": 36,
+          "height": 16,
+          "children": [
+            {
+              "id": "8903:72",
+              "name": "Icon",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "8903:73",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "8903:14396",
+              "name": "Focus ring",
+              "type": "FRAME",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "8903:76",
+          "name": "type=icon, current=false, state=disabled",
+          "width": 36,
+          "height": 16,
+          "children": [
+            {
+              "id": "8903:77",
+              "name": "Icon",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "8903:78",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "2425:35904",
+          "name": "type=overflow, current=false, state=default",
+          "width": 31,
+          "height": 20,
+          "children": [
+            {
+              "id": "2425:35905",
+              "name": "Overflow",
+              "type": "TEXT",
+              "visible": true
+            },
+            {
+              "id": "2833:809",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "8903:81",
+          "name": "type=overflow, current=false, state=hover",
+          "width": 31,
+          "height": 20,
+          "children": [
+            {
+              "id": "8903:82",
+              "name": "Overflow",
+              "type": "TEXT",
+              "visible": true
+            },
+            {
+              "id": "8903:83",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "8903:85",
+          "name": "type=overflow, current=false, state=focus",
+          "width": 31,
+          "height": 20,
+          "children": [
+            {
+              "id": "8903:86",
+              "name": "Overflow",
+              "type": "TEXT",
+              "visible": true
+            },
+            {
+              "id": "8903:87",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "8903:14397",
+              "name": "Focus ring",
+              "type": "FRAME",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "8903:89",
+          "name": "type=overflow, current=false, state=disabled",
+          "width": 31,
+          "height": 20,
+          "children": [
+            {
+              "id": "8903:90",
+              "name": "Overflow",
+              "type": "TEXT",
+              "visible": true
+            },
+            {
+              "id": "8903:91",
+              "name": "Separator",
+              "type": "INSTANCE",
+              "visible": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2425:35937",
+      "name": "breadcrumb",
+      "type": "COMPONENT_SET",
+      "key": "6fb836fc24e1d24e6a0b0c933f97cfc32ff58680",
+      "description": "BreadcrumbRuta de navegación que muestra dónde está el usuario dentro de la jerarquía del producto y le permite regresar a niveles anteriores (p. ej. Contabilidad › Pólizas › Diario › Póliza P-0458).\n\n\nPropiedades\nlevels: 2 | 3 | 4 | 5 | collapsed. Número de niveles visibles; collapsed muestra el primero, \"…\" y los dos últimos.\nShow back: flecha para regresar al nivel anterior (encendida por defecto).\nCada eslabón es una instancia de breadcrumb-item: cambia su Label y su type según el caso.\n\n\nEstructura (breadcrumb-item)\ntype: text | icon | overflow. icon es el acceso a Inicio (casa); overflow (\"…\") agrupa niveles ocultos y abre un menú con ellos.\ncurrent: false | true. true es la página actual: text/brand en SemiBold, sin separador, sin cambio en hover y no clicable (aria-current=\"page\").\nstate: default | hover | focus | disabled.\nLabel: texto del eslabón.\n\n\nTamaños\nUn solo tamaño: texto de 14 px (font/size/sm, interlineado 20) e íconos de 16 px, alineado con Button medium y small.\n\n\nContenido para LATAM\nUsa los nombres reales de módulos y documentos: Nómina › Periodos › Quincena 18; Facturación › CFDI emitidos › A-1024.\nSentence case, sin abreviar módulos; los folios y series se muestran tal cual (P-0458, A-1024).\nEspañol y portugués ocupan ~30% más: con más de 5 niveles o rutas largas usa levels=collapsed.\nNo muestres datos personales en la ruta (CURP, NSS); para personas usa nombre o número de empleado.\nEn multiempresa, el primer nivel puede ser la empresa o RFC activo.\n\n\nComportamiento\nEl último eslabón es siempre la página actual y no es enlace.\nCon más de 5 niveles colapsa los intermedios en \"…\"; al activarlo muestra un menú con los niveles ocultos.\nLa flecha de regresar lleva al nivel inmediato anterior, no al historial del navegador.\nEn móvil muestra solo la flecha y el nivel anterior.\n\n\nAccesibilidad\nEnvuélvelo en un nav con aria-label=\"Ruta de navegación\" y una lista ordenada.\nLos separadores (›) son decorativos (aria-hidden).\nContraste: enlaces text/secondary 7.6:1 (hover text/primary 17.9:1), página actual text/brand 4.7–6.3:1 en los 4 modos. Los separadores (icon/tertiary) son decorativos.\nHover: cambia a text/primary y se subraya; el color no es el único indicador. La página actual no reacciona al hover.\nFoco visible: anillo de 2 px color/focus/ring con 2 px de separación.\n\n\nDo / Don't\n✅ Úsalo a partir del segundo nivel de profundidad.\n✅ El último nivel siempre es la página actual.\n✅ Usa collapsed cuando la ruta no quepa en una línea.\n❌ No lo uses como navegación principal ni como pasos de un asistente (usa Multi Step Indicator).\n❌ No pongas la página actual como enlace.\n❌ No cambies colores ni tamaños a mano.\n\n\nTokens\nTexto color/text/{secondary|primary|brand|disabled} · Ícono color/icon/{secondary|primary|tertiary|disabled} · Foco color/focus/ring + stroke/md + radius/sm · Espaciado spacing/xs | sm | none · Íconos size/lg · Tipografía font/family/base Regular/SemiBold, font/size/sm, font/line-height/sm, font/letter-spacing/normal.",
+      "x": 627,
+      "y": 60,
+      "width": 539,
+      "height": 244,
+      "visible": true,
+      "clipsContent": false,
+      "opacity": 1,
+      "blendMode": "PASS_THROUGH",
+      "parent": {
+        "id": "2425:35869",
+        "name": "Breadcrumb component",
+        "type": "FRAME"
+      },
+      "properties": [
+        {
+          "name": "Show back#8903:1",
+          "type": "BOOLEAN",
+          "defaultValue": true,
+          "preferredCount": 0
+        },
+        {
+          "name": "levels",
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "collapsed"
+          ],
+          "preferredCount": 0
+        }
+      ],
+      "variants": [
+        {
+          "id": "2425:35938",
+          "name": "levels=2",
+          "width": 223,
+          "height": 20,
+          "children": [
+            {
+              "id": "3460:156",
+              "name": "Back",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "3460:207",
+              "name": "Items",
+              "type": "FRAME",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "2425:35941",
+          "name": "levels=3",
+          "width": 293,
+          "height": 20,
+          "children": [
+            {
+              "id": "3460:198",
+              "name": "Back",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "3460:208",
+              "name": "Items",
+              "type": "FRAME",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "2425:35945",
+          "name": "levels=4",
+          "width": 355,
+          "height": 20,
+          "children": [
+            {
+              "id": "3460:199",
+              "name": "Back",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "3460:209",
+              "name": "Items",
+              "type": "FRAME",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "2425:35950",
+          "name": "levels=5",
+          "width": 491,
+          "height": 20,
+          "children": [
+            {
+              "id": "3460:200",
+              "name": "Back",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "3460:210",
+              "name": "Items",
+              "type": "FRAME",
+              "visible": true
+            }
+          ]
+        },
+        {
+          "id": "8903:27367",
+          "name": "levels=collapsed",
+          "width": 320,
+          "height": 20,
+          "children": [
+            {
+              "id": "8903:27368",
+              "name": "Back",
+              "type": "INSTANCE",
+              "visible": true
+            },
+            {
+              "id": "8903:27369",
+              "name": "Items",
+              "type": "FRAME",
+              "visible": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

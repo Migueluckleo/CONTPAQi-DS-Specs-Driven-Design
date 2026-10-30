@@ -1,0 +1,260 @@
+{
+  "status": "PASS_FOR_EXECUTED_SCOPE",
+  "decision": "ADR-026",
+  "authority": {
+    "path": "evidence/authorization/breadcrumb-request.txt",
+    "sha256": "9f0b403c64cbc19268e6e5617ecdec5cd7a639044aa29c1d9073a7a7c053011c"
+  },
+  "contracts": [
+    {
+      "id": "BREADCRUMB-ITEM-001",
+      "version": "1.0.0",
+      "path": "norms/components/breadcrumb-item.1.0.0.md",
+      "sha256": "69557362d5e6250fb17f59a2492ce74e61f86c12a374d4ecf36324a3627349ad",
+      "current": true
+    },
+    {
+      "id": "BREADCRUMB-001",
+      "version": "1.0.0",
+      "path": "norms/components/breadcrumb.1.0.0.md",
+      "sha256": "2a7c495b4435a6ad71dd47688335ac91b7810d2767985e56cbfd4009e67e1338",
+      "current": true
+    }
+  ],
+  "tokenSet": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "6.2.0",
+    "path": "norms/tokens/blueheart.6.2.0.json",
+    "sha256": "86fd6041303f761ddd4fed815d24dca3a2923dcb7c031085273c2524baa7ffb0",
+    "current": true
+  },
+  "destination": {
+    "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+    "pageId": "358:30",
+    "itemSetId": "359:63",
+    "parentSetId": "359:146",
+    "reviewFrameId": "363:67"
+  },
+  "counts": {
+    "itemVariants": 13,
+    "compositions": 5,
+    "newComponentTokens": 25,
+    "itemTokens": 20,
+    "parentTokens": 5,
+    "totalTokens": 518,
+    "collections": 3,
+    "bindings": 241,
+    "itemModeCases": 52,
+    "parentModeBackCases": 40,
+    "focusLabelEdits": 8,
+    "nestedConsumerEdits": 5,
+    "nativeTypeSwaps": 60,
+    "typeRestorations": 20,
+    "previousConsumers": 0,
+    "substitutions": 0
+  },
+  "checks": [
+    {
+      "name": "aliases-scopes-codeSyntax-and-shared-styles",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/native-bindings.json",
+        "sha256": "abbaba6e3a70b17703d3df515574f5e779acdd22621746c57d43146cb30effc0"
+      }
+    },
+    {
+      "name": "item-four-mode-state-and-color-parity",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/native-item-qa.json",
+        "sha256": "1f82e5e66d6c98a596c51e48ac5ee3d86d4c5006e9d562f4f71787ba00261829"
+      }
+    },
+    {
+      "name": "composition-back-exposed-text-focus-theme",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/native-parent-qa.json",
+        "sha256": "71ee80799db63c29d1e90a47ac0ee67c40a146077c872f69f94fd5e35ac9a33f"
+      }
+    },
+    {
+      "name": "native-cleanup-sparse-api",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/native-closure.json",
+        "sha256": "ee9e9037ba4b3efef38af09aaf08792da66651122b0970450974ae4b30dfa1e7"
+      }
+    },
+    {
+      "name": "nested-type-swaps-and-restoration",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/native-type-swaps.json",
+        "sha256": "3e895549d8e9f67323e85856ec72381d78b074538a2d92166daf60da15331a47"
+      }
+    },
+    {
+      "name": "active-text-contrast-on-white",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/contrast.json",
+        "sha256": "d9d4a63eff4243a3cc87d94e480977ec31ce6f7559f6d2b8187f7eee34672431"
+      }
+    },
+    {
+      "name": "reverse-dependency-and-additive-preservation",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/migration-map.json",
+        "sha256": "a3905ae3c4978c4033b57e24f121aedbb997e78620ca93e5f726cb112ecbe23e"
+      }
+    },
+    {
+      "name": "normative-check-only",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/preflight-check.json",
+        "sha256": "4ed52bfe4952a1d1661e6b8bc84c47ecd7a454c7065c9ee995ed0ca325ff9766"
+      }
+    }
+  ],
+  "visual_review": {
+    "status": "PASS",
+    "reviewer": "implementing_agent",
+    "evidence": {
+      "path": "evidence/breadcrumb-pilot/showcase.png",
+      "sha256": "5d6951b2d6b2cca6887f1121b38bf0434a3ffc85c9fb71f7feedcc961ae0559e"
+    },
+    "observed": "Guía sin recortes ni solapamientos; 5 composiciones, Show back, matriz13, temas4 y foco adaptable; masters separados debajo."
+  },
+  "independent_review": "NOT_RUN",
+  "web_implementation": "NOT_IMPLEMENTED",
+  "prototype_playback": "NOT_IMPLEMENTED_SOURCE_HAS_NO_REACTIONS_OR_TARGETS",
+  "runtime_limits": [
+    "Host supplies hierarchical destinations, hidden ancestors, overflow menu and focus restoration.",
+    "Mobile is an authored host presentation rule; no mobile component, menu design, breakpoint or destination demo is invented.",
+    "Current default only; no fabricated active current states.",
+    "Source/current font style binding and Home parity adaptations are owned by ADR-026."
+  ],
+  "source_access": {
+    "figma": "READ_ONLY",
+    "historical_project": "READ_ONLY",
+    "source_write_operations": 0
+  },
+  "infrastructure_tests": "SEPARATE_RELEASE_DOCUMENTATION",
+  "evidence": [
+    {
+      "path": "evidence/breadcrumb-pilot/foundations-event.json",
+      "sha256": "cd3d2d3f9518e030afaf549ce084946adc9ea55df22e66282f46142288062c96"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/build-event.json",
+      "sha256": "e0710dc781363d31ab1721435ac3dc298ee405442fa487cfaf45e0e3aa3b9ddc"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/build-plan.json",
+      "sha256": "4283a2ad94cdad909dc468a49547a35cdb3e8104e28b4f3f9d32b0dc6a522943"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/native-bindings.json",
+      "sha256": "abbaba6e3a70b17703d3df515574f5e779acdd22621746c57d43146cb30effc0"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/native-item-qa.json",
+      "sha256": "1f82e5e66d6c98a596c51e48ac5ee3d86d4c5006e9d562f4f71787ba00261829"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/native-parent-qa.json",
+      "sha256": "71ee80799db63c29d1e90a47ac0ee67c40a146077c872f69f94fd5e35ac9a33f"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/native-closure.json",
+      "sha256": "ee9e9037ba4b3efef38af09aaf08792da66651122b0970450974ae4b30dfa1e7"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/native-type-swaps.json",
+      "sha256": "3e895549d8e9f67323e85856ec72381d78b074538a2d92166daf60da15331a47"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/contrast.json",
+      "sha256": "d9d4a63eff4243a3cc87d94e480977ec31ce6f7559f6d2b8187f7eee34672431"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/migration-map.json",
+      "sha256": "a3905ae3c4978c4033b57e24f121aedbb997e78620ca93e5f726cb112ecbe23e"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/showcase-event.json",
+      "sha256": "26229486bcadc0b2128eef05201f65184e292cf6483c4e6389e29c8990e04d06"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/showcase.png",
+      "sha256": "5d6951b2d6b2cca6887f1121b38bf0434a3ffc85c9fb71f7feedcc961ae0559e"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/preflight-check.json",
+      "sha256": "4ed52bfe4952a1d1661e6b8bc84c47ecd7a454c7065c9ee995ed0ca325ff9766"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/qa-plan.json",
+      "sha256": "7f916c835cb5dd588790656cc788569ccf334fb70781d7f5c479c0fd1f2bebf7"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/history/manifest.json",
+      "sha256": "015a24e134081897dbd8862cecbc2b161f475ef825759decf35d97d2278a505b"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/source/breadcrumb-item-component-contract.yaml",
+      "sha256": "c2a4204ac14501e7a43b6a59d83d521ac5c62e12eae4333c1f073d439437ea22"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/source/breadcrumb-item-component-contract.md",
+      "sha256": "2b5a2314797f8f318fd98cf6004ad19d441f2e5d8f35bd1b69df8f2672bca3e8"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/source/breadcrumb-component-contract.yaml",
+      "sha256": "97ad0e77cd5dc275a3e9937bd8a3ab8c8a366e49a9c1a5dcc258d9f95e910b6f"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/source/breadcrumb-component-contract.md",
+      "sha256": "0253ff302e026b9074658e5ec075cf56e6c8bab39aace86bb585fd08d6f39d60"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-0-1.json",
+      "sha256": "3652487615e47cc911131e29562a9837a82aed218747c62b7918062335a0bbe5"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-11-128.json",
+      "sha256": "810621133074cf8ab4729b1e97e5bc39b78b39ed7f89bca771a0536d4e9f7afb"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-145-42.json",
+      "sha256": "5036ae16f3d62b304b7a7052e5a47ddcdd6a231356cb7458b931cfd8318daa82"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-149-639.json",
+      "sha256": "bdaf4ec79f8b508a8c42b544a8af0b420b5ff2597d4aa92568e4e46c4256a48b"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-201-1543.json",
+      "sha256": "e23808b6d2dcd1c78c921fcdde3952631507b496b29046acc43778222271d425"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-245-19.json",
+      "sha256": "59bc505e9a82d5409be8396edf2dce21862c3702b634425a730575c690087abc"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-281-62.json",
+      "sha256": "f9f6b718f40f16c3c7d57a72d31c016816888bb378cd92b62050e66a7e036498"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-281-63.json",
+      "sha256": "2ea29b304f1ac836cdbde22b02d75e962bb11dd8b7a254beb874fb079804c4e0"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/before/reverse-78-97.json",
+      "sha256": "33ff53c30972090725d927942925701d5ebbdb986f113440fdc70a2f488787da"
+    }
+  ]
+}

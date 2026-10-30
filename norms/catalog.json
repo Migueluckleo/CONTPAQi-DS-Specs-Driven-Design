@@ -119,14 +119,28 @@
       "path": "norms/components/input.2.0.1.md",
       "sha256": "de7af614b979f0cfb93825440de691e352d8a18b73acfa572be2caf54c008366",
       "current": true
+    },
+    {
+      "id": "BREADCRUMB-ITEM-001",
+      "version": "1.0.0",
+      "path": "norms/components/breadcrumb-item.1.0.0.md",
+      "sha256": "69557362d5e6250fb17f59a2492ce74e61f86c12a374d4ecf36324a3627349ad",
+      "current": true
+    },
+    {
+      "id": "BREADCRUMB-001",
+      "version": "1.0.0",
+      "path": "norms/components/breadcrumb.1.0.0.md",
+      "sha256": "2a7c495b4435a6ad71dd47688335ac91b7810d2767985e56cbfd4009e67e1338",
+      "current": true
     }
   ],
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "6.1.0",
-      "path": "norms/tokens/blueheart.6.1.0.json",
-      "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8",
+      "version": "6.2.0",
+      "path": "norms/tokens/blueheart.6.2.0.json",
+      "sha256": "86fd6041303f761ddd4fed815d24dca3a2923dcb7c031085273c2524baa7ffb0",
       "current": true
     }
   ]

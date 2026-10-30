@@ -11,9 +11,9 @@
   "token_sets": [
     {
       "id": "BLUEHEART-TOKENS",
-      "version": "6.1.0",
-      "path": "norms/tokens/blueheart.6.1.0.json",
-      "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8",
+      "version": "6.2.0",
+      "path": "norms/tokens/blueheart.6.2.0.json",
+      "sha256": "86fd6041303f761ddd4fed815d24dca3a2923dcb7c031085273c2524baa7ffb0",
       "current": true
     }
   ],
@@ -326,7 +326,7 @@
   },
   "nativeLedger": {
     "path": "consumption/avatar/current-native-ledger.json",
-    "sha256": "28eef5099adc43d2a42cfe86bd5f52637de9099424194cd2efb63044cd927feb"
+    "sha256": "d6be802845b71cd7acfc69b6c7bfcfaa3a24b8b590d8b36977fc3d4cc57d480c"
   },
   "historicalQA": "evidence/qa/avatar-pilot-check.json",
   "dependencies": [

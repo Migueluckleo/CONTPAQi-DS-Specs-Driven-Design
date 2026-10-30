@@ -1,0 +1,106 @@
+{
+  "status": "PASS",
+  "topLevel": [
+    {
+      "id": "359:63",
+      "name": "Breadcrumb item",
+      "type": "COMPONENT_SET",
+      "x": 100,
+      "y": 1708,
+      "width": 819,
+      "height": 320
+    },
+    {
+      "id": "359:146",
+      "name": "Breadcrumb",
+      "type": "COMPONENT_SET",
+      "x": 1039,
+      "y": 1708,
+      "width": 491,
+      "height": 420
+    },
+    {
+      "id": "363:67",
+      "name": "Breadcrumb · guía de uso",
+      "type": "FRAME",
+      "x": 100,
+      "y": 100,
+      "width": 1080,
+      "height": 1448
+    }
+  ],
+  "sets": [
+    {
+      "id": "359:63",
+      "name": "Breadcrumb item",
+      "count": 13
+    },
+    {
+      "id": "359:146",
+      "name": "Breadcrumb",
+      "count": 5
+    }
+  ],
+  "componentCount": 18,
+  "reactions": [],
+  "pages": [
+    {
+      "id": "0:1",
+      "name": "Cover"
+    },
+    {
+      "id": "149:639",
+      "name": "---"
+    },
+    {
+      "id": "145:42",
+      "name": "Avatars"
+    },
+    {
+      "id": "281:63",
+      "name": "Badge"
+    },
+    {
+      "id": "11:128",
+      "name": "Buttons"
+    },
+    {
+      "id": "201:1543",
+      "name": "Dot"
+    },
+    {
+      "id": "281:62",
+      "name": "Input"
+    },
+    {
+      "id": "245:19",
+      "name": "Loader"
+    },
+    {
+      "id": "78:97",
+      "name": "Tabs"
+    },
+    {
+      "id": "358:30",
+      "name": "Breadcrumbs"
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "primitive",
+      "count": 151
+    },
+    {
+      "id": "VariableCollectionId:6:148",
+      "name": "semantic",
+      "count": 112
+    },
+    {
+      "id": "VariableCollectionId:11:2",
+      "name": "component",
+      "count": 255
+    }
+  ],
+  "temporaryProbes": 0
+}

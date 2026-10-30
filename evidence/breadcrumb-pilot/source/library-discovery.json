@@ -1,0 +1,419 @@
+{
+  "results": [
+    {
+      "entity": "component",
+      "query": "breadcrumb",
+      "components": [
+        {
+          "name": "breadcrumb-item",
+          "libraryName": "Libreria v1.1.0",
+          "libraryKey": "lk-aad059036d0ea42d1bef018ec2d727e20472abf302f57a75c5fbba011f9f743aa62d98e7b2e7fb5893a7df214780452bd91d00312d128a187bd3ae90013f61f4",
+          "assetType": "component_set",
+          "updatedAt": "2026-10-08T18:25:10Z",
+          "componentSetKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "description": "Breadcrumb itemEslabón individual del Breadcrumb. Úsalo dentro del componente breadcrumb; su documentación completa (contenido LATAM, comportamiento, accesibilidad y tokens) está en breadcrumb.\n\n\nPropiedades\ntype: text | icon (Inicio) | overflow (\"…\").\ncurrent: false | true (solo en text). La página actual va en text/brand SemiBold, sin separador.\nstate: default | hover (text/primary y subrayado) | focus (anillo de 2 px) | disabled.\nLabel: texto del eslabón (solo en type=text).",
+          "filePath": "design_systems/Libreria v1.1.0/components/breadcrumb-item"
+        },
+        {
+          "name": "breadcrumb",
+          "libraryName": "Libreria v1.1.0",
+          "libraryKey": "lk-aad059036d0ea42d1bef018ec2d727e20472abf302f57a75c5fbba011f9f743aa62d98e7b2e7fb5893a7df214780452bd91d00312d128a187bd3ae90013f61f4",
+          "assetType": "component_set",
+          "updatedAt": "2026-10-08T18:25:10Z",
+          "componentSetKey": "6fb836fc24e1d24e6a0b0c933f97cfc32ff58680",
+          "description": "BreadcrumbRuta de navegación que muestra dónde está el usuario dentro de la jerarquía del producto y le permite regresar a niveles anteriores (p. ej. Contabilidad › Pólizas › Diario › Póliza P-0458).\n\n\nPropiedades\nlevels: 2 | 3 | 4 | 5 | collapsed. Número de niveles visibles; collapsed muestra el primero, \"…\" y los dos últimos.\nShow back: flecha para regresar al nivel anterior (encendida por defecto).\nCada eslabón es una instancia de breadcrumb-item: cambia su Label y su type según el caso.\n\n\nEstructura (breadcrumb-item)\ntype: text | icon | overflow. icon es el acceso a Inicio (casa); overflow (\"…\") agrupa niveles ocultos y abre un menú con ellos.\ncurrent: false | true. true es la página actual: text/brand en SemiBold, sin separador, sin cambio en hover y no clicable (aria-current=\"page\").\nstate: default | hover | focus | disabled.\nLabel: texto del eslabón.\n\n\nTamaños\nUn solo tamaño: texto de 14 px (font/size/sm, interlineado 20) e íconos de 16 px, alineado con Button medium y small.\n\n\nContenido para LATAM\nUsa los nombres reales de módulos y documentos: Nómina › Periodos › Quincena 18; Facturación › CFDI emitidos › A-1024.\nSentence case, sin abreviar módulos; los folios y series se muestran tal cual (P-0458, A-1024).\nEspañol y portugués ocupan ~30% más: con más de 5 niveles o rutas largas usa levels=collapsed.\nNo muestres datos personales en la ruta (CURP, NSS); para personas usa nombre o número de empleado.\nEn multiempresa, el primer nivel puede ser la empresa o RFC activo.\n\n\nComportamiento\nEl último eslabón es siempre la página actual y no es enlace.\nCon más de 5 niveles colapsa los intermedios en \"…\"; al activarlo muestra un menú con los niveles ocultos.\nLa flecha de regresar lleva al nivel inmediato anterior, no al historial del navegador.\nEn móvil muestra solo la flecha y el nivel anterior.\n\n\nAccesibilidad\nEnvuélvelo en un nav con aria-label=\"Ruta de navegación\" y una lista ordenada.\nLos separadores (›) son decorativos (aria-hidden).\nContraste: enlaces text/secondary 7.6:1 (hover text/primary 17.9:1), página actual text/brand 4.7–6.3:1 en los 4 modos. Los separadores (icon/tertiary) son decorativos.\nHover: cambia a text/primary y se subraya; el color no es el único indicador. La página actual no reacciona al hover.\nFoco visible: anillo de 2 px color/focus/ring con 2 px de separación.\n\n\nDo / Don't\n✅ Úsalo a partir del segundo nivel de profundidad.\n✅ El último nivel siempre es la página actual.\n✅ Usa collapsed cuando la ruta no quepa en una línea.\n❌ No lo uses como navegación principal ni como pasos de un asistente (usa Multi Step Indicator).\n❌ No pongas la página actual como enlace.\n❌ No cambies colores ni tamaños a mano.\n\n\nTokens\nTexto color/text/{secondary|primary|brand|disabled} · Ícono color/icon/{secondary|primary|tertiary|disabled} · Foco color/focus/ring + stroke/md + radius/sm · Espaciado spacing/xs | sm | none · Íconos size/lg · Tipografía font/family/base Regular/SemiBold, font/size/sm, font/line-height/sm, font/letter-spacing/normal.",
+          "filePath": "design_systems/Libreria v1.1.0/components/breadcrumb"
+        },
+        {
+          "name": "Breadcrumbs",
+          "libraryName": "AI Design System",
+          "libraryKey": "lk-8304d5d9dd44168a702cd9d0f97b1438a748a20b0c189959749f9fed74d2462360bd5515902dcbea81971c95f33ac1d2ba2af0755350e1020e1a68ff68d5f314",
+          "assetType": "component_set",
+          "updatedAt": "2026-10-20T17:26:27Z",
+          "componentSetKey": "1033fdfee4001fffb720a2f821ca0277251c2c25",
+          "description": "Ruta jerárquica con Slot nativo Trail para insertar, quitar, ordenar o sustituir Breadcrumb item locales desde una instancia. Level 2–5 son presets históricos, no límites. Mantenga Current en el último elemento; no calcula navegación, truncamiento ni selección. BREADCRUMBS-001 + COMPOSITION-SLOTS-001 0.1.0; límites cromáticos históricos pendientes de auditoría.",
+          "filePath": "design_systems/AI Design System/components/Breadcrumbs"
+        },
+        {
+          "name": "Breadcrumb item",
+          "libraryName": "AI Design System",
+          "libraryKey": "lk-8304d5d9dd44168a702cd9d0f97b1438a748a20b0c189959749f9fed74d2462360bd5515902dcbea81971c95f33ac1d2ba2af0755350e1020e1a68ff68d5f314",
+          "assetType": "component_set",
+          "updatedAt": "2026-10-20T17:26:27Z",
+          "componentSetKey": "1b0d8f5e12ec5483f2b3067ce64829e99b262d3b",
+          "description": "Segmento visual de ruta jerárquica. Seis combinaciones observadas; Label editable cuando hay texto normal. House y CaretRight son iconos Phosphor. Navegación, truncamiento y accesibilidad se definen en producto.",
+          "filePath": "design_systems/AI Design System/components/Breadcrumb item"
+        },
+        {
+          "name": "usb-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:22:41Z",
+          "componentKey": "ff6eec42888ffc2942a7d97217ed3d54e5a627b0",
+          "filePath": "design_systems/Bootstrap Icons/components/usb-fill"
+        }
+      ]
+    },
+    {
+      "entity": "component",
+      "query": "House",
+      "components": [
+        {
+          "name": "House",
+          "libraryName": "Phosphor Icons",
+          "libraryKey": "lk-05836a71db31c1bdfcd72d5262fc66329063d4917abc213211a8d9ef8bbc6dc784a2df1594cf1bb43c69b1f3451afdd929ffc10df8416b7ea454cfcdc8363348",
+          "assetType": "component_set",
+          "updatedAt": "2026-04-29T14:09:25Z",
+          "componentSetKey": "6fe3c014bb0bbacd45bced7aca7d6aa1ea3614ba",
+          "description": "homes, buildings, places, locations, maps & travel",
+          "filePath": "design_systems/Phosphor Icons/components/House"
+        },
+        {
+          "name": "house",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:25:56Z",
+          "componentKey": "9b63502af315bf56d156df3e9be1e3220ee6c4e5",
+          "filePath": "design_systems/Bootstrap Icons/components/house"
+        },
+        {
+          "name": "HouseLine",
+          "libraryName": "Phosphor Icons",
+          "libraryKey": "lk-05836a71db31c1bdfcd72d5262fc66329063d4917abc213211a8d9ef8bbc6dc784a2df1594cf1bb43c69b1f3451afdd929ffc10df8416b7ea454cfcdc8363348",
+          "assetType": "component_set",
+          "updatedAt": "2026-04-29T14:09:25Z",
+          "componentSetKey": "80336447e6514b240dea1521c75b218a7fcd0634",
+          "description": "*updated*, homes, buildings, places, locations, maps & travel",
+          "filePath": "design_systems/Phosphor Icons/components/HouseLine"
+        },
+        {
+          "name": "house-add",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:26:35Z",
+          "componentKey": "12fbf60303cc7472fb0f0188d7323d4c90489af3",
+          "filePath": "design_systems/Bootstrap Icons/components/house-add"
+        },
+        {
+          "name": "house-door",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:29:02Z",
+          "componentKey": "b741a395fb234784503ba2083e828381b1eac336",
+          "filePath": "design_systems/Bootstrap Icons/components/house-door"
+        },
+        {
+          "name": "house-gear",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:29:02Z",
+          "componentKey": "b811775a24df0b7e37d0ff73e4646a5ab4bc7dd9",
+          "filePath": "design_systems/Bootstrap Icons/components/house-gear"
+        },
+        {
+          "name": "house-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:25:56Z",
+          "componentKey": "1027aa7dbb76db103893f59be6bf14e66dcb8793",
+          "filePath": "design_systems/Bootstrap Icons/components/house-fill"
+        },
+        {
+          "name": "house-dash",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:28:32Z",
+          "componentKey": "006116078e1db0232ba61666ef759ef9c7246649",
+          "filePath": "design_systems/Bootstrap Icons/components/house-dash"
+        },
+        {
+          "name": "house-check",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:28:32Z",
+          "componentKey": "40b1f1752d071849944bafbe95742abe5737b865",
+          "filePath": "design_systems/Bootstrap Icons/components/house-check"
+        },
+        {
+          "name": "houses-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:24:39Z",
+          "componentKey": "ca3690db9d0574822243d69a7e4807c00c2d7c62",
+          "filePath": "design_systems/Bootstrap Icons/components/houses-fill"
+        },
+        {
+          "name": "house-add-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:28:32Z",
+          "componentKey": "00938091e8087be8674561fd1313ad5e3a2209f5",
+          "filePath": "design_systems/Bootstrap Icons/components/house-add-fill"
+        },
+        {
+          "name": "HouseSimple",
+          "libraryName": "Phosphor Icons",
+          "libraryKey": "lk-05836a71db31c1bdfcd72d5262fc66329063d4917abc213211a8d9ef8bbc6dc784a2df1594cf1bb43c69b1f3451afdd929ffc10df8416b7ea454cfcdc8363348",
+          "assetType": "component_set",
+          "updatedAt": "2026-04-29T14:13:59Z",
+          "componentSetKey": "d4da2d2b8a695d282685cf46947079ec05f6bcd5",
+          "description": "homes, buildings, places, locations, maps & travel",
+          "filePath": "design_systems/Phosphor Icons/components/HouseSimple"
+        },
+        {
+          "name": "house-gear-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:29:01Z",
+          "componentKey": "2ec25c47d422f673a8d9b0d57e4684f546c90bdb",
+          "filePath": "design_systems/Bootstrap Icons/components/house-gear-fill"
+        },
+        {
+          "name": "house-down-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:27:54Z",
+          "componentKey": "8ea416b6b0357b34908d733af8f54885b95e3914",
+          "filePath": "design_systems/Bootstrap Icons/components/house-down-fill"
+        },
+        {
+          "name": "house-x",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:29:02Z",
+          "componentKey": "fffc224fe44f07f71d0fa2342723a49be5ad576d",
+          "filePath": "design_systems/Bootstrap Icons/components/house-x"
+        },
+        {
+          "name": "house-up",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:27:54Z",
+          "componentKey": "70bafb815450794b91054c2fb802441933ed4d43",
+          "filePath": "design_systems/Bootstrap Icons/components/house-up"
+        },
+        {
+          "name": "house-check-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:29:02Z",
+          "componentKey": "9abc5cbb7c8cfeb0b4576f9f6a88047da7b29605",
+          "filePath": "design_systems/Bootstrap Icons/components/house-check-fill"
+        },
+        {
+          "name": "house-door-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:27:54Z",
+          "componentKey": "5c77e6765c2281332b581357af5960f7d901e623",
+          "filePath": "design_systems/Bootstrap Icons/components/house-door-fill"
+        },
+        {
+          "name": "house-lock",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:27:55Z",
+          "componentKey": "ee8712eeaaa19e5fa673a811ce50ae93b9742faa",
+          "filePath": "design_systems/Bootstrap Icons/components/house-lock"
+        },
+        {
+          "name": "house-down",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:25:56Z",
+          "componentKey": "7cf89cbe4b538ec5732ed043c62f7934d135603a",
+          "filePath": "design_systems/Bootstrap Icons/components/house-down"
+        }
+      ]
+    },
+    {
+      "entity": "component",
+      "query": "CaretRight",
+      "components": [
+        {
+          "name": "CaretRight",
+          "libraryName": "Phosphor Icons",
+          "libraryKey": "lk-05836a71db31c1bdfcd72d5262fc66329063d4917abc213211a8d9ef8bbc6dc784a2df1594cf1bb43c69b1f3451afdd929ffc10df8416b7ea454cfcdc8363348",
+          "assetType": "component_set",
+          "updatedAt": "2026-04-29T13:12:11Z",
+          "componentSetKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "description": "chevron, directional, pointer, pointing, arrowhead, triangle, arrows",
+          "filePath": "design_systems/Phosphor Icons/components/CaretRight"
+        },
+        {
+          "name": "caret-right",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:23:19Z",
+          "componentKey": "30cce82408ae638f2e9c33230f9b6747c5aadb6d",
+          "filePath": "design_systems/Bootstrap Icons/components/caret-right"
+        },
+        {
+          "name": "caret-right-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:23:19Z",
+          "componentKey": "5c75f7570a26e101f36bc6deaf0128d0c8553de6",
+          "filePath": "design_systems/Bootstrap Icons/components/caret-right-fill"
+        },
+        {
+          "name": "caret-right-square-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:27:15Z",
+          "componentKey": "4d9ec59d08390d72655a80f66079a5f105b3d425",
+          "filePath": "design_systems/Bootstrap Icons/components/caret-right-square-fill"
+        },
+        {
+          "name": "Breadcrumb item",
+          "libraryName": "AI Design System",
+          "libraryKey": "lk-8304d5d9dd44168a702cd9d0f97b1438a748a20b0c189959749f9fed74d2462360bd5515902dcbea81971c95f33ac1d2ba2af0755350e1020e1a68ff68d5f314",
+          "assetType": "component_set",
+          "updatedAt": "2026-10-20T17:26:27Z",
+          "componentSetKey": "1b0d8f5e12ec5483f2b3067ce64829e99b262d3b",
+          "description": "Segmento visual de ruta jerárquica. Seis combinaciones observadas; Label editable cuando hay texto normal. House y CaretRight son iconos Phosphor. Navegación, truncamiento y accesibilidad se definen en producto.",
+          "filePath": "design_systems/AI Design System/components/Breadcrumb item"
+        },
+        {
+          "name": "pagination-item",
+          "libraryName": "Libreria v1.1.0",
+          "libraryKey": "lk-aad059036d0ea42d1bef018ec2d727e20472abf302f57a75c5fbba011f9f743aa62d98e7b2e7fb5893a7df214780452bd91d00312d128a187bd3ae90013f61f4",
+          "assetType": "component_set",
+          "updatedAt": "2026-10-08T18:24:58Z",
+          "componentSetKey": "7eee6ad8822df8cba9b9b1f5dc1fb2505da524a9",
+          "description": "Pagination itemElemento individual de la paginación: número de página, flecha de navegación o puntos suspensivos. Se usa dentro del slot Pages de pagination.\n\n\nPropiedades\ntype: page (número) · icon (flecha) · ellipsis (páginas omitidas, no interactivo).\nstate: default · hover · selected (página actual, solo page) · focus · disabled (solo icon, en los extremos).\nLabel: número de página.\nIcon: CaretLeft · CaretRight · CaretDoubleLeft · CaretDoubleRight.\n\n\nEspecificaciones\n32 × 32 (size/3xl), ancho mínimo 32 y crece con números largos (p. ej. 128). Padding horizontal spacing/sm, radio radius/md.\nBorde color/border/default (stroke/xs); selected con color/surface/brand, borde color/border/brand y texto color/text/brand en SemiBold.\nHover color/background/muted. Focus con anillo color/focus/ring (stroke/md, radius/lg).\nDisabled: fondo color/interactive/disabled/bg, borde color/border/control-disabled, ícono color/icon/disabled.\n\n\nAccesibilidad\nPágina actual con aria-current=\"page\"; texto brand sobre surface/brand 5.01:1.\nFlechas con aria-label (\"Página anterior\", \"Primera página\"…).\nÁrea táctil mínima 44 × 44 en dispositivos táctiles.\n\n\nTokens\nsize/3xl · spacing/sm · radius/md · radius/lg · stroke/xs · stroke/md · font/size/sm · font/line-height/sm · color/border/default · color/border/brand · color/surface/brand · color/text/brand · color/text/primary · color/text/secondary · color/background/muted · color/focus/ring · color/interactive/disabled/bg · color/border/control-disabled · color/icon/primary · color/icon/disabled",
+          "filePath": "design_systems/Libreria v1.1.0/components/pagination-item"
+        },
+        {
+          "name": "HandHeart",
+          "libraryName": "Phosphor Icons",
+          "libraryKey": "lk-05836a71db31c1bdfcd72d5262fc66329063d4917abc213211a8d9ef8bbc6dc784a2df1594cf1bb43c69b1f3451afdd929ffc10df8416b7ea454cfcdc8363348",
+          "assetType": "component_set",
+          "updatedAt": "2026-04-29T14:13:48Z",
+          "componentSetKey": "e2278868c7cd5fd5611bbdc4cc097f3d681dff7b",
+          "description": "donation, care, emoji, health & wellness",
+          "filePath": "design_systems/Phosphor Icons/components/HandHeart"
+        },
+        {
+          "name": "sign-turn-slight-right-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:24:38Z",
+          "componentKey": "3d73956692433ea231cb099990e6a0b21ef22bd7",
+          "filePath": "design_systems/Bootstrap Icons/components/sign-turn-slight-right-fill"
+        }
+      ]
+    },
+    {
+      "entity": "component",
+      "query": "ArrowLeft",
+      "components": [
+        {
+          "name": "ArrowLeft",
+          "libraryName": "Phosphor Icons",
+          "libraryKey": "lk-05836a71db31c1bdfcd72d5262fc66329063d4917abc213211a8d9ef8bbc6dc784a2df1594cf1bb43c69b1f3451afdd929ffc10df8416b7ea454cfcdc8363348",
+          "assetType": "component_set",
+          "updatedAt": "2026-04-29T13:12:41Z",
+          "componentSetKey": "4697ebacf0a0ca1a63baf83235d88a066b86f82b",
+          "description": "directional, pointer, pointing, arrowhead, arrows",
+          "filePath": "design_systems/Phosphor Icons/components/ArrowLeft"
+        },
+        {
+          "name": "arrow-left-right",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:22:40Z",
+          "componentKey": "65b64aedb774ba29eee4bc0e79a84667603152c5",
+          "filePath": "design_systems/Bootstrap Icons/components/arrow-left-right"
+        },
+        {
+          "name": "arrow-left-short",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:29:02Z",
+          "componentKey": "cacfc1ccdd78bcee09b5f17048e7988e9e695427",
+          "filePath": "design_systems/Bootstrap Icons/components/arrow-left-short"
+        },
+        {
+          "name": "arrow-left-short",
+          "libraryName": "propuesta mood nuevo diseño",
+          "libraryKey": "lk-0ebb40629457d6a4a8d2adda69f3d457f9e0247f39d78a03604319cf5e5e5cea5f6942b9b23e029db61ceec7628381e19d8f6b33cc8c1f42f922bbf91d950aa8",
+          "assetType": "component",
+          "updatedAt": "2025-08-09T01:13:04Z",
+          "componentKey": "abeda8dd64ff39b7415291d4055e5a895ffdc528",
+          "filePath": "design_systems/propuesta mood nuevo diseño/components/arrow-left-short"
+        },
+        {
+          "name": "arrow-left-square",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:22:40Z",
+          "componentKey": "328b36015bdae2e8e5a42e4bc6d3eb3cbf463a23",
+          "filePath": "design_systems/Bootstrap Icons/components/arrow-left-square"
+        },
+        {
+          "name": "arrow-left-circle",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:28:33Z",
+          "componentKey": "9fc9b526ef8cf3a4af411b9280ab04d06721657d",
+          "filePath": "design_systems/Bootstrap Icons/components/arrow-left-circle"
+        },
+        {
+          "name": "ArrowULeftUp",
+          "libraryName": "Phosphor Icons",
+          "libraryKey": "lk-05836a71db31c1bdfcd72d5262fc66329063d4917abc213211a8d9ef8bbc6dc784a2df1594cf1bb43c69b1f3451afdd929ffc10df8416b7ea454cfcdc8363348",
+          "assetType": "component_set",
+          "updatedAt": "2026-04-29T13:17:27Z",
+          "componentSetKey": "ee0667c516ddd361dde58a6df77ad3d70c516bd5",
+          "description": "directional, pointer, pointing, arrowhead, redo, u-turns, arrows",
+          "filePath": "design_systems/Phosphor Icons/components/ArrowULeftUp"
+        },
+        {
+          "name": "arrow-left-circle-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:22:40Z",
+          "componentKey": "97188b73eecc5dc16e3a08b3025e9842b7b0e442",
+          "filePath": "design_systems/Bootstrap Icons/components/arrow-left-circle-fill"
+        },
+        {
+          "name": "arrow-left-square-fill",
+          "libraryName": "Bootstrap Icons",
+          "libraryKey": "lk-a5695dae81ae61bac7ed268f4397774111dcdf4353004ac6420e00323a46b1f1060abcb61178599447866fa4a7466e8f8f0f26d3413f65f3dd40d189924838c4",
+          "assetType": "component",
+          "updatedAt": "2026-04-24T17:22:40Z",
+          "componentKey": "2b42554cded3bd0293d2280f989f11964d169439",
+          "filePath": "design_systems/Bootstrap Icons/components/arrow-left-square-fill"
+        }
+      ]
+    }
+  ]
+}

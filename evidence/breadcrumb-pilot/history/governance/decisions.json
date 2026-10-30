@@ -1,0 +1,430 @@
+{
+  "schema_version": 1,
+  "decisions": [
+    {
+      "id": "ADR-001",
+      "status": "ADOPTED",
+      "statement": "El responsable adopta la arquitectura modular 02 como línea base y autoriza Fase 1: infraestructura mínima y auditoría Foundations en solo lectura.",
+      "scope": [
+        "architecture",
+        "phase-1"
+      ],
+      "source": {
+        "path": "evidence/authorization/phase-1-request.txt",
+        "sha256": "031bf5dfea11763685ce4422461f2f5ea234cf636b36f12b5aee89919c14b3c1"
+      },
+      "actor": "human_user"
+    },
+    {
+      "id": "ADR-002",
+      "status": "ADOPTED",
+      "statement": "Ajuste técnico de Fase 1: Python 3.9+ y biblioteca estándar; frontmatter JSON (subconjunto YAML 1.2), esquemas con vocabulario cerrado y rechazo de palabras no soportadas. Evita dependencias nuevas y un parser YAML propio. La revisión semántica permanece explícita.",
+      "scope": [
+        "tooling",
+        "contract-format"
+      ],
+      "source": {
+        "path": "evidence/authorization/phase-1-request.txt",
+        "sha256": "031bf5dfea11763685ce4422461f2f5ea234cf636b36f12b5aee89919c14b3c1"
+      },
+      "actor": "implementing_agent"
+    },
+    {
+      "id": "ADR-003",
+      "status": "ADOPTED",
+      "statement": "Normalización de colores: un único semántico con alias fijo por primitiva referenciada, sin duplicación por intención ni scopes de aplicación (scopes=[]). Los componentes separarán propiedades y estados. Criterio y entregables en auditoria/fase-1/normalizacion.md; Figma continúa en solo lectura.",
+      "scope": [
+        "color-normalization"
+      ],
+      "source": {
+        "path": "evidence/authorization/color-normalization-request.txt",
+        "sha256": "c70233d8ec86b98a6b6c9b6a47c4094591f90efae81b827fce2f32d0a0e635ae"
+      },
+      "actor": "human_user"
+    },
+    {
+      "id": "ADR-004",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable autoriza aplicar exclusivamente primitivas y semánticos normalizados en el archivo Figma destino Blue Heart DS. No se permiten tokens ni contenido de componentes. El origen y el proyecto anterior siguen en solo lectura.",
+      "scope": [
+        "figma-foundations-application"
+      ],
+      "source": {
+        "path": "evidence/authorization/figma-application-request.txt",
+        "sha256": "e925704f0c255e7746afae4f9d21d81bcd321edfd8c6ff67f270a4d7bebd0959"
+      }
+    },
+    {
+      "id": "ADR-005",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita recuperar y copiar los protocolos de construcción Figma y React/Tailwind/TypeScript/Next.js, junto con los protocolos útiles, y optimizarlos para Blue Heart DS. El proyecto original permanece sin modificaciones. La autorización prepara protocolos; no solicita construir componentes ni importar sus contratos históricos.",
+      "scope": [
+        "protocol-recovery"
+      ],
+      "source": {
+        "path": "evidence/authorization/protocol-recovery-request.txt",
+        "sha256": "10ba7c75ab44894675cb08b3dbe30666ca6ccf7059a1112e6a4987d40986a2b9"
+      }
+    },
+    {
+      "id": "ADR-006",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable autoriza el piloto Button: inspección read-only del nodo 2433:26890, contrato MD trazable funcional y de diseño, construcción en página propia del destino Blue Heart DS, tokens de componente con aliases semánticos y scopes específicos, validación y corrección de protocolos/consumo. El proyecto y Figma originales siguen intactos.",
+      "scope": [
+        "BUTTON-001",
+        "button-pilot",
+        "button-component-tokens"
+      ],
+      "source": {
+        "path": "evidence/authorization/button-pilot-request.txt",
+        "sha256": "ad9199e0b2241c52be0161d966dc3057bae284e4df9e16607ace9bec93de3233"
+      }
+    },
+    {
+      "id": "ADR-007",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable selecciona Phosphor: componentes vinculados de su biblioteca Figma xZSksKpcQTp5H3C4dZApBL y distribución oficial para desarrollo. Se actualizan el contrato y el consumo del piloto Button; no se modifica la biblioteca Phosphor ni el proyecto original.",
+      "scope": [
+        "iconography",
+        "BUTTON-001",
+        "phosphor-consumption"
+      ],
+      "source": {
+        "path": "evidence/authorization/phosphor-request.txt",
+        "sha256": "d15413a34395f25035e31a4a07fbbe2ea029e2ea4a8edb8d558d25386fb70aa6"
+      }
+    },
+    {
+      "id": "ADR-008",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita reducir al mínimo indispensable las 125 variables Button. Se consolidan tokens con mismo tipo, scope de propiedad y vector completo de aliases en los cuatro temas; se migran bindings y documentación del destino sin modificar primitivas, semánticos ni fuentes originales.",
+      "scope": [
+        "BUTTON-001",
+        "button-token-reduction"
+      ],
+      "source": {
+        "path": "evidence/authorization/button-reduction-request.txt",
+        "sha256": "45c7ea5859315f89a51b95c1d7666456b000017280cf7148e1e10d9311c57398"
+      }
+    },
+    {
+      "id": "ADR-009",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita convertir la consolidación de variables en un protocolo transversal de componentes. BH-P07 se integra al flujo de contratos, Figma, desarrollo, QA y consumo; el núcleo bloquea firmas redundantes por contrato de componente y scopes múltiples. No se modifica diseño ni se habilita construir otras familias.",
+      "scope": [
+        "component-token-protocol",
+        "all-component-contracts",
+        "BUTTON-001"
+      ],
+      "source": {
+        "path": "evidence/authorization/component-token-protocol-request.txt",
+        "sha256": "1f897f83669635b9a76fcc0de13e255889b01aa8c27206d38a3e2d82d6365ba5"
+      }
+    },
+    {
+      "id": "ADR-010",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita observar los nombres de Button en Figma y adoptar su estructura para todas las variables de componente: componente primero, categorías y propiedades separadas por barras y calificadores con guiones. Se documentan rutas reales y excepciones observadas; no se escribe en Figma ni se cambia la API CSS por esta inspección.",
+      "scope": [
+        "component-variable-naming",
+        "all-component-contracts",
+        "BUTTON-001"
+      ],
+      "source": {
+        "path": "evidence/authorization/component-naming-request.txt",
+        "sha256": "95d0d4bc688188075d90616b19bfc08d77472513617afc0f6e6900784aca613a"
+      }
+    },
+    {
+      "id": "ADR-011",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "Formalizar BH-P01 a BH-P07 como contratos operativos con un único propietario MD; incorporar BH-P08 para documentación automatizada de envíos y control de versiones de componentes. Se autoriza infraestructura y pruebas locales. Sin push, publicación ni modificaciones del original.",
+      "scope": [
+        "BH-P01",
+        "BH-P02",
+        "BH-P03",
+        "BH-P04",
+        "BH-P05",
+        "BH-P06",
+        "BH-P07",
+        "BH-P08",
+        "operational-contracts",
+        "release-documentation",
+        "component-versioning"
+      ],
+      "source": {
+        "path": "evidence/authorization/operational-protocols-request.txt",
+        "sha256": "eefa6f1db2b1defd41541064238224cfcfb6690f19d0025700a30d17a7e903f0"
+      }
+    },
+    {
+      "id": "ADR-012",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable autoriza publicar Blue Heart DS en Migueluckleo/CONTPAQi-DS-Specs-Driven-Design y configurar BH-P08. Cada push genera y entrega un PDF condensado derivado de sus registros MD, incluyendo fallos explícitos. Se autoriza publicación del repositorio y sus controles; no se solicita publicar una release oficial ni modificar el original.",
+      "scope": [
+        "BH-P08",
+        "github-publication",
+        "release-notes-pdf",
+        "github-protection-verification"
+      ],
+      "source": {
+        "path": "evidence/authorization/github-publication-pdf-request.txt",
+        "sha256": "be6e33ab56476bab9c859ab541d121516aa94a1c25aa6390c3012810529730ed"
+      }
+    },
+    {
+      "id": "ADR-013",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable elimina la dependencia de otro revisor para integrar en main. Se conserva PR, CI estricto, documentación por envío, PDF y protección sin bypass ni force push; las revisiones son voluntarias. Se autoriza aplicar la configuración, actualizar BH-P08 e integrar su cambio con CI aprobado, sin publicar una release oficial.",
+      "scope": [
+        "BH-P08",
+        "github-main-without-reviewer"
+      ],
+      "source": {
+        "path": "evidence/authorization/main-without-reviewer-request.txt",
+        "sha256": "ffa1572afeb363d4cb2887b72212e6b24e546a95554ab7a045b96244733b5cdd"
+      }
+    },
+    {
+      "id": "ADR-014",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "Corregir en Blue Heart DS Secondary focus medium y small para cambiar a hover del mismo tamaño, actualizar contrato y validar el cambio. Se adopta Button 2.0.1 como corrección compatible. Se permite divergir en esos dos destinos de la referencia histórica, que permanece intacta. No cambiar tokens, API ni el proyecto/Figma originales.",
+      "scope": [
+        "BUTTON-001",
+        "secondary-focus-same-size"
+      ],
+      "source": {
+        "path": "evidence/authorization/secondary-focus-size-request.txt",
+        "sha256": "008dc71c861dc7696d54809e7d70b4b46472919fbef04b1e7e909f06ac09a1c9"
+      }
+    },
+    {
+      "id": "ADR-015",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El usuario encarga la familia Tab del nodo 1183:1146 en Blue Heart DS con los criterios existentes de contratos MD y tokens mínimos por scope. Autoriza selected segmented blanco con texto oscuro en default/hover/focus conservando sombra/anillo, y texto de marca más oscuro en pill selected/hover para corregir contraste. Se adopta TAB-001 1.0.0, una colección tab con los cuatro temas y TAB-TOKENS 1.0.0 sin duplicar foundations. Solo Tab individual y su dependencia Count activa privada; no la familia contenedora Tabs ni React. Se retiran las referencias operativas que fijaban el piloto Button como identidad/versión global y se actualizan sus dependencias exactas, conservando un archivo por protocolo. Button y el origen permanecen intactos.",
+      "scope": [
+        "TAB-001",
+        "TAB-TOKENS",
+        "tab-family-figma-pilot",
+        "BH-P01",
+        "BH-P02",
+        "BH-P03",
+        "BH-P04",
+        "BH-P05",
+        "BH-P08"
+      ],
+      "source": {
+        "path": "evidence/authorization/tab-pilot-request.txt",
+        "sha256": "a01ef90b7236d87a5cf1c1fa1dcc872b5924b206515a3e306aae0ae6b2d6a586"
+      }
+    },
+    {
+      "id": "ADR-016",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita igualar la página raíz completa de Tabs: Tab individual, grupo Tabs con slot y documentación; alinear nombres nativos por función/estado con Button, manteniendo IDs y WEB compatibles; segmented usa morado fijo independiente de los temas. La solicitud sustituye la normalización blanca anterior para los estados morados observados. El contraste está pendiente de decisión separada. No autoriza modificar las fuentes ni implementar React o publicar releases oficiales.",
+      "scope": [
+        "TAB-001",
+        "TABS-001",
+        "TAB-TOKENS",
+        "TABS-TOKENS",
+        "tabs-page-parity",
+        "component-variable-naming"
+      ],
+      "source": {
+        "path": "evidence/authorization/tabs-page-reconciliation-request.txt",
+        "sha256": "9bcf56c28470c2aa1fce3b3ad24a82207b58ab67af5f066a336dfe709a37843d"
+      }
+    },
+    {
+      "id": "ADR-017",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable prioriza fidelidad a los morados exactos de la raíz sobre la corrección de contraste del texto blanco de segmented selected default/hover; se documentan 4.39:1 y 2.26:1 como limitación explícita. Los dos colores son constantes entre temas. Se preserva el tratamiento de contraste previamente adoptado para pill.",
+      "scope": [
+        "TAB-001",
+        "TABS-001",
+        "tabs-segmented-color-exception"
+      ],
+      "source": {
+        "path": "evidence/authorization/tabs-purple-contrast-choice.txt",
+        "sha256": "b891d1ceaf4dc510893900f42731341a9e4cbcc8a8c1dfa2179e6faa3cf8b497"
+      }
+    },
+    {
+      "id": "ADR-018",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable exige generalizar en los protocolos la nomenclatura por función/estado, el mínimo por firma y la declaración y verificación de comportamiento temático y excepciones. BH-P07 conserva la regla única; contrato, construcción Figma/web y QA la consumen. La excepción concreta de Tab no se generaliza. Actualización documental y controles de consumo, sin cambiar componentes, variables, el origen ni habilitar web o releases oficiales.",
+      "scope": [
+        "BH-P01",
+        "BH-P02",
+        "BH-P03",
+        "BH-P04",
+        "BH-P05",
+        "BH-P07",
+        "BH-P08",
+        "component-token-governance"
+      ],
+      "source": {
+        "path": "evidence/authorization/token-protocol-criteria-request.txt",
+        "sha256": "fa308f8359ef963618e917e667d7334d25a025ae1b3d820787919190a4271f1e"
+      }
+    },
+    {
+      "id": "ADR-019",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita continuar con la página Avatar 1132:8891, con los protocolos vigentes: contratos MD, Avatar y Avatar group con su presencia privada, tokens mínimos y construcción/QA en Blue Heart DS. Elige conservar bindings y geometría reales con cuatro temas y corregir la descripción contradictoria: sin siete modos inexistentes ni anillos de 3/2 px. Se incorporan únicamente tres espaciados negativos requeridos por el traslape observado, con primitivas/semánticos sin scope y tres tokens GAP del grupo; versión menor de Foundations y preservación exacta de los tokens anteriores. No amplía React, Graphify, originales ni publicaciones de biblioteca/releases.",
+      "scope": [
+        "AVATAR-001",
+        "AVATAR-GROUP-001",
+        "AVATAR-TOKENS",
+        "BLUEHEART-TOKENS",
+        "avatar-family-figma-pilot",
+        "avatar-page-documentation"
+      ],
+      "source": {
+        "path": "evidence/authorization/avatar-pilot-request.txt",
+        "sha256": "5c384535b5e34ef6bea2c91253bc592dbd46106062612094fab96870237608d6"
+      }
+    },
+    {
+      "id": "ADR-020",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable corrige el almacenamiento: solo tres colecciones primitive, semantic y component. Todos los tokens de componente se agrupan bajo button, avatar o tab; las composiciones Avatar group y Tabs comparten el grupo de su familia sin crear colecciones. Se conservan contratos independientes, identidades lógicas y WEB, mínimo por contrato, scopes, aliases, geometría y comportamiento. Los cuatro temas existentes residen una sola vez en component; los roles fijos repiten sus aliases en esos modos. La migración cambia IDs nativos donde la API no permite mover variables y conserva mapas y evidencia antes de retirar las colecciones antiguas. El contexto portable pasa de button/tab/avatar a component; se registra la migración de API de colección, sin activar React ni modificar fuentes.",
+      "scope": [
+        "BLUEHEART-TOKENS",
+        "BUTTON-001",
+        "TAB-001",
+        "TABS-001",
+        "AVATAR-001",
+        "AVATAR-GROUP-001",
+        "BH-P01",
+        "BH-P02",
+        "BH-P03",
+        "BH-P04",
+        "BH-P05",
+        "BH-P07",
+        "BH-P08",
+        "component-collection-governance"
+      ],
+      "source": {
+        "path": "evidence/authorization/component-collection-request.txt",
+        "sha256": "041814c7ca461cddd8d809a5ae3e9f179fdd096b92832c95f57efae3fb2eb11e"
+      }
+    },
+    {
+      "id": "ADR-021",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita Dot 1133:20620 y exige comprobar siempre dependencias inversas, sustituir las representaciones privadas por el componente compartido y actualizar contratos/evidencia. Se formaliza Dot con sus 16 variantes reales, sin count small, y se migran Tab/Avatar y sus consumidores transitivos Tabs/Avatar group. Las tres colecciones y cuatro modos permanecen; los roles Dot son invariantes y sus tokens mínimos reutilizan semánticos existentes. Los helpers y tokens privados que queden sin uso actual se retiran tras read-back; sus contratos y el snapshot de tokens anterior se archivan íntegros como evidencia, evitando cargar referencias históricas contra IDs retirados. Los contratos consumidores registran el cambio mayor y su mapa de migración. No habilita React, Icon Button, modificación del origen ni releases oficiales.",
+      "scope": [
+        "DOT-001",
+        "TAB-001",
+        "TABS-001",
+        "AVATAR-001",
+        "AVATAR-GROUP-001",
+        "BLUEHEART-TOKENS",
+        "BH-P01",
+        "BH-P02",
+        "BH-P03",
+        "BH-P04",
+        "BH-P05",
+        "BH-P08",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/dot-dependency-request.txt",
+        "sha256": "13c94305c8dc4f6dcf44311f0197de27d164716ec08ad5c6e32c58c22705e533"
+      }
+    },
+    {
+      "id": "ADR-022",
+      "status": "ADOPTED",
+      "actor": "human_user",
+      "statement": "El responsable solicita Loader 3917:1263 y sustituir dependencias como en Dot. Se adopta LOADER-001, sus 24 variantes públicas, seis ciclos privados de 24 fases y 15 firmas de token en component. Solo el arco primary sigue el tema; los demás roles son invariantes. Se añade size-88/size-8xl por la métrica real sin alias existente. Button adopta Loader por composición, retira dos tokens exclusivos y tres ciclos privados; corrige sus remates y rieles para coincidir con el Loader real del Button fuente, conservando las 90 identidades, dimensiones, textos y reacciones. La API retirada exige versión mayor de Button y tokens. Se archivan contratos y registros exactos anteriores; los demás consumidores no se amplían. Origen y proyecto anterior solo lectura, sin React, Graphify ni releases oficiales. La aprobación explícita adicional del retiro se conserva en evidence/authorization/loader-retirement-approval.txt y el comprobante BH-P04 enlaza sus bytes/hash.",
+      "scope": [
+        "LOADER-001",
+        "BUTTON-001",
+        "BLUEHEART-TOKENS",
+        "loader-family-figma-pilot",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/loader-dependency-request.txt",
+        "sha256": "def9511ea1100631f7cccceb26f7f6e69a4813792abe882f05aa27b5b6865d33"
+      }
+    },
+    {
+      "id": "ADR-023",
+      "status": "ADOPTED",
+      "actor": "implementing_agent",
+      "statement": "El encargo humano selecciona Input 20:3; el responsable limita expresamente Badge a subtle/small. La ejecución delegada formaliza INPUT-001 y BADGE-001 como fuentes MD, 42 variantes Input en dos sets por value y una variante Badge con Label editable. Se adoptan 41 firmas Input y 12 Badge, con tres colecciones y cuatro modos; los únicos roles temáticos de Input son tooltip y stroke hover. Se preserva foco fijo azul y sus efectos como en la raíz, sin trasladar excepciones de Tab. La comprobación nativa muestra que Figma convierte el tracking enlazado a PIXELS; se documenta la equivalencia 0.1 % de 14 px a 0.014 px, con dos Foundations específicas y reutilización del tracking cero existente, conservando la unidad fuente en evidencia. La comparación por variante preserva además el halo compuesto 4/2 px de empty medium/small, con dos Foundations del neutral F8FAFC y dos firmas de componente adicionales ya incluidas en las 41. La ayuda puede crecer con mensajes largos conservando la geometría corta; el valor sigue limitado a una línea con elipsis. No hay reacciones en los principales fuente, ni consumidores Input existentes en el destino. Los contadores Dot llamados Badge no se sustituyen por el nombre. No representa aprobación humana del QA ni habilita otras variantes Badge, React, edición de las fuentes o releases oficiales.",
+      "scope": [
+        "INPUT-001",
+        "BADGE-001",
+        "BLUEHEART-TOKENS",
+        "input-figma-pilot",
+        "badge-subtle-small-dependency",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/input-pilot-request.txt",
+        "sha256": "1cf0d2f9edea79434932186fe0eaa7fc7556fc012999eca0bc14e7afbca855f3"
+      }
+    },
+    {
+      "id": "ADR-024",
+      "status": "ADOPTED",
+      "actor": "implementing_agent",
+      "statement": "La solicitud humana exige igualar iconos con la tipografía correspondiente exclusivamente en Blue Heart DS, sin nueva lectura del Figma origen. Se adopta BH-P06 como propietario de la paridad por aliases completos en cuatro temas, con tokens SHAPE_FILL separados de TEXT_FILL. Se corrigen Button (45 firmas), Tab (41) e Input (41); Avatar ya coincide. Question sigue Label y CaretDown sigue contenido/placeholder; Required y helper conservan su función. Tab añade solo inverse y brand-hover. Input retira el ID lógico/CSS tooltip y reutiliza su ID/key Figma como secondary, sin borrar variables nativas ni crear semánticos. Esto exige Input 2.0.0 y token set 6.0.0; Tab/Tabs 3.1.0 añaden cobertura compatible, Button 4.0.1 corrige colores sin cambiar su API. Las identidades, geometría, tipografía, interacciones y composición se preservan; se verifican instancias, swaps, cuatro temas y consumidores inversos. Loader es un indicador de progreso distinto de Phosphor; no se inventa un texto a familias sin iconos. No acredita revisión humana independiente, accesibilidad web ni publica releases oficiales.",
+      "scope": [
+        "BUTTON-001",
+        "TAB-001",
+        "TABS-001",
+        "INPUT-001",
+        "BH-P06",
+        "BH-P02",
+        "BH-P03",
+        "BLUEHEART-TOKENS",
+        "icon-text-color-alignment",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/icon-color-alignment-request.txt",
+        "sha256": "35568ec00f70dd642e02b342c165506315874951b932afd9c6c298fbae93a59f"
+      }
+    },
+    {
+      "id": "ADR-025",
+      "status": "ADOPTED",
+      "actor": "implementing_agent",
+      "statement": "El encargo humano sustituye el alcance temporal de Badge por las 18 combinaciones reales de seis tipos y tres tamaños en la página Badge de Blue Heart DS. La elección humana conserva warning y documenta su contraste insuficiente. Se amplía el único set compartido en su identidad existente: la variante subtle/small, Label, doce variables y sus keys se conservan; los consumidores de Input heredan el componente completo sin swaps destructivos. La receta observada requiere 35 firmas (23 adiciones), con colores invariantes, solo tres colecciones, aliases semánticos existentes y scopes de propiedad separados. Se adoptan Badge 1.1.0, Input 2.0.1 por pin compatible y BLUEHEART-TOKENS 6.1.0 aditivo. La anatomía usa iconos Phosphor vinculados y opcionales; icono y Label comparten semántico conforme BH-P06. Se conservan geometría, tipografía, contenido y ausencia de interacciones. La referencia y el proyecto original siguen en solo lectura; React/Graphify y releases oficiales no se habilitan. No acredita revisión humana independiente.",
+      "scope": [
+        "BADGE-001",
+        "INPUT-001",
+        "BLUEHEART-TOKENS",
+        "full-badge-figma",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/badge-full-request.txt",
+        "sha256": "e330c5190cc3518dc0f1085283ce58d206729c52cb5e17889159d463567a895e"
+      }
+    }
+  ]
+}

@@ -1,0 +1,3860 @@
+{
+  "role": "DERIVED_RECIPE_NOT_RULES",
+  "decision": "ADR-026",
+  "contract": {
+    "id": "BREADCRUMB-001",
+    "version": "1.0.0",
+    "path": "norms/components/breadcrumb.1.0.0.md",
+    "sha256": "2a7c495b4435a6ad71dd47688335ac91b7810d2767985e56cbfd4009e67e1338",
+    "current": true
+  },
+  "token_set": {
+    "id": "BLUEHEART-TOKENS",
+    "version": "6.2.0",
+    "path": "norms/tokens/blueheart.6.2.0.json",
+    "sha256": "86fd6041303f761ddd4fed815d24dca3a2923dcb7c031085273c2524baa7ffb0",
+    "current": true
+  },
+  "tokens": [
+    {
+      "id": "breadcrumb.spacing-container-none",
+      "name": "--breadcrumb-spacing-container-none",
+      "layer": "component",
+      "collection": "component",
+      "description": "Breadcrumb: spacing/container-none",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9",
+        "original_id": "2425:35938",
+        "selector": "JSON:/rows/0/nodes/0",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "type": "number",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "figmaName": "breadcrumb/spacing/container-none",
+      "web": "var(--breadcrumb-spacing-container-none)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "breadcrumb.spacing-back-gap",
+      "name": "--breadcrumb-spacing-back-gap",
+      "layer": "component",
+      "collection": "component",
+      "description": "Breadcrumb: spacing/back-gap",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9",
+        "original_id": "2425:35938",
+        "selector": "JSON:/rows/0/nodes/0",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "type": "number",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "figmaName": "breadcrumb/spacing/back-gap",
+      "web": "var(--breadcrumb-spacing-back-gap)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "breadcrumb.size-back",
+      "name": "--breadcrumb-size-back",
+      "layer": "component",
+      "collection": "component",
+      "description": "Breadcrumb: size/back",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9",
+        "original_id": "3460:156",
+        "selector": "JSON:/rows/0/nodes/1",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "type": "number",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "values": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "figmaName": "breadcrumb/size/back",
+      "web": "var(--breadcrumb-size-back)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "breadcrumb.spacing-container-gap",
+      "name": "--breadcrumb-spacing-container-gap",
+      "layer": "component",
+      "collection": "component",
+      "description": "Breadcrumb: spacing/container-gap",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9",
+        "original_id": "3460:207",
+        "selector": "JSON:/rows/0/nodes/2",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "type": "number",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "figmaName": "breadcrumb/spacing/container-gap",
+      "web": "var(--breadcrumb-spacing-container-gap)",
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "id": "breadcrumb.color-icon-back-default",
+      "name": "--breadcrumb-color-icon-back-default",
+      "layer": "component",
+      "collection": "component",
+      "description": "Breadcrumb: color/icon/back-default",
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9",
+        "original_id": "I3460:156;8899:76071",
+        "selector": "JSON:/rows/0/nodes/3",
+        "source_file_key": "9zs5RMR8LB5wHjW9Bd59BA"
+      },
+      "type": "color",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "figmaName": "breadcrumb/color/icon/back-default",
+      "web": "var(--breadcrumb-color-icon-back-default)",
+      "themeBehavior": "INVARIANT"
+    }
+  ],
+  "variants": [
+    {
+      "sourceId": "2425:35938",
+      "name": "levels=2",
+      "axes": {
+        "levels": "2"
+      },
+      "nodes": [
+        {
+          "id": "2425:35938",
+          "parent": "2425:35937",
+          "name": "levels=2",
+          "type": "COMPONENT",
+          "visible": true,
+          "opacity": 1,
+          "width": 223,
+          "height": 20,
+          "x": 24,
+          "y": 24,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 8,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-back-gap"
+          }
+        },
+        {
+          "id": "3460:156",
+          "parent": "2425:35938",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 16,
+          "height": 16,
+          "x": 0,
+          "y": 2,
+          "layoutMode": "NONE",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 0,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196104"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "mainComponent": {
+            "id": "3460:162",
+            "key": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+            "name": "Format=Outline, Weight=Light",
+            "remote": true,
+            "owner": {
+              "id": "3460:159",
+              "name": "ArrowLeft",
+              "key": "4697ebacf0a0ca1a63baf83235d88a066b86f82b"
+            }
+          },
+          "componentPropertyReferences": {
+            "visible": "Show back#8903:1"
+          },
+          "properties": {
+            "Format": {
+              "value": "Outline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "Weight": {
+              "value": "Light",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": false,
+          "texts": [],
+          "bindings": {
+            "width": "breadcrumb.size-back",
+            "height": "breadcrumb.size-back"
+          }
+        },
+        {
+          "id": "3460:207",
+          "parent": "2425:35938",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "opacity": 1,
+          "width": 199,
+          "height": 20,
+          "x": 24,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-container-gap"
+          }
+        },
+        {
+          "id": "I3460:156;8899:76071",
+          "parent": "3460:156",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "opacity": 1,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "x": 2.1253299713134766,
+          "y": 3.1343541145324707,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "fills": "breadcrumb.color-icon-back-default"
+          }
+        },
+        {
+          "id": "2425:35939",
+          "parent": "3460:207",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 103,
+          "height": 20,
+          "x": 0,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Contabilidad"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35939;2425:35899",
+              "text": "Contabilidad"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35940",
+          "parent": "3460:207",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 92,
+          "height": 20,
+          "x": 107,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35910",
+            "key": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+            "name": "type=text, current=true, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Póliza P-0458"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35940;2425:35911",
+              "text": "Póliza P-0458"
+            }
+          ],
+          "bindings": {}
+        }
+      ],
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9"
+      }
+    },
+    {
+      "sourceId": "2425:35941",
+      "name": "levels=3",
+      "axes": {
+        "levels": "3"
+      },
+      "nodes": [
+        {
+          "id": "2425:35941",
+          "parent": "2425:35937",
+          "name": "levels=3",
+          "type": "COMPONENT",
+          "visible": true,
+          "opacity": 1,
+          "width": 293,
+          "height": 20,
+          "x": 24,
+          "y": 68,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 8,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-back-gap"
+          }
+        },
+        {
+          "id": "3460:198",
+          "parent": "2425:35941",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 16,
+          "height": 16,
+          "x": 0,
+          "y": 2,
+          "layoutMode": "NONE",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 0,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196104"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "mainComponent": {
+            "id": "3460:162",
+            "key": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+            "name": "Format=Outline, Weight=Light",
+            "remote": true,
+            "owner": {
+              "id": "3460:159",
+              "name": "ArrowLeft",
+              "key": "4697ebacf0a0ca1a63baf83235d88a066b86f82b"
+            }
+          },
+          "componentPropertyReferences": {
+            "visible": "Show back#8903:1"
+          },
+          "properties": {
+            "Format": {
+              "value": "Outline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "Weight": {
+              "value": "Light",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": false,
+          "texts": [],
+          "bindings": {
+            "width": "breadcrumb.size-back",
+            "height": "breadcrumb.size-back"
+          }
+        },
+        {
+          "id": "3460:208",
+          "parent": "2425:35941",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "opacity": 1,
+          "width": 269,
+          "height": 20,
+          "x": 24,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-container-gap"
+          }
+        },
+        {
+          "id": "I3460:198;8899:76071",
+          "parent": "3460:198",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "opacity": 1,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "x": 2.1253299713134766,
+          "y": 3.1343541145324707,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "fills": "breadcrumb.color-icon-back-default"
+          }
+        },
+        {
+          "id": "2425:35942",
+          "parent": "3460:208",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 103,
+          "height": 20,
+          "x": 0,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Contabilidad"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35942;2425:35899",
+              "text": "Contabilidad"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35943",
+          "parent": "3460:208",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 66,
+          "height": 20,
+          "x": 107,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Pólizas"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35943;2425:35899",
+              "text": "Pólizas"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35944",
+          "parent": "3460:208",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 92,
+          "height": 20,
+          "x": 177,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35910",
+            "key": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+            "name": "type=text, current=true, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Póliza P-0458"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35944;2425:35911",
+              "text": "Póliza P-0458"
+            }
+          ],
+          "bindings": {}
+        }
+      ],
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9"
+      }
+    },
+    {
+      "sourceId": "2425:35945",
+      "name": "levels=4",
+      "axes": {
+        "levels": "4"
+      },
+      "nodes": [
+        {
+          "id": "2425:35945",
+          "parent": "2425:35937",
+          "name": "levels=4",
+          "type": "COMPONENT",
+          "visible": true,
+          "opacity": 1,
+          "width": 355,
+          "height": 20,
+          "x": 24,
+          "y": 112,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 8,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-back-gap"
+          }
+        },
+        {
+          "id": "3460:199",
+          "parent": "2425:35945",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 16,
+          "height": 16,
+          "x": 0,
+          "y": 2,
+          "layoutMode": "NONE",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 0,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196104"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "mainComponent": {
+            "id": "3460:162",
+            "key": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+            "name": "Format=Outline, Weight=Light",
+            "remote": true,
+            "owner": {
+              "id": "3460:159",
+              "name": "ArrowLeft",
+              "key": "4697ebacf0a0ca1a63baf83235d88a066b86f82b"
+            }
+          },
+          "componentPropertyReferences": {
+            "visible": "Show back#8903:1"
+          },
+          "properties": {
+            "Format": {
+              "value": "Outline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "Weight": {
+              "value": "Light",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": false,
+          "texts": [],
+          "bindings": {
+            "width": "breadcrumb.size-back",
+            "height": "breadcrumb.size-back"
+          }
+        },
+        {
+          "id": "3460:209",
+          "parent": "2425:35945",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "opacity": 1,
+          "width": 331,
+          "height": 20,
+          "x": 24,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-container-gap"
+          }
+        },
+        {
+          "id": "I3460:199;8899:76071",
+          "parent": "3460:199",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "opacity": 1,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "x": 2.1253299713134766,
+          "y": 3.1343541145324707,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "fills": "breadcrumb.color-icon-back-default"
+          }
+        },
+        {
+          "id": "2425:35946",
+          "parent": "3460:209",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 103,
+          "height": 20,
+          "x": 0,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Contabilidad"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35946;2425:35899",
+              "text": "Contabilidad"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35947",
+          "parent": "3460:209",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 66,
+          "height": 20,
+          "x": 107,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Pólizas"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35947;2425:35899",
+              "text": "Pólizas"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35948",
+          "parent": "3460:209",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 58,
+          "height": 20,
+          "x": 177,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Diario"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35948;2425:35899",
+              "text": "Diario"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35949",
+          "parent": "3460:209",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 92,
+          "height": 20,
+          "x": 239,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35910",
+            "key": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+            "name": "type=text, current=true, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Póliza P-0458"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35949;2425:35911",
+              "text": "Póliza P-0458"
+            }
+          ],
+          "bindings": {}
+        }
+      ],
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-1.json",
+        "sha256": "3f7d818dff0350233c3ffcae652a4c3dfa17a3546a354d85520d5dda8e4decf9"
+      }
+    },
+    {
+      "sourceId": "2425:35950",
+      "name": "levels=5",
+      "axes": {
+        "levels": "5"
+      },
+      "nodes": [
+        {
+          "id": "2425:35950",
+          "parent": "2425:35937",
+          "name": "levels=5",
+          "type": "COMPONENT",
+          "visible": true,
+          "opacity": 1,
+          "width": 491,
+          "height": 20,
+          "x": 24,
+          "y": 156,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 8,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-back-gap"
+          }
+        },
+        {
+          "id": "3460:200",
+          "parent": "2425:35950",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 16,
+          "height": 16,
+          "x": 0,
+          "y": 2,
+          "layoutMode": "NONE",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 0,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196104"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "mainComponent": {
+            "id": "3460:162",
+            "key": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+            "name": "Format=Outline, Weight=Light",
+            "remote": true,
+            "owner": {
+              "id": "3460:159",
+              "name": "ArrowLeft",
+              "key": "4697ebacf0a0ca1a63baf83235d88a066b86f82b"
+            }
+          },
+          "componentPropertyReferences": {
+            "visible": "Show back#8903:1"
+          },
+          "properties": {
+            "Format": {
+              "value": "Outline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "Weight": {
+              "value": "Light",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": false,
+          "texts": [],
+          "bindings": {
+            "width": "breadcrumb.size-back",
+            "height": "breadcrumb.size-back"
+          }
+        },
+        {
+          "id": "3460:210",
+          "parent": "2425:35950",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "opacity": 1,
+          "width": 467,
+          "height": 20,
+          "x": 24,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-container-gap"
+          }
+        },
+        {
+          "id": "I3460:200;8899:76071",
+          "parent": "3460:200",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "opacity": 1,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "x": 2.1253299713134766,
+          "y": 3.1343541145324707,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "fills": "breadcrumb.color-icon-back-default"
+          }
+        },
+        {
+          "id": "2425:35951",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 103,
+          "height": 20,
+          "x": 0,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Contabilidad"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35951;2425:35899",
+              "text": "Contabilidad"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35952",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 66,
+          "height": 20,
+          "x": 107,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Pólizas"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35952;2425:35899",
+              "text": "Pólizas"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35953",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 58,
+          "height": 20,
+          "x": 177,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Diario"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35953;2425:35899",
+              "text": "Diario"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35954",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 132,
+          "height": 20,
+          "x": 239,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Septiembre 2026"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35954;2425:35899",
+              "text": "Septiembre 2026"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "2425:35955",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 92,
+          "height": 20,
+          "x": 375,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35910",
+            "key": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+            "name": "type=text, current=true, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Póliza P-0458"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35955;2425:35911",
+              "text": "Póliza P-0458"
+            }
+          ],
+          "bindings": {}
+        }
+      ],
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-2.json",
+        "sha256": "119cedd22d45abf2d54d04f6ccdfb869c9f791ae925731a6dbd91182da426f85"
+      }
+    },
+    {
+      "sourceId": "8903:27367",
+      "name": "levels=collapsed",
+      "axes": {
+        "levels": "collapsed"
+      },
+      "nodes": [
+        {
+          "id": "8903:27367",
+          "parent": "2425:35937",
+          "name": "levels=collapsed",
+          "type": "COMPONENT",
+          "visible": true,
+          "opacity": 1,
+          "width": 320,
+          "height": 20,
+          "x": 24,
+          "y": 200,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 8,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-back-gap"
+          }
+        },
+        {
+          "id": "8903:27368",
+          "parent": "8903:27367",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 16,
+          "height": 16,
+          "x": 0,
+          "y": 2,
+          "layoutMode": "NONE",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 0,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196104"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "mainComponent": {
+            "id": "3460:162",
+            "key": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+            "name": "Format=Outline, Weight=Light",
+            "remote": true,
+            "owner": {
+              "id": "3460:159",
+              "name": "ArrowLeft",
+              "key": "4697ebacf0a0ca1a63baf83235d88a066b86f82b"
+            }
+          },
+          "componentPropertyReferences": {
+            "visible": "Show back#8903:1"
+          },
+          "properties": {
+            "Format": {
+              "value": "Outline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "Weight": {
+              "value": "Light",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": false,
+          "texts": [],
+          "bindings": {
+            "width": "breadcrumb.size-back",
+            "height": "breadcrumb.size-back"
+          }
+        },
+        {
+          "id": "8903:27369",
+          "parent": "8903:27367",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "opacity": 1,
+          "width": 296,
+          "height": 20,
+          "x": 24,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "paddingTop": "breadcrumb.spacing-container-none",
+            "paddingRight": "breadcrumb.spacing-container-none",
+            "paddingBottom": "breadcrumb.spacing-container-none",
+            "paddingLeft": "breadcrumb.spacing-container-none",
+            "itemSpacing": "breadcrumb.spacing-container-gap"
+          }
+        },
+        {
+          "id": "I8903:27368;8899:76071",
+          "parent": "8903:27368",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "opacity": 1,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "x": 2.1253299713134766,
+          "y": 3.1343541145324707,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "componentPropertyReferences": {},
+          "bindings": {
+            "fills": "breadcrumb.color-icon-back-default"
+          }
+        },
+        {
+          "id": "8903:27370",
+          "parent": "8903:27369",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 103,
+          "height": 20,
+          "x": 0,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Contabilidad"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I8903:27370;2425:35899",
+              "text": "Contabilidad"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "8903:27371",
+          "parent": "8903:27369",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 31,
+          "height": 20,
+          "x": 107,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35904",
+            "key": "a18de8bc7b75c752431006acfc75c372ae015d89",
+            "name": "type=overflow, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Pólizas"
+            },
+            "type": {
+              "value": "overflow",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I8903:27371;2425:35905",
+              "text": "..."
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "8903:27372",
+          "parent": "8903:27369",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 58,
+          "height": 20,
+          "x": 142,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Diario"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I8903:27372;2425:35899",
+              "text": "Diario"
+            }
+          ],
+          "bindings": {}
+        },
+        {
+          "id": "8903:27373",
+          "parent": "8903:27369",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "opacity": 1,
+          "width": 92,
+          "height": 20,
+          "x": 204,
+          "y": 0,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "mainComponent": {
+            "id": "2425:35910",
+            "key": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+            "name": "type=text, current=true, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "componentPropertyReferences": {},
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Póliza P-0458"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I8903:27373;2425:35911",
+              "text": "Póliza P-0458"
+            }
+          ],
+          "bindings": {}
+        }
+      ],
+      "source": {
+        "path": "evidence/breadcrumb-pilot/source/composition-2.json",
+        "sha256": "119cedd22d45abf2d54d04f6ccdfb869c9f791ae925731a6dbd91182da426f85"
+      }
+    }
+  ],
+  "uses": [
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35938",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35938",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35938",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35938",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35938",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-back-gap",
+      "sourceVariableId": "VariableID:562:11",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:156",
+      "field": "width",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:156",
+      "field": "height",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:207",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:207",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:207",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:207",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:207",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-container-gap",
+      "sourceVariableId": "VariableID:562:10",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "I3460:156;8899:76071",
+      "field": "fills",
+      "tokenId": "breadcrumb.color-icon-back-default",
+      "sourceVariableId": "VariableID:2849:196138",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35941",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35941",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35941",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35941",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35941",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-back-gap",
+      "sourceVariableId": "VariableID:562:11",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:198",
+      "field": "width",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:198",
+      "field": "height",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:208",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:208",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:208",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:208",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:208",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-container-gap",
+      "sourceVariableId": "VariableID:562:10",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "I3460:198;8899:76071",
+      "field": "fills",
+      "tokenId": "breadcrumb.color-icon-back-default",
+      "sourceVariableId": "VariableID:2849:196138",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35945",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35945",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35945",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35945",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35945",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-back-gap",
+      "sourceVariableId": "VariableID:562:11",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:199",
+      "field": "width",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:199",
+      "field": "height",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:209",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:209",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:209",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:209",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:209",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-container-gap",
+      "sourceVariableId": "VariableID:562:10",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "I3460:199;8899:76071",
+      "field": "fills",
+      "tokenId": "breadcrumb.color-icon-back-default",
+      "sourceVariableId": "VariableID:2849:196138",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35950",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35950",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35950",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35950",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "2425:35950",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-back-gap",
+      "sourceVariableId": "VariableID:562:11",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:200",
+      "field": "width",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:200",
+      "field": "height",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:210",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:210",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:210",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:210",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "3460:210",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-container-gap",
+      "sourceVariableId": "VariableID:562:10",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "I3460:200;8899:76071",
+      "field": "fills",
+      "tokenId": "breadcrumb.color-icon-back-default",
+      "sourceVariableId": "VariableID:2849:196138",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27367",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27367",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27367",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27367",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27367",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-back-gap",
+      "sourceVariableId": "VariableID:562:11",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-sm"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-sm"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27368",
+      "field": "width",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27368",
+      "field": "height",
+      "tokenId": "breadcrumb.size-back",
+      "sourceVariableId": "VariableID:562:19",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27369",
+      "field": "paddingTop",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27369",
+      "field": "paddingRight",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27369",
+      "field": "paddingBottom",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27369",
+      "field": "paddingLeft",
+      "tokenId": "breadcrumb.spacing-container-none",
+      "sourceVariableId": "VariableID:1098:28491",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "8903:27369",
+      "field": "itemSpacing",
+      "tokenId": "breadcrumb.spacing-container-gap",
+      "sourceVariableId": "VariableID:562:10",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "adaptation": null
+    },
+    {
+      "family": "breadcrumb",
+      "sourceNodeId": "I8903:27368;8899:76071",
+      "field": "fills",
+      "tokenId": "breadcrumb.color-icon-back-default",
+      "sourceVariableId": "VariableID:2849:196138",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "adaptation": null
+    }
+  ],
+  "interaction": {
+    "nativeReactions": "EMPTY_SOURCE",
+    "navigation": "HOST_RESOLVES_DESTINATIONS",
+    "overflowMenu": "HOST_REQUIRED_NOT_DEFINED_IN_SOURCE",
+    "mobile": "HOST_PRESENTATION_RULE_NO_SOURCE_VARIANT"
+  },
+  "source_recipe": {
+    "path": "evidence/breadcrumb-pilot/build-plan.json",
+    "sha256": "4283a2ad94cdad909dc468a49547a35cdb3e8104e28b4f3f9d32b0dc6a522943"
+  },
+  "dependency": {
+    "id": "BREADCRUMB-ITEM-001",
+    "version": "1.0.0",
+    "path": "norms/components/breadcrumb-item.1.0.0.md",
+    "sha256": "69557362d5e6250fb17f59a2492ce74e61f86c12a374d4ecf36324a3627349ad",
+    "current": true
+  }
+}

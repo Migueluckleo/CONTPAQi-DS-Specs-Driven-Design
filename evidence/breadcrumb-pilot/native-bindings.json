@@ -1,0 +1,2664 @@
+{
+  "status": "PASS",
+  "errors": [],
+  "variables": [
+    {
+      "logicalId": "breadcrumb-item.spacing-item-none",
+      "id": "VariableID:358:2",
+      "key": "884a85cee43139368f04775e3ecf4fe712ebbc4f",
+      "name": "breadcrumb/spacing/item-none",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-spacing-item-none)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.spacing-item-gap",
+      "id": "VariableID:358:3",
+      "key": "55a9d252678c7d515d5d727e87198dd0d5338e0f",
+      "name": "breadcrumb/spacing/item-gap",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-spacing-item-gap)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-link-default",
+      "id": "VariableID:358:4",
+      "key": "23367e804bc35e091657e0d1afd535b5c47a891e",
+      "name": "breadcrumb/color/text/link-default",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-text-link-default)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.font-family",
+      "id": "VariableID:358:5",
+      "key": "f809290865848e022c1d5f6b08a78b33ca4af74f",
+      "name": "breadcrumb/font/family",
+      "scopes": [
+        "FONT_FAMILY"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:194"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-font-family)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.font-link-style",
+      "id": "VariableID:358:6",
+      "key": "9f2fed7c096be1620ee1052db20c843b9651a39e",
+      "name": "breadcrumb/font/link-style",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:195"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-font-link-style)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.font-size",
+      "id": "VariableID:358:7",
+      "key": "7e2997a52231e559e7884649b9a553ff7e9575a2",
+      "name": "breadcrumb/font/size",
+      "scopes": [
+        "FONT_SIZE"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:200"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-font-size)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.font-line-height",
+      "id": "VariableID:358:8",
+      "key": "4b31810921998845dd80f510a407e53752d241ef",
+      "name": "breadcrumb/font/line-height",
+      "scopes": [
+        "LINE_HEIGHT"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:209"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-font-line-height)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.font-letter-spacing",
+      "id": "VariableID:358:9",
+      "key": "e7d6b9d93b25eac3865db5c29b583ffc704a674d",
+      "name": "breadcrumb/font/letter-spacing",
+      "scopes": [
+        "LETTER_SPACING"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:217"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-font-letter-spacing)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.size-icon",
+      "id": "VariableID:358:10",
+      "key": "3cb354ebb6be2166f8b56f12b47105dbeb139b53",
+      "name": "breadcrumb/size/icon",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-size-icon)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-separator-default",
+      "id": "VariableID:358:11",
+      "key": "99ec9b58e97a8c87c5174d6f29810e2201722804",
+      "name": "breadcrumb/color/icon/separator-default",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:170"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-icon-separator-default)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-link-hover",
+      "id": "VariableID:358:12",
+      "key": "394ab0e0e2db0000b092ace88d52180978155b3f",
+      "name": "breadcrumb/color/text/link-hover",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-text-link-hover)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-stroke-focus",
+      "id": "VariableID:358:13",
+      "key": "e44460942245efdf7cfc0570e709861b8fa74163",
+      "name": "breadcrumb/color/stroke/focus",
+      "scopes": [
+        "STROKE_COLOR"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:155"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-stroke-focus)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.border-focus-width",
+      "id": "VariableID:358:14",
+      "key": "dbe57e36bf9e85c09e2844ee4e55be4c05126a89",
+      "name": "breadcrumb/border/focus-width",
+      "scopes": [
+        "STROKE_FLOAT"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:226"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-border-focus-width)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.radius-focus",
+      "id": "VariableID:358:15",
+      "key": "b4162ceafde5193f1d23c7f7a774b653b5690a6e",
+      "name": "breadcrumb/radius/focus",
+      "scopes": [
+        "CORNER_RADIUS"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:244"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-radius-focus)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-disabled",
+      "id": "VariableID:358:16",
+      "key": "1c72c710008238b28f7345ff8b47020554015e10",
+      "name": "breadcrumb/color/text/disabled",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-text-disabled)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-disabled",
+      "id": "VariableID:358:17",
+      "key": "043bc13f14bd358a145ad5b083d0aaefde9bf007",
+      "name": "breadcrumb/color/icon/disabled",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:169"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-icon-disabled)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-current-default",
+      "id": "VariableID:358:18",
+      "key": "d6e6ea83b0b4e3082d86df77fecd86f6c6cc13d6",
+      "name": "breadcrumb/color/text/current-default",
+      "scopes": [
+        "TEXT_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:154"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:163"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:178"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:184"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-text-current-default)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.font-current-style",
+      "id": "VariableID:358:19",
+      "key": "33a3408d2f78a018a76abd7e764709cfe567c6a6",
+      "name": "breadcrumb/font/current-style",
+      "scopes": [
+        "FONT_STYLE"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:197"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-font-current-style)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-link-default",
+      "id": "VariableID:358:20",
+      "key": "53c8bbeef45033692b1323a974728d40e74e7e26",
+      "name": "breadcrumb/color/icon/link-default",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:171"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-icon-link-default)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-link-hover",
+      "id": "VariableID:358:21",
+      "key": "7217a80c1c04efc9294a5774ef4409730ce4a9ee",
+      "name": "breadcrumb/color/icon/link-hover",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-item-color-icon-link-hover)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb.spacing-container-none",
+      "id": "VariableID:358:22",
+      "key": "338cac9ca9d00aaf974a1d7b9798e70ae338419f",
+      "name": "breadcrumb/spacing/container-none",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:191"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-spacing-container-none)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb.spacing-back-gap",
+      "id": "VariableID:358:23",
+      "key": "a96455f3ccecd7f1a1ec5c68375c7067be48f147",
+      "name": "breadcrumb/spacing/back-gap",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:228"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-spacing-back-gap)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb.size-back",
+      "id": "VariableID:358:24",
+      "key": "e25cb51fdac32dcd6bbec555348ee44fbc54439f",
+      "name": "breadcrumb/size/back",
+      "scopes": [
+        "WIDTH_HEIGHT"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:236"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-size-back)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb.spacing-container-gap",
+      "id": "VariableID:358:25",
+      "key": "cc9956a4003d19c7956326402917687a5da88324",
+      "name": "breadcrumb/spacing/container-gap",
+      "scopes": [
+        "GAP"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:227"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-spacing-container-gap)"
+      }
+    },
+    {
+      "logicalId": "breadcrumb.color-icon-back-default",
+      "id": "VariableID:358:26",
+      "key": "0ca0bb1216a58db03e5f91fd0f6d9d053bcd728c",
+      "name": "breadcrumb/color/icon/back-default",
+      "scopes": [
+        "SHAPE_FILL"
+      ],
+      "values": {
+        "11:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:2": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        },
+        "11:3": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:6:174"
+        }
+      },
+      "codeSyntax": {
+        "WEB": "var(--breadcrumb-color-icon-back-default)"
+      }
+    }
+  ],
+  "bindingColumns": [
+    "nodeId",
+    "field",
+    "actual",
+    "resolution",
+    "pass"
+  ],
+  "bindings": [
+    [
+      "359:6",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:6",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:6",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:6",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:6",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:7",
+      "fills",
+      "VariableID:358:4",
+      "direct",
+      true
+    ],
+    [
+      "359:7",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:7",
+      "fontStyle",
+      "VariableID:358:6",
+      "direct",
+      true
+    ],
+    [
+      "359:7",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:7",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:7",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:8",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:8",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:8;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:10",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:10",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:10",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:10",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:10",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:11",
+      "fills",
+      "VariableID:358:12",
+      "direct",
+      true
+    ],
+    [
+      "359:11",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:11",
+      "fontStyle",
+      "VariableID:358:6",
+      "direct",
+      true
+    ],
+    [
+      "359:11",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:11",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:11",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:12",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:12",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:12;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:14",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:14",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:14",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:14",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:14",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:15",
+      "fills",
+      "VariableID:358:4",
+      "direct",
+      true
+    ],
+    [
+      "359:15",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:15",
+      "fontStyle",
+      "VariableID:358:6",
+      "direct",
+      true
+    ],
+    [
+      "359:15",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:15",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:15",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:16",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:16",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:16;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:18",
+      "strokes",
+      "VariableID:358:13",
+      "direct",
+      true
+    ],
+    [
+      "359:18",
+      "strokeWeight",
+      "VariableID:358:14",
+      "direct",
+      true
+    ],
+    [
+      "359:18",
+      "cornerRadius",
+      "VariableID:358:15",
+      "direct",
+      true
+    ],
+    [
+      "359:19",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:19",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:19",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:19",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:19",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:20",
+      "fills",
+      "VariableID:358:16",
+      "direct",
+      true
+    ],
+    [
+      "359:20",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:20",
+      "fontStyle",
+      "VariableID:358:6",
+      "direct",
+      true
+    ],
+    [
+      "359:20",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:20",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:20",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:21",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:21",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:21;8899:79841",
+      "fills",
+      "VariableID:358:17",
+      "direct",
+      true
+    ],
+    [
+      "359:23",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:23",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:23",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:23",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:23",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:24",
+      "fills",
+      "VariableID:358:18",
+      "direct",
+      true
+    ],
+    [
+      "359:24",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:24",
+      "fontStyle",
+      "VariableID:358:19",
+      "direct",
+      true
+    ],
+    [
+      "359:24",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:24",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:24",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:25",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:25",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:25",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:25",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:25",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:26",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:26",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:26;8899:10822",
+      "fills",
+      "VariableID:358:20",
+      "direct",
+      true
+    ],
+    [
+      "359:28",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:28",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:28;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:30",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:30",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:30",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:30",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:30",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:31",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:31",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:31;8899:10822",
+      "fills",
+      "VariableID:358:21",
+      "direct",
+      true
+    ],
+    [
+      "359:33",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:33",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:33;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:35",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:35",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:35",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:35",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:35",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:36",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:36",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:36;8899:10822",
+      "fills",
+      "VariableID:358:20",
+      "direct",
+      true
+    ],
+    [
+      "359:38",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:38",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:38;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:40",
+      "strokes",
+      "VariableID:358:13",
+      "direct",
+      true
+    ],
+    [
+      "359:40",
+      "strokeWeight",
+      "VariableID:358:14",
+      "direct",
+      true
+    ],
+    [
+      "359:40",
+      "cornerRadius",
+      "VariableID:358:15",
+      "direct",
+      true
+    ],
+    [
+      "359:41",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:41",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:41",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:41",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:41",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:42",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:42",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:42;8899:10822",
+      "fills",
+      "VariableID:358:17",
+      "direct",
+      true
+    ],
+    [
+      "359:44",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:44",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:44;8899:79841",
+      "fills",
+      "VariableID:358:17",
+      "direct",
+      true
+    ],
+    [
+      "359:46",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:46",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:46",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:46",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:46",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:47",
+      "fills",
+      "VariableID:358:4",
+      "direct",
+      true
+    ],
+    [
+      "359:47",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:47",
+      "fontStyle",
+      "VariableID:358:6",
+      "direct",
+      true
+    ],
+    [
+      "359:47",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:47",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:47",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:48",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:48",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:48;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:50",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:50",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:50",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:50",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:50",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:51",
+      "fills",
+      "VariableID:358:12",
+      "direct",
+      true
+    ],
+    [
+      "359:51",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:51",
+      "fontStyle",
+      "VariableID:358:6",
+      "direct",
+      true
+    ],
+    [
+      "359:51",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:51",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:51",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:52",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:52",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:52;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:54",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:54",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:54",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:54",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:54",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:55",
+      "fills",
+      "VariableID:358:4",
+      "direct",
+      true
+    ],
+    [
+      "359:55",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:55",
+      "fontStyle",
+      "VariableID:358:6",
+      "direct",
+      true
+    ],
+    [
+      "359:55",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:55",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:55",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:56",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:56",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:56;8899:79841",
+      "fills",
+      "VariableID:358:11",
+      "direct",
+      true
+    ],
+    [
+      "359:58",
+      "strokes",
+      "VariableID:358:13",
+      "direct",
+      true
+    ],
+    [
+      "359:58",
+      "strokeWeight",
+      "VariableID:358:14",
+      "direct",
+      true
+    ],
+    [
+      "359:58",
+      "cornerRadius",
+      "VariableID:358:15",
+      "direct",
+      true
+    ],
+    [
+      "359:59",
+      "paddingTop",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:59",
+      "paddingRight",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:59",
+      "paddingBottom",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:59",
+      "paddingLeft",
+      "VariableID:358:2",
+      "direct",
+      true
+    ],
+    [
+      "359:59",
+      "itemSpacing",
+      "VariableID:358:3",
+      "direct",
+      true
+    ],
+    [
+      "359:60",
+      "fills",
+      "VariableID:358:16",
+      "direct",
+      true
+    ],
+    [
+      "359:60",
+      "fontFamily",
+      "VariableID:358:5",
+      "direct",
+      true
+    ],
+    [
+      "359:60",
+      "fontStyle",
+      "VariableID:358:6",
+      "direct",
+      true
+    ],
+    [
+      "359:60",
+      "fontSize",
+      "VariableID:358:7",
+      "direct",
+      true
+    ],
+    [
+      "359:60",
+      "lineHeight",
+      "VariableID:358:8",
+      "direct",
+      true
+    ],
+    [
+      "359:60",
+      "letterSpacing",
+      "VariableID:358:9",
+      "direct",
+      true
+    ],
+    [
+      "359:61",
+      "width",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "359:61",
+      "height",
+      "VariableID:358:10",
+      "direct",
+      true
+    ],
+    [
+      "I359:61;8899:79841",
+      "fills",
+      "VariableID:358:17",
+      "direct",
+      true
+    ],
+    [
+      "359:64",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:64",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:64",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:64",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:64",
+      "itemSpacing",
+      "VariableID:358:23",
+      "direct",
+      true
+    ],
+    [
+      "359:65",
+      "width",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:65",
+      "height",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:67",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:67",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:67",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:67",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:67",
+      "itemSpacing",
+      "VariableID:358:25",
+      "direct",
+      true
+    ],
+    [
+      "I359:65;8899:76071",
+      "fills",
+      "VariableID:358:26",
+      "direct",
+      true
+    ],
+    [
+      "359:74",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:74",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:74",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:74",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:74",
+      "itemSpacing",
+      "VariableID:358:23",
+      "direct",
+      true
+    ],
+    [
+      "359:75",
+      "width",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:75",
+      "height",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:77",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:77",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:77",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:77",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:77",
+      "itemSpacing",
+      "VariableID:358:25",
+      "direct",
+      true
+    ],
+    [
+      "I359:75;8899:76071",
+      "fills",
+      "VariableID:358:26",
+      "direct",
+      true
+    ],
+    [
+      "359:88",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:88",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:88",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:88",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:88",
+      "itemSpacing",
+      "VariableID:358:23",
+      "direct",
+      true
+    ],
+    [
+      "359:89",
+      "width",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:89",
+      "height",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:91",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:91",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:91",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:91",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:91",
+      "itemSpacing",
+      "VariableID:358:25",
+      "direct",
+      true
+    ],
+    [
+      "I359:89;8899:76071",
+      "fills",
+      "VariableID:358:26",
+      "direct",
+      true
+    ],
+    [
+      "359:106",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:106",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:106",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:106",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:106",
+      "itemSpacing",
+      "VariableID:358:23",
+      "direct",
+      true
+    ],
+    [
+      "359:107",
+      "width",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:107",
+      "height",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:109",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:109",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:109",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:109",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:109",
+      "itemSpacing",
+      "VariableID:358:25",
+      "direct",
+      true
+    ],
+    [
+      "I359:107;8899:76071",
+      "fills",
+      "VariableID:358:26",
+      "direct",
+      true
+    ],
+    [
+      "359:128",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:128",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:128",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:128",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:128",
+      "itemSpacing",
+      "VariableID:358:23",
+      "direct",
+      true
+    ],
+    [
+      "359:129",
+      "width",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:129",
+      "height",
+      "VariableID:358:24",
+      "direct",
+      true
+    ],
+    [
+      "359:131",
+      "paddingTop",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:131",
+      "paddingRight",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:131",
+      "paddingBottom",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:131",
+      "paddingLeft",
+      "VariableID:358:22",
+      "direct",
+      true
+    ],
+    [
+      "359:131",
+      "itemSpacing",
+      "VariableID:358:25",
+      "direct",
+      true
+    ],
+    [
+      "I359:129;8899:76071",
+      "fills",
+      "VariableID:358:26",
+      "direct",
+      true
+    ]
+  ],
+  "sets": [
+    {
+      "id": "359:63",
+      "key": "10a1943734eef37a9bae272f9ad5b82c3f865da2",
+      "properties": {
+        "Label#359:0": {
+          "type": "TEXT",
+          "defaultValue": "Breadcrumb"
+        },
+        "type": {
+          "type": "VARIANT",
+          "defaultValue": "text",
+          "variantOptions": [
+            "text",
+            "icon",
+            "overflow"
+          ]
+        },
+        "current": {
+          "type": "VARIANT",
+          "defaultValue": "false",
+          "variantOptions": [
+            "false",
+            "true"
+          ]
+        },
+        "state": {
+          "type": "VARIANT",
+          "defaultValue": "default",
+          "variantOptions": [
+            "default",
+            "hover",
+            "focus",
+            "disabled"
+          ]
+        }
+      },
+      "defaultVariant": "359:6",
+      "count": 13
+    },
+    {
+      "id": "359:146",
+      "key": "7f0348c3ff467486fc5adef86c0f774590b16bff",
+      "properties": {
+        "Show back#359:14": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "levels": {
+          "type": "VARIANT",
+          "defaultValue": "2",
+          "variantOptions": [
+            "2",
+            "3",
+            "4",
+            "5",
+            "collapsed"
+          ]
+        }
+      },
+      "defaultVariant": "359:64",
+      "count": 5
+    }
+  ],
+  "styles": [
+    {
+      "id": "S:473829ef2c4365e6d6b9fd91f4cdabc9ab5e88ff,",
+      "name": "breadcrumb/label/default",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textDecoration": "NONE",
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:9"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:7"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:5"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:8"
+        }
+      }
+    },
+    {
+      "id": "S:eb8d2a5b155f93b450479754632ea6f4b8007eae,",
+      "name": "breadcrumb/label/hover",
+      "fontName": {
+        "family": "Manrope",
+        "style": "Regular",
+        "variationSettings": {
+          "wght": 400
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textDecoration": "UNDERLINE",
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:9"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:7"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:6"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:5"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:8"
+        }
+      }
+    },
+    {
+      "id": "S:aa891f29f5797df8555c1d2cdd11212b970d7654,",
+      "name": "breadcrumb/label/current",
+      "fontName": {
+        "family": "Manrope",
+        "style": "SemiBold",
+        "variationSettings": {
+          "wght": 600
+        }
+      },
+      "fontSize": 14,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 20
+      },
+      "letterSpacing": {
+        "unit": "PIXELS",
+        "value": 0
+      },
+      "textDecoration": "NONE",
+      "boundVariables": {
+        "letterSpacing": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:9"
+        },
+        "fontSize": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:7"
+        },
+        "fontStyle": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:19"
+        },
+        "fontFamily": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:5"
+        },
+        "lineHeight": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:358:8"
+        }
+      }
+    }
+  ],
+  "collections": [
+    {
+      "id": "VariableCollectionId:6:2",
+      "name": "primitive",
+      "count": 151
+    },
+    {
+      "id": "VariableCollectionId:6:148",
+      "name": "semantic",
+      "count": 112
+    },
+    {
+      "id": "VariableCollectionId:11:2",
+      "name": "component",
+      "count": 255
+    }
+  ]
+}
