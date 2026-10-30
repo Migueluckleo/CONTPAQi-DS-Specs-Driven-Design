@@ -48,6 +48,8 @@
     "parentModeBackCases": 40,
     "focusLabelEdits": 8,
     "nestedConsumerEdits": 5,
+    "nativeTypeSwaps": 60,
+    "typeRestorations": 20,
     "previousConsumers": 0,
     "substitutions": 0
   },
@@ -82,6 +84,14 @@
       "evidence": {
         "path": "evidence/breadcrumb-pilot/native-closure.json",
         "sha256": "ee9e9037ba4b3efef38af09aaf08792da66651122b0970450974ae4b30dfa1e7"
+      }
+    },
+    {
+      "name": "nested-type-swaps-and-restoration",
+      "status": "PASS",
+      "evidence": {
+        "path": "evidence/breadcrumb-pilot/native-type-swaps.json",
+        "sha256": "3e895549d8e9f67323e85856ec72381d78b074538a2d92166daf60da15331a47"
       }
     },
     {
@@ -161,6 +171,10 @@
     {
       "path": "evidence/breadcrumb-pilot/native-closure.json",
       "sha256": "ee9e9037ba4b3efef38af09aaf08792da66651122b0970450974ae4b30dfa1e7"
+    },
+    {
+      "path": "evidence/breadcrumb-pilot/native-type-swaps.json",
+      "sha256": "3e895549d8e9f67323e85856ec72381d78b074538a2d92166daf60da15331a47"
     },
     {
       "path": "evidence/breadcrumb-pilot/contrast.json",

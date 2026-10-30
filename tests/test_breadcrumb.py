@@ -37,6 +37,7 @@ class BreadcrumbTests(unittest.TestCase):
   for d in [i,p]:self.assertEqual(d['status'],'PASS');self.assertFalse(d['issues']);self.assertEqual(len(d['removedNodeIds']),13 if d is i else 5)
   self.assertTrue(all(x['pass']for x in i['cases']+i['focusEdits']+p['cases']+p['edits']));self.assertTrue(all(x['ringWidth']==x['width']+8 for x in i['focusEdits']));self.assertTrue(all(x['after']>x['before']for x in p['edits']))
   for c in p['cases']:self.assertEqual(c['current'],c['items']-1);self.assertEqual(c['labels'][-1],'Póliza P-0458')
+  swaps=read(BASE+'native-type-swaps.json');self.assertEqual(swaps['status'],'PASS');self.assertFalse(swaps['issues']);self.assertEqual(swaps['counts'],dict(cases=60,restorations=20));self.assertTrue(all(r['pass']for r in swaps['cases']));self.assertEqual(len(swaps['removedNodeIds']),5)
   self.assertEqual(read(BASE+'native-closure.json')['temporaryProbes'],0);self.assertEqual(read(BASE+'native-closure.json')['componentCount'],18)
  def test_reverse_audit_has_no_consumers_and_uses_shared_child(self):
   m=read(BASE+'migration-map.json');self.assertEqual(len(m['reverseDependencyAudit']['pages']),9);self.assertEqual(m['reverseDependencyAudit']['previousConsumers'],0);self.assertFalse(m['substitutions']);self.assertFalse(m['retiredTokens']);self.assertFalse(m['deletedExistingNodes']);self.assertEqual(m['directDependencies'][0]['instances'],18);self.assertEqual(len(m['excludedInvisiblePaints']),16)
