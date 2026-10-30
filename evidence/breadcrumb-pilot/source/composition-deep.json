@@ -1,0 +1,2909 @@
+{
+  "rows": [
+    {
+      "id": "2425:35938",
+      "axes": {
+        "levels": "2"
+      },
+      "nodes": [
+        {
+          "id": "2425:35938",
+          "parent": "2425:35937",
+          "name": "levels=2",
+          "type": "COMPONENT",
+          "visible": true,
+          "width": 223,
+          "height": 20
+        },
+        {
+          "id": "3460:156",
+          "parent": "2425:35938",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3460:162",
+          "mainKey": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+          "ownerKey": "4697ebacf0a0ca1a63baf83235d88a066b86f82b",
+          "overrides": [
+            {
+              "id": "3460:156",
+              "overriddenFields": [
+                "boundVariables",
+                "fills",
+                "height",
+                "name",
+                "targetAspectRatio",
+                "width"
+              ]
+            },
+            {
+              "id": "I3460:156;8899:76071",
+              "overriddenFields": [
+                "fills",
+                "name"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I3460:156;8899:76071",
+          "parent": "3460:156",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3460:207",
+          "parent": "2425:35938",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "width": 199,
+          "height": 20
+        },
+        {
+          "id": "2425:35939",
+          "parent": "3460:207",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 103,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35939",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35939;2425:35899",
+          "parent": "2425:35939",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 83,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Contabilidad",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35939;2833:585",
+          "parent": "2425:35939",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35939;2833:585;8899:79841",
+          "parent": "I2425:35939;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35940",
+          "parent": "3460:207",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "mainId": "2425:35910",
+          "mainKey": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35940",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35940;2425:35911",
+          "parent": "2425:35940",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196121"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196121"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ]
+          },
+          "text": "Póliza P-0458",
+          "fontName": {
+            "family": "Manrope",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        }
+      ]
+    },
+    {
+      "id": "2425:35941",
+      "axes": {
+        "levels": "3"
+      },
+      "nodes": [
+        {
+          "id": "2425:35941",
+          "parent": "2425:35937",
+          "name": "levels=3",
+          "type": "COMPONENT",
+          "visible": true,
+          "width": 293,
+          "height": 20
+        },
+        {
+          "id": "3460:198",
+          "parent": "2425:35941",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3460:162",
+          "mainKey": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+          "ownerKey": "4697ebacf0a0ca1a63baf83235d88a066b86f82b",
+          "overrides": [
+            {
+              "id": "3460:198",
+              "overriddenFields": [
+                "boundVariables",
+                "fills",
+                "height",
+                "name",
+                "targetAspectRatio",
+                "width"
+              ]
+            },
+            {
+              "id": "I3460:198;8899:76071",
+              "overriddenFields": [
+                "fills",
+                "name"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I3460:198;8899:76071",
+          "parent": "3460:198",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3460:208",
+          "parent": "2425:35941",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "width": 269,
+          "height": 20
+        },
+        {
+          "id": "2425:35942",
+          "parent": "3460:208",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 103,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35942",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35942;2425:35899",
+          "parent": "2425:35942",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 83,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Contabilidad",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35942;2833:585",
+          "parent": "2425:35942",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35942;2833:585;8899:79841",
+          "parent": "I2425:35942;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35943",
+          "parent": "3460:208",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 66,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35943",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35943;2425:35899",
+          "parent": "2425:35943",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 46,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Pólizas",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35943;2833:585",
+          "parent": "2425:35943",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35943;2833:585;8899:79841",
+          "parent": "I2425:35943;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35944",
+          "parent": "3460:208",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "mainId": "2425:35910",
+          "mainKey": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35944",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35944;2425:35911",
+          "parent": "2425:35944",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196121"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196121"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ]
+          },
+          "text": "Póliza P-0458",
+          "fontName": {
+            "family": "Manrope",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        }
+      ]
+    },
+    {
+      "id": "2425:35945",
+      "axes": {
+        "levels": "4"
+      },
+      "nodes": [
+        {
+          "id": "2425:35945",
+          "parent": "2425:35937",
+          "name": "levels=4",
+          "type": "COMPONENT",
+          "visible": true,
+          "width": 355,
+          "height": 20
+        },
+        {
+          "id": "3460:199",
+          "parent": "2425:35945",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3460:162",
+          "mainKey": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+          "ownerKey": "4697ebacf0a0ca1a63baf83235d88a066b86f82b",
+          "overrides": [
+            {
+              "id": "3460:199",
+              "overriddenFields": [
+                "boundVariables",
+                "fills",
+                "height",
+                "name",
+                "targetAspectRatio",
+                "width"
+              ]
+            },
+            {
+              "id": "I3460:199;8899:76071",
+              "overriddenFields": [
+                "fills",
+                "name"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I3460:199;8899:76071",
+          "parent": "3460:199",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3460:209",
+          "parent": "2425:35945",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "width": 331,
+          "height": 20
+        },
+        {
+          "id": "2425:35946",
+          "parent": "3460:209",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 103,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35946",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35946;2425:35899",
+          "parent": "2425:35946",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 83,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Contabilidad",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35946;2833:585",
+          "parent": "2425:35946",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35946;2833:585;8899:79841",
+          "parent": "I2425:35946;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35947",
+          "parent": "3460:209",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 66,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35947",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35947;2425:35899",
+          "parent": "2425:35947",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 46,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Pólizas",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35947;2833:585",
+          "parent": "2425:35947",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35947;2833:585;8899:79841",
+          "parent": "I2425:35947;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35948",
+          "parent": "3460:209",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 58,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35948",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35948;2425:35899",
+          "parent": "2425:35948",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 38,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Diario",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35948;2833:585",
+          "parent": "2425:35948",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35948;2833:585;8899:79841",
+          "parent": "I2425:35948;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35949",
+          "parent": "3460:209",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "mainId": "2425:35910",
+          "mainKey": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35949",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35949;2425:35911",
+          "parent": "2425:35949",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196121"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196121"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ]
+          },
+          "text": "Póliza P-0458",
+          "fontName": {
+            "family": "Manrope",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        }
+      ]
+    },
+    {
+      "id": "2425:35950",
+      "axes": {
+        "levels": "5"
+      },
+      "nodes": [
+        {
+          "id": "2425:35950",
+          "parent": "2425:35937",
+          "name": "levels=5",
+          "type": "COMPONENT",
+          "visible": true,
+          "width": 491,
+          "height": 20
+        },
+        {
+          "id": "3460:200",
+          "parent": "2425:35950",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3460:162",
+          "mainKey": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+          "ownerKey": "4697ebacf0a0ca1a63baf83235d88a066b86f82b",
+          "overrides": [
+            {
+              "id": "3460:200",
+              "overriddenFields": [
+                "boundVariables",
+                "fills",
+                "height",
+                "name",
+                "targetAspectRatio",
+                "width"
+              ]
+            },
+            {
+              "id": "I3460:200;8899:76071",
+              "overriddenFields": [
+                "fills",
+                "name"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I3460:200;8899:76071",
+          "parent": "3460:200",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          }
+        },
+        {
+          "id": "3460:210",
+          "parent": "2425:35950",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "width": 467,
+          "height": 20
+        },
+        {
+          "id": "2425:35951",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 103,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35951",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35951;2425:35899",
+          "parent": "2425:35951",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 83,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Contabilidad",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35951;2833:585",
+          "parent": "2425:35951",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35951;2833:585;8899:79841",
+          "parent": "I2425:35951;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35952",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 66,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35952",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35952;2425:35899",
+          "parent": "2425:35952",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 46,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Pólizas",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35952;2833:585",
+          "parent": "2425:35952",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35952;2833:585;8899:79841",
+          "parent": "I2425:35952;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35953",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 58,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35953",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35953;2425:35899",
+          "parent": "2425:35953",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 38,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Diario",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35953;2833:585",
+          "parent": "2425:35953",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35953;2833:585;8899:79841",
+          "parent": "I2425:35953;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35954",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 132,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35954",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35954;2425:35899",
+          "parent": "2425:35954",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 112,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Septiembre 2026",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I2425:35954;2833:585",
+          "parent": "2425:35954",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I2425:35954;2833:585;8899:79841",
+          "parent": "I2425:35954;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "2425:35955",
+          "parent": "3460:210",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "mainId": "2425:35910",
+          "mainKey": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "2425:35955",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I2425:35955;2425:35911",
+          "parent": "2425:35955",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196121"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196121"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ]
+          },
+          "text": "Póliza P-0458",
+          "fontName": {
+            "family": "Manrope",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        }
+      ]
+    },
+    {
+      "id": "8903:27367",
+      "axes": {
+        "levels": "collapsed"
+      },
+      "nodes": [
+        {
+          "id": "8903:27367",
+          "parent": "2425:35937",
+          "name": "levels=collapsed",
+          "type": "COMPONENT",
+          "visible": true,
+          "width": 320,
+          "height": 20
+        },
+        {
+          "id": "8903:27368",
+          "parent": "8903:27367",
+          "name": "Back",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3460:162",
+          "mainKey": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+          "ownerKey": "4697ebacf0a0ca1a63baf83235d88a066b86f82b",
+          "overrides": [
+            {
+              "id": "8903:27368",
+              "overriddenFields": [
+                "boundVariables",
+                "fills",
+                "height",
+                "name",
+                "targetAspectRatio",
+                "width"
+              ]
+            },
+            {
+              "id": "I8903:27368;8899:76071",
+              "overriddenFields": [
+                "fills",
+                "name"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I8903:27368;8899:76071",
+          "parent": "8903:27368",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8903:27369",
+          "parent": "8903:27367",
+          "name": "Items",
+          "type": "FRAME",
+          "visible": true,
+          "width": 296,
+          "height": 20
+        },
+        {
+          "id": "8903:27370",
+          "parent": "8903:27369",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 103,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "8903:27370",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I8903:27370;2425:35899",
+          "parent": "8903:27370",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 83,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Contabilidad",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I8903:27370;2833:585",
+          "parent": "8903:27370",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I8903:27370;2833:585;8899:79841",
+          "parent": "I8903:27370;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8903:27371",
+          "parent": "8903:27369",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 31,
+          "height": 20,
+          "mainId": "2425:35904",
+          "mainKey": "a18de8bc7b75c752431006acfc75c372ae015d89",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": []
+        },
+        {
+          "id": "I8903:27371;2425:35905",
+          "parent": "8903:27371",
+          "name": "Overflow",
+          "type": "TEXT",
+          "visible": true,
+          "width": 11,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "...",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I8903:27371;2833:809",
+          "parent": "8903:27371",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I8903:27371;2833:809;8899:79841",
+          "parent": "I8903:27371;2833:809",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8903:27372",
+          "parent": "8903:27369",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 58,
+          "height": 20,
+          "mainId": "2425:35898",
+          "mainKey": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "8903:27372",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I8903:27372;2425:35899",
+          "parent": "8903:27372",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 38,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.27843138575553894,
+                "g": 0.3333333432674408,
+                "b": 0.4117647111415863
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196117"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196117"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ],
+            "fontStyle": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160888"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ]
+          },
+          "text": "Diario",
+          "fontName": {
+            "family": "Manrope",
+            "style": "Regular",
+            "variationSettings": {
+              "wght": 400
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        },
+        {
+          "id": "I8903:27372;2833:585",
+          "parent": "8903:27372",
+          "name": "Separator",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 16,
+          "height": 16,
+          "mainId": "3374:24967",
+          "mainKey": "e2fc671298e81c590f5a4a5272d9c97709515666",
+          "ownerKey": "240a5c949aaadf8bfed293c4286f73556107b371",
+          "overrides": []
+        },
+        {
+          "id": "I8903:27372;2833:585;8899:79841",
+          "parent": "I8903:27372;2833:585",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "visible": true,
+          "width": 5.740316390991211,
+          "height": 10.731291770935059,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.3921568691730499,
+                "g": 0.45490196347236633,
+                "b": 0.545098066329956
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196139"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196139"
+              }
+            ]
+          }
+        },
+        {
+          "id": "8903:27373",
+          "parent": "8903:27369",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "mainId": "2425:35910",
+          "mainKey": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+          "ownerKey": "e96a86bbd1d613d821281d737f2cdc262791cbe6",
+          "overrides": [
+            {
+              "id": "8903:27373",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "I8903:27373;2425:35911",
+          "parent": "8903:27373",
+          "name": "Label",
+          "type": "TEXT",
+          "visible": true,
+          "width": 92,
+          "height": 20,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.19607843458652496,
+                "g": 0.3333333432674408,
+                "b": 0.9686274528503418
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196121"
+                }
+              }
+            }
+          ],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196121"
+              }
+            ],
+            "lineHeight": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160902"
+              }
+            ],
+            "letterSpacing": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160910"
+              }
+            ],
+            "fontFamily": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160887"
+              }
+            ],
+            "fontSize": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2845:160893"
+              }
+            ]
+          },
+          "text": "Póliza P-0458",
+          "fontName": {
+            "family": "Manrope",
+            "style": "SemiBold",
+            "variationSettings": {
+              "wght": 600
+            }
+          },
+          "fontSize": 14,
+          "lineHeight": {
+            "unit": "PIXELS",
+            "value": 20
+          },
+          "textDecoration": "NONE",
+          "style": ""
+        }
+      ]
+    }
+  ]
+}

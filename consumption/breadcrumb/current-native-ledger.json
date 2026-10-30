@@ -1,0 +1,81 @@
+{
+  "role": "DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES",
+  "pageId": "358:30",
+  "setId": "359:146",
+  "setKey": "7f0348c3ff467486fc5adef86c0f774590b16bff",
+  "defaultVariantId": "359:64",
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "variableIds": {
+    "breadcrumb.color-icon-back-default": "VariableID:358:26",
+    "breadcrumb.size-back": "VariableID:358:24",
+    "breadcrumb.spacing-back-gap": "VariableID:358:23",
+    "breadcrumb.spacing-container-gap": "VariableID:358:25",
+    "breadcrumb.spacing-container-none": "VariableID:358:22"
+  },
+  "styles": {},
+  "propertyKeys": {
+    "Show back": "Show back#359:14"
+  },
+  "variants": [
+    {
+      "sourceId": "2425:35938",
+      "id": "359:64",
+      "axes": {
+        "levels": "2"
+      },
+      "width": 223,
+      "height": 20
+    },
+    {
+      "sourceId": "2425:35941",
+      "id": "359:74",
+      "axes": {
+        "levels": "3"
+      },
+      "width": 293,
+      "height": 20
+    },
+    {
+      "sourceId": "2425:35945",
+      "id": "359:88",
+      "axes": {
+        "levels": "4"
+      },
+      "width": 355,
+      "height": 20
+    },
+    {
+      "sourceId": "2425:35950",
+      "id": "359:106",
+      "axes": {
+        "levels": "5"
+      },
+      "width": 491,
+      "height": 20
+    },
+    {
+      "sourceId": "8903:27367",
+      "id": "359:128",
+      "axes": {
+        "levels": "collapsed"
+      },
+      "width": 320,
+      "height": 20
+    }
+  ],
+  "reviewFrame": {
+    "id": "363:67",
+    "width": 1080,
+    "height": 1448
+  },
+  "decision": "ADR-026"
+}

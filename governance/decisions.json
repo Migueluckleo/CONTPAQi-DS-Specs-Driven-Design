@@ -425,6 +425,23 @@
         "path": "evidence/authorization/badge-full-request.txt",
         "sha256": "e330c5190cc3518dc0f1085283ce58d206729c52cb5e17889159d463567a895e"
       }
+    },
+    {
+      "id": "ADR-026",
+      "status": "ADOPTED",
+      "actor": "implementing_agent",
+      "statement": "El encargo humano incorpora Breadcrumb item 1.0.0 (13 combinaciones reales) y Breadcrumb 1.0.0 (5 composiciones) en su página Breadcrumbs de Blue Heart DS. Los dos contratos MD son propietarios de diseño y comportamiento, con composición por instancias expuestas, sin Slots inventados. Se adoptan 25 firmas propias (20 del item y 5 del contenedor), agrupadas en component/breadcrumb; solo current depende del tema. Home default/focus adopta el mismo alias del enlace textual equivalente conforme a BH-P06 y la solicitud vigente de paridad cromática; los separadores decorativos conservan su rol independiente según el binding real, no la descripción errónea tertiary. Back conserva Phosphor ArrowLeft Light y su color primary. El paint invisible del contenedor Back se omite: no renderiza ni tiene control público; no se crea un token de fondo ficticio. Current adquiere binding de estilo al semántico existente Semibold, equivalente al SemiBold real de Manrope. El anillo conserva métricas observadas y constraints, derivando el outset del gap existente. La raíz no define reacciones, destinos, menú ni variante móvil: el consumidor resuelve navegación jerárquica y presentación móvil; no se inventa un menú ni una demo de destinos. Se adopta BLUEHEART-TOKENS 6.2.0, aditivo sin modificar los 493 tokens previos. La auditoría de las nueve páginas no detectó consumidores de Breadcrumb previos. React, Graphify, publicación oficial y revisión humana independiente no se habilitan; origen y proyecto anterior permanecen en solo lectura. Se registran también los once paints invisibles de CaretRight omitidos en el destino: dieciséis exclusiones no renderizantes en total, sin cambios a los glyphs ni tokens adicionales.",
+      "scope": [
+        "BREADCRUMB-ITEM-001",
+        "BREADCRUMB-001",
+        "BLUEHEART-TOKENS",
+        "breadcrumb-figma-pilot",
+        "component-reverse-dependency-audit"
+      ],
+      "source": {
+        "path": "evidence/authorization/breadcrumb-request.txt",
+        "sha256": "9f0b403c64cbc19268e6e5617ecdec5cd7a639044aa29c1d9073a7a7c053011c"
+      }
     }
   ]
 }

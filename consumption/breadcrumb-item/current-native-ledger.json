@@ -1,0 +1,198 @@
+{
+  "role": "DERIVED_CURRENT_NATIVE_LEDGER_NOT_RULES",
+  "pageId": "358:30",
+  "setId": "359:63",
+  "setKey": "10a1943734eef37a9bae272f9ad5b82c3f865da2",
+  "defaultVariantId": "359:6",
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "variableIds": {
+    "breadcrumb-item.border-focus-width": "VariableID:358:14",
+    "breadcrumb-item.color-icon-disabled": "VariableID:358:17",
+    "breadcrumb-item.color-icon-link-default": "VariableID:358:20",
+    "breadcrumb-item.color-icon-link-hover": "VariableID:358:21",
+    "breadcrumb-item.color-icon-separator-default": "VariableID:358:11",
+    "breadcrumb-item.color-stroke-focus": "VariableID:358:13",
+    "breadcrumb-item.color-text-current-default": "VariableID:358:18",
+    "breadcrumb-item.color-text-disabled": "VariableID:358:16",
+    "breadcrumb-item.color-text-link-default": "VariableID:358:4",
+    "breadcrumb-item.color-text-link-hover": "VariableID:358:12",
+    "breadcrumb-item.font-current-style": "VariableID:358:19",
+    "breadcrumb-item.font-family": "VariableID:358:5",
+    "breadcrumb-item.font-letter-spacing": "VariableID:358:9",
+    "breadcrumb-item.font-line-height": "VariableID:358:8",
+    "breadcrumb-item.font-link-style": "VariableID:358:6",
+    "breadcrumb-item.font-size": "VariableID:358:7",
+    "breadcrumb-item.radius-focus": "VariableID:358:15",
+    "breadcrumb-item.size-icon": "VariableID:358:10",
+    "breadcrumb-item.spacing-item-gap": "VariableID:358:3",
+    "breadcrumb-item.spacing-item-none": "VariableID:358:2"
+  },
+  "styles": {
+    "default": "S:473829ef2c4365e6d6b9fd91f4cdabc9ab5e88ff,",
+    "hover": "S:eb8d2a5b155f93b450479754632ea6f4b8007eae,",
+    "current": "S:aa891f29f5797df8555c1d2cdd11212b970d7654,"
+  },
+  "propertyKeys": {
+    "Label": "Label#359:0"
+  },
+  "variants": [
+    {
+      "sourceId": "2425:35898",
+      "id": "359:6",
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "default"
+      },
+      "width": 99,
+      "height": 20
+    },
+    {
+      "sourceId": "2425:35912",
+      "id": "359:10",
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "hover"
+      },
+      "width": 99,
+      "height": 20
+    },
+    {
+      "sourceId": "8903:62",
+      "id": "359:14",
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "focus"
+      },
+      "width": 99,
+      "height": 20
+    },
+    {
+      "sourceId": "2425:35907",
+      "id": "359:19",
+      "axes": {
+        "type": "text",
+        "current": "false",
+        "state": "disabled"
+      },
+      "width": 99,
+      "height": 20
+    },
+    {
+      "sourceId": "2425:35910",
+      "id": "359:23",
+      "axes": {
+        "type": "text",
+        "current": "true",
+        "state": "default"
+      },
+      "width": 82,
+      "height": 20
+    },
+    {
+      "sourceId": "2425:35901",
+      "id": "359:25",
+      "axes": {
+        "type": "icon",
+        "current": "false",
+        "state": "default"
+      },
+      "width": 36,
+      "height": 16
+    },
+    {
+      "sourceId": "8903:66",
+      "id": "359:30",
+      "axes": {
+        "type": "icon",
+        "current": "false",
+        "state": "hover"
+      },
+      "width": 36,
+      "height": 16
+    },
+    {
+      "sourceId": "8903:71",
+      "id": "359:35",
+      "axes": {
+        "type": "icon",
+        "current": "false",
+        "state": "focus"
+      },
+      "width": 36,
+      "height": 16
+    },
+    {
+      "sourceId": "8903:76",
+      "id": "359:41",
+      "axes": {
+        "type": "icon",
+        "current": "false",
+        "state": "disabled"
+      },
+      "width": 36,
+      "height": 16
+    },
+    {
+      "sourceId": "2425:35904",
+      "id": "359:46",
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "default"
+      },
+      "width": 31,
+      "height": 20
+    },
+    {
+      "sourceId": "8903:81",
+      "id": "359:50",
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "hover"
+      },
+      "width": 31,
+      "height": 20
+    },
+    {
+      "sourceId": "8903:85",
+      "id": "359:54",
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "focus"
+      },
+      "width": 31,
+      "height": 20
+    },
+    {
+      "sourceId": "8903:89",
+      "id": "359:59",
+      "axes": {
+        "type": "overflow",
+        "current": "false",
+        "state": "disabled"
+      },
+      "width": 31,
+      "height": 20
+    }
+  ],
+  "reviewFrame": {
+    "id": "363:67",
+    "width": 1080,
+    "height": 1448
+  },
+  "decision": "ADR-026"
+}

@@ -1,0 +1,1690 @@
+{
+  "rows": [
+    {
+      "id": "2425:35938",
+      "name": "levels=2",
+      "axes": {
+        "levels": "2"
+      },
+      "nodes": [
+        {
+          "id": "2425:35938",
+          "name": "levels=2",
+          "type": "COMPONENT",
+          "parent": "2425:35937",
+          "visible": true,
+          "opacity": 1,
+          "x": 24,
+          "y": 24,
+          "width": 223,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 8,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:11"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "3460:156",
+          "name": "Back",
+          "type": "INSTANCE",
+          "parent": "2425:35938",
+          "visible": true,
+          "opacity": 1,
+          "x": 0,
+          "y": 2,
+          "width": 16,
+          "height": 16,
+          "layoutMode": "NONE",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 0,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196104"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "boundVariables": {
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:19"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:19"
+            },
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196104"
+              }
+            ]
+          },
+          "componentPropertyReferences": {
+            "visible": "Show back#8903:1"
+          },
+          "reactions": [],
+          "mainComponent": {
+            "id": "3460:162",
+            "key": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+            "name": "Format=Outline, Weight=Light",
+            "remote": true,
+            "owner": {
+              "id": "3460:159",
+              "name": "ArrowLeft",
+              "key": "4697ebacf0a0ca1a63baf83235d88a066b86f82b"
+            }
+          },
+          "properties": {
+            "Format": {
+              "value": "Outline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "Weight": {
+              "value": "Light",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "3460:156",
+              "overriddenFields": [
+                "boundVariables",
+                "fills",
+                "height",
+                "name",
+                "targetAspectRatio",
+                "width"
+              ]
+            },
+            {
+              "id": "I3460:156;8899:76071",
+              "overriddenFields": [
+                "fills",
+                "name"
+              ]
+            }
+          ],
+          "isExposedInstance": false,
+          "texts": []
+        },
+        {
+          "id": "3460:207",
+          "name": "Items",
+          "type": "FRAME",
+          "parent": "2425:35938",
+          "visible": true,
+          "opacity": 1,
+          "x": 24,
+          "y": 0,
+          "width": 199,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "I3460:156;8899:76071",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "parent": "3460:156",
+          "visible": true,
+          "opacity": 1,
+          "x": 2.1253299713134766,
+          "y": 3.1343541145324707,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "2425:35939",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:207",
+          "visible": true,
+          "opacity": 1,
+          "x": 0,
+          "y": 0,
+          "width": 103,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Contabilidad"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35939",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35939;2425:35899",
+              "text": "Contabilidad"
+            }
+          ]
+        },
+        {
+          "id": "2425:35940",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:207",
+          "visible": true,
+          "opacity": 1,
+          "x": 107,
+          "y": 0,
+          "width": 92,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35910",
+            "key": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+            "name": "type=text, current=true, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Póliza P-0458"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35940",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35940;2425:35911",
+              "text": "Póliza P-0458"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2425:35941",
+      "name": "levels=3",
+      "axes": {
+        "levels": "3"
+      },
+      "nodes": [
+        {
+          "id": "2425:35941",
+          "name": "levels=3",
+          "type": "COMPONENT",
+          "parent": "2425:35937",
+          "visible": true,
+          "opacity": 1,
+          "x": 24,
+          "y": 68,
+          "width": 293,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 8,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:11"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "3460:198",
+          "name": "Back",
+          "type": "INSTANCE",
+          "parent": "2425:35941",
+          "visible": true,
+          "opacity": 1,
+          "x": 0,
+          "y": 2,
+          "width": 16,
+          "height": 16,
+          "layoutMode": "NONE",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 0,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196104"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "boundVariables": {
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:19"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:19"
+            },
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196104"
+              }
+            ]
+          },
+          "componentPropertyReferences": {
+            "visible": "Show back#8903:1"
+          },
+          "reactions": [],
+          "mainComponent": {
+            "id": "3460:162",
+            "key": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+            "name": "Format=Outline, Weight=Light",
+            "remote": true,
+            "owner": {
+              "id": "3460:159",
+              "name": "ArrowLeft",
+              "key": "4697ebacf0a0ca1a63baf83235d88a066b86f82b"
+            }
+          },
+          "properties": {
+            "Format": {
+              "value": "Outline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "Weight": {
+              "value": "Light",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "3460:198",
+              "overriddenFields": [
+                "boundVariables",
+                "fills",
+                "height",
+                "name",
+                "targetAspectRatio",
+                "width"
+              ]
+            },
+            {
+              "id": "I3460:198;8899:76071",
+              "overriddenFields": [
+                "fills",
+                "name"
+              ]
+            }
+          ],
+          "isExposedInstance": false,
+          "texts": []
+        },
+        {
+          "id": "3460:208",
+          "name": "Items",
+          "type": "FRAME",
+          "parent": "2425:35941",
+          "visible": true,
+          "opacity": 1,
+          "x": 24,
+          "y": 0,
+          "width": 269,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "I3460:198;8899:76071",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "parent": "3460:198",
+          "visible": true,
+          "opacity": 1,
+          "x": 2.1253299713134766,
+          "y": 3.1343541145324707,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "2425:35942",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:208",
+          "visible": true,
+          "opacity": 1,
+          "x": 0,
+          "y": 0,
+          "width": 103,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Contabilidad"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35942",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35942;2425:35899",
+              "text": "Contabilidad"
+            }
+          ]
+        },
+        {
+          "id": "2425:35943",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:208",
+          "visible": true,
+          "opacity": 1,
+          "x": 107,
+          "y": 0,
+          "width": 66,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Pólizas"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35943",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35943;2425:35899",
+              "text": "Pólizas"
+            }
+          ]
+        },
+        {
+          "id": "2425:35944",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:208",
+          "visible": true,
+          "opacity": 1,
+          "x": 177,
+          "y": 0,
+          "width": 92,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35910",
+            "key": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+            "name": "type=text, current=true, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Póliza P-0458"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35944",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35944;2425:35911",
+              "text": "Póliza P-0458"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2425:35945",
+      "name": "levels=4",
+      "axes": {
+        "levels": "4"
+      },
+      "nodes": [
+        {
+          "id": "2425:35945",
+          "name": "levels=4",
+          "type": "COMPONENT",
+          "parent": "2425:35937",
+          "visible": true,
+          "opacity": 1,
+          "x": 24,
+          "y": 112,
+          "width": 355,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 8,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:11"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "3460:199",
+          "name": "Back",
+          "type": "INSTANCE",
+          "parent": "2425:35945",
+          "visible": true,
+          "opacity": 1,
+          "x": 0,
+          "y": 2,
+          "width": 16,
+          "height": 16,
+          "layoutMode": "NONE",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "FIXED",
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "MIN",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 0,
+          "clipsContent": false,
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": false,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196104"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "boundVariables": {
+            "width": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:19"
+            },
+            "height": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:19"
+            },
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196104"
+              }
+            ]
+          },
+          "componentPropertyReferences": {
+            "visible": "Show back#8903:1"
+          },
+          "reactions": [],
+          "mainComponent": {
+            "id": "3460:162",
+            "key": "395e4dcf16b8451c0b295bb7402a9319d1b4a9f2",
+            "name": "Format=Outline, Weight=Light",
+            "remote": true,
+            "owner": {
+              "id": "3460:159",
+              "name": "ArrowLeft",
+              "key": "4697ebacf0a0ca1a63baf83235d88a066b86f82b"
+            }
+          },
+          "properties": {
+            "Format": {
+              "value": "Outline",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "Weight": {
+              "value": "Light",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "3460:199",
+              "overriddenFields": [
+                "boundVariables",
+                "fills",
+                "height",
+                "name",
+                "targetAspectRatio",
+                "width"
+              ]
+            },
+            {
+              "id": "I3460:199;8899:76071",
+              "overriddenFields": [
+                "fills",
+                "name"
+              ]
+            }
+          ],
+          "isExposedInstance": false,
+          "texts": []
+        },
+        {
+          "id": "3460:209",
+          "name": "Items",
+          "type": "FRAME",
+          "parent": "2425:35945",
+          "visible": true,
+          "opacity": 1,
+          "x": 24,
+          "y": 0,
+          "width": 331,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "I3460:199;8899:76071",
+          "name": "icon-arrow",
+          "type": "VECTOR",
+          "parent": "3460:199",
+          "visible": true,
+          "opacity": 1,
+          "x": 2.1253299713134766,
+          "y": 3.1343541145324707,
+          "width": 11.749670028686523,
+          "height": 9.75,
+          "layoutSizingHorizontal": "FIXED",
+          "layoutSizingVertical": "FIXED",
+          "fills": [
+            {
+              "type": "SOLID",
+              "visible": true,
+              "opacity": 1,
+              "blendMode": "NORMAL",
+              "color": {
+                "r": 0.05882352963089943,
+                "g": 0.09019608050584793,
+                "b": 0.16470588743686676
+              },
+              "boundVariables": {
+                "color": {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:2849:196138"
+                }
+              }
+            }
+          ],
+          "strokes": [],
+          "boundVariables": {
+            "fills": [
+              {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:2849:196138"
+              }
+            ]
+          },
+          "componentPropertyReferences": {},
+          "reactions": []
+        },
+        {
+          "id": "2425:35946",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:209",
+          "visible": true,
+          "opacity": 1,
+          "x": 0,
+          "y": 0,
+          "width": 103,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Contabilidad"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35946",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35946;2425:35899",
+              "text": "Contabilidad"
+            }
+          ]
+        },
+        {
+          "id": "2425:35947",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:209",
+          "visible": true,
+          "opacity": 1,
+          "x": 107,
+          "y": 0,
+          "width": 66,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Pólizas"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35947",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35947;2425:35899",
+              "text": "Pólizas"
+            }
+          ]
+        },
+        {
+          "id": "2425:35948",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:209",
+          "visible": true,
+          "opacity": 1,
+          "x": 177,
+          "y": 0,
+          "width": 58,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35898",
+            "key": "ab6176ac277d326bbc20fb8308bde5bb7bb7e5af",
+            "name": "type=text, current=false, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Diario"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "false",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35948",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35948;2425:35899",
+              "text": "Diario"
+            }
+          ]
+        },
+        {
+          "id": "2425:35949",
+          "name": "breadcrumb-item",
+          "type": "INSTANCE",
+          "parent": "3460:209",
+          "visible": true,
+          "opacity": 1,
+          "x": 239,
+          "y": 0,
+          "width": 92,
+          "height": 20,
+          "layoutMode": "HORIZONTAL",
+          "primaryAxisSizingMode": "AUTO",
+          "counterAxisSizingMode": "AUTO",
+          "layoutSizingHorizontal": "HUG",
+          "layoutSizingVertical": "HUG",
+          "primaryAxisAlignItems": "MIN",
+          "counterAxisAlignItems": "CENTER",
+          "paddingTop": 0,
+          "paddingRight": 0,
+          "paddingBottom": 0,
+          "paddingLeft": 0,
+          "itemSpacing": 4,
+          "clipsContent": false,
+          "fills": [],
+          "strokes": [],
+          "boundVariables": {
+            "itemSpacing": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:562:10"
+            },
+            "paddingLeft": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingTop": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingRight": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            },
+            "paddingBottom": {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:1098:28491"
+            }
+          },
+          "componentPropertyReferences": {},
+          "reactions": [],
+          "mainComponent": {
+            "id": "2425:35910",
+            "key": "d269df770ecbbc7cb9563bb730f7b0ee461aadbb",
+            "name": "type=text, current=true, state=default",
+            "remote": false,
+            "owner": {
+              "id": "2425:35897",
+              "name": "breadcrumb-item",
+              "key": "e96a86bbd1d613d821281d737f2cdc262791cbe6"
+            }
+          },
+          "properties": {
+            "Label#2992:0": {
+              "type": "TEXT",
+              "value": "Póliza P-0458"
+            },
+            "type": {
+              "value": "text",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "current": {
+              "value": "true",
+              "type": "VARIANT",
+              "boundVariables": {}
+            },
+            "state": {
+              "value": "default",
+              "type": "VARIANT",
+              "boundVariables": {}
+            }
+          },
+          "overrides": [
+            {
+              "id": "2425:35949",
+              "overriddenFields": [
+                "height",
+                "width"
+              ]
+            }
+          ],
+          "isExposedInstance": true,
+          "texts": [
+            {
+              "id": "I2425:35949;2425:35911",
+              "text": "Póliza P-0458"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

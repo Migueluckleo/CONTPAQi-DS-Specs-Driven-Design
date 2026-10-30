@@ -10,9 +10,9 @@
   },
   "token_set": {
     "id": "BLUEHEART-TOKENS",
-    "version": "6.1.0",
-    "path": "norms/tokens/blueheart.6.1.0.json",
-    "sha256": "0d59b543ca2db17b037b6cb0f30740e4f1072c15787b0331d1e4cbe47ea9caa8",
+    "version": "6.2.0",
+    "path": "norms/tokens/blueheart.6.2.0.json",
+    "sha256": "86fd6041303f761ddd4fed815d24dca3a2923dcb7c031085273c2524baa7ffb0",
     "current": true
   },
   "fileKey": "98xEw6sK8FRVNEhopM5SSz",
@@ -1806,7 +1806,7 @@
     },
     "manifest": {
       "path": "consumption/loader/manifest.json",
-      "sha256": "aa9d8f3c33031aa6d39198e3826f86b673bc276c96cd21154200b27fdf0dc5a5"
+      "sha256": "bf32af31f8aa094228a357974769a22adbf68db13e006847bf5b0ac891dd9806"
     },
     "mapping": {
       "path": "evidence/loader-pilot/migration-map.json",

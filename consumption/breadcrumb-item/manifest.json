@@ -1,0 +1,531 @@
+{
+  "schema_version": 1,
+  "role": "DERIVED_CONSUMPTION_INDEX_NOT_RULES",
+  "contract": {
+    "id": "BREADCRUMB-ITEM-001",
+    "version": "1.0.0",
+    "path": "norms/components/breadcrumb-item.1.0.0.md",
+    "sha256": "69557362d5e6250fb17f59a2492ce74e61f86c12a374d4ecf36324a3627349ad",
+    "current": true
+  },
+  "token_sets": [
+    {
+      "id": "BLUEHEART-TOKENS",
+      "version": "6.2.0",
+      "path": "norms/tokens/blueheart.6.2.0.json",
+      "sha256": "86fd6041303f761ddd4fed815d24dca3a2923dcb7c031085273c2524baa7ffb0",
+      "current": true
+    }
+  ],
+  "fileKey": "98xEw6sK8FRVNEhopM5SSz",
+  "page": {
+    "id": "358:30",
+    "name": "Breadcrumbs"
+  },
+  "collection": {
+    "id": "VariableCollectionId:11:2",
+    "name": "component",
+    "modeIds": {
+      "Contable": "11:0",
+      "Administrativo": "11:1",
+      "Servicios": "11:2",
+      "Personas": "11:3"
+    }
+  },
+  "variables": [
+    {
+      "logicalId": "breadcrumb-item.spacing-item-none",
+      "nativeId": "VariableID:358:2",
+      "nativeKey": "884a85cee43139368f04775e3ecf4fe712ebbc4f",
+      "figmaName": "breadcrumb/spacing/item-none",
+      "name": "--breadcrumb-item-spacing-item-none",
+      "web": "var(--breadcrumb-item-spacing-item-none)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-none"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-none"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-none"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-none"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.spacing-item-gap",
+      "nativeId": "VariableID:358:3",
+      "nativeKey": "55a9d252678c7d515d5d727e87198dd0d5338e0f",
+      "figmaName": "breadcrumb/spacing/item-gap",
+      "name": "--breadcrumb-item-spacing-item-gap",
+      "web": "var(--breadcrumb-item-spacing-item-gap)",
+      "scope": "GAP",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Administrativo": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Servicios": {
+          "alias": "semantic.spacing-xs"
+        },
+        "Personas": {
+          "alias": "semantic.spacing-xs"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-link-default",
+      "nativeId": "VariableID:358:4",
+      "nativeKey": "23367e804bc35e091657e0d1afd535b5c47a891e",
+      "figmaName": "breadcrumb/color/text/link-default",
+      "name": "--breadcrumb-item-color-text-link-default",
+      "web": "var(--breadcrumb-item-color-text-link-default)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-strong"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-family",
+      "nativeId": "VariableID:358:5",
+      "nativeKey": "f809290865848e022c1d5f6b08a78b33ca4af74f",
+      "figmaName": "breadcrumb/font/family",
+      "name": "--breadcrumb-item-font-family",
+      "web": "var(--breadcrumb-item-font-family)",
+      "scope": "FONT_FAMILY",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-family-base"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-family-base"
+        },
+        "Servicios": {
+          "alias": "semantic.font-family-base"
+        },
+        "Personas": {
+          "alias": "semantic.font-family-base"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-link-style",
+      "nativeId": "VariableID:358:6",
+      "nativeKey": "9f2fed7c096be1620ee1052db20c843b9651a39e",
+      "figmaName": "breadcrumb/font/link-style",
+      "name": "--breadcrumb-item-font-link-style",
+      "web": "var(--breadcrumb-item-font-link-style)",
+      "scope": "FONT_STYLE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-regular"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-regular"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-size",
+      "nativeId": "VariableID:358:7",
+      "nativeKey": "7e2997a52231e559e7884649b9a553ff7e9575a2",
+      "figmaName": "breadcrumb/font/size",
+      "name": "--breadcrumb-item-font-size",
+      "web": "var(--breadcrumb-item-font-size)",
+      "scope": "FONT_SIZE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-size-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-size-sm"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-line-height",
+      "nativeId": "VariableID:358:8",
+      "nativeKey": "4b31810921998845dd80f510a407e53752d241ef",
+      "figmaName": "breadcrumb/font/line-height",
+      "name": "--breadcrumb-item-font-line-height",
+      "web": "var(--breadcrumb-item-font-line-height)",
+      "scope": "LINE_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.font-line-height-sm"
+        },
+        "Personas": {
+          "alias": "semantic.font-line-height-sm"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-letter-spacing",
+      "nativeId": "VariableID:358:9",
+      "nativeKey": "e7d6b9d93b25eac3865db5c29b583ffc704a674d",
+      "figmaName": "breadcrumb/font/letter-spacing",
+      "name": "--breadcrumb-item-font-letter-spacing",
+      "web": "var(--breadcrumb-item-font-letter-spacing)",
+      "scope": "LETTER_SPACING",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Servicios": {
+          "alias": "semantic.font-letter-spacing-normal"
+        },
+        "Personas": {
+          "alias": "semantic.font-letter-spacing-normal"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.size-icon",
+      "nativeId": "VariableID:358:10",
+      "nativeKey": "3cb354ebb6be2166f8b56f12b47105dbeb139b53",
+      "figmaName": "breadcrumb/size/icon",
+      "name": "--breadcrumb-item-size-icon",
+      "web": "var(--breadcrumb-item-size-icon)",
+      "scope": "WIDTH_HEIGHT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.size-lg"
+        },
+        "Administrativo": {
+          "alias": "semantic.size-lg"
+        },
+        "Servicios": {
+          "alias": "semantic.size-lg"
+        },
+        "Personas": {
+          "alias": "semantic.size-lg"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-separator-default",
+      "nativeId": "VariableID:358:11",
+      "nativeKey": "99ec9b58e97a8c87c5174d6f29810e2201722804",
+      "figmaName": "breadcrumb/color/icon/separator-default",
+      "name": "--breadcrumb-item-color-icon-separator-default",
+      "web": "var(--breadcrumb-item-color-icon-separator-default)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-medium"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-medium"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-link-hover",
+      "nativeId": "VariableID:358:12",
+      "nativeKey": "394ab0e0e2db0000b092ace88d52180978155b3f",
+      "figmaName": "breadcrumb/color/text/link-hover",
+      "name": "--breadcrumb-item-color-text-link-hover",
+      "web": "var(--breadcrumb-item-color-text-link-hover)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-stroke-focus",
+      "nativeId": "VariableID:358:13",
+      "nativeKey": "e44460942245efdf7cfc0570e709861b8fa74163",
+      "figmaName": "breadcrumb/color/stroke/focus",
+      "name": "--breadcrumb-item-color-stroke-focus",
+      "web": "var(--breadcrumb-item-color-stroke-focus)",
+      "scope": "STROKE_COLOR",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-strong"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.border-focus-width",
+      "nativeId": "VariableID:358:14",
+      "nativeKey": "dbe57e36bf9e85c09e2844ee4e55be4c05126a89",
+      "figmaName": "breadcrumb/border/focus-width",
+      "name": "--breadcrumb-item-border-focus-width",
+      "web": "var(--breadcrumb-item-border-focus-width)",
+      "scope": "STROKE_FLOAT",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.stroke-md"
+        },
+        "Administrativo": {
+          "alias": "semantic.stroke-md"
+        },
+        "Servicios": {
+          "alias": "semantic.stroke-md"
+        },
+        "Personas": {
+          "alias": "semantic.stroke-md"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.radius-focus",
+      "nativeId": "VariableID:358:15",
+      "nativeKey": "b4162ceafde5193f1d23c7f7a774b653b5690a6e",
+      "figmaName": "breadcrumb/radius/focus",
+      "name": "--breadcrumb-item-radius-focus",
+      "web": "var(--breadcrumb-item-radius-focus)",
+      "scope": "CORNER_RADIUS",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.radius-sm"
+        },
+        "Administrativo": {
+          "alias": "semantic.radius-sm"
+        },
+        "Servicios": {
+          "alias": "semantic.radius-sm"
+        },
+        "Personas": {
+          "alias": "semantic.radius-sm"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-disabled",
+      "nativeId": "VariableID:358:16",
+      "nativeKey": "1c72c710008238b28f7345ff8b47020554015e10",
+      "figmaName": "breadcrumb/color/text/disabled",
+      "name": "--breadcrumb-item-color-text-disabled",
+      "web": "var(--breadcrumb-item-color-text-disabled)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-disabled",
+      "nativeId": "VariableID:358:17",
+      "nativeKey": "043bc13f14bd358a145ad5b083d0aaefde9bf007",
+      "figmaName": "breadcrumb/color/icon/disabled",
+      "name": "--breadcrumb-item-color-icon-disabled",
+      "web": "var(--breadcrumb-item-color-icon-disabled)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-soft"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-soft"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-text-current-default",
+      "nativeId": "VariableID:358:18",
+      "nativeKey": "d6e6ea83b0b4e3082d86df77fecd86f6c6cc13d6",
+      "figmaName": "breadcrumb/color/text/current-default",
+      "name": "--breadcrumb-item-color-text-current-default",
+      "web": "var(--breadcrumb-item-color-text-current-default)",
+      "scope": "TEXT_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.brand-default"
+        },
+        "Administrativo": {
+          "alias": "semantic.brand-administrativo-default"
+        },
+        "Servicios": {
+          "alias": "semantic.brand-servicios-strong"
+        },
+        "Personas": {
+          "alias": "semantic.brand-personas-default"
+        }
+      },
+      "themeBehavior": "THEMED"
+    },
+    {
+      "logicalId": "breadcrumb-item.font-current-style",
+      "nativeId": "VariableID:358:19",
+      "nativeKey": "33a3408d2f78a018a76abd7e764709cfe567c6a6",
+      "figmaName": "breadcrumb/font/current-style",
+      "name": "--breadcrumb-item-font-current-style",
+      "web": "var(--breadcrumb-item-font-current-style)",
+      "scope": "FONT_STYLE",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Administrativo": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Servicios": {
+          "alias": "semantic.font-weight-semibold"
+        },
+        "Personas": {
+          "alias": "semantic.font-weight-semibold"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-link-default",
+      "nativeId": "VariableID:358:20",
+      "nativeKey": "53c8bbeef45033692b1323a974728d40e74e7e26",
+      "figmaName": "breadcrumb/color/icon/link-default",
+      "name": "--breadcrumb-item-color-icon-link-default",
+      "web": "var(--breadcrumb-item-color-icon-link-default)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-strong"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-strong"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    },
+    {
+      "logicalId": "breadcrumb-item.color-icon-link-hover",
+      "nativeId": "VariableID:358:21",
+      "nativeKey": "7217a80c1c04efc9294a5774ef4409730ce4a9ee",
+      "figmaName": "breadcrumb/color/icon/link-hover",
+      "name": "--breadcrumb-item-color-icon-link-hover",
+      "web": "var(--breadcrumb-item-color-icon-link-hover)",
+      "scope": "SHAPE_FILL",
+      "aliases": {
+        "Contable": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Administrativo": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Servicios": {
+          "alias": "semantic.neutral-maximum"
+        },
+        "Personas": {
+          "alias": "semantic.neutral-maximum"
+        }
+      },
+      "themeBehavior": "INVARIANT"
+    }
+  ],
+  "nativeLedger": {
+    "path": "consumption/breadcrumb-item/current-native-ledger.json",
+    "sha256": "e3252de23d03d24b41e87da0a64a7f78d3af883f6731ecaf48ee834111abdf41"
+  },
+  "build_plan": "current-build-plan.json",
+  "minimum": "token-minimum.json",
+  "variable_map": "variable-map.csv",
+  "binding_map": "binding-map.csv",
+  "qa": {
+    "path": "evidence/qa/breadcrumb-pilot-check.json",
+    "sha256": "0039c9ff1918c1c1955af97653f0ea2a2cc6ff45f2de20f449bbf89d2ec30c49"
+  },
+  "distribution": "LOCAL_COMPONENTS_NOT_PUBLISHED_LIBRARY",
+  "web_implementation": "NOT_IMPLEMENTED"
+}

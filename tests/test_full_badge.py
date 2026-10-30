@@ -9,7 +9,7 @@ class FullBadgeTests(unittest.TestCase):
  def document(self):
   w=Workspace(ROOT);e=next(e for e in w.catalog['token_sets']if e['current']);return read(e['path'])
  def test_additive_cut_preserves_all_470_tokens_and_twelve_native_identities(self):
-  old={t['id']:t for t in read(BASE+'history/blueheart.6.0.0.json')['tokens']};new={t['id']:t for t in self.document()['tokens']};self.assertEqual(len(new),493)
+  old={t['id']:t for t in read(BASE+'history/blueheart.6.0.0.json')['tokens']};new={t['id']:t for t in read('evidence/breadcrumb-pilot/history/norms/tokens/blueheart.6.1.0.json')['tokens']};self.assertEqual(len(new),493)
   for id,t in old.items():self.assertEqual(t,new[id],id)
   self.assertEqual(len(set(new)-set(old)),23);self.assertTrue(all(id.startswith('badge.')for id in set(new)-set(old)))
   m=read(BASE+'migration-map.json');self.assertTrue(all(v['identityPreserved']for v in m['variables']));self.assertEqual(len(m['variables']),12);self.assertFalse(m['retiredVariables']);self.assertFalse(m['deletedNodes'])
